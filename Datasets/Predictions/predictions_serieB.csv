@@ -1,0 +1,229 @@
+Date,Home Team,Away Team,Prediction for Home Team,Prediction for Away Team
+2023-07-25,ABC,Londrina,W,D
+2023-08-01,ABC,Vitoria,W,W
+2023-08-04,ABC,Ceara,D,W
+2023-08-08,ABC,Ituano,W,D
+2023-08-15,ABC,CRB,W,D
+2023-08-22,ABC,Botafogo SP,D,W
+2023-08-25,ABC,Sampaio Correa,W,D
+2023-08-29,ABC,Tombense Futebol Clube,W,W
+2023-09-19,ABC,Sport Recife,W,D
+2023-09-29,ABC,Gremio Novorizontino,D,W
+2023-10-03,ABC,Ponte Preta,W,D
+2023-10-06,ABC,Chapecoense,D,W
+2023-10-17,ABC,Mirassol Futebol Clube,W,D
+2023-10-24,ABC,Atletico Goianiense,D,W
+2023-10-27,ABC,Avai,W,D
+2023-10-31,ABC,Criciuma,D,W
+2023-11-07,ABC,Juventude,W,D
+2023-11-10,ABC,Guarani,D,W
+2023-11-25,ABC,Vila Nova,W,D
+2023-07-25,CRB,Sport Recife,W,W
+2023-08-01,CRB,Atletico Goianiense,W,D
+2023-08-04,CRB,Botafogo SP,W,D
+2023-08-08,CRB,Sampaio Correa,W,W
+2023-08-15,CRB,ABC,D,W
+2023-08-22,CRB,Gremio Novorizontino,W,D
+2023-08-25,CRB,Vila Nova,L,W
+2023-08-29,CRB,Vitoria,W,D
+2023-09-19,CRB,Juventude,D,W
+2023-09-29,CRB,Guarani,W,D
+2023-10-03,CRB,Mirassol Futebol Clube,W,W
+2023-10-06,CRB,Ceara,W,D
+2023-10-17,CRB,Ituano,D,W
+2023-10-24,CRB,Criciuma,W,D
+2023-10-27,CRB,Londrina,D,W
+2023-10-31,CRB,Chapecoense,W,D
+2023-11-07,CRB,Avai,D,W
+2023-11-10,CRB,Tombense Futebol Clube,W,D
+2023-11-25,CRB,Ponte Preta,L,W
+2023-07-25,Chapecoense,Mirassol Futebol Clube,W,L
+2023-08-01,Chapecoense,Londrina,L,W
+2023-08-04,Chapecoense,Ponte Preta,L,W
+2023-08-08,Chapecoense,Atletico Goianiense,W,D
+2023-08-15,Chapecoense,Gremio Novorizontino,D,W
+2023-08-22,Chapecoense,Avai,W,D
+2023-08-25,Chapecoense,Juventude,D,W
+2023-08-29,Chapecoense,Guarani,W,D
+2023-09-19,Chapecoense,Sampaio Correa,W,W
+2023-09-29,Chapecoense,Ceara,W,D
+2023-10-03,Chapecoense,Vila Nova,W,W
+2023-10-06,Chapecoense,ABC,W,D
+2023-10-17,Chapecoense,Criciuma,D,W
+2023-10-24,Chapecoense,Sport Recife,W,W
+2023-10-27,Chapecoense,Tombense Futebol Clube,W,D
+2023-10-31,Chapecoense,CRB,D,W
+2023-11-07,Chapecoense,Botafogo SP,W,D
+2023-11-10,Chapecoense,Ituano,D,W
+2023-11-25,Chapecoense,Vitoria,W,D
+2023-07-25,Guarani,Avai,D,W
+2023-08-01,Guarani,Ceara,W,W
+2023-08-04,Guarani,Ituano,D,W
+2023-08-08,Guarani,Juventude,W,L
+2023-08-15,Guarani,Sport Recife,W,D
+2023-08-22,Guarani,Sampaio Correa,W,W
+2023-08-25,Guarani,Ponte Preta,W,D
+2023-08-29,Guarani,Chapecoense,D,W
+2023-09-19,Guarani,Tombense Futebol Clube,W,D
+2023-09-29,Guarani,CRB,D,W
+2023-10-03,Guarani,Gremio Novorizontino,W,D
+2023-10-06,Guarani,Vila Nova,W,D
+2023-10-17,Guarani,Vitoria,W,W
+2023-10-24,Guarani,Mirassol Futebol Clube,W,W
+2023-10-27,Guarani,Botafogo SP,W,D
+2023-10-31,Guarani,Londrina,W,W
+2023-11-07,Guarani,Criciuma,W,D
+2023-11-10,Guarani,ABC,W,D
+2023-11-25,Guarani,Atletico Goianiense,D,W
+2023-07-25,Ituano,Ceara,D,W
+2023-08-01,Ituano,Tombense Futebol Clube,W,L
+2023-08-04,Ituano,Guarani,W,D
+2023-08-08,Ituano,ABC,D,W
+2023-08-15,Ituano,Criciuma,W,D
+2023-08-22,Ituano,Sport Recife,W,W
+2023-08-25,Ituano,Gremio Novorizontino,D,W
+2023-08-29,Ituano,Vila Nova,W,D
+2023-09-19,Ituano,Londrina,W,W
+2023-09-29,Ituano,Vitoria,W,D
+2023-10-03,Ituano,Botafogo SP,W,D
+2023-10-06,Ituano,Atletico Goianiense,D,W
+2023-10-17,Ituano,CRB,W,D
+2023-10-24,Ituano,Ponte Preta,W,W
+2023-10-27,Ituano,Mirassol Futebol Clube,W,D
+2023-10-31,Ituano,Juventude,D,W
+2023-11-07,Ituano,Sampaio Correa,W,D
+2023-11-10,Ituano,Chapecoense,W,D
+2023-11-25,Ituano,Avai,D,W
+2023-07-25,Juventude,Botafogo SP,D,W
+2023-08-01,Juventude,Gremio Novorizontino,W,L
+2023-08-04,Juventude,Vila Nova,W,L
+2023-08-08,Juventude,Guarani,L,W
+2023-08-15,Juventude,Sampaio Correa,W,D
+2023-08-22,Juventude,Mirassol Futebol Clube,W,W
+2023-08-25,Juventude,Chapecoense,W,D
+2023-08-29,Juventude,Atletico Goianiense,D,W
+2023-09-19,Juventude,CRB,W,D
+2023-09-29,Juventude,Avai,D,W
+2023-10-03,Juventude,Criciuma,W,D
+2023-10-06,Juventude,Tombense Futebol Clube,W,W
+2023-10-17,Juventude,Sport Recife,W,D
+2023-10-24,Juventude,Londrina,W,D
+2023-10-27,Juventude,Vitoria,W,W
+2023-10-31,Juventude,Ituano,W,D
+2023-11-07,Juventude,ABC,D,W
+2023-11-10,Juventude,Ponte Preta,W,D
+2023-11-25,Juventude,Ceara,D,W
+2023-07-25,Londrina,ABC,D,W
+2023-08-01,Londrina,Chapecoense,W,L
+2023-08-04,Londrina,Vitoria,W,L
+2023-08-08,Londrina,Criciuma,D,W
+2023-08-15,Londrina,Atletico Goianiense,W,W
+2023-08-22,Londrina,Ponte Preta,W,W
+2023-08-25,Londrina,Tombense Futebol Clube,W,D
+2023-08-29,Londrina,Ceara,D,W
+2023-09-19,Londrina,Ituano,W,W
+2023-09-29,Londrina,Sport Recife,L,W
+2023-10-03,Londrina,Sampaio Correa,W,W
+2023-10-06,Londrina,Mirassol Futebol Clube,D,W
+2023-10-17,Londrina,Avai,W,W
+2023-10-24,Londrina,Juventude,D,W
+2023-10-27,Londrina,CRB,W,D
+2023-10-31,Londrina,Guarani,W,W
+2023-11-07,Londrina,Vila Nova,W,W
+2023-11-10,Londrina,Gremio Novorizontino,W,D
+2023-11-25,Londrina,Botafogo SP,D,W
+2023-07-25,Mirassol Futebol Clube,Chapecoense,L,W
+2023-08-01,Mirassol Futebol Clube,Avai,W,L
+2023-08-04,Mirassol Futebol Clube,Sampaio Correa,W,L
+2023-08-08,Mirassol Futebol Clube,Gremio Novorizontino,L,W
+2023-08-15,Mirassol Futebol Clube,Vila Nova,W,W
+2023-08-22,Mirassol Futebol Clube,Juventude,W,W
+2023-08-25,Mirassol Futebol Clube,Vitoria,W,W
+2023-08-29,Mirassol Futebol Clube,Botafogo SP,W,W
+2023-09-19,Mirassol Futebol Clube,Criciuma,D,W
+2023-09-29,Mirassol Futebol Clube,Ponte Preta,D,W
+2023-10-03,Mirassol Futebol Clube,CRB,W,W
+2023-10-06,Mirassol Futebol Clube,Londrina,W,D
+2023-10-17,Mirassol Futebol Clube,ABC,D,W
+2023-10-24,Mirassol Futebol Clube,Guarani,W,W
+2023-10-27,Mirassol Futebol Clube,Ituano,D,W
+2023-10-31,Mirassol Futebol Clube,Sport Recife,W,W
+2023-11-07,Mirassol Futebol Clube,Ceara,D,W
+2023-11-10,Mirassol Futebol Clube,Atletico Goianiense,W,D
+2023-11-25,Mirassol Futebol Clube,Tombense Futebol Clube,W,W
+2023-07-25,Ponte Preta,Vitoria,W,L
+2023-08-01,Ponte Preta,Criciuma,L,W
+2023-08-04,Ponte Preta,Chapecoense,W,L
+2023-08-08,Ponte Preta,Botafogo SP,D,W
+2023-08-15,Ponte Preta,Ceara,D,W
+2023-08-22,Ponte Preta,Londrina,W,W
+2023-08-25,Ponte Preta,Guarani,D,W
+2023-08-29,Ponte Preta,Sampaio Correa,W,W
+2023-09-19,Ponte Preta,Vila Nova,W,W
+2023-09-29,Ponte Preta,Mirassol Futebol Clube,W,D
+2023-10-03,Ponte Preta,ABC,D,W
+2023-10-06,Ponte Preta,Sport Recife,L,W
+2023-10-17,Ponte Preta,Atletico Goianiense,W,W
+2023-10-24,Ponte Preta,Ituano,W,W
+2023-10-27,Ponte Preta,Gremio Novorizontino,D,W
+2023-10-31,Ponte Preta,Avai,W,W
+2023-11-07,Ponte Preta,Tombense Futebol Clube,W,W
+2023-11-10,Ponte Preta,Juventude,D,W
+2023-11-25,Ponte Preta,CRB,W,L
+2023-07-25,Sport Recife,CRB,W,W
+2023-08-01,Sport Recife,Vila Nova,L,W
+2023-08-04,Sport Recife,Gremio Novorizontino,W,L
+2023-08-08,Sport Recife,Tombense Futebol Clube,L,W
+2023-08-15,Sport Recife,Guarani,D,W
+2023-08-22,Sport Recife,Ituano,W,W
+2023-08-25,Sport Recife,Botafogo SP,D,W
+2023-08-29,Sport Recife,Criciuma,W,W
+2023-09-19,Sport Recife,ABC,D,W
+2023-09-29,Sport Recife,Londrina,W,L
+2023-10-03,Sport Recife,Avai,D,W
+2023-10-06,Sport Recife,Ponte Preta,W,L
+2023-10-17,Sport Recife,Juventude,D,W
+2023-10-24,Sport Recife,Chapecoense,W,W
+2023-10-27,Sport Recife,Ceara,D,W
+2023-10-31,Sport Recife,Mirassol Futebol Clube,W,W
+2023-11-07,Sport Recife,Atletico Goianiense,W,W
+2023-11-10,Sport Recife,Vitoria,W,W
+2023-11-25,Sport Recife,Sampaio Correa,W,L
+2023-07-25,Tombense Futebol Clube,Criciuma,W,W
+2023-08-01,Tombense Futebol Clube,Ituano,L,W
+2023-08-04,Tombense Futebol Clube,Atletico Goianiense,D,W
+2023-08-08,Tombense Futebol Clube,Sport Recife,W,L
+2023-08-15,Tombense Futebol Clube,Avai,D,W
+2023-08-22,Tombense Futebol Clube,Ceara,W,W
+2023-08-25,Tombense Futebol Clube,Londrina,D,W
+2023-08-29,Tombense Futebol Clube,ABC,W,W
+2023-09-19,Tombense Futebol Clube,Guarani,D,W
+2023-09-29,Tombense Futebol Clube,Botafogo SP,W,W
+2023-10-03,Tombense Futebol Clube,Vitoria,W,W
+2023-10-06,Tombense Futebol Clube,Juventude,W,W
+2023-10-17,Tombense Futebol Clube,Gremio Novorizontino,D,W
+2023-10-24,Tombense Futebol Clube,Vila Nova,W,W
+2023-10-27,Tombense Futebol Clube,Chapecoense,D,W
+2023-10-31,Tombense Futebol Clube,Sampaio Correa,W,W
+2023-11-07,Tombense Futebol Clube,Ponte Preta,W,W
+2023-11-10,Tombense Futebol Clube,CRB,D,W
+2023-11-25,Tombense Futebol Clube,Mirassol Futebol Clube,W,W
+2023-07-25,Vila Nova,Gremio Novorizontino,L,W
+2023-08-01,Vila Nova,Sport Recife,W,L
+2023-08-04,Vila Nova,Juventude,L,W
+2023-08-08,Vila Nova,Avai,W,W
+2023-08-15,Vila Nova,Mirassol Futebol Clube,W,W
+2023-08-22,Vila Nova,Criciuma,D,W
+2023-08-25,Vila Nova,CRB,W,L
+2023-08-29,Vila Nova,Ituano,D,W
+2023-09-19,Vila Nova,Ponte Preta,W,W
+2023-09-29,Vila Nova,Sampaio Correa,L,W
+2023-10-03,Vila Nova,Chapecoense,W,W
+2023-10-06,Vila Nova,Guarani,D,W
+2023-10-17,Vila Nova,Botafogo SP,W,W
+2023-10-24,Vila Nova,Tombense Futebol Clube,W,W
+2023-10-27,Vila Nova,Atletico Goianiense,W,L
+2023-10-31,Vila Nova,Vitoria,W,W
+2023-11-07,Vila Nova,Londrina,W,W
+2023-11-10,Vila Nova,Ceara,W,L
+2023-11-25,Vila Nova,ABC,D,W

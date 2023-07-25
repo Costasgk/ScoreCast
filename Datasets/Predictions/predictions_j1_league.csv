@@ -1,0 +1,157 @@
+Date,Home Team,Away Team,Prediction for Home Team,Prediction for Away Team
+2023-08-05,Albirex Niigata,Nagoya Grampus,L,W
+2023-08-12,Albirex Niigata,Shonan Bellmare,L,W
+2023-08-18,Albirex Niigata,Avispa Fukuoka,W,W
+2023-08-26,Albirex Niigata,Kashima Antlers,L,W
+2023-09-02,Albirex Niigata,Urawa Red Diamonds,L,W
+2023-09-17,Albirex Niigata,Gamba Osaka,L,W
+2023-09-23,Albirex Niigata,Yokohama FC,W,W
+2023-09-29,Albirex Niigata,Kawasaki Frontale,L,W
+2023-10-21,Albirex Niigata,Sagan Tosu,D,W
+2023-10-28,Albirex Niigata,Kyoto Sanga,L,W
+2023-11-11,Albirex Niigata,FC Tokyo,L,W
+2023-11-25,Albirex Niigata,Yokohama F Marinos,L,W
+2023-12-03,Albirex Niigata,Cerezo Osaka,L,W
+2023-08-06,Avispa Fukuoka,Sagan Tosu,L,W
+2023-08-12,Avispa Fukuoka,Yokohama FC,W,W
+2023-08-18,Avispa Fukuoka,Albirex Niigata,W,W
+2023-08-26,Avispa Fukuoka,Kyoto Sanga,W,W
+2023-09-03,Avispa Fukuoka,FC Tokyo,W,W
+2023-09-16,Avispa Fukuoka,Nagoya Grampus,W,W
+2023-09-23,Avispa Fukuoka,Kashiwa Reysol,L,L
+2023-09-30,Avispa Fukuoka,Kashima Antlers,L,W
+2023-10-20,Avispa Fukuoka,Kawasaki Frontale,L,L
+2023-10-28,Avispa Fukuoka,Yokohama F Marinos,L,W
+2023-11-11,Avispa Fukuoka,Gamba Osaka,L,L
+2023-11-25,Avispa Fukuoka,Urawa Red Diamonds,L,W
+2023-12-03,Avispa Fukuoka,Sanfrecce Hiroshima,L,L
+2023-08-06,Cerezo Osaka,FC Tokyo,W,L
+2023-08-12,Cerezo Osaka,Kashiwa Reysol,W,L
+2023-08-20,Cerezo Osaka,Yokohama FC,W,W
+2023-08-26,Cerezo Osaka,Nagoya Grampus,W,W
+2023-09-02,Cerezo Osaka,Kawasaki Frontale,W,W
+2023-09-16,Cerezo Osaka,Kashima Antlers,W,W
+2023-09-23,Cerezo Osaka,Vissel Kobe,D,L
+2023-09-30,Cerezo Osaka,Shonan Bellmare,D,L
+2023-10-21,Cerezo Osaka,Sanfrecce Hiroshima,L,L
+2023-10-28,Cerezo Osaka,Gamba Osaka,L,W
+2023-11-11,Cerezo Osaka,Yokohama F Marinos,L,L
+2023-11-25,Cerezo Osaka,Kyoto Sanga,L,W
+2023-12-03,Cerezo Osaka,Albirex Niigata,W,L
+2023-08-06,FC Tokyo,Cerezo Osaka,L,W
+2023-08-12,FC Tokyo,Kyoto Sanga,W,L
+2023-08-19,FC Tokyo,Yokohama F Marinos,W,W
+2023-08-26,FC Tokyo,Vissel Kobe,W,W
+2023-09-03,FC Tokyo,Avispa Fukuoka,W,W
+2023-09-15,FC Tokyo,Kawasaki Frontale,W,W
+2023-09-23,FC Tokyo,Sagan Tosu,D,L
+2023-10-01,FC Tokyo,Gamba Osaka,L,L
+2023-10-21,FC Tokyo,Yokohama FC,L,L
+2023-10-28,FC Tokyo,Sanfrecce Hiroshima,L,L
+2023-11-11,FC Tokyo,Albirex Niigata,W,L
+2023-11-25,FC Tokyo,Hokkaido Consadole Sapporo,L,L
+2023-12-03,FC Tokyo,Shonan Bellmare,L,L
+2023-08-06,Gamba Osaka,Kawasaki Frontale,L,W
+2023-08-12,Gamba Osaka,Yokohama F Marinos,W,W
+2023-08-19,Gamba Osaka,Shonan Bellmare,W,L
+2023-08-26,Gamba Osaka,Sagan Tosu,W,W
+2023-09-02,Gamba Osaka,Hokkaido Consadole Sapporo,W,W
+2023-09-17,Gamba Osaka,Albirex Niigata,W,L
+2023-09-24,Gamba Osaka,Urawa Red Diamonds,L,L
+2023-10-01,Gamba Osaka,FC Tokyo,L,L
+2023-10-21,Gamba Osaka,Nagoya Grampus,L,L
+2023-10-28,Gamba Osaka,Cerezo Osaka,W,L
+2023-11-11,Gamba Osaka,Avispa Fukuoka,L,L
+2023-11-25,Gamba Osaka,Sanfrecce Hiroshima,L,L
+2023-12-03,Gamba Osaka,Vissel Kobe,D,L
+2023-08-06,Kashima Antlers,Hokkaido Consadole Sapporo,L,L
+2023-08-13,Kashima Antlers,Nagoya Grampus,L,W
+2023-08-19,Kashima Antlers,Sagan Tosu,W,W
+2023-08-26,Kashima Antlers,Albirex Niigata,W,L
+2023-09-02,Kashima Antlers,Shonan Bellmare,W,W
+2023-09-16,Kashima Antlers,Cerezo Osaka,W,W
+2023-09-24,Kashima Antlers,Yokohama F Marinos,L,L
+2023-09-30,Kashima Antlers,Avispa Fukuoka,W,L
+2023-10-21,Kashima Antlers,Vissel Kobe,L,L
+2023-10-28,Kashima Antlers,Urawa Red Diamonds,L,L
+2023-11-11,Kashima Antlers,Kashiwa Reysol,L,L
+2023-11-25,Kashima Antlers,Kawasaki Frontale,L,L
+2023-12-03,Kashima Antlers,Yokohama FC,D,L
+2023-08-06,Kashiwa Reysol,Kyoto Sanga,L,L
+2023-08-12,Kashiwa Reysol,Cerezo Osaka,L,W
+2023-08-19,Kashiwa Reysol,Vissel Kobe,W,W
+2023-08-26,Kashiwa Reysol,Sanfrecce Hiroshima,W,W
+2023-09-02,Kashiwa Reysol,Yokohama F Marinos,W,L
+2023-09-17,Kashiwa Reysol,Yokohama FC,W,W
+2023-09-23,Kashiwa Reysol,Avispa Fukuoka,L,L
+2023-09-30,Kashiwa Reysol,Hokkaido Consadole Sapporo,L,L
+2023-10-21,Kashiwa Reysol,Urawa Red Diamonds,L,L
+2023-10-29,Kashiwa Reysol,Kawasaki Frontale,L,L
+2023-11-11,Kashiwa Reysol,Kashima Antlers,L,L
+2023-11-25,Kashiwa Reysol,Sagan Tosu,D,L
+2023-12-03,Kashiwa Reysol,Nagoya Grampus,L,L
+2023-08-06,Kyoto Sanga,Kashiwa Reysol,L,L
+2023-08-12,Kyoto Sanga,FC Tokyo,L,W
+2023-08-19,Kyoto Sanga,Hokkaido Consadole Sapporo,W,W
+2023-08-26,Kyoto Sanga,Avispa Fukuoka,W,W
+2023-09-03,Kyoto Sanga,Vissel Kobe,W,W
+2023-09-15,Kyoto Sanga,Urawa Red Diamonds,W,W
+2023-09-23,Kyoto Sanga,Sanfrecce Hiroshima,D,L
+2023-09-30,Kyoto Sanga,Sagan Tosu,D,L
+2023-10-21,Kyoto Sanga,Shonan Bellmare,L,L
+2023-10-28,Kyoto Sanga,Albirex Niigata,W,L
+2023-11-10,Kyoto Sanga,Kawasaki Frontale,L,W
+2023-11-25,Kyoto Sanga,Cerezo Osaka,W,L
+2023-12-03,Kyoto Sanga,Yokohama F Marinos,L,L
+2023-08-06,Sagan Tosu,Avispa Fukuoka,W,L
+2023-08-12,Sagan Tosu,Hokkaido Consadole Sapporo,W,W
+2023-08-19,Sagan Tosu,Kashima Antlers,W,W
+2023-08-26,Sagan Tosu,Gamba Osaka,W,W
+2023-09-02,Sagan Tosu,Sanfrecce Hiroshima,W,W
+2023-09-16,Sagan Tosu,Yokohama F Marinos,W,W
+2023-09-23,Sagan Tosu,FC Tokyo,L,D
+2023-09-30,Sagan Tosu,Kyoto Sanga,L,D
+2023-10-21,Sagan Tosu,Albirex Niigata,W,D
+2023-10-27,Sagan Tosu,Nagoya Grampus,L,D
+2023-11-11,Sagan Tosu,Yokohama FC,W,D
+2023-11-25,Sagan Tosu,Kashiwa Reysol,L,D
+2023-12-03,Sagan Tosu,Kawasaki Frontale,L,D
+2023-08-05,Shonan Bellmare,Sanfrecce Hiroshima,L,L
+2023-08-12,Shonan Bellmare,Albirex Niigata,W,L
+2023-08-19,Shonan Bellmare,Gamba Osaka,L,W
+2023-08-25,Shonan Bellmare,Urawa Red Diamonds,W,W
+2023-09-02,Shonan Bellmare,Kashima Antlers,W,W
+2023-09-16,Shonan Bellmare,Hokkaido Consadole Sapporo,W,W
+2023-09-24,Shonan Bellmare,Kawasaki Frontale,L,L
+2023-09-30,Shonan Bellmare,Cerezo Osaka,L,D
+2023-10-21,Shonan Bellmare,Kyoto Sanga,L,L
+2023-10-28,Shonan Bellmare,Vissel Kobe,L,L
+2023-11-11,Shonan Bellmare,Nagoya Grampus,L,L
+2023-11-25,Shonan Bellmare,Yokohama FC,L,L
+2023-12-03,Shonan Bellmare,FC Tokyo,L,L
+2023-08-06,Vissel Kobe,Yokohama FC,D,W
+2023-08-12,Vissel Kobe,Kawasaki Frontale,W,W
+2023-08-19,Vissel Kobe,Kashiwa Reysol,W,W
+2023-08-26,Vissel Kobe,FC Tokyo,W,W
+2023-09-03,Vissel Kobe,Kyoto Sanga,W,W
+2023-09-16,Vissel Kobe,Sanfrecce Hiroshima,W,W
+2023-09-23,Vissel Kobe,Cerezo Osaka,L,D
+2023-09-30,Vissel Kobe,Yokohama F Marinos,L,L
+2023-10-21,Vissel Kobe,Kashima Antlers,L,L
+2023-10-28,Vissel Kobe,Shonan Bellmare,L,L
+2023-11-11,Vissel Kobe,Urawa Red Diamonds,L,L
+2023-11-25,Vissel Kobe,Nagoya Grampus,L,L
+2023-12-03,Vissel Kobe,Gamba Osaka,L,D
+2023-08-06,Yokohama FC,Vissel Kobe,W,D
+2023-08-12,Yokohama FC,Avispa Fukuoka,W,W
+2023-08-20,Yokohama FC,Cerezo Osaka,W,W
+2023-08-26,Yokohama FC,Yokohama F Marinos,W,W
+2023-09-02,Yokohama FC,Nagoya Grampus,W,W
+2023-09-17,Yokohama FC,Kashiwa Reysol,W,W
+2023-09-23,Yokohama FC,Albirex Niigata,W,W
+2023-09-30,Yokohama FC,Urawa Red Diamonds,L,W
+2023-10-21,Yokohama FC,FC Tokyo,L,L
+2023-10-28,Yokohama FC,Hokkaido Consadole Sapporo,L,W
+2023-11-11,Yokohama FC,Sagan Tosu,D,W
+2023-11-25,Yokohama FC,Shonan Bellmare,L,L
+2023-12-03,Yokohama FC,Kashima Antlers,L,D

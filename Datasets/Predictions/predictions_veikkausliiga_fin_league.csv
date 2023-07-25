@@ -1,0 +1,66 @@
+Date,Home Team,Away Team,Prediction for Home Team,Prediction for Away Team
+2023-07-30,AC Oulu,FC Honka,W,W
+2023-08-12,AC Oulu,Lahti,D,L
+2023-08-19,AC Oulu,Ilves,D,L
+2023-08-26,AC Oulu,HJK Helsinki,D,L
+2023-09-03,AC Oulu,Inter Turku,L,W
+2023-07-30,FC Honka,AC Oulu,W,W
+2023-08-07,FC Honka,Lahti,D,D
+2023-08-13,FC Honka,Inter Turku,W,L
+2023-08-20,FC Honka,IFK Mariehamn,L,W
+2023-08-27,FC Honka,Ilves,W,L
+2023-09-03,FC Honka,KTP,L,L
+2023-07-30,Haka,Lahti,L,L
+2023-08-04,Haka,Ilves,L,D
+2023-08-11,Haka,IFK Mariehamn,L,L
+2023-08-21,Haka,KTP,D,W
+2023-08-27,Haka,KuPS,L,L
+2023-09-03,Haka,SJK,L,L
+2023-07-30,IFK Mariehamn,Inter Turku,L,L
+2023-08-05,IFK Mariehamn,HJK Helsinki,L,D
+2023-08-11,IFK Mariehamn,Haka,L,L
+2023-08-20,IFK Mariehamn,FC Honka,W,L
+2023-08-26,IFK Mariehamn,SJK,D,W
+2023-09-03,IFK Mariehamn,VPS,W,L
+2023-07-28,Ilves,VPS,L,L
+2023-08-04,Ilves,Haka,D,L
+2023-08-13,Ilves,KuPS,L,L
+2023-08-19,Ilves,AC Oulu,L,D
+2023-08-27,Ilves,FC Honka,L,W
+2023-09-03,Ilves,Lahti,L,L
+2023-07-30,Inter Turku,IFK Mariehamn,L,L
+2023-08-07,Inter Turku,KTP,D,W
+2023-08-13,Inter Turku,FC Honka,L,W
+2023-08-19,Inter Turku,HJK Helsinki,L,L
+2023-08-26,Inter Turku,Lahti,L,L
+2023-08-30,Inter Turku,Lahti,W,L
+2023-09-03,Inter Turku,AC Oulu,W,L
+2023-07-30,KTP,KuPS,L,W
+2023-08-07,KTP,Inter Turku,W,D
+2023-08-15,KTP,SJK,L,W
+2023-08-21,KTP,Haka,W,D
+2023-08-25,KTP,VPS,W,W
+2023-09-03,KTP,FC Honka,L,L
+2023-07-30,KuPS,KTP,W,L
+2023-08-13,KuPS,Ilves,L,L
+2023-08-20,KuPS,SJK,W,L
+2023-08-27,KuPS,Haka,L,L
+2023-09-03,KuPS,HJK Helsinki,L,L
+2023-07-30,Lahti,Haka,L,L
+2023-08-07,Lahti,FC Honka,D,D
+2023-08-12,Lahti,AC Oulu,L,D
+2023-08-18,Lahti,VPS,L,L
+2023-08-26,Lahti,Inter Turku,L,L
+2023-08-30,Lahti,Inter Turku,L,W
+2023-09-03,Lahti,Ilves,L,L
+2023-07-29,SJK,HJK Helsinki,W,L
+2023-08-09,SJK,VPS,L,W
+2023-08-15,SJK,KTP,W,L
+2023-08-20,SJK,KuPS,L,W
+2023-08-26,SJK,IFK Mariehamn,W,D
+2023-09-03,SJK,Haka,L,L
+2023-07-28,VPS,Ilves,L,L
+2023-08-09,VPS,SJK,W,L
+2023-08-18,VPS,Lahti,L,L
+2023-08-25,VPS,KTP,W,W
+2023-09-03,VPS,IFK Mariehamn,L,W

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Display</title>
+    <!-- Add Bootstrap CSS (optional, but recommended for styling the table) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Bootstrap JS (optional, but recommended for some interactive features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href = "static/style_preds.css">
+</head>
+<body>
+    <div class="container mt-3 mb-3">
+        <h1>Serie B Brazil</h1>
+        {{ table_html | safe }}
+    </div>
+</body>
+</html>
