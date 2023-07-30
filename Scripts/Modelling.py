@@ -105,10 +105,10 @@ def map_values(combined_df):
         
         renamed_columns = {
             'date' : 'Date',
-            'new_team_x' : 'Home Team',
-            'new_team_y' : 'Away Team',
-            'new_predicted_x' : 'Prediction for First Team',
-            'new_predicted_y' : 'Prediction for Second Team'
+            'new_team_x' : 'Team A',
+            'new_team_y' : 'Team B',
+            'new_predicted_x' : 'Prediction for Team A',
+            'new_predicted_y' : 'Prediction for Team B'
         }
 
         merged.rename(columns=renamed_columns, inplace=True)
