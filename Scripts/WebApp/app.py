@@ -8,16 +8,13 @@ app = Flask(__name__)
 def get_predictions_file_path(file_name):
     if 'DYNO' in os.environ:
         # Running on Heroku
-        base_dir = Path.cwd()  # Current working directory on Heroku
+        base_dir = Path.cwd() 
     else:
         # Running locally
-        base_dir = Path(__file__).resolve().parent.parent.parent  # Two folders up from app.py
+        base_dir = Path(__file__).resolve().parent.parent.parent 
 
     predictions_dir = base_dir / 'Datasets' / 'Predictions'
     return predictions_dir / file_name
-
-
-# rf = pickle.load(open('../../rf.pkl', 'rb'))
 
 @app.route('/', methods = ['GET'])
 def display_home():
