@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request
 import pickle, re
 import pandas as pd
+import os
+
 app = Flask(__name__)
 
 # rf = pickle.load(open('../../rf.pkl', 'rb'))
@@ -11,7 +13,11 @@ def display_home():
 
 @app.route('/Serie-A-Brazil', methods = ['GET'])
 def display_brazil_A():
-    csv_file = '../../Datasets/Predictions/predictions_serieA.csv'
+    # csv_file = '../../Datasets/Predictions/predictions_serieA.csv'
+    # csv_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Datasets/Predictions/predictions_j1_league.csv')
+    # print(__file__) 
+
+    csv_file = 'Predictions/predictions_serieA.csv'
 
     df = pd.read_csv(csv_file)
     
@@ -25,7 +31,8 @@ def display_brazil_A():
 
 @app.route('/Serie-B-Brazil', methods = ['GET'])
 def display_brazil_B():
-    csv_file = '../../Datasets/Predictions/predictions_serieB.csv'
+    # csv_file = '../../Datasets/Predictions/predictions_serieB.csv'
+    csv_file = 'Predictions/predictions_serieB.csv'
 
     df = pd.read_csv(csv_file)
     
@@ -39,7 +46,8 @@ def display_brazil_B():
 
 @app.route('/Primera-Division-Argentina', methods = ['GET'])
 def display_argentina():
-    csv_file = '../../Datasets/Predictions/predictions_premiera_division.csv'
+    # csv_file = '../../Datasets/Predictions/predictions_premiera_division.csv'
+    csv_file = 'Predictions/predictions_premiera_division.csv'
 
     df = pd.read_csv(csv_file)
     
@@ -53,7 +61,8 @@ def display_argentina():
 
 @app.route('/J1-League-Japan', methods = ['GET'])
 def display_japan():
-    csv_file = '../../Datasets/Predictions/predictions_j1_league.csv'
+    # csv_file = '../../Datasets/Predictions/predictions_j1_league.csv'
+    csv_file = 'Predictions/predictions_j1_league.csv'
 
     df = pd.read_csv(csv_file)
     
@@ -67,7 +76,8 @@ def display_japan():
 
 @app.route('/Eliteserien-Norway', methods = ['GET'])
 def display_norway():
-    csv_file = '../../Datasets/Predictions/predictions_eliteserien_nor_league.csv'
+    # csv_file = '../../Datasets/Predictions/predictions_eliteserien_nor_league.csv'
+    csv_file = 'Predictions/predictions_eliteserien_nor_league.csv'
 
     df = pd.read_csv(csv_file)
     
@@ -81,8 +91,9 @@ def display_norway():
 
 @app.route('/Veikkausliiga-Finland', methods = ['GET'])
 def display_finland():
-    csv_file = '../../Datasets/Predictions/predictions_veikkausliiga_fin_league.csv'
-
+    # csv_file = '../../Datasets/Predictions/predictions_veikkausliiga_fin_league.csv'
+    csv_file = 'Predictions/predictions_veikkausliiga_fin_league.csv'
+    
     df = pd.read_csv(csv_file)
     
     df['Date'] = pd.to_datetime(df['Date'])
