@@ -5,11 +5,11 @@ app = Flask(__name__)
 
 # rf = pickle.load(open('../../rf.pkl', 'rb'))
 
-@app.route('/')
+@app.route('/', methods = ['GET'])
 def display_home():
     return render_template('index.html')
 
-@app.route('/Serie-A-Brazil')
+@app.route('/Serie-A-Brazil', methods = ['GET'])
 def display_brazil_A():
     csv_file = '../../Datasets/Predictions/predictions_serieA.csv'
 
@@ -17,13 +17,13 @@ def display_brazil_A():
     
     df['Date'] = pd.to_datetime(df['Date'])
 
-    df = df[df['Date'].dt.date <= pd.to_datetime('2023-08-15').date()]
+    df = df[(df['Date'].dt.date < pd.to_datetime('2023-08-31').date()) & (df['Date'].dt.date >= pd.to_datetime('2023-07-30').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
     return render_template('br_a.html', table_html=table_html)
 
-@app.route('/Serie-B-Brazil')
+@app.route('/Serie-B-Brazil', methods = ['GET'])
 def display_brazil_B():
     csv_file = '../../Datasets/Predictions/predictions_serieB.csv'
 
@@ -31,13 +31,13 @@ def display_brazil_B():
     
     df['Date'] = pd.to_datetime(df['Date'])
 
-    df = df[df['Date'].dt.date <= pd.to_datetime('2023-08-15').date()]
+    df = df[(df['Date'].dt.date < pd.to_datetime('2023-08-31').date()) & (df['Date'].dt.date >= pd.to_datetime('2023-07-30').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
     return render_template('br_b.html', table_html=table_html)
 
-@app.route('/Primera-Division-Argentina')
+@app.route('/Primera-Division-Argentina', methods = ['GET'])
 def display_argentina():
     csv_file = '../../Datasets/Predictions/predictions_premiera_division.csv'
 
@@ -45,13 +45,13 @@ def display_argentina():
     
     df['Date'] = pd.to_datetime(df['Date'])
 
-    df = df[df['Date'].dt.date <= pd.to_datetime('2023-08-15').date()]
+    df = df[df['Date'].dt.date < pd.to_datetime('2023-08-31').date()]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
     return render_template('arg.html', table_html=table_html)
 
-@app.route('/J1-League-Japan')
+@app.route('/J1-League-Japan', methods = ['GET'])
 def display_japan():
     csv_file = '../../Datasets/Predictions/predictions_j1_league.csv'
 
@@ -59,13 +59,13 @@ def display_japan():
     
     df['Date'] = pd.to_datetime(df['Date'])
 
-    df = df[df['Date'].dt.date <= pd.to_datetime('2023-08-15').date()]
+    df = df[(df['Date'].dt.date < pd.to_datetime('2023-08-31').date()) & (df['Date'].dt.date >= pd.to_datetime('2023-07-30').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
     return render_template('jpn.html', table_html=table_html)
 
-@app.route('/Eliteserien-Norway')
+@app.route('/Eliteserien-Norway', methods = ['GET'])
 def display_norway():
     csv_file = '../../Datasets/Predictions/predictions_eliteserien_nor_league.csv'
 
@@ -73,13 +73,13 @@ def display_norway():
     
     df['Date'] = pd.to_datetime(df['Date'])
 
-    df = df[df['Date'].dt.date <= pd.to_datetime('2023-08-15').date()]
+    df = df[(df['Date'].dt.date < pd.to_datetime('2023-08-31').date()) & (df['Date'].dt.date >= pd.to_datetime('2023-07-30').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
     return render_template('norw.html', table_html=table_html)
 
-@app.route('/Veikkausliiga-Finland')
+@app.route('/Veikkausliiga-Finland', methods = ['GET'])
 def display_finland():
     csv_file = '../../Datasets/Predictions/predictions_veikkausliiga_fin_league.csv'
 
@@ -87,7 +87,7 @@ def display_finland():
     
     df['Date'] = pd.to_datetime(df['Date'])
 
-    df = df[df['Date'].dt.date <= pd.to_datetime('2023-08-15').date()]
+    df = df[(df['Date'].dt.date < pd.to_datetime('2023-08-31').date()) & (df['Date'].dt.date >= pd.to_datetime('2023-07-30').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -95,5 +95,5 @@ def display_finland():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
