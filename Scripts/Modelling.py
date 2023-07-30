@@ -89,15 +89,18 @@ def map_values(combined_df):
 
     for map_values in mapping_values:
 
-        combined_df["new_team"] = combined_df["team"].map(map_values)
+        # combined_df["new_team"] = combined_df["team"].map(map_values)
+
         mapping = MissingDict(**map_values)
 
         combined_df["new_team"] = combined_df["team"].map(mapping)
+        
+        print(combined_df)
 
         merged = combined_df.merge(combined_df, left_on=["date", "new_team"], right_on=["date", "opponent"])
 
         merged = merged[['date', 'new_team_x', 'new_team_y', 'predicted_x', 'predicted_y']]
-        
+
         map_string = {0: 'L', 1 : 'W', 2 : 'D'}
         
         merged['new_predicted_x'] = merged['predicted_x'].map(map_string)
