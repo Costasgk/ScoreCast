@@ -17,22 +17,25 @@ body{
 .list-group{
     flex-direction: row !important;
     margin-top: 20vh;
-    gap: 1.25vw;
+    gap: 2vw;
 }
 
 .list-group-item {
     transition: background-color 0.3s ease, color 0.3s ease;
-    border: 1px solid rgba(0,0,0,.125) !important;
     text-align: center !important;
     padding: 2vh 2vw 2vh 2vw !important;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    border-radius: 8px;
+    color:white !important;
+    background-color: black !important;
+    letter-spacing: 0.2vw;
+    border-radius: 2px;
+    /* border: 1px solid rgba(0,0,0,.125) !important; */
 }
 
 .list-group-item:hover {
-    background-color: #1775ff !important; 
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
 }
 
 footer {
@@ -41,10 +44,20 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
+    font-size: 1.5vh;
 }
 
 @media screen and (max-width: 1024px){
     .list-group {
         flex-direction: column !important;
+        margin-top: 5vh;
+    }
+
+    .header{
+        font-size:8vh;
+    }
+
+    footer{
+        padding: 0vw 3vw 1vh 3vw;
     }
 }
