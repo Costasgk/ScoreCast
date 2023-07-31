@@ -53,11 +53,12 @@ footer {
         margin-top: 5vh;
     }
 
-    .header{
+    .header {
         font-size:8vh;
     }
 
-    footer{
-        padding: 0vw 3vw 1vh 3vw;
+    footer {
+        padding: 0v 3vw 0vh 3vw;
+        height: 1vh;
     }
 }
