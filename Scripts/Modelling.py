@@ -95,8 +95,6 @@ def map_values(combined_df):
 
         combined_df["new_team"] = combined_df["team"].map(mapping)
         
-        print(combined_df)
-
         merged = combined_df.merge(combined_df, left_on=["date", "new_team"], right_on=["date", "opponent"])
 
         merged = merged[['date', 'new_team_x', 'new_team_y', 'predicted_x', 'predicted_y']]

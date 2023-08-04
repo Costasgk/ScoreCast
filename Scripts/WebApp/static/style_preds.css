@@ -3,3 +3,13 @@
     padding: 0;
 }
 
+.container-note{
+    background-color: #f7f7f7;
+    padding: 10px; border: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+.note-signature{
+    font-size: 12px; 
+    color: #666;
+}
