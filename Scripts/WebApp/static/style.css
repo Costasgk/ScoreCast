@@ -40,7 +40,7 @@ body{
 
 footer {
     position: absolute;
-    bottom: -5vh;
+    bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
@@ -60,5 +60,6 @@ footer {
     footer {
         padding: 0v 3vw 0vh 3vw;
         height: 1vh;
+        bottom: -10vh !important;
     }
 }
