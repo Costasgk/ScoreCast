@@ -1,0 +1,209 @@
+Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
+2023-09-03,18:30,America MG,Santos,W,L
+2023-09-18,21:00,America MG,Vasco da Gama,W,L
+2023-09-19,21:30,America MG,Bragantino,W,D
+2023-09-30,,America MG,Cruzeiro,L,W
+2023-10-07,,America MG,Fortaleza,L,W
+2023-10-21,,America MG,Corinthians,L,W
+2023-10-21,,America MG,Corinthians,L,L
+2023-10-21,,Cuiaba,Corinthians,W,W
+2023-10-21,,Cuiaba,Corinthians,W,L
+2023-11-01,,America MG,Internacional,L,W
+2023-11-08,,America MG,Coritiba,W,L
+2023-11-11,,America MG,Vasco da Gama,L,W
+2023-11-22,,America MG,Flamengo,W,L
+2023-11-25,,America MG,Palmeiras,L,W
+2023-11-29,,America MG,Bahia,W,L
+2023-09-13,21:30,Athletico Paranaense,Flamengo,L,W
+2023-09-21,19:30,Athletico Paranaense,Internacional,W,L
+2023-09-30,,Athletico Paranaense,Coritiba,L,D
+2023-10-07,,Athletico Paranaense,Bragantino,D,L
+2023-11-01,,Athletico Paranaense,Corinthians,L,W
+2023-11-04,,Athletico Paranaense,Palmeiras,L,W
+2023-11-08,,Athletico Paranaense,Fortaleza,W,L
+2023-11-11,,Athletico Paranaense,Bahia,L,W
+2023-11-22,,Athletico Paranaense,Vasco da Gama,W,L
+2023-11-25,,Athletico Paranaense,Cruzeiro,L,W
+2023-11-29,,Athletico Paranaense,Santos,W,L
+2023-09-30,,Atletico Mineiro,Internacional,L,W
+2023-10-07,,Atletico Mineiro,Coritiba,D,L
+2023-10-18,,Atletico Mineiro,Palmeiras,L,W
+2023-10-21,,Atletico Mineiro,Cruzeiro,W,L
+2023-10-25,,Atletico Mineiro,Bragantino,L,W
+2023-10-28,,Atletico Mineiro,Fluminense,W,L
+2023-11-01,,Atletico Mineiro,Fortaleza,W,L
+2023-11-08,,Atletico Mineiro,Corinthians,L,W
+2023-11-25,,Atletico Mineiro,Flamengo,L,W
+2023-12-03,,Atletico Mineiro,Bahia,L,W
+2023-09-03,18:30,Bahia,Vasco da Gama,W,L
+2023-09-14,20:00,Bahia,Coritiba,L,W
+2023-09-18,20:00,Bahia,Santos,W,L
+2023-09-30,,Bahia,Flamengo,L,D
+2023-10-18,,Bahia,Internacional,W,L
+2023-10-21,,Bahia,Fortaleza,W,L
+2023-10-25,,Bahia,Cruzeiro,L,W
+2023-10-28,,Bahia,Palmeiras,L,W
+2023-11-01,,Bahia,Fluminense,W,L
+2023-11-22,,Bahia,Corinthians,L,W
+2023-09-02,21:00,Botafogo RJ,Flamengo,D,D
+2023-09-22,20:00,Botafogo RJ,Corinthians,L,W
+2023-10-07,,Botafogo RJ,Fluminense,L,W
+2023-10-25,,Botafogo RJ,Fortaleza,L,W
+2023-11-01,,Botafogo RJ,Palmeiras,W,L
+2023-11-04,,Botafogo RJ,Vasco da Gama,L,W
+2023-11-11,,Botafogo RJ,Bragantino,L,W
+2023-11-22,,Botafogo RJ,Santos,W,L
+2023-11-25,,Botafogo RJ,Coritiba,L,W
+2023-11-29,,Botafogo RJ,Cruzeiro,W,L
+2023-12-03,,Botafogo RJ,Internacional,L,W
+2023-09-03,18:30,Bragantino,Cruzeiro,D,W
+2023-09-30,,Bragantino,Palmeiras,W,L
+2023-10-18,,Bragantino,Santos,L,W
+2023-10-21,,Bragantino,Fluminense,W,L
+2023-10-28,,Bragantino,Flamengo,L,W
+2023-11-04,,Bragantino,Corinthians,W,L
+2023-11-22,,Bragantino,Internacional,L,W
+2023-11-25,,Bragantino,Fortaleza,W,L
+2023-11-29,,Bragantino,Coritiba,W,L
+2023-12-03,,Bragantino,Vasco da Gama,L,W
+2023-09-03,16:00,Corinthians,Palmeiras,W,L
+2023-09-14,19:00,Corinthians,Fortaleza,L,D
+2023-10-07,,Corinthians,Flamengo,W,L
+2023-10-18,,Corinthians,Fluminense,L,W
+2023-10-28,,Corinthians,Santos,W,L
+2023-11-04,,Corinthians,Bragantino,L,W
+2023-11-22,,Corinthians,Bahia,W,L
+2023-11-25,,Corinthians,Vasco da Gama,L,W
+2023-11-29,,Corinthians,Internacional,W,L
+2023-12-03,,Corinthians,Coritiba,L,W
+2023-09-14,20:00,Coritiba,Bahia,W,L
+2023-09-19,19:00,Coritiba,Vasco da Gama,D,W
+2023-10-21,,Coritiba,Palmeiras,W,L
+2023-10-25,,Coritiba,Santos,L,W
+2023-10-28,,Coritiba,Internacional,L,W
+2023-11-11,,Coritiba,Cruzeiro,W,L
+2023-11-22,,Coritiba,Fluminense,L,W
+2023-11-29,,Coritiba,Bragantino,L,W
+2023-12-03,,Coritiba,Corinthians,W,L
+2023-09-03,18:30,Cruzeiro,Bragantino,W,D
+2023-09-14,19:00,Cruzeiro,Santos,L,W
+2023-09-20,21:30,Cruzeiro,Fluminense,L,W
+2023-10-18,,Cruzeiro,Flamengo,W,D
+2023-10-25,,Cruzeiro,Bahia,W,L
+2023-10-28,,Cruzeiro,Fortaleza,L,W
+2023-11-04,,Cruzeiro,Internacional,W,L
+2023-11-08,,Cruzeiro,Vasco da Gama,W,L
+2023-11-11,,Cruzeiro,Coritiba,L,W
+2023-12-03,,Cruzeiro,Palmeiras,W,L
+2023-09-30,,Cuiaba,Fluminense,W,L
+2023-10-07,,Cuiaba,Cruzeiro,W,L
+2023-10-18,,Cuiaba,Coritiba,L,W
+2023-11-01,,Cuiaba,Vasco da Gama,W,L
+2023-11-04,,Cuiaba,Santos,L,W
+2023-11-08,,Cuiaba,Bahia,L,W
+2023-11-11,,Cuiaba,Fortaleza,W,L
+2023-11-25,,Cuiaba,Internacional,W,L
+2023-11-29,,Cuiaba,Flamengo,L,W
+2023-09-30,,Flamengo,Bahia,D,L
+2023-10-07,,Flamengo,Corinthians,L,W
+2023-10-18,,Flamengo,Cruzeiro,D,W
+2023-10-21,,Flamengo,Vasco da Gama,W,L
+2023-10-28,,Flamengo,Bragantino,W,L
+2023-11-01,,Flamengo,Santos,W,L
+2023-11-04,,Flamengo,Fortaleza,L,W
+2023-11-08,,Flamengo,Palmeiras,W,L
+2023-11-11,,Flamengo,Fluminense,W,L
+2023-09-03,16:00,Fluminense,Fortaleza,W,L
+2023-09-16,16:00,Fluminense,Vasco da Gama,D,W
+2023-09-20,21:30,Fluminense,Cruzeiro,W,L
+2023-10-18,,Fluminense,Corinthians,W,L
+2023-10-21,,Fluminense,Bragantino,L,W
+2023-11-01,,Fluminense,Bahia,L,W
+2023-11-08,,Fluminense,Internacional,L,W
+2023-11-11,,Fluminense,Flamengo,L,W
+2023-11-22,,Fluminense,Coritiba,W,L
+2023-11-25,,Fluminense,Santos,L,W
+2023-11-29,,Fluminense,Palmeiras,L,W
+2023-09-03,16:00,Fortaleza,Fluminense,L,W
+2023-09-14,19:00,Fortaleza,Corinthians,D,L
+2023-10-18,,Fortaleza,Vasco da Gama,L,W
+2023-10-21,,Fortaleza,Bahia,L,W
+2023-10-28,,Fortaleza,Cruzeiro,W,L
+2023-11-04,,Fortaleza,Flamengo,W,L
+2023-11-22,,Fortaleza,Palmeiras,W,L
+2023-11-25,,Fortaleza,Bragantino,L,W
+2023-12-03,,Fortaleza,Santos,L,W
+2023-09-02,16:00,Goias,Internacional,W,L
+2023-09-15,21:30,Goias,Palmeiras,L,D
+2023-09-20,19:00,Goias,Flamengo,W,L
+2023-10-07,,Goias,Bahia,W,L
+2023-10-25,,Goias,Fluminense,L,W
+2023-10-28,,Goias,Vasco da Gama,W,L
+2023-11-01,,Goias,Bragantino,W,L
+2023-11-04,,Goias,Coritiba,L,W
+2023-11-08,,Goias,Santos,W,L
+2023-11-22,,Goias,Cruzeiro,W,L
+2023-11-29,,Goias,Fortaleza,L,W
+2023-09-14,21:30,Gremio,Bragantino,L,L
+2023-09-18,21:00,Gremio,Corinthians,L,L
+2023-09-21,21:30,Gremio,Palmeiras,W,L
+2023-09-30,,Gremio,Fortaleza,L,D
+2023-10-07,,Gremio,Internacional,L,D
+2023-10-25,,Gremio,Flamengo,W,L
+2023-11-01,,Gremio,Coritiba,L,W
+2023-11-04,,Gremio,Bahia,W,L
+2023-11-11,,Gremio,Corinthians,W,L
+2023-11-29,,Gremio,Vasco da Gama,W,L
+2023-12-03,,Gremio,Fluminense,L,W
+2023-10-18,,Internacional,Bahia,L,W
+2023-10-21,,Internacional,Santos,W,L
+2023-10-25,,Internacional,Vasco da Gama,L,W
+2023-10-28,,Internacional,Coritiba,W,L
+2023-11-04,,Internacional,Cruzeiro,L,W
+2023-11-08,,Internacional,Fluminense,W,L
+2023-11-11,,Internacional,Palmeiras,L,W
+2023-11-22,,Internacional,Bragantino,W,L
+2023-11-29,,Internacional,Corinthians,L,W
+2023-09-03,16:00,Palmeiras,Corinthians,L,W
+2023-09-30,,Palmeiras,Bragantino,L,W
+2023-10-07,,Palmeiras,Santos,W,L
+2023-10-21,,Palmeiras,Coritiba,L,W
+2023-10-28,,Palmeiras,Bahia,W,L
+2023-11-08,,Palmeiras,Flamengo,L,W
+2023-11-11,,Palmeiras,Internacional,W,L
+2023-11-22,,Palmeiras,Fortaleza,L,W
+2023-11-29,,Palmeiras,Fluminense,W,L
+2023-12-03,,Palmeiras,Cruzeiro,L,W
+2023-09-14,19:00,Santos,Cruzeiro,W,L
+2023-09-18,20:00,Santos,Bahia,L,W
+2023-09-30,,Santos,Vasco da Gama,W,L
+2023-10-07,,Santos,Palmeiras,L,W
+2023-10-18,,Santos,Bragantino,W,L
+2023-10-21,,Santos,Internacional,L,W
+2023-10-25,,Santos,Coritiba,W,L
+2023-10-28,,Santos,Corinthians,L,W
+2023-11-01,,Santos,Flamengo,L,W
+2023-11-25,,Santos,Fluminense,W,L
+2023-12-03,,Santos,Fortaleza,W,L
+2023-09-03,20:30,Sao Paulo,Coritiba,W,L
+2023-09-13,21:30,Sao Paulo,Internacional,L,L
+2023-09-20,21:30,Sao Paulo,Fortaleza,W,L
+2023-09-30,,Sao Paulo,Corinthians,W,L
+2023-10-07,,Sao Paulo,Vasco da Gama,L,W
+2023-10-25,,Sao Paulo,Palmeiras,L,W
+2023-11-01,,Sao Paulo,Cruzeiro,W,L
+2023-11-04,,Sao Paulo,Fluminense,L,W
+2023-11-08,,Sao Paulo,Bragantino,W,L
+2023-11-11,,Sao Paulo,Santos,L,W
+2023-11-25,,Sao Paulo,Bahia,L,W
+2023-12-03,,Sao Paulo,Flamengo,W,L
+2023-09-03,18:30,Vasco da Gama,Bahia,L,W
+2023-09-16,16:00,Vasco da Gama,Fluminense,W,D
+2023-09-19,19:00,Vasco da Gama,Coritiba,W,D
+2023-09-30,,Vasco da Gama,Santos,L,W
+2023-10-18,,Vasco da Gama,Fortaleza,W,L
+2023-10-21,,Vasco da Gama,Flamengo,L,W
+2023-10-25,,Vasco da Gama,Internacional,W,L
+2023-11-08,,Vasco da Gama,Cruzeiro,L,W
+2023-11-25,,Vasco da Gama,Corinthians,W,L
+2023-12-03,,Vasco da Gama,Bragantino,W,L

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliteserien Norway</title>
+    <!-- Add Bootstrap CSS (optional, but recommended for styling the table) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add Bootstrap JS (optional, but recommended for some interactive features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href = "static/style_preds.css">
+</head>
+<body>
+    <div class="container mt-3 mb-3">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Eliteserien Norway</h1>
+                <a href="/Eliteserien-Norway-csv" class="btn btn-primary">Download Full Schedule</a>
+            </div>
+        </div>    
+        {{ table_html | safe }}
+        <div class="container-note">
+            <p>
+                <strong>Important Note:</strong> Our football match predictions may sometimes show results like W/W (both teams win), L/L (both teams lose), or D/D (both teams draw). These occurrences are considered biased predictions and may not accurately reflect the actual outcome of the match.
+            </p>
+            <p>
+                While we continuously improve our prediction model, we advise our users not to solely rely on these biased results for betting or any financial decisions. Predicting football matches is a complex task, and for more reliable insights, we recommend consulting a professional or expert in sports betting.
+            </p>
+            <p>
+                Remember to gamble responsibly and within your means. Betting should be seen as entertainment, not as a source of income.
+            </p>
+            <p class="note-signature">
+                - The ScoreCast Team
+            </p>
+        </div>
+    </div>
+</body>
+</html>
