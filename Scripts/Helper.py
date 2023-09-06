@@ -85,23 +85,70 @@ def mapping():
         'PK–35': 'PK 35 Vantaa'
     }
     
+    # map_values_england = {
+    #     "Brighton and Hove Albion": "Brighton", 
+    #     "Manchester United": "Manchester Utd", 
+    #     "Newcastle United": "Newcastle Utd", 
+    #     "Tottenham Hotspur": "Tottenham", 
+    #     "West Ham United": "West Ham", 
+    #     "Wolverhampton Wanderers": "Wolves"
+    # } 
+
     map_values_england = {
-        "Brighton and Hove Albion": "Brighton", 
-        "Manchester United": "Manchester Utd", 
-        "Newcastle United": "Newcastle Utd", 
-        "Tottenham Hotspur": "Tottenham", 
-        "West Ham United": "West Ham", 
-        "Wolverhampton Wanderers": "Wolves"
-    } 
+        'Brighton': 'Brighton and Hove Albion',
+        'Manchester Utd': 'Manchester United',
+        'Newcastle Utd': 'Newcastle United',
+        'Tottenham': 'Tottenham Hotspur',
+        'West Ham': 'West Ham United',
+        'Wolves': 'Wolverhampton Wanderers'
+    }
+
 
     map_values_italy = {
         'Internazionale' : 'Inter'
     }
 
-    
+    map_values_spain = {
+        "Atlético Madrid": "Atletico Madrid",
+        "Athletic Club": "Athletic Club",
+        "Betis": "Real Betis",
+        "Málaga": "Malaga",
+        "Alavés": "Alaves",
+        "Eibar": "Eibar",
+        "La Coruña": "Deportivo La Coruna",
+        "Leganés": "Leganes",
+        "Las Palmas": "Las Palmas",
+        "Cádiz": "Cadiz",
+        "Almería": "Almeria",
+        "Sporting Gijón": "Sporting Gijon",
+        "Córdoba": "Cordoba",
+        "Racing Sant": "Racing Santander"
+    }
 
+    
+    map_values_germany = {
+        "Leverkusen": "Bayer Leverkusen",
+        "M'Gladbach": "Monchengladbach",
+        "Eint Frankfurt": "Eintracht Frankfurt",
+        "Köln": "Koln",
+        "Nürnberg": "Nurnberg",
+        "Greuther Fürth": "Greuther Furth",
+        "Braunschweig": "Eintracht Braunschweig"
+        }
+
+    map_values_france = {
+        "Paris S-G": "Paris Saint Germain",
+        "Saint-Étienne": "Saint Etienne",
+        "Gazélec Ajaccio": "Gazelec Ajaccio"
+        }
+
+    map_values_greece = {
+        "Iraklis" : "Iraklis Thessaloniki" 
+        }
+    
     mapped_values = [map_values_serie_a, map_values_serie_b, map_values_argentina, 
                     map_values_jpn, map_values_norway, map_values_finland,
-                    map_values_england, map_values_italy]
+                    map_values_england, map_values_italy, map_values_spain,
+                    map_values_germany, map_values_france, map_values_greece]
     
     return mapped_values

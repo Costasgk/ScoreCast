@@ -32,7 +32,7 @@ def display_brazil_A():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -54,7 +54,7 @@ def display_brazil_B():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -98,7 +98,7 @@ def display_japan():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -121,7 +121,7 @@ def display_norway():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -143,7 +143,7 @@ def display_finland():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -164,7 +164,7 @@ def display_england():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -185,7 +185,7 @@ def display_italy():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
@@ -195,6 +195,90 @@ def display_italy():
 def download_csv_ita():
     csv_file = get_predictions_file_path('predictions_serieA_italy.csv')
     return send_file(csv_file, as_attachment=True, download_name='predictions_serieA_italy.csv')
+
+@app.route('/La-Liga-Spain', methods = ['GET'])
+def display_spain():
+    csv_file = get_predictions_file_path('predictions_laliga_spain.csv')
+
+    df = pd.read_csv(csv_file)
+    
+    df['Date'] = pd.to_datetime(df['Date'])
+
+    df['Time'] = df['Time'].fillna('Not announced yet')
+
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+ 
+    table_html = df.to_html(index=False, classes='table table-bordered table-striped')
+
+    return render_template('spa.html', table_html=table_html)
+
+@app.route('/La-Liga-Spain-csv', methods=['GET'])
+def download_csv_spa():
+    csv_file = get_predictions_file_path('predictions_laliga_spain.csv')
+    return send_file(csv_file, as_attachment=True, download_name='predictions_laliga_spain.csv')
+
+@app.route('/Ligue-1-France', methods=['GET'])
+def display_france():
+    csv_file = get_predictions_file_path('predictions_ligue1_france.csv')
+
+    df = pd.read_csv(csv_file)
+    
+    df['Date'] = pd.to_datetime(df['Date'])
+
+    df['Time'] = df['Time'].fillna('Not announced yet')
+
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+ 
+    table_html = df.to_html(index=False, classes='table table-bordered table-striped')
+
+    return render_template('fr.html', table_html=table_html)
+
+@app.route('/Ligue-1-France-csv', methods=['GET'])
+def download_csv_fr():
+    csv_file = get_predictions_file_path('predictions_ligue1_france.csv')
+    return send_file(csv_file, as_attachment=True, download_name='predictions_ligue1_france.csv')
+
+@app.route('/Bundesliga-Germany', methods=['GET'])
+def display_germany():
+    csv_file = get_predictions_file_path('predictions_bundesliga_germany.csv')
+
+    df = pd.read_csv(csv_file)
+    
+    df['Date'] = pd.to_datetime(df['Date'])
+
+    df['Time'] = df['Time'].fillna('Not announced yet')
+
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+ 
+    table_html = df.to_html(index=False, classes='table table-bordered table-striped')
+
+    return render_template('germ.html', table_html=table_html)
+
+@app.route('/Bundesliga-Germany-csv', methods=['GET'])
+def download_csv_germ():
+    csv_file = get_predictions_file_path('predictions_bundesliga_germany.csv')
+    return send_file(csv_file, as_attachment=True, download_name='predictions_bundesliga_germany.csv')
+
+@app.route('/Super-League-Greece', methods=['GET'])
+def display_greece():
+    csv_file = get_predictions_file_path('predictions_super_league_greece.csv')
+
+    df = pd.read_csv(csv_file)
+    
+    df['Date'] = pd.to_datetime(df['Date'])
+
+    df['Time'] = df['Time'].fillna('Not announced yet')
+
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+ 
+    table_html = df.to_html(index=False, classes='table table-bordered table-striped')
+
+    return render_template('gr.html', table_html=table_html)
+
+@app.route('/Super-League-Greece-csv', methods=['GET'])
+def download_csv_gr():
+    csv_file = get_predictions_file_path('predictions_super_league_greece.csv')
+    return send_file(csv_file, as_attachment=True, download_name='predictions_super_league_greece.csv')
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -15,13 +15,16 @@ def scrape_data():
     LeagueA_finland = "https://fbref.com/en/comps/43/Veikkausliiga-Stats"
     PL_england = "https://fbref.com/en/comps/9/Premier-League-Stats"
     SerieA_italy = "https://fbref.com/en/comps/11/Serie-A-Stats"
+    LaLiga_spain = "https://fbref.com/en/comps/12/La-Liga-Stats"
+    LigueA_france = "https://fbref.com/en/comps/13/Ligue-1-Stats"
+    Bundesliga_germany = "https://fbref.com/en/comps/20/Bundesliga-Stats"
+    SuperLeague_greece = "https://fbref.com/en/comps/27/Super-League-Greece-Stats"
 
-    # urls = [J1_jpn, SerieA_argentina, SerieA_brazil, 
-    #         SerieB_brazil, LeagueA_norway, LeagueA_finland]
-    
     urls = [SerieA_brazil, SerieB_brazil, 
-            LeagueA_norway, LeagueA_finland, 
-            PL_england, SerieA_italy, J1_jpn]
+            LeagueA_norway, LeagueA_finland,  
+            SuperLeague_greece, PL_england, 
+            SerieA_italy, LaLiga_spain, 
+            Bundesliga_germany, LigueA_france, J1_jpn ]
     
     for url in urls:
 
@@ -31,7 +34,7 @@ def scrape_data():
         
         if url == SerieB_brazil:
             years = list(range(2023,2019,-1))
-        elif url == PL_england or url == SerieA_italy:
+        elif url == PL_england or url == SerieA_italy or url == LaLiga_spain or url == LigueA_france or url == Bundesliga_germany:
             years = list(range(2023, 2010, -1))
         else:
             years = list(range(2023,2014,-1))
@@ -57,8 +60,12 @@ def scrape_data():
             href_squad = [link for link in href if '/squads/' in link]
             team_urls = [f'https://fbref.com{link}' for link in href_squad]
 
-            previous_season = soup.select("a.prev")[0].get("href")
-            standings_url = f'https://fbref.com{previous_season}'
+            try:
+                previous_season = soup.select("a.prev")[0].get("href")
+                standings_url = f'https://fbref.com{previous_season}'
+            except IndexError:
+                previous_season = ""
+                standings_url = ""
 
             for team_url in team_urls:
                 team_name = team_url.split('/')[-1].replace('-Stats', '').replace('-', ' ')

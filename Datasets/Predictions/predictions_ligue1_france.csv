@@ -1,0 +1,518 @@
+Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
+2023-09-17,15:00,Brest,Reims,L,W
+2023-09-23,21:00,Brest,Lyon,W,L
+2023-10-01,15:00,Brest,Nice,W,W
+2023-10-08,,Brest,Toulouse,W,L
+2023-10-22,,Brest,Lille,W,W
+2023-11-05,,Brest,Monaco,W,W
+2023-11-12,,Brest,Strasbourg,W,W
+2023-11-26,,Brest,Montpellier,W,W
+2023-12-03,,Brest,Clermont Foot,W,W
+2023-12-10,,Brest,Metz,W,W
+2023-12-17,,Brest,Nantes,W,W
+2023-12-20,,Brest,Lorient,W,W
+2024-01-13,,Brest,Montpellier,W,W
+2024-02-04,,Brest,Nice,W,W
+2024-02-11,,Brest,Clermont Foot,W,W
+2024-02-18,,Brest,Marseille,W,W
+2024-02-25,,Brest,Strasbourg,W,W
+2024-03-03,,Brest,Le Havre,W,W
+2024-03-10,,Brest,Lens,W,W
+2024-03-17,,Brest,Lille,W,W
+2024-03-31,,Brest,Lorient,W,W
+2024-04-07,,Brest,Metz,W,W
+2024-04-14,,Brest,Lyon,W,W
+2024-04-21,,Brest,Monaco,W,W
+2024-04-28,,Brest,Rennes,W,W
+2024-05-03,,Brest,Nantes,W,W
+2024-05-11,21:00,Brest,Reims,W,W
+2024-05-18,21:00,Brest,Toulouse,W,W
+2023-09-03,13:00,Clermont Foot,Toulouse,L,W
+2023-09-17,15:00,Clermont Foot,Nantes,W,D
+2023-09-24,15:00,Clermont Foot,Le Havre,W,W
+2023-10-08,,Clermont Foot,Montpellier,W,W
+2023-10-22,,Clermont Foot,Lyon,W,W
+2023-10-29,,Clermont Foot,Nice,W,W
+2023-11-05,,Clermont Foot,Strasbourg,W,W
+2023-11-12,,Clermont Foot,Lorient,W,W
+2023-11-26,,Clermont Foot,Lens,W,W
+2023-12-03,,Clermont Foot,Brest,W,W
+2023-12-10,,Clermont Foot,Lille,W,W
+2023-12-17,,Clermont Foot,Marseille,W,W
+2023-12-20,,Clermont Foot,Rennes,W,W
+2024-01-13,,Clermont Foot,Nantes,W,W
+2024-01-28,,Clermont Foot,Strasbourg,W,W
+2024-02-04,,Clermont Foot,Lille,W,W
+2024-02-11,,Clermont Foot,Brest,W,W
+2024-02-18,,Clermont Foot,Rennes,W,W
+2024-02-25,,Clermont Foot,Nice,W,W
+2024-03-03,,Clermont Foot,Marseille,W,W
+2024-03-10,,Clermont Foot,Metz,W,W
+2024-03-17,,Clermont Foot,Le Havre,W,W
+2024-03-31,,Clermont Foot,Toulouse,W,W
+2024-04-14,,Clermont Foot,Montpellier,W,W
+2024-04-21,,Clermont Foot,Lens,W,W
+2024-04-28,,Clermont Foot,Reims,W,W
+2024-05-03,,Clermont Foot,Monaco,W,W
+2024-05-11,21:00,Clermont Foot,Lyon,W,W
+2024-05-18,21:00,Clermont Foot,Lorient,W,W
+2023-09-24,15:00,Le Havre,Clermont Foot,W,W
+2023-10-01,15:00,Le Havre,Lille,W,W
+2023-10-08,,Le Havre,Marseille,W,W
+2023-10-22,,Le Havre,Lens,W,W
+2023-10-29,,Le Havre,Metz,W,W
+2023-11-05,,Le Havre,Toulouse,W,W
+2023-11-12,,Le Havre,Monaco,W,W
+2023-11-26,,Le Havre,Nantes,W,W
+2023-12-10,,Le Havre,Strasbourg,W,W
+2023-12-17,,Le Havre,Nice,W,W
+2023-12-20,,Le Havre,Reims,W,W
+2024-01-13,,Le Havre,Lyon,W,W
+2024-01-28,,Le Havre,Lorient,W,W
+2024-02-04,,Le Havre,Monaco,W,W
+2024-02-11,,Le Havre,Rennes,W,W
+2024-02-18,,Le Havre,Lille,W,W
+2024-02-25,,Le Havre,Reims,W,W
+2024-03-03,,Le Havre,Brest,W,W
+2024-03-10,,Le Havre,Toulouse,W,W
+2024-03-17,,Le Havre,Clermont Foot,W,W
+2024-03-31,,Le Havre,Montpellier,W,W
+2024-04-07,,Le Havre,Lens,W,W
+2024-04-14,,Le Havre,Nantes,W,W
+2024-04-21,,Le Havre,Metz,W,W
+2024-05-03,,Le Havre,Strasbourg,W,W
+2024-05-11,21:00,Le Havre,Nice,W,W
+2024-05-18,21:00,Le Havre,Marseille,W,W
+2023-09-16,21:00,Lens,Metz,L,L
+2023-09-24,15:00,Lens,Toulouse,W,L
+2023-09-29,21:00,Lens,Strasbourg,W,L
+2023-10-08,,Lens,Lille,W,W
+2023-10-22,,Lens,Le Havre,W,W
+2023-10-29,,Lens,Nantes,W,W
+2023-11-05,,Lens,Lorient,W,W
+2023-11-12,,Lens,Marseille,W,W
+2023-11-26,,Lens,Clermont Foot,W,W
+2023-12-03,,Lens,Lyon,W,W
+2023-12-10,,Lens,Montpellier,W,W
+2023-12-17,,Lens,Reims,W,W
+2023-12-20,,Lens,Nice,W,W
+2024-01-28,,Lens,Toulouse,W,W
+2024-02-04,,Lens,Nantes,W,W
+2024-02-11,,Lens,Strasbourg,W,W
+2024-02-18,,Lens,Reims,W,W
+2024-02-25,,Lens,Monaco,W,W
+2024-03-03,,Lens,Lyon,W,W
+2024-03-10,,Lens,Brest,W,W
+2024-03-17,,Lens,Nice,W,W
+2024-03-31,,Lens,Lille,W,W
+2024-04-07,,Lens,Le Havre,W,W
+2024-04-14,,Lens,Metz,W,W
+2024-04-21,,Lens,Clermont Foot,W,W
+2024-04-28,,Lens,Marseille,W,W
+2024-05-03,,Lens,Lorient,W,W
+2024-05-11,21:00,Lens,Rennes,W,W
+2024-05-18,21:00,Lens,Montpellier,W,W
+2023-09-03,15:00,Lille,Montpellier,W,W
+2023-09-16,17:00,Lille,Rennes,L,W
+2023-09-26,21:00,Lille,Reims,W,L
+2023-10-01,15:00,Lille,Le Havre,W,W
+2023-10-08,,Lille,Lens,W,W
+2023-10-22,,Lille,Brest,W,W
+2023-10-29,,Lille,Monaco,W,W
+2023-11-05,,Lille,Marseille,W,W
+2023-11-12,,Lille,Toulouse,W,W
+2023-11-26,,Lille,Lyon,W,W
+2023-12-03,,Lille,Metz,W,W
+2023-12-10,,Lille,Clermont Foot,W,W
+2023-12-20,,Lille,Strasbourg,W,W
+2024-01-13,,Lille,Lorient,W,W
+2024-01-28,,Lille,Montpellier,W,W
+2024-02-04,,Lille,Clermont Foot,W,W
+2024-02-18,,Lille,Le Havre,W,W
+2024-02-25,,Lille,Toulouse,W,W
+2024-03-03,,Lille,Reims,W,W
+2024-03-10,,Lille,Rennes,W,W
+2024-03-17,,Lille,Brest,W,W
+2024-03-31,,Lille,Lens,W,W
+2024-04-07,,Lille,Marseille,W,W
+2024-04-14,,Lille,Monaco,W,W
+2024-04-21,,Lille,Strasbourg,W,W
+2024-04-28,,Lille,Metz,W,W
+2024-05-03,,Lille,Lyon,W,W
+2024-05-11,21:00,Lille,Nantes,W,W
+2024-05-18,21:00,Lille,Nice,W,W
+2023-09-17,13:00,Lorient,Monaco,L,W
+2023-09-23,17:00,Lorient,Nantes,L,W
+2023-10-01,17:05,Lorient,Montpellier,W,W
+2023-10-08,,Lorient,Lyon,L,W
+2023-10-22,,Lorient,Rennes,W,W
+2023-10-29,,Lorient,Reims,W,W
+2023-11-05,,Lorient,Lens,W,W
+2023-11-12,,Lorient,Clermont Foot,W,W
+2023-11-26,,Lorient,Metz,W,W
+2023-12-03,,Lorient,Toulouse,W,W
+2023-12-10,,Lorient,Marseille,W,W
+2023-12-17,,Lorient,Strasbourg,W,W
+2023-12-20,,Lorient,Brest,W,W
+2024-01-13,,Lorient,Lille,W,W
+2024-01-28,,Lorient,Le Havre,W,W
+2024-02-04,,Lorient,Metz,W,W
+2024-02-11,,Lorient,Reims,W,W
+2024-02-18,,Lorient,Strasbourg,W,W
+2024-02-25,,Lorient,Nantes,W,W
+2024-03-03,,Lorient,Rennes,W,W
+2024-03-10,,Lorient,Lyon,W,W
+2024-03-17,,Lorient,Monaco,W,W
+2024-03-31,,Lorient,Brest,W,W
+2024-04-07,,Lorient,Montpellier,W,W
+2024-04-21,,Lorient,Nice,W,W
+2024-04-28,,Lorient,Toulouse,W,W
+2024-05-03,,Lorient,Lens,W,W
+2024-05-11,21:00,Lorient,Marseille,W,W
+2024-05-18,21:00,Lorient,Clermont Foot,W,W
+2023-09-23,21:00,Lyon,Brest,L,W
+2023-10-01,13:00,Lyon,Reims,L,W
+2023-10-08,,Lyon,Lorient,W,L
+2023-10-22,,Lyon,Clermont Foot,W,W
+2023-10-29,,Lyon,Marseille,W,W
+2023-11-05,,Lyon,Metz,W,W
+2023-11-12,,Lyon,Rennes,W,W
+2023-11-26,,Lyon,Lille,W,W
+2023-12-03,,Lyon,Lens,W,W
+2023-12-10,,Lyon,Toulouse,W,W
+2023-12-17,,Lyon,Monaco,W,W
+2023-12-20,,Lyon,Nantes,W,W
+2024-01-13,,Lyon,Le Havre,W,W
+2024-01-28,,Lyon,Rennes,W,W
+2024-02-04,,Lyon,Marseille,W,W
+2024-02-11,,Lyon,Montpellier,W,W
+2024-02-18,,Lyon,Nice,W,W
+2024-02-25,,Lyon,Metz,W,W
+2024-03-03,,Lyon,Lens,W,W
+2024-03-10,,Lyon,Lorient,W,W
+2024-03-17,,Lyon,Toulouse,W,W
+2024-03-31,,Lyon,Reims,W,W
+2024-04-07,,Lyon,Nantes,W,W
+2024-04-14,,Lyon,Brest,W,W
+2024-04-28,,Lyon,Monaco,W,W
+2024-05-03,,Lyon,Lille,W,W
+2024-05-11,21:00,Lyon,Clermont Foot,W,W
+2024-05-18,21:00,Lyon,Strasbourg,W,W
+2023-09-17,17:05,Marseille,Toulouse,W,L
+2023-09-30,21:00,Marseille,Monaco,W,W
+2023-10-08,,Marseille,Le Havre,W,W
+2023-10-22,,Marseille,Nice,W,W
+2023-10-29,,Marseille,Lyon,W,W
+2023-11-05,,Marseille,Lille,W,W
+2023-11-12,,Marseille,Lens,W,W
+2023-11-26,,Marseille,Strasbourg,W,W
+2023-12-03,,Marseille,Rennes,W,W
+2023-12-10,,Marseille,Lorient,W,W
+2023-12-17,,Marseille,Clermont Foot,W,W
+2023-12-20,,Marseille,Montpellier,W,W
+2024-01-13,,Marseille,Strasbourg,W,W
+2024-01-28,,Marseille,Monaco,W,W
+2024-02-04,,Marseille,Lyon,W,W
+2024-02-11,,Marseille,Metz,W,W
+2024-02-18,,Marseille,Brest,W,W
+2024-02-25,,Marseille,Montpellier,W,W
+2024-03-03,,Marseille,Clermont Foot,W,W
+2024-03-10,,Marseille,Nantes,W,W
+2024-03-17,,Marseille,Rennes,W,W
+2024-04-07,,Marseille,Lille,W,W
+2024-04-14,,Marseille,Nice,W,W
+2024-04-21,,Marseille,Toulouse,W,W
+2024-04-28,,Marseille,Lens,W,W
+2024-05-03,,Marseille,Reims,W,W
+2024-05-11,21:00,Marseille,Lorient,W,W
+2024-05-18,21:00,Marseille,Le Havre,W,W
+2023-09-03,15:00,Metz,Reims,L,L
+2023-09-16,21:00,Metz,Lens,L,L
+2023-09-24,13:00,Metz,Strasbourg,W,L
+2023-10-01,15:00,Metz,Toulouse,W,W
+2023-10-08,,Metz,Nice,W,W
+2023-10-22,,Metz,Monaco,W,W
+2023-10-29,,Metz,Le Havre,W,W
+2023-11-05,,Metz,Lyon,W,W
+2023-11-12,,Metz,Nantes,W,W
+2023-11-26,,Metz,Lorient,W,W
+2023-12-03,,Metz,Lille,W,W
+2023-12-10,,Metz,Brest,W,W
+2023-12-17,,Metz,Montpellier,W,W
+2024-01-13,,Metz,Toulouse,W,W
+2024-01-28,,Metz,Nice,W,W
+2024-02-04,,Metz,Lorient,W,W
+2024-02-11,,Metz,Marseille,W,W
+2024-02-18,,Metz,Montpellier,W,W
+2024-02-25,,Metz,Lyon,W,W
+2024-03-03,,Metz,Nantes,W,W
+2024-03-10,,Metz,Clermont Foot,W,W
+2024-03-17,,Metz,Reims,W,W
+2024-03-31,,Metz,Monaco,W,W
+2024-04-07,,Metz,Brest,W,W
+2024-04-14,,Metz,Lens,W,W
+2024-04-21,,Metz,Le Havre,W,W
+2024-04-28,,Metz,Lille,W,W
+2024-05-03,,Metz,Rennes,W,W
+2024-05-11,21:00,Metz,Strasbourg,W,W
+2023-09-17,13:00,Monaco,Lorient,W,L
+2023-09-22,21:00,Monaco,Nice,W,W
+2023-09-30,21:00,Monaco,Marseille,W,W
+2023-10-08,,Monaco,Reims,W,W
+2023-10-22,,Monaco,Metz,W,W
+2023-10-29,,Monaco,Lille,W,W
+2023-11-05,,Monaco,Brest,W,W
+2023-11-12,,Monaco,Le Havre,W,W
+2023-12-03,,Monaco,Montpellier,W,W
+2023-12-10,,Monaco,Rennes,W,W
+2023-12-17,,Monaco,Lyon,W,W
+2023-12-20,,Monaco,Toulouse,W,W
+2024-01-13,,Monaco,Reims,W,W
+2024-01-28,,Monaco,Marseille,W,W
+2024-02-04,,Monaco,Le Havre,W,W
+2024-02-11,,Monaco,Nice,W,W
+2024-02-18,,Monaco,Toulouse,W,W
+2024-02-25,,Monaco,Lens,W,W
+2024-03-10,,Monaco,Strasbourg,W,W
+2024-03-17,,Monaco,Lorient,W,W
+2024-03-31,,Monaco,Metz,W,W
+2024-04-07,,Monaco,Rennes,W,W
+2024-04-14,,Monaco,Lille,W,W
+2024-04-21,,Monaco,Brest,W,W
+2024-04-28,,Monaco,Lyon,W,W
+2024-05-03,,Monaco,Clermont Foot,W,W
+2024-05-11,21:00,Monaco,Montpellier,W,W
+2024-05-18,21:00,Monaco,Nantes,W,W
+2023-09-03,15:00,Montpellier,Lille,W,W
+2023-09-17,15:00,Montpellier,Strasbourg,D,L
+2023-09-24,17:05,Montpellier,Rennes,W,W
+2023-10-01,17:05,Montpellier,Lorient,W,W
+2023-10-08,,Montpellier,Clermont Foot,W,W
+2023-10-22,,Montpellier,Nantes,W,W
+2023-10-29,,Montpellier,Toulouse,W,W
+2023-11-12,,Montpellier,Nice,W,W
+2023-11-26,,Montpellier,Brest,W,W
+2023-12-03,,Montpellier,Monaco,W,W
+2023-12-10,,Montpellier,Lens,W,W
+2023-12-17,,Montpellier,Metz,W,W
+2023-12-20,,Montpellier,Marseille,W,W
+2024-01-13,,Montpellier,Brest,W,W
+2024-01-28,,Montpellier,Lille,W,W
+2024-02-04,,Montpellier,Rennes,W,W
+2024-02-11,,Montpellier,Lyon,W,W
+2024-02-18,,Montpellier,Metz,W,W
+2024-02-25,,Montpellier,Marseille,W,W
+2024-03-03,,Montpellier,Strasbourg,W,W
+2024-03-10,,Montpellier,Nice,W,W
+2024-03-31,,Montpellier,Le Havre,W,W
+2024-04-07,,Montpellier,Lorient,W,W
+2024-04-14,,Montpellier,Clermont Foot,W,W
+2024-04-21,,Montpellier,Reims,W,W
+2024-04-28,,Montpellier,Nantes,W,W
+2024-05-03,,Montpellier,Toulouse,W,W
+2024-05-11,21:00,Montpellier,Monaco,W,W
+2024-05-18,21:00,Montpellier,Lens,W,W
+2023-09-17,15:00,Nantes,Clermont Foot,D,W
+2023-09-23,17:00,Nantes,Lorient,W,L
+2023-10-01,20:45,Nantes,Rennes,W,W
+2023-10-08,,Nantes,Strasbourg,L,W
+2023-10-22,,Nantes,Montpellier,W,W
+2023-10-29,,Nantes,Lens,W,W
+2023-11-05,,Nantes,Reims,W,W
+2023-11-12,,Nantes,Metz,W,W
+2023-11-26,,Nantes,Le Havre,W,W
+2023-12-03,,Nantes,Nice,W,W
+2023-12-17,,Nantes,Brest,W,W
+2023-12-20,,Nantes,Lyon,W,W
+2024-01-13,,Nantes,Clermont Foot,W,W
+2024-01-28,,Nantes,Reims,W,W
+2024-02-04,,Nantes,Lens,W,W
+2024-02-11,,Nantes,Toulouse,W,W
+2024-02-25,,Nantes,Lorient,W,W
+2024-03-03,,Nantes,Metz,W,W
+2024-03-10,,Nantes,Marseille,W,W
+2024-03-17,,Nantes,Strasbourg,W,W
+2024-03-31,,Nantes,Nice,W,W
+2024-04-07,,Nantes,Lyon,W,W
+2024-04-14,,Nantes,Le Havre,W,W
+2024-04-21,,Nantes,Rennes,W,W
+2024-04-28,,Nantes,Montpellier,W,W
+2024-05-03,,Nantes,Brest,W,W
+2024-05-11,21:00,Nantes,Lille,W,W
+2024-05-18,21:00,Nantes,Monaco,W,W
+2023-09-03,17:05,Nice,Strasbourg,W,L
+2023-09-22,21:00,Nice,Monaco,W,W
+2023-10-01,15:00,Nice,Brest,W,W
+2023-10-08,,Nice,Metz,W,W
+2023-10-22,,Nice,Marseille,W,W
+2023-10-29,,Nice,Clermont Foot,W,W
+2023-11-05,,Nice,Rennes,W,W
+2023-11-12,,Nice,Montpellier,W,W
+2023-11-26,,Nice,Toulouse,W,W
+2023-12-03,,Nice,Nantes,W,W
+2023-12-10,,Nice,Reims,W,W
+2023-12-17,,Nice,Le Havre,W,W
+2023-12-20,,Nice,Lens,W,W
+2024-01-13,,Nice,Rennes,W,W
+2024-01-28,,Nice,Metz,W,W
+2024-02-04,,Nice,Brest,W,W
+2024-02-11,,Nice,Monaco,W,W
+2024-02-18,,Nice,Lyon,W,W
+2024-02-25,,Nice,Clermont Foot,W,W
+2024-03-03,,Nice,Toulouse,W,W
+2024-03-10,,Nice,Montpellier,W,W
+2024-03-17,,Nice,Lens,W,W
+2024-03-31,,Nice,Nantes,W,W
+2024-04-07,,Nice,Reims,W,W
+2024-04-14,,Nice,Marseille,W,W
+2024-04-21,,Nice,Lorient,W,W
+2024-04-28,,Nice,Strasbourg,W,W
+2024-05-11,21:00,Nice,Le Havre,W,W
+2024-05-18,21:00,Nice,Lille,W,W
+2023-09-03,20:45,Paris Saint Germain,Lyon,L,L
+2023-09-15,21:00,Paris Saint Germain,Nice,W,L
+2023-09-24,20:45,Paris Saint Germain,Marseille,W,W
+2023-09-30,17:00,Paris Saint Germain,Clermont Foot,W,W
+2023-10-08,20:45,Paris Saint Germain,Rennes,W,W
+2023-10-22,,Paris Saint Germain,Strasbourg,W,L
+2023-10-29,,Paris Saint Germain,Brest,W,W
+2023-11-05,,Paris Saint Germain,Montpellier,W,W
+2023-11-12,,Paris Saint Germain,Reims,W,W
+2023-11-26,,Paris Saint Germain,Monaco,W,W
+2023-12-03,,Paris Saint Germain,Le Havre,W,W
+2023-12-10,,Paris Saint Germain,Nantes,W,W
+2023-12-17,,Paris Saint Germain,Lille,W,W
+2023-12-20,,Paris Saint Germain,Metz,W,W
+2024-01-14,,Paris Saint Germain,Lens,W,W
+2024-01-28,,Paris Saint Germain,Brest,W,W
+2024-02-04,,Paris Saint Germain,Strasbourg,W,W
+2024-02-11,,Paris Saint Germain,Lille,W,W
+2024-02-18,,Paris Saint Germain,Nantes,W,W
+2024-02-25,,Paris Saint Germain,Rennes,W,W
+2024-03-03,,Paris Saint Germain,Monaco,W,W
+2024-03-10,,Paris Saint Germain,Reims,W,W
+2024-03-17,,Paris Saint Germain,Montpellier,W,W
+2024-03-31,,Paris Saint Germain,Marseille,W,W
+2024-04-07,,Paris Saint Germain,Clermont Foot,W,W
+2024-04-14,,Paris Saint Germain,Lorient,W,W
+2024-04-21,,Paris Saint Germain,Lyon,W,W
+2024-04-28,,Paris Saint Germain,Le Havre,W,W
+2024-05-03,,Paris Saint Germain,Nice,W,W
+2024-05-11,21:00,Paris Saint Germain,Toulouse,W,W
+2024-05-18,21:00,Paris Saint Germain,Metz,W,W
+2023-09-03,15:00,Reims,Metz,L,L
+2023-09-17,15:00,Reims,Brest,W,L
+2023-09-26,21:00,Reims,Lille,L,W
+2023-10-01,13:00,Reims,Lyon,W,L
+2023-10-08,,Reims,Monaco,W,W
+2023-10-22,,Reims,Toulouse,W,W
+2023-10-29,,Reims,Lorient,W,W
+2023-11-05,,Reims,Nantes,W,W
+2023-11-26,,Reims,Rennes,W,W
+2023-12-03,,Reims,Strasbourg,W,W
+2023-12-10,,Reims,Nice,W,W
+2023-12-17,,Reims,Lens,W,W
+2023-12-20,,Reims,Le Havre,W,W
+2024-01-13,,Reims,Monaco,W,W
+2024-01-28,,Reims,Nantes,W,W
+2024-02-04,,Reims,Toulouse,W,W
+2024-02-11,,Reims,Lorient,W,W
+2024-02-18,,Reims,Lens,W,W
+2024-02-25,,Reims,Le Havre,W,W
+2024-03-03,,Reims,Lille,W,W
+2024-03-17,,Reims,Metz,W,W
+2024-03-31,,Reims,Lyon,W,W
+2024-04-07,,Reims,Nice,W,W
+2024-04-14,,Reims,Strasbourg,W,W
+2024-04-21,,Reims,Montpellier,W,W
+2024-04-28,,Reims,Clermont Foot,W,W
+2024-05-03,,Reims,Marseille,W,W
+2024-05-11,21:00,Reims,Brest,W,W
+2024-05-18,21:00,Reims,Rennes,W,W
+2023-09-16,17:00,Rennes,Lille,W,L
+2023-09-24,17:05,Rennes,Montpellier,W,W
+2023-10-01,20:45,Rennes,Nantes,W,W
+2023-10-22,,Rennes,Lorient,W,W
+2023-10-29,,Rennes,Strasbourg,W,W
+2023-11-05,,Rennes,Nice,W,W
+2023-11-12,,Rennes,Lyon,W,W
+2023-11-26,,Rennes,Reims,W,W
+2023-12-03,,Rennes,Marseille,W,W
+2023-12-10,,Rennes,Monaco,W,W
+2023-12-17,,Rennes,Toulouse,W,W
+2023-12-20,,Rennes,Clermont Foot,W,W
+2024-01-13,,Rennes,Nice,W,W
+2024-01-28,,Rennes,Lyon,W,W
+2024-02-04,,Rennes,Montpellier,W,W
+2024-02-11,,Rennes,Le Havre,W,W
+2024-02-18,,Rennes,Clermont Foot,W,W
+2024-03-03,,Rennes,Lorient,W,W
+2024-03-10,,Rennes,Lille,W,W
+2024-03-17,,Rennes,Marseille,W,W
+2024-03-31,,Rennes,Strasbourg,W,W
+2024-04-07,,Rennes,Monaco,W,W
+2024-04-14,,Rennes,Toulouse,W,W
+2024-04-21,,Rennes,Nantes,W,W
+2024-04-28,,Rennes,Brest,W,W
+2024-05-03,,Rennes,Metz,W,W
+2024-05-11,21:00,Rennes,Lens,W,W
+2024-05-18,21:00,Rennes,Reims,W,W
+2023-09-03,17:05,Strasbourg,Nice,L,W
+2023-09-17,15:00,Strasbourg,Montpellier,L,D
+2023-09-24,13:00,Strasbourg,Metz,L,W
+2023-09-29,21:00,Strasbourg,Lens,L,W
+2023-10-08,,Strasbourg,Nantes,W,L
+2023-10-29,,Strasbourg,Rennes,W,W
+2023-11-05,,Strasbourg,Clermont Foot,W,W
+2023-11-12,,Strasbourg,Brest,W,W
+2023-11-26,,Strasbourg,Marseille,W,W
+2023-12-03,,Strasbourg,Reims,W,W
+2023-12-10,,Strasbourg,Le Havre,W,W
+2023-12-17,,Strasbourg,Lorient,W,W
+2023-12-20,,Strasbourg,Lille,W,W
+2024-01-13,,Strasbourg,Marseille,W,W
+2024-01-28,,Strasbourg,Clermont Foot,W,W
+2024-02-11,,Strasbourg,Lens,W,W
+2024-02-18,,Strasbourg,Lorient,W,W
+2024-02-25,,Strasbourg,Brest,W,W
+2024-03-03,,Strasbourg,Montpellier,W,W
+2024-03-10,,Strasbourg,Monaco,W,W
+2024-03-17,,Strasbourg,Nantes,W,W
+2024-03-31,,Strasbourg,Rennes,W,W
+2024-04-07,,Strasbourg,Toulouse,W,W
+2024-04-14,,Strasbourg,Reims,W,W
+2024-04-21,,Strasbourg,Lille,W,W
+2024-04-28,,Strasbourg,Nice,W,W
+2024-05-03,,Strasbourg,Le Havre,W,W
+2024-05-11,21:00,Strasbourg,Metz,W,W
+2024-05-18,21:00,Strasbourg,Lyon,W,W
+2023-09-03,13:00,Toulouse,Clermont Foot,W,L
+2023-09-17,17:05,Toulouse,Marseille,L,W
+2023-09-24,15:00,Toulouse,Lens,L,W
+2023-10-01,15:00,Toulouse,Metz,W,W
+2023-10-08,,Toulouse,Brest,L,W
+2023-10-22,,Toulouse,Reims,W,W
+2023-10-29,,Toulouse,Montpellier,W,W
+2023-11-05,,Toulouse,Le Havre,W,W
+2023-11-12,,Toulouse,Lille,W,W
+2023-11-26,,Toulouse,Nice,W,W
+2023-12-03,,Toulouse,Lorient,W,W
+2023-12-10,,Toulouse,Lyon,W,W
+2023-12-17,,Toulouse,Rennes,W,W
+2023-12-20,,Toulouse,Monaco,W,W
+2024-01-13,,Toulouse,Metz,W,W
+2024-01-28,,Toulouse,Lens,W,W
+2024-02-04,,Toulouse,Reims,W,W
+2024-02-11,,Toulouse,Nantes,W,W
+2024-02-18,,Toulouse,Monaco,W,W
+2024-02-25,,Toulouse,Lille,W,W
+2024-03-03,,Toulouse,Nice,W,W
+2024-03-10,,Toulouse,Le Havre,W,W
+2024-03-17,,Toulouse,Lyon,W,W
+2024-03-31,,Toulouse,Clermont Foot,W,W
+2024-04-07,,Toulouse,Strasbourg,W,W
+2024-04-14,,Toulouse,Rennes,W,W
+2024-04-21,,Toulouse,Marseille,W,W
+2024-04-28,,Toulouse,Lorient,W,W
+2024-05-03,,Toulouse,Montpellier,W,W
+2024-05-18,21:00,Toulouse,Brest,W,W

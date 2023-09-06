@@ -1,38 +1,4 @@
 ,date,time,comp,round,day,venue,result,gf,ga,opponent,poss,attendance,captain,formation,referee,match report,notes,dist,g/sh,g/sot,gls,pk,pkatt,sh,sot,sot%,year,team
-0,2023-02-17,19:00,J1 League,Matchweek 1,Fri,Away,W,2.0,1.0,Kawa Frontale,34.0,22563.0,Takuya Kida,4-2-3-1,Yudai Yamamoto,Match Report,,,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,2023,Yokohama F Marinos
-1,2023-02-25,14:00,J1 League,Matchweek 2,Sat,Home,W,2.0,0.0,Urawa Reds,58.0,34035.0,Takuya Kida,4-3-3,Akihiko Ikeuchi,Match Report,,,0.14,0.4,2.0,0.0,0.0,14.0,5.0,35.7,2023,Yokohama F Marinos
-2,2023-03-03,19:00,J1 League,Matchweek 3,Fri,Home,D,1.0,1.0,Sanfrecce,57.0,10854.0,Takuya Kida,4-2-3-1,Futoshi Nakamura,Match Report,,,0.11,0.2,1.0,0.0,0.0,9.0,5.0,55.6,2023,Yokohama F Marinos
-3,2023-03-12,15:00,J1 League,Matchweek 4,Sun,Away,L,0.0,2.0,Consa Sapporo,64.0,17059.0,Takuya Kida,4-2-3-1,Koichiro Fukushima,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,2.0,22.2,2023,Yokohama F Marinos
-4,2023-03-18,14:00,J1 League,Matchweek 5,Sat,Home,W,2.0,1.0,Kashima Antlers,57.0,28478.0,Takuya Kida,4-3-3,Ryo Tanimoto,Match Report,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,2023,Yokohama F Marinos
-5,2023-04-01,16:00,J1 League,Matchweek 6,Sat,Away,L,1.0,2.0,Cerezo Osaka,66.0,18955.0,Takuya Kida,4-2-3-1,Jumpei Iida,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,2023,Yokohama F Marinos
-6,2023-04-08,19:00,J1 League,Matchweek 7,Sat,Home,W,5.0,0.0,Yokohama FC,56.0,25238.0,Takuya Kida,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.33,0.63,5.0,0.0,0.0,15.0,8.0,53.3,2023,Yokohama F Marinos
-7,2023-04-15,15:00,J1 League,Matchweek 8,Sat,Away,D,1.0,1.0,Shonan Bellmare,59.0,9355.0,Takuya Kida,4-2-3-1,Masuya Ueda,Match Report,,,0.06,0.11,1.0,0.0,0.0,16.0,9.0,56.3,2023,Yokohama F Marinos
-8,2023-04-22,19:00,J1 League,Matchweek 9,Sat,Away,W,3.0,2.0,Vissel Kobe,59.0,22164.0,Takuya Kida,4-2-3-1,Yoshirō Imamura,Match Report,,,0.23,0.75,3.0,0.0,0.0,13.0,4.0,30.8,2023,Yokohama F Marinos
-9,2023-04-29,15:00,J1 League,Matchweek 10,Sat,Home,D,1.0,1.0,Grampus,67.0,33048.0,Takuya Kida,4-2-3-1,Yoshimi Yamashita,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Yokohama F Marinos
-10,2023-05-03,15:00,J1 League,Matchweek 11,Wed,Away,W,3.0,1.0,Sagan Tosu,50.0,11354.0,Takuya Kida,4-3-3,Hayato Shimizu,Match Report,,,0.21,0.75,3.0,0.0,0.0,14.0,4.0,28.6,2023,Yokohama F Marinos
-11,2023-05-07,14:00,J1 League,Matchweek 12,Sun,Home,W,4.0,1.0,Kyoto Sanga,59.0,22160.0,Dudu,4-2-3-1,Masuya Ueda,Match Report,,,0.21,0.75,3.0,0.0,0.0,14.0,4.0,28.6,2023,Yokohama F Marinos
-12,2023-05-14,13:30,J1 League,Matchweek 13,Sun,Away,L,1.0,2.0,Albirex Niigata,53.0,24501.0,Shinnosuke Hatanaka,4-2-3-1,Koichiro Fukushima,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Yokohama F Marinos
-13,2023-05-20,19:00,J1 League,Matchweek 14,Sat,Away,W,2.0,0.0,Gamba Osaka,58.0,19823.0,Takuya Kida,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.2,0.4,2.0,0.0,0.0,10.0,5.0,50.0,2023,Yokohama F Marinos
-14,2023-05-28,14:00,J1 League,Matchweek 15,Sun,Home,W,2.0,0.0,Avispa Fukuoka,68.0,26115.0,Takuya Kida,4-2-3-1,Yoshimi Yamashita,Match Report,,,0.11,0.25,2.0,0.0,0.0,18.0,8.0,44.4,2023,Yokohama F Marinos
-15,2023-06-03,15:00,J1 League,Matchweek 16,Sat,Away,W,3.0,2.0,FC Tokyo,62.0,28553.0,Takuya Kida,4-2-3-1,Hayato Shimizu,Match Report,,,0.19,0.43,3.0,0.0,0.0,16.0,7.0,43.8,2023,Yokohama F Marinos
-16,2023-06-10,16:00,J1 League,Matchweek 17,Sat,Home,W,4.0,3.0,Kashiwa Reysol,64.0,26946.0,Takuya Kida,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.2,0.75,4.0,1.0,1.0,15.0,4.0,26.7,2023,Yokohama F Marinos
-17,2023-06-24,19:00,J1 League,Matchweek 18,Sat,Away,W,1.0,0.0,Sanfrecce,56.0,15163.0,Takuya Kida,4-2-3-1,Jumpei Iida,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Yokohama F Marinos
-18,2023-07-02,19:00,J1 League,Matchweek 19,Sun,Home,W,4.0,1.0,Shonan Bellmare,55.0,21160.0,Dudu,4-2-3-1,Futoshi Nakamura,Match Report,,,0.19,0.31,4.0,0.0,0.0,21.0,13.0,61.9,2023,Yokohama F Marinos
-19,2023-07-08,18:00,J1 League,Matchweek 20,Sat,Away,D,2.0,2.0,Grampus,59.0,29743.0,Dudu,4-2-3-1,Yūsuke Araki,Match Report,,,0.13,0.4,2.0,0.0,0.0,16.0,5.0,31.3,2023,Yokohama F Marinos
-20,2023-07-15,19:00,J1 League,Matchweek 21,Sat,Home,L,0.0,1.0,Kawa Frontale,57.0,42772.0,Dudu,4-2-3-1,Khamis Mohammed Al Marri,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,5.0,35.7,2023,Yokohama F Marinos
-21,2023-08-06,19:00,J1 League,Matchweek 22,Sun,Away,D,0.0,0.0,Urawa Reds,56.0,42664.0,Takuya Kida,4-3-3,Hiroyuki Kimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,2023,Yokohama F Marinos
-22,2023-08-12,19:30,J1 League,Matchweek 23,Sat,Home,W,2.0,1.0,Gamba Osaka,44.0,33261.0,Takuya Kida,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.06,0.33,2.0,1.0,1.0,18.0,3.0,16.7,2023,Yokohama F Marinos
-23,2023-08-19,19:30,J1 League,Matchweek 24,Sat,Home,W,2.0,1.0,FC Tokyo,64.0,33701.0,Takuya Kida,4-2-3-1,Jumpei Iida,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Yokohama F Marinos
-24,2023-08-26,18:30,J1 League,Matchweek 25,Sat,Away,L,1.0,4.0,Yokohama FC,74.0,13321.0,Takuya Kida,4-2-3-1,Yuichi Nishimura,Match Report,,,0.06,0.17,1.0,0.0,0.0,17.0,6.0,35.3,2023,Yokohama F Marinos
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,0.13,0.34,46.0,2.0,2.0,338.0,129.0,38.2,2023,Yokohama F Marinos
-26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Home,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-27,2023-09-24,15:00,J1 League,Matchweek 28,Sun,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-28,2023-09-29,19:00,J1 League,Matchweek 29,Fri,Home,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Home,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-30,2023-10-28,14:00,J1 League,Matchweek 31,Sat,Away,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
-33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
 0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,W,1.0,0.0,Avispa Fukuoka,56.0,18981.0,Hotaru Yamaguchi,4-3-3,Yoshirō Imamura,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Vissel Kobe
 1,2023-02-25,15:00,J1 League,Matchweek 2,Sat,Away,W,3.0,1.0,Consa Sapporo,37.0,17078.0,Hotaru Yamaguchi,4-3-3,Kōei Koya,Match Report,,,0.16,0.33,3.0,0.0,0.0,19.0,9.0,47.4,2023,Vissel Kobe
 2,2023-03-04,14:00,J1 League,Matchweek 3,Sat,Home,W,4.0,0.0,Gamba Osaka,38.0,17781.0,Hotaru Yamaguchi,4-3-3,Masuya Ueda,Match Report,,,0.33,0.8,4.0,0.0,0.0,12.0,5.0,41.7,2023,Vissel Kobe
@@ -58,8 +24,8 @@
 22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Away,W,1.0,0.0,Kawa Frontale,53.0,20845.0,Hotaru Yamaguchi,4-3-3,Ryo Tanimoto,Match Report,,,0.07,0.17,1.0,0.0,0.0,14.0,6.0,42.9,2023,Vissel Kobe
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Home,D,1.0,1.0,Kashiwa Reysol,58.0,20892.0,Hotaru Yamaguchi,4-2-3-1,Yoshirō Imamura,Match Report,,,0.17,0.33,1.0,0.0,0.0,6.0,3.0,50.0,2023,Vissel Kobe
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Away,D,2.0,2.0,FC Tokyo,46.0,48634.0,Hotaru Yamaguchi,4-3-3,Futoshi Nakamura,Match Report,,,0.06,0.2,2.0,1.0,1.0,17.0,5.0,29.4,2023,Vissel Kobe
-25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,0.14,0.36,45.0,4.0,4.0,298.0,115.0,38.6,2023,Vissel Kobe
-26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Away,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
+25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Home,W,2.0,1.0,Kyoto Sanga,56.0,18454.0,Hotaru Yamaguchi,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.18,0.67,2.0,0.0,0.0,11.0,3.0,27.3,2023,Vissel Kobe
+26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Away,,,,Sanfrecce,,,,,,Head-to-Head,,,0.14,0.36,47.0,4.0,4.0,309.0,118.0,38.2,2023,Vissel Kobe
 27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
 28,2023-09-29,19:00,J1 League,Matchweek 29,Fri,Away,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
 29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Home,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
@@ -67,6 +33,40 @@
 31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Away,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Vissel Kobe
+0,2023-02-17,19:00,J1 League,Matchweek 1,Fri,Away,W,2.0,1.0,Kawa Frontale,34.0,22563.0,Takuya Kida,4-2-3-1,Yudai Yamamoto,Match Report,,,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,2023,Yokohama F Marinos
+1,2023-02-25,14:00,J1 League,Matchweek 2,Sat,Home,W,2.0,0.0,Urawa Reds,58.0,34035.0,Takuya Kida,4-3-3,Akihiko Ikeuchi,Match Report,,,0.14,0.4,2.0,0.0,0.0,14.0,5.0,35.7,2023,Yokohama F Marinos
+2,2023-03-03,19:00,J1 League,Matchweek 3,Fri,Home,D,1.0,1.0,Sanfrecce,57.0,10854.0,Takuya Kida,4-2-3-1,Futoshi Nakamura,Match Report,,,0.11,0.2,1.0,0.0,0.0,9.0,5.0,55.6,2023,Yokohama F Marinos
+3,2023-03-12,15:00,J1 League,Matchweek 4,Sun,Away,L,0.0,2.0,Consa Sapporo,64.0,17059.0,Takuya Kida,4-2-3-1,Koichiro Fukushima,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,2.0,22.2,2023,Yokohama F Marinos
+4,2023-03-18,14:00,J1 League,Matchweek 5,Sat,Home,W,2.0,1.0,Kashima Antlers,57.0,28478.0,Takuya Kida,4-3-3,Ryo Tanimoto,Match Report,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,2023,Yokohama F Marinos
+5,2023-04-01,16:00,J1 League,Matchweek 6,Sat,Away,L,1.0,2.0,Cerezo Osaka,66.0,18955.0,Takuya Kida,4-2-3-1,Jumpei Iida,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,2023,Yokohama F Marinos
+6,2023-04-08,19:00,J1 League,Matchweek 7,Sat,Home,W,5.0,0.0,Yokohama FC,56.0,25238.0,Takuya Kida,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.33,0.63,5.0,0.0,0.0,15.0,8.0,53.3,2023,Yokohama F Marinos
+7,2023-04-15,15:00,J1 League,Matchweek 8,Sat,Away,D,1.0,1.0,Shonan Bellmare,59.0,9355.0,Takuya Kida,4-2-3-1,Masuya Ueda,Match Report,,,0.06,0.11,1.0,0.0,0.0,16.0,9.0,56.3,2023,Yokohama F Marinos
+8,2023-04-22,19:00,J1 League,Matchweek 9,Sat,Away,W,3.0,2.0,Vissel Kobe,59.0,22164.0,Takuya Kida,4-2-3-1,Yoshirō Imamura,Match Report,,,0.23,0.75,3.0,0.0,0.0,13.0,4.0,30.8,2023,Yokohama F Marinos
+9,2023-04-29,15:00,J1 League,Matchweek 10,Sat,Home,D,1.0,1.0,Grampus,67.0,33048.0,Takuya Kida,4-2-3-1,Yoshimi Yamashita,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Yokohama F Marinos
+10,2023-05-03,15:00,J1 League,Matchweek 11,Wed,Away,W,3.0,1.0,Sagan Tosu,50.0,11354.0,Takuya Kida,4-3-3,Hayato Shimizu,Match Report,,,0.21,0.75,3.0,0.0,0.0,14.0,4.0,28.6,2023,Yokohama F Marinos
+11,2023-05-07,14:00,J1 League,Matchweek 12,Sun,Home,W,4.0,1.0,Kyoto Sanga,59.0,22160.0,Dudu,4-2-3-1,Masuya Ueda,Match Report,,,0.21,0.75,3.0,0.0,0.0,14.0,4.0,28.6,2023,Yokohama F Marinos
+12,2023-05-14,13:30,J1 League,Matchweek 13,Sun,Away,L,1.0,2.0,Albirex Niigata,53.0,24501.0,Shinnosuke Hatanaka,4-2-3-1,Koichiro Fukushima,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Yokohama F Marinos
+13,2023-05-20,19:00,J1 League,Matchweek 14,Sat,Away,W,2.0,0.0,Gamba Osaka,58.0,19823.0,Takuya Kida,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.2,0.4,2.0,0.0,0.0,10.0,5.0,50.0,2023,Yokohama F Marinos
+14,2023-05-28,14:00,J1 League,Matchweek 15,Sun,Home,W,2.0,0.0,Avispa Fukuoka,68.0,26115.0,Takuya Kida,4-2-3-1,Yoshimi Yamashita,Match Report,,,0.11,0.25,2.0,0.0,0.0,18.0,8.0,44.4,2023,Yokohama F Marinos
+15,2023-06-03,15:00,J1 League,Matchweek 16,Sat,Away,W,3.0,2.0,FC Tokyo,62.0,28553.0,Takuya Kida,4-2-3-1,Hayato Shimizu,Match Report,,,0.19,0.43,3.0,0.0,0.0,16.0,7.0,43.8,2023,Yokohama F Marinos
+16,2023-06-10,16:00,J1 League,Matchweek 17,Sat,Home,W,4.0,3.0,Kashiwa Reysol,64.0,26946.0,Takuya Kida,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.2,0.75,4.0,1.0,1.0,15.0,4.0,26.7,2023,Yokohama F Marinos
+17,2023-06-24,19:00,J1 League,Matchweek 18,Sat,Away,W,1.0,0.0,Sanfrecce,56.0,15163.0,Takuya Kida,4-2-3-1,Jumpei Iida,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Yokohama F Marinos
+18,2023-07-02,19:00,J1 League,Matchweek 19,Sun,Home,W,4.0,1.0,Shonan Bellmare,55.0,21160.0,Dudu,4-2-3-1,Futoshi Nakamura,Match Report,,,0.19,0.31,4.0,0.0,0.0,21.0,13.0,61.9,2023,Yokohama F Marinos
+19,2023-07-08,18:00,J1 League,Matchweek 20,Sat,Away,D,2.0,2.0,Grampus,59.0,29743.0,Dudu,4-2-3-1,Yūsuke Araki,Match Report,,,0.13,0.4,2.0,0.0,0.0,16.0,5.0,31.3,2023,Yokohama F Marinos
+20,2023-07-15,19:00,J1 League,Matchweek 21,Sat,Home,L,0.0,1.0,Kawa Frontale,57.0,42772.0,Dudu,4-2-3-1,Khamis Mohammed Al Marri,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,5.0,35.7,2023,Yokohama F Marinos
+21,2023-08-06,19:00,J1 League,Matchweek 22,Sun,Away,D,0.0,0.0,Urawa Reds,56.0,42664.0,Takuya Kida,4-3-3,Hiroyuki Kimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,2023,Yokohama F Marinos
+22,2023-08-12,19:30,J1 League,Matchweek 23,Sat,Home,W,2.0,1.0,Gamba Osaka,44.0,33261.0,Takuya Kida,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.06,0.33,2.0,1.0,1.0,18.0,3.0,16.7,2023,Yokohama F Marinos
+23,2023-08-19,19:30,J1 League,Matchweek 24,Sat,Home,W,2.0,1.0,FC Tokyo,64.0,33701.0,Takuya Kida,4-2-3-1,Jumpei Iida,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Yokohama F Marinos
+24,2023-08-26,18:30,J1 League,Matchweek 25,Sat,Away,L,1.0,4.0,Yokohama FC,74.0,13321.0,Takuya Kida,4-2-3-1,Yuichi Nishimura,Match Report,,,0.06,0.17,1.0,0.0,0.0,17.0,6.0,35.3,2023,Yokohama F Marinos
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,L,0.0,2.0,Kashiwa Reysol,69.0,12601.0,Takuya Kida,4-4-2,Yūsuke Araki,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,3.0,37.5,2023,Yokohama F Marinos
+26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Home,,,,Sagan Tosu,,,,,,Head-to-Head,,,0.13,0.33,46.0,2.0,2.0,346.0,132.0,38.2,2023,Yokohama F Marinos
+27,2023-09-24,15:00,J1 League,Matchweek 28,Sun,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
+28,2023-09-29,19:00,J1 League,Matchweek 29,Fri,Home,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
+29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Home,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
+30,2023-10-28,14:00,J1 League,Matchweek 31,Sat,Away,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
+31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
+32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
+33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama F Marinos
 0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Away,W,1.0,0.0,Yokohama FC,29.0,11186.0,Sho Inagaki,3-4-3,Akihiko Ikeuchi,Match Report,,,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,2023,Nagoya Grampus
 1,2023-02-25,16:00,J1 League,Matchweek 2,Sat,Home,W,1.0,0.0,Kyoto Sanga,48.0,21327.0,Sho Inagaki,3-4-3,Yoshirō Imamura,Match Report,,,0.06,0.25,1.0,0.0,0.0,16.0,4.0,25.0,2023,Nagoya Grampus
 2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Away,L,0.0,1.0,Sagan Tosu,51.0,7773.0,Sho Inagaki,3-4-3,Kōei Koya,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,2023,Nagoya Grampus
@@ -92,8 +92,8 @@
 22,2023-08-13,18:00,J1 League,Matchweek 23,Sun,Home,W,1.0,0.0,Kashima Antlers,33.0,38642.0,Sho Inagaki,3-4-1-2,Yoshirō Imamura,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Nagoya Grampus
 23,2023-08-18,19:30,J1 League,Matchweek 24,Fri,Away,L,0.0,1.0,Urawa Reds,59.0,32578.0,Sho Inagaki,3-4-3,Akihiko Ikeuchi,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,4.0,26.7,2023,Nagoya Grampus
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Away,L,1.0,3.0,Cerezo Osaka,51.0,18935.0,Sho Inagaki,3-4-3,Koichiro Fukushima,Match Report,,,0.13,0.25,1.0,0.0,0.0,8.0,4.0,50.0,2023,Nagoya Grampus
-25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Home,,,,Yokohama FC,,,,,,Head-to-Head,,,0.1,0.27,32.0,1.0,2.0,299.0,113.0,37.8,2023,Nagoya Grampus
-26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Away,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
+25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Home,D,1.0,1.0,Yokohama FC,42.0,33235.0,Sho Inagaki,3-4-1-2,Hiroyuki Kimura,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Nagoya Grampus
+26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Away,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,0.1,0.28,33.0,1.0,2.0,305.0,115.0,37.7,2023,Nagoya Grampus
 27,2023-09-23,16:00,J1 League,Matchweek 28,Sat,Home,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
 28,2023-09-30,19:00,J1 League,Matchweek 29,Sat,Away,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
 29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Away,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
@@ -101,6 +101,40 @@
 31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Away,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Nagoya Grampus
+0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,D,2.0,2.0,Albirex Niigata,38.0,17928.0,Ryūya Nishio,4-4-2,Yuichi Nishimura,Match Report,,,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,2023,Cerezo Osaka
+1,2023-02-25,15:00,J1 League,Matchweek 2,Sat,Away,L,1.0,2.0,Avispa Fukuoka,58.0,9607.0,Ryūya Nishio,4-4-2,Futoshi Nakamura,Match Report,,,0.1,0.17,1.0,0.0,0.0,10.0,6.0,60.0,2023,Cerezo Osaka
+2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Away,L,1.0,2.0,Urawa Reds,50.0,18437.0,Tokuma Suzuki,4-4-2,Hayato Shimizu,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Cerezo Osaka
+3,2023-03-12,14:00,J1 League,Matchweek 4,Sun,Home,W,2.0,1.0,Sagan Tosu,55.0,15714.0,Tokuma Suzuki,4-2-3-1,Yoshirō Imamura,Match Report,,,0.18,0.67,2.0,0.0,0.0,11.0,3.0,27.3,2023,Cerezo Osaka
+4,2023-03-18,16:00,J1 League,Matchweek 5,Sat,Away,D,0.0,0.0,Kawa Frontale,36.0,19054.0,Tokuma Suzuki,4-4-2,Takuto Okabe,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,2023,Cerezo Osaka
+5,2023-04-01,16:00,J1 League,Matchweek 6,Sat,Home,W,2.0,1.0,Marinos,34.0,18955.0,Tokuma Suzuki,4-3-3,Jumpei Iida,Match Report,,,0.2,0.67,2.0,0.0,0.0,10.0,3.0,30.0,2023,Cerezo Osaka
+6,2023-04-09,14:00,J1 League,Matchweek 7,Sun,Home,L,2.0,3.0,Consa Sapporo,59.0,11952.0,Tokuma Suzuki,4-3-3,Hayato Shimizu,Match Report,,,0.09,0.25,2.0,1.0,1.0,11.0,4.0,36.4,2023,Cerezo Osaka
+7,2023-04-15,16:00,J1 League,Matchweek 8,Sat,Away,W,2.0,1.0,FC Tokyo,45.0,16939.0,Shinji Kagawa,4-2-3-1,Yoshimi Yamashita,Match Report,,,0.14,0.5,2.0,0.0,0.0,14.0,4.0,28.6,2023,Cerezo Osaka
+8,2023-04-23,14:00,J1 League,Matchweek 9,Sun,Home,W,1.0,0.0,Kashiwa Reysol,42.0,10673.0,Kim Jin-hyeon,4-3-3,Masuya Ueda,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Cerezo Osaka
+9,2023-04-29,14:00,J1 League,Matchweek 10,Sat,Home,L,0.0,1.0,Sanfrecce,44.0,16151.0,Kim Jin-hyeon,4-3-3,Yuichi Nishimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,42.9,2023,Cerezo Osaka
+10,2023-05-03,14:00,J1 League,Matchweek 11,Wed,Away,W,2.0,1.0,Gamba Osaka,38.0,34517.0,Kim Jin-hyeon,4-3-3,Ryo Tanimoto,Match Report,,,0.25,0.33,2.0,0.0,0.0,8.0,6.0,75.0,2023,Cerezo Osaka
+11,2023-05-07,14:00,J1 League,Matchweek 12,Sun,Home,L,0.0,1.0,Kashima Antlers,46.0,12676.0,Kim Jin-hyeon,4-3-3,Futoshi Nakamura,Match Report,,,0.0,0.0,0.0,0.0,0.0,4.0,1.0,25.0,2023,Cerezo Osaka
+12,2023-05-14,13:30,J1 League,Matchweek 13,Sun,Away,W,1.0,0.0,Kyoto Sanga,39.0,12917.0,Kim Jin-hyeon,4-4-2,Takuto Okabe,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Cerezo Osaka
+13,2023-05-20,15:00,J1 League,Matchweek 14,Sat,Away,W,2.0,0.0,Shonan Bellmare,53.0,10549.0,Kim Jin-hyeon,4-4-2,Yoshirō Imamura,Match Report,,,0.2,0.67,2.0,0.0,0.0,10.0,3.0,30.0,2023,Cerezo Osaka
+14,2023-05-28,14:00,J1 League,Matchweek 15,Sun,Home,W,2.0,0.0,Yokohama FC,58.0,14304.0,Kim Jin-hyeon,4-3-3,Jumpei Iida,Match Report,,,0.11,0.33,2.0,0.0,0.0,18.0,6.0,33.3,2023,Cerezo Osaka
+15,2023-06-03,16:00,J1 League,Matchweek 16,Sat,Away,L,1.0,3.0,Grampus,66.0,22912.0,Kim Jin-hyeon,4-4-2,Yudai Yamamoto,Match Report,,,0.08,0.33,1.0,0.0,0.0,13.0,3.0,23.1,2023,Cerezo Osaka
+16,2023-06-10,19:00,J1 League,Matchweek 17,Sat,Home,W,2.0,1.0,Vissel Kobe,44.0,22542.0,Shinji Kagawa,4-4-2,Yuichi Nishimura,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Cerezo Osaka
+17,2023-06-24,14:00,J1 League,Matchweek 18,Sat,Away,W,4.0,1.0,Consa Sapporo,33.0,24509.0,Shinji Kagawa,4-4-2,Ryo Tanimoto,Match Report,,,0.44,0.57,4.0,0.0,0.0,9.0,7.0,77.8,2023,Cerezo Osaka
+18,2023-06-30,19:00,J1 League,Matchweek 19,Fri,Home,L,0.0,1.0,Avispa Fukuoka,67.0,11786.0,Shinji Kagawa,4-4-2,Hayato Shimizu,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,2023,Cerezo Osaka
+19,2023-07-08,19:30,J1 League,Matchweek 20,Sat,Away,L,1.0,2.0,Sagan Tosu,45.0,7762.0,Shinji Kagawa,4-4-2,Jumpei Iida,Match Report,,,0.08,0.14,1.0,0.0,0.0,13.0,7.0,53.8,2023,Cerezo Osaka
+20,2023-07-16,19:00,J1 League,Matchweek 21,Sun,Home,W,2.0,0.0,Urawa Reds,47.0,21007.0,Shinji Kagawa,4-4-2,Yudai Yamamoto,Match Report,,,0.13,0.4,2.0,0.0,0.0,15.0,5.0,33.3,2023,Cerezo Osaka
+21,2023-08-06,19:00,J1 League,Matchweek 22,Sun,Home,L,0.0,1.0,FC Tokyo,63.0,18596.0,Shinji Kagawa,4-4-2,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,7.0,41.2,2023,Cerezo Osaka
+22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Away,D,1.0,1.0,Kashiwa Reysol,76.0,11892.0,Shinji Kagawa,4-4-2,Hiroyuki Kimura,Match Report,,,0.1,1.0,1.0,0.0,0.0,10.0,1.0,10.0,2023,Cerezo Osaka
+23,2023-08-20,18:30,J1 League,Matchweek 24,Sun,Away,W,1.0,0.0,Yokohama FC,52.0,8195.0,Shinji Kagawa,4-4-2,Yūsuke Araki,Match Report,,,0.04,0.1,1.0,0.0,0.0,24.0,10.0,41.7,2023,Cerezo Osaka
+24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,W,3.0,1.0,Grampus,50.0,18935.0,Shinji Kagawa,4-4-2,Koichiro Fukushima,Match Report,,,0.3,0.6,3.0,0.0,0.0,10.0,5.0,50.0,2023,Cerezo Osaka
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,W,3.0,0.0,Kawa Frontale,44.0,18789.0,Shinji Kagawa,4-4-2,Shū Kawamata,Match Report,,,0.0,0.0,2.0,2.0,2.0,8.0,4.0,50.0,2023,Cerezo Osaka
+26,2023-09-16,18:00,J1 League,Matchweek 27,Sat,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,0.11,0.3,35.0,3.0,3.0,291.0,107.0,36.8,2023,Cerezo Osaka
+27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Away,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
+28,2023-09-30,18:00,J1 League,Matchweek 29,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
+29,2023-10-21,16:00,J1 League,Matchweek 30,Sat,Away,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
+30,2023-10-28,14:00,J1 League,Matchweek 31,Sat,Home,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
+31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Away,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
+32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
+33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
 0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Away,L,0.0,2.0,FC Tokyo,48.0,38051.0,Hiroki Sakai,4-4-2,Hiroki Kasahara,Match Report,,,0.0,0.0,0.0,0.0,0.0,5.0,1.0,20.0,2023,Urawa Red Diamonds
 1,2023-02-25,14:00,J1 League,Matchweek 2,Sat,Away,L,0.0,2.0,Marinos,42.0,34035.0,Hiroki Sakai,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,2023,Urawa Red Diamonds
 2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Home,W,2.0,1.0,Cerezo Osaka,50.0,18437.0,Hiroki Sakai,4-2-3-1,Hayato Shimizu,Match Report,,,0.08,0.2,2.0,1.0,1.0,13.0,5.0,38.5,2023,Urawa Red Diamonds
@@ -126,8 +160,8 @@
 22,2023-08-13,18:00,J1 League,Matchweek 23,Sun,Away,L,1.0,2.0,Sanfrecce,44.0,21108.0,Hiroki Sakai,4-2-3-1,Hayato Shimizu,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Urawa Red Diamonds
 23,2023-08-18,19:30,J1 League,Matchweek 24,Fri,Home,W,1.0,0.0,Grampus,41.0,32578.0,Hiroki Sakai,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.08,0.2,1.0,0.0,0.0,13.0,5.0,38.5,2023,Urawa Red Diamonds
 24,2023-08-25,19:00,J1 League,Matchweek 25,Fri,Away,W,1.0,0.0,Shonan Bellmare,52.0,,Hiroki Sakai,4-2-3-1,Jumpei Iida,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Urawa Red Diamonds
-25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,0.09,0.26,29.0,3.0,4.0,297.0,101.0,34.0,2023,Urawa Red Diamonds
-26,2023-09-15,19:30,J1 League,Matchweek 27,Fri,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Urawa Red Diamonds
+25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Away,D,1.0,1.0,Albirex Niigata,37.0,27775.0,Hiroki Sakai,4-2-3-1,Hajime Matsuo,Match Report,,,0.0,0.0,1.0,1.0,1.0,8.0,2.0,25.0,2023,Urawa Red Diamonds
+26,2023-09-15,19:30,J1 League,Matchweek 27,Fri,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,0.09,0.25,30.0,4.0,5.0,305.0,103.0,33.8,2023,Urawa Red Diamonds
 27,2023-09-24,17:00,J1 League,Matchweek 28,Sun,Away,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Urawa Red Diamonds
 28,2023-09-30,17:00,J1 League,Matchweek 29,Sat,Home,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,Urawa Red Diamonds
 29,2023-10-21,15:00,J1 League,Matchweek 30,Sat,Home,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Urawa Red Diamonds
@@ -160,8 +194,8 @@
 22,2023-08-13,18:00,J1 League,Matchweek 23,Sun,Away,L,0.0,1.0,Grampus,67.0,38642.0,Yuma Suzuki,4-4-2,Yoshirō Imamura,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,3.0,23.1,2023,Kashima Antlers
 23,2023-08-19,18:00,J1 League,Matchweek 24,Sat,Home,W,2.0,1.0,Sagan Tosu,45.0,19693.0,Yuma Suzuki,4-4-2,Ryo Tanimoto,Match Report,,,0.08,0.25,2.0,1.0,1.0,12.0,4.0,33.3,2023,Kashima Antlers
 24,2023-08-26,18:00,J1 League,Matchweek 25,Sat,Home,W,2.0,0.0,Albirex Niigata,33.0,18895.0,Yuma Suzuki,4-4-2,Takafumi Mikuriya,Match Report,,,0.2,0.67,2.0,0.0,0.0,10.0,3.0,30.0,2023,Kashima Antlers
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,,,,Shonan Bellmare,,,,,,Head-to-Head,,,0.12,0.39,35.0,1.0,2.0,274.0,88.0,32.1,2023,Kashima Antlers
-26,2023-09-16,18:00,J1 League,Matchweek 27,Sat,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,D,2.0,2.0,Shonan Bellmare,66.0,11089.0,Shoma Doi,4-4-2,Hayato Shimizu,Match Report,,,0.05,0.17,2.0,1.0,1.0,19.0,6.0,31.6,2023,Kashima Antlers
+26,2023-09-16,18:00,J1 League,Matchweek 27,Sat,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,0.12,0.37,37.0,2.0,3.0,293.0,94.0,32.1,2023,Kashima Antlers
 27,2023-09-24,15:00,J1 League,Matchweek 28,Sun,Home,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
 28,2023-09-30,15:00,J1 League,Matchweek 29,Sat,Away,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
 29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Away,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
@@ -169,40 +203,6 @@
 31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Home,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashima Antlers
-0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,D,2.0,2.0,Albirex Niigata,38.0,17928.0,Ryūya Nishio,4-4-2,Yuichi Nishimura,Match Report,,,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,2023,Cerezo Osaka
-1,2023-02-25,15:00,J1 League,Matchweek 2,Sat,Away,L,1.0,2.0,Avispa Fukuoka,58.0,9607.0,Ryūya Nishio,4-4-2,Futoshi Nakamura,Match Report,,,0.1,0.17,1.0,0.0,0.0,10.0,6.0,60.0,2023,Cerezo Osaka
-2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Away,L,1.0,2.0,Urawa Reds,50.0,18437.0,Tokuma Suzuki,4-4-2,Hayato Shimizu,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Cerezo Osaka
-3,2023-03-12,14:00,J1 League,Matchweek 4,Sun,Home,W,2.0,1.0,Sagan Tosu,55.0,15714.0,Tokuma Suzuki,4-2-3-1,Yoshirō Imamura,Match Report,,,0.18,0.67,2.0,0.0,0.0,11.0,3.0,27.3,2023,Cerezo Osaka
-4,2023-03-18,16:00,J1 League,Matchweek 5,Sat,Away,D,0.0,0.0,Kawa Frontale,36.0,19054.0,Tokuma Suzuki,4-4-2,Takuto Okabe,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,2023,Cerezo Osaka
-5,2023-04-01,16:00,J1 League,Matchweek 6,Sat,Home,W,2.0,1.0,Marinos,34.0,18955.0,Tokuma Suzuki,4-3-3,Jumpei Iida,Match Report,,,0.2,0.67,2.0,0.0,0.0,10.0,3.0,30.0,2023,Cerezo Osaka
-6,2023-04-09,14:00,J1 League,Matchweek 7,Sun,Home,L,2.0,3.0,Consa Sapporo,59.0,11952.0,Tokuma Suzuki,4-3-3,Hayato Shimizu,Match Report,,,0.09,0.25,2.0,1.0,1.0,11.0,4.0,36.4,2023,Cerezo Osaka
-7,2023-04-15,16:00,J1 League,Matchweek 8,Sat,Away,W,2.0,1.0,FC Tokyo,45.0,16939.0,Shinji Kagawa,4-2-3-1,Yoshimi Yamashita,Match Report,,,0.14,0.5,2.0,0.0,0.0,14.0,4.0,28.6,2023,Cerezo Osaka
-8,2023-04-23,14:00,J1 League,Matchweek 9,Sun,Home,W,1.0,0.0,Kashiwa Reysol,42.0,10673.0,Kim Jin-hyeon,4-3-3,Masuya Ueda,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Cerezo Osaka
-9,2023-04-29,14:00,J1 League,Matchweek 10,Sat,Home,L,0.0,1.0,Sanfrecce,44.0,16151.0,Kim Jin-hyeon,4-3-3,Yuichi Nishimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,42.9,2023,Cerezo Osaka
-10,2023-05-03,14:00,J1 League,Matchweek 11,Wed,Away,W,2.0,1.0,Gamba Osaka,38.0,34517.0,Kim Jin-hyeon,4-3-3,Ryo Tanimoto,Match Report,,,0.25,0.33,2.0,0.0,0.0,8.0,6.0,75.0,2023,Cerezo Osaka
-11,2023-05-07,14:00,J1 League,Matchweek 12,Sun,Home,L,0.0,1.0,Kashima Antlers,46.0,12676.0,Kim Jin-hyeon,4-3-3,Futoshi Nakamura,Match Report,,,0.0,0.0,0.0,0.0,0.0,4.0,1.0,25.0,2023,Cerezo Osaka
-12,2023-05-14,13:30,J1 League,Matchweek 13,Sun,Away,W,1.0,0.0,Kyoto Sanga,39.0,12917.0,Kim Jin-hyeon,4-4-2,Takuto Okabe,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Cerezo Osaka
-13,2023-05-20,15:00,J1 League,Matchweek 14,Sat,Away,W,2.0,0.0,Shonan Bellmare,53.0,10549.0,Kim Jin-hyeon,4-4-2,Yoshirō Imamura,Match Report,,,0.2,0.67,2.0,0.0,0.0,10.0,3.0,30.0,2023,Cerezo Osaka
-14,2023-05-28,14:00,J1 League,Matchweek 15,Sun,Home,W,2.0,0.0,Yokohama FC,58.0,14304.0,Kim Jin-hyeon,4-3-3,Jumpei Iida,Match Report,,,0.11,0.33,2.0,0.0,0.0,18.0,6.0,33.3,2023,Cerezo Osaka
-15,2023-06-03,16:00,J1 League,Matchweek 16,Sat,Away,L,1.0,3.0,Grampus,66.0,22912.0,Kim Jin-hyeon,4-4-2,Yudai Yamamoto,Match Report,,,0.08,0.33,1.0,0.0,0.0,13.0,3.0,23.1,2023,Cerezo Osaka
-16,2023-06-10,19:00,J1 League,Matchweek 17,Sat,Home,W,2.0,1.0,Vissel Kobe,44.0,22542.0,Shinji Kagawa,4-4-2,Yuichi Nishimura,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Cerezo Osaka
-17,2023-06-24,14:00,J1 League,Matchweek 18,Sat,Away,W,4.0,1.0,Consa Sapporo,33.0,24509.0,Shinji Kagawa,4-4-2,Ryo Tanimoto,Match Report,,,0.44,0.57,4.0,0.0,0.0,9.0,7.0,77.8,2023,Cerezo Osaka
-18,2023-06-30,19:00,J1 League,Matchweek 19,Fri,Home,L,0.0,1.0,Avispa Fukuoka,67.0,11786.0,Shinji Kagawa,4-4-2,Hayato Shimizu,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,2023,Cerezo Osaka
-19,2023-07-08,19:30,J1 League,Matchweek 20,Sat,Away,L,1.0,2.0,Sagan Tosu,45.0,7762.0,Shinji Kagawa,4-4-2,Jumpei Iida,Match Report,,,0.08,0.14,1.0,0.0,0.0,13.0,7.0,53.8,2023,Cerezo Osaka
-20,2023-07-16,19:00,J1 League,Matchweek 21,Sun,Home,W,2.0,0.0,Urawa Reds,47.0,21007.0,Shinji Kagawa,4-4-2,Yudai Yamamoto,Match Report,,,0.13,0.4,2.0,0.0,0.0,15.0,5.0,33.3,2023,Cerezo Osaka
-21,2023-08-06,19:00,J1 League,Matchweek 22,Sun,Home,L,0.0,1.0,FC Tokyo,63.0,18596.0,Shinji Kagawa,4-4-2,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,7.0,41.2,2023,Cerezo Osaka
-22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Away,D,1.0,1.0,Kashiwa Reysol,76.0,11892.0,Shinji Kagawa,4-4-2,Hiroyuki Kimura,Match Report,,,0.1,1.0,1.0,0.0,0.0,10.0,1.0,10.0,2023,Cerezo Osaka
-23,2023-08-20,18:30,J1 League,Matchweek 24,Sun,Away,W,1.0,0.0,Yokohama FC,52.0,8195.0,Shinji Kagawa,4-4-2,Yūsuke Araki,Match Report,,,0.04,0.1,1.0,0.0,0.0,24.0,10.0,41.7,2023,Cerezo Osaka
-24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,W,3.0,1.0,Grampus,50.0,18935.0,Shinji Kagawa,4-4-2,Koichiro Fukushima,Match Report,,,0.3,0.6,3.0,0.0,0.0,10.0,5.0,50.0,2023,Cerezo Osaka
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,,,,Kawa Frontale,,,,,,Head-to-Head,,,0.11,0.31,33.0,1.0,1.0,283.0,103.0,36.4,2023,Cerezo Osaka
-26,2023-09-16,18:00,J1 League,Matchweek 27,Sat,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Away,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-28,2023-09-30,18:00,J1 League,Matchweek 29,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-29,2023-10-21,16:00,J1 League,Matchweek 30,Sat,Away,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-30,2023-10-28,14:00,J1 League,Matchweek 31,Sat,Home,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Away,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
-33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Cerezo Osaka
 0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,D,0.0,0.0,Consa Sapporo,47.0,13121.0,Sho Sasaki,3-4-3,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,5.0,31.3,2023,Sanfrecce Hiroshima
 1,2023-02-26,14:00,J1 League,Matchweek 2,Sun,Home,L,1.0,2.0,Albirex Niigata,56.0,13266.0,Sho Sasaki,3-4-3,Takuto Okabe,Match Report,,,0.04,0.11,1.0,0.0,0.0,27.0,9.0,33.3,2023,Sanfrecce Hiroshima
 2,2023-03-03,19:00,J1 League,Matchweek 3,Fri,Away,D,1.0,1.0,Marinos,43.0,10854.0,Sho Sasaki,3-1-4-2,Futoshi Nakamura,Match Report,,,0.07,0.25,1.0,0.0,0.0,14.0,4.0,28.6,2023,Sanfrecce Hiroshima
@@ -228,8 +228,8 @@
 22,2023-08-13,18:00,J1 League,Matchweek 23,Sun,Home,W,2.0,1.0,Urawa Reds,56.0,21108.0,Sho Sasaki,3-4-3,Hayato Shimizu,Match Report,,,0.11,0.14,2.0,0.0,0.0,19.0,14.0,73.7,2023,Sanfrecce Hiroshima
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Home,W,3.0,2.0,Kawa Frontale,46.0,21771.0,Sho Sasaki,3-4-3,Hajime Matsuo,Match Report,,,0.21,0.27,3.0,0.0,0.0,14.0,11.0,78.6,2023,Sanfrecce Hiroshima
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Away,D,0.0,0.0,Kashiwa Reysol,55.0,9874.0,Hayato Araki,3-4-3,Masuya Ueda,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,3.0,23.1,2023,Sanfrecce Hiroshima
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,,,,Sagan Tosu,,,,,,Head-to-Head,,,0.06,0.17,27.0,3.0,3.0,416.0,145.0,34.9,2023,Sanfrecce Hiroshima
-26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Home,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Sanfrecce Hiroshima
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,W,2.0,0.0,Sagan Tosu,40.0,9097.0,Sho Sasaki,3-4-3,Jumpei Iida,Match Report,,,0.11,0.18,2.0,0.0,0.0,18.0,11.0,61.1,2023,Sanfrecce Hiroshima
+26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Home,,,,Vissel Kobe,,,,,,Head-to-Head,,,0.06,0.17,29.0,3.0,3.0,434.0,156.0,35.9,2023,Sanfrecce Hiroshima
 27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Away,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Sanfrecce Hiroshima
 28,2023-09-30,19:00,J1 League,Matchweek 29,Sat,Home,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Sanfrecce Hiroshima
 29,2023-10-21,16:00,J1 League,Matchweek 30,Sat,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Sanfrecce Hiroshima
@@ -262,8 +262,8 @@
 22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Home,W,2.0,0.0,Yokohama FC,36.0,8677.0,Tatsuki Nara,4-4-2,Ryo Tanimoto,Match Report,,,0.25,0.4,2.0,0.0,0.0,8.0,5.0,62.5,2023,Avispa Fukuoka
 23,2023-08-18,19:00,J1 League,Matchweek 24,Fri,Home,L,0.0,1.0,Albirex Niigata,43.0,,Tatsuki Nara,4-4-2,Futoshi Nakamura,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,4.0,50.0,2023,Avispa Fukuoka
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Away,L,0.0,2.0,Kyoto Sanga,71.0,9830.0,Tatsuki Nara,4-4-2,Kōei Koya,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,2023,Avispa Fukuoka
-25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Away,,,,FC Tokyo,,,,,,Head-to-Head,,,0.07,0.25,24.0,5.0,5.0,264.0,76.0,28.8,2023,Avispa Fukuoka
-26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Home,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Avispa Fukuoka
+25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Away,W,2.0,1.0,FC Tokyo,36.0,16068.0,Tatsuki Nara,3-4-3,Koichiro Fukushima,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Avispa Fukuoka
+26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Home,,,,Grampus,,,,,,Head-to-Head,,,0.08,0.26,26.0,5.0,5.0,277.0,82.0,29.6,2023,Avispa Fukuoka
 27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Away,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Avispa Fukuoka
 28,2023-09-30,15:00,J1 League,Matchweek 29,Sat,Home,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Avispa Fukuoka
 29,2023-10-20,19:00,J1 League,Matchweek 30,Fri,Away,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,Avispa Fukuoka
@@ -296,8 +296,8 @@
 22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Home,L,0.0,1.0,Vissel Kobe,47.0,20845.0,Kento Tachibanada,4-2-3-1,Ryo Tanimoto,Match Report,,,0.0,,0.0,0.0,0.0,12.0,0.0,0.0,2023,Kawasaki Frontale
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Away,L,2.0,3.0,Sanfrecce,54.0,21771.0,Kyohei Noborizato,4-3-3,Hajime Matsuo,Match Report,,,0.29,0.4,2.0,0.0,0.0,7.0,5.0,71.4,2023,Kawasaki Frontale
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,D,2.0,2.0,Consa Sapporo,61.0,19257.0,Kento Tachibanada,4-3-3,Takuto Okabe,Match Report,,,0.13,1.0,2.0,0.0,0.0,15.0,2.0,13.3,2023,Kawasaki Frontale
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,,,,Cerezo Osaka,,,,,,Head-to-Head,,,0.09,0.32,32.0,2.0,3.0,316.0,95.0,30.1,2023,Kawasaki Frontale
-26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Home,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Kawasaki Frontale
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Away,L,0.0,3.0,Cerezo Osaka,56.0,18789.0,Kento Tachibanada,3-5-2,Shū Kawamata,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,2023,Kawasaki Frontale
+26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Home,,,,FC Tokyo,,,,,,Head-to-Head,,,0.09,0.3,32.0,2.0,3.0,329.0,100.0,30.4,2023,Kawasaki Frontale
 27,2023-09-24,16:00,J1 League,Matchweek 28,Sun,Away,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Kawasaki Frontale
 28,2023-09-29,19:00,J1 League,Matchweek 29,Fri,Home,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Kawasaki Frontale
 29,2023-10-20,19:00,J1 League,Matchweek 30,Fri,Home,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Kawasaki Frontale
@@ -330,8 +330,8 @@
 22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Home,W,2.0,0.0,Kyoto Sanga,44.0,23162.0,Masato Morishige,4-2-3-1,Masuya Ueda,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,FC Tokyo
 23,2023-08-19,19:30,J1 League,Matchweek 24,Sat,Away,L,1.0,2.0,Marinos,37.0,33701.0,Masato Morishige,4-2-3-1,Jumpei Iida,Match Report,,,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,2023,FC Tokyo
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,D,2.0,2.0,Vissel Kobe,54.0,48634.0,Masato Morishige,4-2-3-1,Futoshi Nakamura,Match Report,,,0.11,0.5,2.0,0.0,1.0,19.0,4.0,21.1,2023,FC Tokyo
-25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Home,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,0.1,0.3,31.0,3.0,5.0,268.0,92.0,34.3,2023,FC Tokyo
-26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Away,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,FC Tokyo
+25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Home,L,1.0,2.0,Avispa Fukuoka,64.0,16068.0,Diego Oliveira,4-2-3-1,Koichiro Fukushima,Match Report,,,0.08,0.5,1.0,0.0,0.0,13.0,2.0,15.4,2023,FC Tokyo
+26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Away,,,,Kawa Frontale,,,,,,Head-to-Head,,,0.1,0.31,32.0,3.0,5.0,281.0,94.0,33.5,2023,FC Tokyo
 27,2023-09-23,15:00,J1 League,Matchweek 28,Sat,Home,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,FC Tokyo
 28,2023-10-01,15:00,J1 League,Matchweek 29,Sun,Home,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,FC Tokyo
 29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Away,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,FC Tokyo
@@ -364,8 +364,8 @@
 22,2023-08-12,19:30,J1 League,Matchweek 23,Sat,Away,L,1.0,2.0,Marinos,56.0,33261.0,Yuki Yamamoto,4-1-4-1,Akihiko Ikeuchi,Match Report,,,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,2023,Gamba Osaka
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Home,W,2.0,1.0,Shonan Bellmare,51.0,32567.0,Takashi Usami,4-2-3-1,Takuto Okabe,Match Report,,,0.07,0.14,2.0,1.0,1.0,15.0,7.0,46.7,2023,Gamba Osaka
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Away,D,1.0,1.0,Sagan Tosu,60.0,12812.0,Yuki Yamamoto,4-3-3,Hayato Shimizu,Match Report,,,0.05,0.13,1.0,0.0,0.0,22.0,8.0,36.4,2023,Gamba Osaka
-25,2023-09-02,13:00,J1 League,Matchweek 26,Sat,Away,,,,Consa Sapporo,,,,,,Head-to-Head,,,0.1,0.28,35.0,3.0,4.0,332.0,115.0,34.6,2023,Gamba Osaka
-26,2023-09-17,19:00,J1 League,Matchweek 27,Sun,Home,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
+25,2023-09-02,13:00,J1 League,Matchweek 26,Sat,Away,L,0.0,4.0,Consa Sapporo,50.0,13219.0,Yuki Yamamoto,4-2-3-1,Masuya Ueda,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,2023,Gamba Osaka
+26,2023-09-17,19:00,J1 League,Matchweek 27,Sun,Home,,,,Albirex Niigata,,,,,,Head-to-Head,,,0.09,0.28,35.0,3.0,4.0,338.0,116.0,34.3,2023,Gamba Osaka
 27,2023-09-24,17:00,J1 League,Matchweek 28,Sun,Home,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
 28,2023-10-01,15:00,J1 League,Matchweek 29,Sun,Away,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
 29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Home,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
@@ -373,40 +373,6 @@
 31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Home,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Vissel Kobe,,,,,,Head-to-Head,,,,,,,,,,,2023,Gamba Osaka
-0,2023-02-18,15:00,J1 League,Matchweek 1,Sat,Home,L,1.0,5.0,Shonan Bellmare,63.0,9663.0,Park Iru-gyu,3-4-3,Masuya Ueda,Match Report,,,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,2023,Sagan Tosu
-1,2023-02-25,15:00,J1 League,Matchweek 2,Sat,Away,D,1.0,1.0,Gamba Osaka,54.0,25865.0,Naoyuki Fujita,3-4-3,Koichiro Fukushima,Match Report,,,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,2023,Sagan Tosu
-2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Home,W,1.0,0.0,Grampus,49.0,7773.0,Naoyuki Fujita,3-4-3,Kōei Koya,Match Report,,,0.13,0.2,1.0,0.0,0.0,8.0,5.0,62.5,2023,Sagan Tosu
-3,2023-03-12,14:00,J1 League,Matchweek 4,Sun,Away,L,1.0,2.0,Cerezo Osaka,46.0,15714.0,Naoyuki Fujita,3-4-3,Yoshirō Imamura,Match Report,,,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,2023,Sagan Tosu
-4,2023-03-18,15:00,J1 League,Matchweek 5,Sat,Home,L,0.0,1.0,Vissel Kobe,60.0,12230.0,Yuji Ono,4-2-3-1,Hayato Shimizu,Match Report,,,0.0,,0.0,0.0,0.0,2.0,0.0,0.0,2023,Sagan Tosu
-5,2023-04-01,15:00,J1 League,Matchweek 6,Sat,Home,W,1.0,0.0,FC Tokyo,46.0,8548.0,Park Iru-gyu,4-2-3-1,Ryo Tanimoto,Match Report,,,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,2023,Sagan Tosu
-6,2023-04-09,14:00,J1 League,Matchweek 7,Sun,Away,L,0.0,1.0,Sanfrecce,49.0,13681.0,Park Iru-gyu,4-2-3-1,Takuto Okabe,Match Report,,,0.0,0.0,0.0,0.0,0.0,3.0,1.0,33.3,2023,Sagan Tosu
-7,2023-04-15,15:00,J1 League,Matchweek 8,Sat,Home,D,1.0,1.0,Kashiwa Reysol,52.0,6418.0,Park Iru-gyu,4-2-3-1,Yoshirō Imamura,Match Report,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,2023,Sagan Tosu
-8,2023-04-23,14:00,J1 League,Matchweek 9,Sun,Away,W,3.0,2.0,Kyoto Sanga,51.0,8138.0,Yuji Ono,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,2023,Sagan Tosu
-9,2023-05-03,15:00,J1 League,Matchweek 11,Wed,Home,L,1.0,3.0,Marinos,50.0,11354.0,Yuji Ono,4-2-3-1,Hayato Shimizu,Match Report,,,0.04,0.17,1.0,0.0,0.0,24.0,6.0,25.0,2023,Sagan Tosu
-10,2023-05-07,15:00,J1 League,Matchweek 12,Sun,Away,L,0.0,1.0,Kawa Frontale,46.0,17674.0,Park Iru-gyu,4-2-3-1,Shū Kawamata,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Sagan Tosu
-11,2023-05-10,19:30,J1 League,Matchweek 10,Wed,Away,W,2.0,0.0,Urawa Reds,46.0,17970.0,Naoyuki Fujita,4-4-2,Hiroyuki Kimura,Match Report,,,0.5,0.67,2.0,0.0,0.0,4.0,3.0,75.0,2023,Sagan Tosu
-12,2023-05-14,13:30,J1 League,Matchweek 13,Sun,Away,D,0.0,0.0,Avispa Fukuoka,53.0,13719.0,Yuji Ono,4-2-3-1,Hiroki Kasahara,Match Report,,,0.0,0.0,0.0,0.0,0.0,3.0,1.0,33.3,2023,Sagan Tosu
-13,2023-05-20,17:00,J1 League,Matchweek 14,Sat,Home,W,2.0,0.0,Albirex Niigata,36.0,7265.0,Yuji Ono,4-2-3-1,Yuichi Nishimura,Match Report,,,0.14,0.33,2.0,1.0,1.0,7.0,3.0,42.9,2023,Sagan Tosu
-14,2023-05-27,17:00,J1 League,Matchweek 15,Sat,Home,D,2.0,2.0,Kashima Antlers,53.0,9272.0,Yuji Ono,4-2-3-1,Yudai Yamamoto,Match Report,,,0.17,1.0,2.0,0.0,0.0,12.0,2.0,16.7,2023,Sagan Tosu
-15,2023-06-03,18:30,J1 League,Matchweek 16,Sat,Away,W,2.0,1.0,Yokohama FC,63.0,7158.0,Yuji Ono,4-3-3,Kōei Koya,Match Report,,,0.17,0.5,2.0,0.0,0.0,12.0,4.0,33.3,2023,Sagan Tosu
-16,2023-06-10,19:00,J1 League,Matchweek 17,Sat,Home,D,1.0,1.0,Consa Sapporo,48.0,7774.0,Yuji Ono,4-3-3,Yoshirō Imamura,Match Report,,,0.0,,0.0,0.0,0.0,6.0,0.0,0.0,2023,Sagan Tosu
-17,2023-06-24,19:00,J1 League,Matchweek 18,Sat,Away,W,6.0,0.0,Shonan Bellmare,46.0,9848.0,Yuji Ono,4-2-3-1,Khamis Mohammed Al Marri,Match Report,,,0.38,0.5,6.0,1.0,1.0,13.0,10.0,76.9,2023,Sagan Tosu
-18,2023-07-01,19:00,J1 League,Matchweek 19,Sat,Home,L,1.0,2.0,Urawa Reds,69.0,11224.0,Yuji Ono,4-2-3-1,Ryo Tanimoto,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Sagan Tosu
-19,2023-07-08,19:30,J1 League,Matchweek 20,Sat,Home,W,2.0,1.0,Cerezo Osaka,55.0,7762.0,Yuji Ono,4-2-3-1,Jumpei Iida,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Sagan Tosu
-20,2023-07-16,19:00,J1 League,Matchweek 21,Sun,Away,L,1.0,2.0,Vissel Kobe,46.0,19893.0,Yuji Ono,4-2-3-1,Futoshi Nakamura,Match Report,,,0.0,0.0,1.0,1.0,1.0,8.0,3.0,37.5,2023,Sagan Tosu
-21,2023-08-06,19:00,J1 League,Matchweek 22,Sun,Home,L,0.0,1.0,Avispa Fukuoka,68.0,17799.0,Yuji Ono,4-2-3-1,Yuichi Nishimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,4.0,30.8,2023,Sagan Tosu
-22,2023-08-12,14:00,J1 League,Matchweek 23,Sat,Away,D,1.0,1.0,Consa Sapporo,49.0,21895.0,Hwang Seok-ho,4-2-3-1,Hajime Matsuo,Match Report,,,0.17,1.0,1.0,0.0,0.0,6.0,1.0,16.7,2023,Sagan Tosu
-23,2023-08-19,18:00,J1 League,Matchweek 24,Sat,Away,L,1.0,2.0,Kashima Antlers,55.0,19693.0,Yuji Ono,4-2-3-1,Ryo Tanimoto,Match Report,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,2023,Sagan Tosu
-24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,D,1.0,1.0,Gamba Osaka,41.0,12812.0,Yuji Ono,4-2-3-1,Hayato Shimizu,Match Report,,,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,2023,Sagan Tosu
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,,,,Sanfrecce,,,,,,Head-to-Head,,,0.12,0.36,30.0,3.0,3.0,228.0,76.0,33.3,2023,Sagan Tosu
-26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Away,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-27,2023-09-23,15:00,J1 League,Matchweek 28,Sat,Away,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-28,2023-09-30,19:00,J1 League,Matchweek 29,Sat,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-29,2023-10-21,13:00,J1 League,Matchweek 30,Sat,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-30,2023-10-27,19:00,J1 League,Matchweek 31,Fri,Away,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Home,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
-33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
 0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Away,D,0.0,0.0,Sanfrecce,53.0,13121.0,Hiroki Miyazawa,3-4-3,Takafumi Mikuriya,Match Report,,,0.0,,0.0,0.0,0.0,5.0,0.0,0.0,2023,Hokkaido Consadole Sapporo
 1,2023-02-25,15:00,J1 League,Matchweek 2,Sat,Home,L,1.0,3.0,Vissel Kobe,63.0,17078.0,Hiroki Miyazawa,3-4-3,Kōei Koya,Match Report,,,0.0,0.0,1.0,1.0,1.0,13.0,6.0,46.2,2023,Hokkaido Consadole Sapporo
 2,2023-03-04,14:00,J1 League,Matchweek 3,Sat,Away,D,2.0,2.0,Albirex Niigata,55.0,25468.0,Hiroki Miyazawa,3-4-3,Akihiko Ikeuchi,Match Report,,,0.09,0.5,2.0,0.0,0.0,22.0,4.0,18.2,2023,Hokkaido Consadole Sapporo
@@ -432,8 +398,8 @@
 22,2023-08-12,14:00,J1 League,Matchweek 23,Sat,Home,D,1.0,1.0,Sagan Tosu,52.0,21895.0,Akito Fukumori,3-4-3,Hajime Matsuo,Match Report,,,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,2023,Hokkaido Consadole Sapporo
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Away,L,0.0,3.0,Kyoto Sanga,65.0,9379.0,Akito Fukumori,3-4-3,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,1.0,16.0,3.0,18.8,2023,Hokkaido Consadole Sapporo
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Away,D,2.0,2.0,Kawa Frontale,39.0,19257.0,Takuma Arano,3-4-3,Takuto Okabe,Match Report,,,0.17,0.4,2.0,0.0,0.0,12.0,5.0,41.7,2023,Hokkaido Consadole Sapporo
-25,2023-09-02,13:00,J1 League,Matchweek 26,Sat,Home,,,,Gamba Osaka,,,,,,Head-to-Head,,,0.11,0.37,44.0,3.0,5.0,381.0,111.0,29.1,2023,Hokkaido Consadole Sapporo
-26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
+25,2023-09-02,13:00,J1 League,Matchweek 26,Sat,Home,W,4.0,0.0,Gamba Osaka,50.0,13219.0,Hiroki Miyazawa,3-4-3,Masuya Ueda,Match Report,,,0.17,0.5,4.0,0.0,0.0,23.0,8.0,34.8,2023,Hokkaido Consadole Sapporo
+26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,0.11,0.38,48.0,3.0,5.0,404.0,119.0,29.5,2023,Hokkaido Consadole Sapporo
 27,2023-09-23,16:00,J1 League,Matchweek 28,Sat,Away,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
 28,2023-09-30,13:00,J1 League,Matchweek 29,Sat,Home,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
 29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Away,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
@@ -441,6 +407,40 @@
 31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Home,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Hokkaido Consadole Sapporo
+0,2023-02-18,15:00,J1 League,Matchweek 1,Sat,Home,L,1.0,5.0,Shonan Bellmare,63.0,9663.0,Park Iru-gyu,3-4-3,Masuya Ueda,Match Report,,,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,2023,Sagan Tosu
+1,2023-02-25,15:00,J1 League,Matchweek 2,Sat,Away,D,1.0,1.0,Gamba Osaka,54.0,25865.0,Naoyuki Fujita,3-4-3,Koichiro Fukushima,Match Report,,,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,2023,Sagan Tosu
+2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Home,W,1.0,0.0,Grampus,49.0,7773.0,Naoyuki Fujita,3-4-3,Kōei Koya,Match Report,,,0.13,0.2,1.0,0.0,0.0,8.0,5.0,62.5,2023,Sagan Tosu
+3,2023-03-12,14:00,J1 League,Matchweek 4,Sun,Away,L,1.0,2.0,Cerezo Osaka,46.0,15714.0,Naoyuki Fujita,3-4-3,Yoshirō Imamura,Match Report,,,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,2023,Sagan Tosu
+4,2023-03-18,15:00,J1 League,Matchweek 5,Sat,Home,L,0.0,1.0,Vissel Kobe,60.0,12230.0,Yuji Ono,4-2-3-1,Hayato Shimizu,Match Report,,,0.0,,0.0,0.0,0.0,2.0,0.0,0.0,2023,Sagan Tosu
+5,2023-04-01,15:00,J1 League,Matchweek 6,Sat,Home,W,1.0,0.0,FC Tokyo,46.0,8548.0,Park Iru-gyu,4-2-3-1,Ryo Tanimoto,Match Report,,,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,2023,Sagan Tosu
+6,2023-04-09,14:00,J1 League,Matchweek 7,Sun,Away,L,0.0,1.0,Sanfrecce,49.0,13681.0,Park Iru-gyu,4-2-3-1,Takuto Okabe,Match Report,,,0.0,0.0,0.0,0.0,0.0,3.0,1.0,33.3,2023,Sagan Tosu
+7,2023-04-15,15:00,J1 League,Matchweek 8,Sat,Home,D,1.0,1.0,Kashiwa Reysol,52.0,6418.0,Park Iru-gyu,4-2-3-1,Yoshirō Imamura,Match Report,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,2023,Sagan Tosu
+8,2023-04-23,14:00,J1 League,Matchweek 9,Sun,Away,W,3.0,2.0,Kyoto Sanga,51.0,8138.0,Yuji Ono,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,2023,Sagan Tosu
+9,2023-05-03,15:00,J1 League,Matchweek 11,Wed,Home,L,1.0,3.0,Marinos,50.0,11354.0,Yuji Ono,4-2-3-1,Hayato Shimizu,Match Report,,,0.04,0.17,1.0,0.0,0.0,24.0,6.0,25.0,2023,Sagan Tosu
+10,2023-05-07,15:00,J1 League,Matchweek 12,Sun,Away,L,0.0,1.0,Kawa Frontale,46.0,17674.0,Park Iru-gyu,4-2-3-1,Shū Kawamata,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Sagan Tosu
+11,2023-05-10,19:30,J1 League,Matchweek 10,Wed,Away,W,2.0,0.0,Urawa Reds,46.0,17970.0,Naoyuki Fujita,4-4-2,Hiroyuki Kimura,Match Report,,,0.5,0.67,2.0,0.0,0.0,4.0,3.0,75.0,2023,Sagan Tosu
+12,2023-05-14,13:30,J1 League,Matchweek 13,Sun,Away,D,0.0,0.0,Avispa Fukuoka,53.0,13719.0,Yuji Ono,4-2-3-1,Hiroki Kasahara,Match Report,,,0.0,0.0,0.0,0.0,0.0,3.0,1.0,33.3,2023,Sagan Tosu
+13,2023-05-20,17:00,J1 League,Matchweek 14,Sat,Home,W,2.0,0.0,Albirex Niigata,36.0,7265.0,Yuji Ono,4-2-3-1,Yuichi Nishimura,Match Report,,,0.14,0.33,2.0,1.0,1.0,7.0,3.0,42.9,2023,Sagan Tosu
+14,2023-05-27,17:00,J1 League,Matchweek 15,Sat,Home,D,2.0,2.0,Kashima Antlers,53.0,9272.0,Yuji Ono,4-2-3-1,Yudai Yamamoto,Match Report,,,0.17,1.0,2.0,0.0,0.0,12.0,2.0,16.7,2023,Sagan Tosu
+15,2023-06-03,18:30,J1 League,Matchweek 16,Sat,Away,W,2.0,1.0,Yokohama FC,63.0,7158.0,Yuji Ono,4-3-3,Kōei Koya,Match Report,,,0.17,0.5,2.0,0.0,0.0,12.0,4.0,33.3,2023,Sagan Tosu
+16,2023-06-10,19:00,J1 League,Matchweek 17,Sat,Home,D,1.0,1.0,Consa Sapporo,48.0,7774.0,Yuji Ono,4-3-3,Yoshirō Imamura,Match Report,,,0.0,,0.0,0.0,0.0,6.0,0.0,0.0,2023,Sagan Tosu
+17,2023-06-24,19:00,J1 League,Matchweek 18,Sat,Away,W,6.0,0.0,Shonan Bellmare,46.0,9848.0,Yuji Ono,4-2-3-1,Khamis Mohammed Al Marri,Match Report,,,0.38,0.5,6.0,1.0,1.0,13.0,10.0,76.9,2023,Sagan Tosu
+18,2023-07-01,19:00,J1 League,Matchweek 19,Sat,Home,L,1.0,2.0,Urawa Reds,69.0,11224.0,Yuji Ono,4-2-3-1,Ryo Tanimoto,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Sagan Tosu
+19,2023-07-08,19:30,J1 League,Matchweek 20,Sat,Home,W,2.0,1.0,Cerezo Osaka,55.0,7762.0,Yuji Ono,4-2-3-1,Jumpei Iida,Match Report,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,2023,Sagan Tosu
+20,2023-07-16,19:00,J1 League,Matchweek 21,Sun,Away,L,1.0,2.0,Vissel Kobe,46.0,19893.0,Yuji Ono,4-2-3-1,Futoshi Nakamura,Match Report,,,0.0,0.0,1.0,1.0,1.0,8.0,3.0,37.5,2023,Sagan Tosu
+21,2023-08-06,19:00,J1 League,Matchweek 22,Sun,Home,L,0.0,1.0,Avispa Fukuoka,68.0,17799.0,Yuji Ono,4-2-3-1,Yuichi Nishimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,4.0,30.8,2023,Sagan Tosu
+22,2023-08-12,14:00,J1 League,Matchweek 23,Sat,Away,D,1.0,1.0,Consa Sapporo,49.0,21895.0,Hwang Seok-ho,4-2-3-1,Hajime Matsuo,Match Report,,,0.17,1.0,1.0,0.0,0.0,6.0,1.0,16.7,2023,Sagan Tosu
+23,2023-08-19,18:00,J1 League,Matchweek 24,Sat,Away,L,1.0,2.0,Kashima Antlers,55.0,19693.0,Yuji Ono,4-2-3-1,Ryo Tanimoto,Match Report,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,2023,Sagan Tosu
+24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,D,1.0,1.0,Gamba Osaka,41.0,12812.0,Yuji Ono,4-2-3-1,Hayato Shimizu,Match Report,,,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,2023,Sagan Tosu
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,L,0.0,2.0,Sanfrecce,60.0,9097.0,Park Iru-gyu,4-2-3-1,Jumpei Iida,Match Report,,,0.0,,0.0,0.0,0.0,5.0,0.0,0.0,2023,Sagan Tosu
+26,2023-09-15,19:00,J1 League,Matchweek 27,Fri,Away,,,,Marinos,,,,,,Head-to-Head,,,0.12,0.36,30.0,3.0,3.0,233.0,76.0,32.6,2023,Sagan Tosu
+27,2023-09-23,15:00,J1 League,Matchweek 28,Sat,Away,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
+28,2023-09-30,19:00,J1 League,Matchweek 29,Sat,Home,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
+29,2023-10-21,13:00,J1 League,Matchweek 30,Sat,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
+30,2023-10-27,19:00,J1 League,Matchweek 31,Fri,Away,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
+31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Home,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
+32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
+33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,Sagan Tosu
 0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,L,0.0,2.0,Kashima Antlers,54.0,15988.0,Sota Kawasaki,4-3-3,Ryo Tanimoto,Match Report,,,0.0,,0.0,0.0,0.0,6.0,0.0,0.0,2023,Kyoto Sanga
 1,2023-02-25,16:00,J1 League,Matchweek 2,Sat,Away,L,0.0,1.0,Grampus,52.0,21327.0,Sota Kawasaki,3-4-3,Yoshirō Imamura,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,3.0,30.0,2023,Kyoto Sanga
 2,2023-03-04,14:00,J1 League,Matchweek 3,Sat,Home,W,2.0,0.0,FC Tokyo,46.0,13255.0,Sota Kawasaki,4-3-3,Koichiro Fukushima,Match Report,,,0.13,0.25,2.0,1.0,1.0,8.0,4.0,50.0,2023,Kyoto Sanga
@@ -466,8 +466,8 @@
 22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Away,L,0.0,2.0,FC Tokyo,56.0,23162.0,Sota Kawasaki,4-3-3,Masuya Ueda,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,5.0,41.7,2023,Kyoto Sanga
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Home,W,3.0,0.0,Consa Sapporo,35.0,9379.0,Sota Kawasaki,4-3-3,Takafumi Mikuriya,Match Report,,,0.14,0.4,3.0,1.0,1.0,14.0,5.0,35.7,2023,Kyoto Sanga
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,W,2.0,0.0,Avispa Fukuoka,29.0,9830.0,Sota Kawasaki,4-3-3,Kōei Koya,Match Report,,,0.29,0.5,2.0,0.0,0.0,7.0,4.0,57.1,2023,Kyoto Sanga
-25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Away,,,,Vissel Kobe,,,,,,Head-to-Head,,,0.08,0.29,28.0,4.0,4.0,292.0,84.0,28.8,2023,Kyoto Sanga
-26,2023-09-15,19:30,J1 League,Matchweek 27,Fri,Away,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Kyoto Sanga
+25,2023-09-03,19:00,J1 League,Matchweek 26,Sun,Away,L,1.0,2.0,Vissel Kobe,44.0,18454.0,Sota Kawasaki,4-3-3,Akihiko Ikeuchi,Match Report,,,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,2023,Kyoto Sanga
+26,2023-09-15,19:30,J1 League,Matchweek 27,Fri,Away,,,,Urawa Reds,,,,,,Head-to-Head,,,0.08,0.29,29.0,4.0,4.0,301.0,87.0,28.9,2023,Kyoto Sanga
 27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Home,,,,Sanfrecce,,,,,,Head-to-Head,,,,,,,,,,,2023,Kyoto Sanga
 28,2023-09-30,19:00,J1 League,Matchweek 29,Sat,Away,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,Kyoto Sanga
 29,2023-10-21,15:00,J1 League,Matchweek 30,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Kyoto Sanga
@@ -500,8 +500,8 @@
 22,2023-08-12,18:00,J1 League,Matchweek 23,Sat,Home,D,2.0,2.0,Shonan Bellmare,71.0,28329.0,Yuto Horigome,4-2-3-1,Shū Kawamata,Match Report,,,0.11,0.22,2.0,0.0,0.0,18.0,9.0,50.0,2023,Albirex Niigata
 23,2023-08-18,19:00,J1 League,Matchweek 24,Fri,Away,W,1.0,0.0,Avispa Fukuoka,57.0,,Yuzuru Shimada,4-2-3-1,Futoshi Nakamura,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,2.0,15.4,2023,Albirex Niigata
 24,2023-08-26,18:00,J1 League,Matchweek 25,Sat,Away,L,0.0,2.0,Kashima Antlers,67.0,18895.0,Yuto Horigome,4-4-2,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,2023,Albirex Niigata
-25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Home,,,,Urawa Reds,,,,,,Head-to-Head,,,0.08,0.23,24.0,0.0,0.0,316.0,106.0,33.5,2023,Albirex Niigata
-26,2023-09-17,19:00,J1 League,Matchweek 27,Sun,Away,,,,Gamba Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
+25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Home,D,1.0,1.0,Urawa Reds,63.0,27775.0,Yuto Horigome,4-2-3-1,Hajime Matsuo,Match Report,,,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,2023,Albirex Niigata
+26,2023-09-17,19:00,J1 League,Matchweek 27,Sun,Away,,,,Gamba Osaka,,,,,,Head-to-Head,,,0.08,0.23,25.0,0.0,0.0,325.0,109.0,33.5,2023,Albirex Niigata
 27,2023-09-23,14:00,J1 League,Matchweek 28,Sat,Home,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
 28,2023-09-29,19:00,J1 League,Matchweek 29,Fri,Away,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
 29,2023-10-21,13:00,J1 League,Matchweek 30,Sat,Home,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
@@ -509,40 +509,6 @@
 31,2023-11-11,14:00,J1 League,Matchweek 32,Sat,Home,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Away,,,,Marinos,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Home,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Albirex Niigata
-0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,L,0.0,1.0,Grampus,71.0,11186.0,Gabriel,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,1.0,5.9,2023,Yokohama FC
-1,2023-02-24,19:00,J1 League,Matchweek 2,Fri,Away,D,2.0,2.0,Shonan Bellmare,60.0,10006.0,Gabriel,4-2-3-1,Hayato Shimizu,Match Report,,,0.09,0.29,2.0,0.0,0.0,22.0,7.0,31.8,2023,Yokohama FC
-2,2023-03-04,14:00,J1 League,Matchweek 3,Sat,Home,L,1.0,3.0,Kashima Antlers,57.0,10637.0,Hirotaka Mita,4-2-3-1,Jumpei Iida,Match Report,,,0.0,0.0,1.0,1.0,1.0,3.0,1.0,33.3,2023,Yokohama FC
-3,2023-03-12,15:00,J1 League,Matchweek 4,Sun,Away,L,1.0,3.0,FC Tokyo,55.0,23752.0,Hirotaka Mita,4-2-3-1,Masuya Ueda,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,6.0,50.0,2023,Yokohama FC
-4,2023-03-18,14:00,J1 League,Matchweek 5,Sat,Home,L,1.0,4.0,Kyoto Sanga,60.0,3401.0,Hirotaka Mita,4-2-3-1,Yudai Yamamoto,Match Report,,,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,2023,Yokohama FC
-5,2023-04-01,14:00,J1 League,Matchweek 6,Sat,Home,D,1.0,1.0,Avispa Fukuoka,60.0,4876.0,Hirotaka Mita,4-2-3-1,Hiroki Kasahara,Match Report,,,0.0,0.0,1.0,1.0,1.0,6.0,4.0,66.7,2023,Yokohama FC
-6,2023-04-08,19:00,J1 League,Matchweek 7,Sat,Away,L,0.0,5.0,Marinos,44.0,25238.0,Hirotaka Mita,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,5.0,31.3,2023,Yokohama FC
-7,2023-04-15,14:00,J1 League,Matchweek 8,Sat,Home,L,0.0,3.0,Sanfrecce,51.0,3935.0,Hirotaka Mita,4-2-3-1,Yudai Yamamoto,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,4.0,57.1,2023,Yokohama FC
-8,2023-04-23,16:00,J1 League,Matchweek 9,Sun,Away,D,1.0,1.0,Gamba Osaka,33.0,14577.0,Hirotaka Mita,4-2-3-1,Futoshi Nakamura,Match Report,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,2023,Yokohama FC
-9,2023-04-29,14:00,J1 League,Matchweek 10,Sat,Home,L,1.0,4.0,Consa Sapporo,47.0,7634.0,Hirotaka Mita,4-4-2,Ryo Tanimoto,Match Report,,,0.08,0.2,1.0,0.0,0.0,12.0,5.0,41.7,2023,Yokohama FC
-10,2023-05-03,19:03,J1 League,Matchweek 11,Wed,Home,W,1.0,0.0,Albirex Niigata,31.0,10134.0,Katsuya Iwatake,5-3-2,Yoshimi Yamashita,Match Report,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,2023,Yokohama FC
-11,2023-05-07,14:00,J1 League,Matchweek 12,Sun,Away,L,0.0,3.0,Vissel Kobe,45.0,20005.0,Katsuya Iwatake,3-4-3,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,4.0,44.4,2023,Yokohama FC
-12,2023-05-13,16:00,J1 League,Matchweek 13,Sat,Away,W,1.0,0.0,Kashiwa Reysol,43.0,8111.0,Katsuya Iwatake,3-4-3,Hayato Shimizu,Match Report,,,0.0,0.0,1.0,1.0,1.0,9.0,4.0,44.4,2023,Yokohama FC
-13,2023-05-20,16:00,J1 League,Matchweek 14,Sat,Home,W,2.0,1.0,Kawa Frontale,30.0,10276.0,Katsuya Iwatake,3-4-3,Akihiko Ikeuchi,Match Report,,,0.29,1.0,2.0,0.0,0.0,7.0,2.0,28.6,2023,Yokohama FC
-14,2023-05-28,14:00,J1 League,Matchweek 15,Sun,Away,L,0.0,2.0,Cerezo Osaka,42.0,14304.0,Katsuya Iwatake,3-4-3,Jumpei Iida,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,3.0,50.0,2023,Yokohama FC
-15,2023-06-03,18:30,J1 League,Matchweek 16,Sat,Home,L,1.0,2.0,Sagan Tosu,37.0,7158.0,Katsuya Iwatake,3-4-3,Kōei Koya,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Yokohama FC
-16,2023-06-11,18:30,J1 League,Matchweek 17,Sun,Home,D,0.0,0.0,Urawa Reds,37.0,10086.0,Katsuya Iwatake,3-4-3,Hayato Shimizu,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,42.9,2023,Yokohama FC
-17,2023-06-24,19:00,J1 League,Matchweek 18,Sat,Away,L,1.0,2.0,Kyoto Sanga,51.0,8784.0,Katsuya Iwatake,3-4-3,Akihiko Ikeuchi,Match Report,,,0.08,0.2,1.0,0.0,0.0,12.0,5.0,41.7,2023,Yokohama FC
-18,2023-07-01,18:30,J1 League,Matchweek 19,Sat,Home,D,0.0,0.0,Gamba Osaka,43.0,10348.0,Katsuya Iwatake,3-4-3,Koichiro Fukushima,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,3.0,15.0,2023,Yokohama FC
-19,2023-07-08,19:00,J1 League,Matchweek 20,Sat,Away,L,0.0,3.0,Kawa Frontale,41.0,21856.0,Katsuya Iwatake,3-4-3,Hajime Matsuo,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Yokohama FC
-20,2023-07-16,18:00,J1 League,Matchweek 21,Sun,Away,D,1.0,1.0,Sanfrecce,32.0,12760.0,Katsuya Iwatake,3-4-3,Hiroyuki Kimura,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Yokohama FC
-21,2023-08-06,18:30,J1 League,Matchweek 22,Sun,Home,W,2.0,0.0,Vissel Kobe,26.0,7800.0,Katsuya Iwatake,3-4-3,Hayato Shimizu,Match Report,,,0.29,0.67,2.0,0.0,1.0,7.0,3.0,42.9,2023,Yokohama FC
-22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Away,L,0.0,2.0,Avispa Fukuoka,64.0,8677.0,Katsuya Iwatake,3-4-3,Ryo Tanimoto,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,2023,Yokohama FC
-23,2023-08-20,18:30,J1 League,Matchweek 24,Sun,Home,L,0.0,1.0,Cerezo Osaka,48.0,8195.0,Katsuya Iwatake,3-4-3,Yūsuke Araki,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Yokohama FC
-24,2023-08-26,18:30,J1 League,Matchweek 25,Sat,Home,W,4.0,1.0,Marinos,26.0,13321.0,Katsuya Iwatake,3-4-3,Yuichi Nishimura,Match Report,,,0.23,0.43,3.0,0.0,0.0,13.0,7.0,53.8,2023,Yokohama FC
-25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Away,,,,Grampus,,,,,,Head-to-Head,,,0.06,0.18,19.0,3.0,4.0,265.0,91.0,34.3,2023,Yokohama FC
-26,2023-09-17,18:30,J1 League,Matchweek 27,Sun,Home,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-27,2023-09-23,14:00,J1 League,Matchweek 28,Sat,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-28,2023-09-30,17:00,J1 League,Matchweek 29,Sat,Away,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Home,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-30,2023-10-28,13:00,J1 League,Matchweek 31,Sat,Away,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Away,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
-33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
 0,2023-02-18,15:00,J1 League,Matchweek 1,Sat,Home,D,2.0,2.0,Gamba Osaka,41.0,12334.0,Taiyo Koga,4-3-3,Kōei Koya,Match Report,,,0.07,0.17,2.0,1.0,1.0,15.0,6.0,40.0,2023,Kashiwa Reysol
 1,2023-02-26,15:00,J1 League,Matchweek 2,Sun,Home,D,1.0,1.0,FC Tokyo,50.0,12833.0,Taiyo Koga,4-3-3,Yudai Yamamoto,Match Report,,,0.33,0.5,1.0,0.0,0.0,3.0,2.0,66.7,2023,Kashiwa Reysol
 2,2023-03-04,15:00,J1 League,Matchweek 3,Sat,Away,L,0.0,1.0,Avispa Fukuoka,49.0,6210.0,Taiyo Koga,4-3-3,Ryo Tanimoto,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Kashiwa Reysol
@@ -568,8 +534,8 @@
 22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Home,D,1.0,1.0,Cerezo Osaka,24.0,11892.0,Taiyo Koga,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Kashiwa Reysol
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Away,D,1.0,1.0,Vissel Kobe,42.0,20892.0,Taiyo Koga,4-4-2,Yoshirō Imamura,Match Report,,,0.17,1.0,1.0,0.0,0.0,6.0,1.0,16.7,2023,Kashiwa Reysol
 24,2023-08-26,19:00,J1 League,Matchweek 25,Sat,Home,D,0.0,0.0,Sanfrecce,45.0,9874.0,Taiyo Koga,4-4-2,Masuya Ueda,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Kashiwa Reysol
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,,,,Marinos,,,,,,Head-to-Head,,,0.07,0.22,19.0,1.0,1.0,274.0,81.0,29.6,2023,Kashiwa Reysol
-26,2023-09-17,18:30,J1 League,Matchweek 27,Sun,Away,,,,Yokohama FC,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,W,2.0,0.0,Marinos,32.0,12601.0,Taiyo Koga,4-4-2,Yūsuke Araki,Match Report,,,0.07,0.2,2.0,1.0,1.0,15.0,5.0,33.3,2023,Kashiwa Reysol
+26,2023-09-17,18:30,J1 League,Matchweek 27,Sun,Away,,,,Yokohama FC,,,,,,Head-to-Head,,,0.07,0.22,21.0,2.0,2.0,289.0,86.0,29.8,2023,Kashiwa Reysol
 27,2023-09-23,19:00,J1 League,Matchweek 28,Sat,Home,,,,Avispa Fukuoka,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
 28,2023-09-30,13:00,J1 League,Matchweek 29,Sat,Away,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
 29,2023-10-21,15:00,J1 League,Matchweek 30,Sat,Away,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
@@ -577,6 +543,40 @@
 31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
 32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
 33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Grampus,,,,,,Head-to-Head,,,,,,,,,,,2023,Kashiwa Reysol
+0,2023-02-18,14:00,J1 League,Matchweek 1,Sat,Home,L,0.0,1.0,Grampus,71.0,11186.0,Gabriel,4-2-3-1,Akihiko Ikeuchi,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,1.0,5.9,2023,Yokohama FC
+1,2023-02-24,19:00,J1 League,Matchweek 2,Fri,Away,D,2.0,2.0,Shonan Bellmare,60.0,10006.0,Gabriel,4-2-3-1,Hayato Shimizu,Match Report,,,0.09,0.29,2.0,0.0,0.0,22.0,7.0,31.8,2023,Yokohama FC
+2,2023-03-04,14:00,J1 League,Matchweek 3,Sat,Home,L,1.0,3.0,Kashima Antlers,57.0,10637.0,Hirotaka Mita,4-2-3-1,Jumpei Iida,Match Report,,,0.0,0.0,1.0,1.0,1.0,3.0,1.0,33.3,2023,Yokohama FC
+3,2023-03-12,15:00,J1 League,Matchweek 4,Sun,Away,L,1.0,3.0,FC Tokyo,55.0,23752.0,Hirotaka Mita,4-2-3-1,Masuya Ueda,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,6.0,50.0,2023,Yokohama FC
+4,2023-03-18,14:00,J1 League,Matchweek 5,Sat,Home,L,1.0,4.0,Kyoto Sanga,60.0,3401.0,Hirotaka Mita,4-2-3-1,Yudai Yamamoto,Match Report,,,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,2023,Yokohama FC
+5,2023-04-01,14:00,J1 League,Matchweek 6,Sat,Home,D,1.0,1.0,Avispa Fukuoka,60.0,4876.0,Hirotaka Mita,4-2-3-1,Hiroki Kasahara,Match Report,,,0.0,0.0,1.0,1.0,1.0,6.0,4.0,66.7,2023,Yokohama FC
+6,2023-04-08,19:00,J1 League,Matchweek 7,Sat,Away,L,0.0,5.0,Marinos,44.0,25238.0,Hirotaka Mita,4-2-3-1,Hiroyuki Kimura,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,5.0,31.3,2023,Yokohama FC
+7,2023-04-15,14:00,J1 League,Matchweek 8,Sat,Home,L,0.0,3.0,Sanfrecce,51.0,3935.0,Hirotaka Mita,4-2-3-1,Yudai Yamamoto,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,4.0,57.1,2023,Yokohama FC
+8,2023-04-23,16:00,J1 League,Matchweek 9,Sun,Away,D,1.0,1.0,Gamba Osaka,33.0,14577.0,Hirotaka Mita,4-2-3-1,Futoshi Nakamura,Match Report,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,2023,Yokohama FC
+9,2023-04-29,14:00,J1 League,Matchweek 10,Sat,Home,L,1.0,4.0,Consa Sapporo,47.0,7634.0,Hirotaka Mita,4-4-2,Ryo Tanimoto,Match Report,,,0.08,0.2,1.0,0.0,0.0,12.0,5.0,41.7,2023,Yokohama FC
+10,2023-05-03,19:03,J1 League,Matchweek 11,Wed,Home,W,1.0,0.0,Albirex Niigata,31.0,10134.0,Katsuya Iwatake,5-3-2,Yoshimi Yamashita,Match Report,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,2023,Yokohama FC
+11,2023-05-07,14:00,J1 League,Matchweek 12,Sun,Away,L,0.0,3.0,Vissel Kobe,45.0,20005.0,Katsuya Iwatake,3-4-3,Takafumi Mikuriya,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,4.0,44.4,2023,Yokohama FC
+12,2023-05-13,16:00,J1 League,Matchweek 13,Sat,Away,W,1.0,0.0,Kashiwa Reysol,43.0,8111.0,Katsuya Iwatake,3-4-3,Hayato Shimizu,Match Report,,,0.0,0.0,1.0,1.0,1.0,9.0,4.0,44.4,2023,Yokohama FC
+13,2023-05-20,16:00,J1 League,Matchweek 14,Sat,Home,W,2.0,1.0,Kawa Frontale,30.0,10276.0,Katsuya Iwatake,3-4-3,Akihiko Ikeuchi,Match Report,,,0.29,1.0,2.0,0.0,0.0,7.0,2.0,28.6,2023,Yokohama FC
+14,2023-05-28,14:00,J1 League,Matchweek 15,Sun,Away,L,0.0,2.0,Cerezo Osaka,42.0,14304.0,Katsuya Iwatake,3-4-3,Jumpei Iida,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,3.0,50.0,2023,Yokohama FC
+15,2023-06-03,18:30,J1 League,Matchweek 16,Sat,Home,L,1.0,2.0,Sagan Tosu,37.0,7158.0,Katsuya Iwatake,3-4-3,Kōei Koya,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Yokohama FC
+16,2023-06-11,18:30,J1 League,Matchweek 17,Sun,Home,D,0.0,0.0,Urawa Reds,37.0,10086.0,Katsuya Iwatake,3-4-3,Hayato Shimizu,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,3.0,42.9,2023,Yokohama FC
+17,2023-06-24,19:00,J1 League,Matchweek 18,Sat,Away,L,1.0,2.0,Kyoto Sanga,51.0,8784.0,Katsuya Iwatake,3-4-3,Akihiko Ikeuchi,Match Report,,,0.08,0.2,1.0,0.0,0.0,12.0,5.0,41.7,2023,Yokohama FC
+18,2023-07-01,18:30,J1 League,Matchweek 19,Sat,Home,D,0.0,0.0,Gamba Osaka,43.0,10348.0,Katsuya Iwatake,3-4-3,Koichiro Fukushima,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,3.0,15.0,2023,Yokohama FC
+19,2023-07-08,19:00,J1 League,Matchweek 20,Sat,Away,L,0.0,3.0,Kawa Frontale,41.0,21856.0,Katsuya Iwatake,3-4-3,Hajime Matsuo,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Yokohama FC
+20,2023-07-16,18:00,J1 League,Matchweek 21,Sun,Away,D,1.0,1.0,Sanfrecce,32.0,12760.0,Katsuya Iwatake,3-4-3,Hiroyuki Kimura,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Yokohama FC
+21,2023-08-06,18:30,J1 League,Matchweek 22,Sun,Home,W,2.0,0.0,Vissel Kobe,26.0,7800.0,Katsuya Iwatake,3-4-3,Hayato Shimizu,Match Report,,,0.29,0.67,2.0,0.0,1.0,7.0,3.0,42.9,2023,Yokohama FC
+22,2023-08-12,19:00,J1 League,Matchweek 23,Sat,Away,L,0.0,2.0,Avispa Fukuoka,64.0,8677.0,Katsuya Iwatake,3-4-3,Ryo Tanimoto,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,2023,Yokohama FC
+23,2023-08-20,18:30,J1 League,Matchweek 24,Sun,Home,L,0.0,1.0,Cerezo Osaka,48.0,8195.0,Katsuya Iwatake,3-4-3,Yūsuke Araki,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Yokohama FC
+24,2023-08-26,18:30,J1 League,Matchweek 25,Sat,Home,W,4.0,1.0,Marinos,26.0,13321.0,Katsuya Iwatake,3-4-3,Yuichi Nishimura,Match Report,,,0.23,0.43,3.0,0.0,0.0,13.0,7.0,53.8,2023,Yokohama FC
+25,2023-09-02,18:00,J1 League,Matchweek 26,Sat,Away,D,1.0,1.0,Grampus,58.0,33235.0,Katsuya Iwatake,3-4-3,Hiroyuki Kimura,Match Report,,,0.06,0.33,1.0,0.0,0.0,17.0,3.0,17.6,2023,Yokohama FC
+26,2023-09-17,18:30,J1 League,Matchweek 27,Sun,Home,,,,Kashiwa Reysol,,,,,,Head-to-Head,,,0.06,0.18,20.0,3.0,4.0,282.0,94.0,33.3,2023,Yokohama FC
+27,2023-09-23,14:00,J1 League,Matchweek 28,Sat,Away,,,,Albirex Niigata,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
+28,2023-09-30,17:00,J1 League,Matchweek 29,Sat,Away,,,,Urawa Reds,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
+29,2023-10-21,14:00,J1 League,Matchweek 30,Sat,Home,,,,FC Tokyo,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
+30,2023-10-28,13:00,J1 League,Matchweek 31,Sat,Away,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
+31,2023-11-11,15:00,J1 League,Matchweek 32,Sat,Away,,,,Sagan Tosu,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
+32,2023-11-25,14:00,J1 League,Matchweek 33,Sat,Home,,,,Shonan Bellmare,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
+33,2023-12-03,14:00,J1 League,Matchweek 34,Sun,Away,,,,Kashima Antlers,,,,,,Head-to-Head,,,,,,,,,,,2023,Yokohama FC
 0,2023-02-18,15:00,J1 League,Matchweek 1,Sat,Away,W,5.0,1.0,Sagan Tosu,37.0,9663.0,Kazuki Oiwa,3-1-4-2,Masuya Ueda,Match Report,,,0.24,0.36,5.0,0.0,0.0,21.0,14.0,66.7,2023,Shonan Bellmare
 1,2023-02-24,19:00,J1 League,Matchweek 2,Fri,Home,D,2.0,2.0,Yokohama FC,40.0,10006.0,Kazuki Oiwa,3-1-4-2,Hayato Shimizu,Match Report,,,0.05,0.17,1.0,0.0,0.0,22.0,6.0,27.3,2023,Shonan Bellmare
 2,2023-03-04,13:00,J1 League,Matchweek 3,Sat,Away,D,1.0,1.0,Kawa Frontale,47.0,21717.0,Kazuki Oiwa,3-1-4-2,Yūsuke Araki,Match Report,,,0.07,0.33,1.0,0.0,0.0,15.0,3.0,20.0,2023,Shonan Bellmare
@@ -602,8 +602,8 @@
 22,2023-08-12,18:00,J1 League,Matchweek 23,Sat,Away,D,2.0,2.0,Albirex Niigata,29.0,28329.0,Daiki Sugioka,3-1-4-2,Shū Kawamata,Match Report,,,0.25,1.0,2.0,0.0,0.0,8.0,2.0,25.0,2023,Shonan Bellmare
 23,2023-08-19,19:00,J1 League,Matchweek 24,Sat,Away,L,1.0,2.0,Gamba Osaka,50.0,32567.0,Daiki Sugioka,3-1-4-2,Takuto Okabe,Match Report,,,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,2023,Shonan Bellmare
 24,2023-08-25,19:00,J1 League,Matchweek 25,Fri,Home,L,0.0,1.0,Urawa Reds,49.0,,Daiki Sugioka,3-1-4-2,Jumpei Iida,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Shonan Bellmare
-25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,,,,Kashima Antlers,,,,,,Head-to-Head,,,0.08,0.23,29.0,4.0,4.0,301.0,107.0,35.5,2023,Shonan Bellmare
-26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Away,,,,Consa Sapporo,,,,,,Head-to-Head,,,,,,,,,,,2023,Shonan Bellmare
+25,2023-09-02,19:00,J1 League,Matchweek 26,Sat,Home,D,2.0,2.0,Kashima Antlers,34.0,11089.0,Daiki Sugioka,3-1-4-2,Hayato Shimizu,Match Report,,,0.29,0.5,2.0,0.0,0.0,7.0,4.0,57.1,2023,Shonan Bellmare
+26,2023-09-16,19:00,J1 League,Matchweek 27,Sat,Away,,,,Consa Sapporo,,,,,,Head-to-Head,,,0.09,0.24,31.0,4.0,4.0,308.0,111.0,36.0,2023,Shonan Bellmare
 27,2023-09-24,16:00,J1 League,Matchweek 28,Sun,Home,,,,Kawa Frontale,,,,,,Head-to-Head,,,,,,,,,,,2023,Shonan Bellmare
 28,2023-09-30,18:00,J1 League,Matchweek 29,Sat,Away,,,,Cerezo Osaka,,,,,,Head-to-Head,,,,,,,,,,,2023,Shonan Bellmare
 29,2023-10-21,15:00,J1 League,Matchweek 30,Sat,Away,,,,Kyoto Sanga,,,,,,Head-to-Head,,,,,,,,,,,2023,Shonan Bellmare

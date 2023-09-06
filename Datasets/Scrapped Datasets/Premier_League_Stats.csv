@@ -4,85 +4,54 @@
 2,2023-08-16,22:00,Super Cup,UEFA Super Cup,Wed,Home,D,1 (5),1 (4),es Sevilla,,,74.0,,Kyle Walker,4-2-3-1,François Letexier,Match Report,,,,,0.04,0.14,1.0,0.0,0.0,23.0,7.0,30.4,,,,2023,Manchester City
 3,2023-08-19,20:00,Premier League,Matchweek 2,Sat,Home,W,1,0,Newcastle Utd,1.0,0.3,59.0,,Kyle Walker,4-2-3-1,Robert Jones,Match Report,,17.9,0.0,0.0,0.07,0.25,1.0,0.0,0.0,14.0,4.0,28.6,0.0,1.0,0.07,2023,Manchester City
 4,2023-08-27,14:00,Premier League,Matchweek 3,Sun,Away,W,2,1,Sheffield Utd,3.5,0.7,79.0,31336.0,Kyle Walker,4-2-3-1,Jarred Gillett,Match Report,,17.3,2.0,-1.5,0.07,0.22,2.0,0.0,1.0,29.0,9.0,31.0,-0.8,2.8,0.1,2023,Manchester City
-5,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,16.5,2.0,1.5,0.09,0.25,8.0,0.0,1.0,91.0,32.0,35.2,2.3,5.7,0.1,2023,Manchester City
-6,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-7,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-9,2023-10-08,16:30,Premier League,Matchweek 8,Sun,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-11,2023-10-29,15:30,Premier League,Matchweek 10,Sun,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-12,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-13,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-14,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-15,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-16,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-17,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-18,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-19,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Brentford,,,,,,,,,Match Postponed,,,,,,,,,,,,,,,2023,Manchester City
-20,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-21,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-22,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-23,2024-01-31,,Premier League,Matchweek 22,Wed,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-24,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-25,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-26,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-27,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-28,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-29,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-30,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-31,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-32,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-33,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-34,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-35,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-36,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-37,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-38,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-39,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
-0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,D,1.0,1.0,Bournemouth,1.1,1.3,38.0,11245.0,Kurt Zouma,4-2-3-1,Peter Bankes,Match Report,,16.1,0.0,-0.1,0.06,0.5,1.0,0.0,0.0,16.0,2.0,12.5,-0.1,1.1,0.07,2023,West Ham United
-1,2023-08-20,16:30,Premier League,Matchweek 2,Sun,Home,W,3.0,1.0,Chelsea,1.8,2.5,25.0,62451.0,Kurt Zouma,4-2-3-1,John Brooks,Match Report,,19.6,0.0,1.2,0.18,0.4,3.0,1.0,1.0,11.0,5.0,45.5,1.0,1.0,0.09,2023,West Ham United
-2,2023-08-26,17:30,Premier League,Matchweek 3,Sat,Away,W,3.0,1.0,Brighton,3.0,1.5,22.0,31508.0,Kurt Zouma,4-1-4-1,Anthony Taylor,Match Report,,12.3,0.0,0.0,0.25,0.43,3.0,0.0,0.0,12.0,7.0,58.3,0.0,3.0,0.27,2023,West Ham United
-3,2023-09-01,20:00,Premier League,Matchweek 4,Fri,Away,,,,Luton Town,,,,,,,,Head-to-Head,,15.9,0.0,1.1,0.15,0.43,7.0,1.0,1.0,39.0,14.0,35.9,0.9,5.1,0.14,2023,West Ham United
-4,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-5,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-6,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-7,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-8,2023-10-22,16:30,Premier League,Matchweek 9,Sun,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-9,2023-10-29,13:00,Premier League,Matchweek 10,Sun,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-10,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-11,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-12,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-13,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-14,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-15,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-16,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-17,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-18,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-19,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-20,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-21,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-22,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-23,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-24,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-25,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-26,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-27,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-28,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-29,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-30,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-31,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-32,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-33,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-34,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-35,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-36,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
-37,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+5,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,W,5,1,Fulham,2.2,1.4,68.0,52899.0,Kyle Walker,4-2-3-1,Michael Oliver,Match Report,,14.8,0.0,2.8,0.67,1.0,5.0,1.0,1.0,6.0,4.0,66.7,2.6,1.4,0.25,2023,Manchester City
+6,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,16.3,2.0,4.4,0.12,0.33,13.0,1.0,2.0,97.0,36.0,37.1,4.9,7.1,0.11,2023,Manchester City
+7,2023-09-19,20:00,Champions Lg,Group stage,Tue,Home,,,,rs Red Star,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+8,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+9,2023-09-27,20:00,EFL Cup,Third round,Wed,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+10,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+11,2023-10-04,21:00,Champions Lg,Group stage,Wed,Away,,,,de RB Leipzig,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+12,2023-10-08,16:30,Premier League,Matchweek 8,Sun,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+13,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+14,2023-10-25,21:00,Champions Lg,Group stage,Wed,Away,,,,ch Young Boys,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+15,2023-10-29,15:30,Premier League,Matchweek 10,Sun,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+16,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+17,2023-11-07,20:00,Champions Lg,Group stage,Tue,Home,,,,ch Young Boys,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+18,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+19,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+20,2023-11-28,20:00,Champions Lg,Group stage,Tue,Home,,,,de RB Leipzig,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+21,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+22,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+23,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+24,2023-12-13,18:45,Champions Lg,Group stage,Wed,Away,,,,rs Red Star,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+25,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+26,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Brentford,,,,,,,,,Match Postponed,,,,,,,,,,,,,,,2023,Manchester City
+27,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+28,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+29,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+30,2024-01-31,,Premier League,Matchweek 22,Wed,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+31,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+32,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+33,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+34,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+35,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+36,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+37,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+38,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+39,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+40,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+41,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+42,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+43,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+44,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+45,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
+46,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester City
 0,2023-08-13,14:00,Premier League,Matchweek 1,Sun,Away,D,2,2,Brentford,1.3,2.2,69.0,17066.0,Son Heung-min,4-2-3-1,Robert Jones,Match Report,,19.6,0.0,0.7,0.11,0.33,2.0,0.0,0.0,18.0,6.0,33.3,0.7,1.3,0.07,2023,Tottenham Hotspur
 1,2023-08-19,17:30,Premier League,Matchweek 2,Sat,Home,W,2,0,Manchester Utd,1.7,2.1,55.0,61910.0,Son Heung-min,4-2-3-1,Michael Oliver,Match Report,,13.8,0.0,-0.7,0.06,0.17,1.0,0.0,0.0,17.0,6.0,35.3,-0.7,1.7,0.1,2023,Tottenham Hotspur
 2,2023-08-26,12:30,Premier League,Matchweek 3,Sat,Away,W,2,0,Bournemouth,2.1,0.7,56.0,10567.0,Son Heung-min,4-2-3-1,Tim Robinson,Match Report,,16.6,1.0,-0.1,0.12,0.33,2.0,0.0,0.0,17.0,6.0,35.3,-0.1,2.1,0.12,2023,Tottenham Hotspur
 3,2023-08-29,19:45,EFL Cup,Second round,Tue,Away,D,1 (3),1 (5),Fulham,,,60.0,,Ben Davies,4-4-1-1,Joshua Smith,Match Report,Fulham won on penalty kicks following extra time,,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,,,,2023,Tottenham Hotspur
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,16.7,1.0,0.9,0.1,0.29,6.0,0.0,0.0,62.0,21.0,33.9,0.9,5.1,0.1,2023,Tottenham Hotspur
-5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Tottenham Hotspur
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,W,5,2,Burnley,2.2,1.3,53.0,21750.0,Son Heung-min,4-2-3-1,Darren England,Match Report,,19.3,0.0,2.8,0.24,0.45,5.0,0.0,0.0,21.0,11.0,52.4,2.8,2.2,0.11,2023,Tottenham Hotspur
+5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,17.5,1.0,3.7,0.13,0.34,11.0,0.0,0.0,83.0,32.0,38.6,3.7,7.3,0.1,2023,Tottenham Hotspur
 6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Tottenham Hotspur
 7,2023-09-30,17:30,Premier League,Matchweek 7,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Tottenham Hotspur
 8,2023-10-07,12:30,Premier League,Matchweek 8,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Tottenham Hotspur
@@ -119,396 +88,270 @@
 0,2023-08-13,16:30,Premier League,Matchweek 1,Sun,Away,D,1.0,1.0,Chelsea,1.3,1.4,35.0,40096.0,Virgil van Dijk,4-3-3,Anthony Taylor,Match Report,,17.8,0.0,-0.3,0.08,1.0,1.0,0.0,0.0,13.0,1.0,7.7,-0.3,1.3,0.1,2023,Liverpool
 1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Home,W,3.0,1.0,Bournemouth,3.0,1.3,64.0,53145.0,Virgil van Dijk,4-3-3,Thomas Bramall,Match Report,,16.8,1.0,0.0,0.12,0.33,3.0,0.0,1.0,25.0,9.0,36.0,0.9,2.1,0.09,2023,Liverpool
 2,2023-08-27,16:30,Premier League,Matchweek 3,Sun,Away,W,2.0,1.0,Newcastle Utd,0.9,2.0,41.0,52214.0,Virgil van Dijk,4-3-3,John Brooks,Match Report,,17.2,1.0,1.1,0.22,0.5,2.0,0.0,0.0,9.0,4.0,44.4,1.1,0.9,0.1,2023,Liverpool
-3,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,17.2,2.0,0.8,0.13,0.43,6.0,0.0,1.0,47.0,14.0,29.8,1.8,4.2,0.09,2023,Liverpool
-4,2023-09-16,12:30,Premier League,Matchweek 5,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-5,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-6,2023-09-30,17:30,Premier League,Matchweek 7,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-7,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-8,2023-10-21,12:30,Premier League,Matchweek 9,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-9,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-10,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-11,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-12,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-13,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-14,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-15,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-16,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-17,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-18,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-19,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-20,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-21,2024-01-31,,Premier League,Matchweek 22,Wed,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-22,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-23,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-24,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-25,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-26,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-27,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-28,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-29,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-30,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-31,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-32,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-33,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-34,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-35,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-36,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
-37,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+3,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Home,W,3.0,0.0,Aston Villa,2.5,0.7,63.0,50109.0,Trent Alexander-Arnold,4-3-3,Simon Hooper,Match Report,,14.7,0.0,-0.5,0.12,0.5,2.0,0.0,0.0,17.0,4.0,23.5,-0.5,2.5,0.15,2023,Liverpool
+4,2023-09-16,12:30,Premier League,Matchweek 5,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,16.5,2.0,0.4,0.13,0.44,8.0,0.0,1.0,64.0,18.0,28.1,1.3,6.7,0.11,2023,Liverpool
+5,2023-09-21,18:45,Europa Lg,Group stage,Thu,Away,,,,at LASK,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+7,2023-09-26,,EFL Cup,Third round,Tue,Home,,,,Leicester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+8,2023-09-30,17:30,Premier League,Matchweek 7,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+9,2023-10-05,20:00,Europa Lg,Group stage,Thu,Home,,,,be Union SG,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+10,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+11,2023-10-21,12:30,Premier League,Matchweek 9,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+12,2023-10-26,20:00,Europa Lg,Group stage,Thu,Home,,,,fr Toulouse,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+13,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+14,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+15,2023-11-09,18:45,Europa Lg,Group stage,Thu,Away,,,,fr Toulouse,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+16,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+17,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+18,2023-11-30,20:00,Europa Lg,Group stage,Thu,Home,,,,at LASK,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+19,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+20,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+21,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+22,2023-12-14,18:45,Europa Lg,Group stage,Thu,Away,,,,be Union SG,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+23,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+24,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+25,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+26,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+27,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+28,2024-01-31,,Premier League,Matchweek 22,Wed,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+29,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+30,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+31,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+32,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+33,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+34,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+35,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+36,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+37,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+38,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+39,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+40,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+41,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+42,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+43,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+44,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Liverpool
+0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,D,1.0,1.0,Bournemouth,1.1,1.3,38.0,11245.0,Kurt Zouma,4-2-3-1,Peter Bankes,Match Report,,16.1,0.0,-0.1,0.06,0.5,1.0,0.0,0.0,16.0,2.0,12.5,-0.1,1.1,0.07,2023,West Ham United
+1,2023-08-20,16:30,Premier League,Matchweek 2,Sun,Home,W,3.0,1.0,Chelsea,1.8,2.5,25.0,62451.0,Kurt Zouma,4-2-3-1,John Brooks,Match Report,,19.6,0.0,1.2,0.18,0.4,3.0,1.0,1.0,11.0,5.0,45.5,1.0,1.0,0.09,2023,West Ham United
+2,2023-08-26,17:30,Premier League,Matchweek 3,Sat,Away,W,3.0,1.0,Brighton,3.0,1.5,22.0,31508.0,Kurt Zouma,4-1-4-1,Anthony Taylor,Match Report,,12.3,0.0,0.0,0.25,0.43,3.0,0.0,0.0,12.0,7.0,58.3,0.0,3.0,0.27,2023,West Ham United
+3,2023-09-01,20:00,Premier League,Matchweek 4,Fri,Away,W,2.0,1.0,Luton Town,1.0,1.4,61.0,10802.0,Kurt Zouma,4-2-3-1,Paul Tierney,Match Report,,16.3,0.0,1.0,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,1.0,1.0,0.11,2023,West Ham United
+4,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,16.0,0.0,2.1,0.17,0.47,9.0,1.0,1.0,48.0,17.0,35.4,1.9,6.1,0.13,2023,West Ham United
+5,2023-09-21,20:00,Europa Lg,Group stage,Thu,Home,,,,rs TSC Bačka Top,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+7,2023-09-26,,EFL Cup,Third round,Tue,Away,,,,Lincoln City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+9,2023-10-05,18:45,Europa Lg,Group stage,Thu,Away,,,,de Freiburg,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+10,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+11,2023-10-22,16:30,Premier League,Matchweek 9,Sun,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+12,2023-10-26,19:45,Europa Lg,Group stage,Thu,Away,,,,gr Olympiacos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+13,2023-10-29,13:00,Premier League,Matchweek 10,Sun,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+14,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+15,2023-11-09,20:00,Europa Lg,Group stage,Thu,Home,,,,gr Olympiacos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+16,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+17,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+18,2023-11-30,18:45,Europa Lg,Group stage,Thu,Away,,,,rs TSC Bačka Top,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+19,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+20,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+21,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+22,2023-12-14,20:00,Europa Lg,Group stage,Thu,Home,,,,de Freiburg,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+23,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+24,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+25,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+26,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+27,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+28,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+29,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+30,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+31,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+32,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+33,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+34,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+35,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+36,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+37,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+38,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+39,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+40,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+41,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+42,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+43,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
+44,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,West Ham United
 0,2023-08-06,16:00,Community Shield,FA Community Shield,Sun,Neutral,D,1 (4),1 (1),Manchester City,,,45.0,81145.0,Martin Ødegaard,4-3-3,Stuart Attwell,Match Report,Arsenal won on penalty kicks following normal time,,,,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,,,,2023,Arsenal
 1,2023-08-12,12:30,Premier League,Matchweek 1,Sat,Home,W,2,1,Nott'ham Forest,0.8,1.2,78.0,59984.0,Martin Ødegaard,4-3-3,Michael Oliver,Match Report,,19.1,0.0,1.2,0.13,0.29,2.0,0.0,0.0,15.0,7.0,46.7,1.2,0.8,0.06,2023,Arsenal
 2,2023-08-21,20:00,Premier League,Matchweek 2,Mon,Away,W,1,0,Crystal Palace,2.0,1.0,53.0,24189.0,Martin Ødegaard,4-3-3,David Coote,Match Report,,16.4,0.0,-1.0,0.0,0.0,1.0,1.0,1.0,13.0,2.0,15.4,-1.2,1.2,0.09,2023,Arsenal
 3,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Home,D,2,2,Fulham,3.2,0.6,71.0,59961.0,Martin Ødegaard,4-3-3,Paul Tierney,Match Report,,13.8,0.0,-1.2,0.06,0.11,2.0,1.0,1.0,18.0,9.0,50.0,-1.4,2.4,0.14,2023,Arsenal
-4,2023-09-03,16:30,Premier League,Matchweek 4,Sun,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,16.2,0.0,0.0,0.08,0.19,6.0,2.0,2.0,53.0,21.0,39.6,-0.4,4.4,0.1,2023,Arsenal
-5,2023-09-16,17:30,Premier League,Matchweek 5,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-8,2023-10-08,16:30,Premier League,Matchweek 8,Sun,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-9,2023-10-21,17:30,Premier League,Matchweek 9,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-10,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+4,2023-09-03,16:30,Premier League,Matchweek 4,Sun,Home,W,3,1,Manchester Utd,2.3,0.9,55.0,,Martin Ødegaard,4-3-3,Anthony Taylor,Match Report,,15.0,0.0,0.7,0.18,0.6,3.0,0.0,0.0,17.0,5.0,29.4,0.7,2.3,0.13,2023,Arsenal
+5,2023-09-17,16:30,Premier League,Matchweek 5,Sun,Away,,,,Everton,,,,,,,,Head-to-Head,,15.9,0.0,0.7,0.1,0.27,9.0,2.0,2.0,70.0,26.0,37.1,0.3,6.7,0.11,2023,Arsenal
+6,2023-09-20,20:00,Champions Lg,Group stage,Wed,Home,,,,nl PSV Eindhoven,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+7,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+8,2023-09-26,,EFL Cup,Third round,Tue,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+9,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+10,2023-10-03,21:00,Champions Lg,Group stage,Tue,Away,,,,fr Lens,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+11,2023-10-08,16:30,Premier League,Matchweek 8,Sun,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+12,2023-10-21,17:30,Premier League,Matchweek 9,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+13,2023-10-24,21:00,Champions Lg,Group stage,Tue,Away,,,,es Sevilla,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+14,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+15,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+16,2023-11-08,20:00,Champions Lg,Group stage,Wed,Home,,,,es Sevilla,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+17,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+18,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+19,2023-11-29,20:00,Champions Lg,Group stage,Wed,Home,,,,fr Lens,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+20,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+21,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+22,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+23,2023-12-12,18:45,Champions Lg,Group stage,Tue,Away,,,,nl PSV Eindhoven,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+24,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+25,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+26,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+27,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+28,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+29,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+30,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+31,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+32,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+33,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+34,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+35,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+36,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+37,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+38,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+39,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+40,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+41,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+42,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+43,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+44,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
+45,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Arsenal
 0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Home,W,4.0,1.0,Luton Town,4.0,1.5,70.0,31872.0,Lewis Dunk,4-2-3-1,David Coote,Match Report,,17.0,0.0,0.0,0.12,0.27,4.0,1.0,1.0,26.0,11.0,42.3,-0.2,3.2,0.12,2023,Brighton and Hove Albion
 1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Away,W,4.0,1.0,Wolves,2.2,2.1,53.0,31317.0,Lewis Dunk,4-2-3-1,Andy Madley,Match Report,,15.6,0.0,1.8,0.25,0.5,4.0,0.0,0.0,16.0,8.0,50.0,1.8,2.2,0.14,2023,Brighton and Hove Albion
 2,2023-08-26,17:30,Premier League,Matchweek 3,Sat,Home,L,1.0,3.0,West Ham,1.5,3.0,78.0,31508.0,Lewis Dunk,4-2-3-1,Anthony Taylor,Match Report,,19.5,1.0,-0.5,0.04,0.1,1.0,0.0,0.0,25.0,10.0,40.0,-0.5,1.5,0.06,2023,Brighton and Hove Albion
-3,2023-09-02,17:30,Premier League,Matchweek 4,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,17.6,1.0,1.3,0.12,0.28,9.0,1.0,1.0,67.0,29.0,43.3,1.1,6.9,0.1,2023,Brighton and Hove Albion
-4,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-5,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-6,2023-09-30,12:30,Premier League,Matchweek 7,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-7,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-8,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-9,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-10,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-11,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-12,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-13,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-14,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-15,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-16,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-17,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-18,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-19,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-20,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-21,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-22,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-23,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-24,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-25,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-26,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-27,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-28,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-29,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-30,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-31,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-32,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-33,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-34,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-35,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-36,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-37,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
-0,2023-08-12,17:30,Premier League,Matchweek 1,Sat,Away,L,1.0,5.0,Newcastle Utd,1.8,3.3,48.0,52207.0,John McGinn,4-2-3-1,Andy Madley,Match Report,,14.5,1.0,-0.8,0.06,0.17,1.0,0.0,0.0,16.0,6.0,37.5,-0.8,1.8,0.12,2023,Aston Villa
-1,2023-08-20,14:00,Premier League,Matchweek 2,Sun,Home,W,4.0,0.0,Everton,2.9,0.6,60.0,41694.0,John McGinn,4-2-3-1,Anthony Taylor,Match Report,,18.5,0.0,1.1,0.25,0.5,4.0,1.0,1.0,12.0,6.0,50.0,0.8,2.2,0.18,2023,Aston Villa
-2,2023-08-23,17:45,Conf Lg,Play-off round,Wed,Away,W,5.0,0.0,sct Hibernian,,,,19306.0,John McGinn,4-1-4-1,Ricardo de Burgos,Match Report,Leg 1 of 2,,,,,,5.0,1.0,1.0,,,,,,,2023,Aston Villa
-3,2023-08-27,14:00,Premier League,Matchweek 3,Sun,Away,W,3.0,1.0,Burnley,2.5,0.7,43.0,21591.0,John McGinn,3-4-3,Michael Salisbury,Match Report,,13.4,0.0,0.5,0.19,0.5,3.0,0.0,0.0,16.0,6.0,37.5,0.5,2.5,0.17,2023,Aston Villa
-4,2023-08-31,20:00,Conf Lg,Play-off round,Thu,Home,,,,sct Hibernian,,,,,,,,Head-to-Head,Leg 2 of 2; Hibernian 0:5 Aston Villa,15.2,1.0,5.8,0.16,0.39,13.0,2.0,2.0,44.0,18.0,40.9,4.5,6.5,0.15,2023,Aston Villa
-5,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-6,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-7,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-8,2023-09-30,12:30,Premier League,Matchweek 7,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-10,2023-10-22,16:30,Premier League,Matchweek 9,Sun,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-11,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-12,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-13,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-14,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-15,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-16,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-17,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-18,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-19,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-20,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-21,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-22,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-23,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-24,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-25,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-26,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-27,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-28,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-29,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-30,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-31,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-32,2024-04-03,,Premier League,Matchweek 31,Wed,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-33,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-34,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-35,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-36,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-37,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-38,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-39,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
-0,2023-08-14,20:00,Premier League,Matchweek 1,Mon,Home,W,1.0,0.0,Wolves,2.2,2.2,51.0,73358.0,Bruno Fernandes,4-1-4-1,Simon Hooper,Match Report,,14.7,0.0,-1.2,0.07,0.5,1.0,0.0,0.0,15.0,2.0,13.3,-1.2,2.2,0.15,2023,Manchester United
-1,2023-08-19,17:30,Premier League,Matchweek 2,Sat,Away,L,0.0,2.0,Tottenham,2.1,1.7,45.0,61910.0,Bruno Fernandes,4-2-3-1,Michael Oliver,Match Report,,15.6,1.0,-2.1,0.0,0.0,0.0,0.0,0.0,22.0,6.0,27.3,-2.1,2.1,0.09,2023,Manchester United
-2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Home,W,3.0,2.0,Nott'ham Forest,2.8,1.2,66.0,73595.0,Bruno Fernandes,4-2-3-1,Stuart Attwell,Match Report,,20.3,0.0,0.2,0.12,0.25,3.0,1.0,1.0,17.0,8.0,47.1,0.0,2.0,0.12,2023,Manchester United
-3,2023-09-03,16:30,Premier League,Matchweek 4,Sun,Away,,,,Arsenal,,,,,,,,Head-to-Head,,16.8,1.0,-3.1,0.06,0.19,4.0,1.0,1.0,54.0,16.0,29.6,-3.3,6.3,0.12,2023,Manchester United
-4,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-5,2023-09-23,20:00,Premier League,Matchweek 6,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-6,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-7,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-8,2023-10-22,14:00,Premier League,Matchweek 9,Sun,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-9,2023-10-29,15:30,Premier League,Matchweek 10,Sun,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-10,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-11,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-12,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-13,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-14,2023-12-06,,Premier League,Matchweek 15,Wed,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-15,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-16,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-17,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-18,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-19,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-20,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-21,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-22,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-23,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-24,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-25,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-26,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-27,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-28,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-29,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-30,2024-04-03,,Premier League,Matchweek 31,Wed,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-31,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-32,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-33,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-34,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-35,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-36,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-37,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
-0,2023-08-13,14:00,Premier League,Matchweek 1,Sun,Home,D,2,2,Tottenham,2.2,1.3,31.0,17066.0,Christian Nørgaard,5-3-2,Robert Jones,Match Report,,18.0,0.0,-0.2,0.1,0.2,2.0,1.0,1.0,10.0,5.0,50.0,-0.4,1.4,0.14,2023,Brentford
-1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Away,W,3,0,Fulham,3.7,0.5,45.0,24236.0,Christian Nørgaard,4-3-3,Darren Bond,Match Report,,13.8,1.0,-0.7,0.13,0.29,3.0,1.0,1.0,16.0,7.0,43.8,-1.1,3.1,0.2,2023,Brentford
-2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Home,D,1,1,Crystal Palace,1.0,0.8,60.0,16997.0,Christian Nørgaard,4-3-3,Peter Bankes,Match Report,,13.7,0.0,0.0,0.08,1.0,1.0,0.0,0.0,12.0,1.0,8.3,0.0,1.0,0.08,2023,Brentford
-3,2023-08-29,19:45,EFL Cup,Second round,Tue,Away,D,1 (3),1 (0),Newport County,,,78.0,5916.0,Vitaly Janelt,4-3-3,Scott Oldham,Match Report,Brentford won on penalty kicks following extra time,,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,,,,2023,Brentford
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,14.8,1.0,0.2,0.1,0.28,7.0,2.0,2.0,49.0,18.0,36.7,-0.5,5.5,0.15,2023,Brentford
-5,2023-09-17,16:30,Premier League,Matchweek 5,Sun,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-6,2023-09-23,17:30,Premier League,Matchweek 6,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-7,2023-10-01,14:00,Premier League,Matchweek 7,Sun,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-9,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-10,2023-10-28,12:30,Premier League,Matchweek 10,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Manchester City,,,,,,,,,Match Postponed,,,,,,,,,,,,,,,2023,Brentford
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
-0,2023-08-13,16:30,Premier League,Matchweek 1,Sun,Home,D,1.0,1.0,Liverpool,1.4,1.3,65.0,40096.0,Reece James,3-4-3,Anthony Taylor,Match Report,,13.2,1.0,-0.4,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,-0.4,1.4,0.14,2023,Chelsea
-1,2023-08-20,16:30,Premier League,Matchweek 2,Sun,Away,L,1.0,3.0,West Ham,2.5,1.8,75.0,62451.0,Ben Chilwell,3-4-3,John Brooks,Match Report,,17.1,0.0,-1.5,0.06,0.33,1.0,0.0,1.0,16.0,3.0,18.8,-0.7,1.7,0.11,2023,Chelsea
-2,2023-08-25,20:00,Premier League,Matchweek 3,Fri,Home,W,3.0,0.0,Luton Town,2.2,0.4,67.0,39893.0,Ben Chilwell,3-4-3,Robert Jones,Match Report,,14.2,1.0,0.8,0.16,0.38,3.0,0.0,0.0,19.0,8.0,42.1,0.8,2.2,0.12,2023,Chelsea
-3,2023-08-30,19:45,EFL Cup,Second round,Wed,Home,W,2.0,1.0,AFC Wimbledon,,,84.0,37794.0,Conor Gallagher,4-2-3-1,Tony Harrington,Match Report,,,,,0.04,0.11,2.0,1.0,1.0,23.0,9.0,39.1,,,,2023,Chelsea
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,15.0,2.0,0.9,0.09,0.25,7.0,1.0,2.0,68.0,24.0,35.3,0.7,5.3,0.12,2023,Chelsea
-5,2023-09-17,14:00,Premier League,Matchweek 5,Sun,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-7,2023-10-02,20:00,Premier League,Matchweek 7,Mon,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-9,2023-10-21,17:30,Premier League,Matchweek 9,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-10,2023-10-28,12:30,Premier League,Matchweek 10,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-15,2023-12-06,,Premier League,Matchweek 15,Wed,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-22,2024-01-31,,Premier League,Matchweek 22,Wed,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-31,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+3,2023-09-02,17:30,Premier League,Matchweek 4,Sat,Home,W,3.0,1.0,Newcastle Utd,1.3,1.2,56.0,31620.0,Lewis Dunk,4-2-3-1,Stuart Attwell,Match Report,,17.3,0.0,1.7,0.2,0.5,3.0,0.0,0.0,15.0,6.0,40.0,1.7,1.3,0.09,2023,Brighton and Hove Albion
+4,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,17.6,1.0,3.0,0.13,0.31,12.0,1.0,1.0,82.0,35.0,42.7,2.8,8.2,0.1,2023,Brighton and Hove Albion
+5,2023-09-21,20:00,Europa Lg,Group stage,Thu,Home,,,,gr AEK Athens,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+7,2023-09-27,19:45,EFL Cup,Third round,Wed,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+8,2023-09-30,12:30,Premier League,Matchweek 7,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+9,2023-10-05,18:45,Europa Lg,Group stage,Thu,Away,,,,fr Marseille,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+10,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+11,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+12,2023-10-26,20:00,Europa Lg,Group stage,Thu,Home,,,,nl Ajax,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+13,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+14,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+15,2023-11-09,18:45,Europa Lg,Group stage,Thu,Away,,,,nl Ajax,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+16,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+17,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+18,2023-11-30,19:45,Europa Lg,Group stage,Thu,Away,,,,gr AEK Athens,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+19,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+20,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+21,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+22,2023-12-14,20:00,Europa Lg,Group stage,Thu,Home,,,,fr Marseille,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+23,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+24,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+25,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+26,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+27,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+28,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+29,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+30,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+31,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+32,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+33,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+34,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+35,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+36,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+37,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+38,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+39,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+40,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+41,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+42,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+43,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
+44,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brighton and Hove Albion
 0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,W,1.0,0.0,Sheffield Utd,1.9,0.5,68.0,31194.0,Joel Ward,4-2-3-1,John Brooks,Match Report,,18.5,1.0,-0.9,0.04,0.13,1.0,0.0,0.0,24.0,8.0,33.3,-0.9,1.9,0.08,2023,Crystal Palace
 1,2023-08-21,20:00,Premier League,Matchweek 2,Mon,Home,L,0.0,1.0,Arsenal,1.0,2.0,47.0,24189.0,Joel Ward,4-2-3-1,David Coote,Match Report,,16.4,1.0,-1.0,0.0,0.0,0.0,0.0,0.0,14.0,2.0,14.3,-1.0,1.0,0.07,2023,Crystal Palace
 2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Away,D,1.0,1.0,Brentford,0.8,1.0,40.0,16997.0,Joel Ward,4-2-3-1,Peter Bankes,Match Report,,16.9,1.0,0.2,0.07,0.2,1.0,0.0,0.0,15.0,5.0,33.3,0.2,0.8,0.05,2023,Crystal Palace
 3,2023-08-29,19:45,EFL Cup,Second round,Tue,Away,W,4.0,2.0,Plymouth Argyle,,,48.0,15826.0,James Tomkins,4-4-2,Dean Whitestone,Match Report,,,,,0.25,0.8,4.0,0.0,0.0,16.0,5.0,31.3,,,,2023,Crystal Palace
-4,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Home,,,,Wolves,,,,,,,,Head-to-Head,,17.5,3.0,2.3,0.09,0.3,6.0,0.0,0.0,69.0,20.0,29.0,2.3,3.7,0.07,2023,Crystal Palace
-5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+4,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Home,W,3.0,2.0,Wolves,2.1,1.2,43.0,,Joel Ward,4-3-3,Robert Jones,Match Report,,13.8,1.0,0.9,0.19,0.3,3.0,0.0,0.0,16.0,10.0,62.5,0.9,2.1,0.13,2023,Crystal Palace
+5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,16.6,4.0,3.2,0.11,0.3,9.0,0.0,0.0,85.0,30.0,35.3,3.2,5.8,0.08,2023,Crystal Palace
 6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-8,2023-10-07,17:30,Premier League,Matchweek 8,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-9,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-10,2023-10-27,20:00,Premier League,Matchweek 10,Fri,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
-0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,W,1,0,Everton,1.5,2.7,58.0,39940.0,Tom Cairney,4-3-3,Stuart Attwell,Match Report,,13.2,0.0,-0.5,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,-0.5,1.5,0.17,2023,Fulham
-1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Home,L,0,3,Brentford,0.5,3.7,55.0,24236.0,Tim Ream,4-3-3,Darren Bond,Match Report,,22.3,1.0,-0.5,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,-0.5,0.5,0.05,2023,Fulham
-2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Away,D,2,2,Arsenal,0.6,3.2,29.0,59961.0,Bobby Reid,4-3-3,Paul Tierney,Match Report,,17.8,0.0,1.4,0.25,0.67,2.0,0.0,0.0,8.0,3.0,37.5,1.4,0.6,0.07,2023,Fulham
-3,2023-08-29,19:45,EFL Cup,Second round,Tue,Home,D,1 (5),1 (3),Tottenham,,,40.0,,Tom Cairney,4-2-3-1,Joshua Smith,Match Report,Fulham won on penalty kicks following extra time,,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,,,,2023,Fulham
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,17.9,1.0,0.5,0.07,0.3,3.0,0.0,0.0,41.0,10.0,24.4,0.5,2.5,0.09,2023,Fulham
-5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-7,2023-10-02,20:00,Premier League,Matchweek 7,Mon,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-9,2023-10-23,20:00,Premier League,Matchweek 9,Mon,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-10,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
-0,2023-08-12,17:30,Premier League,Matchweek 1,Sat,Home,W,5.0,1.0,Aston Villa,3.3,1.8,52.0,52207.0,Kieran Trippier,4-3-3,Andy Madley,Match Report,,13.2,0.0,1.7,0.29,0.42,5.0,0.0,0.0,17.0,12.0,70.6,1.7,3.3,0.2,2023,Newcastle United
-1,2023-08-19,20:00,Premier League,Matchweek 2,Sat,Away,L,0.0,1.0,Manchester City,0.3,1.0,41.0,,Kieran Trippier,4-3-3,Robert Jones,Match Report,,20.3,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,-0.3,0.3,0.04,2023,Newcastle United
-2,2023-08-27,16:30,Premier League,Matchweek 3,Sun,Home,L,1.0,2.0,Liverpool,2.0,0.9,59.0,52214.0,Kieran Trippier,4-3-3,John Brooks,Match Report,,18.3,1.0,-1.0,0.04,0.13,1.0,0.0,0.0,23.0,8.0,34.8,-1.0,2.0,0.09,2023,Newcastle United
-3,2023-09-02,17:30,Premier League,Matchweek 4,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,16.8,1.0,0.4,0.13,0.29,6.0,0.0,0.0,47.0,21.0,44.7,0.4,5.6,0.12,2023,Newcastle United
-4,2023-09-17,16:30,Premier League,Matchweek 5,Sun,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-5,2023-09-24,16:30,Premier League,Matchweek 6,Sun,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-6,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-7,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-8,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-9,2023-10-28,17:30,Premier League,Matchweek 10,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-10,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-11,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-12,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-13,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-14,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-15,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-16,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-17,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-18,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-19,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-20,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-21,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-22,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-23,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-24,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-25,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-26,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-27,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-28,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-29,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-30,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-31,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-32,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-33,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-34,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-35,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-36,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
-37,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+7,2023-09-26,20:00,EFL Cup,Third round,Tue,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+9,2023-10-07,17:30,Premier League,Matchweek 8,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+11,2023-10-27,20:00,Premier League,Matchweek 10,Fri,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Crystal Palace
+0,2023-08-13,14:00,Premier League,Matchweek 1,Sun,Home,D,2,2,Tottenham,2.2,1.3,31.0,17066.0,Christian Nørgaard,5-3-2,Robert Jones,Match Report,,18.0,0.0,-0.2,0.1,0.2,2.0,1.0,1.0,10.0,5.0,50.0,-0.4,1.4,0.14,2023,Brentford
+1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Away,W,3,0,Fulham,3.7,0.5,45.0,24236.0,Christian Nørgaard,4-3-3,Darren Bond,Match Report,,13.8,1.0,-0.7,0.13,0.29,3.0,1.0,1.0,16.0,7.0,43.8,-1.1,3.1,0.2,2023,Brentford
+2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Home,D,1,1,Crystal Palace,1.0,0.8,60.0,16997.0,Christian Nørgaard,4-3-3,Peter Bankes,Match Report,,13.7,0.0,0.0,0.08,1.0,1.0,0.0,0.0,12.0,1.0,8.3,0.0,1.0,0.08,2023,Brentford
+3,2023-08-29,19:45,EFL Cup,Second round,Tue,Away,D,1 (3),1 (0),Newport County,,,78.0,5916.0,Vitaly Janelt,4-3-3,Scott Oldham,Match Report,Brentford won on penalty kicks following extra time,,,,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,,,,2023,Brentford
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,D,2,2,Bournemouth,2.9,2.1,60.0,16973.0,Christian Nørgaard,4-3-3,Robert Madley,Match Report,,14.7,1.0,-0.9,0.1,0.29,2.0,0.0,0.0,21.0,7.0,33.3,-0.9,2.9,0.14,2023,Brentford
+5,2023-09-16,17:30,Premier League,Matchweek 5,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,14.8,2.0,-0.7,0.1,0.28,9.0,2.0,2.0,70.0,25.0,35.7,-1.3,8.3,0.14,2023,Brentford
+6,2023-09-23,17:30,Premier League,Matchweek 6,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+7,2023-09-26,,EFL Cup,Third round,Tue,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+8,2023-10-01,14:00,Premier League,Matchweek 7,Sun,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+11,2023-10-28,12:30,Premier League,Matchweek 10,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Manchester City,,,,,,,,,Match Postponed,,,,,,,,,,,,,,,2023,Brentford
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Brentford
 0,2023-08-12,12:30,Premier League,Matchweek 1,Sat,Away,L,1.0,2.0,Arsenal,1.2,0.8,22.0,59984.0,Joe Worrall,3-4-3,Michael Oliver,Match Report,,17.3,0.0,-0.2,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,-0.2,1.2,0.2,2023,Nottingham Forest
 1,2023-08-18,19:45,Premier League,Matchweek 2,Fri,Home,W,2.0,1.0,Sheffield Utd,1.4,0.5,50.0,29432.0,Joe Worrall,3-4-3,Peter Bankes,Match Report,,15.6,0.0,0.6,0.13,0.5,2.0,0.0,0.0,16.0,4.0,25.0,0.6,1.4,0.09,2023,Nottingham Forest
 2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Away,L,2.0,3.0,Manchester Utd,1.2,2.8,34.0,73595.0,Joe Worrall,3-4-3,Stuart Attwell,Match Report,,14.7,0.0,0.8,0.22,0.5,2.0,0.0,0.0,9.0,4.0,44.4,0.8,1.2,0.13,2023,Nottingham Forest
 3,2023-08-30,19:45,EFL Cup,Second round,Wed,Home,L,0.0,1.0,Burnley,,,40.0,27766.0,Ryan Yates,5-3-2,Robert Madley,Match Report,,,,,0.0,,0.0,0.0,0.0,7.0,0.0,0.0,,,,2023,Nottingham Forest
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,15.7,0.0,1.2,0.13,0.5,5.0,0.0,0.0,38.0,10.0,26.3,1.2,3.8,0.12,2023,Nottingham Forest
-5,2023-09-18,19:45,Premier League,Matchweek 5,Mon,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,W,1.0,0.0,Chelsea,0.8,2.3,25.0,39820.0,Joe Worrall,3-4-3,Tim Robinson,Match Report,,19.0,0.0,0.2,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,0.2,0.8,0.11,2023,Nottingham Forest
+5,2023-09-18,19:45,Premier League,Matchweek 5,Mon,Home,,,,Burnley,,,,,,,,Head-to-Head,,16.3,0.0,1.5,0.13,0.46,6.0,0.0,0.0,45.0,13.0,28.9,1.5,4.5,0.12,2023,Nottingham Forest
 6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
 7,2023-10-01,14:00,Premier League,Matchweek 7,Sun,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
 8,2023-10-07,17:30,Premier League,Matchweek 8,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
@@ -542,94 +385,313 @@
 36,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
 37,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
 38,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Nottingham Forest
+0,2023-08-12,17:30,Premier League,Matchweek 1,Sat,Away,L,1.0,5.0,Newcastle Utd,1.8,3.3,48.0,52207.0,John McGinn,4-2-3-1,Andy Madley,Match Report,,14.5,1.0,-0.8,0.06,0.17,1.0,0.0,0.0,16.0,6.0,37.5,-0.8,1.8,0.12,2023,Aston Villa
+1,2023-08-20,14:00,Premier League,Matchweek 2,Sun,Home,W,4.0,0.0,Everton,2.9,0.6,60.0,41694.0,John McGinn,4-2-3-1,Anthony Taylor,Match Report,,18.5,0.0,1.1,0.25,0.5,4.0,1.0,1.0,12.0,6.0,50.0,0.8,2.2,0.18,2023,Aston Villa
+2,2023-08-23,17:45,Conf Lg,Play-off round,Wed,Away,W,5.0,0.0,sct Hibernian,,,,19306.0,John McGinn,4-1-4-1,Ricardo de Burgos,Match Report,Leg 1 of 2,,,,,,5.0,1.0,1.0,,,,,,,2023,Aston Villa
+3,2023-08-27,14:00,Premier League,Matchweek 3,Sun,Away,W,3.0,1.0,Burnley,2.5,0.7,43.0,21591.0,John McGinn,3-4-3,Michael Salisbury,Match Report,,13.4,0.0,0.5,0.19,0.5,3.0,0.0,0.0,16.0,6.0,37.5,0.5,2.5,0.17,2023,Aston Villa
+4,2023-08-31,20:00,Conf Lg,Play-off round,Thu,Home,W,3.0,0.0,sct Hibernian,,,,39467.0,Douglas Luiz,4-4-2,Luca Pairetto,Match Report,Leg 2 of 2; Aston Villa won,,,,,,3.0,0.0,0.0,,,,,,,2023,Aston Villa
+5,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Away,L,0.0,3.0,Liverpool,0.7,2.5,37.0,50109.0,John McGinn,4-4-2,Simon Hooper,Match Report,,12.5,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,-0.7,0.7,0.07,2023,Aston Villa
+6,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,14.7,1.0,8.2,0.13,0.33,16.0,2.0,2.0,53.0,21.0,39.6,6.9,7.1,0.14,2023,Aston Villa
+7,2023-09-21,18:45,Conf Lg,Group stage,Thu,Away,,,,pl Legia Warsaw,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+8,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+9,2023-09-26,,EFL Cup,Third round,Tue,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+10,2023-09-30,12:30,Premier League,Matchweek 7,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+11,2023-10-05,20:00,Conf Lg,Group stage,Thu,Home,,,,ba Zrinjski Mostar,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+12,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+13,2023-10-22,16:30,Premier League,Matchweek 9,Sun,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+14,2023-10-26,18:45,Conf Lg,Group stage,Thu,Away,,,,nl AZ Alkmaar,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+15,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+16,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+17,2023-11-09,20:00,Conf Lg,Group stage,Thu,Home,,,,nl AZ Alkmaar,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+18,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+19,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+20,2023-11-30,20:00,Conf Lg,Group stage,Thu,Home,,,,pl Legia Warsaw,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+21,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+22,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+23,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+24,2023-12-14,18:45,Conf Lg,Group stage,Thu,Away,,,,ba Zrinjski Mostar,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+25,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+26,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+27,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+28,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+29,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+30,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+31,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+32,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+33,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+34,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+35,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+36,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+37,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+38,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+39,2024-04-03,,Premier League,Matchweek 31,Wed,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+40,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+41,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+42,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+43,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+44,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+45,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+46,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Aston Villa
+0,2023-08-14,20:00,Premier League,Matchweek 1,Mon,Home,W,1.0,0.0,Wolves,2.2,2.2,51.0,73358.0,Bruno Fernandes,4-1-4-1,Simon Hooper,Match Report,,14.7,0.0,-1.2,0.07,0.5,1.0,0.0,0.0,15.0,2.0,13.3,-1.2,2.2,0.15,2023,Manchester United
+1,2023-08-19,17:30,Premier League,Matchweek 2,Sat,Away,L,0.0,2.0,Tottenham,2.1,1.7,45.0,61910.0,Bruno Fernandes,4-2-3-1,Michael Oliver,Match Report,,15.6,1.0,-2.1,0.0,0.0,0.0,0.0,0.0,22.0,6.0,27.3,-2.1,2.1,0.09,2023,Manchester United
+2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Home,W,3.0,2.0,Nott'ham Forest,2.8,1.2,66.0,73595.0,Bruno Fernandes,4-2-3-1,Stuart Attwell,Match Report,,20.3,0.0,0.2,0.12,0.25,3.0,1.0,1.0,17.0,8.0,47.1,0.0,2.0,0.12,2023,Manchester United
+3,2023-09-03,16:30,Premier League,Matchweek 4,Sun,Away,L,1.0,3.0,Arsenal,0.9,2.3,45.0,,Bruno Fernandes,4-2-3-1,Anthony Taylor,Match Report,,16.5,0.0,0.1,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,0.1,0.9,0.09,2023,Manchester United
+4,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,16.8,1.0,-3.0,0.06,0.22,5.0,1.0,1.0,64.0,18.0,28.1,-3.2,7.2,0.11,2023,Manchester United
+5,2023-09-20,21:00,Champions Lg,Group stage,Wed,Away,,,,de Bayern Munich,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+6,2023-09-23,20:00,Premier League,Matchweek 6,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+7,2023-09-26,20:00,EFL Cup,Third round,Tue,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+9,2023-10-03,20:00,Champions Lg,Group stage,Tue,Home,,,,tr Galatasaray,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+10,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+11,2023-10-21,20:00,Premier League,Matchweek 9,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+12,2023-10-24,20:00,Champions Lg,Group stage,Tue,Home,,,,dk FC Copenhagen,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+13,2023-10-29,15:30,Premier League,Matchweek 10,Sun,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+14,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+15,2023-11-08,21:00,Champions Lg,Group stage,Wed,Away,,,,dk FC Copenhagen,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+16,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+17,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+18,2023-11-29,20:45,Champions Lg,Group stage,Wed,Away,,,,tr Galatasaray,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+19,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+20,2023-12-06,,Premier League,Matchweek 15,Wed,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+21,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+22,2023-12-12,20:00,Champions Lg,Group stage,Tue,Home,,,,de Bayern Munich,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+23,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+24,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+25,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+26,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+27,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+28,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+29,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+30,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+31,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+32,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+33,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+34,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+35,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+36,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+37,2024-04-03,,Premier League,Matchweek 31,Wed,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+38,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+39,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+40,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+41,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+42,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+43,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+44,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Manchester United
+0,2023-08-13,16:30,Premier League,Matchweek 1,Sun,Home,D,1.0,1.0,Liverpool,1.4,1.3,65.0,40096.0,Reece James,3-4-3,Anthony Taylor,Match Report,,13.2,1.0,-0.4,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,-0.4,1.4,0.14,2023,Chelsea
+1,2023-08-20,16:30,Premier League,Matchweek 2,Sun,Away,L,1.0,3.0,West Ham,2.5,1.8,75.0,62451.0,Ben Chilwell,3-4-3,John Brooks,Match Report,,17.1,0.0,-1.5,0.06,0.33,1.0,0.0,1.0,16.0,3.0,18.8,-0.7,1.7,0.11,2023,Chelsea
+2,2023-08-25,20:00,Premier League,Matchweek 3,Fri,Home,W,3.0,0.0,Luton Town,2.2,0.4,67.0,39893.0,Ben Chilwell,3-4-3,Robert Jones,Match Report,,14.2,1.0,0.8,0.16,0.38,3.0,0.0,0.0,19.0,8.0,42.1,0.8,2.2,0.12,2023,Chelsea
+3,2023-08-30,19:45,EFL Cup,Second round,Wed,Home,W,2.0,1.0,AFC Wimbledon,,,84.0,37794.0,Conor Gallagher,4-2-3-1,Tony Harrington,Match Report,,,,,0.04,0.11,2.0,1.0,1.0,23.0,9.0,39.1,,,,2023,Chelsea
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,L,0.0,1.0,Nott'ham Forest,2.3,0.8,75.0,39820.0,Ben Chilwell,3-4-3,Tim Robinson,Match Report,,17.7,2.0,-2.3,0.0,0.0,0.0,0.0,0.0,21.0,2.0,9.5,-2.3,2.3,0.11,2023,Chelsea
+5,2023-09-17,14:00,Premier League,Matchweek 5,Sun,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,15.9,4.0,-1.3,0.07,0.23,7.0,1.0,2.0,89.0,26.0,29.2,-1.5,7.5,0.12,2023,Chelsea
+6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+7,2023-09-27,19:45,EFL Cup,Third round,Wed,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+8,2023-10-02,20:00,Premier League,Matchweek 7,Mon,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+10,2023-10-21,17:30,Premier League,Matchweek 9,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+11,2023-10-28,12:30,Premier League,Matchweek 10,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+16,2023-12-06,,Premier League,Matchweek 15,Wed,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+23,2024-01-31,,Premier League,Matchweek 22,Wed,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+32,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Chelsea
+0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,W,1,0,Everton,1.5,2.7,58.0,39940.0,Tom Cairney,4-3-3,Stuart Attwell,Match Report,,13.2,0.0,-0.5,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,-0.5,1.5,0.17,2023,Fulham
+1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Home,L,0,3,Brentford,0.5,3.7,55.0,24236.0,Tim Ream,4-3-3,Darren Bond,Match Report,,22.3,1.0,-0.5,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,-0.5,0.5,0.05,2023,Fulham
+2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Away,D,2,2,Arsenal,0.6,3.2,29.0,59961.0,Bobby Reid,4-3-3,Paul Tierney,Match Report,,17.8,0.0,1.4,0.25,0.67,2.0,0.0,0.0,8.0,3.0,37.5,1.4,0.6,0.07,2023,Fulham
+3,2023-08-29,19:45,EFL Cup,Second round,Tue,Home,D,1 (5),1 (3),Tottenham,,,40.0,,Tom Cairney,4-2-3-1,Joshua Smith,Match Report,Fulham won on penalty kicks following extra time,,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,,,,2023,Fulham
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,L,1,5,Manchester City,1.4,2.2,32.0,52899.0,Tom Cairney,4-3-3,Michael Oliver,Match Report,,11.4,0.0,-0.4,0.17,0.25,1.0,0.0,0.0,6.0,4.0,66.7,-0.4,1.4,0.31,2023,Fulham
+5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,16.7,1.0,0.1,0.09,0.29,4.0,0.0,0.0,47.0,14.0,29.8,0.1,3.9,0.13,2023,Fulham
+6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+7,2023-09-26,,EFL Cup,Third round,Tue,Home,,,,Norwich City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+8,2023-10-02,20:00,Premier League,Matchweek 7,Mon,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+10,2023-10-23,20:00,Premier League,Matchweek 9,Mon,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+11,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fulham
+0,2023-08-12,17:30,Premier League,Matchweek 1,Sat,Home,W,5.0,1.0,Aston Villa,3.3,1.8,52.0,52207.0,Kieran Trippier,4-3-3,Andy Madley,Match Report,,13.2,0.0,1.7,0.29,0.42,5.0,0.0,0.0,17.0,12.0,70.6,1.7,3.3,0.2,2023,Newcastle United
+1,2023-08-19,20:00,Premier League,Matchweek 2,Sat,Away,L,0.0,1.0,Manchester City,0.3,1.0,41.0,,Kieran Trippier,4-3-3,Robert Jones,Match Report,,20.3,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,-0.3,0.3,0.04,2023,Newcastle United
+2,2023-08-27,16:30,Premier League,Matchweek 3,Sun,Home,L,1.0,2.0,Liverpool,2.0,0.9,59.0,52214.0,Kieran Trippier,4-3-3,John Brooks,Match Report,,18.3,1.0,-1.0,0.04,0.13,1.0,0.0,0.0,23.0,8.0,34.8,-1.0,2.0,0.09,2023,Newcastle United
+3,2023-09-02,17:30,Premier League,Matchweek 4,Sat,Away,L,1.0,3.0,Brighton,1.2,1.3,44.0,31620.0,Kieran Trippier,4-3-3,Stuart Attwell,Match Report,,14.6,0.0,-0.2,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,-0.2,1.2,0.14,2023,Newcastle United
+4,2023-09-16,17:30,Premier League,Matchweek 5,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,16.4,1.0,0.1,0.13,0.3,7.0,0.0,0.0,56.0,23.0,41.1,0.1,6.9,0.12,2023,Newcastle United
+5,2023-09-19,18:45,Champions Lg,Group stage,Tue,Away,,,,it Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+6,2023-09-24,16:30,Premier League,Matchweek 6,Sun,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+7,2023-09-27,20:00,EFL Cup,Third round,Wed,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+9,2023-10-04,20:00,Champions Lg,Group stage,Wed,Home,,,,fr Paris S-G,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+10,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+11,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+12,2023-10-25,20:00,Champions Lg,Group stage,Wed,Home,,,,de Dortmund,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+13,2023-10-28,17:30,Premier League,Matchweek 10,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+14,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+15,2023-11-07,18:45,Champions Lg,Group stage,Tue,Away,,,,de Dortmund,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+16,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+17,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+18,2023-11-28,21:00,Champions Lg,Group stage,Tue,Away,,,,fr Paris S-G,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+19,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+20,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+21,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+22,2023-12-13,20:00,Champions Lg,Group stage,Wed,Home,,,,it Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+23,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+24,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+25,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+26,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+27,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+28,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+29,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+30,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+31,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+32,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+33,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+34,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+35,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+36,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+37,2024-04-03,,Premier League,Matchweek 31,Wed,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+38,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+39,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+40,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+41,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+42,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+43,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
+44,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Newcastle United
 0,2023-08-14,20:00,Premier League,Matchweek 1,Mon,Away,L,0.0,1.0,Manchester Utd,2.2,2.2,49.0,73358.0,Max Kilman,4-4-2,Simon Hooper,Match Report,,15.3,0.0,-2.2,0.0,0.0,0.0,0.0,0.0,23.0,6.0,26.1,-2.2,2.2,0.1,2023,Wolverhampton Wanderers
 1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Home,L,1.0,4.0,Brighton,2.1,2.2,47.0,31317.0,Max Kilman,4-4-1-1,Andy Madley,Match Report,,16.1,0.0,-1.1,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,-1.1,2.1,0.15,2023,Wolverhampton Wanderers
 2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Away,W,1.0,0.0,Everton,1.1,1.3,53.0,38851.0,Max Kilman,4-4-1-1,Craig Pawson,Match Report,,17.8,1.0,-0.1,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,-0.1,1.1,0.1,2023,Wolverhampton Wanderers
 3,2023-08-29,19:45,EFL Cup,Second round,Tue,Home,W,5.0,0.0,Blackpool,,,72.0,,Max Kilman,3-5-2,Jarred Gillett,Match Report,,,,,0.38,0.56,5.0,0.0,0.0,13.0,9.0,69.2,,,,2023,Wolverhampton Wanderers
-4,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,16.1,1.0,1.7,0.11,0.32,7.0,0.0,0.0,63.0,22.0,34.9,1.7,5.3,0.12,2023,Wolverhampton Wanderers
-5,2023-09-16,12:30,Premier League,Matchweek 5,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+4,2023-09-03,14:00,Premier League,Matchweek 4,Sun,Away,L,2.0,3.0,Crystal Palace,1.2,2.1,57.0,,Max Kilman,4-4-2,Robert Jones,Match Report,,16.2,0.0,0.8,0.17,0.5,2.0,0.0,0.0,12.0,4.0,33.3,0.8,1.2,0.1,2023,Wolverhampton Wanderers
+5,2023-09-16,12:30,Premier League,Matchweek 5,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,16.1,1.0,2.5,0.12,0.35,9.0,0.0,0.0,75.0,26.0,34.7,2.5,6.5,0.11,2023,Wolverhampton Wanderers
 6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-9,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-10,2023-10-28,17:30,Premier League,Matchweek 10,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+7,2023-09-26,,EFL Cup,Third round,Tue,Away,,,,Ipswich Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+9,2023-10-08,14:00,Premier League,Matchweek 8,Sun,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+11,2023-10-28,17:30,Premier League,Matchweek 10,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Wolverhampton Wanderers
 0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Home,D,1.0,1.0,West Ham,1.3,1.1,62.0,11245.0,Neto,4-2-3-1,Peter Bankes,Match Report,,20.7,1.0,-0.3,0.07,0.2,1.0,0.0,0.0,14.0,5.0,35.7,-0.3,1.3,0.1,2023,Bournemouth
 1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Away,L,1.0,3.0,Liverpool,1.3,3.0,36.0,53145.0,Neto,4-2-3-1,Thomas Bramall,Match Report,,19.7,1.0,-0.3,0.08,0.2,1.0,0.0,0.0,13.0,5.0,38.5,-0.3,1.3,0.1,2023,Bournemouth
 2,2023-08-26,12:30,Premier League,Matchweek 3,Sat,Home,L,0.0,2.0,Tottenham,0.7,2.1,44.0,10567.0,Neto,4-2-3-1,Tim Robinson,Match Report,,17.8,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,-0.7,0.7,0.06,2023,Bournemouth
 3,2023-08-29,19:30,EFL Cup,Second round,Tue,Away,W,3.0,2.0,Swansea City,,,57.0,8785.0,David Brooks,4-2-3-1,Matt Donohue,Match Report,,,,,0.14,0.38,3.0,0.0,0.0,21.0,8.0,38.1,,,,2023,Bournemouth
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,19.5,2.0,1.7,0.08,0.24,5.0,0.0,0.0,59.0,21.0,35.6,1.7,3.3,0.09,2023,Bournemouth
-5,2023-09-17,14:00,Premier League,Matchweek 5,Sun,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Away,D,2.0,2.0,Brentford,2.1,2.9,40.0,16973.0,Neto,4-2-3-1,Robert Madley,Match Report,,15.1,0.0,-0.1,0.17,0.4,2.0,0.0,0.0,12.0,5.0,41.7,-0.1,2.1,0.17,2023,Bournemouth
+5,2023-09-17,14:00,Premier League,Matchweek 5,Sun,Home,,,,Chelsea,,,,,,,,Head-to-Head,,18.5,2.0,1.7,0.1,0.27,7.0,0.0,0.0,71.0,26.0,36.6,1.7,5.3,0.11,2023,Bournemouth
 6,2023-09-24,14:00,Premier League,Matchweek 6,Sun,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-9,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-10,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+7,2023-09-26,,EFL Cup,Third round,Tue,Home,,,,Stoke City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+11,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bournemouth
 0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Home,L,0,1,Crystal Palace,0.5,1.9,32.0,31194.0,John Egan,3-4-3,John Brooks,Match Report,,19.4,0.0,-0.5,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,-0.5,0.5,0.06,2023,Sheffield United
 1,2023-08-18,19:45,Premier League,Matchweek 2,Fri,Away,L,1,2,Nott'ham Forest,0.5,1.4,50.0,29432.0,John Egan,3-4-3,Peter Bankes,Match Report,,18.8,0.0,0.5,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,0.5,0.5,0.07,2023,Sheffield United
 2,2023-08-27,14:00,Premier League,Matchweek 3,Sun,Home,L,1,2,Manchester City,0.7,3.5,21.0,31336.0,John Egan,3-5-2,Jarred Gillett,Match Report,,16.1,0.0,0.3,0.17,1.0,1.0,0.0,0.0,6.0,1.0,16.7,0.3,0.7,0.11,2023,Sheffield United
 3,2023-08-30,19:45,EFL Cup,Second round,Wed,Home,D,0 (2),0 (3),Lincoln City,,,72.0,11040.0,John Egan,3-5-2,Paul Tierney,Match Report,Lincoln City won on penalty kicks following normal time,,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,,,,2023,Sheffield United
-4,2023-09-02,12:30,Premier League,Matchweek 4,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,18.3,0.0,0.3,0.06,0.29,2.0,0.0,0.0,31.0,7.0,22.6,0.3,1.7,0.08,2023,Sheffield United
-5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
+4,2023-09-02,12:30,Premier League,Matchweek 4,Sat,Home,D,2,2,Everton,1.2,2.5,46.0,31124.0,John Egan,3-5-2,Andy Madley,Match Report,,14.1,0.0,-0.2,0.08,0.14,1.0,0.0,0.0,13.0,7.0,53.8,-0.2,1.2,0.1,2023,Sheffield United
+5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,16.7,0.0,0.1,0.07,0.21,3.0,0.0,0.0,44.0,14.0,31.8,0.1,2.9,0.09,2023,Sheffield United
 6,2023-09-24,16:30,Premier League,Matchweek 6,Sun,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
-9,2023-10-22,14:00,Premier League,Matchweek 9,Sun,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
+9,2023-10-21,20:00,Premier League,Matchweek 9,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 10,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 11,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 12,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
@@ -659,123 +721,126 @@
 36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
 38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sheffield United
-0,2023-08-11,20:00,Premier League,Matchweek 1,Fri,Home,L,0.0,3.0,Manchester City,0.3,1.9,35.0,21572.0,Josh Cullen,5-4-1,Craig Pawson,Match Report,,14.9,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.3,0.3,0.05,2023,Burnley
-1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Away,,,,Luton Town,,,,,,,,,Match Postponed,17.7,0.0,0.3,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,0.3,0.7,0.08,2023,Burnley
-2,2023-08-27,14:00,Premier League,Matchweek 3,Sun,Home,L,1.0,3.0,Aston Villa,0.7,2.5,57.0,21591.0,Josh Cullen,4-4-2,Michael Salisbury,Match Report,,,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,,,,2023,Burnley
-3,2023-08-30,19:45,EFL Cup,Second round,Wed,Away,W,1.0,0.0,Nott'ham Forest,,,60.0,27766.0,Josh Brownhill,4-3-3,Robert Madley,Match Report,,16.6,0.0,0.9,0.08,0.4,2.0,0.0,0.0,25.0,5.0,20.0,0.9,1.1,0.07,2023,Burnley
-4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-5,2023-09-18,19:45,Premier League,Matchweek 5,Mon,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-6,2023-09-23,20:00,Premier League,Matchweek 6,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-9,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-10,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-22,2024-01-31,,Premier League,Matchweek 22,Wed,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
-0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,L,1.0,4.0,Brighton,1.5,4.0,30.0,31872.0,Tom Lockyer,3-5-2,David Coote,Match Report,,16.6,0.0,-0.5,0.0,0.0,1.0,1.0,1.0,8.0,2.0,25.0,-0.7,0.7,0.09,2023,Luton Town
-1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Home,,,,Burnley,,,,,,,,,Match Postponed,19.0,1.0,-0.4,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,-0.4,0.4,0.04,2023,Luton Town
-2,2023-08-25,20:00,Premier League,Matchweek 3,Fri,Away,L,0.0,3.0,Chelsea,0.4,2.2,33.0,39893.0,Tom Lockyer,5-3-2,Robert Jones,Match Report,,,,,0.23,0.5,3.0,0.0,0.0,13.0,6.0,46.2,,,,2023,Luton Town
-3,2023-08-29,19:45,EFL Cup,Second round,Tue,Home,W,3.0,2.0,Gillingham,,,62.0,9468.0,Tom Lockyer,3-4-3,Jeremy Simpson,Match Report,,18.0,1.0,2.1,0.09,0.33,4.0,1.0,1.0,32.0,9.0,28.1,1.9,1.1,0.06,2023,Luton Town
-4,2023-09-01,20:00,Premier League,Matchweek 4,Fri,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-8,2023-10-07,12:30,Premier League,Matchweek 8,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-9,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-10,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-31,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
 0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Home,L,0.0,1.0,Fulham,2.7,1.5,42.0,39940.0,James Tarkowski,4-4-1-1,Stuart Attwell,Match Report,,15.8,0.0,-2.7,0.0,0.0,0.0,0.0,0.0,19.0,9.0,47.4,-2.7,2.7,0.14,2023,Everton
 1,2023-08-20,14:00,Premier League,Matchweek 2,Sun,Away,L,0.0,4.0,Aston Villa,0.6,2.9,40.0,41694.0,James Tarkowski,4-1-4-1,Anthony Taylor,Match Report,,14.7,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,9.0,2.0,22.2,-0.6,0.6,0.07,2023,Everton
 2,2023-08-26,15:00,Premier League,Matchweek 3,Sat,Home,L,0.0,1.0,Wolves,1.3,1.1,47.0,38851.0,James Tarkowski,4-1-4-1,Craig Pawson,Match Report,,13.8,0.0,-1.3,0.0,0.0,0.0,0.0,0.0,15.0,7.0,46.7,-1.3,1.3,0.09,2023,Everton
 3,2023-08-30,20:00,EFL Cup,Second round,Wed,Away,W,2.0,1.0,Doncaster,,,59.0,11430.0,Jordan Pickford,4-1-3-2,Tom Reeves,Match Report,,,,,0.14,0.4,2.0,0.0,0.0,14.0,5.0,35.7,,,,2023,Everton
-4,2023-09-02,12:30,Premier League,Matchweek 4,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,14.8,0.0,-2.7,0.04,0.09,2.0,0.0,0.0,57.0,23.0,40.4,-2.7,4.7,0.11,2023,Everton
-5,2023-09-16,17:30,Premier League,Matchweek 5,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+4,2023-09-02,12:30,Premier League,Matchweek 4,Sat,Away,D,2.0,2.0,Sheffield Utd,2.5,1.2,54.0,31124.0,James Tarkowski,4-4-1-1,Andy Madley,Match Report,,14.8,2.0,-0.5,0.13,0.33,2.0,0.0,0.0,16.0,6.0,37.5,-0.5,2.5,0.21,2023,Everton
+5,2023-09-17,16:30,Premier League,Matchweek 5,Sun,Home,,,,Arsenal,,,,,,,,Head-to-Head,,14.8,2.0,-3.2,0.05,0.14,4.0,0.0,0.0,73.0,29.0,39.7,-3.2,7.2,0.14,2023,Everton
 6,2023-09-23,17:30,Premier League,Matchweek 6,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-7,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-8,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-9,2023-10-21,12:30,Premier League,Matchweek 9,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-10,2023-10-29,13:00,Premier League,Matchweek 10,Sun,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-11,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-12,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-13,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-14,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-15,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-16,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-17,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-18,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-19,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-20,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-21,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-22,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-23,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-24,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-25,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-26,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-27,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-28,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-29,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-30,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-31,2024-04-03,,Premier League,Matchweek 31,Wed,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-32,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-33,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-34,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-35,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-36,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-37,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
-38,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+7,2023-09-26,,EFL Cup,Third round,Tue,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+10,2023-10-21,12:30,Premier League,Matchweek 9,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+11,2023-10-29,13:00,Premier League,Matchweek 10,Sun,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+32,2024-04-03,,Premier League,Matchweek 31,Wed,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Away,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Everton
+0,2023-08-12,15:00,Premier League,Matchweek 1,Sat,Away,L,1.0,4.0,Brighton,1.5,4.0,30.0,31872.0,Tom Lockyer,3-5-2,David Coote,Match Report,,16.6,0.0,-0.5,0.0,0.0,1.0,1.0,1.0,8.0,2.0,25.0,-0.7,0.7,0.09,2023,Luton Town
+1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Home,,,,Burnley,,,,,,,,,Match Postponed,19.0,1.0,-0.4,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,-0.4,0.4,0.04,2023,Luton Town
+2,2023-08-25,20:00,Premier League,Matchweek 3,Fri,Away,L,0.0,3.0,Chelsea,0.4,2.2,33.0,39893.0,Tom Lockyer,5-3-2,Robert Jones,Match Report,,,,,0.23,0.5,3.0,0.0,0.0,13.0,6.0,46.2,,,,2023,Luton Town
+3,2023-08-29,19:45,EFL Cup,Second round,Tue,Home,W,3.0,2.0,Gillingham,,,62.0,9468.0,Tom Lockyer,3-4-3,Jeremy Simpson,Match Report,,11.9,0.0,-0.4,0.06,1.0,1.0,0.0,0.0,16.0,1.0,6.3,-0.4,1.4,0.09,2023,Luton Town
+4,2023-09-01,20:00,Premier League,Matchweek 4,Fri,Home,L,1.0,2.0,West Ham,1.4,1.0,39.0,10802.0,Carlton Morris,5-3-2,Paul Tierney,Match Report,,15.2,1.0,1.7,0.08,0.4,5.0,1.0,1.0,48.0,10.0,20.8,1.5,2.5,0.07,2023,Luton Town
+5,2023-09-16,15:00,Premier League,Matchweek 5,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+6,2023-09-23,15:00,Premier League,Matchweek 6,Sat,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+7,2023-09-26,,EFL Cup,Third round,Tue,Away,,,,Exeter City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+9,2023-10-07,12:30,Premier League,Matchweek 8,Sat,Home,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+11,2023-10-29,14:00,Premier League,Matchweek 10,Sun,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Home,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Away,,,,Burnley,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+23,2024-01-30,,Premier League,Matchweek 22,Tue,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Luton Town
+0,2023-08-11,20:00,Premier League,Matchweek 1,Fri,Home,L,0.0,3.0,Manchester City,0.3,1.9,35.0,21572.0,Josh Cullen,5-4-1,Craig Pawson,Match Report,,14.9,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.3,0.3,0.05,2023,Burnley
+1,2023-08-19,15:00,Premier League,Matchweek 2,Sat,Away,,,,Luton Town,,,,,,,,,Match Postponed,17.7,0.0,0.3,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,0.3,0.7,0.08,2023,Burnley
+2,2023-08-27,14:00,Premier League,Matchweek 3,Sun,Home,L,1.0,3.0,Aston Villa,0.7,2.5,57.0,21591.0,Josh Cullen,4-4-2,Michael Salisbury,Match Report,,,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,,,,2023,Burnley
+3,2023-08-30,19:45,EFL Cup,Second round,Wed,Away,W,1.0,0.0,Nott'ham Forest,,,60.0,27766.0,Josh Brownhill,4-3-3,Robert Madley,Match Report,,17.9,1.0,0.7,0.13,0.5,2.0,0.0,0.0,16.0,4.0,25.0,0.7,1.3,0.08,2023,Burnley
+4,2023-09-02,15:00,Premier League,Matchweek 4,Sat,Home,L,2.0,5.0,Tottenham,1.3,2.2,47.0,21750.0,Josh Cullen,4-4-2,Darren England,Match Report,,17.3,1.0,1.6,0.1,0.44,4.0,0.0,0.0,41.0,9.0,22.0,1.6,2.4,0.08,2023,Burnley
+5,2023-09-18,19:45,Premier League,Matchweek 5,Mon,Away,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+6,2023-09-23,20:00,Premier League,Matchweek 6,Sat,Home,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+7,2023-09-26,,EFL Cup,Third round,Tue,Away,,,,Salford City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+8,2023-09-30,15:00,Premier League,Matchweek 7,Sat,Away,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+9,2023-10-07,15:00,Premier League,Matchweek 8,Sat,Home,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+10,2023-10-21,15:00,Premier League,Matchweek 9,Sat,Away,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+11,2023-10-28,15:00,Premier League,Matchweek 10,Sat,Away,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+12,2023-11-04,,Premier League,Matchweek 11,Sat,Home,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+13,2023-11-11,,Premier League,Matchweek 12,Sat,Away,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+14,2023-11-25,,Premier League,Matchweek 13,Sat,Home,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+15,2023-12-02,,Premier League,Matchweek 14,Sat,Home,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+16,2023-12-05,,Premier League,Matchweek 15,Tue,Away,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+17,2023-12-09,,Premier League,Matchweek 16,Sat,Away,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+18,2023-12-16,,Premier League,Matchweek 17,Sat,Home,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+19,2023-12-23,,Premier League,Matchweek 18,Sat,Away,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+20,2023-12-26,,Premier League,Matchweek 19,Tue,Home,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+21,2023-12-30,,Premier League,Matchweek 20,Sat,Away,,,,Aston Villa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+22,2024-01-13,,Premier League,Matchweek 21,Sat,Home,,,,Luton Town,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+23,2024-01-31,,Premier League,Matchweek 22,Wed,Away,,,,Manchester City,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+24,2024-02-03,,Premier League,Matchweek 23,Sat,Home,,,,Fulham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+25,2024-02-10,,Premier League,Matchweek 24,Sat,Away,,,,Liverpool,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+26,2024-02-17,,Premier League,Matchweek 25,Sat,Home,,,,Arsenal,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+27,2024-02-24,,Premier League,Matchweek 26,Sat,Away,,,,Crystal Palace,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+28,2024-03-02,,Premier League,Matchweek 27,Sat,Home,,,,Bournemouth,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+29,2024-03-09,,Premier League,Matchweek 28,Sat,Away,,,,West Ham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+30,2024-03-16,,Premier League,Matchweek 29,Sat,Home,,,,Brentford,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+31,2024-03-30,,Premier League,Matchweek 30,Sat,Away,,,,Chelsea,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+32,2024-04-02,,Premier League,Matchweek 31,Tue,Home,,,,Wolves,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+33,2024-04-06,,Premier League,Matchweek 32,Sat,Away,,,,Everton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+34,2024-04-13,,Premier League,Matchweek 33,Sat,Home,,,,Brighton,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+35,2024-04-20,,Premier League,Matchweek 34,Sat,Away,,,,Sheffield Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+36,2024-04-27,,Premier League,Matchweek 35,Sat,Away,,,,Manchester Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+37,2024-05-04,,Premier League,Matchweek 36,Sat,Home,,,,Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+38,2024-05-11,,Premier League,Matchweek 37,Sat,Away,,,,Tottenham,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
+39,2024-05-19,,Premier League,Matchweek 38,Sun,Home,,,,Nott'ham Forest,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Burnley
 0,2022-07-30,17:00,Community Shield,FA Community Shield,Sat,Neutral,L,1.0,3.0,Liverpool,,,57.0,,Rúben Dias,4-3-3,Craig Pawson,Match Report,,,,,0.07,0.13,1.0,0.0,0.0,14.0,8.0,57.1,,,,2022,Manchester City
 1,2022-08-07,16:30,Premier League,Matchweek 1,Sun,Away,W,2.0,0.0,West Ham,2.2,0.5,75.0,62443.0,İlkay Gündoğan,4-3-3,Michael Oliver,Match Report,,18.7,1.0,-0.2,0.08,1.0,2.0,1.0,1.0,13.0,1.0,7.7,-0.4,1.4,0.11,2022,Manchester City
 2,2022-08-13,15:00,Premier League,Matchweek 2,Sat,Home,W,4.0,0.0,Bournemouth,1.7,0.1,67.0,53453.0,İlkay Gündoğan,4-2-3-1,David Coote,Match Report,,17.5,0.0,1.3,0.16,0.43,3.0,0.0,0.0,19.0,7.0,36.8,1.3,1.7,0.09,2022,Manchester City
@@ -2098,11 +2163,11 @@
 15,2021-11-04,18:45,Europa Lg,Group stage,Thu,Away,D,2,2,be Genk,2.6,1.3,50.0,12239.0,Mark Noble,4-2-3-1,Aleksandar Stavrev,Match Report,,11.6,0.0,-0.6,0.13,0.33,2.0,0.0,0.0,15.0,6.0,40.0,-0.6,2.6,0.18,2021,West Ham United
 16,2021-11-07,16:30,Premier League,Matchweek 11,Sun,Home,W,3,2,Liverpool,1.0,1.2,31.0,59909.0,Declan Rice,4-2-3-1,Craig Pawson,Match Report,,14.5,0.0,1.0,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,1.0,1.0,0.15,2021,West Ham United
 17,2021-11-20,15:00,Premier League,Matchweek 12,Sat,Away,L,0,1,Wolves,0.4,1.4,48.0,30667.0,Declan Rice,4-2-3-1,Mike Dean,Match Report,,20.2,0.0,-0.4,0.0,0.0,0.0,0.0,0.0,8.0,3.0,37.5,-0.4,0.4,0.05,2021,West Ham United
-18,2021-11-25,18:45,Europa Lg,Group stage,Thu,Away,W,2,0,at Rapid Wien,3.7,0.8,61.0,,Mark Noble,4-2-3-1,Sergey Ivanov,Match Report,,12.2,0.0,-1.7,0.09,0.2,2.0,1.0,1.0,11.0,5.0,45.5,-1.9,2.9,0.27,2021,West Ham United
+18,2021-11-25,18:45,Europa Lg,Group stage,Thu,Away,W,2,0,at Rapid Wien,3.7,0.8,61.0,,Mark Noble,4-2-3-1,Sergey Ivanov,Match Report,,11.8,0.0,-1.7,0.09,0.2,2.0,1.0,1.0,11.0,5.0,45.5,-1.9,2.9,0.27,2021,West Ham United
 19,2021-11-28,14:00,Premier League,Matchweek 13,Sun,Away,L,1,2,Manchester City,0.2,2.1,32.0,53245.0,Declan Rice,4-2-3-1,Michael Oliver,Match Report,,21.4,1.0,0.8,0.2,0.33,1.0,0.0,0.0,5.0,3.0,60.0,0.8,0.2,0.04,2021,West Ham United
 20,2021-12-01,19:30,Premier League,Matchweek 14,Wed,Home,D,1,1,Brighton,1.3,1.3,35.0,59626.0,Declan Rice,4-2-3-1,Chris Kavanagh,Match Report,,22.6,0.0,-0.3,0.07,0.2,1.0,0.0,0.0,14.0,5.0,35.7,-0.3,1.3,0.09,2021,West Ham United
 21,2021-12-04,12:30,Premier League,Matchweek 15,Sat,Home,W,3,2,Chelsea,1.8,1.1,37.0,59942.0,Declan Rice,3-4-3,Andre Marriner,Match Report,,20.1,0.0,1.2,0.2,0.67,3.0,1.0,1.0,10.0,3.0,30.0,1.0,1.0,0.1,2021,West Ham United
-22,2021-12-09,20:00,Europa Lg,Group stage,Thu,Home,L,0,1,hr Dinamo Zagreb,0.7,1.1,49.0,49407.0,Mark Noble,4-2-3-1,Maurizio Mariani,Match Report,,24.5,2.0,-0.7,0.0,0.0,0.0,0.0,0.0,7.0,2.0,28.6,-0.7,0.7,0.06,2021,West Ham United
+22,2021-12-09,20:00,Europa Lg,Group stage,Thu,Home,L,0,1,hr Dinamo Zagreb,0.7,1.1,49.0,49407.0,Mark Noble,4-2-3-1,Maurizio Mariani,Match Report,,21.7,2.0,-0.7,0.0,0.0,0.0,0.0,0.0,7.0,2.0,28.6,-0.7,0.7,0.1,2021,West Ham United
 23,2021-12-12,14:00,Premier League,Matchweek 16,Sun,Away,D,0,0,Burnley,0.8,0.8,60.0,18065.0,Declan Rice,4-2-3-1,Graham Scott,Match Report,,18.6,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,16.0,3.0,18.8,-0.8,0.8,0.05,2021,West Ham United
 24,2021-12-15,20:00,Premier League,Matchweek 17,Wed,Away,L,0,2,Arsenal,0.4,2.8,45.0,59777.0,Declan Rice,4-2-3-1,Anthony Taylor,Match Report,,22.3,1.0,-0.4,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,-0.4,0.4,0.05,2021,West Ham United
 25,2021-12-22,19:45,EFL Cup,Quarter-finals,Wed,Away,L,1,2,Tottenham,,,58.0,40031.0,Declan Rice,3-4-3,Chris Kavanagh,Match Report,,,,,0.06,0.2,1.0,0.0,0.0,17.0,5.0,29.4,,,,2021,West Ham United

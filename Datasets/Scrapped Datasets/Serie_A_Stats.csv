@@ -32,8 +32,8 @@
 30,2023-08-23,19:00,Sudamericana,Quarter-finals,Wed,Home,D,1.0,1.0,ar Defensa y Just,,,60.0,25255.0,Víctor Cuesta,4-2-3-1,Gery Vargas,Match Report,Leg 1 of 2,,,,0.06,0.13,1.0,0.0,0.0,16.0,8.0,50.0,,,,2023,Botafogo RJ
 31,2023-08-27,16:00,Série A,Matchweek 21,Sun,Home,W,3.0,0.0,Bahia,2.3,1.2,44.0,,Víctor Cuesta,4-2-3-1,Flavio Rodrigues de Souza,Match Report,,20.6,0.0,0.7,0.3,0.6,3.0,0.0,0.0,10.0,5.0,50.0,0.7,2.3,0.23,2023,Botafogo RJ
 32,2023-08-30,19:00,Sudamericana,Quarter-finals,Wed,Away,L,1.0,2.0,ar Defensa y Just,,,61.0,,Fernando Marçal,4-2-3-1,John J. Ospina,Match Report,Leg 2 of 2; Defensa y Just won,,,,0.0,0.0,0.0,0.0,0.0,14.0,6.0,42.9,,,,2023,Botafogo RJ
-33,2023-09-02,21:00,Série A,Matchweek 22,Sat,Home,,,,Flamengo,,,,,,,,Head-to-Head,,18.9,10.0,22.8,0.1,0.29,53.0,7.0,8.0,452.0,159.0,35.2,19.7,26.3,0.1,2023,Botafogo RJ
-34,2023-09-16,21:00,Série A,Matchweek 23,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Botafogo RJ
+33,2023-09-02,21:00,Série A,Matchweek 22,Sat,Home,L,1.0,2.0,Flamengo,1.1,0.8,48.0,40769.0,Fernando Marçal,4-2-3-1,Raphael Claus,Match Report,,21.1,1.0,-0.1,0.06,0.17,1.0,0.0,0.0,17.0,6.0,35.3,-0.1,1.1,0.06,2023,Botafogo RJ
+34,2023-09-16,21:00,Série A,Matchweek 23,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,19.0,11.0,22.8,0.1,0.28,54.0,7.0,8.0,469.0,165.0,35.2,19.7,27.3,0.1,2023,Botafogo RJ
 35,2023-09-22,20:00,Série A,Matchweek 24,Fri,Away,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Botafogo RJ
 36,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Botafogo RJ
 37,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Botafogo RJ
@@ -56,8 +56,8 @@
 4,2023-04-29,18:30,Série A,Matchweek 3,Sat,Home,W,2.0,1.0,Corinthians,1.4,0.5,54.0,41457.0,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,20.2,0.0,0.6,0.1,0.33,2.0,0.0,0.0,21.0,6.0,28.6,0.6,1.4,0.07,2023,Palmeiras
 5,2023-05-03,19:30,Libertadores,Group stage,Wed,Away,W,2.0,0.0,ec Barcelona SC,2.7,1.0,51.0,,Gustavo Gómez,4-2-3-1,Andrés Rojas,Match Report,,21.7,0.0,-0.7,0.08,0.2,2.0,1.0,1.0,13.0,5.0,38.5,-0.9,1.9,0.15,2023,Palmeiras
 6,2023-05-07,18:30,Série A,Matchweek 4,Sun,Away,W,5.0,0.0,Goiás,2.0,0.7,57.0,13789.0,Gustavo Gómez,3-4-3,Wagner do Nascimento Magalhães,Match Report,,15.8,1.0,2.0,0.24,0.57,4.0,0.0,0.0,17.0,7.0,41.2,2.0,2.0,0.12,2023,Palmeiras
-7,2023-05-10,21:30,Série A,Matchweek 5,Wed,Home,W,4.0,1.0,Grêmio,3.8,0.1,59.0,37532.0,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,18.9,2.0,0.2,0.11,0.33,4.0,1.0,1.0,27.0,9.0,33.3,0.0,3.0,0.13,2023,Palmeiras
-8,2023-05-13,18:30,Série A,Matchweek 6,Sat,Home,D,1.0,1.0,Bragantino,1.6,1.0,58.0,39488.0,Gustavo Gómez,4-2-3-1,Savio Pereira,Match Report,,17.2,1.0,-0.6,0.05,0.17,1.0,0.0,0.0,22.0,6.0,27.3,-0.6,1.6,0.07,2023,Palmeiras
+7,2023-05-10,21:30,Série A,Matchweek 5,Wed,Home,W,4.0,1.0,Grêmio,3.8,0.1,59.0,37532.0,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,19.0,2.0,0.2,0.11,0.33,4.0,1.0,1.0,27.0,9.0,33.3,0.0,3.0,0.13,2023,Palmeiras
+8,2023-05-13,18:30,Série A,Matchweek 6,Sat,Home,D,1.0,1.0,Bragantino,1.6,1.0,58.0,39488.0,Gustavo Gómez,4-2-3-1,Savio Pereira,Match Report,,17.3,1.0,-0.6,0.05,0.17,1.0,0.0,0.0,22.0,6.0,27.3,-0.6,1.6,0.07,2023,Palmeiras
 9,2023-05-20,21:00,Série A,Matchweek 7,Sat,Away,D,0.0,0.0,Santos,0.4,0.4,61.0,12641.0,Gustavo Gómez,4-2-3-1,Raphael Claus,Match Report,,24.4,0.0,-0.4,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,-0.4,0.4,0.04,2023,Palmeiras
 10,2023-05-24,18:00,Libertadores,Group stage,Wed,Away,W,3.0,0.0,py Cerro Porteño,2.9,0.7,56.0,,Gustavo Gómez,4-2-3-1,Andrés Matonte,Match Report,,17.8,1.0,0.1,0.17,0.43,3.0,0.0,0.0,18.0,7.0,38.9,0.1,2.9,0.16,2023,Palmeiras
 11,2023-05-28,18:30,Série A,Matchweek 8,Sun,Away,D,1.0,1.0,Atlético Mineiro,1.1,0.8,43.0,53236.0,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,18.9,1.0,-0.1,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,-0.1,1.1,0.1,2023,Palmeiras
@@ -65,7 +65,7 @@
 13,2023-06-07,21:30,Libertadores,Group stage,Wed,Home,W,4.0,2.0,ec Barcelona SC,2.9,1.6,54.0,,Gustavo Gómez,4-2-3-1,Andrés Rojas,Match Report,,15.0,0.0,1.1,0.15,0.67,4.0,0.0,0.0,26.0,6.0,23.1,1.1,2.9,0.12,2023,Palmeiras
 14,2023-06-11,16:00,Série A,Matchweek 10,Sun,Away,W,2.0,0.0,São Paulo,0.7,1.4,35.0,56871.0,Luan Garcia,4-2-3-1,Raphael Claus,Match Report,,19.6,0.0,1.3,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,1.3,0.7,0.07,2023,Palmeiras
 15,2023-06-21,21:30,Série A,Matchweek 11,Wed,Away,L,0.0,1.0,Bahia,0.8,1.1,54.0,31013.0,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,18.2,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,-0.8,0.8,0.08,2023,Palmeiras
-16,2023-06-25,16:00,Série A,Matchweek 12,Sun,Home,L,0.0,1.0,Botafogo (RJ),2.6,0.8,64.0,38877.0,Gustavo Gómez,4-2-3-1,Anderson Daronco,Match Report,,17.5,0.0,-2.6,0.0,0.0,0.0,0.0,1.0,14.0,4.0,28.6,-1.8,1.8,0.12,2023,Palmeiras
+16,2023-06-25,16:00,Série A,Matchweek 12,Sun,Home,L,0.0,1.0,Botafogo (RJ),2.6,0.8,64.0,38877.0,Gustavo Gómez,4-2-3-1,Anderson Daronco,Match Report,,17.2,0.0,-2.6,0.0,0.0,0.0,0.0,1.0,14.0,4.0,28.6,-1.8,1.8,0.13,2023,Palmeiras
 17,2023-06-29,21:00,Libertadores,Group stage,Thu,Home,W,4.0,0.0,bo Bolívar,4.1,0.2,58.0,33250.0,Gustavo Gómez,4-2-3-1,Jesús Valenzuela,Match Report,,16.5,1.0,-0.1,0.14,0.36,4.0,0.0,0.0,28.0,11.0,39.3,-0.1,4.1,0.15,2023,Palmeiras
 18,2023-07-02,16:00,Série A,Matchweek 13,Sun,Away,D,2.0,2.0,Ath Paranaense,1.6,3.5,46.0,33118.0,Gustavo Gómez,3-5-2,Jean Pierre Goncalves Lima,Match Report,,21.6,1.0,0.4,0.2,0.5,2.0,0.0,1.0,10.0,4.0,40.0,1.2,0.8,0.08,2023,Palmeiras
 19,2023-07-08,21:00,Série A,Matchweek 14,Sat,Home,D,1.0,1.0,Flamengo,1.1,0.8,44.0,,Gustavo Gómez,4-2-3-1,Ramon Abatti Abel,Match Report,,15.4,0.0,-0.1,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,-0.1,1.1,0.11,2023,Palmeiras
@@ -79,24 +79,26 @@
 27,2023-08-19,17:30,Série A,Matchweek 20,Sat,Away,W,2.0,0.0,Cuiabá,1.7,0.7,47.0,,Marcos Rocha,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,17.4,0.0,0.3,0.11,0.4,2.0,0.0,0.0,18.0,5.0,27.8,0.3,1.7,0.1,2023,Palmeiras
 28,2023-08-23,19:30,Libertadores,Quarter-finals,Wed,Away,W,4.0,0.0,co Pereira,3.2,0.5,59.0,22789.0,Gustavo Gómez,4-2-3-1,Facundo Tello,Match Report,Leg 1 of 2,15.5,0.0,0.8,0.38,0.75,4.0,1.0,1.0,8.0,4.0,50.0,0.6,2.4,0.31,2023,Palmeiras
 29,2023-08-27,18:30,Série A,Matchweek 21,Sun,Home,W,1.0,0.0,Vasco da Gama,0.7,0.1,55.0,40292.0,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,22.9,2.0,0.3,0.08,0.2,1.0,0.0,0.0,13.0,5.0,38.5,0.3,0.7,0.05,2023,Palmeiras
-30,2023-08-30,21:30,Libertadores,Quarter-finals,Wed,Home,D,0.0,0.0,co Pereira,1.3,0.4,60.0,37785.0,Gustavo Gómez,3-5-2,Cristián Garay,Match Report,Leg 2 of 2; Palmeiras won,15.5,0.0,-1.3,0.0,0.0,0.0,0.0,0.0,13.0,7.0,53.8,-1.3,1.3,0.1,2023,Palmeiras
-31,2023-09-03,16:00,Série A,Matchweek 22,Sun,Away,,,,Corinthians,,,,,,,,Head-to-Head,,18.3,22.0,3.7,0.11,0.32,57.0,3.0,5.0,481.0,167.0,34.7,4.5,49.5,0.11,2023,Palmeiras
-32,2023-09-15,21:30,Série A,Matchweek 23,Fri,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+30,2023-08-30,21:30,Libertadores,Quarter-finals,Wed,Home,D,0.0,0.0,co Pereira,1.1,0.4,60.0,37785.0,Gustavo Gómez,3-5-2,Cristián Garay,Match Report,Leg 2 of 2; Palmeiras won,15.9,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,12.0,7.0,58.3,-1.1,1.1,0.09,2023,Palmeiras
+31,2023-09-03,16:00,Série A,Matchweek 22,Sun,Away,D,0.0,0.0,Corinthians,0.7,0.8,57.0,,Gustavo Gómez,4-2-3-1,Anderson Daronco,Match Report,,24.6,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,16.0,4.0,25.0,-0.7,0.7,0.05,2023,Palmeiras
+32,2023-09-15,21:30,Série A,Matchweek 23,Fri,Home,,,,Goiás,,,,,,,,Head-to-Head,,18.5,22.0,3.1,0.11,0.32,57.0,3.0,5.0,496.0,171.0,34.5,4.0,50.0,0.1,2023,Palmeiras
 33,2023-09-21,21:30,Série A,Matchweek 24,Thu,Away,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-34,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-35,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-36,2023-10-18,,Série A,Matchweek 27,Wed,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-37,2023-10-21,,Série A,Matchweek 28,Sat,Away,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-38,2023-10-25,,Série A,Matchweek 29,Wed,Home,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-39,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-40,2023-11-01,,Série A,Matchweek 31,Wed,Away,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-41,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-42,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-43,2023-11-11,,Série A,Matchweek 34,Sat,Home,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-44,2023-11-22,,Série A,Matchweek 35,Wed,Away,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-45,2023-11-25,,Série A,Matchweek 36,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-46,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
-47,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+34,2023-09-28,21:30,Libertadores,Semi-finals,Thu,Away,,,,ar Boca Juniors,,,,,,,,Head-to-Head,Leg 1 of 2,,,,,,,,,,,,,,,2023,Palmeiras
+35,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+36,2023-10-05,21:30,Libertadores,Semi-finals,Thu,Home,,,,ar Boca Juniors,,,,,,,,Head-to-Head,Leg 2 of 2,,,,,,,,,,,,,,,2023,Palmeiras
+37,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+38,2023-10-18,,Série A,Matchweek 27,Wed,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+39,2023-10-21,,Série A,Matchweek 28,Sat,Away,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+40,2023-10-25,,Série A,Matchweek 29,Wed,Home,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+41,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+42,2023-11-01,,Série A,Matchweek 31,Wed,Away,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+43,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+44,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+45,2023-11-11,,Série A,Matchweek 34,Sat,Home,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+46,2023-11-22,,Série A,Matchweek 35,Wed,Away,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+47,2023-11-25,,Série A,Matchweek 36,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+48,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
+49,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Palmeiras
 0,2023-04-16,18:30,Série A,Matchweek 1,Sun,Home,W,1.0,0.0,Santos,1.6,1.2,45.0,13997.0,Walter Kannemann,4-2-3-1,Wilton Sampaio,Match Report,,23.3,1.0,-0.6,0.06,0.17,1.0,0.0,1.0,16.0,6.0,37.5,0.1,0.9,0.05,2023,Gremio
 1,2023-04-22,21:00,Série A,Matchweek 2,Sat,Away,L,0.0,1.0,Cruzeiro,0.8,1.5,51.0,21605.0,Walter Kannemann,4-2-3-1,Flavio Rodrigues de Souza,Match Report,,21.1,1.0,-0.8,0.0,0.0,0.0,0.0,0.0,11.0,7.0,63.6,-0.8,0.8,0.08,2023,Gremio
 2,2023-04-30,17:30,Série A,Matchweek 3,Sun,Away,W,2.0,1.0,Cuiabá,1.7,1.2,50.0,21385.0,Walter Kannemann,4-2-3-1,Bruno Arleu de Araujo,Match Report,,15.8,0.0,0.3,0.17,0.33,2.0,0.0,0.0,12.0,6.0,50.0,0.3,1.7,0.14,2023,Gremio
@@ -117,8 +119,8 @@
 17,2023-08-13,16:00,Série A,Matchweek 19,Sun,Home,W,2.0,1.0,Fluminense,1.2,1.0,29.0,,Luis Suárez,4-4-2,Rodrigo José Pereira de Lima,Match Report,,19.7,0.0,0.8,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,0.8,1.2,0.09,2023,Gremio
 18,2023-08-20,16:00,Série A,Matchweek 20,Sun,Away,L,1.0,2.0,Santos,0.4,1.7,45.0,,Reinaldo,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,21.4,0.0,0.6,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,0.6,0.4,0.05,2023,Gremio
 19,2023-08-27,19:00,Série A,Matchweek 21,Sun,Home,W,3.0,0.0,Cruzeiro,1.5,0.6,39.0,52203.0,Pedro Geromel,4-3-1-2,Marcelo de Lima Henrique,Match Report,,15.8,0.0,1.5,0.3,0.75,3.0,0.0,0.0,10.0,4.0,40.0,1.5,1.5,0.15,2023,Gremio
-20,2023-09-03,11:00,Série A,Matchweek 22,Sun,Home,,,,Cuiabá,,,,,,,,Head-to-Head,,17.7,8.0,2.1,0.1,0.29,31.0,3.0,4.0,271.0,98.0,36.2,2.1,25.9,0.1,2023,Gremio
-21,2023-09-14,21:30,Série A,Matchweek 23,Thu,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Gremio
+20,2023-09-03,11:00,Série A,Matchweek 22,Sun,Home,W,2.0,0.0,Cuiabá,0.7,1.1,43.0,,Luis Suárez,4-1-2-1-2◆,Yuri Elino Ferreira da Cruz,Match Report,,17.7,0.0,0.3,0.09,0.2,1.0,0.0,0.0,11.0,5.0,45.5,0.3,0.7,0.06,2023,Gremio
+21,2023-09-14,21:30,Série A,Matchweek 23,Thu,Away,,,,Bragantino,,,,,,,,Head-to-Head,,17.7,8.0,2.4,0.1,0.28,32.0,3.0,4.0,282.0,103.0,36.5,2.4,26.6,0.1,2023,Gremio
 22,2023-09-18,21:00,Série A,Matchweek 15,Mon,Away,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Gremio
 23,2023-09-21,21:30,Série A,Matchweek 24,Thu,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Gremio
 24,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Gremio
@@ -164,8 +166,8 @@
 26,2023-08-13,18:30,Série A,Matchweek 19,Sun,Home,D,1.0,1.0,São Paulo,1.4,0.8,54.0,,Gabriel Barbosa,4-2-3-1,Rafael Rodrigo Klein,Match Report,,21.2,0.0,-0.4,0.0,0.0,1.0,1.0,1.0,18.0,6.0,33.3,-0.6,0.6,0.04,2023,Flamengo
 27,2023-08-20,16:00,Série A,Matchweek 20,Sun,Away,W,3.0,2.0,Coritiba,1.9,2.6,62.0,,Gabriel Barbosa,4-2-2-2,Raphael Claus,Match Report,,17.4,0.0,1.1,0.13,0.67,3.0,1.0,1.0,16.0,3.0,18.8,0.9,1.1,0.07,2023,Flamengo
 28,2023-08-26,18:30,Série A,Matchweek 21,Sat,Home,D,0.0,0.0,Internacional,0.7,0.3,59.0,,Gabriel Barbosa,4-2-3-1,Edina Alves Batista,Match Report,,12.1,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,8.0,4.0,50.0,-0.7,0.7,0.08,2023,Flamengo
-29,2023-09-02,21:00,Série A,Matchweek 22,Sat,Away,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,17.5,8.0,3.2,0.11,0.33,47.0,6.0,7.0,365.0,126.0,34.5,2.7,38.3,0.11,2023,Flamengo
-30,2023-09-13,21:30,Série A,Matchweek 23,Wed,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Flamengo
+29,2023-09-02,21:00,Série A,Matchweek 22,Sat,Away,W,2.0,1.0,Botafogo (RJ),0.8,1.1,52.0,40769.0,Bruno Henrique,4-2-3-1,Raphael Claus,Match Report,,21.7,0.0,0.2,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,0.2,0.8,0.07,2023,Flamengo
+30,2023-09-13,21:30,Série A,Matchweek 23,Wed,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,17.7,8.0,3.4,0.11,0.32,48.0,6.0,7.0,377.0,130.0,34.5,2.8,39.2,0.11,2023,Flamengo
 31,2023-09-20,19:00,Série A,Matchweek 24,Wed,Away,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Flamengo
 32,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Flamengo
 33,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Flamengo
@@ -211,24 +213,26 @@
 27,2023-08-19,18:30,Série A,Matchweek 20,Sat,Home,W,3.0,1.0,América (MG),1.2,1.4,72.0,,Nino,4-2-3-1,Flavio Rodrigues de Souza,Match Report,,18.1,0.0,1.8,0.16,0.75,3.0,0.0,0.0,19.0,4.0,21.1,1.8,1.2,0.07,2023,Fluminense
 28,2023-08-24,21:30,Libertadores,Quarter-finals,Thu,Home,W,2.0,0.0,py Olimpia,1.5,0.1,69.0,64047.0,Nino,4-1-3-2,Andrés Matonte,Match Report,Leg 1 of 2,18.3,0.0,0.5,0.11,0.33,2.0,0.0,0.0,18.0,6.0,33.3,0.5,1.5,0.09,2023,Fluminense
 29,2023-08-27,18:30,Série A,Matchweek 21,Sun,Away,D,2.0,2.0,Ath Paranaense,3.0,0.8,71.0,23630.0,David Braz,3-4-3,Raphael Claus,Match Report,,18.7,1.0,-1.0,0.09,0.2,2.0,0.0,0.0,23.0,10.0,43.5,-1.0,3.0,0.13,2023,Fluminense
-30,2023-08-31,20:30,Libertadores,Quarter-finals,Thu,Away,,,,py Olimpia,,,,,,,,Head-to-Head,Leg 2 of 2; Fluminense 2:0 Olimpia,18.1,13.0,0.0,0.1,0.28,45.0,1.0,3.0,421.0,160.0,38.0,1.4,42.6,0.1,2023,Fluminense
-31,2023-09-03,16:00,Série A,Matchweek 22,Sun,Home,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-32,2023-09-16,16:00,Série A,Matchweek 23,Sat,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+30,2023-08-31,20:30,Libertadores,Quarter-finals,Thu,Away,W,3.0,1.0,py Olimpia,1.8,1.2,51.0,,Nino,4-1-3-2,Jesús Valenzuela,Match Report,Leg 2 of 2; Fluminense won,15.1,0.0,1.2,0.43,0.75,3.0,0.0,0.0,7.0,4.0,57.1,1.2,1.8,0.29,2023,Fluminense
+31,2023-09-03,16:00,Série A,Matchweek 22,Sun,Home,W,1.0,0.0,Fortaleza,0.6,0.9,64.0,,Felipe Melo,4-4-2,André Luiz Skettino Policarpo Bento,Match Report,,19.6,0.0,0.4,0.08,0.2,1.0,0.0,0.0,13.0,5.0,38.5,0.4,0.6,0.05,2023,Fluminense
+32,2023-09-16,16:00,Série A,Matchweek 23,Sat,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,18.1,13.0,1.5,0.11,0.28,49.0,1.0,3.0,441.0,169.0,38.3,2.9,45.1,0.11,2023,Fluminense
 33,2023-09-20,21:30,Série A,Matchweek 24,Wed,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-34,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-35,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-36,2023-10-18,,Série A,Matchweek 27,Wed,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-37,2023-10-21,,Série A,Matchweek 28,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-38,2023-10-25,,Série A,Matchweek 29,Wed,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-39,2023-10-28,,Série A,Matchweek 30,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-40,2023-11-01,,Série A,Matchweek 31,Wed,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-41,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-42,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-43,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-44,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-45,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-46,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
-47,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+34,2023-09-27,21:30,Libertadores,Semi-finals,Wed,Home,,,,br Internacional,,,,,,,,Head-to-Head,Leg 1 of 2,,,,,,,,,,,,,,,2023,Fluminense
+35,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+36,2023-10-04,21:30,Libertadores,Semi-finals,Wed,Away,,,,br Internacional,,,,,,,,Head-to-Head,Leg 2 of 2,,,,,,,,,,,,,,,2023,Fluminense
+37,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+38,2023-10-18,,Série A,Matchweek 27,Wed,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+39,2023-10-21,,Série A,Matchweek 28,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+40,2023-10-25,,Série A,Matchweek 29,Wed,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+41,2023-10-28,,Série A,Matchweek 30,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+42,2023-11-01,,Série A,Matchweek 31,Wed,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+43,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+44,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+45,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+46,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+47,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+48,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
+49,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fluminense
 0,2023-04-06,20:00,Sudamericana,Group stage,Thu,Away,W,4,1,py Tacuary,,,74.0,,Aderlan Silva,4-2-3-1,Mathias de Armas,Match Report,,,,,0.14,0.36,4.0,0.0,0.0,29.0,11.0,37.9,,,,2023,Bragantino
 1,2023-04-15,18:30,Série A,Matchweek 1,Sat,Home,W,2,1,Bahia,2.0,0.7,55.0,3368.0,Aderlan Silva,4-2-3-1,Maguielson Lima Barbosa,Match Report,,20.8,1.0,0.0,0.15,0.29,2.0,0.0,0.0,13.0,7.0,53.8,0.0,2.0,0.17,2023,Bragantino
 2,2023-04-18,19:00,Sudamericana,Group stage,Tue,Home,W,5,0,bo Oriente Petrolero,,,71.0,,Aderlan Silva,4-3-3,Francisco Gilabert,Match Report,,,,,0.17,0.33,5.0,1.0,1.0,23.0,12.0,52.2,,,,2023,Bragantino
@@ -238,16 +242,16 @@
 6,2023-05-07,18:30,Série A,Matchweek 4,Sun,Away,D,3,3,Grêmio,1.8,1.7,58.0,23760.0,Juninho Capixaba,4-3-3,Paulo Cesar Zanovelli da Silva,Match Report,,18.0,0.0,1.2,0.14,0.43,3.0,0.0,0.0,21.0,7.0,33.3,1.2,1.8,0.09,2023,Bragantino
 7,2023-05-10,19:00,Série A,Matchweek 5,Wed,Home,D,2,2,América (MG),1.7,2.0,62.0,2909.0,Cleiton Schwengber,4-3-3,Rafael Rodrigo Klein,Match Report,,19.2,1.0,0.3,0.1,0.22,2.0,0.0,0.0,20.0,9.0,45.0,0.3,1.7,0.09,2023,Bragantino
 8,2023-05-13,18:30,Série A,Matchweek 6,Sat,Away,D,1,1,Palmeiras,1.0,1.6,42.0,39488.0,Cleiton Schwengber,4-3-3,Savio Pereira,Match Report,,21.5,0.0,0.0,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,0.0,1.0,0.12,2023,Bragantino
-9,2023-05-20,18:30,Série A,Matchweek 7,Sat,Home,W,2,0,Ath Paranaense,1.7,1.1,60.0,3769.0,Cleiton Schwengber,4-2-3-1,Felipe Fernandes de Lima,Match Report,,15.9,0.0,0.3,0.15,0.5,2.0,0.0,0.0,13.0,4.0,30.8,0.3,1.7,0.14,2023,Bragantino
+9,2023-05-20,18:30,Série A,Matchweek 7,Sat,Home,W,2,0,Ath Paranaense,1.7,1.1,60.0,3769.0,Cleiton Schwengber,4-2-3-1,Felipe Fernandes de Lima,Match Report,,16.9,0.0,0.3,0.15,0.5,2.0,0.0,0.0,13.0,4.0,30.8,0.3,1.7,0.13,2023,Bragantino
 10,2023-05-25,20:00,Sudamericana,Group stage,Thu,Away,W,4,0,bo Oriente Petrolero,,,60.0,,Cleiton Schwengber,4-4-2,Bismark Santiago,Match Report,,,,,0.24,0.57,4.0,0.0,0.0,17.0,7.0,41.2,,,,2023,Bragantino
 11,2023-05-28,18:30,Série A,Matchweek 8,Sun,Home,W,2,0,Santos,1.5,0.3,59.0,5988.0,Cleiton Schwengber,4-3-3,Anderson Daronco,Match Report,,19.2,0.0,0.5,0.11,0.22,2.0,0.0,0.0,19.0,9.0,47.4,0.5,1.5,0.08,2023,Bragantino
-12,2023-06-04,16:00,Série A,Matchweek 9,Sun,Away,L,1,2,Fluminense,0.6,1.1,49.0,27228.0,Cleiton Schwengber,4-3-3,Rodrigo José Pereira de Lima,Match Report,,22.1,1.0,0.4,0.07,0.33,1.0,0.0,0.0,15.0,3.0,20.0,0.4,0.6,0.04,2023,Bragantino
+12,2023-06-04,16:00,Série A,Matchweek 9,Sun,Away,L,1,2,Fluminense,0.6,1.1,49.0,27228.0,Cleiton Schwengber,4-3-3,Rodrigo José Pereira de Lima,Match Report,,22.9,1.0,0.4,0.07,0.33,1.0,0.0,0.0,15.0,3.0,20.0,0.4,0.6,0.04,2023,Bragantino
 13,2023-06-07,21:00,Sudamericana,Group stage,Wed,Away,D,1,1,ar Estudiantes,,,43.0,,Cleiton Schwengber,3-5-2,Kevin Ortega,Match Report,,,,,0.11,1.0,1.0,0.0,0.0,9.0,1.0,11.1,,,,2023,Bragantino
 14,2023-06-10,18:30,Série A,Matchweek 10,Sat,Away,D,1,1,Atlético Mineiro,0.5,1.7,39.0,28786.0,Cleiton Schwengber,4-3-3,Rafael Rodrigo Klein,Match Report,,20.0,0.0,0.5,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,0.5,0.5,0.07,2023,Bragantino
 15,2023-06-22,21:30,Série A,Matchweek 11,Thu,Home,W,4,0,Flamengo,3.3,0.8,59.0,10103.0,Lucas Evangelista,3-2-4-1,Anderson Daronco,Match Report,,18.2,0.0,0.7,0.11,0.31,4.0,0.0,0.0,36.0,13.0,36.1,0.7,3.3,0.1,2023,Bragantino
 16,2023-06-25,18:30,Série A,Matchweek 12,Sun,Home,W,2,0,Goiás,1.7,0.2,59.0,3798.0,Cleiton Schwengber,3-2-4-1,Bruno Mota Correia,Match Report,,19.4,2.0,0.3,0.1,0.33,2.0,0.0,0.0,20.0,6.0,30.0,0.3,1.7,0.08,2023,Bragantino
 17,2023-06-28,19:00,Sudamericana,Group stage,Wed,Home,W,7,1,py Tacuary,,,79.0,4115.0,Cleiton Schwengber,4-1-4-1,Fernando Vejar,Match Report,,,,,0.28,0.54,7.0,0.0,0.0,25.0,13.0,52.0,,,,2023,Bragantino
-18,2023-07-02,11:00,Série A,Matchweek 13,Sun,Away,W,1,0,Corinthians,0.9,0.6,58.0,42404.0,Cleiton Schwengber,4-1-2-1-2◆,Edina Alves Batista,Match Report,,20.1,0.0,0.1,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,0.1,0.9,0.09,2023,Bragantino
+18,2023-07-02,11:00,Série A,Matchweek 13,Sun,Away,W,1,0,Corinthians,0.9,0.6,58.0,42404.0,Cleiton Schwengber,4-1-2-1-2◆,Edina Alves Batista,Match Report,,20.5,0.0,0.1,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,0.1,0.9,0.09,2023,Bragantino
 19,2023-07-09,16:00,Série A,Matchweek 14,Sun,Home,D,0,0,São Paulo,1.6,0.5,58.0,,Cleiton Schwengber,4-3-3,Raphael Claus,Match Report,,21.3,2.0,-1.6,0.0,0.0,0.0,0.0,0.0,26.0,4.0,15.4,-1.6,1.6,0.06,2023,Bragantino
 20,2023-07-15,21:00,Série A,Matchweek 15,Sat,Away,L,0,2,Botafogo (RJ),1.4,1.0,62.0,37036.0,Cleiton Schwengber,4-2-2-2,Anderson Daronco,Match Report,,22.2,2.0,-1.4,0.0,0.0,0.0,0.0,0.0,17.0,8.0,47.1,-1.4,1.4,0.08,2023,Bragantino
 21,2023-07-23,16:00,Série A,Matchweek 16,Sun,Home,D,0,0,Internacional,1.0,0.9,54.0,,Cleiton Schwengber,4-3-3,Maguielson Lima Barbosa,Match Report,,18.3,2.0,-1.0,0.0,0.0,0.0,0.0,0.0,20.0,4.0,20.0,-1.0,1.0,0.05,2023,Bragantino
@@ -258,8 +262,8 @@
 26,2023-08-14,21:00,Série A,Matchweek 19,Mon,Home,D,1,1,Vasco da Gama,1.6,1.5,64.0,5553.0,Leo Ortiz,4-3-3,Anderson Daronco,Match Report,,19.2,2.0,-0.6,0.04,0.14,1.0,0.0,0.0,24.0,7.0,29.2,-0.6,1.6,0.07,2023,Bragantino
 27,2023-08-20,16:00,Série A,Matchweek 20,Sun,Away,L,0,4,Bahia,0.7,1.8,53.0,,Leo Ortiz,4-2-3-1,Arthur Gomes Rabelo,Match Report,,20.7,1.0,-0.7,0.0,0.0,0.0,0.0,0.0,11.0,7.0,63.6,-0.7,0.7,0.06,2023,Bragantino
 28,2023-08-27,11:00,Série A,Matchweek 21,Sun,Home,W,2,0,Cuiabá,1.5,0.5,63.0,3683.0,Leo Ortiz,4-2-3-1,Bruno Mota Correia,Match Report,,21.5,0.0,0.5,0.18,0.5,2.0,0.0,0.0,11.0,4.0,36.4,0.5,1.5,0.15,2023,Bragantino
-29,2023-09-03,18:30,Série A,Matchweek 22,Sun,Away,,,,Cruzeiro,,,,,,,,Head-to-Head,,19.2,16.0,23.2,0.11,0.29,53.0,1.0,1.0,492.0,181.0,36.8,22.2,29.8,0.09,2023,Bragantino
-30,2023-09-14,21:30,Série A,Matchweek 23,Thu,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bragantino
+29,2023-09-03,18:30,Série A,Matchweek 22,Sun,Away,D,0,0,Cruzeiro,1.2,1.2,50.0,,Leo Ortiz,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,18.6,0.0,-1.2,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,-1.2,1.2,0.1,2023,Bragantino
+30,2023-09-14,21:30,Série A,Matchweek 23,Thu,Home,,,,Grêmio,,,,,,,,Head-to-Head,,19.3,16.0,22.0,0.1,0.28,53.0,1.0,1.0,505.0,186.0,36.8,21.0,31.0,0.09,2023,Bragantino
 31,2023-09-19,21:30,Série A,Matchweek 24,Tue,Away,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bragantino
 32,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bragantino
 33,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bragantino
@@ -304,8 +308,8 @@
 26,2023-08-15,20:00,Série A,Matchweek 19,Tue,Home,W,2,0,Cuiabá,0.8,1.1,54.0,18444.0,Thiago Heleno,4-2-3-1,Arthur Gomes Rabelo,Match Report,,18.3,1.0,1.2,0.17,0.33,2.0,0.0,0.0,12.0,6.0,50.0,1.2,0.8,0.07,2023,Athletico Paranaense
 27,2023-08-21,20:00,Série A,Matchweek 20,Mon,Away,D,1,1,Goiás,1.0,1.0,53.0,8325.0,Fernandinho,3-4-3,Marcelo de Lima Henrique,Match Report,,20.0,0.0,0.0,0.07,0.2,1.0,0.0,0.0,14.0,5.0,35.7,0.0,1.0,0.09,2023,Athletico Paranaense
 28,2023-08-27,18:30,Série A,Matchweek 21,Sun,Home,D,2,2,Fluminense,0.8,3.0,29.0,23630.0,Thiago Heleno,4-2-3-1,Raphael Claus,Match Report,,19.6,0.0,1.2,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,1.2,0.8,0.08,2023,Athletico Paranaense
-29,2023-09-02,16:00,Série A,Matchweek 22,Sat,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,19.3,20.0,3.8,0.1,0.32,43.0,5.0,5.0,374.0,120.0,32.1,2.5,35.5,0.1,2023,Athletico Paranaense
-30,2023-09-13,21:30,Série A,Matchweek 23,Wed,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Athletico Paranaense
+29,2023-09-02,16:00,Série A,Matchweek 22,Sat,Home,D,1,1,Atlético Mineiro,2.0,0.4,52.0,,Thiago Heleno,4-3-3,Flavio Rodrigues de Souza,Match Report,,17.5,1.0,-1.0,0.04,0.17,1.0,0.0,0.0,23.0,6.0,26.1,-1.0,2.0,0.09,2023,Athletico Paranaense
+30,2023-09-13,21:30,Série A,Matchweek 23,Wed,Away,,,,Flamengo,,,,,,,,Head-to-Head,,19.2,21.0,2.8,0.1,0.31,44.0,5.0,5.0,397.0,126.0,31.7,1.5,37.5,0.1,2023,Athletico Paranaense
 31,2023-09-21,19:30,Série A,Matchweek 24,Thu,Home,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Athletico Paranaense
 32,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Athletico Paranaense
 33,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Athletico Paranaense
@@ -355,24 +359,26 @@
 31,2023-08-19,16:00,Série A,Matchweek 20,Sat,Away,W,1.0,0.0,Internacional,1.1,1.0,25.0,,Guilherme Tinga,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,24.4,0.0,-0.1,0.0,0.0,1.0,1.0,1.0,7.0,1.0,14.3,-0.3,0.3,0.04,2023,Fortaleza
 32,2023-08-24,19:00,Sudamericana,Quarter-finals,Thu,Away,W,3.0,1.0,br América (MG),,,43.0,3301.0,Guilherme Tinga,4-2-3-1,Wilmar Roldán,Match Report,Leg 1 of 2,,,,0.23,1.0,3.0,0.0,0.0,13.0,3.0,23.1,,,,2023,Fortaleza
 33,2023-08-27,18:30,Série A,Matchweek 21,Sun,Home,W,3.0,1.0,Coritiba,2.5,1.0,53.0,12467.0,Titi,4-2-3-1,Matheus Delgado Candançan,Match Report,,16.9,1.0,0.5,0.18,0.4,3.0,1.0,1.0,11.0,5.0,45.5,0.3,1.7,0.16,2023,Fortaleza
-34,2023-08-31,19:00,Sudamericana,Quarter-finals,Thu,Home,,,,br América (MG),,,,,,,,Head-to-Head,Leg 2 of 2; América (MG) 1:3 Fortaleza,18.9,18.0,10.5,0.09,0.26,49.0,6.0,9.0,486.0,167.0,34.4,8.4,34.6,0.09,2023,Fortaleza
-35,2023-09-03,16:00,Série A,Matchweek 22,Sun,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-36,2023-09-14,19:00,Série A,Matchweek 23,Thu,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+34,2023-08-31,19:00,Sudamericana,Quarter-finals,Thu,Home,W,2.0,1.0,br América (MG),,,50.0,56916.0,Guilherme Tinga,4-2-3-1,Felipe González Alveal,Match Report,Leg 2 of 2; Fortaleza won,,,,0.15,0.25,2.0,0.0,0.0,13.0,8.0,61.5,,,,2023,Fortaleza
+35,2023-09-03,16:00,Série A,Matchweek 22,Sun,Away,L,0.0,1.0,Fluminense,0.9,0.6,36.0,,Guilherme Tinga,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,20.3,1.0,-0.9,0.0,0.0,0.0,0.0,0.0,20.0,5.0,25.0,-0.9,0.9,0.05,2023,Fortaleza
+36,2023-09-14,19:00,Série A,Matchweek 23,Thu,Home,,,,Corinthians,,,,,,,,Head-to-Head,,19.0,19.0,11.6,0.09,0.25,51.0,6.0,9.0,519.0,180.0,34.7,9.6,35.4,0.09,2023,Fortaleza
 37,2023-09-20,21:30,Série A,Matchweek 24,Wed,Away,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-38,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-39,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-40,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-41,2023-10-21,,Série A,Matchweek 28,Sat,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-42,2023-10-25,,Série A,Matchweek 29,Wed,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-43,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-44,2023-11-01,,Série A,Matchweek 31,Wed,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-45,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-46,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-47,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-48,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-49,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-50,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
-51,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+38,2023-09-26,21:30,Sudamericana,Semi-finals,Tue,Away,,,,br Corinthians,,,,,,,,Head-to-Head,Leg 1 of 2,,,,,,,,,,,,,,,2023,Fortaleza
+39,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+40,2023-10-03,21:30,Sudamericana,Semi-finals,Tue,Home,,,,br Corinthians,,,,,,,,Head-to-Head,Leg 2 of 2,,,,,,,,,,,,,,,2023,Fortaleza
+41,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+42,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+43,2023-10-21,,Série A,Matchweek 28,Sat,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+44,2023-10-25,,Série A,Matchweek 29,Wed,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+45,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+46,2023-11-01,,Série A,Matchweek 31,Wed,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+47,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+48,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+49,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+50,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+51,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+52,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
+53,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fortaleza
 0,2023-02-22,20:30,Libertadores,Second qualifying stage,Wed,Away,D,0.0,0.0,ve Carabobo,1.2,0.5,79.0,,,4-1-2-1-2◆,Gery Vargas,Match Report,Leg 1 of 2,16.9,0.0,-1.2,0.0,0.0,0.0,0.0,0.0,20.0,3.0,15.0,-1.2,1.2,0.06,2023,Atletico Mineiro
 1,2023-03-01,21:30,Libertadores,Second qualifying stage,Wed,Home,W,3.0,1.0,ve Carabobo,2.0,0.3,71.0,,Hulk,4-3-1-2,Diego Haro,Match Report,Leg 2 of 2; Atlético Mineiro won,19.2,0.0,1.0,0.25,0.43,3.0,0.0,1.0,12.0,7.0,58.3,1.8,1.2,0.11,2023,Atletico Mineiro
 2,2023-03-08,19:30,Libertadores,Third qualifying stage,Wed,Away,D,1.0,1.0,co Millonarios,0.7,0.6,51.0,,Hulk,4-2-2-2,Piero Maza,Match Report,Leg 1 of 2,23.1,1.0,0.3,0.14,0.25,1.0,0.0,0.0,7.0,4.0,57.1,0.3,0.7,0.11,2023,Atletico Mineiro
@@ -406,8 +412,8 @@
 30,2023-08-13,11:00,Série A,Matchweek 19,Sun,Home,W,1.0,0.0,Bahia,1.1,0.6,40.0,,Rodrigo Battaglia,4-2-3-1,Savio Pereira,Match Report,,22.3,1.0,-0.1,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,-0.1,1.1,0.1,2023,Atletico Mineiro
 31,2023-08-20,11:00,Série A,Matchweek 20,Sun,Away,L,0.0,1.0,Vasco da Gama,0.7,1.9,58.0,53540.0,Rodrigo Battaglia,4-2-3-1,Braulio da Silva Machado,Match Report,,22.8,3.0,-0.7,0.0,0.0,0.0,0.0,0.0,10.0,5.0,50.0,-0.7,0.7,0.07,2023,Atletico Mineiro
 32,2023-08-27,16:00,Série A,Matchweek 21,Sun,Home,W,2.0,0.0,Santos,1.6,0.7,56.0,,Rodrigo Battaglia,4-2-3-1,Rafael Rodrigo Klein,Match Report,,17.5,0.0,0.4,0.13,0.33,2.0,0.0,0.0,15.0,6.0,40.0,0.4,1.6,0.11,2023,Atletico Mineiro
-33,2023-09-02,16:00,Série A,Matchweek 22,Sat,Away,,,,Ath Paranaense,,,,,,,,Head-to-Head,,20.0,43.0,-9.3,0.07,0.23,37.0,3.0,5.0,464.0,149.0,32.1,-8.4,42.4,0.09,2023,Atletico Mineiro
-34,2023-09-16,21:00,Série A,Matchweek 23,Sat,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atletico Mineiro
+33,2023-09-02,16:00,Série A,Matchweek 22,Sat,Away,D,1.0,1.0,Ath Paranaense,0.4,2.0,48.0,,Mariano,4-2-3-1,Flavio Rodrigues de Souza,Match Report,,20.3,1.0,0.6,0.11,0.14,1.0,0.0,0.0,9.0,7.0,77.8,0.6,0.4,0.05,2023,Atletico Mineiro
+34,2023-09-16,21:00,Série A,Matchweek 23,Sat,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,20.0,44.0,-8.7,0.07,0.22,38.0,3.0,5.0,473.0,156.0,33.0,-7.8,42.8,0.09,2023,Atletico Mineiro
 35,2023-09-23,21:00,Série A,Matchweek 24,Sat,Home,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atletico Mineiro
 36,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atletico Mineiro
 37,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atletico Mineiro
@@ -444,8 +450,8 @@
 18,2023-08-15,20:00,Série A,Matchweek 19,Tue,Away,L,0.0,2.0,Ath Paranaense,1.1,0.8,46.0,18444.0,Walter,4-3-3,Arthur Gomes Rabelo,Match Report,,23.5,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,-1.1,1.1,0.1,2023,Cuiaba
 19,2023-08-19,17:30,Série A,Matchweek 20,Sat,Home,L,0.0,2.0,Palmeiras,0.7,1.7,53.0,,Walter,4-3-3,André Luiz Skettino Policarpo Bento,Match Report,,16.0,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,13.0,2.0,15.4,-0.7,0.7,0.05,2023,Cuiaba
 20,2023-08-27,11:00,Série A,Matchweek 21,Sun,Away,L,0.0,2.0,Bragantino,0.5,1.5,37.0,3683.0,Walter,4-3-3,Bruno Mota Correia,Match Report,,16.4,0.0,-0.5,0.0,0.0,0.0,0.0,0.0,6.0,3.0,50.0,-0.5,0.5,0.08,2023,Cuiaba
-21,2023-09-03,11:00,Série A,Matchweek 22,Sun,Away,,,,Grêmio,,,,,,,,Head-to-Head,,20.8,7.0,-1.2,0.07,0.23,20.0,2.0,3.0,257.0,80.0,31.1,-0.8,18.8,0.07,2023,Cuiaba
-22,2023-09-15,19:00,Série A,Matchweek 23,Fri,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
+21,2023-09-03,11:00,Série A,Matchweek 22,Sun,Away,L,0.0,2.0,Grêmio,1.1,0.7,57.0,,Walter,3-4-3,Yuri Elino Ferreira da Cruz,Match Report,,20.6,1.0,-1.1,0.0,0.0,0.0,0.0,0.0,17.0,3.0,17.6,-1.1,1.1,0.07,2023,Cuiaba
+22,2023-09-15,19:00,Série A,Matchweek 23,Fri,Home,,,,América (MG),,,,,,,,Head-to-Head,,20.8,8.0,-2.3,0.07,0.22,20.0,2.0,3.0,274.0,83.0,30.3,-2.0,20.0,0.07,2023,Cuiaba
 23,2023-09-23,21:00,Série A,Matchweek 24,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
 24,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
 25,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
@@ -461,40 +467,40 @@
 35,2023-11-25,,Série A,Matchweek 36,Sat,Home,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
 36,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
 37,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cuiaba
-0,2023-04-06,21:00,Sudamericana,Group stage,Thu,Away,W,2.0,0.0,ar Tigre,,,55.0,,Robert Arboleda,3-4-3,Esteban Ostojich,Match Report,,,,,0.18,0.5,2.0,0.0,0.0,11.0,4.0,36.4,,,,2023,Sao Paulo
-1,2023-04-15,18:30,Série A,Matchweek 1,Sat,Away,L,1.0,2.0,Botafogo (RJ),2.0,0.9,67.0,11708.0,Jonathan Calleri,4-1-4-1,Ramon Abatti Abel,Match Report,,16.4,0.0,-1.0,0.06,0.13,1.0,0.0,0.0,16.0,8.0,50.0,-1.0,2.0,0.13,2023,Sao Paulo
-2,2023-04-18,21:30,Sudamericana,Group stage,Tue,Home,W,2.0,0.0,ve Acad Pr Cabello,,,71.0,,Robert Arboleda,4-1-4-1,Ivo Méndez,Match Report,,,,,0.09,0.22,2.0,0.0,0.0,23.0,9.0,39.1,,,,2023,Sao Paulo
-3,2023-04-22,18:30,Série A,Matchweek 2,Sat,Home,W,3.0,0.0,América (MG),2.4,1.1,53.0,41006.0,Robert Arboleda,4-1-3-2,Wagner do Nascimento Magalhães,Match Report,,17.9,0.0,0.6,0.18,0.5,3.0,0.0,0.0,17.0,6.0,35.3,0.6,2.4,0.14,2023,Sao Paulo
-4,2023-04-29,16:30,Série A,Matchweek 3,Sat,Away,D,1.0,1.0,Coritiba,1.1,1.8,67.0,25210.0,Luciano,4-2-3-1,Rafael Rodrigo Klein,Match Report,,22.0,2.0,-0.1,0.04,0.17,1.0,0.0,0.0,23.0,6.0,26.1,-0.1,1.1,0.05,2023,Sao Paulo
-5,2023-05-02,17:00,Sudamericana,Group stage,Tue,Away,D,0.0,0.0,co Tolima,,,54.0,,Rafinha,4-2-3-1,Felipe González Alveal,Match Report,,,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,,,,2023,Sao Paulo
-6,2023-05-07,16:00,Série A,Matchweek 4,Sun,Home,W,2.0,0.0,Internacional,1.9,0.8,42.0,46093.0,Rafinha,4-2-3-1,Braulio da Silva Machado,Match Report,,18.4,0.0,0.1,0.33,0.67,2.0,0.0,1.0,6.0,3.0,50.0,1.1,0.9,0.15,2023,Sao Paulo
-7,2023-05-11,20:00,Série A,Matchweek 5,Thu,Away,D,0.0,0.0,Fortaleza,0.8,0.8,56.0,37775.0,Jonathan Calleri,4-3-3,Paulo Cesar Zanovelli da Silva,Match Report,,20.0,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,13.0,1.0,7.7,-0.8,0.8,0.06,2023,Sao Paulo
-8,2023-05-14,16:00,Série A,Matchweek 6,Sun,Away,D,1.0,1.0,Corinthians,0.9,0.9,66.0,41118.0,Rafinha,4-2-3-1,Bruno Arleu de Araujo,Match Report,,17.1,0.0,0.1,0.14,1.0,1.0,0.0,0.0,7.0,1.0,14.3,0.1,0.9,0.12,2023,Sao Paulo
-9,2023-05-20,18:30,Série A,Matchweek 7,Sat,Home,W,4.0,2.0,Vasco da Gama,2.3,1.1,52.0,57399.0,Rafinha,4-2-3-1,Leandro Pedro Vuaden,Match Report,,15.6,0.0,1.7,0.27,0.57,4.0,0.0,0.0,15.0,7.0,46.7,1.7,2.3,0.15,2023,Sao Paulo
-10,2023-05-23,20:30,Sudamericana,Group stage,Tue,Away,W,2.0,0.0,ve Acad Pr Cabello,,,62.0,2254.0,Diego,4-2-3-1,Byran Loayza,Match Report,,,,,0.18,0.5,2.0,0.0,0.0,11.0,4.0,36.4,,,,2023,Sao Paulo
-11,2023-05-27,21:00,Série A,Matchweek 8,Sat,Home,W,2.0,1.0,Goiás,0.9,0.3,67.0,45429.0,Rafinha,4-2-3-1,Rafael Rodrigo Klein,Match Report,,21.0,0.0,1.1,0.13,0.33,2.0,0.0,0.0,16.0,6.0,37.5,1.1,0.9,0.05,2023,Sao Paulo
-12,2023-06-04,16:00,Série A,Matchweek 9,Sun,Away,L,1.0,2.0,Grêmio,1.1,1.9,60.0,42207.0,Jonathan Calleri,3-4-3,Wilton Sampaio,Match Report,,19.5,0.0,-0.1,0.06,0.25,1.0,0.0,0.0,16.0,4.0,25.0,-0.1,1.1,0.07,2023,Sao Paulo
-13,2023-06-08,19:00,Sudamericana,Group stage,Thu,Home,W,5.0,0.0,co Tolima,,,73.0,,Rafinha,4-2-3-1,Leodán González,Match Report,,,,,0.29,0.71,5.0,0.0,0.0,17.0,7.0,41.2,,,,2023,Sao Paulo
-14,2023-06-11,16:00,Série A,Matchweek 10,Sun,Home,L,0.0,2.0,Palmeiras,1.4,0.7,65.0,56871.0,Rafinha,4-2-3-1,Raphael Claus,Match Report,,18.0,1.0,-1.4,0.0,0.0,0.0,0.0,0.0,26.0,6.0,23.1,-1.4,1.4,0.06,2023,Sao Paulo
-15,2023-06-21,19:00,Série A,Matchweek 11,Wed,Home,W,2.0,1.0,Ath Paranaense,0.6,1.2,56.0,22882.0,Rafinha,4-2-3-1,Savio Pereira,Match Report,,15.6,0.0,1.4,0.25,0.4,2.0,0.0,0.0,8.0,5.0,62.5,1.4,0.6,0.08,2023,Sao Paulo
-16,2023-06-24,21:00,Série A,Matchweek 12,Sat,Away,L,0.0,1.0,Cruzeiro,1.4,0.5,69.0,17478.0,Rafinha,4-2-3-1,Ramon Abatti Abel,Match Report,,16.6,1.0,-1.4,0.0,0.0,0.0,0.0,0.0,14.0,8.0,57.1,-1.4,1.4,0.1,2023,Sao Paulo
-17,2023-06-27,21:30,Sudamericana,Group stage,Tue,Home,W,2.0,0.0,ar Tigre,,,71.0,28699.0,Robert Arboleda,4-3-3,Guillermo Guerrero,Match Report,,,,,0.09,0.25,2.0,0.0,0.0,23.0,8.0,34.8,,,,2023,Sao Paulo
-18,2023-07-01,16:00,Série A,Matchweek 13,Sat,Home,W,1.0,0.0,Fluminense,1.1,0.2,54.0,49153.0,Rafinha,4-1-2-1-2◆,Anderson Daronco,Match Report,,23.8,0.0,-0.1,0.05,0.25,1.0,0.0,0.0,21.0,4.0,19.0,-0.1,1.1,0.05,2023,Sao Paulo
-19,2023-07-09,16:00,Série A,Matchweek 14,Sun,Away,D,0.0,0.0,Bragantino,0.5,1.6,42.0,,Diego,4-3-3,Raphael Claus,Match Report,,14.1,0.0,-0.5,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.5,0.5,0.08,2023,Sao Paulo
-20,2023-07-16,16:00,Série A,Matchweek 15,Sun,Home,W,4.0,1.0,Santos,3.2,1.1,63.0,,Rafinha,4-2-3-1,Braulio da Silva Machado,Match Report,,20.0,0.0,0.8,0.13,0.5,4.0,1.0,1.0,23.0,6.0,26.1,0.4,2.6,0.12,2023,Sao Paulo
-21,2023-07-22,17:30,Série A,Matchweek 16,Sat,Away,L,1.0,2.0,Cuiabá,0.9,2.2,71.0,34072.0,Jonathan Calleri,4-2-3-1,Bruno Mota Correia,Match Report,,16.4,0.0,0.1,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,0.1,0.9,0.08,2023,Sao Paulo
-22,2023-07-30,11:00,Série A,Matchweek 17,Sun,Home,D,0.0,0.0,Bahia,1.8,0.5,64.0,,Rafinha,4-2-3-1,Ramon Abatti Abel,Match Report,,16.0,0.0,-1.8,0.0,0.0,0.0,0.0,0.0,17.0,11.0,64.7,-1.8,1.8,0.11,2023,Sao Paulo
-23,2023-08-03,19:00,Sudamericana,Round of 16,Thu,Away,L,0.0,1.0,ar San Lorenzo,,,71.0,12736.0,Rafinha,4-2-3-1,Wilmar Roldán,Match Report,Leg 1 of 2,,,,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,,,,2023,Sao Paulo
-24,2023-08-06,16:00,Série A,Matchweek 18,Sun,Home,L,0.0,2.0,Atlético Mineiro,0.9,1.9,68.0,53460.0,Rafinha,4-2-3-1,Rodrigo José Pereira de Lima,Match Report,,17.4,1.0,-0.9,0.0,0.0,0.0,0.0,0.0,19.0,3.0,15.8,-0.9,0.9,0.05,2023,Sao Paulo
-25,2023-08-10,19:00,Sudamericana,Round of 16,Thu,Home,W,2.0,0.0,ar San Lorenzo,,,70.0,51816.0,Rafinha,4-2-3-1,Esteban Ostojich,Match Report,Leg 2 of 2; São Paulo won,,,,0.17,0.4,2.0,0.0,0.0,12.0,5.0,41.7,,,,2023,Sao Paulo
-26,2023-08-13,18:30,Série A,Matchweek 19,Sun,Away,D,1.0,1.0,Flamengo,0.8,1.4,46.0,,Lucas Moura,4-2-3-1,Rafael Rodrigo Klein,Match Report,,20.9,1.0,0.2,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,0.2,0.8,0.1,2023,Sao Paulo
-27,2023-08-19,16:00,Série A,Matchweek 20,Sat,Home,D,0.0,0.0,Botafogo (RJ),0.7,0.9,64.0,,Luciano,4-2-3-1,Ramon Abatti Abel,Match Report,,22.2,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,13.0,4.0,30.8,-0.7,0.7,0.05,2023,Sao Paulo
-28,2023-08-24,17:00,Sudamericana,Quarter-finals,Thu,Away,L,1.0,2.0,ec LDU de Quito,,,54.0,30648.0,Rafinha,4-2-3-1,John J. Ospina,Match Report,Leg 1 of 2,,,,0.2,0.33,1.0,0.0,0.0,5.0,3.0,60.0,,,,2023,Sao Paulo
-29,2023-08-27,16:00,Série A,Matchweek 21,Sun,Away,L,1.0,2.0,América (MG),1.4,1.3,73.0,,Wellington Rato,4-2-3-1,Rodrigo José Pereira de Lima,Match Report,,24.8,1.0,-0.4,0.08,0.25,1.0,0.0,1.0,12.0,4.0,33.3,0.5,0.5,0.04,2023,Sao Paulo
-30,2023-08-31,19:00,Sudamericana,Quarter-finals,Thu,Home,,,,ec LDU de Quito,,,,,,,,Head-to-Head,Leg 2 of 2; LDU de Quito 2:1 São Paulo,19.1,7.0,13.2,0.09,0.28,41.0,1.0,3.0,428.0,141.0,32.9,14.7,25.3,0.08,2023,Sao Paulo
-31,2023-09-03,20:30,Série A,Matchweek 22,Sun,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
-32,2023-09-13,21:30,Série A,Matchweek 23,Wed,Away,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
-33,2023-09-20,21:30,Série A,Matchweek 24,Wed,Home,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
+0,2023-04-06,21:00,Sudamericana,Group stage,Thu,Away,W,2,0,ar Tigre,,,55.0,,Robert Arboleda,3-4-3,Esteban Ostojich,Match Report,,,,,0.18,0.5,2.0,0.0,0.0,11.0,4.0,36.4,,,,2023,Sao Paulo
+1,2023-04-15,18:30,Série A,Matchweek 1,Sat,Away,L,1,2,Botafogo (RJ),2.0,0.9,67.0,11708.0,Jonathan Calleri,4-1-4-1,Ramon Abatti Abel,Match Report,,16.4,0.0,-1.0,0.06,0.13,1.0,0.0,0.0,16.0,8.0,50.0,-1.0,2.0,0.13,2023,Sao Paulo
+2,2023-04-18,21:30,Sudamericana,Group stage,Tue,Home,W,2,0,ve Acad Pr Cabello,,,71.0,,Robert Arboleda,4-1-4-1,Ivo Méndez,Match Report,,,,,0.09,0.22,2.0,0.0,0.0,23.0,9.0,39.1,,,,2023,Sao Paulo
+3,2023-04-22,18:30,Série A,Matchweek 2,Sat,Home,W,3,0,América (MG),2.4,1.1,53.0,41006.0,Robert Arboleda,4-1-3-2,Wagner do Nascimento Magalhães,Match Report,,17.9,0.0,0.6,0.18,0.5,3.0,0.0,0.0,17.0,6.0,35.3,0.6,2.4,0.14,2023,Sao Paulo
+4,2023-04-29,16:30,Série A,Matchweek 3,Sat,Away,D,1,1,Coritiba,1.1,1.8,67.0,25210.0,Luciano,4-2-3-1,Rafael Rodrigo Klein,Match Report,,22.0,2.0,-0.1,0.04,0.17,1.0,0.0,0.0,23.0,6.0,26.1,-0.1,1.1,0.05,2023,Sao Paulo
+5,2023-05-02,17:00,Sudamericana,Group stage,Tue,Away,D,0,0,co Tolima,,,54.0,,Rafinha,4-2-3-1,Felipe González Alveal,Match Report,,,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,,,,2023,Sao Paulo
+6,2023-05-07,16:00,Série A,Matchweek 4,Sun,Home,W,2,0,Internacional,1.9,0.8,42.0,46093.0,Rafinha,4-2-3-1,Braulio da Silva Machado,Match Report,,18.4,0.0,0.1,0.33,0.67,2.0,0.0,1.0,6.0,3.0,50.0,1.1,0.9,0.15,2023,Sao Paulo
+7,2023-05-11,20:00,Série A,Matchweek 5,Thu,Away,D,0,0,Fortaleza,0.8,0.8,56.0,37775.0,Jonathan Calleri,4-3-3,Paulo Cesar Zanovelli da Silva,Match Report,,20.0,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,13.0,1.0,7.7,-0.8,0.8,0.06,2023,Sao Paulo
+8,2023-05-14,16:00,Série A,Matchweek 6,Sun,Away,D,1,1,Corinthians,0.9,0.9,66.0,41118.0,Rafinha,4-2-3-1,Bruno Arleu de Araujo,Match Report,,17.1,0.0,0.1,0.14,1.0,1.0,0.0,0.0,7.0,1.0,14.3,0.1,0.9,0.12,2023,Sao Paulo
+9,2023-05-20,18:30,Série A,Matchweek 7,Sat,Home,W,4,2,Vasco da Gama,2.3,1.1,52.0,57399.0,Rafinha,4-2-3-1,Leandro Pedro Vuaden,Match Report,,15.6,0.0,1.7,0.27,0.57,4.0,0.0,0.0,15.0,7.0,46.7,1.7,2.3,0.15,2023,Sao Paulo
+10,2023-05-23,20:30,Sudamericana,Group stage,Tue,Away,W,2,0,ve Acad Pr Cabello,,,62.0,2254.0,Diego,4-2-3-1,Byran Loayza,Match Report,,,,,0.18,0.5,2.0,0.0,0.0,11.0,4.0,36.4,,,,2023,Sao Paulo
+11,2023-05-27,21:00,Série A,Matchweek 8,Sat,Home,W,2,1,Goiás,0.9,0.3,67.0,45429.0,Rafinha,4-2-3-1,Rafael Rodrigo Klein,Match Report,,21.0,0.0,1.1,0.13,0.33,2.0,0.0,0.0,16.0,6.0,37.5,1.1,0.9,0.05,2023,Sao Paulo
+12,2023-06-04,16:00,Série A,Matchweek 9,Sun,Away,L,1,2,Grêmio,1.1,1.9,60.0,42207.0,Jonathan Calleri,3-4-3,Wilton Sampaio,Match Report,,19.5,0.0,-0.1,0.06,0.25,1.0,0.0,0.0,16.0,4.0,25.0,-0.1,1.1,0.07,2023,Sao Paulo
+13,2023-06-08,19:00,Sudamericana,Group stage,Thu,Home,W,5,0,co Tolima,,,73.0,,Rafinha,4-2-3-1,Leodán González,Match Report,,,,,0.29,0.71,5.0,0.0,0.0,17.0,7.0,41.2,,,,2023,Sao Paulo
+14,2023-06-11,16:00,Série A,Matchweek 10,Sun,Home,L,0,2,Palmeiras,1.4,0.7,65.0,56871.0,Rafinha,4-2-3-1,Raphael Claus,Match Report,,18.0,1.0,-1.4,0.0,0.0,0.0,0.0,0.0,26.0,6.0,23.1,-1.4,1.4,0.06,2023,Sao Paulo
+15,2023-06-21,19:00,Série A,Matchweek 11,Wed,Home,W,2,1,Ath Paranaense,0.6,1.2,56.0,22882.0,Rafinha,4-2-3-1,Savio Pereira,Match Report,,15.6,0.0,1.4,0.25,0.4,2.0,0.0,0.0,8.0,5.0,62.5,1.4,0.6,0.08,2023,Sao Paulo
+16,2023-06-24,21:00,Série A,Matchweek 12,Sat,Away,L,0,1,Cruzeiro,1.4,0.5,69.0,17478.0,Rafinha,4-2-3-1,Ramon Abatti Abel,Match Report,,16.6,1.0,-1.4,0.0,0.0,0.0,0.0,0.0,14.0,8.0,57.1,-1.4,1.4,0.1,2023,Sao Paulo
+17,2023-06-27,21:30,Sudamericana,Group stage,Tue,Home,W,2,0,ar Tigre,,,71.0,28699.0,Robert Arboleda,4-3-3,Guillermo Guerrero,Match Report,,,,,0.09,0.25,2.0,0.0,0.0,23.0,8.0,34.8,,,,2023,Sao Paulo
+18,2023-07-01,16:00,Série A,Matchweek 13,Sat,Home,W,1,0,Fluminense,1.1,0.2,54.0,49153.0,Rafinha,4-1-2-1-2◆,Anderson Daronco,Match Report,,23.8,0.0,-0.1,0.05,0.25,1.0,0.0,0.0,21.0,4.0,19.0,-0.1,1.1,0.05,2023,Sao Paulo
+19,2023-07-09,16:00,Série A,Matchweek 14,Sun,Away,D,0,0,Bragantino,0.5,1.6,42.0,,Diego,4-3-3,Raphael Claus,Match Report,,14.1,0.0,-0.5,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.5,0.5,0.08,2023,Sao Paulo
+20,2023-07-16,16:00,Série A,Matchweek 15,Sun,Home,W,4,1,Santos,3.2,1.1,63.0,,Rafinha,4-2-3-1,Braulio da Silva Machado,Match Report,,20.0,0.0,0.8,0.13,0.5,4.0,1.0,1.0,23.0,6.0,26.1,0.4,2.6,0.12,2023,Sao Paulo
+21,2023-07-22,17:30,Série A,Matchweek 16,Sat,Away,L,1,2,Cuiabá,0.9,2.2,71.0,34072.0,Jonathan Calleri,4-2-3-1,Bruno Mota Correia,Match Report,,16.4,0.0,0.1,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,0.1,0.9,0.08,2023,Sao Paulo
+22,2023-07-30,11:00,Série A,Matchweek 17,Sun,Home,D,0,0,Bahia,1.8,0.5,64.0,,Rafinha,4-2-3-1,Ramon Abatti Abel,Match Report,,16.0,0.0,-1.8,0.0,0.0,0.0,0.0,0.0,17.0,11.0,64.7,-1.8,1.8,0.11,2023,Sao Paulo
+23,2023-08-03,19:00,Sudamericana,Round of 16,Thu,Away,L,0,1,ar San Lorenzo,,,71.0,12736.0,Rafinha,4-2-3-1,Wilmar Roldán,Match Report,Leg 1 of 2,,,,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,,,,2023,Sao Paulo
+24,2023-08-06,16:00,Série A,Matchweek 18,Sun,Home,L,0,2,Atlético Mineiro,0.9,1.9,68.0,53460.0,Rafinha,4-2-3-1,Rodrigo José Pereira de Lima,Match Report,,17.4,1.0,-0.9,0.0,0.0,0.0,0.0,0.0,19.0,3.0,15.8,-0.9,0.9,0.05,2023,Sao Paulo
+25,2023-08-10,19:00,Sudamericana,Round of 16,Thu,Home,W,2,0,ar San Lorenzo,,,70.0,51816.0,Rafinha,4-2-3-1,Esteban Ostojich,Match Report,Leg 2 of 2; São Paulo won,,,,0.17,0.4,2.0,0.0,0.0,12.0,5.0,41.7,,,,2023,Sao Paulo
+26,2023-08-13,18:30,Série A,Matchweek 19,Sun,Away,D,1,1,Flamengo,0.8,1.4,46.0,,Lucas Moura,4-2-3-1,Rafael Rodrigo Klein,Match Report,,20.9,1.0,0.2,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,0.2,0.8,0.1,2023,Sao Paulo
+27,2023-08-19,16:00,Série A,Matchweek 20,Sat,Home,D,0,0,Botafogo (RJ),0.7,0.9,64.0,,Luciano,4-2-3-1,Ramon Abatti Abel,Match Report,,22.2,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,13.0,4.0,30.8,-0.7,0.7,0.05,2023,Sao Paulo
+28,2023-08-24,17:00,Sudamericana,Quarter-finals,Thu,Away,L,1,2,ec LDU de Quito,,,54.0,30648.0,Rafinha,4-2-3-1,John J. Ospina,Match Report,Leg 1 of 2,,,,0.2,0.33,1.0,0.0,0.0,5.0,3.0,60.0,,,,2023,Sao Paulo
+29,2023-08-27,16:00,Série A,Matchweek 21,Sun,Away,L,1,2,América (MG),1.4,1.3,73.0,,Wellington Rato,4-2-3-1,Rodrigo José Pereira de Lima,Match Report,,24.8,1.0,-0.4,0.08,0.25,1.0,0.0,1.0,12.0,4.0,33.3,0.5,0.5,0.04,2023,Sao Paulo
+30,2023-08-31,19:00,Sudamericana,Quarter-finals,Thu,Home,W,1 (4),0 (5),ec LDU de Quito,,,70.0,52658.0,Rafinha,4-2-3-1,Alexis Herrera,Match Report,Leg 2 of 2; LDU de Quito won; LDU de Quito won on penalty kicks following extra time,,,,0.05,0.13,1.0,0.0,0.0,22.0,8.0,36.4,,,,2023,Sao Paulo
+31,2023-09-13,21:30,Série A,Matchweek 23,Wed,Away,,,,Internacional,,,,,,,,Head-to-Head,,19.1,7.0,14.2,0.09,0.28,42.0,1.0,3.0,450.0,149.0,33.1,15.7,25.3,0.08,2023,Sao Paulo
+32,2023-09-20,21:30,Série A,Matchweek 24,Wed,Home,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
+33,2023-09-27,19:00,Série A,Matchweek 22,Wed,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
 34,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
 35,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
 36,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sao Paulo
@@ -530,8 +536,8 @@
 18,2023-08-14,19:00,Série A,Matchweek 19,Mon,Away,L,0.0,1.0,Palmeiras,0.6,1.4,48.0,38555.0,Rafael Cabral,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,23.3,1.0,-0.6,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,-0.6,0.6,0.05,2023,Cruzeiro
 19,2023-08-19,21:00,Série A,Matchweek 20,Sat,Home,D,1.0,1.0,Corinthians,2.0,0.6,45.0,,Rafael Cabral,4-2-3-1,Rafael Rodrigo Klein,Match Report,,20.1,2.0,-1.0,0.05,0.13,1.0,0.0,0.0,19.0,8.0,42.1,-1.0,2.0,0.11,2023,Cruzeiro
 20,2023-08-27,19:00,Série A,Matchweek 21,Sun,Away,L,0.0,3.0,Grêmio,0.6,1.5,61.0,52203.0,Rafael Cabral,4-2-3-1,Marcelo de Lima Henrique,Match Report,,19.3,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.6,0.6,0.1,2023,Cruzeiro
-21,2023-09-03,18:30,Série A,Matchweek 22,Sun,Home,,,,Bragantino,,,,,,,,Head-to-Head,,18.7,16.0,-9.1,0.06,0.21,19.0,0.0,1.0,294.0,92.0,31.3,-8.3,27.3,0.09,2023,Cruzeiro
-22,2023-09-14,19:00,Série A,Matchweek 23,Thu,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cruzeiro
+21,2023-09-03,18:30,Série A,Matchweek 22,Sun,Home,D,0.0,0.0,Bragantino,1.2,1.2,50.0,,Rafael Cabral,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,16.6,0.0,-1.2,0.0,0.0,0.0,0.0,0.0,15.0,3.0,20.0,-1.2,1.2,0.08,2023,Cruzeiro
+22,2023-09-14,19:00,Série A,Matchweek 23,Thu,Away,,,,Santos,,,,,,,,Head-to-Head,,18.6,16.0,-10.3,0.06,0.2,19.0,0.0,1.0,309.0,95.0,30.7,-9.5,28.5,0.09,2023,Cruzeiro
 23,2023-09-20,21:30,Série A,Matchweek 24,Wed,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cruzeiro
 24,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cruzeiro
 25,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cruzeiro
@@ -579,24 +585,26 @@
 29,2023-08-22,21:30,Sudamericana,Quarter-finals,Tue,Home,W,1,0,ar Estudiantes,,,45.0,35572.0,Cássio,4-2-3-1,Jesús Valenzuela,Match Report,Leg 1 of 2,,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,,,,2023,Corinthians
 30,2023-08-26,21:00,Série A,Matchweek 21,Sat,Home,D,1,1,Goiás,1.0,1.8,65.0,37316.0,Cássio,4-3-3,Paulo Cesar Zanovelli da Silva,Match Report,,16.9,0.0,0.0,0.05,0.14,1.0,0.0,0.0,20.0,7.0,35.0,0.0,1.0,0.05,2023,Corinthians
 31,2023-08-29,21:30,Sudamericana,Quarter-finals,Tue,Away,L,0 (3),1 (2),ar Estudiantes,,,37.0,23082.0,Cássio,4-2-3-1,Wilmar Roldán,Match Report,Leg 2 of 2; Corinthians won; Corinthians won on penalty kicks following extra time,,,,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,,,,2023,Corinthians
-32,2023-09-03,16:00,Série A,Matchweek 22,Sun,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,18.7,12.0,4.5,0.08,0.24,34.0,4.0,5.0,362.0,123.0,34.0,3.7,26.3,0.09,2023,Corinthians
-33,2023-09-14,19:00,Série A,Matchweek 23,Thu,Away,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+32,2023-09-03,16:00,Série A,Matchweek 22,Sun,Home,D,0,0,Palmeiras,0.8,0.7,43.0,,Cássio,4-2-3-1,Anderson Daronco,Match Report,,21.4,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,-0.8,0.8,0.13,2023,Corinthians
+33,2023-09-14,19:00,Série A,Matchweek 23,Thu,Away,,,,Fortaleza,,,,,,,,Head-to-Head,,18.8,12.0,3.7,0.08,0.24,34.0,4.0,5.0,368.0,125.0,34.0,2.9,27.1,0.09,2023,Corinthians
 34,2023-09-18,21:00,Série A,Matchweek 15,Mon,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
 35,2023-09-22,20:00,Série A,Matchweek 24,Fri,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-36,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-37,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-38,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-39,2023-10-21,,Série A,Matchweek 28,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-40,2023-10-21,,Série A,Matchweek 29,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-41,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-42,2023-11-01,,Série A,Matchweek 31,Wed,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-43,2023-11-04,,Série A,Matchweek 32,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-44,2023-11-08,,Série A,Matchweek 33,Wed,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-45,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-46,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-47,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-48,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
-49,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+36,2023-09-26,21:30,Sudamericana,Semi-finals,Tue,Home,,,,br Fortaleza,,,,,,,,Head-to-Head,Leg 1 of 2,,,,,,,,,,,,,,,2023,Corinthians
+37,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+38,2023-10-03,21:30,Sudamericana,Semi-finals,Tue,Away,,,,br Fortaleza,,,,,,,,Head-to-Head,Leg 2 of 2,,,,,,,,,,,,,,,2023,Corinthians
+39,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+40,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+41,2023-10-21,,Série A,Matchweek 29,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+42,2023-10-21,,Série A,Matchweek 28,Sat,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+43,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+44,2023-11-01,,Série A,Matchweek 31,Wed,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+45,2023-11-04,,Série A,Matchweek 32,Sat,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+46,2023-11-08,,Série A,Matchweek 33,Wed,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+47,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+48,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+49,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+50,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
+51,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Corinthians
 0,2023-04-04,19:00,Libertadores,Group stage,Tue,Away,D,1,1,co Independiente,1.5,0.6,51.0,,Alan Patrick,4-2-3-1,Facundo Tello,Match Report,,17.8,1.0,-0.5,0.08,0.17,1.0,0.0,0.0,13.0,6.0,46.2,-0.5,1.5,0.11,2023,Internacional
 1,2023-04-15,18:30,Série A,Matchweek 1,Sat,Away,D,1,1,Fortaleza,0.9,1.5,52.0,30191.0,Alan Patrick,4-2-3-1,Edina Alves Batista,Match Report,,19.0,0.0,0.1,0.09,0.17,1.0,0.0,0.0,11.0,6.0,54.5,0.1,0.9,0.08,2023,Internacional
 2,2023-04-18,19:00,Libertadores,Group stage,Tue,Home,W,1,0,ve Metropolitanos,2.9,0.3,67.0,27885.0,Alan Patrick,4-2-3-1,Yael Falcón,Match Report,,15.2,0.0,-1.9,0.04,0.14,1.0,0.0,0.0,24.0,7.0,29.2,-1.9,2.9,0.13,2023,Internacional
@@ -627,24 +635,26 @@
 27,2023-08-19,16:00,Série A,Matchweek 20,Sat,Home,L,0,1,Fortaleza,1.0,1.1,75.0,,Luiz Adriano,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,19.2,2.0,-1.0,0.0,0.0,0.0,0.0,0.0,19.0,5.0,26.3,-1.0,1.0,0.05,2023,Internacional
 28,2023-08-22,18:00,Libertadores,Quarter-finals,Tue,Away,W,1,0,bo Bolívar,0.1,1.5,37.0,36054.0,Alan Patrick,5-3-2,Darío Herrera,Match Report,Leg 1 of 2,27.6,1.0,0.9,0.17,1.0,1.0,0.0,0.0,6.0,1.0,16.7,0.9,0.1,0.02,2023,Internacional
 29,2023-08-26,18:30,Série A,Matchweek 21,Sat,Away,D,0,0,Flamengo,0.3,0.7,41.0,,Luiz Adriano,4-3-3,Edina Alves Batista,Match Report,,24.6,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,5.0,1.0,20.0,-0.3,0.3,0.05,2023,Internacional
-30,2023-08-29,19:00,Libertadores,Quarter-finals,Tue,Home,W,2,0,bo Bolívar,1.2,1.1,63.0,49137.0,Alan Patrick,4-2-3-1,Esteban Ostojich,Match Report,Leg 2 of 2; Internacional won,21.2,0.0,0.8,0.13,0.4,2.0,0.0,0.0,16.0,5.0,31.3,0.8,1.2,0.07,2023,Internacional
-31,2023-09-02,16:00,Série A,Matchweek 22,Sat,Away,,,,Goiás,,,,,,,,Head-to-Head,,18.8,13.0,-1.2,0.08,0.25,33.0,2.0,2.0,380.0,125.0,32.9,-1.6,32.6,0.09,2023,Internacional
-32,2023-09-13,21:30,Série A,Matchweek 23,Wed,Home,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+30,2023-08-29,19:00,Libertadores,Quarter-finals,Tue,Home,W,2,0,bo Bolívar,1.2,1.2,63.0,49137.0,Alan Patrick,4-2-3-1,Esteban Ostojich,Match Report,Leg 2 of 2; Internacional won,20.6,0.0,0.8,0.13,0.4,2.0,0.0,0.0,16.0,5.0,31.3,0.8,1.2,0.08,2023,Internacional
+31,2023-09-02,16:00,Série A,Matchweek 22,Sat,Away,D,0,0,Goiás,0.7,0.9,62.0,,Gabriel Mercado,4-2-3-1,Braulio da Silva Machado,Match Report,,25.2,2.0,-0.7,0.0,0.0,0.0,0.0,0.0,11.0,2.0,18.2,-0.7,0.7,0.06,2023,Internacional
+32,2023-09-13,21:30,Série A,Matchweek 23,Wed,Home,,,,São Paulo,,,,,,,,Head-to-Head,,19.0,15.0,-1.9,0.08,0.24,33.0,2.0,2.0,391.0,127.0,32.5,-2.3,33.3,0.09,2023,Internacional
 33,2023-09-21,19:30,Série A,Matchweek 24,Thu,Away,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-34,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-35,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-36,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-37,2023-10-21,,Série A,Matchweek 28,Sat,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-38,2023-10-25,,Série A,Matchweek 29,Wed,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-39,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-40,2023-11-01,,Série A,Matchweek 31,Wed,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-41,2023-11-04,,Série A,Matchweek 32,Sat,Away,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-42,2023-11-08,,Série A,Matchweek 33,Wed,Home,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-43,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-44,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-45,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-46,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
-47,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+34,2023-09-27,21:30,Libertadores,Semi-finals,Wed,Away,,,,br Fluminense,,,,,,,,Head-to-Head,Leg 1 of 2,,,,,,,,,,,,,,,2023,Internacional
+35,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+36,2023-10-04,21:30,Libertadores,Semi-finals,Wed,Home,,,,br Fluminense,,,,,,,,Head-to-Head,Leg 2 of 2,,,,,,,,,,,,,,,2023,Internacional
+37,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+38,2023-10-18,,Série A,Matchweek 27,Wed,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+39,2023-10-21,,Série A,Matchweek 28,Sat,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+40,2023-10-25,,Série A,Matchweek 29,Wed,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+41,2023-10-28,,Série A,Matchweek 30,Sat,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+42,2023-11-01,,Série A,Matchweek 31,Wed,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+43,2023-11-04,,Série A,Matchweek 32,Sat,Away,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+44,2023-11-08,,Série A,Matchweek 33,Wed,Home,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+45,2023-11-11,,Série A,Matchweek 34,Sat,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+46,2023-11-22,,Série A,Matchweek 35,Wed,Home,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+47,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+48,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
+49,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internacional
 0,2023-04-04,19:00,Sudamericana,Group stage,Tue,Home,D,0.0,0.0,co Santa Fe,,,56.0,,Tadeu,4-3-3,José Cabero,Match Report,,,,,0.0,0.0,0.0,0.0,0.0,17.0,4.0,23.5,,,,2023,Goias
 1,2023-04-15,18:30,Série A,Matchweek 1,Sat,Away,L,0.0,2.0,Ath Paranaense,1.0,0.8,56.0,15329.0,Tadeu,4-2-3-1,Rafael Rodrigo Klein,Match Report,,19.9,1.0,-1.0,0.0,0.0,0.0,0.0,0.0,16.0,2.0,12.5,-1.0,1.0,0.06,2023,Goias
 2,2023-04-20,21:00,Sudamericana,Group stage,Thu,Away,D,2.0,2.0,pe Universitario,,,43.0,,Tadeu,4-2-3-1,Gery Vargas,Match Report,,,,,0.25,0.5,2.0,0.0,0.0,8.0,4.0,50.0,,,,2023,Goias
@@ -674,8 +684,8 @@
 26,2023-08-13,16:00,Série A,Matchweek 19,Sun,Away,W,1.0,0.0,América (MG),0.5,0.9,34.0,,Tadeu,4-3-3,Luiz Flávio de Oliveira,Match Report,,15.9,1.0,0.5,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,0.5,0.5,0.06,2023,Goias
 27,2023-08-21,20:00,Série A,Matchweek 20,Mon,Home,D,1.0,1.0,Ath Paranaense,1.0,1.0,47.0,8325.0,Tadeu,4-3-3,Marcelo de Lima Henrique,Match Report,,21.3,1.0,0.0,0.08,0.33,1.0,0.0,0.0,13.0,3.0,23.1,0.0,1.0,0.07,2023,Goias
 28,2023-08-26,21:00,Série A,Matchweek 21,Sat,Away,D,1.0,1.0,Corinthians,1.8,1.0,35.0,37316.0,Tadeu,4-3-3,Paulo Cesar Zanovelli da Silva,Match Report,,17.4,1.0,-0.8,0.0,0.0,1.0,1.0,1.0,18.0,3.0,16.7,-1.0,1.0,0.06,2023,Goias
-29,2023-09-02,16:00,Série A,Matchweek 22,Sat,Home,,,,Internacional,,,,,,,,Head-to-Head,,19.4,12.0,4.8,0.06,0.21,26.0,5.0,5.0,364.0,100.0,27.5,2.0,19.0,0.07,2023,Goias
-30,2023-09-15,21:30,Série A,Matchweek 23,Fri,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Goias
+29,2023-09-02,16:00,Série A,Matchweek 22,Sat,Home,D,0.0,0.0,Internacional,0.9,0.7,38.0,,Tadeu,4-3-3,Braulio da Silva Machado,Match Report,,13.9,0.0,-0.9,0.0,0.0,0.0,0.0,0.0,11.0,2.0,18.2,-0.9,0.9,0.08,2023,Goias
+30,2023-09-15,21:30,Série A,Matchweek 23,Fri,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,19.1,12.0,3.9,0.06,0.21,26.0,5.0,5.0,375.0,102.0,27.2,1.1,19.9,0.07,2023,Goias
 31,2023-09-20,19:00,Série A,Matchweek 24,Wed,Home,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Goias
 32,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Goias
 33,2023-10-07,,Série A,Matchweek 26,Sat,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Goias
@@ -692,17 +702,17 @@
 44,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Fortaleza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Goias
 45,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Goias
 0,2023-04-15,18:30,Série A,Matchweek 1,Sat,Away,L,1.0,2.0,Bragantino,0.7,2.0,45.0,3368.0,Kanu,3-4-3,Maguielson Lima Barbosa,Match Report,,19.2,1.0,0.3,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,0.3,0.7,0.07,2023,Bahia
-1,2023-04-24,20:00,Série A,Matchweek 2,Mon,Home,L,1.0,2.0,Botafogo (RJ),0.9,0.2,58.0,27822.0,Everaldo Stum,5-4-1,Raphael Claus,Match Report,,18.6,0.0,0.1,0.08,0.2,1.0,0.0,0.0,13.0,5.0,38.5,0.1,0.9,0.07,2023,Bahia
+1,2023-04-24,20:00,Série A,Matchweek 2,Mon,Home,L,1.0,2.0,Botafogo (RJ),0.9,0.2,58.0,27822.0,Everaldo Stum,5-4-1,Raphael Claus,Match Report,,18.7,0.0,0.1,0.08,0.2,1.0,0.0,0.0,13.0,5.0,38.5,0.1,0.9,0.07,2023,Bahia
 2,2023-05-01,20:00,Série A,Matchweek 3,Mon,Away,W,1.0,0.0,Vasco da Gama,1.1,0.9,45.0,19223.0,Kanu,5-4-1,Flavio Rodrigues de Souza,Match Report,,17.2,0.0,-0.1,0.08,0.17,1.0,0.0,0.0,12.0,6.0,50.0,-0.1,1.1,0.1,2023,Bahia
 3,2023-05-07,16:00,Série A,Matchweek 4,Sun,Home,W,3.0,1.0,Coritiba,1.5,0.4,50.0,37936.0,Kanu,3-4-3,Bruno Mota Correia,Match Report,,17.1,3.0,0.5,0.13,0.4,2.0,0.0,0.0,15.0,5.0,33.3,0.5,1.5,0.1,2023,Bahia
 4,2023-05-10,19:00,Série A,Matchweek 5,Wed,Away,L,0.0,3.0,Santos,1.3,2.0,59.0,7262.0,Kanu,3-4-3,Wagner do Nascimento Magalhães,Match Report,,21.0,1.0,-1.3,0.0,0.0,0.0,0.0,0.0,17.0,3.0,17.6,-1.3,1.3,0.08,2023,Bahia
 5,2023-05-13,16:00,Série A,Matchweek 6,Sat,Home,L,2.0,3.0,Flamengo,1.4,2.2,52.0,48502.0,Kanu,3-4-1-2,Paulo Cesar Zanovelli da Silva,Match Report,,18.1,0.0,0.6,0.1,0.33,2.0,0.0,0.0,20.0,6.0,30.0,0.6,1.4,0.07,2023,Bahia
 6,2023-05-20,16:00,Série A,Matchweek 7,Sat,Home,D,1.0,1.0,Goiás,2.3,0.9,50.0,32519.0,Everaldo Stum,3-4-3,Denis da Silva Ribeiro Serafim,Match Report,,20.1,1.0,-1.3,0.04,0.25,1.0,0.0,0.0,23.0,4.0,17.4,-1.3,2.3,0.1,2023,Bahia
-7,2023-05-28,16:00,Série A,Matchweek 8,Sun,Away,L,0.0,2.0,Internacional,1.1,0.9,56.0,19037.0,Kanu,3-4-3,Wagner do Nascimento Magalhães,Match Report,,12.4,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,9.0,4.0,44.4,-1.1,1.1,0.15,2023,Bahia
+7,2023-05-28,16:00,Série A,Matchweek 8,Sun,Away,L,0.0,2.0,Internacional,1.1,0.9,56.0,19037.0,Kanu,3-4-3,Wagner do Nascimento Magalhães,Match Report,,16.0,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,9.0,4.0,44.4,-1.1,1.1,0.13,2023,Bahia
 8,2023-06-03,16:00,Série A,Matchweek 9,Sat,Away,D,0.0,0.0,Fortaleza,0.3,0.6,45.0,38338.0,Kanu,3-5-2,João Vitor Gobi,Match Report,,24.1,1.0,-0.3,0.0,0.0,0.0,0.0,0.0,7.0,2.0,28.6,-0.3,0.3,0.04,2023,Bahia
 9,2023-06-10,18:30,Série A,Matchweek 10,Sat,Home,D,2.0,2.0,Cruzeiro,1.4,2.4,48.0,34019.0,Kanu,3-4-3,Rodrigo José Pereira de Lima,Match Report,,15.5,0.0,0.6,0.14,0.4,2.0,0.0,0.0,14.0,5.0,35.7,0.6,1.4,0.11,2023,Bahia
-10,2023-06-21,21:30,Série A,Matchweek 11,Wed,Home,W,1.0,0.0,Palmeiras,1.1,0.8,46.0,31013.0,Kanu,4-2-3-1,Wilton Sampaio,Match Report,,17.4,0.0,-0.1,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,-0.1,1.1,0.14,2023,Bahia
-11,2023-06-24,18:30,Série A,Matchweek 12,Sat,Away,L,1.0,2.0,Fluminense,1.0,3.0,51.0,24507.0,Kanu,4-4-2,Savio Pereira,Match Report,,19.9,0.0,0.0,0.07,0.33,1.0,0.0,0.0,15.0,3.0,20.0,0.0,1.0,0.07,2023,Bahia
+10,2023-06-21,21:30,Série A,Matchweek 11,Wed,Home,W,1.0,0.0,Palmeiras,1.1,0.8,46.0,31013.0,Kanu,4-2-3-1,Wilton Sampaio,Match Report,,17.6,0.0,-0.1,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,-0.1,1.1,0.13,2023,Bahia
+11,2023-06-24,18:30,Série A,Matchweek 12,Sat,Away,L,1.0,2.0,Fluminense,1.0,3.0,51.0,24507.0,Kanu,4-4-2,Savio Pereira,Match Report,,19.6,0.0,0.0,0.07,0.33,1.0,0.0,0.0,15.0,3.0,20.0,0.0,1.0,0.07,2023,Bahia
 12,2023-07-01,18:30,Série A,Matchweek 13,Sat,Home,L,1.0,2.0,Grêmio,1.9,2.9,47.0,34090.0,Kanu,4-4-2,Marcelo de Lima Henrique,Match Report,,19.1,0.0,-0.9,0.06,0.25,1.0,0.0,0.0,16.0,4.0,25.0,-0.9,1.9,0.15,2023,Bahia
 13,2023-07-08,15:00,Série A,Matchweek 14,Sat,Away,D,1.0,1.0,Cuiabá,0.3,1.5,58.0,,Kanu,5-4-1,Wagner do Nascimento Magalhães,Match Report,,15.9,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,-0.3,0.3,0.05,2023,Bahia
 14,2023-07-16,18:30,Série A,Matchweek 15,Sun,Away,L,0.0,2.0,Ath Paranaense,1.0,2.2,48.0,17091.0,Kanu,4-2-3-1,Rafael Rodrigo Klein,Match Report,,18.2,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,8.0,6.0,75.0,-1.0,1.0,0.14,2023,Bahia
@@ -712,8 +722,8 @@
 18,2023-08-13,11:00,Série A,Matchweek 19,Sun,Away,L,0.0,1.0,Atlético Mineiro,0.6,1.1,60.0,,Kanu,4-2-3-1,Savio Pereira,Match Report,,19.9,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,14.0,5.0,35.7,-0.6,0.6,0.05,2023,Bahia
 19,2023-08-20,16:00,Série A,Matchweek 20,Sun,Home,W,4.0,0.0,Bragantino,1.8,0.7,47.0,,Kanu,4-2-3-1,Arthur Gomes Rabelo,Match Report,,15.4,0.0,2.2,0.31,0.8,4.0,0.0,0.0,13.0,5.0,38.5,2.2,1.8,0.14,2023,Bahia
 20,2023-08-27,16:00,Série A,Matchweek 21,Sun,Away,L,0.0,3.0,Botafogo (RJ),1.2,2.3,56.0,,Kanu,4-1-4-1,Flavio Rodrigues de Souza,Match Report,,21.0,0.0,-1.2,0.0,0.0,0.0,0.0,0.0,19.0,6.0,31.6,-1.2,1.2,0.06,2023,Bahia
-21,2023-09-03,18:30,Série A,Matchweek 22,Sun,Home,,,,Vasco da Gama,,,,,,,,Head-to-Head,,18.7,8.0,-4.8,0.07,0.22,20.0,0.0,0.0,292.0,90.0,30.8,-4.8,24.8,0.09,2023,Bahia
-22,2023-09-14,20:00,Série A,Matchweek 23,Thu,Away,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bahia
+21,2023-09-03,18:30,Série A,Matchweek 22,Sun,Home,D,1.0,1.0,Vasco da Gama,1.6,1.1,56.0,,Kanu,4-1-4-1,Ramon Abatti Abel,Match Report,,17.8,0.0,-0.6,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,-0.6,1.6,0.18,2023,Bahia
+22,2023-09-14,20:00,Série A,Matchweek 23,Thu,Away,,,,Coritiba,,,,,,,,Head-to-Head,,18.7,8.0,-5.4,0.07,0.23,21.0,0.0,0.0,303.0,93.0,30.7,-5.4,26.4,0.09,2023,Bahia
 23,2023-09-18,20:00,Série A,Matchweek 24,Mon,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bahia
 24,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Flamengo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bahia
 25,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bahia
@@ -740,7 +750,7 @@
 8,2023-05-14,16:00,Série A,Matchweek 6,Sun,Away,W,1.0,0.0,Vasco da Gama,0.6,1.7,32.0,18476.0,João Paulo,4-2-3-1,Rodrigo José Pereira de Lima,Match Report,,17.3,1.0,0.4,0.17,1.0,1.0,0.0,0.0,6.0,1.0,16.7,0.4,0.6,0.1,2023,Santos
 9,2023-05-20,21:00,Série A,Matchweek 7,Sat,Home,D,0.0,0.0,Palmeiras,0.4,0.4,39.0,12641.0,João Paulo,4-2-3-1,Raphael Claus,Match Report,,20.9,0.0,-0.4,0.0,0.0,0.0,0.0,0.0,12.0,4.0,33.3,-0.4,0.4,0.03,2023,Santos
 10,2023-05-24,20:00,Sudamericana,Group stage,Wed,Away,L,1.0,2.0,cl Audax Italiano,,,43.0,,Alison,4-2-3-1,Christian Ferreyra,Match Report,,,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,,,,2023,Santos
-11,2023-05-28,18:30,Série A,Matchweek 8,Sun,Away,L,0.0,2.0,Bragantino,0.3,1.5,41.0,5988.0,Yeferson Soteldo,4-2-3-1,Anderson Daronco,Match Report,,19.0,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,9.0,1.0,11.1,-0.3,0.3,0.03,2023,Santos
+11,2023-05-28,18:30,Série A,Matchweek 8,Sun,Away,L,0.0,2.0,Bragantino,0.3,1.5,41.0,5988.0,Yeferson Soteldo,4-2-3-1,Anderson Daronco,Match Report,,19.5,0.0,-0.3,0.0,0.0,0.0,0.0,0.0,9.0,1.0,11.1,-0.3,0.3,0.03,2023,Santos
 12,2023-06-03,21:00,Série A,Matchweek 9,Sat,Home,D,1.0,1.0,Internacional,1.4,1.1,56.0,9600.0,Alison,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,20.6,5.0,-0.4,0.06,0.25,1.0,0.0,0.0,17.0,4.0,23.5,-0.4,1.4,0.08,2023,Santos
 13,2023-06-06,21:30,Sudamericana,Group stage,Tue,Home,L,1.0,2.0,ar Newell's OB,,,50.0,6204.0,Alison,4-2-3-1,Jesús Valenzuela,Match Report,,,,,0.0,0.0,1.0,1.0,1.0,7.0,3.0,42.9,,,,2023,Santos
 14,2023-06-10,16:00,Série A,Matchweek 10,Sat,Away,D,0.0,0.0,Coritiba,0.8,1.2,53.0,25987.0,Alison,4-2-3-1,Bruno Mota Correia,Match Report,,14.3,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,7.0,3.0,42.9,-0.8,0.8,0.13,2023,Santos
@@ -753,11 +763,11 @@
 21,2023-07-23,16:00,Série A,Matchweek 16,Sun,Home,D,2.0,2.0,Botafogo (RJ),0.9,1.0,37.0,,João Paulo,4-3-3,Ramon Abatti Abel,Match Report,,17.4,0.0,1.1,0.29,1.0,2.0,0.0,0.0,7.0,2.0,28.6,1.1,0.9,0.13,2023,Santos
 22,2023-07-29,16:00,Série A,Matchweek 17,Sat,Away,L,0.0,1.0,Fluminense,0.1,2.0,29.0,,João Paulo,4-2-3-1,Rodrigo José Pereira de Lima,Match Report,,21.4,0.0,-0.1,0.0,,0.0,0.0,0.0,3.0,0.0,0.0,-0.1,0.1,0.05,2023,Santos
 23,2023-08-05,16:00,Série A,Matchweek 18,Sat,Home,D,1.0,1.0,Ath Paranaense,1.1,0.2,64.0,,João Paulo,4-3-3,André Luiz Skettino Policarpo Bento,Match Report,,19.5,0.0,-0.1,0.0,0.0,1.0,1.0,1.0,7.0,2.0,28.6,-0.4,0.4,0.05,2023,Santos
-24,2023-08-13,18:30,Série A,Matchweek 19,Sun,Away,L,0.0,4.0,Fortaleza,0.5,2.6,46.0,,Vladimir,4-2-3-1,Bruno Mota Correia,Match Report,,16.7,1.0,-0.5,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,-0.5,0.5,0.07,2023,Santos
+24,2023-08-13,18:30,Série A,Matchweek 19,Sun,Away,L,0.0,4.0,Fortaleza,0.5,2.6,46.0,,Vladimir,4-2-3-1,Bruno Mota Correia,Match Report,,17.1,1.0,-0.5,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,-0.5,0.5,0.06,2023,Santos
 25,2023-08-20,16:00,Série A,Matchweek 20,Sun,Home,W,2.0,1.0,Grêmio,1.7,0.4,55.0,,João Paulo,3-4-3,Paulo Cesar Zanovelli da Silva,Match Report,,17.0,2.0,0.3,0.11,0.29,2.0,0.0,0.0,19.0,7.0,36.8,0.3,1.7,0.09,2023,Santos
-26,2023-08-27,16:00,Série A,Matchweek 21,Sun,Away,L,0.0,2.0,Atlético Mineiro,0.7,1.6,44.0,,João Paulo,4-2-3-1,Rafael Rodrigo Klein,Match Report,,21.2,4.0,-0.7,0.0,,0.0,0.0,0.0,13.0,0.0,0.0,-0.7,0.7,0.05,2023,Santos
-27,2023-09-03,18:30,Série A,Matchweek 22,Sun,Away,,,,América (MG),,,,,,,,Head-to-Head,,18.1,19.0,2.2,0.06,0.2,24.0,5.0,6.0,293.0,94.0,32.1,0.3,18.7,0.09,2023,Santos
-28,2023-09-14,19:00,Série A,Matchweek 23,Thu,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Santos
+26,2023-08-27,16:00,Série A,Matchweek 21,Sun,Away,L,0.0,2.0,Atlético Mineiro,0.7,1.6,44.0,,João Paulo,4-2-3-1,Rafael Rodrigo Klein,Match Report,,21.3,4.0,-0.7,0.0,,0.0,0.0,0.0,13.0,0.0,0.0,-0.7,0.7,0.05,2023,Santos
+27,2023-09-03,18:30,Série A,Matchweek 22,Sun,Away,L,0.0,2.0,América (MG),0.8,1.5,62.0,,João Paulo,4-2-3-1,Leandro Pedro Vuaden,Match Report,,18.7,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,-0.8,0.8,0.08,2023,Santos
+28,2023-09-14,19:00,Série A,Matchweek 23,Thu,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,18.2,19.0,1.4,0.06,0.2,24.0,5.0,6.0,303.0,96.0,31.7,-0.5,19.5,0.09,2023,Santos
 29,2023-09-18,20:00,Série A,Matchweek 24,Mon,Away,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Santos
 30,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Santos
 31,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Santos
@@ -793,8 +803,8 @@
 17,2023-08-14,21:00,Série A,Matchweek 19,Mon,Away,D,1.0,1.0,Bragantino,1.5,1.6,36.0,5553.0,Gary Medel,4-1-4-1,Anderson Daronco,Match Report,,17.7,0.0,-0.5,0.0,0.0,1.0,1.0,1.0,7.0,3.0,42.9,-0.7,0.7,0.1,2023,Vasco da Gama
 18,2023-08-20,11:00,Série A,Matchweek 20,Sun,Home,W,1.0,0.0,Atlético Mineiro,1.9,0.7,42.0,53540.0,Gary Medel,4-1-4-1,Braulio da Silva Machado,Match Report,,18.2,2.0,-0.9,0.06,0.33,1.0,0.0,0.0,16.0,3.0,18.8,-0.9,1.9,0.13,2023,Vasco da Gama
 19,2023-08-27,18:30,Série A,Matchweek 21,Sun,Away,L,0.0,1.0,Palmeiras,0.1,0.7,45.0,40292.0,Gary Medel,4-1-4-1,Wilton Sampaio,Match Report,,21.3,1.0,-0.1,0.0,0.0,0.0,0.0,0.0,4.0,2.0,50.0,-0.1,0.1,0.03,2023,Vasco da Gama
-20,2023-09-03,18:30,Série A,Matchweek 22,Sun,Away,,,,Bahia,,,,,,,,Head-to-Head,,18.6,21.0,-10.3,0.05,0.18,15.0,3.0,3.0,255.0,67.0,26.3,-11.0,23.0,0.09,2023,Vasco da Gama
-21,2023-09-16,16:00,Série A,Matchweek 23,Sat,Home,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
+20,2023-09-03,18:30,Série A,Matchweek 22,Sun,Away,D,1.0,1.0,Bahia,1.1,1.6,44.0,,Gary Medel,4-1-4-1,Ramon Abatti Abel,Match Report,,22.6,0.0,-0.1,0.0,,1.0,1.0,1.0,5.0,0.0,0.0,-0.3,0.3,0.06,2023,Vasco da Gama
+21,2023-09-16,16:00,Série A,Matchweek 23,Sat,Home,,,,Fluminense,,,,,,,,Head-to-Head,,18.7,21.0,-10.4,0.05,0.18,16.0,4.0,4.0,260.0,67.0,25.8,-11.3,23.3,0.09,2023,Vasco da Gama
 22,2023-09-18,21:00,Série A,Matchweek 15,Mon,Away,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
 23,2023-09-19,19:00,Série A,Matchweek 24,Tue,Home,,,,Coritiba,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
 24,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
@@ -811,44 +821,6 @@
 35,2023-11-25,,Série A,Matchweek 36,Sat,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
 36,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
 37,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Vasco da Gama
-0,2023-04-16,16:00,Série A,Matchweek 1,Sun,Away,L,0.0,3.0,Flamengo,0.4,1.4,42.0,42848.0,Gabriel,4-3-3,Rodrigo José Pereira de Lima,Match Report,,23.4,2.0,-0.4,0.0,0.0,0.0,0.0,0.0,10.0,3.0,30.0,-0.4,0.4,0.04,2023,Coritiba
-1,2023-04-23,18:30,Série A,Matchweek 2,Sun,Home,L,0.0,3.0,Fortaleza,0.7,2.6,58.0,24423.0,Gabriel,3-1-4-2,Wilton Sampaio,Match Report,,23.7,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,18.0,7.0,38.9,-0.7,0.7,0.04,2023,Coritiba
-2,2023-04-29,16:30,Série A,Matchweek 3,Sat,Home,D,1.0,1.0,São Paulo,1.8,1.1,33.0,25210.0,Willian Farias,3-4-3,Rafael Rodrigo Klein,Match Report,,15.8,0.0,-0.8,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,-0.8,1.8,0.12,2023,Coritiba
-3,2023-05-07,16:00,Série A,Matchweek 4,Sun,Away,L,1.0,3.0,Bahia,0.4,1.5,50.0,37936.0,Willian Farias,3-4-3,Bruno Mota Correia,Match Report,,22.9,2.0,0.6,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,0.6,0.4,0.04,2023,Coritiba
-4,2023-05-11,19:00,Série A,Matchweek 5,Thu,Home,D,1.0,1.0,Vasco da Gama,1.0,0.8,36.0,20880.0,Henrique,5-4-1,Ramon Abatti Abel,Match Report,,20.3,0.0,0.0,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,0.0,1.0,0.1,2023,Coritiba
-5,2023-05-14,18:30,Série A,Matchweek 6,Sun,Away,L,2.0,3.0,Ath Paranaense,0.4,2.9,36.0,17608.0,Henrique,5-4-1,Flavio Rodrigues de Souza,Match Report,,25.0,0.0,1.6,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,1.6,0.4,0.05,2023,Coritiba
-6,2023-05-20,18:30,Série A,Matchweek 7,Sat,Home,L,1.0,2.0,Atlético Mineiro,1.0,1.5,35.0,20047.0,Henrique,3-5-2,Rodrigo José Pereira de Lima,Match Report,,28.7,3.0,0.0,0.0,0.0,1.0,1.0,1.0,9.0,3.0,33.3,-0.3,0.3,0.03,2023,Coritiba
-7,2023-05-27,17:30,Série A,Matchweek 8,Sat,Away,D,1.0,1.0,Cuiabá,1.0,0.7,57.0,8660.0,Henrique,3-4-1-2,Denis da Silva Ribeiro Serafim,Match Report,,21.2,0.0,0.0,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,0.0,1.0,0.13,2023,Coritiba
-8,2023-06-04,18:30,Série A,Matchweek 9,Sun,Away,L,1.0,3.0,Palmeiras,0.6,2.5,49.0,33570.0,Henrique,3-4-1-2,Felipe Fernandes de Lima,Match Report,,21.3,1.0,0.4,0.14,0.25,1.0,0.0,0.0,7.0,4.0,57.1,0.4,0.6,0.08,2023,Coritiba
-9,2023-06-10,16:00,Série A,Matchweek 10,Sat,Home,D,0.0,0.0,Santos,1.2,0.8,47.0,25987.0,Henrique,3-5-2,Bruno Mota Correia,Match Report,,18.2,1.0,-1.2,0.0,0.0,0.0,0.0,0.0,19.0,7.0,36.8,-1.2,1.2,0.06,2023,Coritiba
-10,2023-06-22,20:00,Série A,Matchweek 11,Thu,Home,L,0.0,1.0,Internacional,1.5,0.9,51.0,25983.0,Gabriel,3-1-4-2,André Luiz Skettino Policarpo Bento,Match Report,,16.9,1.0,-1.5,0.0,0.0,0.0,0.0,0.0,14.0,4.0,28.6,-1.5,1.5,0.11,2023,Coritiba
-11,2023-06-25,16:00,Série A,Matchweek 12,Sun,Away,L,1.0,5.0,Grêmio,1.1,3.4,50.0,37048.0,Gabriel,3-1-4-2,João Vitor Gobi,Match Report,,18.1,0.0,-0.1,0.06,0.14,1.0,0.0,0.0,17.0,7.0,41.2,-0.1,1.1,0.06,2023,Coritiba
-12,2023-07-03,20:00,Série A,Matchweek 13,Mon,Away,W,2.0,1.0,Goiás,0.9,1.9,37.0,10394.0,Gabriel,4-1-4-1,Denis da Silva Ribeiro Serafim,Match Report,,21.0,1.0,1.1,0.15,0.25,2.0,0.0,0.0,13.0,8.0,61.5,1.1,0.9,0.07,2023,Coritiba
-13,2023-07-08,18:30,Série A,Matchweek 14,Sat,Home,W,3.0,1.0,América (MG),1.9,1.1,43.0,,Henrique,4-1-4-1,Rafael Rodrigo Klein,Match Report,,19.7,2.0,1.1,0.15,0.33,3.0,1.0,1.0,13.0,6.0,46.2,0.9,1.1,0.08,2023,Coritiba
-14,2023-07-16,11:00,Série A,Matchweek 15,Sun,Away,D,0.0,0.0,Cruzeiro,1.1,0.8,45.0,,Gabriel,4-1-4-1,Leandro Pedro Vuaden,Match Report,,20.4,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,14.0,6.0,42.9,-1.1,1.1,0.08,2023,Coritiba
-15,2023-07-24,19:00,Série A,Matchweek 16,Mon,Home,W,2.0,0.0,Fluminense,1.9,1.0,28.0,,Henrique,4-1-4-1,Flavio Rodrigues de Souza,Match Report,,18.1,0.0,0.1,0.13,0.25,2.0,1.0,1.0,8.0,4.0,50.0,-0.1,1.1,0.15,2023,Coritiba
-16,2023-07-30,16:00,Série A,Matchweek 17,Sun,Away,L,1.0,4.0,Botafogo (RJ),1.2,0.9,43.0,,Henrique,4-1-4-1,João Vitor Gobi,Match Report,,16.6,1.0,-0.2,0.11,0.2,1.0,0.0,0.0,9.0,5.0,55.6,-0.2,1.2,0.14,2023,Coritiba
-17,2023-08-06,18:30,Série A,Matchweek 18,Sun,Home,L,0.0,1.0,Bragantino,0.5,1.0,50.0,,Henrique,4-1-4-1,Yuri Elino Ferreira da Cruz,Match Report,,18.5,2.0,-0.5,0.0,0.0,0.0,0.0,0.0,9.0,1.0,11.1,-0.5,0.5,0.05,2023,Coritiba
-18,2023-08-13,16:00,Série A,Matchweek 19,Sun,Away,L,1.0,3.0,Corinthians,0.8,2.4,46.0,42171.0,Henrique,4-1-4-1,Ramon Abatti Abel,Match Report,,23.4,1.0,-0.8,0.0,0.0,0.0,0.0,0.0,12.0,3.0,25.0,-0.8,0.8,0.07,2023,Coritiba
-19,2023-08-20,16:00,Série A,Matchweek 20,Sun,Home,L,2.0,3.0,Flamengo,2.6,1.9,38.0,,Henrique,4-1-4-1,Raphael Claus,Match Report,,22.3,1.0,-0.6,0.07,0.33,2.0,1.0,1.0,14.0,3.0,21.4,-0.8,1.8,0.13,2023,Coritiba
-20,2023-08-27,18:30,Série A,Matchweek 21,Sun,Away,L,1.0,3.0,Fortaleza,1.0,2.5,47.0,12467.0,Benjamín Kuscevic,4-1-4-1,Matheus Delgado Candançan,Match Report,,25.6,1.0,0.0,0.11,0.5,1.0,0.0,1.0,9.0,2.0,22.2,0.8,0.2,0.02,2023,Coritiba
-21,2023-09-03,20:30,Série A,Matchweek 22,Sun,Away,,,,São Paulo,,,,,,,,Head-to-Head,,20.7,19.0,-3.0,0.07,0.17,20.0,4.0,5.0,246.0,92.0,37.4,-3.1,19.1,0.08,2023,Coritiba
-22,2023-09-14,20:00,Série A,Matchweek 23,Thu,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-23,2023-09-19,19:00,Série A,Matchweek 24,Tue,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-24,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-25,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-26,2023-10-18,,Série A,Matchweek 27,Wed,Home,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-27,2023-10-21,,Série A,Matchweek 28,Sat,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-28,2023-10-25,,Série A,Matchweek 29,Wed,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-29,2023-10-28,,Série A,Matchweek 30,Sat,Away,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-30,2023-11-01,,Série A,Matchweek 31,Wed,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-31,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-32,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-33,2023-11-11,,Série A,Matchweek 34,Sat,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-34,2023-11-22,,Série A,Matchweek 35,Wed,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-35,2023-11-25,,Série A,Matchweek 36,Sat,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-36,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
-37,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
 0,2023-04-05,21:00,Sudamericana,Group stage,Wed,Home,W,4,1,uy Peñarol,,,45.0,,Juninho,4-2-3-1,Guillermo Guerrero,Match Report,,,,,0.36,1.0,4.0,0.0,0.0,11.0,4.0,36.4,,,,2023,America MG
 1,2023-04-15,16:00,Série A,Matchweek 1,Sat,Home,L,0,3,Fluminense,1.1,3.1,46.0,6653.0,Juninho,4-2-3-1,Braulio da Silva Machado,Match Report,,17.0,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,17.0,2.0,11.8,-1.1,1.1,0.07,2023,America MG
 2,2023-04-19,21:00,Sudamericana,Group stage,Wed,Away,L,1,2,ar Defensa y Just,,,53.0,,Juninho,4-2-3-1,Alexis Herrera,Match Report,,,,,0.14,0.25,1.0,0.0,0.0,7.0,4.0,57.1,,,,2023,America MG
@@ -877,12 +849,12 @@
 25,2023-08-06,18:30,Série A,Matchweek 18,Sun,Away,L,1,3,Bahia,0.4,1.7,34.0,34313.0,Juninho,4-3-3,Matheus Delgado Candançan,Match Report,,24.0,1.0,0.6,0.13,0.2,1.0,0.0,0.0,8.0,5.0,62.5,0.6,0.4,0.05,2023,America MG
 26,2023-08-10,21:00,Sudamericana,Round of 16,Thu,Away,D,3 (4),3 (3),br Bragantino,,,48.0,,Juninho,4-5-1,John J. Ospina,Match Report,Leg 2 of 2; América (MG) won; América (MG) won on penalty kicks following extra time,,,,0.17,0.29,3.0,1.0,1.0,12.0,7.0,58.3,,,,2023,America MG
 27,2023-08-13,16:00,Série A,Matchweek 19,Sun,Home,L,0,1,Goiás,0.9,0.5,66.0,,Ale,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,17.8,1.0,-0.9,0.0,0.0,0.0,0.0,0.0,15.0,2.0,13.3,-0.9,0.9,0.06,2023,America MG
-28,2023-08-19,18:30,Série A,Matchweek 20,Sat,Away,L,1,3,Fluminense,1.4,1.2,28.0,,Leandro Emmanuel Martínez,4-3-3,Flavio Rodrigues de Souza,Match Report,,16.9,0.0,-0.4,0.08,0.33,1.0,0.0,0.0,13.0,3.0,23.1,-0.4,1.4,0.11,2023,America MG
+28,2023-08-19,18:30,Série A,Matchweek 20,Sat,Away,L,1,3,Fluminense,1.4,1.2,28.0,,Leandro Emmanuel Martínez,4-3-3,Flavio Rodrigues de Souza,Match Report,,18.3,0.0,-0.4,0.08,0.33,1.0,0.0,0.0,13.0,3.0,23.1,-0.4,1.4,0.11,2023,America MG
 29,2023-08-24,19:00,Sudamericana,Quarter-finals,Thu,Home,L,1,3,br Fortaleza,,,57.0,3301.0,Juninho,4-3-3,Wilmar Roldán,Match Report,Leg 1 of 2,,,,0.11,0.2,1.0,0.0,0.0,9.0,5.0,55.6,,,,2023,America MG
 30,2023-08-27,16:00,Série A,Matchweek 21,Sun,Home,W,2,1,São Paulo,1.3,1.4,27.0,,Juninho,3-5-2,Rodrigo José Pereira de Lima,Match Report,,12.1,0.0,0.7,0.22,0.5,2.0,0.0,0.0,9.0,4.0,44.4,0.7,1.3,0.14,2023,America MG
-31,2023-08-31,19:00,Sudamericana,Quarter-finals,Thu,Away,,,,br Fortaleza,,,,,,,,Head-to-Head,Leg 2 of 2; América (MG) 1:3 Fortaleza,19.2,9.0,18.5,0.1,0.3,44.0,4.0,5.0,414.0,132.0,31.9,17.6,22.4,0.08,2023,America MG
-32,2023-09-03,18:30,Série A,Matchweek 22,Sun,Home,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
-33,2023-09-15,19:00,Série A,Matchweek 23,Fri,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
+31,2023-08-31,19:00,Sudamericana,Quarter-finals,Thu,Away,L,1,2,br Fortaleza,,,50.0,56916.0,Ale,5-4-1,Felipe González Alveal,Match Report,Leg 2 of 2; Fortaleza won,,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,,,,2023,America MG
+32,2023-09-03,18:30,Série A,Matchweek 22,Sun,Home,W,2,0,Santos,1.5,0.8,38.0,,Juninho,3-5-2,Leandro Pedro Vuaden,Match Report,,15.9,0.0,0.5,0.17,0.29,2.0,0.0,0.0,12.0,7.0,58.3,0.5,1.5,0.13,2023,America MG
+33,2023-09-15,19:00,Série A,Matchweek 23,Fri,Away,,,,Cuiabá,,,,,,,,Head-to-Head,,19.1,9.0,20.0,0.1,0.3,47.0,4.0,5.0,434.0,142.0,32.7,19.1,23.9,0.08,2023,America MG
 34,2023-09-18,21:00,Série A,Matchweek 15,Mon,Home,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
 35,2023-09-19,21:30,Série A,Matchweek 24,Tue,Home,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
 36,2023-09-30,,Série A,Matchweek 25,Sat,Away,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
@@ -899,6 +871,44 @@
 47,2023-11-25,,Série A,Matchweek 36,Sat,Away,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
 48,2023-11-29,,Série A,Matchweek 37,Wed,Home,,,,Bahia,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
 49,2023-12-03,,Série A,Matchweek 38,Sun,Away,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,America MG
+0,2023-04-16,16:00,Série A,Matchweek 1,Sun,Away,L,0.0,3.0,Flamengo,0.4,1.4,42.0,42848.0,Gabriel,4-3-3,Rodrigo José Pereira de Lima,Match Report,,23.4,2.0,-0.4,0.0,0.0,0.0,0.0,0.0,10.0,3.0,30.0,-0.4,0.4,0.04,2023,Coritiba
+1,2023-04-23,18:30,Série A,Matchweek 2,Sun,Home,L,0.0,3.0,Fortaleza,0.7,2.6,58.0,24423.0,Gabriel,3-1-4-2,Wilton Sampaio,Match Report,,23.7,0.0,-0.7,0.0,0.0,0.0,0.0,0.0,18.0,7.0,38.9,-0.7,0.7,0.04,2023,Coritiba
+2,2023-04-29,16:30,Série A,Matchweek 3,Sat,Home,D,1.0,1.0,São Paulo,1.8,1.1,33.0,25210.0,Willian Farias,3-4-3,Rafael Rodrigo Klein,Match Report,,15.8,0.0,-0.8,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,-0.8,1.8,0.12,2023,Coritiba
+3,2023-05-07,16:00,Série A,Matchweek 4,Sun,Away,L,1.0,3.0,Bahia,0.4,1.5,50.0,37936.0,Willian Farias,3-4-3,Bruno Mota Correia,Match Report,,22.9,2.0,0.6,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,0.6,0.4,0.04,2023,Coritiba
+4,2023-05-11,19:00,Série A,Matchweek 5,Thu,Home,D,1.0,1.0,Vasco da Gama,1.0,0.8,36.0,20880.0,Henrique,5-4-1,Ramon Abatti Abel,Match Report,,20.3,0.0,0.0,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,0.0,1.0,0.1,2023,Coritiba
+5,2023-05-14,18:30,Série A,Matchweek 6,Sun,Away,L,2.0,3.0,Ath Paranaense,0.4,2.9,36.0,17608.0,Henrique,5-4-1,Flavio Rodrigues de Souza,Match Report,,25.0,0.0,1.6,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,1.6,0.4,0.05,2023,Coritiba
+6,2023-05-20,18:30,Série A,Matchweek 7,Sat,Home,L,1.0,2.0,Atlético Mineiro,1.0,1.5,35.0,20047.0,Henrique,3-5-2,Rodrigo José Pereira de Lima,Match Report,,28.7,3.0,0.0,0.0,0.0,1.0,1.0,1.0,9.0,3.0,33.3,-0.3,0.3,0.03,2023,Coritiba
+7,2023-05-27,17:30,Série A,Matchweek 8,Sat,Away,D,1.0,1.0,Cuiabá,1.0,0.7,57.0,8660.0,Henrique,3-4-1-2,Denis da Silva Ribeiro Serafim,Match Report,,21.2,0.0,0.0,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,0.0,1.0,0.13,2023,Coritiba
+8,2023-06-04,18:30,Série A,Matchweek 9,Sun,Away,L,1.0,3.0,Palmeiras,0.6,2.5,49.0,33570.0,Henrique,3-4-1-2,Felipe Fernandes de Lima,Match Report,,21.3,1.0,0.4,0.14,0.25,1.0,0.0,0.0,7.0,4.0,57.1,0.4,0.6,0.08,2023,Coritiba
+9,2023-06-10,16:00,Série A,Matchweek 10,Sat,Home,D,0.0,0.0,Santos,1.2,0.8,47.0,25987.0,Henrique,3-5-2,Bruno Mota Correia,Match Report,,18.2,1.0,-1.2,0.0,0.0,0.0,0.0,0.0,19.0,7.0,36.8,-1.2,1.2,0.06,2023,Coritiba
+10,2023-06-22,20:00,Série A,Matchweek 11,Thu,Home,L,0.0,1.0,Internacional,1.5,0.9,51.0,25983.0,Gabriel,3-1-4-2,André Luiz Skettino Policarpo Bento,Match Report,,16.9,1.0,-1.5,0.0,0.0,0.0,0.0,0.0,14.0,4.0,28.6,-1.5,1.5,0.11,2023,Coritiba
+11,2023-06-25,16:00,Série A,Matchweek 12,Sun,Away,L,1.0,5.0,Grêmio,1.1,3.4,50.0,37048.0,Gabriel,3-1-4-2,João Vitor Gobi,Match Report,,18.1,0.0,-0.1,0.06,0.14,1.0,0.0,0.0,17.0,7.0,41.2,-0.1,1.1,0.06,2023,Coritiba
+12,2023-07-03,20:00,Série A,Matchweek 13,Mon,Away,W,2.0,1.0,Goiás,0.9,1.9,37.0,10394.0,Gabriel,4-1-4-1,Denis da Silva Ribeiro Serafim,Match Report,,21.0,1.0,1.1,0.15,0.25,2.0,0.0,0.0,13.0,8.0,61.5,1.1,0.9,0.07,2023,Coritiba
+13,2023-07-08,18:30,Série A,Matchweek 14,Sat,Home,W,3.0,1.0,América (MG),1.9,1.1,43.0,,Henrique,4-1-4-1,Rafael Rodrigo Klein,Match Report,,19.7,2.0,1.1,0.15,0.33,3.0,1.0,1.0,13.0,6.0,46.2,0.9,1.1,0.08,2023,Coritiba
+14,2023-07-16,11:00,Série A,Matchweek 15,Sun,Away,D,0.0,0.0,Cruzeiro,1.1,0.8,45.0,,Gabriel,4-1-4-1,Leandro Pedro Vuaden,Match Report,,20.4,0.0,-1.1,0.0,0.0,0.0,0.0,0.0,14.0,6.0,42.9,-1.1,1.1,0.08,2023,Coritiba
+15,2023-07-24,19:00,Série A,Matchweek 16,Mon,Home,W,2.0,0.0,Fluminense,1.9,1.0,28.0,,Henrique,4-1-4-1,Flavio Rodrigues de Souza,Match Report,,18.1,0.0,0.1,0.13,0.25,2.0,1.0,1.0,8.0,4.0,50.0,-0.1,1.1,0.15,2023,Coritiba
+16,2023-07-30,16:00,Série A,Matchweek 17,Sun,Away,L,1.0,4.0,Botafogo (RJ),1.2,0.9,43.0,,Henrique,4-1-4-1,João Vitor Gobi,Match Report,,16.6,1.0,-0.2,0.11,0.2,1.0,0.0,0.0,9.0,5.0,55.6,-0.2,1.2,0.14,2023,Coritiba
+17,2023-08-06,18:30,Série A,Matchweek 18,Sun,Home,L,0.0,1.0,Bragantino,0.5,1.0,50.0,,Henrique,4-1-4-1,Yuri Elino Ferreira da Cruz,Match Report,,18.5,2.0,-0.5,0.0,0.0,0.0,0.0,0.0,9.0,1.0,11.1,-0.5,0.5,0.05,2023,Coritiba
+18,2023-08-13,16:00,Série A,Matchweek 19,Sun,Away,L,1.0,3.0,Corinthians,0.8,2.4,46.0,42171.0,Henrique,4-1-4-1,Ramon Abatti Abel,Match Report,,23.4,1.0,-0.8,0.0,0.0,0.0,0.0,0.0,12.0,3.0,25.0,-0.8,0.8,0.07,2023,Coritiba
+19,2023-08-20,16:00,Série A,Matchweek 20,Sun,Home,L,2.0,3.0,Flamengo,2.6,1.9,38.0,,Henrique,4-1-4-1,Raphael Claus,Match Report,,22.3,1.0,-0.6,0.07,0.33,2.0,1.0,1.0,14.0,3.0,21.4,-0.8,1.8,0.13,2023,Coritiba
+20,2023-08-27,18:30,Série A,Matchweek 21,Sun,Away,L,1.0,3.0,Fortaleza,1.0,2.5,47.0,12467.0,Benjamín Kuscevic,4-1-4-1,Matheus Delgado Candançan,Match Report,,25.6,1.0,0.0,0.11,0.5,1.0,0.0,1.0,9.0,2.0,22.2,0.8,0.2,0.02,2023,Coritiba
+21,2023-09-14,20:00,Série A,Matchweek 23,Thu,Home,,,,Bahia,,,,,,,,Head-to-Head,,20.7,19.0,-3.0,0.07,0.17,20.0,4.0,5.0,246.0,92.0,37.4,-3.1,19.1,0.08,2023,Coritiba
+22,2023-09-19,19:00,Série A,Matchweek 24,Tue,Away,,,,Vasco da Gama,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+23,2023-09-27,19:00,Série A,Matchweek 22,Wed,Away,,,,São Paulo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+24,2023-09-30,,Série A,Matchweek 25,Sat,Home,,,,Ath Paranaense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+25,2023-10-07,,Série A,Matchweek 26,Sat,Away,,,,Atlético Mineiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+26,2023-10-18,,Série A,Matchweek 27,Wed,Home,,,,Cuiabá,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+27,2023-10-21,,Série A,Matchweek 28,Sat,Home,,,,Palmeiras,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+28,2023-10-25,,Série A,Matchweek 29,Wed,Away,,,,Santos,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+29,2023-10-28,,Série A,Matchweek 30,Sat,Away,,,,Internacional,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+30,2023-11-01,,Série A,Matchweek 31,Wed,Home,,,,Grêmio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+31,2023-11-04,,Série A,Matchweek 32,Sat,Home,,,,Goiás,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+32,2023-11-08,,Série A,Matchweek 33,Wed,Away,,,,América (MG),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+33,2023-11-11,,Série A,Matchweek 34,Sat,Home,,,,Cruzeiro,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+34,2023-11-22,,Série A,Matchweek 35,Wed,Away,,,,Fluminense,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+35,2023-11-25,,Série A,Matchweek 36,Sat,Home,,,,Botafogo (RJ),,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+36,2023-11-29,,Série A,Matchweek 37,Wed,Away,,,,Bragantino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
+37,2023-12-03,,Série A,Matchweek 38,Sun,Home,,,,Corinthians,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Coritiba
 0,2022-04-06,20:00,Libertadores,Group stage,Wed,Away,W,4,0,ve Dep Táchira,2.5,0.9,50.0,,Gustavo Gómez,4-3-3,Darío Herrera,Match Report,,16.9,1.0,1.5,0.19,0.8,4.0,0.0,0.0,21.0,5.0,23.8,1.5,2.5,0.12,2022,Palmeiras
 1,2022-04-09,21:00,Série A,Matchweek 1,Sat,Home,L,2,3,Ceará,2.5,1.5,56.0,27100.0,Gustavo Gómez,4-3-3,Caio Max Augusto Vieira,Match Report,,17.1,0.0,-0.5,0.06,0.33,2.0,1.0,1.0,16.0,3.0,18.8,-0.7,1.7,0.11,2022,Palmeiras
 2,2022-04-12,21:30,Libertadores,Group stage,Tue,Home,W,8,1,bo Indep Petrolero,2.5,0.1,76.0,26409.0,Gustavo Gómez,4-2-3-1,Derlis López,Match Report,,17.8,2.0,5.5,0.29,0.57,8.0,0.0,0.0,28.0,14.0,50.0,5.5,2.5,0.09,2022,Palmeiras
@@ -934,10 +944,10 @@
 32,2022-08-21,16:00,Série A,Matchweek 23,Sun,Home,D,1,1,Flamengo,1.5,0.9,57.0,40485.0,Gustavo Gómez,4-2-3-1,Ramon Abatti Abel,Match Report,,18.1,0.0,-0.5,0.05,0.33,1.0,0.0,0.0,20.0,3.0,15.0,-0.5,1.5,0.07,2022,Palmeiras
 33,2022-08-27,19:00,Série A,Matchweek 24,Sat,Away,D,1,1,Fluminense,0.6,1.3,39.0,45084.0,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,18.1,1.0,0.4,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,0.4,0.6,0.07,2022,Palmeiras
 34,2022-08-30,21:30,Libertadores,Semi-finals,Tue,Away,L,0,1,br Ath Paranaense,0.8,1.0,64.0,38963.0,Gustavo Gómez,4-2-3-1,Roberto Tobar,Match Report,Leg 1 of 2,20.2,2.0,-0.8,0.0,0.0,0.0,0.0,0.0,14.0,4.0,28.6,-0.8,0.8,0.06,2022,Palmeiras
-35,2022-09-03,19:00,Série A,Matchweek 25,Sat,Away,D,2,2,Bragantino,1.2,1.4,60.0,9685.0,Luan Garcia,4-2-3-1,Raphael Claus,Match Report,,16.1,1.0,-0.2,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,-0.2,1.2,0.12,2022,Palmeiras
-36,2022-09-06,21:30,Libertadores,Semi-finals,Tue,Home,D,2,2,br Ath Paranaense,1.3,1.2,49.0,,Gustavo Gómez,4-2-3-1,Esteban Ostojich,Match Report,Leg 2 of 2; Ath Paranaense won,21.6,2.0,0.7,0.12,0.29,2.0,0.0,0.0,17.0,7.0,41.2,0.7,1.3,0.08,2022,Palmeiras
-37,2022-09-10,21:00,Série A,Matchweek 26,Sat,Home,W,2,1,Juventude,1.7,0.7,66.0,39337.0,Gustavo Gómez,4-2-3-1,Jefferson Ferreira de Moraes,Match Report,,16.5,0.0,0.3,0.08,0.22,2.0,0.0,0.0,24.0,9.0,37.5,0.3,1.7,0.08,2022,Palmeiras
-38,2022-09-18,18:30,Série A,Matchweek 27,Sun,Home,W,1,0,Santos,1.0,0.6,54.0,40337.0,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,20.0,1.0,0.0,0.05,0.33,1.0,0.0,0.0,19.0,3.0,15.8,0.0,1.0,0.05,2022,Palmeiras
+35,2022-09-03,19:00,Série A,Matchweek 25,Sat,Away,D,2,2,Bragantino,1.2,1.4,60.0,9685.0,Luan Garcia,4-2-3-1,Raphael Claus,Match Report,,16.8,1.0,-0.2,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,-0.2,1.2,0.11,2022,Palmeiras
+36,2022-09-06,21:30,Libertadores,Semi-finals,Tue,Home,D,2,2,br Ath Paranaense,1.3,1.2,49.0,,Gustavo Gómez,4-2-3-1,Esteban Ostojich,Match Report,Leg 2 of 2; Ath Paranaense won,21.4,2.0,0.7,0.12,0.29,2.0,0.0,0.0,17.0,7.0,41.2,0.7,1.3,0.08,2022,Palmeiras
+37,2022-09-10,21:00,Série A,Matchweek 26,Sat,Home,W,2,1,Juventude,1.7,0.7,66.0,39337.0,Gustavo Gómez,4-2-3-1,Jefferson Ferreira de Moraes,Match Report,,17.0,0.0,0.3,0.08,0.22,2.0,0.0,0.0,24.0,9.0,37.5,0.3,1.7,0.07,2022,Palmeiras
+38,2022-09-18,18:30,Série A,Matchweek 27,Sun,Home,W,1,0,Santos,1.0,0.6,54.0,40337.0,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,19.6,1.0,0.0,0.05,0.33,1.0,0.0,0.0,19.0,3.0,15.8,0.0,1.0,0.05,2022,Palmeiras
 39,2022-09-28,21:45,Série A,Matchweek 28,Wed,Away,W,1,0,Atlético Mineiro,1.3,1.2,33.0,28644.0,Marcos Rocha,3-4-1-2,Marcelo de Lima Henrique,Match Report,,19.1,1.0,-0.3,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,-0.3,1.3,0.13,2022,Palmeiras
 40,2022-10-03,20:00,Série A,Matchweek 29,Mon,Away,W,3,1,Botafogo (RJ),2.5,0.9,52.0,16545.0,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,16.8,0.0,0.5,0.18,0.5,3.0,1.0,1.0,11.0,4.0,36.4,0.3,1.7,0.16,2022,Palmeiras
 41,2022-10-06,19:00,Série A,Matchweek 30,Thu,Home,W,4,0,Coritiba,2.4,0.4,56.0,39877.0,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,13.6,0.0,1.6,0.21,0.36,4.0,0.0,0.0,19.0,11.0,57.9,1.6,2.4,0.13,2022,Palmeiras
@@ -945,11 +955,11 @@
 43,2022-10-16,16:00,Série A,Matchweek 32,Sun,Home,D,0,0,São Paulo,2.0,0.4,56.0,40795.0,Gustavo Gómez,4-2-3-1,Flavio Rodrigues De Souza,Match Report,,20.4,3.0,-2.0,0.0,0.0,0.0,0.0,1.0,18.0,7.0,38.9,-1.3,1.3,0.07,2022,Palmeiras
 44,2022-10-22,21:00,Série A,Matchweek 33,Sat,Home,W,3,0,Avaí,3.9,0.8,50.0,,Gustavo Gómez,4-2-3-1,Bruno Arleu de Araujo,Match Report,,17.4,1.0,-0.9,0.1,0.25,3.0,1.0,1.0,21.0,8.0,38.1,-1.1,3.1,0.15,2022,Palmeiras
 45,2022-10-25,21:45,Série A,Matchweek 34,Tue,Away,W,3,1,Ath Paranaense,2.2,0.2,71.0,,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,17.2,2.0,0.8,0.18,0.6,3.0,0.0,0.0,17.0,5.0,29.4,0.8,2.2,0.15,2022,Palmeiras
-46,2022-11-02,21:30,Série A,Matchweek 35,Wed,Home,W,4,0,Fortaleza,2.2,0.5,55.0,,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,17.4,1.0,1.8,0.22,0.44,4.0,0.0,0.0,18.0,9.0,50.0,1.8,2.2,0.13,2022,Palmeiras
-47,2022-11-06,17:30,Série A,Matchweek 36,Sun,Away,D,1,1,Cuiabá,2.6,1.1,66.0,,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,18.1,1.0,-1.6,0.04,0.08,1.0,0.0,0.0,27.0,12.0,44.4,-1.6,2.6,0.1,2022,Palmeiras
-48,2022-11-09,21:30,Série A,Matchweek 37,Wed,Home,W,2,1,América (MG),2.6,0.3,57.0,,Gustavo Gómez,4-2-3-1,Savio Pereira,Match Report,,18.8,2.0,-0.6,0.04,0.13,2.0,1.0,1.0,25.0,8.0,32.0,-0.8,1.8,0.08,2022,Palmeiras
+46,2022-11-02,21:30,Série A,Matchweek 35,Wed,Home,W,4,0,Fortaleza,2.2,0.5,55.0,,Gustavo Gómez,4-2-3-1,Wilton Sampaio,Match Report,,17.7,1.0,1.8,0.22,0.44,4.0,0.0,0.0,18.0,9.0,50.0,1.8,2.2,0.12,2022,Palmeiras
+47,2022-11-06,17:30,Série A,Matchweek 36,Sun,Away,D,1,1,Cuiabá,2.6,1.1,66.0,,Gustavo Gómez,4-2-3-1,Braulio da Silva Machado,Match Report,,18.1,1.0,-1.6,0.04,0.08,1.0,0.0,0.0,28.0,12.0,42.9,-1.6,2.6,0.09,2022,Palmeiras
+48,2022-11-09,21:30,Série A,Matchweek 37,Wed,Home,W,2,1,América (MG),2.6,0.3,57.0,,Gustavo Gómez,4-2-3-1,Savio Pereira,Match Report,,18.7,2.0,-0.6,0.04,0.13,2.0,1.0,1.0,25.0,8.0,32.0,-0.8,1.8,0.08,2022,Palmeiras
 49,2022-11-13,16:00,Série A,Matchweek 38,Sun,Away,L,0,3,Internacional,1.3,1.4,52.0,,Luan Garcia,4-2-3-1,Bruno Arleu de Araujo,Match Report,,14.6,1.0,-1.3,0.0,0.0,0.0,0.0,0.0,11.0,2.0,18.2,-1.3,1.3,0.12,2022,Palmeiras
-50,,,,,,,,,,,,,,,,,,,,18.3,53.0,3.1,0.1,0.3,100.0,10.0,12.0,879.0,298.0,33.9,2.4,87.6,0.1,2022,Palmeiras
+50,,,,,,,,,,,,,,,,,,,,18.3,53.0,3.1,0.1,0.3,100.0,10.0,12.0,880.0,298.0,33.9,2.4,87.6,0.1,2022,Palmeiras
 0,2022-04-06,19:30,Sudamericana,Group stage,Wed,Away,D,2,2,ec Club 9 de Octubre,,,46.0,,Taison,4-3-3,Andrés Merlos,Match Report,,,,,0.18,0.33,2.0,0.0,0.0,11.0,6.0,54.5,,,,2022,Internacional
 1,2022-04-10,16:00,Série A,Matchweek 1,Sun,Away,L,0,2,Atlético Mineiro,0.6,1.9,48.0,37531.0,Taison,4-2-3-1,Bruno Arleu de Araujo,Match Report,,18.3,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.6,0.6,0.1,2022,Internacional
 2,2022-04-14,21:30,Sudamericana,Group stage,Thu,Home,D,1,1,py Guaireña FC,,,80.0,,Taison,4-3-3,Gery Vargas,Match Report,,,,,0.0,0.0,0.0,0.0,0.0,20.0,6.0,30.0,,,,2022,Internacional
@@ -1766,7 +1776,7 @@
 11,2022-06-16,19:00,Série A,Matchweek 12,Thu,Home,W,3.0,2.0,Fortaleza,3.1,0.3,50.0,8937.0,Bressan,4-1-4-1,Raphael Claus,Match Report,,20.7,0.0,-0.1,0.1,0.5,3.0,2.0,2.0,10.0,2.0,20.0,-0.5,1.5,0.15,2022,Avai
 12,2022-06-19,19:00,Série A,Matchweek 13,Sun,Away,L,0.0,2.0,Fluminense,0.5,1.7,50.0,15530.0,Vladimir,4-1-4-1,Paulo Roberto Alves Júnior,Match Report,,26.6,0.0,-0.5,0.0,0.0,0.0,0.0,0.0,9.0,4.0,44.4,-0.5,0.5,0.06,2022,Avai
 13,2022-06-26,16:00,Série A,Matchweek 14,Sun,Home,D,2.0,2.0,Palmeiras,1.1,2.5,49.0,15233.0,Bruno Cortez,4-1-4-1,Wagner do Nascimento Magalhães,Match Report,,27.9,3.0,0.9,0.17,0.33,2.0,1.0,1.0,6.0,3.0,50.0,0.7,0.3,0.06,2022,Avai
-14,2022-07-03,11:00,Série A,Matchweek 15,Sun,Home,L,1.0,2.0,Cuiabá,1.1,1.4,59.0,13103.0,Muriqui,4-3-3,Jean Pierre Goncalves Lima,Match Report,,19.2,0.0,-0.1,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,-0.1,1.1,0.1,2022,Avai
+14,2022-07-03,11:00,Série A,Matchweek 15,Sun,Home,L,1.0,2.0,Cuiabá,1.1,1.4,59.0,13103.0,Muriqui,4-3-3,Jean Pierre Goncalves Lima,Match Report,,18.7,0.0,-0.1,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,-0.1,1.1,0.1,2022,Avai
 15,2022-07-09,16:30,Série A,Matchweek 16,Sat,Away,L,0.0,4.0,Bragantino,0.4,4.1,54.0,3162.0,Vladimir,4-3-3,Marcelo de Lima Henrique,Match Report,,20.0,0.0,-0.4,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,-0.4,0.4,0.05,2022,Avai
 16,2022-07-16,19:00,Série A,Matchweek 17,Sat,Home,W,1.0,0.0,Santos,1.9,0.5,41.0,8674.0,Bruno Cortez,4-1-4-1,Paulo Roberto Alves Júnior,Match Report,,19.8,0.0,-0.9,0.0,0.0,1.0,1.0,1.0,13.0,3.0,23.1,-1.1,1.1,0.09,2022,Avai
 17,2022-07-19,21:30,Série A,Matchweek 18,Tue,Away,L,0.0,1.0,Ceará,1.0,1.4,54.0,37567.0,Bressan,4-1-4-1,Caio Max Augusto Vieira,Match Report,,21.3,2.0,-1.0,0.0,0.0,0.0,0.0,0.0,16.0,2.0,12.5,-1.0,1.0,0.06,2022,Avai
@@ -1790,7 +1800,7 @@
 35,2022-11-05,16:30,Série A,Matchweek 36,Sat,Away,D,1.0,1.0,Santos,1.2,1.3,44.0,,Vladimir,4-5-1,Caio Max Augusto Vieira,Match Report,,21.4,0.0,-0.2,0.06,0.17,1.0,0.0,0.0,16.0,6.0,37.5,-0.2,1.2,0.08,2022,Avai
 36,2022-11-09,19:00,Série A,Matchweek 37,Wed,Home,W,2.0,0.0,Ceará,1.1,1.8,42.0,,Vladimir,4-5-1,Luiz Flávio de Oliveira,Match Report,,19.3,2.0,0.9,0.14,0.67,2.0,0.0,0.0,14.0,3.0,21.4,0.9,1.1,0.08,2022,Avai
 37,2022-11-12,16:00,Série A,Matchweek 38,Sat,Away,W,2.0,1.0,Flamengo,1.8,1.8,35.0,,Felipe Silva Lipe,4-5-1,Edina Alves Batista,Match Report,,17.1,1.0,0.2,0.13,0.25,2.0,0.0,0.0,15.0,8.0,53.3,0.2,1.8,0.13,2022,Avai
-38,,,,,,,,,,,,,,,,,,,,21.1,25.0,-10.0,0.05,0.18,34.0,13.0,14.0,428.0,115.0,26.9,-12.7,33.7,0.08,2022,Avai
+38,,,,,,,,,,,,,,,,,,,,21.0,25.0,-10.0,0.05,0.18,34.0,13.0,14.0,428.0,115.0,26.9,-12.7,33.7,0.08,2022,Avai
 0,2022-04-11,20:00,Série A,Matchweek 1,Mon,Home,D,2.0,2.0,Bragantino,1.5,1.0,50.0,3300.0,Paulo Miranda,4-2-3-1,Rodolpho Toski Marques,Match Report,,18.2,0.0,-0.5,0.08,0.14,1.0,0.0,0.0,13.0,7.0,53.8,-0.5,1.5,0.12,2022,Juventude
 1,2022-04-16,19:00,Série A,Matchweek 2,Sat,Away,L,1.0,4.0,América (MG),0.9,1.5,54.0,1559.0,Paulo Miranda,4-2-3-1,Ramon Abatti Abel,Match Report,,21.5,2.0,0.1,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,0.1,0.9,0.07,2022,Juventude
 2,2022-04-24,18:00,Série A,Matchweek 3,Sun,Home,L,0.0,1.0,Cuiabá,1.8,1.5,58.0,3920.0,William Matheus,4-2-3-1,Paulo Roberto Alves Júnior,Match Report,,21.8,0.0,-1.8,0.0,0.0,0.0,0.0,1.0,12.0,2.0,16.7,-1.0,1.0,0.08,2022,Juventude

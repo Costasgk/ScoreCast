@@ -20,7 +20,8 @@
 18,2023-08-05,15:00,Veikkausliiga,Matchweek 18,Sat,Home,W,4.0,2.0,IFK Mariehamn,,8005.0,Roope Riski,3-4-3,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,HJK Helsinki
 19,2023-08-20,14:00,Veikkausliiga,Matchweek 20,Sun,Away,W,3.0,1.0,Inter Turku,,5021.0,Lucas Lingman,3-4-3,Peiman Simani,Match Report,,,,,,,,,,,2023,HJK Helsinki
 20,2023-08-27,18:00,Veikkausliiga,Matchweek 21,Sun,Away,W,3.0,1.0,AC Oulu,,3203.0,Miro Tenho,3-5-2,Joni Hyytiä,Match Report,,,,,,,,,,,2023,HJK Helsinki
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,,,,KuPS,,,,,,Head-to-Head,,,1.0,1.0,29.0,5.0,6.0,2.0,2.0,100.0,2023,HJK Helsinki
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,D,2.0,2.0,KuPS,,10121.0,Miro Tenho,3-4-3,Oliver Reitala,Match Report,,,,,,,,,,,2023,HJK Helsinki
+22,,,,,,,,,,,,,,,,,,,1.0,1.0,31.0,5.0,6.0,2.0,2.0,100.0,2023,HJK Helsinki
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Home,L,1.0,2.0,Inter Turku,,1638.0,,,Peiman Simani,Match Report,,,,,1.0,0.0,0.0,,,,2023,KuPS
 1,2023-04-14,18:00,Veikkausliiga,Matchweek 2,Fri,Away,D,0.0,0.0,KTP,,2118.0,,,Dennis Antamo,Match Report,,,,,0.0,0.0,0.0,,,,2023,KuPS
 2,2023-04-19,18:00,Veikkausliiga,Matchweek 3,Wed,Home,L,0.0,1.0,FC Honka,,2016.0,,,Antti Munukka,Match Report,,,,,0.0,0.0,0.0,,,,2023,KuPS
@@ -42,7 +43,8 @@
 18,2023-08-13,16:00,Veikkausliiga,Matchweek 19,Sun,Away,W,3.0,0.0,Ilves,,2509.0,Anton Popovitch,4-3-3,Joni Hyytiä,Match Report,,,,,,,,,,,2023,KuPS
 19,2023-08-20,16:00,Veikkausliiga,Matchweek 20,Sun,Home,W,3.0,0.0,SJK,,4374.0,Anton Popovitch,4-3-3,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,KuPS
 20,2023-08-27,16:00,Veikkausliiga,Matchweek 21,Sun,Away,D,2.0,2.0,Haka,,2175.0,Anton Popovitch,4-3-3,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,KuPS
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,,,,HJK,,,,,,Head-to-Head,,,,,26.0,1.0,2.0,,,,2023,KuPS
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,D,2.0,2.0,HJK,,10121.0,Anton Popovitch,4-3-3,Oliver Reitala,Match Report,,,,,,,,,,,2023,KuPS
+22,,,,,,,,,,,,,,,,,,,,,26.0,1.0,2.0,,,,2023,KuPS
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Home,W,2.0,1.0,Haka,,1932.0,,,Ville Nevalainen,Match Report,,,,,2.0,0.0,0.0,,,,2023,SJK
 1,2023-04-15,17:00,Veikkausliiga,Matchweek 2,Sat,Away,D,0.0,0.0,FC Honka,,2276.0,,,Joni Hyytiä,Match Report,,,,,0.0,0.0,0.0,,,,2023,SJK
 2,2023-04-22,17:00,Veikkausliiga,Matchweek 3,Sat,Home,D,0.0,0.0,Lahti,,2598.0,,,Oliver Reitala,Match Report,,,,,0.0,0.0,0.0,,,,2023,SJK
@@ -64,7 +66,8 @@
 18,2023-08-15,18:00,Veikkausliiga,Matchweek 19,Tue,Home,L,2.0,3.0,KTP,,3513.0,Matej Hradecký,3-4-3,Ville Nevalainen,Match Report,,,,,,,,,,,2023,SJK
 19,2023-08-20,16:00,Veikkausliiga,Matchweek 20,Sun,Away,L,0.0,3.0,KuPS,,4374.0,Matej Hradecký,3-5-2,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,SJK
 20,2023-08-26,17:00,Veikkausliiga,Matchweek 21,Sat,Home,W,3.0,2.0,IFK Mariehamn,,3402.0,Matej Hradecký,3-5-2,Joona Manninen,Match Report,,,,,,,,,,,2023,SJK
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,,,,Haka,,,,,,Head-to-Head,,,,,18.0,1.0,1.0,,,,2023,SJK
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,L,0.0,1.0,Haka,,2467.0,Matej Hradecký,3-5-2,Antti Munukka,Match Report,,,,,,,,,,,2023,SJK
+22,,,,,,,,,,,,,,,,,,,,,18.0,1.0,1.0,,,,2023,SJK
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Home,D,0.0,0.0,Lahti,,1432.0,,,Petri Viljanen,Match Report,,,,,0.0,0.0,0.0,,,,2023,VPS
 1,2023-04-15,18:30,Veikkausliiga,Matchweek 2,Sat,Home,L,0.0,1.0,HJK,,2612.0,,,Ville Nevalainen,Match Report,,,,,0.0,0.0,0.0,,,,2023,VPS
 2,2023-04-19,18:00,Veikkausliiga,Matchweek 3,Wed,Away,L,0.0,4.0,HJK,,3111.0,,,Oskari Hämäläinen,Match Report,,,,,0.0,0.0,0.0,,,,2023,VPS
@@ -86,7 +89,8 @@
 18,2023-08-09,19:00,Veikkausliiga,Matchweek 19,Wed,Home,W,3.0,2.0,SJK,,4626.0,Jesper Engström,3-5-2,Ville Nevalainen,Match Report,,,,,,,,,,,2023,VPS
 19,2023-08-18,18:00,Veikkausliiga,Matchweek 20,Fri,Away,W,2.0,0.0,Lahti,,2363.0,Jesper Engström,3-5-2,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,VPS
 20,2023-08-25,18:00,Veikkausliiga,Matchweek 21,Fri,Home,W,2.0,1.0,KTP,,2987.0,Jesper Engström,3-5-2,Antti Munukka,Match Report,,,,,,,,,,,2023,VPS
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,,,,IFK Mariehamn,,,,,,Head-to-Head,,,,,14.0,0.0,0.0,,,,2023,VPS
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,W,2.0,1.0,IFK Mariehamn,,1081.0,Sebastian Strandvall,3-4-3,Peiman Simani,Match Report,,,,,,,,,,,2023,VPS
+22,,,,,,,,,,,,,,,,,,,,,14.0,0.0,0.0,,,,2023,VPS
 0,2023-04-05,18:15,Veikkausliiga,Matchweek 1,Wed,Away,L,0.0,2.0,HJK,,6125.0,,,Mohammad Al Emara,Match Report,,,,,0.0,0.0,0.0,,,,2023,FC Honka
 1,2023-04-15,17:00,Veikkausliiga,Matchweek 2,Sat,Home,D,0.0,0.0,SJK,,2276.0,,,Joni Hyytiä,Match Report,,,,,0.0,0.0,0.0,,,,2023,FC Honka
 2,2023-04-19,18:00,Veikkausliiga,Matchweek 3,Wed,Away,W,1.0,0.0,KuPS,,2016.0,,,Antti Munukka,Match Report,,,,,1.0,0.0,0.0,,,,2023,FC Honka
@@ -108,7 +112,8 @@
 18,2023-08-13,16:00,Veikkausliiga,Matchweek 19,Sun,Home,W,1.0,0.0,Inter Turku,,2445.0,Maksim Rudakov,4-2-3-1,Petri Viljanen,Match Report,,,,,,,,,,,2023,FC Honka
 19,2023-08-18,18:30,Veikkausliiga,Matchweek 20,Fri,Away,W,1.0,0.0,IFK Mariehamn,,1259.0,Maksim Rudakov,4-2-3-1,Oliver Reitala,Match Report,,,,,,,,,,,2023,FC Honka
 20,2023-08-27,16:00,Veikkausliiga,Matchweek 21,Sun,Home,W,2.0,0.0,Ilves,,1874.0,Maksim Rudakov,4-2-3-1,Ville Nevalainen,Match Report,,,,,,,,,,,2023,FC Honka
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,,,,KTP,,,,,,Head-to-Head,,,,,14.0,2.0,5.0,,,,2023,FC Honka
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,W,2.0,1.0,KTP,,2688.0,Maksim Rudakov,4-2-3-1,Petri Viljanen,Match Report,,,,,,,,,,,2023,FC Honka
+22,,,,,,,,,,,,,,,,,,,,,14.0,2.0,5.0,,,,2023,FC Honka
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Away,W,2.0,1.0,KuPS,,1638.0,,,Peiman Simani,Match Report,,,,,2.0,0.0,0.0,,,,2023,Inter Turku
 1,2023-04-15,13:00,Veikkausliiga,Matchweek 2,Sat,Away,L,1.0,2.0,Ilves,,1221.0,,,Oliver Reitala,Match Report,,,,,1.0,0.0,0.0,,,,2023,Inter Turku
 2,2023-05-05,18:00,Veikkausliiga,Matchweek 5,Fri,Away,L,1.0,2.0,SJK,,2042.0,,,Ville Nevalainen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Inter Turku
@@ -130,7 +135,8 @@
 18,2023-08-20,14:00,Veikkausliiga,Matchweek 20,Sun,Home,L,1.0,3.0,HJK,,5021.0,Tommi Jyry,4-3-3,Peiman Simani,Match Report,,,,,,,,,,,2023,Inter Turku
 19,2023-08-26,15:00,Veikkausliiga,Matchweek 21,Sat,Home,W,2.0,1.0,Lahti,,2130.0,Tommi Jyry,4-1-3-2,Pietu Niinimäki,Match Report,,,,,,,,,,,2023,Inter Turku
 20,2023-08-30,18:00,Veikkausliiga,Matchweek 4,Wed,Away,W,2.0,1.0,Lahti,,1250.0,Juuso Hämäläinen,4-4-2,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,Inter Turku
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,,,,AC Oulu,,,,,,Head-to-Head,,,,,19.0,0.0,2.0,,,,2023,Inter Turku
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,W,2.0,1.0,AC Oulu,,2633.0,Tommi Jyry,5-4-1,Ville Nevalainen,Match Report,,,,,,,,,,,2023,Inter Turku
+22,,,,,,,,,,,,,,,,,,,,,19.0,0.0,2.0,,,,2023,Inter Turku
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Away,W,2.0,0.0,KTP,,1815.0,,,Oliver Reitala,Match Report,,,,,2.0,0.0,0.0,,,,2023,AC Oulu
 1,2023-04-14,18:00,Veikkausliiga,Matchweek 2,Fri,Away,D,2.0,2.0,Haka,,2322.0,,,Mohammad Al Emara,Match Report,,,,,2.0,0.0,0.0,,,,2023,AC Oulu
 2,2023-04-23,18:30,Veikkausliiga,Matchweek 3,Sun,Away,D,1.0,1.0,HJK,,3521.0,,,Petri Viljanen,Match Report,,,,,1.0,1.0,1.0,,,,2023,AC Oulu
@@ -152,7 +158,8 @@
 18,2023-08-12,17:00,Veikkausliiga,Matchweek 19,Sat,Home,D,1.0,1.0,Lahti,,2854.0,Luquinhas,4-4-2,Oliver Reitala,Match Report,,,,,,,,,,,2023,AC Oulu
 19,2023-08-19,17:00,Veikkausliiga,Matchweek 20,Sat,Home,L,0.0,3.0,Ilves,,2212.0,Luquinhas,4-2-3-1,Antti Munukka,Match Report,,,,,,,,,,,2023,AC Oulu
 20,2023-08-27,18:00,Veikkausliiga,Matchweek 21,Sun,Home,L,1.0,3.0,HJK,,3203.0,Rasmus Karjalainen,4-2-3-1,Joni Hyytiä,Match Report,,,,,,,,,,,2023,AC Oulu
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,,,,Inter Turku,,,,,,Head-to-Head,,,,,25.0,4.0,4.0,,,,2023,AC Oulu
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,L,1.0,2.0,Inter Turku,,2633.0,Rasmus Karjalainen,4-4-2,Ville Nevalainen,Match Report,,,,,,,,,,,2023,AC Oulu
+22,,,,,,,,,,,,,,,,,,,,,25.0,4.0,4.0,,,,2023,AC Oulu
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Away,L,1.0,2.0,SJK,,1932.0,,,Ville Nevalainen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Haka
 1,2023-04-14,18:00,Veikkausliiga,Matchweek 2,Fri,Home,D,2.0,2.0,AC Oulu,,2322.0,,,Mohammad Al Emara,Match Report,,,,,2.0,0.0,0.0,,,,2023,Haka
 2,2023-04-24,18:00,Veikkausliiga,Matchweek 4,Mon,Home,D,1.0,1.0,FC Honka,,2270.0,,,Dennis Antamo,Match Report,,,,,1.0,0.0,0.0,,,,2023,Haka
@@ -174,51 +181,8 @@
 18,2023-08-11,18:00,Veikkausliiga,Matchweek 19,Fri,Home,D,1.0,1.0,IFK Mariehamn,,2541.0,Niklas Friberg,4-4-2,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,Haka
 19,2023-08-21,18:00,Veikkausliiga,Matchweek 20,Mon,Away,W,2.0,1.0,KTP,,3332.0,Niklas Friberg,4-3-3,Dennis Antamo,Match Report,,,,,,,,,,,2023,Haka
 20,2023-08-27,16:00,Veikkausliiga,Matchweek 21,Sun,Home,D,2.0,2.0,KuPS,,2175.0,Niklas Friberg,4-3-3,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,Haka
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,,,,SJK,,,,,,Head-to-Head,,,,,19.0,2.0,3.0,,,,2023,Haka
-0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Away,D,1.0,1.0,IFK Mariehamn,,807.0,,,Antti Munukka,Match Report,,,,,1.0,1.0,1.0,,,,2023,Ilves
-1,2023-04-15,13:00,Veikkausliiga,Matchweek 2,Sat,Home,W,2.0,1.0,Inter Turku,,1221.0,,,Oliver Reitala,Match Report,,,,,2.0,1.0,1.0,,,,2023,Ilves
-2,2023-04-23,16:00,Veikkausliiga,Matchweek 3,Sun,Away,L,0.0,1.0,KuPS,,2072.0,,,Ville Nevalainen,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
-3,2023-04-29,17:00,Veikkausliiga,Matchweek 4,Sat,Home,W,1.0,0.0,KTP,,1763.0,,,Petri Viljanen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
-4,2023-05-05,18:00,Veikkausliiga,Matchweek 5,Fri,Home,L,1.0,2.0,AC Oulu,,1704.0,,,Dennis Antamo,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
-5,2023-05-13,17:00,Veikkausliiga,Matchweek 7,Sat,Away,L,0.0,1.0,SJK,,2104.0,,,Joni Hyytiä,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
-6,2023-05-21,16:00,Veikkausliiga,Matchweek 7,Sun,Home,D,1.0,1.0,HJK,,6588.0,,,Petri Viljanen,Match Report,,,,,1.0,0.0,1.0,,,,2023,Ilves
-7,2023-05-26,18:00,Veikkausliiga,Matchweek 9,Fri,Away,W,2.0,0.0,VPS,,2098.0,,,Dennis Antamo,Match Report,,,,,2.0,0.0,0.0,,,,2023,Ilves
-8,2023-06-03,18:00,Veikkausliiga,Matchweek 10,Sat,Home,D,2.0,2.0,Lahti,,1820.0,,,Antti Munukka,Match Report,,,,,2.0,0.0,0.0,,,,2023,Ilves
-9,2023-06-07,18:00,Veikkausliiga,Matchweek 11,Wed,Away,D,1.0,1.0,Haka,,3347.0,,,Oliver Reitala,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
-10,2023-06-11,16:00,Veikkausliiga,Matchweek 11,Sun,Home,D,1.0,1.0,FC Honka,,2375.0,,,Ville Nevalainen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
-11,2023-06-27,18:00,Veikkausliiga,Matchweek 12,Tue,Away,L,1.0,2.0,Inter Turku,,3012.0,,,Petri Viljanen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
-12,2023-07-01,17:00,Veikkausliiga,Matchweek 13,Sat,Home,D,1.0,1.0,SJK,,3311.0,,,Mohammad Al Emara,Match Report,,,,,1.0,1.0,1.0,,,,2023,Ilves
-13,2023-07-08,17:00,Veikkausliiga,Matchweek 15,Sat,Away,D,0.0,0.0,KTP,,2315.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
-14,2023-07-15,15:00,Veikkausliiga,Matchweek 15,Sat,Home,D,0.0,0.0,IFK Mariehamn,,2945.0,,,Joni Hyytiä,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
-15,2023-07-22,17:00,Veikkausliiga,Matchweek 16,Sat,Away,L,0.0,1.0,HJK,,5059.0,Tatu Miettunen,3-1-4-2,Joona Manninen,Match Report,,,,,,,,,,,2023,Ilves
-16,2023-07-28,18:00,Veikkausliiga,Matchweek 17,Fri,Home,L,0.0,2.0,VPS,,2351.0,Tatu Miettunen,4-2-3-1,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,Ilves
-17,2023-08-04,18:00,Veikkausliiga,Matchweek 18,Fri,Home,L,1.0,2.0,Haka,,3572.0,Tatu Miettunen,3-4-3,Dennis Antamo,Match Report,,,,,,,,,,,2023,Ilves
-18,2023-08-13,16:00,Veikkausliiga,Matchweek 19,Sun,Home,L,0.0,3.0,KuPS,,2509.0,Tatu Miettunen,4-4-1-1,Joni Hyytiä,Match Report,,,,,,,,,,,2023,Ilves
-19,2023-08-19,17:00,Veikkausliiga,Matchweek 20,Sat,Away,W,3.0,0.0,AC Oulu,,2212.0,Lauri Ala-Myllymäki,4-1-4-1,Antti Munukka,Match Report,,,,,,,,,,,2023,Ilves
-20,2023-08-27,16:00,Veikkausliiga,Matchweek 21,Sun,Away,L,0.0,2.0,FC Honka,,1874.0,Tatu Miettunen,4-5-1,Ville Nevalainen,Match Report,,,,,,,,,,,2023,Ilves
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,,,,Lahti,,,,,,Head-to-Head,,,,,14.0,3.0,4.0,,,,2023,Ilves
-0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Home,L,0.0,2.0,AC Oulu,,1815.0,,,Oliver Reitala,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-1,2023-04-14,18:00,Veikkausliiga,Matchweek 2,Fri,Home,D,0.0,0.0,KuPS,,2118.0,,,Dennis Antamo,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-2,2023-04-22,17:00,Veikkausliiga,Matchweek 3,Sat,Home,W,2.0,1.0,IFK Mariehamn,,2290.0,,,Joni Hyytiä,Match Report,,,,,2.0,0.0,0.0,,,,2023,KTP
-3,2023-04-29,17:00,Veikkausliiga,Matchweek 4,Sat,Away,L,0.0,1.0,Ilves,,1763.0,,,Petri Viljanen,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-4,2023-05-05,18:00,Veikkausliiga,Matchweek 5,Fri,Away,L,2.0,4.0,Haka,,2296.0,,,Mohammad Al Emara,Match Report,,,,,2.0,0.0,0.0,,,,2023,KTP
-5,2023-05-09,18:00,Veikkausliiga,Matchweek 6,Tue,Home,D,3.0,3.0,HJK,,3065.0,,,Joni Hyytiä,Match Report,,,,,3.0,0.0,0.0,,,,2023,KTP
-6,2023-05-13,14:00,Veikkausliiga,Matchweek 6,Sat,Away,D,0.0,0.0,Lahti,,2125.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-7,2023-05-22,18:00,Veikkausliiga,Matchweek 8,Mon,Home,L,0.0,2.0,SJK,,2815.0,,,Mohammad Al Emara,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-8,2023-05-26,18:00,Veikkausliiga,Matchweek 8,Fri,Away,W,1.0,0.0,FC Honka,,1582.0,,,Ville Nevalainen,Match Report,,,,,1.0,0.0,0.0,,,,2023,KTP
-9,2023-06-03,17:00,Veikkausliiga,Matchweek 10,Sat,Home,W,1.0,0.0,VPS,,1949.0,,,Oskari Hämäläinen,Match Report,,,,,1.0,0.0,0.0,,,,2023,KTP
-10,2023-06-07,18:00,Veikkausliiga,Matchweek 10,Wed,Away,L,1.0,2.0,Inter Turku,,2468.0,,,Joni Hyytiä,Match Report,,,,,1.0,0.0,0.0,,,,2023,KTP
-11,2023-06-11,18:30,Veikkausliiga,Matchweek 12,Sun,Away,L,0.0,1.0,HJK,,5012.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-12,2023-06-27,18:00,Veikkausliiga,Matchweek 13,Tue,Home,W,2.0,0.0,Lahti,,3154.0,,,Oliver Reitala,Match Report,,,,,2.0,0.0,0.0,,,,2023,KTP
-13,2023-07-01,18:30,Veikkausliiga,Matchweek 14,Sat,Away,D,0.0,0.0,IFK Mariehamn,,1156.0,,,Antti Munukka,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-14,2023-07-08,17:00,Veikkausliiga,Matchweek 15,Sat,Home,D,0.0,0.0,Ilves,,2315.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
-15,2023-07-22,17:00,Veikkausliiga,Matchweek 16,Sat,Away,L,1.0,3.0,AC Oulu,,3312.0,David Ramadingaye,3-5-2,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,KTP
-16,2023-07-30,16:00,Veikkausliiga,Matchweek 18,Sun,Away,L,0.0,2.0,KuPS,,2880.0,David Ramadingaye,3-5-2,Dennis Antamo,Match Report,,,,,,,,,,,2023,KTP
-17,2023-08-07,18:00,Veikkausliiga,Matchweek 18,Mon,Home,L,1.0,4.0,Inter Turku,,3317.0,Daan Klinkenberg,3-5-2,Oliver Reitala,Match Report,,,,,,,,,,,2023,KTP
-18,2023-08-15,18:00,Veikkausliiga,Matchweek 19,Tue,Away,W,3.0,2.0,SJK,,3513.0,David Ramadingaye,3-4-3,Ville Nevalainen,Match Report,,,,,,,,,,,2023,KTP
-19,2023-08-21,18:00,Veikkausliiga,Matchweek 20,Mon,Home,L,1.0,2.0,Haka,,3332.0,Lassi Nurmos,3-4-3,Dennis Antamo,Match Report,,,,,,,,,,,2023,KTP
-20,2023-08-25,18:00,Veikkausliiga,Matchweek 21,Fri,Away,L,1.0,2.0,VPS,,2987.0,Lassi Nurmos,4-5-1,Antti Munukka,Match Report,,,,,,,,,,,2023,KTP
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,,,,FC Honka,,,,,,Head-to-Head,,,,,12.0,0.0,0.0,,,,2023,KTP
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,W,1.0,0.0,SJK,,2467.0,Niklas Friberg,4-4-2,Antti Munukka,Match Report,,,,,,,,,,,2023,Haka
+22,,,,,,,,,,,,,,,,,,,,,19.0,2.0,3.0,,,,2023,Haka
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Away,D,0.0,0.0,VPS,,1432.0,,,Petri Viljanen,Match Report,,,,,0.0,0.0,0.0,,,,2023,Lahti
 1,2023-04-16,18:30,Veikkausliiga,Matchweek 2,Sun,Away,W,3.0,2.0,IFK Mariehamn,,1033.0,,,Peiman Simani,Match Report,,,,,3.0,0.0,0.0,,,,2023,Lahti
 2,2023-04-22,17:00,Veikkausliiga,Matchweek 3,Sat,Away,D,0.0,0.0,SJK,,2598.0,,,Oliver Reitala,Match Report,,,,,0.0,0.0,0.0,,,,2023,Lahti
@@ -240,7 +204,54 @@
 18,2023-08-18,18:00,Veikkausliiga,Matchweek 20,Fri,Home,L,0.0,2.0,VPS,,2363.0,Juho Pirttijoki,3-4-3,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,Lahti
 19,2023-08-26,15:00,Veikkausliiga,Matchweek 21,Sat,Away,L,1.0,2.0,Inter Turku,,2130.0,Juho Pirttijoki,4-3-3,Pietu Niinimäki,Match Report,,,,,,,,,,,2023,Lahti
 20,2023-08-30,18:00,Veikkausliiga,Matchweek 4,Wed,Home,L,1.0,2.0,Inter Turku,,1250.0,Arian Kabashi,3-4-3,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,Lahti
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,,,,Ilves,,,,,,Head-to-Head,,,,,13.0,1.0,2.0,,,,2023,Lahti
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,W,3.0,2.0,Ilves,,2350.0,Luka Šimunović,4-2-3-1,Dennis Antamo,Match Report,,,,,,,,,,,2023,Lahti
+22,,,,,,,,,,,,,,,,,,,,,13.0,1.0,2.0,,,,2023,Lahti
+0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Away,D,1.0,1.0,IFK Mariehamn,,807.0,,,Antti Munukka,Match Report,,,,,1.0,1.0,1.0,,,,2023,Ilves
+1,2023-04-15,13:00,Veikkausliiga,Matchweek 2,Sat,Home,W,2.0,1.0,Inter Turku,,1221.0,,,Oliver Reitala,Match Report,,,,,2.0,1.0,1.0,,,,2023,Ilves
+2,2023-04-23,16:00,Veikkausliiga,Matchweek 3,Sun,Away,L,0.0,1.0,KuPS,,2072.0,,,Ville Nevalainen,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
+3,2023-04-29,17:00,Veikkausliiga,Matchweek 4,Sat,Home,W,1.0,0.0,KTP,,1763.0,,,Petri Viljanen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
+4,2023-05-05,18:00,Veikkausliiga,Matchweek 5,Fri,Home,L,1.0,2.0,AC Oulu,,1704.0,,,Dennis Antamo,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
+5,2023-05-13,17:00,Veikkausliiga,Matchweek 7,Sat,Away,L,0.0,1.0,SJK,,2104.0,,,Joni Hyytiä,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
+6,2023-05-21,16:00,Veikkausliiga,Matchweek 7,Sun,Home,D,1.0,1.0,HJK,,6588.0,,,Petri Viljanen,Match Report,,,,,1.0,0.0,1.0,,,,2023,Ilves
+7,2023-05-26,18:00,Veikkausliiga,Matchweek 9,Fri,Away,W,2.0,0.0,VPS,,2098.0,,,Dennis Antamo,Match Report,,,,,2.0,0.0,0.0,,,,2023,Ilves
+8,2023-06-03,18:00,Veikkausliiga,Matchweek 10,Sat,Home,D,2.0,2.0,Lahti,,1820.0,,,Antti Munukka,Match Report,,,,,2.0,0.0,0.0,,,,2023,Ilves
+9,2023-06-07,18:00,Veikkausliiga,Matchweek 11,Wed,Away,D,1.0,1.0,Haka,,3347.0,,,Oliver Reitala,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
+10,2023-06-11,16:00,Veikkausliiga,Matchweek 11,Sun,Home,D,1.0,1.0,FC Honka,,2375.0,,,Ville Nevalainen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
+11,2023-06-27,18:00,Veikkausliiga,Matchweek 12,Tue,Away,L,1.0,2.0,Inter Turku,,3012.0,,,Petri Viljanen,Match Report,,,,,1.0,0.0,0.0,,,,2023,Ilves
+12,2023-07-01,17:00,Veikkausliiga,Matchweek 13,Sat,Home,D,1.0,1.0,SJK,,3311.0,,,Mohammad Al Emara,Match Report,,,,,1.0,1.0,1.0,,,,2023,Ilves
+13,2023-07-08,17:00,Veikkausliiga,Matchweek 15,Sat,Away,D,0.0,0.0,KTP,,2315.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
+14,2023-07-15,15:00,Veikkausliiga,Matchweek 15,Sat,Home,D,0.0,0.0,IFK Mariehamn,,2945.0,,,Joni Hyytiä,Match Report,,,,,0.0,0.0,0.0,,,,2023,Ilves
+15,2023-07-22,17:00,Veikkausliiga,Matchweek 16,Sat,Away,L,0.0,1.0,HJK,,5059.0,Tatu Miettunen,3-1-4-2,Joona Manninen,Match Report,,,,,,,,,,,2023,Ilves
+16,2023-07-28,18:00,Veikkausliiga,Matchweek 17,Fri,Home,L,0.0,2.0,VPS,,2351.0,Tatu Miettunen,4-2-3-1,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,Ilves
+17,2023-08-04,18:00,Veikkausliiga,Matchweek 18,Fri,Home,L,1.0,2.0,Haka,,3572.0,Tatu Miettunen,3-4-3,Dennis Antamo,Match Report,,,,,,,,,,,2023,Ilves
+18,2023-08-13,16:00,Veikkausliiga,Matchweek 19,Sun,Home,L,0.0,3.0,KuPS,,2509.0,Tatu Miettunen,4-4-1-1,Joni Hyytiä,Match Report,,,,,,,,,,,2023,Ilves
+19,2023-08-19,17:00,Veikkausliiga,Matchweek 20,Sat,Away,W,3.0,0.0,AC Oulu,,2212.0,Lauri Ala-Myllymäki,4-1-4-1,Antti Munukka,Match Report,,,,,,,,,,,2023,Ilves
+20,2023-08-27,16:00,Veikkausliiga,Matchweek 21,Sun,Away,L,0.0,2.0,FC Honka,,1874.0,Tatu Miettunen,4-5-1,Ville Nevalainen,Match Report,,,,,,,,,,,2023,Ilves
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Away,L,2.0,3.0,Lahti,,2350.0,Otso Virtanen,4-3-3,Dennis Antamo,Match Report,,,,,,,,,,,2023,Ilves
+22,,,,,,,,,,,,,,,,,,,,,14.0,3.0,4.0,,,,2023,Ilves
+0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Home,L,0.0,2.0,AC Oulu,,1815.0,,,Oliver Reitala,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+1,2023-04-14,18:00,Veikkausliiga,Matchweek 2,Fri,Home,D,0.0,0.0,KuPS,,2118.0,,,Dennis Antamo,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+2,2023-04-22,17:00,Veikkausliiga,Matchweek 3,Sat,Home,W,2.0,1.0,IFK Mariehamn,,2290.0,,,Joni Hyytiä,Match Report,,,,,2.0,0.0,0.0,,,,2023,KTP
+3,2023-04-29,17:00,Veikkausliiga,Matchweek 4,Sat,Away,L,0.0,1.0,Ilves,,1763.0,,,Petri Viljanen,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+4,2023-05-05,18:00,Veikkausliiga,Matchweek 5,Fri,Away,L,2.0,4.0,Haka,,2296.0,,,Mohammad Al Emara,Match Report,,,,,2.0,0.0,0.0,,,,2023,KTP
+5,2023-05-09,18:00,Veikkausliiga,Matchweek 6,Tue,Home,D,3.0,3.0,HJK,,3065.0,,,Joni Hyytiä,Match Report,,,,,3.0,0.0,0.0,,,,2023,KTP
+6,2023-05-13,14:00,Veikkausliiga,Matchweek 6,Sat,Away,D,0.0,0.0,Lahti,,2125.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+7,2023-05-22,18:00,Veikkausliiga,Matchweek 8,Mon,Home,L,0.0,2.0,SJK,,2815.0,,,Mohammad Al Emara,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+8,2023-05-26,18:00,Veikkausliiga,Matchweek 8,Fri,Away,W,1.0,0.0,FC Honka,,1582.0,,,Ville Nevalainen,Match Report,,,,,1.0,0.0,0.0,,,,2023,KTP
+9,2023-06-03,17:00,Veikkausliiga,Matchweek 10,Sat,Home,W,1.0,0.0,VPS,,1949.0,,,Oskari Hämäläinen,Match Report,,,,,1.0,0.0,0.0,,,,2023,KTP
+10,2023-06-07,18:00,Veikkausliiga,Matchweek 10,Wed,Away,L,1.0,2.0,Inter Turku,,2468.0,,,Joni Hyytiä,Match Report,,,,,1.0,0.0,0.0,,,,2023,KTP
+11,2023-06-11,18:30,Veikkausliiga,Matchweek 12,Sun,Away,L,0.0,1.0,HJK,,5012.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+12,2023-06-27,18:00,Veikkausliiga,Matchweek 13,Tue,Home,W,2.0,0.0,Lahti,,3154.0,,,Oliver Reitala,Match Report,,,,,2.0,0.0,0.0,,,,2023,KTP
+13,2023-07-01,18:30,Veikkausliiga,Matchweek 14,Sat,Away,D,0.0,0.0,IFK Mariehamn,,1156.0,,,Antti Munukka,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+14,2023-07-08,17:00,Veikkausliiga,Matchweek 15,Sat,Home,D,0.0,0.0,Ilves,,2315.0,,,Peiman Simani,Match Report,,,,,0.0,0.0,0.0,,,,2023,KTP
+15,2023-07-22,17:00,Veikkausliiga,Matchweek 16,Sat,Away,L,1.0,3.0,AC Oulu,,3312.0,David Ramadingaye,3-5-2,Mohammad Al Emara,Match Report,,,,,,,,,,,2023,KTP
+16,2023-07-30,16:00,Veikkausliiga,Matchweek 18,Sun,Away,L,0.0,2.0,KuPS,,2880.0,David Ramadingaye,3-5-2,Dennis Antamo,Match Report,,,,,,,,,,,2023,KTP
+17,2023-08-07,18:00,Veikkausliiga,Matchweek 18,Mon,Home,L,1.0,4.0,Inter Turku,,3317.0,Daan Klinkenberg,3-5-2,Oliver Reitala,Match Report,,,,,,,,,,,2023,KTP
+18,2023-08-15,18:00,Veikkausliiga,Matchweek 19,Tue,Away,W,3.0,2.0,SJK,,3513.0,David Ramadingaye,3-4-3,Ville Nevalainen,Match Report,,,,,,,,,,,2023,KTP
+19,2023-08-21,18:00,Veikkausliiga,Matchweek 20,Mon,Home,L,1.0,2.0,Haka,,3332.0,Lassi Nurmos,3-4-3,Dennis Antamo,Match Report,,,,,,,,,,,2023,KTP
+20,2023-08-25,18:00,Veikkausliiga,Matchweek 21,Fri,Away,L,1.0,2.0,VPS,,2987.0,Lassi Nurmos,4-5-1,Antti Munukka,Match Report,,,,,,,,,,,2023,KTP
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,L,1.0,2.0,FC Honka,,2688.0,Lassi Nurmos,3-4-3,Petri Viljanen,Match Report,,,,,,,,,,,2023,KTP
+22,,,,,,,,,,,,,,,,,,,,,12.0,0.0,0.0,,,,2023,KTP
 0,2023-04-05,18:00,Veikkausliiga,Matchweek 1,Wed,Home,D,1.0,1.0,Ilves,,807.0,,,Antti Munukka,Match Report,,,,,1.0,0.0,0.0,,,,2023,IFK Mariehamn
 1,2023-04-16,18:30,Veikkausliiga,Matchweek 2,Sun,Home,L,2.0,3.0,Lahti,,1033.0,,,Peiman Simani,Match Report,,,,,2.0,0.0,0.0,,,,2023,IFK Mariehamn
 2,2023-04-22,17:00,Veikkausliiga,Matchweek 3,Sat,Away,L,1.0,2.0,KTP,,2290.0,,,Joni Hyytiä,Match Report,,,,,1.0,0.0,0.0,,,,2023,IFK Mariehamn
@@ -262,7 +273,8 @@
 18,2023-08-11,18:00,Veikkausliiga,Matchweek 19,Fri,Away,D,1.0,1.0,Haka,,2541.0,Timi Lahti,4-3-3,Oskari Hämäläinen,Match Report,,,,,,,,,,,2023,IFK Mariehamn
 19,2023-08-18,18:30,Veikkausliiga,Matchweek 20,Fri,Home,L,0.0,1.0,FC Honka,,1259.0,Timi Lahti,4-2-3-1,Oliver Reitala,Match Report,,,,,,,,,,,2023,IFK Mariehamn
 20,2023-08-26,17:00,Veikkausliiga,Matchweek 21,Sat,Away,L,2.0,3.0,SJK,,3402.0,Jean-Christophe Coubronne,4-3-3,Joona Manninen,Match Report,,,,,,,,,,,2023,IFK Mariehamn
-21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,,,,VPS,,,,,,Head-to-Head,,,,,13.0,2.0,3.0,,,,2023,IFK Mariehamn
+21,2023-09-03,16:00,Veikkausliiga,Matchweek 22,Sun,Home,L,1.0,2.0,VPS,,1081.0,Timi Lahti,4-4-2,Peiman Simani,Match Report,,,,,,,,,,,2023,IFK Mariehamn
+22,,,,,,,,,,,,,,,,,,,,,13.0,2.0,3.0,,,,2023,IFK Mariehamn
 0,2022-04-02,15:00,Veikkausliiga,Regular season,Sat,Home,W,1.0,0.0,FC Honka,,4650.0,,,Mattias Gestranius,Match Report,,,,,1.0,0.0,0.0,,,,2022,HJK Helsinki
 1,2022-04-08,18:00,Veikkausliiga,Regular season,Fri,Away,W,1.0,0.0,SJK,,2358.0,,,Antti Munukka,Match Report,,,,,1.0,0.0,0.0,,,,2022,HJK Helsinki
 2,2022-04-18,18:00,Veikkausliiga,Regular season,Mon,Away,W,1.0,0.0,VPS,,2286.0,,,Jari Järvinen,Match Report,,,,,1.0,0.0,0.0,,,,2022,HJK Helsinki

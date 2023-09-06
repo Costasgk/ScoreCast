@@ -24,8 +24,8 @@
 22,2023-08-13,18:00,Série B,Matchweek 23,Sun,Home,W,1.0,0.0,Ceará,34.0,,Wagner,4-4-2,Bruno Arleu de Araujo,Match Report,,,0.0,0.0,1.0,1.0,1.0,8.0,2.0,25.0,2023,Vitoria
 23,2023-08-18,19:00,Série B,Matchweek 24,Fri,Home,W,2.0,0.0,Botafogo (SP),54.0,,Zeca,3-4-3,Wagner do Nascimento Magalhães,Match Report,,,0.14,0.4,2.0,0.0,0.0,14.0,5.0,35.7,2023,Vitoria
 24,2023-08-27,18:00,Série B,Matchweek 25,Sun,Away,D,0.0,0.0,Atl Goianiense,36.0,,Zeca,3-4-3,André Luiz Skettino Policarpo Bento,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,3.0,37.5,2023,Vitoria
-25,2023-09-01,19:15,Série B,Matchweek 26,Fri,Home,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,0.08,0.3,34.0,5.0,5.0,346.0,96.0,27.7,2023,Vitoria
-26,2023-09-10,18:00,Série B,Matchweek 27,Sun,Away,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
+25,2023-09-01,19:15,Série B,Matchweek 26,Fri,Home,D,0.0,0.0,Mirassol Futebol Clube,49.0,,Zeca,4-2-3-1,Dyorgines José Padovani Andrade,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,2023,Vitoria
+26,2023-09-10,18:00,Série B,Matchweek 27,Sun,Away,,,,CRB,,,,,,Head-to-Head,,,0.08,0.3,34.0,5.0,5.0,357.0,97.0,27.2,2023,Vitoria
 27,2023-09-17,18:00,Série B,Matchweek 28,Sun,Home,,,,Avaí,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
 28,2023-09-22,21:30,Série B,Matchweek 29,Fri,Away,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
 29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
@@ -37,6 +37,44 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Away,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
 36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
 37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Vitoria
+0,2023-04-30,15:30,Série B,Matchweek 3,Sun,Away,D,0.0,0.0,Grêmio Novorizontino,46.0,2122.0,Chico,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,5.0,1.0,20.0,2023,Sport Recife
+1,2023-05-07,19:00,Série B,Matchweek 5,Sun,Home,W,2.0,0.0,Guarani,48.0,99.0,Rafael Thyere,4-2-3-1,Anderson Daronco,Match Report,,,0.09,0.33,2.0,0.0,0.0,22.0,6.0,27.3,2023,Sport Recife
+2,2023-05-10,21:30,Série B,Matchweek 4,Wed,Home,W,3.0,2.0,Tombense Futebol Clube,44.0,89.0,Rafael Thyere,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.23,0.5,3.0,0.0,0.0,13.0,6.0,46.2,2023,Sport Recife
+3,2023-05-14,20:30,Série B,Matchweek 6,Sun,Away,D,1.0,1.0,Ituano,47.0,1307.0,Edinho,4-2-3-1,Leo Simão Holanda,Match Report,,,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,2023,Sport Recife
+4,2023-05-20,16:00,Série B,Matchweek 7,Sat,Home,W,3.0,0.0,Botafogo (SP),46.0,18233.0,Rafael Thyere,4-2-3-1,Bruno Mota Correia,Match Report,,,0.11,0.5,2.0,0.0,0.0,18.0,4.0,22.2,2023,Sport Recife
+5,2023-05-24,21:30,Série B,Matchweek 8,Wed,Away,L,0.0,1.0,Criciúma,55.0,13709.0,Vágner Love,4-2-3-1,João Vitor Gobi,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,2023,Sport Recife
+6,2023-05-28,18:00,Série B,Matchweek 9,Sun,Home,W,4.0,1.0,ABC,56.0,18358.0,Vágner Love,4-2-3-1,Dyorgines José Padovani Andrade,Match Report,,,0.22,0.57,4.0,0.0,0.0,18.0,7.0,38.9,2023,Sport Recife
+7,2023-06-04,18:00,Série B,Matchweek 10,Sun,Away,W,2.0,1.0,Londrina,63.0,980.0,Rafael Thyere,4-2-3-1,Thiago Luis Scarascati,Match Report,,,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,2023,Sport Recife
+8,2023-06-07,19:00,Série B,Matchweek 11,Wed,Home,W,2.0,1.0,Avaí,54.0,18699.0,Rafael Thyere,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,2023,Sport Recife
+9,2023-06-11,11:00,Série B,Matchweek 12,Sun,Away,D,1.0,1.0,Ponte Preta,65.0,5065.0,Rafael Thyere,4-2-3-1,Bruno Arleu de Araujo,Match Report,,,0.06,0.33,1.0,0.0,0.0,18.0,3.0,16.7,2023,Sport Recife
+10,2023-06-18,18:00,Série B,Matchweek 2,Sun,Home,W,1.0,0.0,Vila Nova,43.0,15004.0,Rafael Thyere,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,2023,Sport Recife
+11,2023-06-22,21:30,Série B,Matchweek 13,Thu,Home,W,3.0,0.0,Juventude,41.0,14136.0,Rafael Thyere,4-2-3-1,Matheus Delgado Candançan,Match Report,,,0.19,0.38,3.0,0.0,0.0,16.0,8.0,50.0,2023,Sport Recife
+12,2023-06-27,19:00,Série B,Matchweek 14,Tue,Away,D,1.0,1.0,Chapecoense,43.0,5760.0,Rafael Thyere,4-2-3-1,Leonardo Ferreira Lima,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Sport Recife
+13,2023-07-02,18:00,Série B,Matchweek 15,Sun,Home,W,2.0,0.0,Ceará,46.0,17713.0,Rafael Thyere,4-2-3-1,Bruno Arleu de Araujo,Match Report,,,0.07,0.17,2.0,1.0,2.0,14.0,6.0,42.9,2023,Sport Recife
+14,2023-07-05,19:00,Série B,Matchweek 1,Wed,Away,L,0.0,2.0,CRB,60.0,,Rafael Thyere,4-2-3-1,Caio Max Augusto Vieira,Match Report,,,0.0,,0.0,0.0,0.0,17.0,0.0,0.0,2023,Sport Recife
+15,2023-07-09,18:00,Série B,Matchweek 16,Sun,Home,D,0.0,0.0,Mirassol Futebol Clube,37.0,,Rafael Thyere,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,3.0,30.0,2023,Sport Recife
+16,2023-07-14,21:30,Série B,Matchweek 17,Fri,Away,L,1.0,3.0,Atl Goianiense,54.0,,Rafael Thyere,4-2-3-1,João Vitor Gobi,Match Report,,,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,2023,Sport Recife
+17,2023-07-19,21:30,Série B,Matchweek 18,Wed,Home,L,1.0,2.0,Vitória,58.0,,Rafael Thyere,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,2.0,12.5,2023,Sport Recife
+18,2023-07-23,18:00,Série B,Matchweek 19,Sun,Away,W,2.0,1.0,Sampaio Corrêa,36.0,,Rafael Thyere,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,,0.4,1.0,2.0,0.0,0.0,5.0,2.0,40.0,2023,Sport Recife
+19,2023-07-28,21:30,Série B,Matchweek 20,Fri,Home,W,2.0,0.0,CRB,58.0,,Rafael Thyere,4-2-3-1,Anderson Daronco,Match Report,,,0.07,0.14,2.0,1.0,1.0,15.0,7.0,46.7,2023,Sport Recife
+20,2023-08-02,21:30,Série B,Matchweek 21,Wed,Away,W,1.0,0.0,Vila Nova,39.0,,Rafael Thyere,4-3-3,Luiz Flávio de Oliveira,Match Report,,,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,2023,Sport Recife
+21,2023-08-05,18:00,Série B,Matchweek 22,Sat,Home,W,1.0,0.0,Grêmio Novorizontino,40.0,,Rafael Thyere,4-2-3-1,Savio Pereira,Match Report,,,0.09,0.17,1.0,0.0,0.0,11.0,6.0,54.5,2023,Sport Recife
+22,2023-08-11,21:30,Série B,Matchweek 23,Fri,Away,D,0.0,0.0,Tombense Futebol Clube,50.0,,Rafael Thyere,3-4-3,Braulio da Silva Machado,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Sport Recife
+23,2023-08-18,21:30,Série B,Matchweek 24,Fri,Away,L,1.0,3.0,Guarani,60.0,,Rafael Thyere,4-3-3,Wilton Sampaio,Match Report,,,0.0,0.0,1.0,1.0,1.0,19.0,4.0,21.1,2023,Sport Recife
+24,2023-08-25,21:30,Série B,Matchweek 25,Fri,Home,L,1.0,2.0,Ituano,67.0,,Rafael Thyere,4-4-2,Felipe Fernandes de Lima,Match Report,,,0.06,0.25,1.0,0.0,0.0,18.0,4.0,22.2,2023,Sport Recife
+25,2023-09-03,18:00,Série B,Matchweek 26,Sun,Away,D,1.0,1.0,Botafogo (SP),60.0,,Vágner Love,4-3-3,Rafael Rodrigo Klein,Match Report,,,0.07,0.25,1.0,0.0,0.0,15.0,4.0,26.7,2023,Sport Recife
+26,2023-09-09,20:45,Série B,Matchweek 27,Sat,Home,,,,Criciúma,,,,,,Head-to-Head,,,0.09,0.3,34.0,3.0,4.0,344.0,105.0,30.5,2023,Sport Recife
+27,2023-09-15,21:30,Série B,Matchweek 28,Fri,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+28,2023-09-23,20:45,Série B,Matchweek 29,Sat,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Avaí,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+32,2023-10-24,,Série B,Matchweek 33,Tue,Home,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+33,2023-10-27,,Série B,Matchweek 34,Fri,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+34,2023-10-31,,Série B,Matchweek 35,Tue,Away,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
+37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
 0,2023-04-15,16:00,Série B,Matchweek 1,Sat,Away,L,1.0,2.0,Vila Nova,50.0,4571.0,Ronaldo,4-3-3,Leo Simão Holanda,Match Report,,,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,2023,Gremio Novorizontino
 1,2023-04-22,17:00,Série B,Matchweek 2,Sat,Home,W,1.0,0.0,Juventude,47.0,1792.0,Ligger,3-4-3,Emerson Ricardo de Almeida Andrade,Match Report,,,0.04,0.14,1.0,0.0,0.0,25.0,7.0,28.0,2023,Gremio Novorizontino
 2,2023-04-30,15:30,Série B,Matchweek 3,Sun,Home,D,0.0,0.0,Sport Recife,54.0,2122.0,Ligger,3-4-3,Paulo Cesar Zanovelli da Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,18.0,3.0,16.7,2023,Gremio Novorizontino
@@ -64,8 +102,8 @@
 24,2023-08-26,18:00,Série B,Matchweek 25,Sat,Away,L,0.0,1.0,CRB,41.0,,Douglas Baggio,3-4-3,Jonathan Benkenstein Pinheiro,Match Report,,,0.0,0.0,0.0,0.0,1.0,16.0,5.0,31.3,2023,Gremio Novorizontino
 25,2023-08-30,19:00,Série B,Matchweek 26,Wed,Home,W,2.0,0.0,Ituano,38.0,,Marlon,3-4-3,Luiz Flávio de Oliveira,Match Report,,,0.13,0.5,2.0,0.0,0.0,16.0,4.0,25.0,2023,Gremio Novorizontino
 26,2023-09-11,20:30,Série B,Matchweek 27,Mon,Away,,,,Avaí,,,,,,Head-to-Head,,,0.07,0.22,31.0,2.0,3.0,438.0,129.0,29.5,2023,Gremio Novorizontino
-27,2023-09-18,20:00,Série B,Matchweek 28,Mon,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
-28,2023-09-25,20:00,Série B,Matchweek 29,Mon,Home,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
+27,2023-09-18,21:00,Série B,Matchweek 28,Mon,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
+28,2023-09-25,21:00,Série B,Matchweek 29,Mon,Home,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
 30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
 31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
@@ -75,44 +113,6 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
 36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
 37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Gremio Novorizontino
-0,2023-04-30,15:30,Série B,Matchweek 3,Sun,Away,D,0.0,0.0,Grêmio Novorizontino,46.0,2122.0,Chico,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,5.0,1.0,20.0,2023,Sport Recife
-1,2023-05-07,19:00,Série B,Matchweek 5,Sun,Home,W,2.0,0.0,Guarani,48.0,99.0,Rafael Thyere,4-2-3-1,Anderson Daronco,Match Report,,,0.09,0.33,2.0,0.0,0.0,22.0,6.0,27.3,2023,Sport Recife
-2,2023-05-10,21:30,Série B,Matchweek 4,Wed,Home,W,3.0,2.0,Tombense Futebol Clube,44.0,89.0,Rafael Thyere,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.23,0.5,3.0,0.0,0.0,13.0,6.0,46.2,2023,Sport Recife
-3,2023-05-14,20:30,Série B,Matchweek 6,Sun,Away,D,1.0,1.0,Ituano,47.0,1307.0,Edinho,4-2-3-1,Leo Simão Holanda,Match Report,,,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,2023,Sport Recife
-4,2023-05-20,16:00,Série B,Matchweek 7,Sat,Home,W,3.0,0.0,Botafogo (SP),46.0,18233.0,Rafael Thyere,4-2-3-1,Bruno Mota Correia,Match Report,,,0.11,0.5,2.0,0.0,0.0,18.0,4.0,22.2,2023,Sport Recife
-5,2023-05-24,21:30,Série B,Matchweek 8,Wed,Away,L,0.0,1.0,Criciúma,55.0,13709.0,Vágner Love,4-2-3-1,João Vitor Gobi,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,2023,Sport Recife
-6,2023-05-28,18:00,Série B,Matchweek 9,Sun,Home,W,4.0,1.0,ABC,56.0,18358.0,Vágner Love,4-2-3-1,Dyorgines José Padovani Andrade,Match Report,,,0.22,0.57,4.0,0.0,0.0,18.0,7.0,38.9,2023,Sport Recife
-7,2023-06-04,18:00,Série B,Matchweek 10,Sun,Away,W,2.0,1.0,Londrina,63.0,980.0,Rafael Thyere,4-2-3-1,Thiago Luis Scarascati,Match Report,,,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,2023,Sport Recife
-8,2023-06-07,19:00,Série B,Matchweek 11,Wed,Home,W,2.0,1.0,Avaí,54.0,18699.0,Rafael Thyere,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.29,0.67,2.0,0.0,0.0,7.0,3.0,42.9,2023,Sport Recife
-9,2023-06-11,11:00,Série B,Matchweek 12,Sun,Away,D,1.0,1.0,Ponte Preta,65.0,5065.0,Rafael Thyere,4-2-3-1,Bruno Arleu de Araujo,Match Report,,,0.06,0.33,1.0,0.0,0.0,18.0,3.0,16.7,2023,Sport Recife
-10,2023-06-18,18:00,Série B,Matchweek 2,Sun,Home,W,1.0,0.0,Vila Nova,43.0,15004.0,Rafael Thyere,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,2023,Sport Recife
-11,2023-06-22,21:30,Série B,Matchweek 13,Thu,Home,W,3.0,0.0,Juventude,41.0,14136.0,Rafael Thyere,4-2-3-1,Matheus Delgado Candançan,Match Report,,,0.19,0.38,3.0,0.0,0.0,16.0,8.0,50.0,2023,Sport Recife
-12,2023-06-27,19:00,Série B,Matchweek 14,Tue,Away,D,1.0,1.0,Chapecoense,43.0,5760.0,Rafael Thyere,4-2-3-1,Leonardo Ferreira Lima,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Sport Recife
-13,2023-07-02,18:00,Série B,Matchweek 15,Sun,Home,W,2.0,0.0,Ceará,46.0,17713.0,Rafael Thyere,4-2-3-1,Bruno Arleu de Araujo,Match Report,,,0.07,0.17,2.0,1.0,2.0,14.0,6.0,42.9,2023,Sport Recife
-14,2023-07-05,19:00,Série B,Matchweek 1,Wed,Away,L,0.0,2.0,CRB,60.0,,Rafael Thyere,4-2-3-1,Caio Max Augusto Vieira,Match Report,,,0.0,,0.0,0.0,0.0,17.0,0.0,0.0,2023,Sport Recife
-15,2023-07-09,18:00,Série B,Matchweek 16,Sun,Home,D,0.0,0.0,Mirassol Futebol Clube,37.0,,Rafael Thyere,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,3.0,30.0,2023,Sport Recife
-16,2023-07-14,21:30,Série B,Matchweek 17,Fri,Away,L,1.0,3.0,Atl Goianiense,54.0,,Rafael Thyere,4-2-3-1,João Vitor Gobi,Match Report,,,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,2023,Sport Recife
-17,2023-07-19,21:30,Série B,Matchweek 18,Wed,Home,L,1.0,2.0,Vitória,58.0,,Rafael Thyere,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,2.0,12.5,2023,Sport Recife
-18,2023-07-23,18:00,Série B,Matchweek 19,Sun,Away,W,2.0,1.0,Sampaio Corrêa,36.0,,Rafael Thyere,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,,0.4,1.0,2.0,0.0,0.0,5.0,2.0,40.0,2023,Sport Recife
-19,2023-07-28,21:30,Série B,Matchweek 20,Fri,Home,W,2.0,0.0,CRB,58.0,,Rafael Thyere,4-2-3-1,Anderson Daronco,Match Report,,,0.07,0.14,2.0,1.0,1.0,15.0,7.0,46.7,2023,Sport Recife
-20,2023-08-02,21:30,Série B,Matchweek 21,Wed,Away,W,1.0,0.0,Vila Nova,39.0,,Rafael Thyere,4-3-3,Luiz Flávio de Oliveira,Match Report,,,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,2023,Sport Recife
-21,2023-08-05,18:00,Série B,Matchweek 22,Sat,Home,W,1.0,0.0,Grêmio Novorizontino,40.0,,Rafael Thyere,4-2-3-1,Savio Pereira,Match Report,,,0.09,0.17,1.0,0.0,0.0,11.0,6.0,54.5,2023,Sport Recife
-22,2023-08-11,21:30,Série B,Matchweek 23,Fri,Away,D,0.0,0.0,Tombense Futebol Clube,50.0,,Rafael Thyere,3-4-3,Braulio da Silva Machado,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Sport Recife
-23,2023-08-18,21:30,Série B,Matchweek 24,Fri,Away,L,1.0,3.0,Guarani,60.0,,Rafael Thyere,4-3-3,Wilton Sampaio,Match Report,,,0.0,0.0,1.0,1.0,1.0,19.0,4.0,21.1,2023,Sport Recife
-24,2023-08-25,21:30,Série B,Matchweek 25,Fri,Home,L,1.0,2.0,Ituano,67.0,,Rafael Thyere,4-4-2,Felipe Fernandes de Lima,Match Report,,,0.06,0.25,1.0,0.0,0.0,18.0,4.0,22.2,2023,Sport Recife
-25,2023-09-03,18:00,Série B,Matchweek 26,Sun,Away,,,,Botafogo (SP),,,,,,Head-to-Head,,,0.09,0.3,33.0,3.0,4.0,329.0,101.0,30.7,2023,Sport Recife
-26,2023-09-09,20:45,Série B,Matchweek 27,Sat,Home,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-27,2023-09-15,21:30,Série B,Matchweek 28,Fri,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-28,2023-09-23,20:45,Série B,Matchweek 29,Sat,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Avaí,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-32,2023-10-24,,Série B,Matchweek 33,Tue,Home,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-33,2023-10-27,,Série B,Matchweek 34,Fri,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-34,2023-10-31,,Série B,Matchweek 35,Tue,Away,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
-37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Sport Recife
 0,2023-04-16,11:00,Série B,Matchweek 1,Sun,Home,W,2.0,0.0,Tombense Futebol Clube,36.0,13871.0,Rodrigo Fagundes,4-2-2-2,Denis da Silva Ribeiro Serafim,Match Report,,,0.14,0.33,2.0,0.0,0.0,14.0,6.0,42.9,2023,Criciuma
 1,2023-04-21,21:30,Série B,Matchweek 2,Fri,Away,W,2.0,1.0,Ponte Preta,45.0,,Rodrigo Fagundes,4-2-2-2,Leandro Pedro Vuaden,Match Report,,,0.2,0.4,2.0,0.0,0.0,10.0,5.0,50.0,2023,Criciuma
 2,2023-04-28,19:00,Série B,Matchweek 3,Fri,Home,W,1.0,0.0,Avaí,55.0,15747.0,Rodrigo Fagundes,4-4-2,Wagner do Nascimento Magalhães,Match Report,,,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,2023,Criciuma
@@ -138,10 +138,10 @@
 22,2023-08-12,15:30,Série B,Matchweek 23,Sat,Home,W,2.0,0.0,Londrina,59.0,,Rodrigo Fagundes,4-2-3-1,Dyorgines José Padovani Andrade,Match Report,,,0.13,0.29,2.0,0.0,0.0,15.0,7.0,46.7,2023,Criciuma
 23,2023-08-19,17:00,Série B,Matchweek 24,Sat,Away,L,0.0,3.0,Ituano,50.0,,Rodrigo Fagundes,4-2-3-1,Leandro Pedro Vuaden,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,2023,Criciuma
 24,2023-08-22,21:30,Série B,Matchweek 25,Tue,Home,W,1.0,0.0,Vila Nova,39.0,,Rodrigo Fagundes,4-3-3,Bruno Mota Correia,Match Report,,,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,2023,Criciuma
-25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Away,,,,Ceará,,,,,,Head-to-Head,,,0.08,0.24,28.0,3.0,3.0,333.0,104.0,31.2,2023,Criciuma
-26,2023-09-09,20:45,Série B,Matchweek 27,Sat,Away,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
+25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Away,L,0.0,1.0,Ceará,55.0,,Gustavo,4-3-3,Jose Mendonca da Silva Junior,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,6.0,35.3,2023,Criciuma
+26,2023-09-09,20:45,Série B,Matchweek 27,Sat,Away,,,,Sport Recife,,,,,,Head-to-Head,,,0.07,0.23,28.0,3.0,3.0,350.0,110.0,31.4,2023,Criciuma
 27,2023-09-16,15:30,Série B,Matchweek 28,Sat,Home,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
-28,2023-09-24,15:45,Série B,Matchweek 29,Sun,Away,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
+28,2023-09-20,21:30,Série B,Matchweek 29,Wed,Away,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
 30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
 31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Criciuma
@@ -176,10 +176,10 @@
 22,2023-08-13,15:45,Série B,Matchweek 23,Sun,Away,W,1.0,0.0,Guarani,34.0,,Nenê,4-4-2,Marielson Alves Silva,Match Report,,,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,2023,Juventude
 23,2023-08-19,18:00,Série B,Matchweek 24,Sat,Home,D,0.0,0.0,Sampaio Corrêa,72.0,,Nenê,4-3-3,Jefferson Ferreira de Moraes,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,1.0,5.9,2023,Juventude
 24,2023-08-22,19:00,Série B,Matchweek 25,Tue,Away,W,1.0,0.0,Mirassol Futebol Clube,37.0,,Nenê,3-4-3,Denis da Silva Ribeiro Serafim,Match Report,,,0.2,1.0,1.0,0.0,0.0,5.0,1.0,20.0,2023,Juventude
-25,2023-08-31,21:30,Série B,Matchweek 26,Thu,Home,,,,Chapecoense,,,,,,Head-to-Head,,,0.07,0.24,25.0,3.0,3.0,322.0,93.0,28.9,2023,Juventude
-26,2023-09-10,15:45,Série B,Matchweek 27,Sun,Away,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
+25,2023-08-31,21:30,Série B,Matchweek 26,Thu,Home,D,0.0,0.0,Chapecoense,60.0,,Alan Ruschel,4-3-3,Maguielson Lima Barbosa,Match Report,,,0.0,0.0,0.0,0.0,0.0,18.0,3.0,16.7,2023,Juventude
+26,2023-09-10,15:45,Série B,Matchweek 27,Sun,Away,,,,Atl Goianiense,,,,,,Head-to-Head,,,0.06,0.23,25.0,3.0,3.0,340.0,96.0,28.2,2023,Juventude
 27,2023-09-16,18:00,Série B,Matchweek 28,Sat,Home,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
-28,2023-09-23,18:00,Série B,Matchweek 29,Sat,Away,,,,Avaí,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
+28,2023-09-25,18:00,Série B,Matchweek 29,Mon,Away,,,,Avaí,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
 29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
 30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
 31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
@@ -189,44 +189,6 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
 36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
 37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Juventude
-0,2023-04-15,16:00,Série B,Matchweek 1,Sat,Home,W,2.0,1.0,Grêmio Novorizontino,50.0,4571.0,Rafael Donato,4-3-3,Leo Simão Holanda,Match Report,,,0.12,0.4,2.0,0.0,0.0,17.0,5.0,29.4,2023,Vila Nova
-1,2023-04-30,18:15,Série B,Matchweek 3,Sun,Home,W,1.0,0.0,Juventude,37.0,8177.0,Rafael Donato,4-3-3,Diego Pombo Lopez,Match Report,,,0.06,0.5,1.0,0.0,0.0,16.0,2.0,12.5,2023,Vila Nova
-2,2023-05-03,21:15,Série B,Matchweek 4,Wed,Away,W,3.0,0.0,Avaí,28.0,4436.0,Ralf,4-3-3,Vinicius Gonçalves Dias Araujo,Match Report,,,0.2,0.6,3.0,0.0,0.0,15.0,5.0,33.3,2023,Vila Nova
-3,2023-05-06,18:15,Série B,Matchweek 5,Sat,Away,D,1.0,1.0,Mirassol Futebol Clube,38.0,1637.0,Ralf,4-3-3,Caio Max Augusto Vieira,Match Report,,,0.06,0.14,1.0,0.0,0.0,18.0,7.0,38.9,2023,Vila Nova
-4,2023-05-12,19:00,Série B,Matchweek 6,Fri,Home,D,0.0,0.0,Criciúma,56.0,9081.0,Rafael Donato,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.0,0.0,0.0,0.0,0.0,25.0,6.0,24.0,2023,Vila Nova
-5,2023-05-21,18:15,Série B,Matchweek 7,Sun,Away,W,3.0,0.0,CRB,68.0,1996.0,Ralf,4-3-3,Dyorgines José Padovani Andrade,Match Report,,,0.12,0.3,3.0,0.0,0.0,26.0,10.0,38.5,2023,Vila Nova
-6,2023-05-24,19:00,Série B,Matchweek 8,Wed,Home,W,1.0,0.0,Ituano,39.0,10000.0,Rafael Donato,4-4-2,Lucas Paulo Torezin,Match Report,,,0.05,0.17,1.0,0.0,1.0,22.0,6.0,27.3,2023,Vila Nova
-7,2023-05-28,11:00,Série B,Matchweek 9,Sun,Away,L,0.0,1.0,Ponte Preta,53.0,4223.0,Ralf,4-4-2,Bruno Mota Correia,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Vila Nova
-8,2023-06-03,19:00,Série B,Matchweek 10,Sat,Home,W,3.0,0.0,Sampaio Corrêa,38.0,8260.0,Rafael Donato,4-4-2,Leonardo Ferreira Lima,Match Report,,,0.33,1.0,3.0,0.0,0.0,9.0,3.0,33.3,2023,Vila Nova
-9,2023-06-06,19:00,Série B,Matchweek 11,Tue,Away,W,1.0,0.0,Chapecoense,49.0,4720.0,Ralf,4-4-2,Douglas Marques das Flores,Match Report,,,0.04,0.1,1.0,0.0,0.0,23.0,10.0,43.5,2023,Vila Nova
-10,2023-06-10,16:00,Série B,Matchweek 12,Sat,Home,D,0.0,0.0,Guarani,44.0,10000.0,Rafael Donato,4-4-2,Caio Max Augusto Vieira,Match Report,,,0.0,0.0,0.0,0.0,0.0,26.0,6.0,23.1,2023,Vila Nova
-11,2023-06-18,18:00,Série B,Matchweek 2,Sun,Away,L,0.0,1.0,Sport Recife,57.0,15004.0,Ralf,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,4.0,26.7,2023,Vila Nova
-12,2023-06-24,11:00,Série B,Matchweek 13,Sat,Away,W,3.0,0.0,Botafogo (SP),40.0,3446.0,Rafael Donato,4-4-1-1,Felipe Fernandes de Lima,Match Report,,,0.3,0.6,3.0,0.0,0.0,10.0,5.0,50.0,2023,Vila Nova
-13,2023-06-27,21:30,Série B,Matchweek 14,Tue,Home,W,1.0,0.0,Tombense Futebol Clube,66.0,8624.0,Rafael Donato,4-4-1-1,Arthur Gomes Rabelo,Match Report,,,0.03,0.17,1.0,0.0,0.0,29.0,6.0,20.7,2023,Vila Nova
-14,2023-07-01,16:00,Série B,Matchweek 15,Sat,Away,D,1.0,1.0,Atl Goianiense,38.0,7920.0,Ralf,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.07,0.14,1.0,0.0,0.0,14.0,7.0,50.0,2023,Vila Nova
-15,2023-07-10,20:00,Série B,Matchweek 16,Mon,Home,W,1.0,0.0,Vitória,44.0,,Rafael Donato,4-4-2,Matheus Delgado Candançan,Match Report,,,0.05,0.33,1.0,0.0,0.0,22.0,3.0,13.6,2023,Vila Nova
-16,2023-07-15,17:00,Série B,Matchweek 17,Sat,Away,L,0.0,1.0,Londrina,63.0,,Ralf,4-3-3,Caio Max Augusto Vieira,Match Report,,,0.0,0.0,0.0,0.0,0.0,19.0,7.0,36.8,2023,Vila Nova
-17,2023-07-19,21:30,Série B,Matchweek 18,Wed,Away,L,0.0,1.0,Ceará,45.0,,Rafael Donato,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,2.0,18.2,2023,Vila Nova
-18,2023-07-22,17:00,Série B,Matchweek 19,Sat,Home,D,1.0,1.0,ABC,65.0,10000.0,Rafael Donato,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,2023,Vila Nova
-19,2023-07-30,15:30,Série B,Matchweek 20,Sun,Away,L,1.0,3.0,Grêmio Novorizontino,58.0,,Ralf,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,,0.07,0.17,1.0,0.0,0.0,14.0,6.0,42.9,2023,Vila Nova
-20,2023-08-02,21:30,Série B,Matchweek 21,Wed,Home,L,0.0,1.0,Sport Recife,61.0,,Rafael Donato,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,3.0,18.8,2023,Vila Nova
-21,2023-08-07,18:00,Série B,Matchweek 22,Mon,Away,W,2.0,0.0,Juventude,36.0,,Rafael Donato,4-2-3-1,Leo Simão Holanda,Match Report,,,0.2,1.0,1.0,0.0,0.0,5.0,1.0,20.0,2023,Vila Nova
-22,2023-08-12,18:00,Série B,Matchweek 23,Sat,Home,D,1.0,1.0,Avaí,53.0,,Rafael Donato,4-2-3-1,Matheus Delgado Candançan,Match Report,,,0.05,0.17,1.0,0.0,0.0,22.0,6.0,27.3,2023,Vila Nova
-23,2023-08-17,21:30,Série B,Matchweek 24,Thu,Home,W,2.0,0.0,Mirassol Futebol Clube,28.0,,Rafael Donato,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,2023,Vila Nova
-24,2023-08-22,21:30,Série B,Matchweek 25,Tue,Away,L,0.0,1.0,Criciúma,61.0,,Ralf,4-3-3,Bruno Mota Correia,Match Report,,,0.0,0.0,0.0,0.0,1.0,13.0,6.0,46.2,2023,Vila Nova
-25,2023-09-03,15:45,Série B,Matchweek 26,Sun,Home,,,,CRB,,,,,,Head-to-Head,,,0.06,0.22,27.0,0.0,2.0,424.0,125.0,29.5,2023,Vila Nova
-26,2023-09-08,18:00,Série B,Matchweek 27,Fri,Away,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-27,2023-09-15,19:00,Série B,Matchweek 28,Fri,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-28,2023-09-19,21:30,Série B,Matchweek 29,Tue,Away,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-32,2023-10-24,,Série B,Matchweek 33,Tue,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-33,2023-10-27,,Série B,Matchweek 34,Fri,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-34,2023-10-31,,Série B,Matchweek 35,Tue,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
-37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
 0,2023-04-14,19:00,Série B,Matchweek 1,Fri,Home,W,4.0,1.0,Avaí,42.0,3569.0,Alan Santos,4-2-3-1,Emerson Ricardo de Almeida Andrade,Match Report,,,0.3,0.5,4.0,1.0,1.0,10.0,6.0,60.0,2023,Guarani
 1,2023-04-22,18:15,Série B,Matchweek 2,Sat,Away,W,3.0,0.0,Ceará,42.0,,Alan Santos,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.21,0.5,3.0,0.0,0.0,14.0,6.0,42.9,2023,Guarani
 2,2023-04-28,21:30,Série B,Matchweek 3,Fri,Home,W,1.0,0.0,Ituano,45.0,4657.0,Alan Santos,4-2-3-1,Bruno Mota Correia,Match Report,,,0.0,0.0,1.0,1.0,1.0,10.0,4.0,40.0,2023,Guarani
@@ -252,8 +214,8 @@
 22,2023-08-13,15:45,Série B,Matchweek 23,Sun,Home,L,0.0,1.0,Juventude,66.0,,Diogo Mateus,4-4-2,Marielson Alves Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,2023,Guarani
 23,2023-08-18,21:30,Série B,Matchweek 24,Fri,Home,W,3.0,1.0,Sport Recife,40.0,,Diogo Mateus,4-4-2,Wilton Sampaio,Match Report,,,0.5,0.6,3.0,0.0,0.0,6.0,5.0,83.3,2023,Guarani
 24,2023-08-26,17:00,Série B,Matchweek 25,Sat,Away,D,1.0,1.0,Sampaio Corrêa,36.0,,Pegorari,4-4-2,Arthur Gomes Rabelo,Match Report,,,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,2023,Guarani
-25,2023-09-02,18:00,Série B,Matchweek 26,Sat,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,0.1,0.3,31.0,3.0,5.0,276.0,92.0,33.3,2023,Guarani
-26,2023-09-05,21:30,Série B,Matchweek 27,Tue,Away,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
+25,2023-09-02,18:00,Série B,Matchweek 26,Sat,Home,W,1.0,0.0,Ponte Preta,52.0,,Diogo Mateus,4-4-2,Edina Alves Batista,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Guarani
+26,2023-09-05,21:30,Série B,Matchweek 27,Tue,Away,,,,Chapecoense,,,,,,Head-to-Head,,,0.1,0.3,32.0,3.0,5.0,288.0,96.0,33.3,2023,Guarani
 27,2023-09-17,15:45,Série B,Matchweek 28,Sun,Home,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
 28,2023-09-23,17:00,Série B,Matchweek 29,Sat,Away,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
 29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
@@ -265,6 +227,44 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
 36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
 37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Guarani
+0,2023-04-15,16:00,Série B,Matchweek 1,Sat,Home,W,2.0,1.0,Grêmio Novorizontino,50.0,4571.0,Rafael Donato,4-3-3,Leo Simão Holanda,Match Report,,,0.12,0.4,2.0,0.0,0.0,17.0,5.0,29.4,2023,Vila Nova
+1,2023-04-30,18:15,Série B,Matchweek 3,Sun,Home,W,1.0,0.0,Juventude,37.0,8177.0,Rafael Donato,4-3-3,Diego Pombo Lopez,Match Report,,,0.06,0.5,1.0,0.0,0.0,16.0,2.0,12.5,2023,Vila Nova
+2,2023-05-03,21:15,Série B,Matchweek 4,Wed,Away,W,3.0,0.0,Avaí,28.0,4436.0,Ralf,4-3-3,Vinicius Gonçalves Dias Araujo,Match Report,,,0.2,0.6,3.0,0.0,0.0,15.0,5.0,33.3,2023,Vila Nova
+3,2023-05-06,18:15,Série B,Matchweek 5,Sat,Away,D,1.0,1.0,Mirassol Futebol Clube,38.0,1637.0,Ralf,4-3-3,Caio Max Augusto Vieira,Match Report,,,0.06,0.14,1.0,0.0,0.0,18.0,7.0,38.9,2023,Vila Nova
+4,2023-05-12,19:00,Série B,Matchweek 6,Fri,Home,D,0.0,0.0,Criciúma,56.0,9081.0,Rafael Donato,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.0,0.0,0.0,0.0,0.0,25.0,6.0,24.0,2023,Vila Nova
+5,2023-05-21,18:15,Série B,Matchweek 7,Sun,Away,W,3.0,0.0,CRB,68.0,1996.0,Ralf,4-3-3,Dyorgines José Padovani Andrade,Match Report,,,0.12,0.3,3.0,0.0,0.0,26.0,10.0,38.5,2023,Vila Nova
+6,2023-05-24,19:00,Série B,Matchweek 8,Wed,Home,W,1.0,0.0,Ituano,39.0,10000.0,Rafael Donato,4-4-2,Lucas Paulo Torezin,Match Report,,,0.05,0.17,1.0,0.0,1.0,22.0,6.0,27.3,2023,Vila Nova
+7,2023-05-28,11:00,Série B,Matchweek 9,Sun,Away,L,0.0,1.0,Ponte Preta,53.0,4223.0,Ralf,4-4-2,Bruno Mota Correia,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Vila Nova
+8,2023-06-03,19:00,Série B,Matchweek 10,Sat,Home,W,3.0,0.0,Sampaio Corrêa,38.0,8260.0,Rafael Donato,4-4-2,Leonardo Ferreira Lima,Match Report,,,0.33,1.0,3.0,0.0,0.0,9.0,3.0,33.3,2023,Vila Nova
+9,2023-06-06,19:00,Série B,Matchweek 11,Tue,Away,W,1.0,0.0,Chapecoense,49.0,4720.0,Ralf,4-4-2,Douglas Marques das Flores,Match Report,,,0.04,0.1,1.0,0.0,0.0,23.0,10.0,43.5,2023,Vila Nova
+10,2023-06-10,16:00,Série B,Matchweek 12,Sat,Home,D,0.0,0.0,Guarani,44.0,10000.0,Rafael Donato,4-4-2,Caio Max Augusto Vieira,Match Report,,,0.0,0.0,0.0,0.0,0.0,26.0,6.0,23.1,2023,Vila Nova
+11,2023-06-18,18:00,Série B,Matchweek 2,Sun,Away,L,0.0,1.0,Sport Recife,57.0,15004.0,Ralf,4-2-3-1,Paulo Cesar Zanovelli da Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,4.0,26.7,2023,Vila Nova
+12,2023-06-24,11:00,Série B,Matchweek 13,Sat,Away,W,3.0,0.0,Botafogo (SP),40.0,3446.0,Rafael Donato,4-4-1-1,Felipe Fernandes de Lima,Match Report,,,0.3,0.6,3.0,0.0,0.0,10.0,5.0,50.0,2023,Vila Nova
+13,2023-06-27,21:30,Série B,Matchweek 14,Tue,Home,W,1.0,0.0,Tombense Futebol Clube,66.0,8624.0,Rafael Donato,4-4-1-1,Arthur Gomes Rabelo,Match Report,,,0.03,0.17,1.0,0.0,0.0,29.0,6.0,20.7,2023,Vila Nova
+14,2023-07-01,16:00,Série B,Matchweek 15,Sat,Away,D,1.0,1.0,Atl Goianiense,38.0,7920.0,Ralf,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.07,0.14,1.0,0.0,0.0,14.0,7.0,50.0,2023,Vila Nova
+15,2023-07-10,20:00,Série B,Matchweek 16,Mon,Home,W,1.0,0.0,Vitória,44.0,,Rafael Donato,4-4-2,Matheus Delgado Candançan,Match Report,,,0.05,0.33,1.0,0.0,0.0,22.0,3.0,13.6,2023,Vila Nova
+16,2023-07-15,17:00,Série B,Matchweek 17,Sat,Away,L,0.0,1.0,Londrina,63.0,,Ralf,4-3-3,Caio Max Augusto Vieira,Match Report,,,0.0,0.0,0.0,0.0,0.0,19.0,7.0,36.8,2023,Vila Nova
+17,2023-07-19,21:30,Série B,Matchweek 18,Wed,Away,L,0.0,1.0,Ceará,45.0,,Rafael Donato,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,2.0,18.2,2023,Vila Nova
+18,2023-07-22,17:00,Série B,Matchweek 19,Sat,Home,D,1.0,1.0,ABC,65.0,10000.0,Rafael Donato,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,2023,Vila Nova
+19,2023-07-30,15:30,Série B,Matchweek 20,Sun,Away,L,1.0,3.0,Grêmio Novorizontino,58.0,,Ralf,4-2-3-1,Wagner do Nascimento Magalhães,Match Report,,,0.07,0.17,1.0,0.0,0.0,14.0,6.0,42.9,2023,Vila Nova
+20,2023-08-02,21:30,Série B,Matchweek 21,Wed,Home,L,0.0,1.0,Sport Recife,61.0,,Rafael Donato,4-2-3-1,Luiz Flávio de Oliveira,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,3.0,18.8,2023,Vila Nova
+21,2023-08-07,18:00,Série B,Matchweek 22,Mon,Away,W,2.0,0.0,Juventude,36.0,,Rafael Donato,4-2-3-1,Leo Simão Holanda,Match Report,,,0.2,1.0,1.0,0.0,0.0,5.0,1.0,20.0,2023,Vila Nova
+22,2023-08-12,18:00,Série B,Matchweek 23,Sat,Home,D,1.0,1.0,Avaí,53.0,,Rafael Donato,4-2-3-1,Matheus Delgado Candançan,Match Report,,,0.05,0.17,1.0,0.0,0.0,22.0,6.0,27.3,2023,Vila Nova
+23,2023-08-17,21:30,Série B,Matchweek 24,Thu,Home,W,2.0,0.0,Mirassol Futebol Clube,28.0,,Rafael Donato,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,2023,Vila Nova
+24,2023-08-22,21:30,Série B,Matchweek 25,Tue,Away,L,0.0,1.0,Criciúma,61.0,,Ralf,4-3-3,Bruno Mota Correia,Match Report,,,0.0,0.0,0.0,0.0,1.0,13.0,6.0,46.2,2023,Vila Nova
+25,2023-09-03,15:45,Série B,Matchweek 26,Sun,Home,L,0.0,1.0,CRB,52.0,,Rafael Donato,4-3-3,Alisson Sidnei Furtado,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,7.0,43.8,2023,Vila Nova
+26,2023-09-08,18:00,Série B,Matchweek 27,Fri,Away,,,,Ituano,,,,,,Head-to-Head,,,0.06,0.2,27.0,0.0,2.0,440.0,132.0,30.0,2023,Vila Nova
+27,2023-09-15,19:00,Série B,Matchweek 28,Fri,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+28,2023-09-19,21:30,Série B,Matchweek 29,Tue,Away,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+32,2023-10-24,,Série B,Matchweek 33,Tue,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+33,2023-10-27,,Série B,Matchweek 34,Fri,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+34,2023-10-31,,Série B,Matchweek 35,Tue,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
+37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Vila Nova
 0,2023-04-15,17:00,Série B,Matchweek 1,Sat,Away,D,3.0,3.0,Sampaio Corrêa,49.0,3290.0,Ronaldo,4-2-3-1,João Vitor Gobi,Match Report,,,0.25,0.6,3.0,0.0,0.0,12.0,5.0,41.7,2023,Atletico Goianiense
 1,2023-04-21,16:30,Série B,Matchweek 2,Fri,Home,W,2.0,1.0,CRB,37.0,4295.0,Ronaldo,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.25,0.4,2.0,0.0,0.0,8.0,5.0,62.5,2023,Atletico Goianiense
 2,2023-04-29,18:15,Série B,Matchweek 3,Sat,Away,D,1.0,1.0,Tombense Futebol Clube,48.0,742.0,Ronaldo,4-2-3-1,Thiago Luis Scarascati,Match Report,,,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,2023,Atletico Goianiense
@@ -290,10 +290,10 @@
 22,2023-08-13,11:00,Série B,Matchweek 23,Sun,Away,W,1.0,0.0,Chapecoense,58.0,,Ronaldo,4-2-3-1,Douglas Marques das Flores,Match Report,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,2023,Atletico Goianiense
 23,2023-08-17,19:00,Série B,Matchweek 24,Thu,Away,W,2.0,0.0,Londrina,49.0,,Ronaldo,4-2-3-1,Diego Pombo Lopez,Match Report,,,0.15,0.5,2.0,0.0,0.0,13.0,4.0,30.8,2023,Atletico Goianiense
 24,2023-08-27,18:00,Série B,Matchweek 25,Sun,Home,D,0.0,0.0,Vitória,64.0,,Ronaldo,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,3.0,20.0,2023,Atletico Goianiense
-25,2023-09-02,15:30,Série B,Matchweek 26,Sat,Away,,,,Avaí,,,,,,Head-to-Head,,,0.09,0.27,34.0,4.0,4.0,347.0,112.0,32.3,2023,Atletico Goianiense
-26,2023-09-10,15:45,Série B,Matchweek 27,Sun,Home,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
+25,2023-09-02,15:30,Série B,Matchweek 26,Sat,Away,W,2.0,0.0,Avaí,35.0,,Ronaldo,4-2-3-1,Arthur Gomes Rabelo,Match Report,,,0.08,0.25,2.0,1.0,1.0,12.0,4.0,33.3,2023,Atletico Goianiense
+26,2023-09-10,15:45,Série B,Matchweek 27,Sun,Home,,,,Juventude,,,,,,Head-to-Head,,,0.09,0.27,36.0,5.0,5.0,359.0,116.0,32.3,2023,Atletico Goianiense
 27,2023-09-16,17:00,Série B,Matchweek 28,Sat,Away,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
-28,2023-09-24,15:45,Série B,Matchweek 29,Sun,Home,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
+28,2023-09-20,21:30,Série B,Matchweek 29,Wed,Home,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
 30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
 31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
@@ -303,44 +303,6 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Away,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
 36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
 37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Atletico Goianiense
-0,2023-04-15,17:00,Série B,Matchweek 1,Sat,Home,W,1.0,0.0,Chapecoense,55.0,1830.0,Danielzinho,4-1-4-1,Bruno Mota Correia,Match Report,,,0.05,0.2,1.0,0.0,0.0,20.0,5.0,25.0,2023,Mirassol Futebol Clube
-1,2023-04-22,16:00,Série B,Matchweek 2,Sat,Away,L,0.0,1.0,Avaí,42.0,4711.0,Gabriel,4-1-4-1,Maguielson Lima Barbosa,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,2023,Mirassol Futebol Clube
-2,2023-04-29,16:00,Série B,Matchweek 3,Sat,Away,W,3.0,1.0,Sampaio Corrêa,47.0,3551.0,Luiz Otávio,4-4-2,Jefferson Ferreira de Moraes,Match Report,,,0.11,0.25,3.0,2.0,2.0,9.0,4.0,44.4,2023,Mirassol Futebol Clube
-3,2023-05-03,19:00,Série B,Matchweek 4,Wed,Home,L,0.0,2.0,Grêmio Novorizontino,71.0,2144.0,Alex Muralha,4-4-2,Lucas Paulo Torezin,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Mirassol Futebol Clube
-4,2023-05-06,18:15,Série B,Matchweek 5,Sat,Home,D,1.0,1.0,Vila Nova,62.0,1637.0,Alex Muralha,4-4-2,Caio Max Augusto Vieira,Match Report,,,0.05,0.14,1.0,0.0,0.0,20.0,7.0,35.0,2023,Mirassol Futebol Clube
-5,2023-05-13,16:00,Série B,Matchweek 6,Sat,Away,W,1.0,0.0,Juventude,53.0,1994.0,Alex Muralha,4-3-3,Fabio Augusto de Sá Junior,Match Report,,,0.07,0.25,1.0,0.0,0.0,15.0,4.0,26.7,2023,Mirassol Futebol Clube
-6,2023-05-19,19:00,Série B,Matchweek 7,Fri,Home,W,2.0,0.0,Vitória,57.0,1971.0,Alex Muralha,4-3-3,André Luiz Skettino Policarpo Bento,Match Report,,,0.12,0.2,2.0,0.0,0.0,17.0,10.0,58.8,2023,Mirassol Futebol Clube
-7,2023-05-23,19:00,Série B,Matchweek 8,Tue,Away,L,0.0,1.0,Botafogo (SP),65.0,3464.0,Alex Muralha,4-3-3,Marcelo de Lima Henrique,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,5.0,25.0,2023,Mirassol Futebol Clube
-8,2023-05-28,15:30,Série B,Matchweek 9,Sun,Home,W,1.0,0.0,Criciúma,49.0,1695.0,Fernando Camilo Farias,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.07,0.5,1.0,0.0,0.0,14.0,2.0,14.3,2023,Mirassol Futebol Clube
-9,2023-06-03,17:00,Série B,Matchweek 10,Sat,Home,W,1.0,0.0,Ponte Preta,68.0,2000.0,Fernando Camilo Farias,4-2-3-1,Leandro Pedro Vuaden,Match Report,,,0.04,0.14,1.0,0.0,0.0,23.0,7.0,30.4,2023,Mirassol Futebol Clube
-10,2023-06-07,21:30,Série B,Matchweek 11,Wed,Away,L,0.0,2.0,CRB,61.0,3103.0,Alex Muralha,4-2-3-1,Marielson Alves Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,2.0,15.4,2023,Mirassol Futebol Clube
-11,2023-06-11,11:00,Série B,Matchweek 12,Sun,Away,W,2.0,1.0,Londrina,68.0,712.0,Alex Muralha,4-4-2,Fabio Augusto de Sá Junior,Match Report,,,0.17,0.67,2.0,0.0,0.0,12.0,3.0,25.0,2023,Mirassol Futebol Clube
-12,2023-06-25,11:00,Série B,Matchweek 13,Sun,Home,W,3.0,2.0,ABC,55.0,2312.0,Alex Muralha,4-4-2,Jefferson Ferreira de Moraes,Match Report,,,0.14,0.21,3.0,0.0,0.0,21.0,14.0,66.7,2023,Mirassol Futebol Clube
-13,2023-06-28,21:30,Série B,Matchweek 14,Wed,Away,L,1.0,2.0,Guarani,62.0,3195.0,Alex Muralha,4-4-2,Lucas Paulo Torezin,Match Report,,,0.08,0.5,1.0,0.0,0.0,12.0,2.0,16.7,2023,Mirassol Futebol Clube
-14,2023-07-03,18:00,Série B,Matchweek 15,Mon,Home,L,0.0,1.0,Ituano,55.0,2365.0,Alex Muralha,4-2-3-1,Arthur Gomes Rabelo,Match Report,,,0.0,0.0,0.0,0.0,0.0,19.0,7.0,36.8,2023,Mirassol Futebol Clube
-15,2023-07-09,18:00,Série B,Matchweek 16,Sun,Away,D,0.0,0.0,Sport Recife,63.0,,Alex Muralha,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.0,,0.0,0.0,0.0,5.0,0.0,0.0,2023,Mirassol Futebol Clube
-16,2023-07-16,15:30,Série B,Matchweek 17,Sun,Home,D,1.0,1.0,Ceará,66.0,,Alex Muralha,4-2-3-1,Alisson Sidnei Furtado,Match Report,,,0.07,0.13,1.0,0.0,0.0,15.0,8.0,53.3,2023,Mirassol Futebol Clube
-17,2023-07-19,19:00,Série B,Matchweek 18,Wed,Away,D,2.0,2.0,Atl Goianiense,36.0,,Alex Muralha,4-2-3-1,Arthur Gomes Rabelo,Match Report,,,0.29,0.5,2.0,0.0,0.0,7.0,4.0,57.1,2023,Mirassol Futebol Clube
-18,2023-07-22,15:30,Série B,Matchweek 19,Sat,Home,W,2.0,0.0,Tombense Futebol Clube,55.0,,Alex Muralha,4-2-3-1,Jefferson Ferreira de Moraes,Match Report,,,0.08,0.33,2.0,1.0,1.0,12.0,3.0,25.0,2023,Mirassol Futebol Clube
-19,2023-07-29,11:00,Série B,Matchweek 20,Sat,Away,W,1.0,0.0,Chapecoense,58.0,,Alex Muralha,4-2-3-1,Leonardo Willers Lorenzatto,Match Report,,,0.06,0.14,1.0,0.0,0.0,18.0,7.0,38.9,2023,Mirassol Futebol Clube
-20,2023-08-01,19:00,Série B,Matchweek 21,Tue,Home,D,2.0,2.0,Avaí,56.0,,Alex Muralha,4-4-2,Denis da Silva Ribeiro Serafim,Match Report,,,0.17,0.5,2.0,0.0,0.0,12.0,4.0,33.3,2023,Mirassol Futebol Clube
-21,2023-08-04,21:30,Série B,Matchweek 22,Fri,Home,D,0.0,0.0,Sampaio Corrêa,60.0,,Alex Muralha,4-4-2,Tarcizo Pinheiro Caetano,Match Report,,,0.0,,0.0,0.0,0.0,13.0,0.0,0.0,2023,Mirassol Futebol Clube
-22,2023-08-11,19:00,Série B,Matchweek 23,Fri,Away,L,1.0,2.0,Grêmio Novorizontino,59.0,,Alex Muralha,4-4-2,Marcelo de Lima Henrique,Match Report,,,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,2023,Mirassol Futebol Clube
-23,2023-08-17,21:30,Série B,Matchweek 24,Thu,Away,L,0.0,2.0,Vila Nova,72.0,,Fernando Camilo Farias,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.0,,0.0,0.0,0.0,8.0,0.0,0.0,2023,Mirassol Futebol Clube
-24,2023-08-22,19:00,Série B,Matchweek 25,Tue,Home,L,0.0,1.0,Juventude,63.0,,Alex Muralha,4-2-3-1,Denis da Silva Ribeiro Serafim,Match Report,,,0.0,0.0,0.0,0.0,1.0,9.0,1.0,11.1,2023,Mirassol Futebol Clube
-25,2023-09-01,19:15,Série B,Matchweek 26,Fri,Away,,,,Vitória,,,,,,Head-to-Head,,,0.06,0.2,25.0,3.0,4.0,344.0,108.0,31.4,2023,Mirassol Futebol Clube
-26,2023-09-09,20:30,Série B,Matchweek 27,Sat,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-27,2023-09-16,15:30,Série B,Matchweek 28,Sat,Away,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-28,2023-09-22,19:00,Série B,Matchweek 29,Fri,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-32,2023-10-24,,Série B,Matchweek 33,Tue,Home,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-33,2023-10-27,,Série B,Matchweek 34,Fri,Away,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-34,2023-10-31,,Série B,Matchweek 35,Tue,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-35,2023-11-07,,Série B,Matchweek 36,Tue,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
-37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
 0,2023-04-21,16:30,Série B,Matchweek 2,Fri,Away,L,1.0,2.0,Atl Goianiense,63.0,4295.0,Auremir,4-3-3,Felipe Fernandes de Lima,Match Report,,,0.04,0.17,1.0,0.0,0.0,28.0,6.0,21.4,2023,CRB
 1,2023-04-29,17:00,Série B,Matchweek 3,Sat,Away,L,0.0,2.0,Botafogo (SP),56.0,4216.0,Auremir,4-3-3,Jose Mendonca da Silva Junior,Match Report,,,0.0,0.0,0.0,0.0,0.0,5.0,2.0,40.0,2023,CRB
 2,2023-05-02,19:00,Série B,Matchweek 4,Tue,Home,D,0.0,0.0,Sampaio Corrêa,52.0,3808.0,Anderson Conceição,4-3-3,Douglas Marques das Flores,Match Report,,,0.0,0.0,0.0,0.0,1.0,15.0,1.0,6.7,2023,CRB
@@ -366,8 +328,8 @@
 22,2023-08-19,17:00,Série B,Matchweek 24,Sat,Away,W,2.0,1.0,ABC,40.0,,Gum,4-1-4-1,Vinicius Gonçalves Dias Araujo,Match Report,,,0.18,0.4,2.0,0.0,0.0,11.0,5.0,45.5,2023,CRB
 23,2023-08-23,19:00,Série B,Matchweek 17,Wed,Home,D,1.0,1.0,Avaí,53.0,,Anselmo Ramon,4-1-4-1,Lucas Paulo Torezin,Match Report,,,0.07,0.25,1.0,0.0,0.0,15.0,4.0,26.7,2023,CRB
 24,2023-08-26,18:00,Série B,Matchweek 25,Sat,Home,W,1.0,0.0,Grêmio Novorizontino,59.0,,Anselmo Ramon,4-1-4-1,Jonathan Benkenstein Pinheiro,Match Report,,,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,2023,CRB
-25,2023-09-03,15:45,Série B,Matchweek 26,Sun,Away,,,,Vila Nova,,,,,,Head-to-Head,,,0.08,0.28,26.0,0.0,1.0,313.0,92.0,29.4,2023,CRB
-26,2023-09-10,18:00,Série B,Matchweek 27,Sun,Home,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,CRB
+25,2023-09-03,15:45,Série B,Matchweek 26,Sun,Away,W,1.0,0.0,Vila Nova,48.0,,Anselmo Ramon,4-1-4-1,Alisson Sidnei Furtado,Match Report,,,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,2023,CRB
+26,2023-09-10,18:00,Série B,Matchweek 27,Sun,Home,,,,Vitória,,,,,,Head-to-Head,,,0.08,0.28,27.0,0.0,1.0,323.0,96.0,29.7,2023,CRB
 27,2023-09-16,18:00,Série B,Matchweek 28,Sat,Away,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,CRB
 28,2023-09-23,17:00,Série B,Matchweek 29,Sat,Home,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,CRB
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,CRB
@@ -404,10 +366,10 @@
 22,2023-08-13,18:00,Série B,Matchweek 23,Sun,Away,L,0.0,1.0,Vitória,66.0,,Luiz Otávio,4-2-3-1,Bruno Arleu de Araujo,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,6.0,30.0,2023,Ceara
 23,2023-08-20,18:00,Série B,Matchweek 24,Sun,Home,D,1.0,1.0,Ponte Preta,60.0,,Luiz Otávio,5-3-2,Anderson Daronco,Match Report,,,0.06,0.14,1.0,0.0,0.0,16.0,7.0,43.8,2023,Ceara
 24,2023-08-26,17:00,Série B,Matchweek 25,Sat,Away,D,2.0,2.0,Tombense Futebol Clube,33.0,,Luiz Otávio,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.33,0.5,2.0,0.0,0.0,6.0,4.0,66.7,2023,Ceara
-25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Home,,,,Criciúma,,,,,,Head-to-Head,,,0.07,0.23,26.0,2.0,3.0,336.0,106.0,31.5,2023,Ceara
-26,2023-09-06,21:30,Série B,Matchweek 27,Wed,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
-27,2023-09-18,20:00,Série B,Matchweek 28,Mon,Away,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
-28,2023-09-24,18:00,Série B,Matchweek 29,Sun,Away,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
+25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Home,W,1.0,0.0,Criciúma,45.0,,Luiz Otávio,4-2-3-1,Jose Mendonca da Silva Junior,Match Report,,,0.06,0.14,1.0,0.0,0.0,18.0,7.0,38.9,2023,Ceara
+26,2023-09-06,21:30,Série B,Matchweek 27,Wed,Home,,,,Londrina,,,,,,Head-to-Head,,,0.07,0.22,27.0,2.0,3.0,354.0,113.0,31.9,2023,Ceara
+27,2023-09-18,21:00,Série B,Matchweek 28,Mon,Away,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
+28,2023-09-23,17:00,Série B,Matchweek 29,Sat,Away,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
 29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
 30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
 31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
@@ -417,6 +379,44 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
 36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Vila Nova,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
 37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Ceara
+0,2023-04-15,17:00,Série B,Matchweek 1,Sat,Home,W,1.0,0.0,Chapecoense,55.0,1830.0,Danielzinho,4-1-4-1,Bruno Mota Correia,Match Report,,,0.05,0.2,1.0,0.0,0.0,20.0,5.0,25.0,2023,Mirassol Futebol Clube
+1,2023-04-22,16:00,Série B,Matchweek 2,Sat,Away,L,0.0,1.0,Avaí,42.0,4711.0,Gabriel,4-1-4-1,Maguielson Lima Barbosa,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,2023,Mirassol Futebol Clube
+2,2023-04-29,16:00,Série B,Matchweek 3,Sat,Away,W,3.0,1.0,Sampaio Corrêa,47.0,3551.0,Luiz Otávio,4-4-2,Jefferson Ferreira de Moraes,Match Report,,,0.11,0.25,3.0,2.0,2.0,9.0,4.0,44.4,2023,Mirassol Futebol Clube
+3,2023-05-03,19:00,Série B,Matchweek 4,Wed,Home,L,0.0,2.0,Grêmio Novorizontino,71.0,2144.0,Alex Muralha,4-4-2,Lucas Paulo Torezin,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Mirassol Futebol Clube
+4,2023-05-06,18:15,Série B,Matchweek 5,Sat,Home,D,1.0,1.0,Vila Nova,62.0,1637.0,Alex Muralha,4-4-2,Caio Max Augusto Vieira,Match Report,,,0.05,0.14,1.0,0.0,0.0,20.0,7.0,35.0,2023,Mirassol Futebol Clube
+5,2023-05-13,16:00,Série B,Matchweek 6,Sat,Away,W,1.0,0.0,Juventude,53.0,1994.0,Alex Muralha,4-3-3,Fabio Augusto de Sá Junior,Match Report,,,0.07,0.25,1.0,0.0,0.0,15.0,4.0,26.7,2023,Mirassol Futebol Clube
+6,2023-05-19,19:00,Série B,Matchweek 7,Fri,Home,W,2.0,0.0,Vitória,57.0,1971.0,Alex Muralha,4-3-3,André Luiz Skettino Policarpo Bento,Match Report,,,0.12,0.2,2.0,0.0,0.0,17.0,10.0,58.8,2023,Mirassol Futebol Clube
+7,2023-05-23,19:00,Série B,Matchweek 8,Tue,Away,L,0.0,1.0,Botafogo (SP),65.0,3464.0,Alex Muralha,4-3-3,Marcelo de Lima Henrique,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,5.0,25.0,2023,Mirassol Futebol Clube
+8,2023-05-28,15:30,Série B,Matchweek 9,Sun,Home,W,1.0,0.0,Criciúma,49.0,1695.0,Fernando Camilo Farias,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.07,0.5,1.0,0.0,0.0,14.0,2.0,14.3,2023,Mirassol Futebol Clube
+9,2023-06-03,17:00,Série B,Matchweek 10,Sat,Home,W,1.0,0.0,Ponte Preta,68.0,2000.0,Fernando Camilo Farias,4-2-3-1,Leandro Pedro Vuaden,Match Report,,,0.04,0.14,1.0,0.0,0.0,23.0,7.0,30.4,2023,Mirassol Futebol Clube
+10,2023-06-07,21:30,Série B,Matchweek 11,Wed,Away,L,0.0,2.0,CRB,61.0,3103.0,Alex Muralha,4-2-3-1,Marielson Alves Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,2.0,15.4,2023,Mirassol Futebol Clube
+11,2023-06-11,11:00,Série B,Matchweek 12,Sun,Away,W,2.0,1.0,Londrina,68.0,712.0,Alex Muralha,4-4-2,Fabio Augusto de Sá Junior,Match Report,,,0.17,0.67,2.0,0.0,0.0,12.0,3.0,25.0,2023,Mirassol Futebol Clube
+12,2023-06-25,11:00,Série B,Matchweek 13,Sun,Home,W,3.0,2.0,ABC,55.0,2312.0,Alex Muralha,4-4-2,Jefferson Ferreira de Moraes,Match Report,,,0.14,0.21,3.0,0.0,0.0,21.0,14.0,66.7,2023,Mirassol Futebol Clube
+13,2023-06-28,21:30,Série B,Matchweek 14,Wed,Away,L,1.0,2.0,Guarani,62.0,3195.0,Alex Muralha,4-4-2,Lucas Paulo Torezin,Match Report,,,0.08,0.5,1.0,0.0,0.0,12.0,2.0,16.7,2023,Mirassol Futebol Clube
+14,2023-07-03,18:00,Série B,Matchweek 15,Mon,Home,L,0.0,1.0,Ituano,55.0,2365.0,Alex Muralha,4-2-3-1,Arthur Gomes Rabelo,Match Report,,,0.0,0.0,0.0,0.0,0.0,19.0,7.0,36.8,2023,Mirassol Futebol Clube
+15,2023-07-09,18:00,Série B,Matchweek 16,Sun,Away,D,0.0,0.0,Sport Recife,63.0,,Alex Muralha,4-2-3-1,Felipe Fernandes de Lima,Match Report,,,0.0,,0.0,0.0,0.0,5.0,0.0,0.0,2023,Mirassol Futebol Clube
+16,2023-07-16,15:30,Série B,Matchweek 17,Sun,Home,D,1.0,1.0,Ceará,66.0,,Alex Muralha,4-2-3-1,Alisson Sidnei Furtado,Match Report,,,0.07,0.13,1.0,0.0,0.0,15.0,8.0,53.3,2023,Mirassol Futebol Clube
+17,2023-07-19,19:00,Série B,Matchweek 18,Wed,Away,D,2.0,2.0,Atl Goianiense,36.0,,Alex Muralha,4-2-3-1,Arthur Gomes Rabelo,Match Report,,,0.29,0.5,2.0,0.0,0.0,7.0,4.0,57.1,2023,Mirassol Futebol Clube
+18,2023-07-22,15:30,Série B,Matchweek 19,Sat,Home,W,2.0,0.0,Tombense Futebol Clube,55.0,,Alex Muralha,4-2-3-1,Jefferson Ferreira de Moraes,Match Report,,,0.08,0.33,2.0,1.0,1.0,12.0,3.0,25.0,2023,Mirassol Futebol Clube
+19,2023-07-29,11:00,Série B,Matchweek 20,Sat,Away,W,1.0,0.0,Chapecoense,58.0,,Alex Muralha,4-2-3-1,Leonardo Willers Lorenzatto,Match Report,,,0.06,0.14,1.0,0.0,0.0,18.0,7.0,38.9,2023,Mirassol Futebol Clube
+20,2023-08-01,19:00,Série B,Matchweek 21,Tue,Home,D,2.0,2.0,Avaí,56.0,,Alex Muralha,4-4-2,Denis da Silva Ribeiro Serafim,Match Report,,,0.17,0.5,2.0,0.0,0.0,12.0,4.0,33.3,2023,Mirassol Futebol Clube
+21,2023-08-04,21:30,Série B,Matchweek 22,Fri,Home,D,0.0,0.0,Sampaio Corrêa,60.0,,Alex Muralha,4-4-2,Tarcizo Pinheiro Caetano,Match Report,,,0.0,,0.0,0.0,0.0,13.0,0.0,0.0,2023,Mirassol Futebol Clube
+22,2023-08-11,19:00,Série B,Matchweek 23,Fri,Away,L,1.0,2.0,Grêmio Novorizontino,59.0,,Alex Muralha,4-4-2,Marcelo de Lima Henrique,Match Report,,,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,2023,Mirassol Futebol Clube
+23,2023-08-17,21:30,Série B,Matchweek 24,Thu,Away,L,0.0,2.0,Vila Nova,72.0,,Fernando Camilo Farias,4-2-3-1,André Luiz Skettino Policarpo Bento,Match Report,,,0.0,,0.0,0.0,0.0,8.0,0.0,0.0,2023,Mirassol Futebol Clube
+24,2023-08-22,19:00,Série B,Matchweek 25,Tue,Home,L,0.0,1.0,Juventude,63.0,,Alex Muralha,4-2-3-1,Denis da Silva Ribeiro Serafim,Match Report,,,0.0,0.0,0.0,0.0,1.0,9.0,1.0,11.1,2023,Mirassol Futebol Clube
+25,2023-09-01,19:15,Série B,Matchweek 26,Fri,Away,D,0.0,0.0,Vitória,51.0,,Gabriel,4-2-3-1,Dyorgines José Padovani Andrade,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,3.0,18.8,2023,Mirassol Futebol Clube
+26,2023-09-09,20:30,Série B,Matchweek 27,Sat,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,0.06,0.2,25.0,3.0,4.0,360.0,111.0,30.8,2023,Mirassol Futebol Clube
+27,2023-09-16,15:30,Série B,Matchweek 28,Sat,Away,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+28,2023-09-22,19:00,Série B,Matchweek 29,Fri,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+32,2023-10-24,,Série B,Matchweek 33,Tue,Home,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+33,2023-10-27,,Série B,Matchweek 34,Fri,Away,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+34,2023-10-31,,Série B,Matchweek 35,Tue,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+35,2023-11-07,,Série B,Matchweek 36,Tue,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+36,2023-11-10,,Série B,Matchweek 37,Fri,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
+37,2023-11-25,,Série B,Matchweek 38,Sat,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Mirassol Futebol Clube
 0,2023-04-15,18:15,Série B,Matchweek 1,Sat,Away,W,2.0,1.0,Juventude,35.0,3243.0,Fillipe Soutto,4-2-3-1,Yuri Elino Ferreira da Cruz,Match Report,,,0.18,0.4,2.0,0.0,0.0,11.0,5.0,45.5,2023,Botafogo SP
 1,2023-04-21,19:00,Série B,Matchweek 2,Fri,Home,W,1.0,0.0,Sampaio Corrêa,42.0,5182.0,Fillipe Soutto,4-2-3-1,Murilo Francisco Misson Junior,Match Report,,,0.0,0.0,1.0,1.0,1.0,14.0,3.0,21.4,2023,Botafogo SP
 2,2023-04-29,17:00,Série B,Matchweek 3,Sat,Home,W,2.0,0.0,CRB,44.0,4216.0,Fillipe Soutto,4-2-3-1,Jose Mendonca da Silva Junior,Match Report,,,0.06,0.17,2.0,1.0,1.0,16.0,6.0,37.5,2023,Botafogo SP
@@ -442,10 +442,10 @@
 22,2023-08-18,19:00,Série B,Matchweek 24,Fri,Away,L,0.0,2.0,Vitória,46.0,,Osman Júnior,4-4-2,Wagner do Nascimento Magalhães,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,2.0,14.3,2023,Botafogo SP
 23,2023-08-23,21:30,Série B,Matchweek 17,Wed,Home,L,1.0,2.0,Chapecoense,47.0,,Osman Júnior,4-4-2,Emerson Ricardo de Almeida Andrade,Match Report,,,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,2023,Botafogo SP
 24,2023-08-28,20:00,Série B,Matchweek 25,Mon,Home,D,0.0,0.0,ABC,50.0,,Osman Júnior,4-4-2,Thayslane de Melo Costa,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,2.0,13.3,2023,Botafogo SP
-25,2023-09-03,18:00,Série B,Matchweek 26,Sun,Home,,,,Sport Recife,,,,,,Head-to-Head,,,0.04,0.17,16.0,2.0,2.0,322.0,84.0,26.1,2023,Botafogo SP
-26,2023-09-09,20:30,Série B,Matchweek 27,Sat,Away,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
+25,2023-09-03,18:00,Série B,Matchweek 26,Sun,Home,D,1.0,1.0,Sport Recife,40.0,,Osman Júnior,3-4-3,Rafael Rodrigo Klein,Match Report,,,0.13,0.25,1.0,0.0,0.0,8.0,4.0,50.0,2023,Botafogo SP
+26,2023-09-09,20:30,Série B,Matchweek 27,Sat,Away,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,0.05,0.17,17.0,2.0,2.0,330.0,88.0,26.7,2023,Botafogo SP
 27,2023-09-16,17:00,Série B,Matchweek 28,Sat,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
-28,2023-09-24,11:00,Série B,Matchweek 29,Sun,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
+28,2023-09-23,18:00,Série B,Matchweek 29,Sat,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
 30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Avaí,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
 31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Vila Nova,,,,,,Head-to-Head,,,,,,,,,,,2023,Botafogo SP
@@ -518,8 +518,8 @@
 22,2023-08-12,17:00,Série B,Matchweek 23,Sat,Away,D,0.0,0.0,Botafogo (SP),42.0,,Fábio Sanches,4-3-3,Yuri Elino Ferreira da Cruz,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Ponte Preta
 23,2023-08-20,18:00,Série B,Matchweek 24,Sun,Away,D,1.0,1.0,Ceará,41.0,,Fábio Sanches,4-3-3,Anderson Daronco,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Ponte Preta
 24,2023-08-25,19:00,Série B,Matchweek 25,Fri,Home,W,1.0,0.0,Londrina,38.0,,Fábio Sanches,4-3-3,Gustavo Ervino Bauermann,Match Report,,,0.14,0.5,1.0,0.0,0.0,7.0,2.0,28.6,2023,Ponte Preta
-25,2023-09-02,18:00,Série B,Matchweek 26,Sat,Away,,,,Guarani,,,,,,Head-to-Head,,,0.05,0.16,16.0,1.0,3.0,292.0,91.0,31.2,2023,Ponte Preta
-26,2023-09-09,17:00,Série B,Matchweek 27,Sat,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
+25,2023-09-02,18:00,Série B,Matchweek 26,Sat,Away,L,0.0,1.0,Guarani,48.0,,Fábio Sanches,4-3-3,Edina Alves Batista,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,4.0,50.0,2023,Ponte Preta
+26,2023-09-09,17:00,Série B,Matchweek 27,Sat,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,0.05,0.16,16.0,1.0,3.0,300.0,95.0,31.7,2023,Ponte Preta
 27,2023-09-15,19:00,Série B,Matchweek 28,Fri,Away,,,,Vila Nova,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
 28,2023-09-22,19:00,Série B,Matchweek 29,Fri,Home,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
@@ -531,44 +531,6 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
 36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
 37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Ponte Preta
-0,2023-04-14,19:00,Série B,Matchweek 1,Fri,Away,L,1.0,4.0,Guarani,58.0,3569.0,Thales Oleques,4-2-3-1,Emerson Ricardo de Almeida Andrade,Match Report,,,0.09,1.0,1.0,0.0,0.0,11.0,1.0,9.1,2023,Avai
-1,2023-04-22,16:00,Série B,Matchweek 2,Sat,Home,W,1.0,0.0,Mirassol Futebol Clube,58.0,4711.0,Roberto,4-3-3,Maguielson Lima Barbosa,Match Report,,,0.05,0.13,1.0,0.0,0.0,19.0,8.0,42.1,2023,Avai
-2,2023-04-28,19:00,Série B,Matchweek 3,Fri,Away,L,0.0,1.0,Criciúma,45.0,15747.0,Thales Oleques,4-3-3,Wagner do Nascimento Magalhães,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Avai
-3,2023-05-03,21:15,Série B,Matchweek 4,Wed,Home,L,0.0,3.0,Vila Nova,73.0,4436.0,Roberto,4-2-3-1,Vinicius Gonçalves Dias Araujo,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,4.0,23.5,2023,Avai
-4,2023-05-06,18:15,Série B,Matchweek 5,Sat,Away,W,1.0,0.0,Tombense Futebol Clube,42.0,814.0,Wellington Martins,4-3-3,Edina Alves Batista,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Avai
-5,2023-05-12,21:30,Série B,Matchweek 6,Fri,Home,L,1.0,4.0,Chapecoense,50.0,6402.0,Wellington Martins,4-3-3,Jean Pierre Goncalves Lima,Match Report,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,2023,Avai
-6,2023-05-19,21:30,Série B,Matchweek 7,Fri,Away,D,0.0,0.0,Atl Goianiense,40.0,4980.0,Thales Oleques,4-4-2◆,Vinicius Gonçalves Dias Araujo,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,2023,Avai
-7,2023-05-23,21:30,Série B,Matchweek 8,Tue,Away,L,0.0,2.0,Grêmio Novorizontino,56.0,1381.0,Wellington Martins,4-3-3,Marielson Alves Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,3.0,37.5,2023,Avai
-8,2023-05-27,17:30,Série B,Matchweek 9,Sat,Home,D,1.0,1.0,Vitória,57.0,4363.0,Thales Oleques,4-3-3,Marcelo de Lima Henrique,Match Report,,,0.05,0.17,1.0,0.0,0.0,20.0,6.0,30.0,2023,Avai
-9,2023-06-03,16:00,Série B,Matchweek 10,Sat,Away,L,2.0,3.0,Juventude,40.0,5197.0,Thales Oleques,5-4-1,Bruno Mota Correia,Match Report,,,0.22,0.4,2.0,0.0,0.0,9.0,5.0,55.6,2023,Avai
-10,2023-06-07,19:00,Série B,Matchweek 11,Wed,Away,L,1.0,2.0,Sport Recife,46.0,18699.0,Thales Oleques,3-4-3,Yuri Elino Ferreira da Cruz,Match Report,,,0.0,0.0,1.0,1.0,1.0,17.0,5.0,29.4,2023,Avai
-11,2023-06-11,15:30,Série B,Matchweek 12,Sun,Home,D,1.0,1.0,Botafogo (SP),40.0,4301.0,Jean Cléber,4-4-2◆,Dyorgines José Padovani Andrade,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,11.1,2023,Avai
-12,2023-06-24,16:00,Série B,Matchweek 13,Sat,Home,D,0.0,0.0,Londrina,58.0,5678.0,Jean Cléber,4-3-1-2,Denis da Silva Ribeiro Serafim,Match Report,,,0.0,0.0,0.0,0.0,0.0,23.0,5.0,21.7,2023,Avai
-13,2023-06-28,19:00,Série B,Matchweek 14,Wed,Away,D,0.0,0.0,Ceará,36.0,14513.0,Jean Cléber,4-3-3,Douglas Marques das Flores,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Avai
-14,2023-07-01,17:00,Série B,Matchweek 15,Sat,Home,L,0.0,2.0,ABC,66.0,6378.0,Jean Cléber,4-2-3-1,Matheus Delgado Candançan,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Avai
-15,2023-07-08,17:00,Série B,Matchweek 16,Sat,Home,L,0.0,1.0,Ponte Preta,44.0,,William Pottker,4-3-3,Jefferson Ferreira de Moraes,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,3.0,20.0,2023,Avai
-16,2023-07-19,21:30,Série B,Matchweek 18,Wed,Home,W,2.0,0.0,Sampaio Corrêa,48.0,6498.0,Bruno Cortez,4-3-3,Matheus Delgado Candançan,Match Report,,,0.29,0.5,2.0,0.0,0.0,7.0,4.0,57.1,2023,Avai
-17,2023-07-22,18:00,Série B,Matchweek 19,Sat,Away,W,1.0,0.0,Ituano,39.0,,Jean Cléber,4-3-3,Paulo Roberto Alves Júnior,Match Report,,,0.17,0.33,1.0,0.0,0.0,6.0,3.0,50.0,2023,Avai
-18,2023-07-29,17:00,Série B,Matchweek 20,Sat,Home,L,1.0,2.0,Guarani,58.0,,Wellington Martins,4-3-3,Paulo Belence Alves dos Prazeres Filho,Match Report,,,0.07,0.5,1.0,0.0,0.0,15.0,2.0,13.3,2023,Avai
-19,2023-08-01,19:00,Série B,Matchweek 21,Tue,Away,D,2.0,2.0,Mirassol Futebol Clube,44.0,,Bruno Cortez,4-3-3,Denis da Silva Ribeiro Serafim,Match Report,,,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,2023,Avai
-20,2023-08-05,15:30,Série B,Matchweek 22,Sat,Home,W,1.0,0.0,Criciúma,45.0,,Douglas,4-3-3,Flavio Rodrigues de Souza,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,2023,Avai
-21,2023-08-12,18:00,Série B,Matchweek 23,Sat,Away,D,1.0,1.0,Vila Nova,47.0,,Bruno Cortez,4-3-3,Matheus Delgado Candançan,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Avai
-22,2023-08-19,15:30,Série B,Matchweek 24,Sat,Home,W,4.0,2.0,Tombense Futebol Clube,54.0,,Bruno Cortez,4-3-3,Rodrigo José Pereira de Lima,Match Report,,,0.17,0.4,4.0,2.0,2.0,12.0,5.0,41.7,2023,Avai
-23,2023-08-23,19:00,Série B,Matchweek 17,Wed,Away,D,1.0,1.0,CRB,47.0,,Bruno Cortez,4-3-3,Lucas Paulo Torezin,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Avai
-24,2023-08-27,15:45,Série B,Matchweek 25,Sun,Away,D,0.0,0.0,Chapecoense,49.0,,Wellington Martins,4-3-3,João Vitor Gobi,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Avai
-25,2023-09-02,15:30,Série B,Matchweek 26,Sat,Home,,,,Atl Goianiense,,,,,,Head-to-Head,,,0.06,0.21,20.0,3.0,3.0,295.0,80.0,27.1,2023,Avai
-26,2023-09-11,20:30,Série B,Matchweek 27,Mon,Home,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-27,2023-09-17,18:00,Série B,Matchweek 28,Sun,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-28,2023-09-23,18:00,Série B,Matchweek 29,Sat,Home,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-32,2023-10-24,,Série B,Matchweek 33,Tue,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-33,2023-10-27,,Série B,Matchweek 34,Fri,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-34,2023-10-31,,Série B,Matchweek 35,Tue,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
-37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
 0,2023-04-15,17:00,Série B,Matchweek 1,Sat,Away,L,0.0,1.0,Mirassol Futebol Clube,45.0,1830.0,Victor Ramos Ferreira,4-2-3-1,Bruno Mota Correia,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,2.0,14.3,2023,Chapecoense
 1,2023-04-23,15:30,Série B,Matchweek 2,Sun,Home,W,3.0,0.0,Londrina,48.0,5086.0,Victor Ramos Ferreira,4-2-3-1,Bruno Pereira Vasconcelos,Match Report,,,0.13,0.27,3.0,0.0,0.0,24.0,11.0,45.8,2023,Chapecoense
 2,2023-04-29,17:00,Série B,Matchweek 3,Sat,Home,D,1.0,1.0,Ponte Preta,64.0,5049.0,Victor Ramos Ferreira,4-4-2◆,Leo Simão Holanda,Match Report,,,0.08,0.33,1.0,0.0,0.0,13.0,3.0,23.1,2023,Chapecoense
@@ -594,10 +556,10 @@
 22,2023-08-20,15:45,Série B,Matchweek 24,Sun,Away,W,2.0,1.0,Grêmio Novorizontino,43.0,,Airton Moraes,5-3-2,Bruno Arleu de Araujo,Match Report,,,0.17,0.67,2.0,0.0,0.0,12.0,3.0,25.0,2023,Chapecoense
 23,2023-08-23,21:30,Série B,Matchweek 17,Wed,Away,W,2.0,1.0,Botafogo (SP),53.0,,Airton Moraes,5-3-2,Emerson Ricardo de Almeida Andrade,Match Report,,,0.11,0.25,2.0,1.0,1.0,9.0,4.0,44.4,2023,Chapecoense
 24,2023-08-27,15:45,Série B,Matchweek 25,Sun,Home,D,0.0,0.0,Avaí,51.0,,Airton Moraes,5-3-2,João Vitor Gobi,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,4.0,36.4,2023,Chapecoense
-25,2023-08-31,21:30,Série B,Matchweek 26,Thu,Away,,,,Juventude,,,,,,Head-to-Head,,,0.07,0.22,26.0,4.0,4.0,335.0,98.0,29.3,2023,Chapecoense
-26,2023-09-05,21:30,Série B,Matchweek 27,Tue,Home,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
+25,2023-08-31,21:30,Série B,Matchweek 26,Thu,Away,D,0.0,0.0,Juventude,40.0,,Airton Moraes,5-3-2,Maguielson Lima Barbosa,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,3.0,50.0,2023,Chapecoense
+26,2023-09-05,21:30,Série B,Matchweek 27,Tue,Home,,,,Guarani,,,,,,Head-to-Head,,,0.06,0.22,26.0,4.0,4.0,341.0,101.0,29.6,2023,Chapecoense
 27,2023-09-16,17:00,Série B,Matchweek 28,Sat,Away,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
-28,2023-09-24,18:00,Série B,Matchweek 29,Sun,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
+28,2023-09-23,17:00,Série B,Matchweek 29,Sat,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Vila Nova,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
 30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
 31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Criciúma,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
@@ -607,6 +569,44 @@
 35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
 36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
 37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Chapecoense
+0,2023-04-14,19:00,Série B,Matchweek 1,Fri,Away,L,1.0,4.0,Guarani,58.0,3569.0,Thales Oleques,4-2-3-1,Emerson Ricardo de Almeida Andrade,Match Report,,,0.09,1.0,1.0,0.0,0.0,11.0,1.0,9.1,2023,Avai
+1,2023-04-22,16:00,Série B,Matchweek 2,Sat,Home,W,1.0,0.0,Mirassol Futebol Clube,58.0,4711.0,Roberto,4-3-3,Maguielson Lima Barbosa,Match Report,,,0.05,0.13,1.0,0.0,0.0,19.0,8.0,42.1,2023,Avai
+2,2023-04-28,19:00,Série B,Matchweek 3,Fri,Away,L,0.0,1.0,Criciúma,45.0,15747.0,Thales Oleques,4-3-3,Wagner do Nascimento Magalhães,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,2023,Avai
+3,2023-05-03,21:15,Série B,Matchweek 4,Wed,Home,L,0.0,3.0,Vila Nova,73.0,4436.0,Roberto,4-2-3-1,Vinicius Gonçalves Dias Araujo,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,4.0,23.5,2023,Avai
+4,2023-05-06,18:15,Série B,Matchweek 5,Sat,Away,W,1.0,0.0,Tombense Futebol Clube,42.0,814.0,Wellington Martins,4-3-3,Edina Alves Batista,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Avai
+5,2023-05-12,21:30,Série B,Matchweek 6,Fri,Home,L,1.0,4.0,Chapecoense,50.0,6402.0,Wellington Martins,4-3-3,Jean Pierre Goncalves Lima,Match Report,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,2023,Avai
+6,2023-05-19,21:30,Série B,Matchweek 7,Fri,Away,D,0.0,0.0,Atl Goianiense,40.0,4980.0,Thales Oleques,4-4-2◆,Vinicius Gonçalves Dias Araujo,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,2023,Avai
+7,2023-05-23,21:30,Série B,Matchweek 8,Tue,Away,L,0.0,2.0,Grêmio Novorizontino,56.0,1381.0,Wellington Martins,4-3-3,Marielson Alves Silva,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,3.0,37.5,2023,Avai
+8,2023-05-27,17:30,Série B,Matchweek 9,Sat,Home,D,1.0,1.0,Vitória,57.0,4363.0,Thales Oleques,4-3-3,Marcelo de Lima Henrique,Match Report,,,0.05,0.17,1.0,0.0,0.0,20.0,6.0,30.0,2023,Avai
+9,2023-06-03,16:00,Série B,Matchweek 10,Sat,Away,L,2.0,3.0,Juventude,40.0,5197.0,Thales Oleques,5-4-1,Bruno Mota Correia,Match Report,,,0.22,0.4,2.0,0.0,0.0,9.0,5.0,55.6,2023,Avai
+10,2023-06-07,19:00,Série B,Matchweek 11,Wed,Away,L,1.0,2.0,Sport Recife,46.0,18699.0,Thales Oleques,3-4-3,Yuri Elino Ferreira da Cruz,Match Report,,,0.0,0.0,1.0,1.0,1.0,17.0,5.0,29.4,2023,Avai
+11,2023-06-11,15:30,Série B,Matchweek 12,Sun,Home,D,1.0,1.0,Botafogo (SP),40.0,4301.0,Jean Cléber,4-4-2◆,Dyorgines José Padovani Andrade,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,1.0,11.1,2023,Avai
+12,2023-06-24,16:00,Série B,Matchweek 13,Sat,Home,D,0.0,0.0,Londrina,58.0,5678.0,Jean Cléber,4-3-1-2,Denis da Silva Ribeiro Serafim,Match Report,,,0.0,0.0,0.0,0.0,0.0,23.0,5.0,21.7,2023,Avai
+13,2023-06-28,19:00,Série B,Matchweek 14,Wed,Away,D,0.0,0.0,Ceará,36.0,14513.0,Jean Cléber,4-3-3,Douglas Marques das Flores,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Avai
+14,2023-07-01,17:00,Série B,Matchweek 15,Sat,Home,L,0.0,2.0,ABC,66.0,6378.0,Jean Cléber,4-2-3-1,Matheus Delgado Candançan,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Avai
+15,2023-07-08,17:00,Série B,Matchweek 16,Sat,Home,L,0.0,1.0,Ponte Preta,44.0,,William Pottker,4-3-3,Jefferson Ferreira de Moraes,Match Report,,,0.0,0.0,0.0,0.0,0.0,15.0,3.0,20.0,2023,Avai
+16,2023-07-19,21:30,Série B,Matchweek 18,Wed,Home,W,2.0,0.0,Sampaio Corrêa,48.0,6498.0,Bruno Cortez,4-3-3,Matheus Delgado Candançan,Match Report,,,0.29,0.5,2.0,0.0,0.0,7.0,4.0,57.1,2023,Avai
+17,2023-07-22,18:00,Série B,Matchweek 19,Sat,Away,W,1.0,0.0,Ituano,39.0,,Jean Cléber,4-3-3,Paulo Roberto Alves Júnior,Match Report,,,0.17,0.33,1.0,0.0,0.0,6.0,3.0,50.0,2023,Avai
+18,2023-07-29,17:00,Série B,Matchweek 20,Sat,Home,L,1.0,2.0,Guarani,58.0,,Wellington Martins,4-3-3,Paulo Belence Alves dos Prazeres Filho,Match Report,,,0.07,0.5,1.0,0.0,0.0,15.0,2.0,13.3,2023,Avai
+19,2023-08-01,19:00,Série B,Matchweek 21,Tue,Away,D,2.0,2.0,Mirassol Futebol Clube,44.0,,Bruno Cortez,4-3-3,Denis da Silva Ribeiro Serafim,Match Report,,,0.22,0.67,2.0,0.0,0.0,9.0,3.0,33.3,2023,Avai
+20,2023-08-05,15:30,Série B,Matchweek 22,Sat,Home,W,1.0,0.0,Criciúma,45.0,,Douglas,4-3-3,Flavio Rodrigues de Souza,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,2023,Avai
+21,2023-08-12,18:00,Série B,Matchweek 23,Sat,Away,D,1.0,1.0,Vila Nova,47.0,,Bruno Cortez,4-3-3,Matheus Delgado Candançan,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Avai
+22,2023-08-19,15:30,Série B,Matchweek 24,Sat,Home,W,4.0,2.0,Tombense Futebol Clube,54.0,,Bruno Cortez,4-3-3,Rodrigo José Pereira de Lima,Match Report,,,0.17,0.4,4.0,2.0,2.0,12.0,5.0,41.7,2023,Avai
+23,2023-08-23,19:00,Série B,Matchweek 17,Wed,Away,D,1.0,1.0,CRB,47.0,,Bruno Cortez,4-3-3,Lucas Paulo Torezin,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Avai
+24,2023-08-27,15:45,Série B,Matchweek 25,Sun,Away,D,0.0,0.0,Chapecoense,49.0,,Wellington Martins,4-3-3,João Vitor Gobi,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Avai
+25,2023-09-02,15:30,Série B,Matchweek 26,Sat,Home,L,0.0,2.0,Atl Goianiense,65.0,,Bruno Cortez,4-3-3,Arthur Gomes Rabelo,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,1.0,9.1,2023,Avai
+26,2023-09-11,20:30,Série B,Matchweek 27,Mon,Home,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,0.06,0.21,20.0,3.0,3.0,306.0,81.0,26.5,2023,Avai
+27,2023-09-17,18:00,Série B,Matchweek 28,Sun,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+28,2023-09-25,18:00,Série B,Matchweek 29,Mon,Home,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+32,2023-10-24,,Série B,Matchweek 33,Tue,Home,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+33,2023-10-27,,Série B,Matchweek 34,Fri,Away,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+34,2023-10-31,,Série B,Matchweek 35,Tue,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+35,2023-11-07,,Série B,Matchweek 36,Tue,Home,,,,CRB,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+36,2023-11-10,,Série B,Matchweek 37,Fri,Away,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
+37,2023-11-25,,Série B,Matchweek 38,Sat,Home,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Avai
 0,2023-04-15,17:00,Série B,Matchweek 1,Sat,Home,D,3.0,3.0,Atl Goianiense,51.0,3290.0,Joecio,4-2-3-1,João Vitor Gobi,Match Report,,,0.16,0.38,3.0,0.0,1.0,19.0,8.0,42.1,2023,Sampaio Correa
 1,2023-04-21,19:00,Série B,Matchweek 2,Fri,Away,L,0.0,1.0,Botafogo (SP),58.0,5182.0,Joecio,4-2-3-1,Murilo Francisco Misson Junior,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,3.0,37.5,2023,Sampaio Correa
 2,2023-04-29,16:00,Série B,Matchweek 3,Sat,Home,L,1.0,3.0,Mirassol Futebol Clube,53.0,3551.0,Joecio,4-2-3-1,Jefferson Ferreira de Moraes,Match Report,,,0.08,0.25,1.0,0.0,0.0,12.0,4.0,33.3,2023,Sampaio Correa
@@ -632,8 +632,8 @@
 22,2023-08-12,17:00,Série B,Matchweek 23,Sat,Home,D,1.0,1.0,CRB,61.0,,Pimentinha,4-3-3,Gustavo Ervino Bauermann,Match Report,,,0.0,0.0,1.0,1.0,1.0,13.0,1.0,7.7,2023,Sampaio Correa
 23,2023-08-19,18:00,Série B,Matchweek 24,Sat,Away,D,0.0,0.0,Juventude,28.0,,Ytalo,4-2-3-1,Jefferson Ferreira de Moraes,Match Report,,,0.0,,0.0,0.0,0.0,3.0,0.0,0.0,2023,Sampaio Correa
 24,2023-08-26,17:00,Série B,Matchweek 25,Sat,Home,D,1.0,1.0,Guarani,64.0,,Leandro Ferreira,4-2-3-1,Arthur Gomes Rabelo,Match Report,,,0.05,0.14,1.0,0.0,0.0,20.0,7.0,35.0,2023,Sampaio Correa
-25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Away,,,,ABC,,,,,,Head-to-Head,,,0.05,0.19,17.0,1.0,3.0,353.0,86.0,24.4,2023,Sampaio Correa
-26,2023-09-09,17:00,Série B,Matchweek 27,Sat,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,Sampaio Correa
+25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Away,D,1.0,1.0,ABC,32.0,,Pará,4-1-4-1,Fabio Augusto de Sá Junior,Match Report,,,0.14,1.0,1.0,0.0,0.0,7.0,1.0,14.3,2023,Sampaio Correa
+26,2023-09-09,17:00,Série B,Matchweek 27,Sat,Away,,,,Ponte Preta,,,,,,Head-to-Head,,,0.05,0.2,18.0,1.0,3.0,360.0,87.0,24.2,2023,Sampaio Correa
 27,2023-09-16,17:00,Série B,Matchweek 28,Sat,Home,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,Sampaio Correa
 28,2023-09-19,21:30,Série B,Matchweek 29,Tue,Home,,,,Vila Nova,,,,,,Head-to-Head,,,,,,,,,,,2023,Sampaio Correa
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Londrina,,,,,,Head-to-Head,,,,,,,,,,,2023,Sampaio Correa
@@ -670,10 +670,10 @@
 22,2023-08-11,21:30,Série B,Matchweek 23,Fri,Home,D,0.0,0.0,Sport Recife,50.0,,Roger Carvalho,4-3-3,Braulio da Silva Machado,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,2023,Tombense Futebol Clube
 23,2023-08-19,15:30,Série B,Matchweek 24,Sat,Away,L,2.0,4.0,Avaí,46.0,,Egídio Pereira Júnior,4-3-3,Rodrigo José Pereira de Lima,Match Report,,,0.04,0.13,2.0,1.0,2.0,23.0,8.0,34.8,2023,Tombense Futebol Clube
 24,2023-08-26,17:00,Série B,Matchweek 25,Sat,Home,D,2.0,2.0,Ceará,67.0,,Roger Carvalho,4-4-2,Yuri Elino Ferreira da Cruz,Match Report,,,0.1,0.67,2.0,0.0,0.0,21.0,3.0,14.3,2023,Tombense Futebol Clube
-25,2023-09-01,21:30,Série B,Matchweek 26,Fri,Away,,,,Londrina,,,,,,Head-to-Head,,,0.06,0.2,25.0,2.0,3.0,377.0,114.0,30.2,2023,Tombense Futebol Clube
-26,2023-09-07,18:30,Série B,Matchweek 27,Thu,Home,,,,ABC,,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
+25,2023-09-01,21:30,Série B,Matchweek 26,Fri,Away,D,1.0,1.0,Londrina,35.0,,Roger Carvalho,4-3-3,Davi de Oliveira Lacerda,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Tombense Futebol Clube
+26,2023-09-07,18:30,Série B,Matchweek 27,Thu,Home,,,,ABC,,,,,,Head-to-Head,,,0.06,0.21,26.0,2.0,3.0,383.0,116.0,30.3,2023,Tombense Futebol Clube
 27,2023-09-17,15:45,Série B,Matchweek 28,Sun,Away,,,,Guarani,,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
-28,2023-09-24,11:00,Série B,Matchweek 29,Sun,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
+28,2023-09-23,18:00,Série B,Matchweek 29,Sat,Home,,,,Botafogo (SP),,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
 29,2023-10-03,,Série B,Matchweek 30,Tue,Away,,,,Vitória,,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
 30,2023-10-06,,Série B,Matchweek 31,Fri,Home,,,,Juventude,,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
 31,2023-10-17,,Série B,Matchweek 32,Tue,Away,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,Tombense Futebol Clube
@@ -708,8 +708,8 @@
 22,2023-08-12,15:30,Série B,Matchweek 23,Sat,Away,L,0.0,2.0,Criciúma,42.0,,João Paulo,4-2-3-1,Dyorgines José Padovani Andrade,Match Report,,,0.0,,0.0,0.0,0.0,10.0,0.0,0.0,2023,Londrina
 23,2023-08-17,19:00,Série B,Matchweek 24,Thu,Home,L,0.0,2.0,Atl Goianiense,51.0,,João Paulo,4-2-3-1,Diego Pombo Lopez,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,6.0,46.2,2023,Londrina
 24,2023-08-25,19:00,Série B,Matchweek 25,Fri,Away,L,0.0,1.0,Ponte Preta,62.0,,João Paulo,4-2-3-1,Gustavo Ervino Bauermann,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,2.0,10.0,2023,Londrina
-25,2023-09-01,21:30,Série B,Matchweek 26,Fri,Home,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,0.05,0.23,20.0,3.0,3.0,312.0,75.0,24.0,2023,Londrina
-26,2023-09-06,21:30,Série B,Matchweek 27,Wed,Away,,,,Ceará,,,,,,Head-to-Head,,,,,,,,,,,2023,Londrina
+25,2023-09-01,21:30,Série B,Matchweek 26,Fri,Home,D,1.0,1.0,Tombense Futebol Clube,65.0,,Rafael Vaz,4-2-3-1,Davi de Oliveira Lacerda,Match Report,,,0.05,0.17,1.0,0.0,0.0,22.0,6.0,27.3,2023,Londrina
+26,2023-09-06,21:30,Série B,Matchweek 27,Wed,Away,,,,Ceará,,,,,,Head-to-Head,,,0.05,0.22,21.0,3.0,3.0,334.0,81.0,24.3,2023,Londrina
 27,2023-09-14,18:30,Série B,Matchweek 28,Thu,Home,,,,Ituano,,,,,,Head-to-Head,,,,,,,,,,,2023,Londrina
 28,2023-09-23,20:45,Série B,Matchweek 29,Sat,Away,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,Londrina
 29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,,,,,,,,,2023,Londrina
@@ -746,10 +746,10 @@
 22,2023-08-14,20:00,Série B,Matchweek 23,Mon,Home,D,1.0,1.0,Ituano,47.0,,Romário,4-4-2,Paulo Belence Alves dos Prazeres Filho,Match Report,,,0.09,0.5,1.0,0.0,0.0,11.0,2.0,18.2,2023,ABC
 23,2023-08-19,17:00,Série B,Matchweek 24,Sat,Home,L,1.0,2.0,CRB,61.0,,Romário,4-4-2,Vinicius Gonçalves Dias Araujo,Match Report,,,0.1,0.2,1.0,0.0,0.0,10.0,5.0,50.0,2023,ABC
 24,2023-08-28,20:00,Série B,Matchweek 25,Mon,Away,D,0.0,0.0,Botafogo (SP),51.0,,Romário,4-4-2,Thayslane de Melo Costa,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,4.0,50.0,2023,ABC
-25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Home,,,,Sampaio Corrêa,,,,,,Head-to-Head,,,0.04,0.13,14.0,3.0,3.0,262.0,84.0,32.1,2023,ABC
-26,2023-09-07,18:30,Série B,Matchweek 27,Thu,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC
+25,2023-09-02,17:00,Série B,Matchweek 26,Sat,Home,D,1.0,1.0,Sampaio Corrêa,68.0,,Romário,4-4-2,Fabio Augusto de Sá Junior,Match Report,,,0.14,0.5,1.0,0.0,0.0,7.0,2.0,28.6,2023,ABC
+26,2023-09-07,18:30,Série B,Matchweek 27,Thu,Away,,,,Tombense Futebol Clube,,,,,,Head-to-Head,,,0.04,0.14,15.0,3.0,3.0,269.0,86.0,32.0,2023,ABC
 27,2023-09-15,21:30,Série B,Matchweek 28,Fri,Home,,,,Sport Recife,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC
-28,2023-09-25,20:00,Série B,Matchweek 29,Mon,Away,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC
+28,2023-09-25,21:00,Série B,Matchweek 29,Mon,Away,,,,Grêmio Novorizontino,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC
 29,2023-10-03,,Série B,Matchweek 30,Tue,Home,,,,Ponte Preta,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC
 30,2023-10-06,,Série B,Matchweek 31,Fri,Away,,,,Chapecoense,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC
 31,2023-10-17,,Série B,Matchweek 32,Tue,Home,,,,Mirassol Futebol Clube,,,,,,Head-to-Head,,,,,,,,,,,2023,ABC

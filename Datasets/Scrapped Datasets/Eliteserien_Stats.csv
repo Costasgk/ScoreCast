@@ -18,8 +18,8 @@
 16,2023-07-30,19:15,Eliteserien,Matchweek 16,Sun,Home,L,0.0,2.0,Tromsø,68.0,,Patrick Berg,4-3-3,Tore Hansen,Match Report,,,0.0,0.0,0.0,0.0,0.0,20.0,4.0,20.0,2023,BodoGlimt
 17,2023-08-06,19:15,Eliteserien,Matchweek 17,Sun,Away,L,2.0,3.0,Viking,54.0,15703.0,Brede Moe,4-3-3,Ola Nilsen,Match Report,,,0.11,0.25,2.0,0.0,0.0,19.0,8.0,42.1,2023,BodoGlimt
 18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,W,3.0,1.0,Haugesund,63.0,5342.0,Ulrik Saltnes,4-3-3,Mohammad Aslam,Match Report,,,0.15,0.25,3.0,0.0,0.0,20.0,12.0,60.0,2023,BodoGlimt
-19,2023-09-03,19:15,Eliteserien,Matchweek 21,Sun,Away,,,,HamKam,,,,,,Head-to-Head,,18.4,0.12,0.33,63.0,3.0,4.0,374.0,139.0,37.2,2023,BodoGlimt
-20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Rosenborg,,,,,,Head-to-Head,,,,,,,,,,,2023,BodoGlimt
+19,2023-09-03,19:15,Eliteserien,Matchweek 21,Sun,Away,D,4.0,4.0,HamKam,79.0,4532.0,Ulrik Saltnes,4-3-3,Sigurd Kringstad,Match Report,,,0.13,0.4,4.0,0.0,0.0,30.0,10.0,33.3,2023,BodoGlimt
+20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Rosenborg,,,,,,Head-to-Head,,18.4,0.12,0.34,70.0,4.0,5.0,404.0,149.0,36.9,2023,BodoGlimt
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Home,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,BodoGlimt
 22,2023-10-01,19:15,Eliteserien,Matchweek 20,Sun,Home,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,BodoGlimt
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Molde,,,,,,Head-to-Head,,,,,,,,,,,2023,BodoGlimt
@@ -48,8 +48,8 @@
 16,2023-08-06,19:15,Eliteserien,Matchweek 17,Sun,Home,W,3.0,2.0,Bodø/Glimt,46.0,15703.0,Zlatko Tripić,4-3-3,Ola Nilsen,Match Report,,,0.2,0.5,3.0,0.0,0.0,15.0,6.0,40.0,2023,Viking
 17,2023-08-13,17:00,Eliteserien,Matchweek 18,Sun,Away,W,3.0,1.0,Lillestrøm,45.0,7466.0,David Brekalo,4-3-3,Rohit Saggi,Match Report,,,0.2,0.38,3.0,0.0,0.0,15.0,8.0,53.3,2023,Viking
 18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Home,W,1.0,0.0,Stabæk,79.0,14256.0,Zlatko Tripić,4-3-3,Sivert Amland,Match Report,,,0.05,0.2,1.0,0.0,0.0,21.0,5.0,23.8,2023,Viking
-19,2023-09-02,18:00,Eliteserien,Matchweek 21,Sat,Home,,,,Vålerenga,,,,,,Head-to-Head,,,0.12,0.32,43.0,6.0,6.0,298.0,117.0,39.3,2023,Viking
-20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Away,,,,Haugesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Viking
+19,2023-09-02,18:00,Eliteserien,Matchweek 21,Sat,Home,D,1.0,1.0,Vålerenga,67.0,14675.0,Zlatko Tripić,4-3-3,Tore Hansen,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,4.0,28.6,2023,Viking
+20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Away,,,,Haugesund,,,,,,Head-to-Head,,,0.12,0.31,43.0,6.0,6.0,312.0,121.0,38.8,2023,Viking
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Home,,,,Sandefjord,,,,,,Head-to-Head,,,,,,,,,,,2023,Viking
 22,2023-09-30,17:00,Eliteserien,Matchweek 20,Sat,Away,,,,Molde,,,,,,,Match Postponed,,,,,,,,,,2023,Viking
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Odd,,,,,,Head-to-Head,,,,,,,,,,,2023,Viking
@@ -78,8 +78,8 @@
 16,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Home,W,3.0,1.0,Lillestrøm,52.0,5381.0,Ruben Yttergård Jenssen,3-4-3,Sivert Amland,Match Report,,,0.11,0.22,3.0,1.0,1.0,19.0,9.0,47.4,2023,Tromso
 17,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Home,W,1.0,0.0,Sandefjord,49.0,5411.0,Ruben Yttergård Jenssen,3-4-3,Daniel Higraff,Match Report,,,0.06,0.25,1.0,0.0,0.0,17.0,4.0,23.5,2023,Tromso
 18,2023-08-26,18:00,Eliteserien,Matchweek 20,Sat,Away,L,0.0,4.0,Sarpsborg 08,62.0,4133.0,Ruben Yttergård Jenssen,3-5-2,Ola Nilsen,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,2.0,28.6,2023,Tromso
-19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,,,,Rosenborg,,,,,,Head-to-Head,,,0.13,0.31,27.0,4.0,5.0,182.0,75.0,41.2,2023,Tromso
-20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Tromso
+19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,W,3.0,1.0,Rosenborg,60.0,6216.0,Ruben Yttergård Jenssen,3-5-2,Christian Moen,Match Report,,,0.14,0.33,3.0,0.0,0.0,22.0,9.0,40.9,2023,Tromso
+20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,HamKam,,,,,,Head-to-Head,,,0.13,0.31,30.0,4.0,5.0,204.0,84.0,41.2,2023,Tromso
 21,2023-09-24,19:15,Eliteserien,Matchweek 23,Sun,Away,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Tromso
 22,2023-09-30,15:00,Eliteserien,Matchweek 18,Sat,Away,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Tromso
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Tromso
@@ -108,8 +108,8 @@
 16,2023-07-29,18:00,Eliteserien,Matchweek 16,Sat,Away,W,1.0,0.0,Stabæk,52.0,3235.0,Martin Bjørnbak,5-3-2,Svein Oddvar Moen,Match Report,,,0.0,0.0,1.0,1.0,1.0,11.0,4.0,36.4,2023,Molde
 17,2023-08-12,16:00,Eliteserien,Matchweek 18,Sat,Away,D,2.0,2.0,Sandefjord,56.0,4754.0,Martin Bjørnbak,3-5-2,Kristoffer Hagenes,Match Report,,,0.17,0.5,2.0,0.0,0.0,12.0,4.0,33.3,2023,Molde
 18,2023-08-19,18:00,Eliteserien,Matchweek 19,Sat,Home,D,0.0,0.0,Vålerenga,70.0,6468.0,Erling Knudtzon,3-5-2,Svein Sinnes,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,4.0,25.0,2023,Molde
-19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,,,,Haugesund,,,,,,Head-to-Head,,,0.12,0.35,47.0,4.0,5.0,338.0,113.0,33.4,2023,Molde
-20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Home,,,,Odd,,,,,,Head-to-Head,,,,,,,,,,,2023,Molde
+19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,W,2.0,1.0,Haugesund,52.0,3416.0,Martin Bjørnbak,3-5-2,Kai Erik Steen,Match Report,,,0.18,0.33,2.0,0.0,0.0,11.0,6.0,54.5,2023,Molde
+20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Home,,,,Odd,,,,,,Head-to-Head,,,0.12,0.34,49.0,4.0,5.0,349.0,119.0,34.1,2023,Molde
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,Molde
 22,2023-09-30,17:00,Eliteserien,Matchweek 20,Sat,Home,,,,Viking,,,,,,,Match Postponed,,,,,,,,,,2023,Molde
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Molde
@@ -138,8 +138,8 @@
 16,2023-07-30,17:00,Eliteserien,Matchweek 16,Sun,Home,L,0.0,2.0,Viking,70.0,15903.0,Sivert Heltne Nilsen,4-3-3,Sigurd Kringstad,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,1.0,7.1,2023,Brann
 17,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Away,W,2.0,0.0,HamKam,69.0,5346.0,Sivert Heltne Nilsen,4-3-3,Mohammad Aslam,Match Report,,,0.08,0.22,2.0,0.0,0.0,26.0,9.0,34.6,2023,Brann
 18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Home,W,5.0,1.0,Aalesund,65.0,13317.0,Sivert Heltne Nilsen,4-3-3,Christian Moen,Match Report,,,0.25,0.45,5.0,0.0,0.0,20.0,11.0,55.0,2023,Brann
-19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,,,,Sarpsborg 08,,,,,,Head-to-Head,,,0.09,0.29,39.0,5.0,6.0,313.0,100.0,31.9,2023,Brann
-20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Brann
+19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,W,1.0,0.0,Sarpsborg 08,59.0,11603.0,Sivert Heltne Nilsen,4-3-3,Mohammad Aslam,Match Report,,,0.0,0.0,1.0,1.0,2.0,12.0,3.0,25.0,2023,Brann
+20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Stabæk,,,,,,Head-to-Head,,,0.09,0.28,43.0,6.0,8.0,325.0,103.0,31.7,2023,Brann
 21,2023-09-24,19:15,Eliteserien,Matchweek 23,Sun,Home,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,Brann
 22,2023-10-01,15:00,Eliteserien,Matchweek 20,Sun,Away,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Brann
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,Brann
@@ -168,8 +168,8 @@
 16,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Away,L,1.0,3.0,Tromsø,48.0,5381.0,Gjermund Åsen,3-5-2,Sivert Amland,Match Report,,,0.5,0.5,1.0,0.0,0.0,2.0,2.0,100.0,2023,Lillestrom
 17,2023-08-13,17:00,Eliteserien,Matchweek 18,Sun,Home,L,1.0,3.0,Viking,55.0,7466.0,Gjermund Åsen,4-4-2,Rohit Saggi,Match Report,,,0.11,0.5,1.0,0.0,0.0,9.0,2.0,22.2,2023,Lillestrom
 18,2023-08-20,19:15,Eliteserien,Matchweek 19,Sun,Away,W,2.0,1.0,Strømsgodset,46.0,6020.0,Gjermund Åsen,5-3-2,Sigurd Kringstad,Match Report,,,0.13,0.33,2.0,0.0,0.0,16.0,6.0,37.5,2023,Lillestrom
-19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,,,,Aalesund,,,,,,Head-to-Head,,,0.12,0.39,36.0,2.0,3.0,290.0,87.0,30.0,2023,Lillestrom
-20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Sarpsborg 08,,,,,,Head-to-Head,,,,,,,,,,,2023,Lillestrom
+19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,D,1.0,1.0,Aalesund,54.0,4418.0,Gjermund Åsen,5-3-2,Daniel Higraff,Match Report,,,0.07,0.2,1.0,0.0,0.0,14.0,5.0,35.7,2023,Lillestrom
+20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Sarpsborg 08,,,,,,Head-to-Head,,,0.12,0.38,37.0,2.0,3.0,304.0,92.0,30.3,2023,Lillestrom
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Home,,,,Rosenborg,,,,,,Head-to-Head,,,,,,,,,,,2023,Lillestrom
 22,2023-10-01,15:00,Eliteserien,Matchweek 20,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Lillestrom
 23,2023-10-07,18:00,Eliteserien,Matchweek 24,Sat,Away,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Lillestrom
@@ -199,8 +199,8 @@
 17,2023-08-12,18:00,Eliteserien,Matchweek 18,Sat,Home,L,1.0,2.0,Strømsgodset,59.0,4138.0,Bjørn Inge Utvik,4-2-3-1,Svein Oddvar Moen,Match Report,,,0.05,0.2,1.0,0.0,0.0,20.0,5.0,25.0,2023,Sarpsborg 08
 18,2023-08-19,18:00,Eliteserien,Matchweek 19,Sat,Away,W,3.0,0.0,Odd,52.0,4373.0,Bjørn Inge Utvik,4-2-3-1,Marius Grøtta,Match Report,,,0.13,0.43,3.0,0.0,0.0,24.0,7.0,29.2,2023,Sarpsborg 08
 19,2023-08-26,18:00,Eliteserien,Matchweek 20,Sat,Home,W,4.0,0.0,Tromsø,38.0,4133.0,Bjørn Inge Utvik,4-2-3-1,Ola Nilsen,Match Report,,,0.29,0.5,4.0,0.0,0.0,14.0,8.0,57.1,2023,Sarpsborg 08
-20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,,,,Brann,,,,,,Head-to-Head,,,0.1,0.3,37.0,0.0,0.0,358.0,125.0,34.9,2023,Sarpsborg 08
-21,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
+20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,L,0.0,1.0,Brann,41.0,11603.0,Bjørn Inge Utvik,4-2-3-1,Mohammad Aslam,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,2023,Sarpsborg 08
+21,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,Lillestrøm,,,,,,Head-to-Head,,,0.1,0.29,37.0,0.0,0.0,372.0,128.0,34.4,2023,Sarpsborg 08
 22,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,Rosenborg,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
 24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Away,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
@@ -209,36 +209,6 @@
 27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Away,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
 28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Home,,,,Molde,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
 29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Away,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Sarpsborg 08
-0,2023-04-10,14:30,Eliteserien,Matchweek 1,Mon,Home,W,1.0,0.0,Viking,47.0,15104.0,Markus Henriksen,3-5-2,Espen Andreas Eskås,Match Report,,,0.08,1.0,1.0,0.0,0.0,12.0,1.0,8.3,2023,Rosenborg
-1,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Away,D,1.0,1.0,Molde,46.0,10730.0,Markus Henriksen,3-4-3,Tore Hansen,Match Report,,,0.0,,0.0,0.0,0.0,8.0,0.0,0.0,2023,Rosenborg
-2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Home,D,1.0,1.0,Sandefjord,58.0,11256.0,Markus Henriksen,3-5-2,Kristoffer Hagenes,Match Report,,,0.07,0.2,1.0,0.0,0.0,14.0,5.0,35.7,2023,Rosenborg
-3,2023-04-30,19:15,Eliteserien,Matchweek 4,Sun,Away,D,0.0,0.0,Odd,53.0,8331.0,Markus Henriksen,3-4-3,Daniel Higraff,Match Report,,,0.0,,0.0,0.0,0.0,10.0,0.0,0.0,2023,Rosenborg
-4,2023-05-03,18:00,Eliteserien,Matchweek 18,Wed,Home,L,0.0,2.0,Brann,32.0,13021.0,Markus Henriksen,3-4-3,Espen Andreas Eskås,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,2023,Rosenborg
-5,2023-05-06,18:00,Eliteserien,Matchweek 5,Sat,Home,L,1.0,3.0,Vålerenga,58.0,14654.0,Markus Henriksen,3-5-2,Svein Oddvar Moen,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Rosenborg
-6,2023-05-13,17:00,Eliteserien,Matchweek 6,Sat,Away,L,2.0,3.0,Bodø/Glimt,36.0,8244.0,Markus Henriksen,3-5-2,Kristoffer Hagenes,Match Report,,,0.2,0.33,2.0,0.0,0.0,10.0,6.0,60.0,2023,Rosenborg
-7,2023-05-16,18:00,Eliteserien,Matchweek 7,Tue,Home,W,1.0,0.0,Haugesund,59.0,21264.0,Markus Henriksen,3-5-2,Rohit Saggi,Match Report,,,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,2023,Rosenborg
-8,2023-05-29,17:00,Eliteserien,Matchweek 8,Mon,Away,L,1.0,3.0,Brann,38.0,16832.0,Markus Henriksen,3-5-2,Sigurd Kringstad,Match Report,,,0.0,0.0,1.0,1.0,1.0,10.0,3.0,30.0,2023,Rosenborg
-9,2023-06-04,17:00,Eliteserien,Matchweek 9,Sun,Home,W,4.0,0.0,HamKam,61.0,10705.0,Markus Henriksen,3-4-3,Espen Andreas Eskås,Match Report,,,0.33,0.67,4.0,0.0,0.0,12.0,6.0,50.0,2023,Rosenborg
-10,2023-06-11,17:00,Eliteserien,Matchweek 10,Sun,Away,D,2.0,2.0,Stabæk,74.0,4938.0,Markus Henriksen,3-4-3,Svein Oddvar Moen,Match Report,,,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,2023,Rosenborg
-11,2023-06-25,17:00,Eliteserien,Matchweek 11,Sun,Home,L,0.0,3.0,Sarpsborg 08,49.0,14191.0,Markus Henriksen,4-3-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,2023,Rosenborg
-12,2023-07-02,17:00,Eliteserien,Matchweek 12,Sun,Away,L,0.0,1.0,Aalesund,59.0,6209.0,Erlend Dahl Reitan,4-3-3,Marius Lien,Match Report,,,0.0,0.0,0.0,0.0,0.0,21.0,4.0,19.0,2023,Rosenborg
-13,2023-07-09,17:00,Eliteserien,Matchweek 13,Sun,Home,L,1.0,2.0,Lillestrøm,44.0,12064.0,Erlend Dahl Reitan,4-3-3,Sivert Amland,Match Report,,,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,2023,Rosenborg
-14,2023-07-16,17:00,Eliteserien,Matchweek 14,Sun,Home,W,2.0,1.0,Tromsø,41.0,12513.0,Erlend Dahl Reitan,4-3-3,Mohammad Aslam,Match Report,,,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,2023,Rosenborg
-15,2023-07-23,19:15,Eliteserien,Matchweek 15,Sun,Away,W,1.0,0.0,Strømsgodset,42.0,,Erlend Dahl Reitan,4-3-3,Kristoffer Hagenes,Match Report,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,2023,Rosenborg
-16,2023-07-30,17:00,Eliteserien,Matchweek 16,Sun,Home,W,3.0,2.0,Odd,60.0,12601.0,Erlend Dahl Reitan,4-3-3,Christian Moen,Match Report,,,0.09,0.22,3.0,1.0,1.0,23.0,9.0,39.1,2023,Rosenborg
-17,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Away,W,2.0,1.0,Haugesund,55.0,4667.0,Erlend Dahl Reitan,4-3-3,Sigurd Kringstad,Match Report,,,0.11,0.67,2.0,0.0,0.0,19.0,3.0,15.8,2023,Rosenborg
-18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,L,0.0,3.0,HamKam,64.0,6500.0,Ulrik Yttergård Jenssen,4-3-3,Steinar Hauge,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,2023,Rosenborg
-19,2023-08-27,19:15,Eliteserien,Matchweek 20,Sun,Home,W,4.0,0.0,Aalesund,49.0,11020.0,Erlend Dahl Reitan,4-3-3,Marius Lien,Match Report,,,0.29,0.5,4.0,0.0,0.0,14.0,8.0,57.1,2023,Rosenborg
-20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,,,,Tromsø,,,,,,Head-to-Head,,,0.1,0.31,34.0,3.0,3.0,249.0,78.0,31.3,2023,Rosenborg
-21,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-22,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Sarpsborg 08,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Home,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-25,2023-10-29,,Eliteserien,Matchweek 26,Sun,Away,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-26,2023-11-05,,Eliteserien,Matchweek 27,Sun,Home,,,,Molde,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Away,,,,Sandefjord,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Home,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
-29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Away,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
 0,2023-04-10,17:00,Eliteserien,Matchweek 1,Mon,Away,D,0.0,0.0,Stabæk,46.0,3308.0,Steffen Hagen,3-4-3,Svein Sinnes,Match Report,,,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,2023,Odd
 1,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Home,W,2.0,0.0,Brann,34.0,5781.0,Steffen Hagen,5-4-1,Espen Andreas Eskås,Match Report,,,0.17,0.4,2.0,0.0,0.0,12.0,5.0,41.7,2023,Odd
 2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Away,D,0.0,0.0,Sarpsborg 08,54.0,4330.0,Steffen Hagen,5-4-1,Svein Oddvar Moen,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,2023,Odd
@@ -259,8 +229,8 @@
 17,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Home,W,4.0,0.0,Stabæk,36.0,4758.0,Steffen Hagen,3-4-3,Svein Sinnes,Match Report,,,0.31,0.57,4.0,0.0,0.0,13.0,7.0,53.8,2023,Odd
 18,2023-08-19,18:00,Eliteserien,Matchweek 19,Sat,Home,L,0.0,3.0,Sarpsborg 08,48.0,4373.0,Steffen Hagen,3-4-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,9.0,3.0,33.3,2023,Odd
 19,2023-08-27,17:00,Eliteserien,Matchweek 20,Sun,Away,D,2.0,2.0,Vålerenga,55.0,8368.0,Steffen Hagen,3-4-3,Kristoffer Hagenes,Match Report,,,0.15,0.5,2.0,0.0,0.0,13.0,4.0,30.8,2023,Odd
-20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,,,,Sandefjord,,,,,,Head-to-Head,,,0.1,0.32,22.0,1.0,1.0,205.0,65.0,31.7,2023,Odd
-21,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Away,,,,Molde,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
+20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,W,3.0,2.0,Sandefjord,51.0,4981.0,Steffen Hagen,3-4-3,Ola Nilsen,Match Report,,,0.25,0.5,3.0,0.0,0.0,12.0,6.0,50.0,2023,Odd
+21,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Away,,,,Molde,,,,,,Head-to-Head,,,0.11,0.34,25.0,1.0,1.0,217.0,71.0,32.7,2023,Odd
 22,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Home,,,,Haugesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
 24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Away,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
@@ -269,6 +239,36 @@
 27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Home,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
 28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Away,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
 29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Home,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Odd
+0,2023-04-10,14:30,Eliteserien,Matchweek 1,Mon,Home,W,1.0,0.0,Viking,47.0,15104.0,Markus Henriksen,3-5-2,Espen Andreas Eskås,Match Report,,,0.08,1.0,1.0,0.0,0.0,12.0,1.0,8.3,2023,Rosenborg
+1,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Away,D,1.0,1.0,Molde,46.0,10730.0,Markus Henriksen,3-4-3,Tore Hansen,Match Report,,,0.0,,0.0,0.0,0.0,8.0,0.0,0.0,2023,Rosenborg
+2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Home,D,1.0,1.0,Sandefjord,58.0,11256.0,Markus Henriksen,3-5-2,Kristoffer Hagenes,Match Report,,,0.07,0.2,1.0,0.0,0.0,14.0,5.0,35.7,2023,Rosenborg
+3,2023-04-30,19:15,Eliteserien,Matchweek 4,Sun,Away,D,0.0,0.0,Odd,53.0,8331.0,Markus Henriksen,3-4-3,Daniel Higraff,Match Report,,,0.0,,0.0,0.0,0.0,10.0,0.0,0.0,2023,Rosenborg
+4,2023-05-03,18:00,Eliteserien,Matchweek 18,Wed,Home,L,0.0,2.0,Brann,32.0,13021.0,Markus Henriksen,3-4-3,Espen Andreas Eskås,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,2023,Rosenborg
+5,2023-05-06,18:00,Eliteserien,Matchweek 5,Sat,Home,L,1.0,3.0,Vålerenga,58.0,14654.0,Markus Henriksen,3-5-2,Svein Oddvar Moen,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Rosenborg
+6,2023-05-13,17:00,Eliteserien,Matchweek 6,Sat,Away,L,2.0,3.0,Bodø/Glimt,36.0,8244.0,Markus Henriksen,3-5-2,Kristoffer Hagenes,Match Report,,,0.2,0.33,2.0,0.0,0.0,10.0,6.0,60.0,2023,Rosenborg
+7,2023-05-16,18:00,Eliteserien,Matchweek 7,Tue,Home,W,1.0,0.0,Haugesund,59.0,21264.0,Markus Henriksen,3-5-2,Rohit Saggi,Match Report,,,0.08,0.33,1.0,0.0,0.0,12.0,3.0,25.0,2023,Rosenborg
+8,2023-05-29,17:00,Eliteserien,Matchweek 8,Mon,Away,L,1.0,3.0,Brann,38.0,16832.0,Markus Henriksen,3-5-2,Sigurd Kringstad,Match Report,,,0.0,0.0,1.0,1.0,1.0,10.0,3.0,30.0,2023,Rosenborg
+9,2023-06-04,17:00,Eliteserien,Matchweek 9,Sun,Home,W,4.0,0.0,HamKam,61.0,10705.0,Markus Henriksen,3-4-3,Espen Andreas Eskås,Match Report,,,0.33,0.67,4.0,0.0,0.0,12.0,6.0,50.0,2023,Rosenborg
+10,2023-06-11,17:00,Eliteserien,Matchweek 10,Sun,Away,D,2.0,2.0,Stabæk,74.0,4938.0,Markus Henriksen,3-4-3,Svein Oddvar Moen,Match Report,,,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,2023,Rosenborg
+11,2023-06-25,17:00,Eliteserien,Matchweek 11,Sun,Home,L,0.0,3.0,Sarpsborg 08,49.0,14191.0,Markus Henriksen,4-3-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,2023,Rosenborg
+12,2023-07-02,17:00,Eliteserien,Matchweek 12,Sun,Away,L,0.0,1.0,Aalesund,59.0,6209.0,Erlend Dahl Reitan,4-3-3,Marius Lien,Match Report,,,0.0,0.0,0.0,0.0,0.0,21.0,4.0,19.0,2023,Rosenborg
+13,2023-07-09,17:00,Eliteserien,Matchweek 13,Sun,Home,L,1.0,2.0,Lillestrøm,44.0,12064.0,Erlend Dahl Reitan,4-3-3,Sivert Amland,Match Report,,,0.08,0.25,1.0,0.0,0.0,13.0,4.0,30.8,2023,Rosenborg
+14,2023-07-16,17:00,Eliteserien,Matchweek 14,Sun,Home,W,2.0,1.0,Tromsø,41.0,12513.0,Erlend Dahl Reitan,4-3-3,Mohammad Aslam,Match Report,,,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,2023,Rosenborg
+15,2023-07-23,19:15,Eliteserien,Matchweek 15,Sun,Away,W,1.0,0.0,Strømsgodset,42.0,,Erlend Dahl Reitan,4-3-3,Kristoffer Hagenes,Match Report,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,2023,Rosenborg
+16,2023-07-30,17:00,Eliteserien,Matchweek 16,Sun,Home,W,3.0,2.0,Odd,60.0,12601.0,Erlend Dahl Reitan,4-3-3,Christian Moen,Match Report,,,0.09,0.22,3.0,1.0,1.0,23.0,9.0,39.1,2023,Rosenborg
+17,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Away,W,2.0,1.0,Haugesund,55.0,4667.0,Erlend Dahl Reitan,4-3-3,Sigurd Kringstad,Match Report,,,0.11,0.67,2.0,0.0,0.0,19.0,3.0,15.8,2023,Rosenborg
+18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,L,0.0,3.0,HamKam,64.0,6500.0,Ulrik Yttergård Jenssen,4-3-3,Steinar Hauge,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,5.0,38.5,2023,Rosenborg
+19,2023-08-27,19:15,Eliteserien,Matchweek 20,Sun,Home,W,4.0,0.0,Aalesund,49.0,11020.0,Erlend Dahl Reitan,4-3-3,Marius Lien,Match Report,,,0.29,0.5,4.0,0.0,0.0,14.0,8.0,57.1,2023,Rosenborg
+20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,L,1.0,3.0,Tromsø,40.0,6216.0,Erlend Dahl Reitan,4-3-3,Christian Moen,Match Report,,,0.14,0.33,1.0,0.0,0.0,7.0,3.0,42.9,2023,Rosenborg
+21,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,Bodø/Glimt,,,,,,Head-to-Head,,,0.1,0.31,35.0,3.0,3.0,256.0,81.0,31.6,2023,Rosenborg
+22,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Sarpsborg 08,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Home,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+25,2023-10-29,,Eliteserien,Matchweek 26,Sun,Away,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+26,2023-11-05,,Eliteserien,Matchweek 27,Sun,Home,,,,Molde,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Away,,,,Sandefjord,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Home,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
+29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Away,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Rosenborg
 0,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Home,W,1.0,0.0,Aalesund,51.0,5014.0,Gustav Valsvik,3-4-3,Daniel Higraff,Match Report,,,0.13,0.5,1.0,0.0,0.0,8.0,2.0,25.0,2023,Stromsgodset
 1,2023-04-19,18:30,Eliteserien,Matchweek 1,Wed,Away,L,3.0,4.0,Lillestrøm,38.0,8870.0,Gustav Valsvik,3-4-3,Tore Hansen,Match Report,,,0.25,0.75,3.0,0.0,0.0,12.0,4.0,33.3,2023,Stromsgodset
 2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Away,L,0.0,2.0,HamKam,52.0,3289.0,Gustav Valsvik,3-4-3,Steinar Hauge,Match Report,,,0.0,0.0,0.0,0.0,0.0,10.0,2.0,20.0,2023,Stromsgodset
@@ -288,8 +288,8 @@
 16,2023-08-05,18:00,Eliteserien,Matchweek 17,Sat,Home,L,1.0,3.0,Vålerenga,56.0,6860.0,Gustav Valsvik,3-4-3,Marius Grøtta,Match Report,,,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,2023,Stromsgodset
 17,2023-08-12,18:00,Eliteserien,Matchweek 18,Sat,Away,W,2.0,1.0,Sarpsborg 08,41.0,4138.0,Gustav Valsvik,3-4-3,Svein Oddvar Moen,Match Report,,,0.13,0.5,2.0,1.0,1.0,8.0,2.0,25.0,2023,Stromsgodset
 18,2023-08-20,19:15,Eliteserien,Matchweek 19,Sun,Home,L,1.0,2.0,Lillestrøm,54.0,6020.0,Gustav Valsvik,3-4-3,Sigurd Kringstad,Match Report,,,0.06,0.14,1.0,0.0,0.0,16.0,7.0,43.8,2023,Stromsgodset
-19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,,,,Stabæk,,,,,,Head-to-Head,,,0.09,0.29,23.0,2.0,3.0,236.0,72.0,30.5,2023,Stromsgodset
-20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Away,,,,Sandefjord,,,,,,Head-to-Head,,,,,,,,,,,2023,Stromsgodset
+19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,W,2.0,1.0,Stabæk,45.0,5149.0,Gustav Valsvik,4-2-3-1,Ajdin Medic,Match Report,,,0.09,0.2,2.0,1.0,1.0,11.0,5.0,45.5,2023,Stromsgodset
+20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Away,,,,Sandefjord,,,,,,Head-to-Head,,,0.09,0.29,25.0,3.0,4.0,247.0,77.0,31.2,2023,Stromsgodset
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Home,,,,Molde,,,,,,Head-to-Head,,,,,,,,,,,2023,Stromsgodset
 22,2023-10-01,19:15,Eliteserien,Matchweek 20,Sun,Away,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Stromsgodset
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Haugesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Stromsgodset
@@ -318,8 +318,8 @@
 16,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Home,L,0.0,2.0,Brann,31.0,5346.0,Fredrik Sjølstad,3-5-2,Mohammad Aslam,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,7.0,53.8,2023,HamKam
 17,2023-08-13,17:00,Eliteserien,Matchweek 18,Sun,Away,W,2.0,0.0,Aalesund,43.0,5864.0,Fredrik Sjølstad,3-5-2,Espen Andreas Eskås,Match Report,,,0.14,0.33,2.0,0.0,0.0,14.0,6.0,42.9,2023,HamKam
 18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Home,W,3.0,0.0,Rosenborg,36.0,6500.0,Fredrik Sjølstad,3-4-3,Steinar Hauge,Match Report,,,0.27,0.38,3.0,0.0,0.0,11.0,8.0,72.7,2023,HamKam
-19,2023-09-03,19:15,Eliteserien,Matchweek 21,Sun,Home,,,,Bodø/Glimt,,,,,,Head-to-Head,,,0.09,0.26,25.0,3.0,3.0,235.0,84.0,35.7,2023,HamKam
-20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,HamKam
+19,2023-09-03,19:15,Eliteserien,Matchweek 21,Sun,Home,D,4.0,4.0,Bodø/Glimt,21.0,4532.0,Fredrik Sjølstad,3-4-3,Sigurd Kringstad,Match Report,,,0.25,1.0,3.0,0.0,0.0,12.0,3.0,25.0,2023,HamKam
+20,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Away,,,,Tromsø,,,,,,Head-to-Head,,,0.1,0.29,28.0,3.0,3.0,247.0,87.0,35.2,2023,HamKam
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Home,,,,Sarpsborg 08,,,,,,Head-to-Head,,,,,,,,,,,2023,HamKam
 22,2023-10-04,19:00,Eliteserien,Matchweek 20,Wed,Away,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,HamKam
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Sandefjord,,,,,,Head-to-Head,,,,,,,,,,,2023,HamKam
@@ -349,8 +349,8 @@
 17,2023-08-13,19:15,Eliteserien,Matchweek 18,Sun,Away,D,1.0,1.0,Vålerenga,52.0,7785.0,Kevin Krygård,5-3-2,Tore Hansen,Match Report,,,0.2,1.0,1.0,0.0,0.0,5.0,1.0,20.0,2023,Haugesund
 18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Home,L,1.0,3.0,Bodø/Glimt,37.0,5342.0,Kevin Krygård,3-5-2,Mohammad Aslam,Match Report,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,2023,Haugesund
 19,2023-08-27,17:00,Eliteserien,Matchweek 20,Sun,Away,D,0.0,0.0,Sandefjord,40.0,2845.0,Peter Therkildsen,3-5-2,Rohit Saggi,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,4.0,28.6,2023,Haugesund
-20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,,,,Molde,,,,,,Head-to-Head,,,0.08,0.25,16.0,1.0,1.0,182.0,59.0,32.4,2023,Haugesund
-21,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Home,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
+20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,L,1.0,2.0,Molde,48.0,3416.0,Peter Therkildsen,3-5-2,Kai Erik Steen,Match Report,,,0.17,0.5,1.0,0.0,0.0,6.0,2.0,33.3,2023,Haugesund
+21,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Home,,,,Viking,,,,,,Head-to-Head,,,0.09,0.26,17.0,1.0,1.0,188.0,61.0,32.4,2023,Haugesund
 22,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Odd,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
 24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Away,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
@@ -359,36 +359,6 @@
 27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
 28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Away,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
 29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Home,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Haugesund
-0,2023-04-10,17:00,Eliteserien,Matchweek 1,Mon,Away,L,0.0,2.0,HamKam,69.0,3715.0,Jesper Tåje,4-3-3,Sivert Amland,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,2023,Sandefjord
-1,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Home,D,0.0,0.0,Tromsø,62.0,3313.0,Jesper Tåje,4-3-3,Sigurd Kringstad,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,2.0,11.8,2023,Sandefjord
-2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Away,D,1.0,1.0,Rosenborg,42.0,11256.0,Sander Foss,4-3-3,Kristoffer Hagenes,Match Report,,,0.2,0.5,1.0,0.0,0.0,5.0,2.0,40.0,2023,Sandefjord
-3,2023-04-30,17:00,Eliteserien,Matchweek 4,Sun,Home,W,4.0,0.0,Aalesund,52.0,3086.0,Sander Foss,4-3-3,Ajdin Medic,Match Report,,,0.31,0.57,4.0,0.0,0.0,13.0,7.0,53.8,2023,Sandefjord
-4,2023-05-08,19:00,Eliteserien,Matchweek 5,Mon,Away,D,0.0,0.0,Brann,31.0,14720.0,Sander Foss,4-3-3,Mohammad Aslam,Match Report,,,0.0,0.0,0.0,0.0,0.0,5.0,2.0,40.0,2023,Sandefjord
-5,2023-05-13,17:00,Eliteserien,Matchweek 6,Sat,Home,L,1.0,2.0,Viking,57.0,3463.0,Sander Foss,4-3-3,Steinar Hauge,Match Report,,,0.06,0.17,1.0,0.0,0.0,16.0,6.0,37.5,2023,Sandefjord
-6,2023-05-16,18:00,Eliteserien,Matchweek 7,Tue,Away,L,0.0,1.0,Strømsgodset,61.0,5827.0,Jesper Tåje,4-3-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,4.0,25.0,2023,Sandefjord
-7,2023-05-29,17:00,Eliteserien,Matchweek 8,Mon,Away,L,0.0,5.0,Molde,45.0,5617.0,Sander Foss,4-3-3,Marius Lien,Match Report,,,0.0,,0.0,0.0,0.0,5.0,0.0,0.0,2023,Sandefjord
-8,2023-06-04,17:00,Eliteserien,Matchweek 9,Sun,Home,W,4.0,1.0,Odd,47.0,4342.0,Sander Foss,4-3-3,Mohammad Aslam,Match Report,,,0.21,0.33,3.0,0.0,0.0,14.0,9.0,64.3,2023,Sandefjord
-9,2023-06-11,17:00,Eliteserien,Matchweek 10,Sun,Away,L,2.0,3.0,Haugesund,59.0,3709.0,Sander Foss,4-3-3,Espen Andreas Eskås,Match Report,,,0.09,0.29,2.0,0.0,0.0,23.0,7.0,30.4,2023,Sandefjord
-10,2023-07-02,17:00,Eliteserien,Matchweek 12,Sun,Away,L,1.0,6.0,Sarpsborg 08,41.0,4494.0,Jesper Tåje,4-3-3,Rohit Saggi,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Sandefjord
-11,2023-07-09,17:00,Eliteserien,Matchweek 13,Sun,Home,D,0.0,0.0,Stabæk,50.0,2994.0,Sander Foss,4-3-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,3.0,23.1,2023,Sandefjord
-12,2023-07-16,17:00,Eliteserien,Matchweek 14,Sun,Away,L,2.0,4.0,Lillestrøm,43.0,5835.0,Sander Foss,4-3-3,Sigurd Kringstad,Match Report,,,0.18,0.67,2.0,0.0,0.0,11.0,3.0,27.3,2023,Sandefjord
-13,2023-07-23,17:00,Eliteserien,Matchweek 15,Sun,Home,L,2.0,5.0,Bodø/Glimt,36.0,4391.0,Sander Foss,4-3-3,Ajdin Medic,Match Report,,,0.25,0.67,2.0,0.0,0.0,8.0,3.0,37.5,2023,Sandefjord
-14,2023-07-29,15:30,Eliteserien,Matchweek 16,Sat,Away,W,3.0,2.0,Vålerenga,49.0,9902.0,Jesper Tåje,4-3-3,Rohit Saggi,Match Report,,,0.25,0.43,3.0,0.0,0.0,12.0,7.0,58.3,2023,Sandefjord
-15,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Home,W,5.0,1.0,Sarpsborg 08,45.0,3082.0,Jesper Tåje,4-3-3,Marius Lien,Match Report,,,0.17,0.8,4.0,0.0,0.0,23.0,5.0,21.7,2023,Sandefjord
-16,2023-08-12,16:00,Eliteserien,Matchweek 18,Sat,Home,D,2.0,2.0,Molde,44.0,4754.0,Jesper Tåje,4-3-3,Kristoffer Hagenes,Match Report,,,0.06,0.11,2.0,1.0,1.0,16.0,9.0,56.3,2023,Sandefjord
-17,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,L,0.0,1.0,Tromsø,51.0,5411.0,Jesper Tåje,4-3-3,Daniel Higraff,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Sandefjord
-18,2023-08-27,17:00,Eliteserien,Matchweek 20,Sun,Home,D,0.0,0.0,Haugesund,60.0,2845.0,Jesper Tåje,4-3-3,Rohit Saggi,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,6.0,37.5,2023,Sandefjord
-19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,,,,Odd,,,,,,Head-to-Head,,,0.1,0.3,25.0,1.0,1.0,240.0,80.0,33.3,2023,Sandefjord
-20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Home,,,,Strømsgodset,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-22,2023-10-01,17:00,Eliteserien,Matchweek 11,Sun,Home,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Away,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-25,2023-10-29,,Eliteserien,Matchweek 26,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-26,2023-11-05,,Eliteserien,Matchweek 27,Sun,Away,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Home,,,,Rosenborg,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Away,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
-29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Home,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
 0,2023-04-10,17:00,Eliteserien,Matchweek 1,Mon,Away,W,1.0,0.0,Aalesund,53.0,6876.0,Stefan Strandberg,4-3-3,Kristoffer Hagenes,Match Report,,,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,2023,Valerenga
 1,2023-04-16,19:15,Eliteserien,Matchweek 2,Sun,Home,L,0.0,2.0,Sarpsborg 08,59.0,9060.0,Stefan Strandberg,4-3-3,Rohit Saggi,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,5.0,41.7,2023,Valerenga
 2,2023-04-22,18:00,Eliteserien,Matchweek 3,Sat,Away,L,1.0,3.0,Brann,30.0,16816.0,Vegar Eggen Hedenstad,4-2-3-1,Tore Hansen,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,4.0,66.7,2023,Valerenga
@@ -408,8 +378,8 @@
 16,2023-08-13,19:15,Eliteserien,Matchweek 18,Sun,Home,D,1.0,1.0,Haugesund,48.0,7785.0,Stefan Strandberg,5-4-1,Tore Hansen,Match Report,,,0.17,0.33,1.0,0.0,0.0,6.0,3.0,50.0,2023,Valerenga
 17,2023-08-19,18:00,Eliteserien,Matchweek 19,Sat,Away,D,0.0,0.0,Molde,30.0,6468.0,Stefan Strandberg,5-4-1,Svein Sinnes,Match Report,,,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,2023,Valerenga
 18,2023-08-27,17:00,Eliteserien,Matchweek 20,Sun,Home,D,2.0,2.0,Odd,45.0,8368.0,Stefan Strandberg,4-4-2,Kristoffer Hagenes,Match Report,,,0.07,0.33,1.0,0.0,0.0,15.0,3.0,20.0,2023,Valerenga
-19,2023-09-02,18:00,Eliteserien,Matchweek 21,Sat,Away,,,,Viking,,,,,,Head-to-Head,,,0.09,0.25,22.0,3.0,4.0,220.0,77.0,35.0,2023,Valerenga
-20,2023-09-17,19:15,Eliteserien,Matchweek 22,Sun,Home,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
+19,2023-09-02,18:00,Eliteserien,Matchweek 21,Sat,Away,D,1.0,1.0,Viking,33.0,14675.0,Stefan Strandberg,3-5-2,Tore Hansen,Match Report,,,0.1,0.5,1.0,0.0,0.0,10.0,2.0,20.0,2023,Valerenga
+20,2023-09-17,19:15,Eliteserien,Matchweek 22,Sun,Home,,,,Aalesund,,,,,,Head-to-Head,,,0.09,0.25,23.0,3.0,4.0,230.0,79.0,34.3,2023,Valerenga
 21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
 22,2023-10-01,17:00,Eliteserien,Matchweek 11,Sun,Away,,,,Sandefjord,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
@@ -419,6 +389,36 @@
 27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Home,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
 28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Away,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
 29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Home,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,Valerenga
+0,2023-04-10,17:00,Eliteserien,Matchweek 1,Mon,Away,L,0.0,2.0,HamKam,69.0,3715.0,Jesper Tåje,4-3-3,Sivert Amland,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,2023,Sandefjord
+1,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Home,D,0.0,0.0,Tromsø,62.0,3313.0,Jesper Tåje,4-3-3,Sigurd Kringstad,Match Report,,,0.0,0.0,0.0,0.0,0.0,17.0,2.0,11.8,2023,Sandefjord
+2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Away,D,1.0,1.0,Rosenborg,42.0,11256.0,Sander Foss,4-3-3,Kristoffer Hagenes,Match Report,,,0.2,0.5,1.0,0.0,0.0,5.0,2.0,40.0,2023,Sandefjord
+3,2023-04-30,17:00,Eliteserien,Matchweek 4,Sun,Home,W,4.0,0.0,Aalesund,52.0,3086.0,Sander Foss,4-3-3,Ajdin Medic,Match Report,,,0.31,0.57,4.0,0.0,0.0,13.0,7.0,53.8,2023,Sandefjord
+4,2023-05-08,19:00,Eliteserien,Matchweek 5,Mon,Away,D,0.0,0.0,Brann,31.0,14720.0,Sander Foss,4-3-3,Mohammad Aslam,Match Report,,,0.0,0.0,0.0,0.0,0.0,5.0,2.0,40.0,2023,Sandefjord
+5,2023-05-13,17:00,Eliteserien,Matchweek 6,Sat,Home,L,1.0,2.0,Viking,57.0,3463.0,Sander Foss,4-3-3,Steinar Hauge,Match Report,,,0.06,0.17,1.0,0.0,0.0,16.0,6.0,37.5,2023,Sandefjord
+6,2023-05-16,18:00,Eliteserien,Matchweek 7,Tue,Away,L,0.0,1.0,Strømsgodset,61.0,5827.0,Jesper Tåje,4-3-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,4.0,25.0,2023,Sandefjord
+7,2023-05-29,17:00,Eliteserien,Matchweek 8,Mon,Away,L,0.0,5.0,Molde,45.0,5617.0,Sander Foss,4-3-3,Marius Lien,Match Report,,,0.0,,0.0,0.0,0.0,5.0,0.0,0.0,2023,Sandefjord
+8,2023-06-04,17:00,Eliteserien,Matchweek 9,Sun,Home,W,4.0,1.0,Odd,47.0,4342.0,Sander Foss,4-3-3,Mohammad Aslam,Match Report,,,0.21,0.33,3.0,0.0,0.0,14.0,9.0,64.3,2023,Sandefjord
+9,2023-06-11,17:00,Eliteserien,Matchweek 10,Sun,Away,L,2.0,3.0,Haugesund,59.0,3709.0,Sander Foss,4-3-3,Espen Andreas Eskås,Match Report,,,0.09,0.29,2.0,0.0,0.0,23.0,7.0,30.4,2023,Sandefjord
+10,2023-07-02,17:00,Eliteserien,Matchweek 12,Sun,Away,L,1.0,6.0,Sarpsborg 08,41.0,4494.0,Jesper Tåje,4-3-3,Rohit Saggi,Match Report,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,2023,Sandefjord
+11,2023-07-09,17:00,Eliteserien,Matchweek 13,Sun,Home,D,0.0,0.0,Stabæk,50.0,2994.0,Sander Foss,4-3-3,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,3.0,23.1,2023,Sandefjord
+12,2023-07-16,17:00,Eliteserien,Matchweek 14,Sun,Away,L,2.0,4.0,Lillestrøm,43.0,5835.0,Sander Foss,4-3-3,Sigurd Kringstad,Match Report,,,0.18,0.67,2.0,0.0,0.0,11.0,3.0,27.3,2023,Sandefjord
+13,2023-07-23,17:00,Eliteserien,Matchweek 15,Sun,Home,L,2.0,5.0,Bodø/Glimt,36.0,4391.0,Sander Foss,4-3-3,Ajdin Medic,Match Report,,,0.25,0.67,2.0,0.0,0.0,8.0,3.0,37.5,2023,Sandefjord
+14,2023-07-29,15:30,Eliteserien,Matchweek 16,Sat,Away,W,3.0,2.0,Vålerenga,49.0,9902.0,Jesper Tåje,4-3-3,Rohit Saggi,Match Report,,,0.25,0.43,3.0,0.0,0.0,12.0,7.0,58.3,2023,Sandefjord
+15,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Home,W,5.0,1.0,Sarpsborg 08,45.0,3082.0,Jesper Tåje,4-3-3,Marius Lien,Match Report,,,0.17,0.8,4.0,0.0,0.0,23.0,5.0,21.7,2023,Sandefjord
+16,2023-08-12,16:00,Eliteserien,Matchweek 18,Sat,Home,D,2.0,2.0,Molde,44.0,4754.0,Jesper Tåje,4-3-3,Kristoffer Hagenes,Match Report,,,0.06,0.11,2.0,1.0,1.0,16.0,9.0,56.3,2023,Sandefjord
+17,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,L,0.0,1.0,Tromsø,51.0,5411.0,Jesper Tåje,4-3-3,Daniel Higraff,Match Report,,,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,2023,Sandefjord
+18,2023-08-27,17:00,Eliteserien,Matchweek 20,Sun,Home,D,0.0,0.0,Haugesund,60.0,2845.0,Jesper Tåje,4-3-3,Rohit Saggi,Match Report,,,0.0,0.0,0.0,0.0,0.0,16.0,6.0,37.5,2023,Sandefjord
+19,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,L,2.0,3.0,Odd,49.0,4981.0,Jesper Tåje,4-3-3,Ola Nilsen,Match Report,,,0.18,0.33,2.0,0.0,0.0,11.0,6.0,54.5,2023,Sandefjord
+20,2023-09-16,18:00,Eliteserien,Matchweek 22,Sat,Home,,,,Strømsgodset,,,,,,Head-to-Head,,,0.1,0.3,27.0,1.0,1.0,251.0,86.0,34.3,2023,Sandefjord
+21,2023-09-24,17:00,Eliteserien,Matchweek 23,Sun,Away,,,,Viking,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+22,2023-10-01,17:00,Eliteserien,Matchweek 11,Sun,Home,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Home,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Away,,,,Bodø/Glimt,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+25,2023-10-29,,Eliteserien,Matchweek 26,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+26,2023-11-05,,Eliteserien,Matchweek 27,Sun,Away,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+27,2023-11-12,,Eliteserien,Matchweek 28,Sun,Home,,,,Rosenborg,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+28,2023-11-26,,Eliteserien,Matchweek 29,Sun,Away,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
+29,2023-12-02,,Eliteserien,Matchweek 30,Sat,Home,,,,Lillestrøm,,,,,,Head-to-Head,,,,,,,,,,,2023,Sandefjord
 0,2023-04-10,17:00,Eliteserien,Matchweek 1,Mon,Home,D,0.0,0.0,Odd,54.0,3308.0,Fredrik Krogstad,3-5-2,Svein Sinnes,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,8.0,57.1,2023,Stabaek
 1,2023-04-16,17:00,Eliteserien,Matchweek 2,Sun,Away,L,0.0,4.0,Bodø/Glimt,45.0,6583.0,Fredrik Krogstad,3-5-2,Marius Grøtta,Match Report,,,0.0,0.0,0.0,0.0,0.0,8.0,1.0,12.5,2023,Stabaek
 2,2023-04-23,17:00,Eliteserien,Matchweek 3,Sun,Home,W,3.0,0.0,Haugesund,48.0,2214.0,Fredrik Krogstad,3-5-2,Marius Lien,Match Report,,,0.14,0.43,3.0,0.0,0.0,21.0,7.0,33.3,2023,Stabaek
@@ -437,8 +437,8 @@
 15,2023-07-29,18:00,Eliteserien,Matchweek 16,Sat,Home,L,0.0,1.0,Molde,48.0,3235.0,Fredrik Krogstad,3-5-2,Svein Oddvar Moen,Match Report,,,0.0,0.0,0.0,0.0,0.0,7.0,1.0,14.3,2023,Stabaek
 16,2023-08-06,17:00,Eliteserien,Matchweek 17,Sun,Away,L,0.0,4.0,Odd,64.0,4758.0,Fredrik Krogstad,5-3-2,Svein Sinnes,Match Report,,,0.0,0.0,0.0,0.0,0.0,14.0,3.0,21.4,2023,Stabaek
 17,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,L,0.0,1.0,Viking,22.0,14256.0,Nicolai Næss,3-4-3,Sivert Amland,Match Report,,,0.0,0.0,0.0,0.0,0.0,13.0,2.0,15.4,2023,Stabaek
-18,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,,,,Strømsgodset,,,,,,Head-to-Head,,,0.06,0.21,14.0,1.0,2.0,205.0,62.0,30.2,2023,Stabaek
-19,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,,,,,,,,,2023,Stabaek
+18,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Away,L,1.0,2.0,Strømsgodset,55.0,5149.0,Simen Wangberg,3-4-3,Ajdin Medic,Match Report,,,0.07,0.14,1.0,0.0,0.0,15.0,7.0,46.7,2023,Stabaek
+19,2023-09-17,17:00,Eliteserien,Matchweek 22,Sun,Home,,,,Brann,,,,,,Head-to-Head,,,0.06,0.2,15.0,1.0,2.0,220.0,69.0,31.4,2023,Stabaek
 20,2023-09-23,18:00,Eliteserien,Matchweek 23,Sat,Away,,,,Aalesund,,,,,,Head-to-Head,,,,,,,,,,,2023,Stabaek
 21,2023-09-30,15:00,Eliteserien,Matchweek 18,Sat,Home,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,Stabaek
 22,2023-10-04,19:00,Eliteserien,Matchweek 20,Wed,Home,,,,HamKam,,,,,,Head-to-Head,,,,,,,,,,,2023,Stabaek
@@ -469,8 +469,8 @@
 17,2023-08-13,17:00,Eliteserien,Matchweek 18,Sun,Home,L,0.0,2.0,HamKam,57.0,5864.0,David Fällman,4-3-3,Espen Andreas Eskås,Match Report,,,0.0,0.0,0.0,0.0,0.0,18.0,3.0,16.7,2023,Aalesund
 18,2023-08-20,17:00,Eliteserien,Matchweek 19,Sun,Away,L,1.0,5.0,Brann,35.0,13317.0,David Fällman,4-3-3,Christian Moen,Match Report,,,0.09,0.25,1.0,0.0,0.0,11.0,4.0,36.4,2023,Aalesund
 19,2023-08-27,19:15,Eliteserien,Matchweek 20,Sun,Away,L,0.0,4.0,Rosenborg,51.0,11020.0,David Fällman,4-3-3,Marius Lien,Match Report,,,0.0,,0.0,0.0,0.0,8.0,0.0,0.0,2023,Aalesund
-20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,,,,Lillestrøm,,,,,,Head-to-Head,,,0.05,0.19,13.0,1.0,1.0,242.0,64.0,26.4,2023,Aalesund
-21,2023-09-17,19:15,Eliteserien,Matchweek 22,Sun,Away,,,,Vålerenga,,,,,,Head-to-Head,,,,,,,,,,,2023,Aalesund
+20,2023-09-03,17:00,Eliteserien,Matchweek 21,Sun,Home,D,1.0,1.0,Lillestrøm,46.0,4418.0,David Fällman,4-3-3,Daniel Higraff,Match Report,,,0.06,0.2,1.0,0.0,0.0,16.0,5.0,31.3,2023,Aalesund
+21,2023-09-17,19:15,Eliteserien,Matchweek 22,Sun,Away,,,,Vålerenga,,,,,,Head-to-Head,,,0.05,0.19,14.0,1.0,1.0,258.0,69.0,26.7,2023,Aalesund
 22,2023-09-23,18:00,Eliteserien,Matchweek 23,Sat,Home,,,,Stabæk,,,,,,Head-to-Head,,,,,,,,,,,2023,Aalesund
 23,2023-10-08,17:00,Eliteserien,Matchweek 24,Sun,Away,,,,Tromsø,,,,,,Head-to-Head,,,,,,,,,,,2023,Aalesund
 24,2023-10-22,17:00,Eliteserien,Matchweek 25,Sun,Home,,,,Sarpsborg 08,,,,,,Head-to-Head,,,,,,,,,,,2023,Aalesund

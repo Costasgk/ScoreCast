@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/static/fonts/Satoshi-Medium.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+
 body{
     background-color: black !important;
 }
@@ -6,8 +12,10 @@ body{
     text-align: center;
     margin-top: 10vh;
     /* text-transform: uppercase; */
-    font-size: 5vw;
+    font-size: 6.5vw;
     color: white;
+    font-family: Satoshi;
+    letter-spacing: 5px;
 }
 
 .container{
@@ -16,8 +24,12 @@ body{
 
 .list-group{
     flex-direction: row !important;
-    margin-top: 20vh;
+    margin-top: 17vh;
     gap: 2vw;
+}
+
+.container ul:nth-child(3){
+    margin-top: 15vh !important;
 }
 
 .list-group-item {
@@ -60,6 +72,14 @@ footer {
     footer {
         padding: 0v 3vw 0vh 3vw;
         height: 1vh;
-        bottom: -10vh !important;
+        bottom: -30vh !important;
+    }
+
+    .container ul:nth-child(3){
+        margin-top: 5vh !important;
+    }
+
+    footer p{
+        padding-bottom: 2vh;
     }
 }

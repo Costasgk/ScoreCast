@@ -1,0 +1,327 @@
+Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
+2023-09-03,21:30,AEK Athens,Volos NFC,W,L
+2023-09-16,,AEK Athens,Olympiacos,W,W
+2023-09-23,,AEK Athens,Panathinaikos,W,L
+2023-09-27,,AEK Athens,Atromitos,W,L
+2023-09-30,,AEK Athens,OFI Crete,W,L
+2023-10-21,,AEK Athens,Asteras Tripoli,W,L
+2023-10-28,,AEK Athens,PAOK,L,L
+2023-11-04,,AEK Athens,AO Kifisia,W,L
+2023-11-11,,AEK Athens,PAS Lamia,W,L
+2023-11-25,,AEK Athens,PAS Giannina,L,L
+2023-12-02,,AEK Athens,Aris,W,L
+2023-12-09,,AEK Athens,Panetolikos,D,L
+2023-12-16,,AEK Athens,Panserraikos,D,L
+2023-12-20,,AEK Athens,Volos NFC,W,L
+2024-01-03,,AEK Athens,Olympiacos,L,L
+2024-01-06,,AEK Athens,Panathinaikos,W,L
+2024-01-13,,AEK Athens,Atromitos,D,L
+2024-01-20,,AEK Athens,OFI Crete,L,L
+2024-01-27,,AEK Athens,Asteras Tripoli,W,L
+2024-02-03,,AEK Athens,PAOK,L,L
+2024-02-10,,AEK Athens,AO Kifisia,W,L
+2024-02-17,,AEK Athens,PAS Lamia,D,L
+2024-02-24,,AEK Athens,PAS Giannina,W,L
+2024-03-03,,AEK Athens,Aris,W,L
+2023-09-27,,AO Kifisia,PAS Lamia,W,L
+2023-09-30,,AO Kifisia,Aris,L,W
+2023-10-21,,AO Kifisia,OFI Crete,W,L
+2023-10-28,,AO Kifisia,Volos NFC,D,W
+2023-11-04,,AO Kifisia,AEK Athens,L,W
+2023-11-11,,AO Kifisia,Panathinaikos,L,W
+2023-11-25,,AO Kifisia,Asteras Tripoli,W,W
+2023-12-02,,AO Kifisia,Panetolikos,D,W
+2023-12-09,,AO Kifisia,PAS Giannina,W,W
+2023-12-16,,AO Kifisia,PAOK,L,W
+2023-12-20,,AO Kifisia,Atromitos,D,W
+2024-01-03,,AO Kifisia,Panserraikos,L,W
+2024-01-06,,AO Kifisia,Olympiacos,L,W
+2024-01-13,,AO Kifisia,PAS Lamia,D,W
+2024-01-20,,AO Kifisia,Aris,W,W
+2024-01-27,,AO Kifisia,OFI Crete,D,W
+2024-02-03,,AO Kifisia,Volos NFC,W,W
+2024-02-10,,AO Kifisia,AEK Athens,L,W
+2024-02-17,,AO Kifisia,Panathinaikos,W,W
+2024-02-24,,AO Kifisia,Asteras Tripoli,D,W
+2024-03-03,,AO Kifisia,Panetolikos,W,W
+2023-09-03,20:00,Aris,Asteras Tripoli,W,L
+2023-09-16,,Aris,PAOK,L,W
+2023-09-23,,Aris,Panetolikos,D,L
+2023-09-27,,Aris,Olympiacos,L,W
+2023-09-30,,Aris,AO Kifisia,W,L
+2023-10-21,,Aris,Panserraikos,D,W
+2023-10-28,,Aris,PAS Giannina,W,W
+2023-11-04,,Aris,Atromitos,W,L
+2023-11-11,,Aris,Volos NFC,D,W
+2023-11-25,,Aris,Panathinaikos,W,L
+2023-12-02,,Aris,AEK Athens,L,W
+2023-12-09,,Aris,OFI Crete,L,L
+2023-12-16,,Aris,PAS Lamia,W,L
+2023-12-20,,Aris,Asteras Tripoli,D,D
+2024-01-03,,Aris,PAOK,L,D
+2024-01-06,,Aris,Panetolikos,D,W
+2024-01-13,,Aris,Olympiacos,L,L
+2024-01-20,,Aris,AO Kifisia,W,W
+2024-01-27,,Aris,Panserraikos,W,L
+2024-02-03,,Aris,PAS Giannina,L,W
+2024-02-10,,Aris,Atromitos,D,W
+2024-02-17,,Aris,Volos NFC,W,L
+2024-02-24,,Aris,Panathinaikos,L,W
+2024-03-03,,Aris,AEK Athens,L,W
+2023-09-03,20:00,Asteras Tripoli,Aris,L,W
+2023-09-16,,Asteras Tripoli,PAS Giannina,W,L
+2023-09-23,,Asteras Tripoli,Volos NFC,D,D
+2023-09-27,,Asteras Tripoli,Panathinaikos,W,W
+2023-09-30,,Asteras Tripoli,Atromitos,W,W
+2023-10-21,,Asteras Tripoli,AEK Athens,L,W
+2023-10-28,,Asteras Tripoli,PAS Lamia,W,D
+2023-11-04,,Asteras Tripoli,Panetolikos,D,W
+2023-11-11,,Asteras Tripoli,Olympiacos,L,D
+2023-11-25,,Asteras Tripoli,AO Kifisia,W,W
+2023-12-02,,Asteras Tripoli,Panserraikos,W,D
+2023-12-09,,Asteras Tripoli,PAOK,L,D
+2023-12-16,,Asteras Tripoli,OFI Crete,D,W
+2023-12-20,,Asteras Tripoli,Aris,D,D
+2024-01-03,,Asteras Tripoli,PAS Giannina,W,D
+2024-01-06,,Asteras Tripoli,Volos NFC,W,D
+2024-01-13,,Asteras Tripoli,Panathinaikos,L,W
+2024-01-20,,Asteras Tripoli,Atromitos,W,D
+2024-01-27,,Asteras Tripoli,AEK Athens,L,W
+2024-02-03,,Asteras Tripoli,PAS Lamia,D,W
+2024-02-10,,Asteras Tripoli,Panetolikos,W,D
+2024-02-17,,Asteras Tripoli,Olympiacos,L,W
+2024-02-24,,Asteras Tripoli,AO Kifisia,W,D
+2024-03-03,,Asteras Tripoli,Panserraikos,W,W
+2023-09-16,,Atromitos,Volos NFC,D,L
+2023-09-23,,Atromitos,OFI Crete,L,W
+2023-09-27,,Atromitos,AEK Athens,L,W
+2023-09-30,,Atromitos,Asteras Tripoli,W,W
+2023-10-21,,Atromitos,PAOK,L,W
+2023-10-28,,Atromitos,Panetolikos,W,D
+2023-11-04,,Atromitos,Aris,L,W
+2023-11-11,,Atromitos,Panserraikos,W,D
+2023-11-25,,Atromitos,PAS Lamia,D,W
+2023-12-02,,Atromitos,PAS Giannina,W,D
+2023-12-09,,Atromitos,Panathinaikos,W,D
+2023-12-16,,Atromitos,Olympiacos,L,W
+2023-12-20,,Atromitos,AO Kifisia,W,D
+2024-01-03,,Atromitos,Volos NFC,W,D
+2024-01-06,,Atromitos,OFI Crete,L,D
+2024-01-13,,Atromitos,AEK Athens,L,D
+2024-01-20,,Atromitos,Asteras Tripoli,D,W
+2024-01-27,,Atromitos,PAOK,L,D
+2024-02-03,,Atromitos,Panetolikos,D,W
+2024-02-10,,Atromitos,Aris,W,D
+2024-02-17,,Atromitos,Panserraikos,D,W
+2024-02-24,,Atromitos,PAS Lamia,W,D
+2024-03-03,,Atromitos,PAS Giannina,L,W
+2023-09-03,20:00,OFI Crete,PAOK,D,W
+2023-09-16,,OFI Crete,PAS Lamia,D,L
+2023-09-23,,OFI Crete,Atromitos,W,L
+2023-09-27,,OFI Crete,Panetolikos,D,L
+2023-09-30,,OFI Crete,AEK Athens,L,W
+2023-10-21,,OFI Crete,AO Kifisia,L,W
+2023-10-28,,OFI Crete,Olympiacos,L,W
+2023-11-04,,OFI Crete,Panserraikos,D,L
+2023-11-11,,OFI Crete,PAS Giannina,W,D
+2023-11-25,,OFI Crete,Volos NFC,W,D
+2023-12-02,,OFI Crete,Panathinaikos,L,L
+2023-12-09,,OFI Crete,Aris,L,L
+2023-12-16,,OFI Crete,Asteras Tripoli,W,D
+2023-12-20,,OFI Crete,PAOK,L,L
+2024-01-03,,OFI Crete,PAS Lamia,W,D
+2024-01-06,,OFI Crete,Atromitos,D,L
+2024-01-13,,OFI Crete,Panetolikos,W,D
+2024-01-20,,OFI Crete,AEK Athens,L,L
+2024-01-27,,OFI Crete,AO Kifisia,W,D
+2024-02-03,,OFI Crete,Olympiacos,L,L
+2024-02-10,,OFI Crete,Panserraikos,W,D
+2024-02-17,,OFI Crete,PAS Giannina,L,L
+2024-02-24,,OFI Crete,Volos NFC,D,L
+2024-03-03,,OFI Crete,Panathinaikos,W,L
+2023-09-03,20:00,Olympiacos,PAS Lamia,L,L
+2023-09-16,,Olympiacos,AEK Athens,W,W
+2023-09-27,,Olympiacos,Aris,W,L
+2023-09-30,,Olympiacos,PAS Giannina,W,L
+2023-10-21,,Olympiacos,Panathinaikos,W,L
+2023-10-28,,Olympiacos,OFI Crete,W,L
+2023-11-04,,Olympiacos,PAOK,L,L
+2023-11-11,,Olympiacos,Asteras Tripoli,D,L
+2023-11-25,,Olympiacos,Panetolikos,W,L
+2023-12-02,,Olympiacos,Volos NFC,D,L
+2023-12-09,,Olympiacos,Panserraikos,D,L
+2023-12-16,,Olympiacos,Atromitos,W,L
+2023-12-20,,Olympiacos,PAS Lamia,W,L
+2024-01-03,,Olympiacos,AEK Athens,L,L
+2024-01-06,,Olympiacos,AO Kifisia,W,L
+2024-01-13,,Olympiacos,Aris,L,L
+2024-01-20,,Olympiacos,PAS Giannina,W,L
+2024-01-27,,Olympiacos,Panathinaikos,L,L
+2024-02-03,,Olympiacos,OFI Crete,L,L
+2024-02-10,,Olympiacos,PAOK,L,L
+2024-02-17,,Olympiacos,Asteras Tripoli,W,L
+2024-02-24,,Olympiacos,Panetolikos,D,L
+2024-03-03,,Olympiacos,Volos NFC,W,L
+2023-09-03,20:00,PAOK,OFI Crete,W,D
+2023-09-16,,PAOK,Aris,W,L
+2023-09-23,,PAOK,PAS Giannina,L,L
+2023-09-27,,PAOK,Volos NFC,W,L
+2023-09-30,,PAOK,Panathinaikos,D,L
+2023-10-21,,PAOK,Atromitos,W,L
+2023-10-28,,PAOK,AEK Athens,L,L
+2023-11-04,,PAOK,Olympiacos,L,L
+2023-11-11,,PAOK,Panetolikos,W,L
+2023-11-25,,PAOK,Panserraikos,D,L
+2023-12-02,,PAOK,PAS Lamia,W,L
+2023-12-09,,PAOK,Asteras Tripoli,D,L
+2023-12-16,,PAOK,AO Kifisia,W,L
+2023-12-20,,PAOK,OFI Crete,L,L
+2024-01-03,,PAOK,Aris,D,L
+2024-01-06,,PAOK,PAS Giannina,W,L
+2024-01-13,,PAOK,Volos NFC,D,L
+2024-01-20,,PAOK,Panathinaikos,W,L
+2024-01-27,,PAOK,Atromitos,D,L
+2024-02-03,,PAOK,AEK Athens,L,L
+2024-02-10,,PAOK,Olympiacos,L,L
+2024-02-17,,PAOK,Panetolikos,D,L
+2024-02-24,,PAOK,Panserraikos,W,L
+2024-03-03,,PAOK,PAS Lamia,L,L
+2023-09-03,21:45,PAS Giannina,Panathinaikos,L,W
+2023-09-16,,PAS Giannina,Asteras Tripoli,L,W
+2023-09-23,,PAS Giannina,PAOK,L,L
+2023-09-27,,PAS Giannina,Panserraikos,L,D
+2023-09-30,,PAS Giannina,Olympiacos,L,W
+2023-10-21,,PAS Giannina,PAS Lamia,D,L
+2023-10-28,,PAS Giannina,Aris,W,W
+2023-11-04,,PAS Giannina,Volos NFC,W,L
+2023-11-11,,PAS Giannina,OFI Crete,D,W
+2023-11-25,,PAS Giannina,AEK Athens,L,L
+2023-12-02,,PAS Giannina,Atromitos,D,W
+2023-12-09,,PAS Giannina,AO Kifisia,W,W
+2023-12-16,,PAS Giannina,Panetolikos,W,L
+2023-12-20,,PAS Giannina,Panathinaikos,L,W
+2024-01-03,,PAS Giannina,Asteras Tripoli,D,W
+2024-01-06,,PAS Giannina,PAOK,L,W
+2024-01-13,,PAS Giannina,Panserraikos,W,L
+2024-01-20,,PAS Giannina,Olympiacos,L,W
+2024-01-27,,PAS Giannina,PAS Lamia,W,L
+2024-02-03,,PAS Giannina,Aris,W,L
+2024-02-10,,PAS Giannina,Volos NFC,D,W
+2024-02-17,,PAS Giannina,OFI Crete,L,L
+2024-02-24,,PAS Giannina,AEK Athens,L,W
+2024-03-03,,PAS Giannina,Atromitos,W,L
+2023-09-03,20:00,PAS Lamia,Olympiacos,L,L
+2023-09-16,,PAS Lamia,OFI Crete,L,D
+2023-09-27,,PAS Lamia,AO Kifisia,L,W
+2023-09-30,,PAS Lamia,Panetolikos,W,D
+2023-10-21,,PAS Lamia,PAS Giannina,L,D
+2023-10-28,,PAS Lamia,Asteras Tripoli,D,W
+2023-11-04,,PAS Lamia,Panathinaikos,W,D
+2023-11-11,,PAS Lamia,AEK Athens,L,W
+2023-11-25,,PAS Lamia,Atromitos,W,D
+2023-12-02,,PAS Lamia,PAOK,L,W
+2023-12-09,,PAS Lamia,Volos NFC,W,D
+2023-12-16,,PAS Lamia,Aris,L,W
+2023-12-20,,PAS Lamia,Olympiacos,L,W
+2024-01-03,,PAS Lamia,OFI Crete,D,W
+2024-01-06,,PAS Lamia,Panserraikos,W,D
+2024-01-13,,PAS Lamia,AO Kifisia,W,D
+2024-01-20,,PAS Lamia,Panetolikos,D,W
+2024-01-27,,PAS Lamia,PAS Giannina,L,W
+2024-02-03,,PAS Lamia,Asteras Tripoli,W,D
+2024-02-10,,PAS Lamia,Panathinaikos,L,W
+2024-02-17,,PAS Lamia,AEK Athens,L,D
+2024-02-24,,PAS Lamia,Atromitos,D,W
+2024-03-03,,PAS Lamia,PAOK,L,L
+2023-09-03,21:45,Panathinaikos,PAS Giannina,W,L
+2023-09-16,,Panathinaikos,Panetolikos,D,W
+2023-09-23,,Panathinaikos,AEK Athens,L,W
+2023-09-27,,Panathinaikos,Asteras Tripoli,W,W
+2023-09-30,,Panathinaikos,PAOK,L,D
+2023-10-21,,Panathinaikos,Olympiacos,L,W
+2023-10-28,,Panathinaikos,Panserraikos,W,L
+2023-11-04,,Panathinaikos,PAS Lamia,D,W
+2023-11-11,,Panathinaikos,AO Kifisia,W,L
+2023-11-25,,Panathinaikos,Aris,L,W
+2023-12-02,,Panathinaikos,OFI Crete,L,L
+2023-12-09,,Panathinaikos,Atromitos,D,W
+2023-12-16,,Panathinaikos,Volos NFC,D,W
+2023-12-20,,Panathinaikos,PAS Giannina,W,L
+2024-01-03,,Panathinaikos,Panetolikos,W,L
+2024-01-06,,Panathinaikos,AEK Athens,L,W
+2024-01-13,,Panathinaikos,Asteras Tripoli,W,L
+2024-01-20,,Panathinaikos,PAOK,L,W
+2024-01-27,,Panathinaikos,Olympiacos,L,L
+2024-02-03,,Panathinaikos,Panserraikos,D,W
+2024-02-10,,Panathinaikos,PAS Lamia,W,L
+2024-02-17,,Panathinaikos,AO Kifisia,W,W
+2024-02-24,,Panathinaikos,Aris,W,L
+2024-03-03,,Panathinaikos,OFI Crete,L,W
+2023-09-16,,Panetolikos,Panathinaikos,W,D
+2023-09-23,,Panetolikos,Aris,L,D
+2023-09-27,,Panetolikos,OFI Crete,L,D
+2023-09-30,,Panetolikos,PAS Lamia,D,W
+2023-10-21,,Panetolikos,Volos NFC,W,D
+2023-10-28,,Panetolikos,Atromitos,D,W
+2023-11-04,,Panetolikos,Asteras Tripoli,W,D
+2023-11-11,,Panetolikos,PAOK,L,W
+2023-11-25,,Panetolikos,Olympiacos,L,W
+2023-12-02,,Panetolikos,AO Kifisia,W,D
+2023-12-09,,Panetolikos,AEK Athens,L,D
+2023-12-16,,Panetolikos,PAS Giannina,L,W
+2023-12-20,,Panetolikos,Panserraikos,W,L
+2024-01-03,,Panetolikos,Panathinaikos,L,W
+2024-01-06,,Panetolikos,Aris,W,D
+2024-01-13,,Panetolikos,OFI Crete,D,W
+2024-01-20,,Panetolikos,PAS Lamia,W,D
+2024-01-27,,Panetolikos,Volos NFC,D,W
+2024-02-03,,Panetolikos,Atromitos,W,D
+2024-02-10,,Panetolikos,Asteras Tripoli,D,W
+2024-02-17,,Panetolikos,PAOK,L,D
+2024-02-24,,Panetolikos,Olympiacos,L,D
+2024-03-03,,Panetolikos,AO Kifisia,W,W
+2023-09-27,,Panserraikos,PAS Giannina,D,L
+2023-09-30,,Panserraikos,Volos NFC,D,D
+2023-10-21,,Panserraikos,Aris,W,D
+2023-10-28,,Panserraikos,Panathinaikos,L,W
+2023-11-04,,Panserraikos,OFI Crete,L,D
+2023-11-11,,Panserraikos,Atromitos,D,W
+2023-11-25,,Panserraikos,PAOK,L,D
+2023-12-02,,Panserraikos,Asteras Tripoli,D,W
+2023-12-09,,Panserraikos,Olympiacos,L,D
+2023-12-16,,Panserraikos,AEK Athens,L,D
+2023-12-20,,Panserraikos,Panetolikos,L,W
+2024-01-03,,Panserraikos,AO Kifisia,W,L
+2024-01-06,,Panserraikos,PAS Lamia,D,W
+2024-01-13,,Panserraikos,PAS Giannina,L,W
+2024-01-20,,Panserraikos,Volos NFC,W,D
+2024-01-27,,Panserraikos,Aris,L,W
+2024-02-03,,Panserraikos,Panathinaikos,W,D
+2024-02-10,,Panserraikos,OFI Crete,D,W
+2024-02-17,,Panserraikos,Atromitos,W,D
+2024-02-24,,Panserraikos,PAOK,L,W
+2024-03-03,,Panserraikos,Asteras Tripoli,W,W
+2023-09-03,21:30,Volos NFC,AEK Athens,L,W
+2023-09-16,,Volos NFC,Atromitos,L,D
+2023-09-23,,Volos NFC,Asteras Tripoli,D,D
+2023-09-27,,Volos NFC,PAOK,L,W
+2023-09-30,,Volos NFC,Panserraikos,D,D
+2023-10-21,,Volos NFC,Panetolikos,D,W
+2023-10-28,,Volos NFC,AO Kifisia,W,D
+2023-11-04,,Volos NFC,PAS Giannina,L,W
+2023-11-11,,Volos NFC,Aris,W,D
+2023-11-25,,Volos NFC,OFI Crete,D,W
+2023-12-02,,Volos NFC,Olympiacos,L,D
+2023-12-09,,Volos NFC,PAS Lamia,D,W
+2023-12-16,,Volos NFC,Panathinaikos,W,D
+2023-12-20,,Volos NFC,AEK Athens,L,W
+2024-01-03,,Volos NFC,Atromitos,D,W
+2024-01-06,,Volos NFC,Asteras Tripoli,D,W
+2024-01-13,,Volos NFC,PAOK,L,D
+2024-01-20,,Volos NFC,Panserraikos,D,W
+2024-01-27,,Volos NFC,Panetolikos,W,D
+2024-02-03,,Volos NFC,AO Kifisia,W,W
+2024-02-10,,Volos NFC,PAS Giannina,W,D
+2024-02-17,,Volos NFC,Aris,L,W
+2024-02-24,,Volos NFC,OFI Crete,L,D
+2024-03-03,,Volos NFC,Olympiacos,L,W

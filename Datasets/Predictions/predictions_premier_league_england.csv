@@ -1,6 +1,7 @@
 Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
-2023-09-16,17:30,Arsenal,Everton,W,L
-2023-09-30,15:00,Arsenal,Bournemouth,W,L
+2023-09-17,16:30,Arsenal,Everton,W,W
+2023-09-26,,Arsenal,Brentford,W,D
+2023-09-30,15:00,Arsenal,Bournemouth,W,W
 2023-10-08,16:30,Arsenal,Manchester City,L,L
 2023-10-21,17:30,Arsenal,Chelsea,L,L
 2023-11-11,,Arsenal,Burnley,W,L
@@ -13,39 +14,39 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-02-03,,Arsenal,Liverpool,L,L
 2024-02-17,,Arsenal,Burnley,W,L
 2024-03-09,,Arsenal,Brentford,W,L
-2024-03-16,,Arsenal,Chelsea,L,L
+2024-03-16,,Arsenal,Chelsea,W,L
 2024-03-30,,Arsenal,Manchester City,L,L
-2024-04-02,,Arsenal,Luton Town,L,L
-2024-04-13,,Arsenal,Aston Villa,L,L
+2024-04-02,,Arsenal,Luton Town,W,L
+2024-04-13,,Arsenal,Aston Villa,W,L
 2024-05-04,,Arsenal,Bournemouth,W,L
 2024-05-19,,Arsenal,Everton,D,L
 2023-09-03,14:00,Aston Villa,Liverpool,W,W
 2023-09-16,15:00,Aston Villa,Crystal Palace,W,W
-2023-09-23,15:00,Aston Villa,Chelsea,W,W
-2023-10-28,15:00,Aston Villa,Luton Town,L,W
+2023-09-24,14:00,Aston Villa,Chelsea,W,W
+2023-09-26,,Aston Villa,Everton,D,W
+2023-10-29,14:00,Aston Villa,Luton Town,L,W
 2023-11-11,,Aston Villa,Fulham,W,W
-2023-12-02,,Aston Villa,Bournemouth,W,L
+2023-12-02,,Aston Villa,Bournemouth,W,W
 2023-12-05,,Aston Villa,Manchester City,L,W
 2023-12-09,,Aston Villa,Arsenal,L,W
-2023-12-16,,Aston Villa,Brentford,W,L
+2023-12-16,,Aston Villa,Brentford,W,W
 2023-12-30,,Aston Villa,Burnley,W,W
-2024-01-13,,Aston Villa,Everton,L,L
-2024-02-17,,Aston Villa,Fulham,L,L
-2024-03-02,,Aston Villa,Luton Town,L,L
-2024-04-03,,Aston Villa,Manchester City,L,D
+2024-01-13,,Aston Villa,Everton,L,W
+2024-02-17,,Aston Villa,Fulham,L,W
+2024-03-02,,Aston Villa,Luton Town,L,W
+2024-04-03,,Aston Villa,Manchester City,L,W
 2024-04-06,,Aston Villa,Brentford,W,W
-2024-04-13,,Aston Villa,Arsenal,L,L
+2024-04-13,,Aston Villa,Arsenal,L,W
 2024-04-20,,Aston Villa,Bournemouth,W,W
-2024-04-27,,Aston Villa,Chelsea,L,W
+2024-04-27,,Aston Villa,Chelsea,W,W
 2024-05-11,,Aston Villa,Liverpool,L,W
 2024-05-19,,Aston Villa,Crystal Palace,L,W
-2023-09-02,15:00,Bournemouth,Brentford,L,W
 2023-09-17,14:00,Bournemouth,Chelsea,W,W
-2023-09-30,15:00,Bournemouth,Arsenal,L,W
+2023-09-30,15:00,Bournemouth,Arsenal,W,W
 2023-10-07,15:00,Bournemouth,Everton,L,W
 2023-10-28,15:00,Bournemouth,Burnley,W,W
 2023-11-04,,Bournemouth,Manchester City,L,W
-2023-12-02,,Bournemouth,Aston Villa,L,W
+2023-12-02,,Bournemouth,Aston Villa,W,W
 2023-12-05,,Bournemouth,Crystal Palace,L,D
 2023-12-16,,Bournemouth,Luton Town,L,W
 2023-12-26,,Bournemouth,Fulham,L,W
@@ -60,19 +61,19 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-04,,Bournemouth,Arsenal,L,W
 2024-05-11,,Bournemouth,Brentford,W,W
 2024-05-19,,Bournemouth,Chelsea,L,W
-2023-09-02,15:00,Brentford,Bournemouth,W,L
-2023-09-23,17:30,Brentford,Everton,W,D
+2023-09-23,17:30,Brentford,Everton,W,W
+2023-09-26,,Brentford,Arsenal,D,W
 2023-10-21,15:00,Brentford,Burnley,W,W
 2023-10-28,12:30,Brentford,Chelsea,L,W
 2023-11-11,,Brentford,Liverpool,L,W
 2023-11-25,,Brentford,Arsenal,L,W
 2023-12-02,,Brentford,Luton Town,L,W
-2023-12-16,,Brentford,Aston Villa,L,W
+2023-12-16,,Brentford,Aston Villa,W,W
 2023-12-23,,Brentford,Manchester City,L,W
 2023-12-30,,Brentford,Crystal Palace,L,W
 2024-02-03,,Brentford,Manchester City,L,W
 2024-02-17,,Brentford,Liverpool,L,W
-2024-03-02,,Brentford,Chelsea,L,W
+2024-03-02,,Brentford,Chelsea,W,W
 2024-03-09,,Brentford,Arsenal,L,W
 2024-03-16,,Brentford,Burnley,W,W
 2024-04-06,,Brentford,Aston Villa,W,W
@@ -81,39 +82,40 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-04,,Brentford,Fulham,W,W
 2024-05-11,,Brentford,Bournemouth,W,W
 2023-09-24,14:00,Brighton and Hove Albion,Bournemouth,W,W
-2023-09-30,12:30,Brighton and Hove Albion,Aston Villa,W,W
+2023-09-27,19:45,Brighton and Hove Albion,Chelsea,L,D
+2023-09-30,12:30,Brighton and Hove Albion,Aston Villa,W,D
 2023-10-08,14:00,Brighton and Hove Albion,Liverpool,L,W
 2023-10-21,15:00,Brighton and Hove Albion,Manchester City,L,W
 2023-10-29,14:00,Brighton and Hove Albion,Fulham,W,W
 2023-11-04,,Brighton and Hove Albion,Everton,L,W
 2023-12-02,,Brighton and Hove Albion,Chelsea,L,W
-2023-12-05,,Brighton and Hove Albion,Brentford,D,W
+2023-12-05,,Brighton and Hove Albion,Brentford,W,W
 2023-12-09,,Brighton and Hove Albion,Burnley,W,W
 2023-12-16,,Brighton and Hove Albion,Arsenal,L,W
 2023-12-23,,Brighton and Hove Albion,Crystal Palace,L,W
-2024-01-30,,Brighton and Hove Albion,Luton Town,L,D
+2024-01-30,,Brighton and Hove Albion,Luton Town,L,W
 2024-02-03,,Brighton and Hove Albion,Crystal Palace,W,W
 2024-02-24,,Brighton and Hove Albion,Everton,W,W
 2024-03-02,,Brighton and Hove Albion,Fulham,L,W
 2024-03-16,,Brighton and Hove Albion,Manchester City,L,W
 2024-03-30,,Brighton and Hove Albion,Liverpool,L,W
-2024-04-02,,Brighton and Hove Albion,Brentford,W,D
+2024-04-02,,Brighton and Hove Albion,Brentford,W,W
 2024-04-06,,Brighton and Hove Albion,Arsenal,L,W
 2024-04-13,,Brighton and Hove Albion,Burnley,W,W
-2024-04-20,,Brighton and Hove Albion,Chelsea,L,W
+2024-04-20,,Brighton and Hove Albion,Chelsea,W,W
 2024-04-27,,Brighton and Hove Albion,Bournemouth,W,W
-2024-05-04,,Brighton and Hove Albion,Aston Villa,L,W
-2023-10-07,15:00,Burnley,Chelsea,W,W
+2024-05-04,,Brighton and Hove Albion,Aston Villa,W,W
+2023-10-07,15:00,Burnley,Chelsea,L,L
 2023-10-21,15:00,Burnley,Brentford,W,W
 2023-10-28,15:00,Burnley,Bournemouth,W,W
 2023-11-04,,Burnley,Crystal Palace,W,W
 2023-11-11,,Burnley,Arsenal,L,W
 2023-12-16,,Burnley,Everton,W,W
 2023-12-23,,Burnley,Fulham,L,W
-2023-12-26,,Burnley,Liverpool,L,W
+2023-12-26,,Burnley,Liverpool,W,W
 2023-12-30,,Burnley,Aston Villa,W,W
 2024-01-13,,Burnley,Luton Town,L,W
-2024-01-31,,Burnley,Manchester City,L,D
+2024-01-31,,Burnley,Manchester City,L,W
 2024-02-03,,Burnley,Fulham,W,W
 2024-02-10,,Burnley,Liverpool,L,W
 2024-02-17,,Burnley,Arsenal,L,W
@@ -123,27 +125,27 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-03-30,,Burnley,Chelsea,L,W
 2024-04-06,,Burnley,Everton,L,W
 2023-09-17,14:00,Chelsea,Bournemouth,W,W
-2023-09-23,15:00,Chelsea,Aston Villa,W,W
+2023-09-24,14:00,Chelsea,Aston Villa,W,W
 2023-10-02,20:00,Chelsea,Fulham,W,W
-2023-10-07,15:00,Chelsea,Burnley,W,W
+2023-10-07,15:00,Chelsea,Burnley,L,L
 2023-10-21,17:30,Chelsea,Arsenal,L,L
 2023-10-28,12:30,Chelsea,Brentford,W,L
 2023-11-11,,Chelsea,Manchester City,L,L
-2023-12-09,,Chelsea,Everton,L,L
+2023-12-09,,Chelsea,Everton,L,W
 2023-12-26,,Chelsea,Crystal Palace,D,L
-2023-12-30,,Chelsea,Luton Town,L,L
+2023-12-30,,Chelsea,Luton Town,L,W
 2024-01-13,,Chelsea,Fulham,W,L
 2024-01-31,,Chelsea,Liverpool,L,D
-2024-02-10,,Chelsea,Crystal Palace,L,L
-2024-02-17,,Chelsea,Manchester City,L,L
-2024-03-02,,Chelsea,Brentford,W,L
-2024-03-16,,Chelsea,Arsenal,L,L
+2024-02-10,,Chelsea,Crystal Palace,L,W
+2024-02-17,,Chelsea,Manchester City,L,W
+2024-03-02,,Chelsea,Brentford,W,W
+2024-03-16,,Chelsea,Arsenal,L,W
 2024-03-30,,Chelsea,Burnley,W,L
 2024-04-13,,Chelsea,Everton,W,L
-2024-04-27,,Chelsea,Aston Villa,W,L
+2024-04-27,,Chelsea,Aston Villa,W,W
 2024-05-19,,Chelsea,Bournemouth,W,L
 2023-09-16,15:00,Crystal Palace,Aston Villa,W,W
-2023-09-23,15:00,Crystal Palace,Fulham,W,W
+2023-09-23,15:00,Crystal Palace,Fulham,W,L
 2023-11-04,,Crystal Palace,Burnley,W,W
 2023-11-11,,Crystal Palace,Everton,W,L
 2023-11-25,,Crystal Palace,Luton Town,L,W
@@ -153,7 +155,7 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-26,,Crystal Palace,Chelsea,L,D
 2023-12-30,,Crystal Palace,Brentford,W,L
 2024-01-13,,Crystal Palace,Arsenal,L,W
-2024-02-10,,Crystal Palace,Chelsea,L,L
+2024-02-10,,Crystal Palace,Chelsea,W,L
 2024-02-17,,Crystal Palace,Everton,L,W
 2024-02-24,,Crystal Palace,Burnley,W,L
 2024-03-09,,Crystal Palace,Luton Town,L,L
@@ -162,16 +164,17 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-13,,Crystal Palace,Liverpool,L,W
 2024-04-27,,Crystal Palace,Fulham,L,W
 2024-05-19,,Crystal Palace,Aston Villa,W,L
-2023-09-16,17:30,Everton,Arsenal,L,W
-2023-09-23,17:30,Everton,Brentford,D,W
-2023-09-30,15:00,Everton,Luton Town,W,L
+2023-09-17,16:30,Everton,Arsenal,W,W
+2023-09-23,17:30,Everton,Brentford,W,W
+2023-09-26,,Everton,Aston Villa,W,D
+2023-09-30,15:00,Everton,Luton Town,W,W
 2023-10-07,15:00,Everton,Bournemouth,W,L
 2023-10-21,12:30,Everton,Liverpool,L,W
 2023-11-11,,Everton,Crystal Palace,L,W
-2023-12-09,,Everton,Chelsea,L,L
+2023-12-09,,Everton,Chelsea,W,L
 2023-12-16,,Everton,Burnley,W,W
 2023-12-26,,Everton,Manchester City,L,L
-2024-01-13,,Everton,Aston Villa,L,L
+2024-01-13,,Everton,Aston Villa,W,L
 2024-01-30,,Everton,Fulham,L,D
 2024-02-10,,Everton,Manchester City,L,W
 2024-02-17,,Everton,Crystal Palace,W,L
@@ -182,9 +185,8 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-27,,Everton,Brentford,W,L
 2024-05-04,,Everton,Luton Town,L,W
 2024-05-19,,Everton,Arsenal,L,D
-2023-09-02,15:00,Fulham,Manchester City,L,W
-2023-09-16,15:00,Fulham,Luton Town,W,W
-2023-09-23,15:00,Fulham,Crystal Palace,W,W
+2023-09-16,15:00,Fulham,Luton Town,L,W
+2023-09-23,15:00,Fulham,Crystal Palace,L,W
 2023-10-02,20:00,Fulham,Chelsea,W,W
 2023-11-11,,Fulham,Aston Villa,W,W
 2023-12-02,,Fulham,Liverpool,L,W
@@ -195,12 +197,12 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-01-30,,Fulham,Everton,D,L
 2024-02-03,,Fulham,Burnley,W,W
 2024-02-10,,Fulham,Bournemouth,W,L
-2024-02-17,,Fulham,Aston Villa,L,L
+2024-02-17,,Fulham,Aston Villa,W,L
 2024-04-20,,Fulham,Liverpool,L,L
 2024-04-27,,Fulham,Crystal Palace,W,L
 2024-05-04,,Fulham,Brentford,W,W
 2024-05-11,,Fulham,Manchester City,L,L
-2024-05-19,,Fulham,Luton Town,D,W
+2024-05-19,,Fulham,Luton Town,L,W
 2023-09-03,14:00,Liverpool,Aston Villa,W,W
 2023-10-21,12:30,Liverpool,Everton,W,L
 2023-11-04,,Liverpool,Luton Town,L,L
@@ -209,7 +211,7 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-02,,Liverpool,Fulham,W,L
 2023-12-09,,Liverpool,Crystal Palace,L,L
 2023-12-23,,Liverpool,Arsenal,L,L
-2023-12-26,,Liverpool,Burnley,W,L
+2023-12-26,,Liverpool,Burnley,W,W
 2024-01-13,,Liverpool,Bournemouth,W,L
 2024-01-31,,Liverpool,Chelsea,D,L
 2024-02-03,,Liverpool,Arsenal,L,L
@@ -221,27 +223,26 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-13,,Liverpool,Crystal Palace,W,L
 2024-04-20,,Liverpool,Fulham,L,L
 2024-05-11,,Liverpool,Aston Villa,W,L
-2023-09-16,15:00,Luton Town,Fulham,W,W
-2023-09-30,15:00,Luton Town,Everton,L,W
-2023-10-28,15:00,Luton Town,Aston Villa,W,L
+2023-09-16,15:00,Luton Town,Fulham,W,L
+2023-09-30,15:00,Luton Town,Everton,W,W
+2023-10-29,14:00,Luton Town,Aston Villa,W,L
 2023-11-04,,Luton Town,Liverpool,L,L
 2023-11-25,,Luton Town,Crystal Palace,W,L
 2023-12-02,,Luton Town,Brentford,W,L
 2023-12-05,,Luton Town,Arsenal,D,L
 2023-12-09,,Luton Town,Manchester City,L,L
 2023-12-16,,Luton Town,Bournemouth,W,L
-2023-12-30,,Luton Town,Chelsea,L,L
+2023-12-30,,Luton Town,Chelsea,W,L
 2024-01-13,,Luton Town,Burnley,W,L
 2024-02-24,,Luton Town,Liverpool,L,L
-2024-03-02,,Luton Town,Aston Villa,L,L
+2024-03-02,,Luton Town,Aston Villa,W,L
 2024-03-09,,Luton Town,Crystal Palace,L,L
-2024-04-02,,Luton Town,Arsenal,L,L
+2024-04-02,,Luton Town,Arsenal,L,W
 2024-04-06,,Luton Town,Bournemouth,W,L
 2024-04-13,,Luton Town,Manchester City,L,L
 2024-04-20,,Luton Town,Brentford,W,L
 2024-05-04,,Luton Town,Everton,W,L
-2024-05-19,,Luton Town,Fulham,W,D
-2023-09-02,15:00,Manchester City,Fulham,W,L
+2024-05-19,,Luton Town,Fulham,W,L
 2023-10-08,16:30,Manchester City,Arsenal,L,L
 2023-11-04,,Manchester City,Bournemouth,W,L
 2023-11-11,,Manchester City,Chelsea,L,L
@@ -251,19 +252,20 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-16,,Manchester City,Crystal Palace,W,L
 2023-12-23,,Manchester City,Brentford,W,L
 2023-12-26,,Manchester City,Everton,L,L
-2024-01-31,,Manchester City,Burnley,D,L
+2024-01-31,,Manchester City,Burnley,W,L
 2024-02-03,,Manchester City,Brentford,W,L
 2024-02-10,,Manchester City,Everton,W,L
-2024-02-17,,Manchester City,Chelsea,L,L
+2024-02-17,,Manchester City,Chelsea,W,L
 2024-02-24,,Manchester City,Bournemouth,W,L
 2024-03-09,,Manchester City,Liverpool,L,L
 2024-03-30,,Manchester City,Arsenal,L,L
-2024-04-03,,Manchester City,Aston Villa,D,L
+2024-04-03,,Manchester City,Aston Villa,W,L
 2024-04-06,,Manchester City,Crystal Palace,L,L
 2024-04-13,,Manchester City,Luton Town,L,L
 2024-05-11,,Manchester City,Fulham,L,L
 2023-09-03,16:30,Manchester United,Arsenal,W,W
-2023-09-23,20:00,Manchester United,Burnley,W,L
+2023-09-23,20:00,Manchester United,Burnley,W,W
+2023-09-26,20:00,Manchester United,Crystal Palace,D,W
 2023-09-30,15:00,Manchester United,Crystal Palace,D,W
 2023-10-07,15:00,Manchester United,Brentford,W,L
 2023-10-29,15:30,Manchester United,Manchester City,L,L
@@ -286,12 +288,13 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-27,,Manchester United,Burnley,W,L
 2024-05-04,,Manchester United,Crystal Palace,L,L
 2024-05-11,,Manchester United,Arsenal,L,L
-2023-09-17,16:30,Newcastle United,Brentford,W,W
-2023-09-30,15:00,Newcastle United,Burnley,W,D
+2023-09-16,17:30,Newcastle United,Brentford,L,W
+2023-09-27,20:00,Newcastle United,Manchester City,W,W
+2023-09-30,15:00,Newcastle United,Burnley,W,L
 2023-10-21,15:00,Newcastle United,Crystal Palace,W,L
 2023-11-04,,Newcastle United,Arsenal,L,L
 2023-11-11,,Newcastle United,Bournemouth,W,L
-2023-11-25,,Newcastle United,Chelsea,L,L
+2023-11-25,,Newcastle United,Chelsea,W,L
 2023-12-05,,Newcastle United,Everton,L,W
 2023-12-16,,Newcastle United,Fulham,W,L
 2023-12-23,,Newcastle United,Luton Town,L,L
@@ -303,18 +306,17 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-02-24,,Newcastle United,Arsenal,L,L
 2024-03-09,,Newcastle United,Chelsea,L,L
 2024-03-16,,Newcastle United,Crystal Palace,L,L
-2024-04-03,,Newcastle United,Everton,D,L
+2024-04-03,,Newcastle United,Everton,W,L
 2024-04-06,,Newcastle United,Fulham,L,L
 2024-05-04,,Newcastle United,Burnley,W,L
-2024-05-19,,Newcastle United,Brentford,D,L
-2023-09-02,15:00,Nottingham Forest,Chelsea,L,W
+2024-05-19,,Newcastle United,Brentford,W,L
 2023-09-18,19:45,Nottingham Forest,Burnley,W,W
 2023-09-23,15:00,Nottingham Forest,Manchester City,L,W
 2023-10-01,14:00,Nottingham Forest,Brentford,W,W
-2023-10-07,17:30,Nottingham Forest,Crystal Palace,D,W
+2023-10-07,17:30,Nottingham Forest,Crystal Palace,W,W
 2023-10-21,15:00,Nottingham Forest,Luton Town,L,L
-2023-10-29,14:00,Nottingham Forest,Liverpool,W,W
-2023-11-04,,Nottingham Forest,Aston Villa,L,L
+2023-10-29,14:00,Nottingham Forest,Liverpool,L,W
+2023-11-04,,Nottingham Forest,Aston Villa,W,L
 2023-12-02,,Nottingham Forest,Everton,W,L
 2023-12-05,,Nottingham Forest,Fulham,L,W
 2023-12-23,,Nottingham Forest,Bournemouth,W,L
@@ -328,42 +330,40 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-02,,Nottingham Forest,Fulham,L,L
 2024-04-20,,Nottingham Forest,Everton,L,W
 2024-04-27,,Nottingham Forest,Manchester City,L,L
-2024-05-11,,Nottingham Forest,Chelsea,L,L
+2024-05-11,,Nottingham Forest,Chelsea,W,L
 2024-05-19,,Nottingham Forest,Burnley,W,W
-2023-09-02,12:30,Sheffield United,Everton,W,W
-2023-10-07,15:00,Sheffield United,Fulham,D,W
+2023-10-07,15:00,Sheffield United,Fulham,W,W
 2023-10-28,15:00,Sheffield United,Arsenal,L,W
 2023-11-25,,Sheffield United,Bournemouth,W,L
 2023-12-02,,Sheffield United,Burnley,W,W
-2023-12-05,,Sheffield United,Liverpool,L,L
+2023-12-05,,Sheffield United,Liverpool,W,L
 2023-12-09,,Sheffield United,Brentford,W,L
 2023-12-16,,Sheffield United,Chelsea,L,W
 2023-12-23,,Sheffield United,Aston Villa,W,W
-2023-12-26,,Sheffield United,Luton Town,L,L
+2023-12-26,,Sheffield United,Luton Town,W,L
 2023-12-30,,Sheffield United,Manchester City,L,W
 2024-01-30,,Sheffield United,Crystal Palace,L,W
-2024-02-03,,Sheffield United,Aston Villa,L,L
+2024-02-03,,Sheffield United,Aston Villa,W,L
 2024-02-10,,Sheffield United,Luton Town,L,W
 2024-03-02,,Sheffield United,Arsenal,L,L
 2024-03-09,,Sheffield United,Bournemouth,W,W
 2024-03-30,,Sheffield United,Fulham,W,L
 2024-04-03,,Sheffield United,Liverpool,L,W
-2024-04-06,,Sheffield United,Chelsea,L,L
+2024-04-06,,Sheffield United,Chelsea,W,L
 2024-04-13,,Sheffield United,Brentford,W,W
 2024-04-20,,Sheffield United,Burnley,W,L
 2024-05-11,,Sheffield United,Everton,L,W
-2023-09-02,15:00,Tottenham Hotspur,Burnley,W,W
-2023-09-24,14:00,Tottenham Hotspur,Arsenal,L,W
+2023-09-24,14:00,Tottenham Hotspur,Arsenal,W,L
 2023-09-30,17:30,Tottenham Hotspur,Liverpool,W,L
-2023-10-07,12:30,Tottenham Hotspur,Luton Town,L,W
-2023-10-23,20:00,Tottenham Hotspur,Fulham,W,W
-2023-10-27,20:00,Tottenham Hotspur,Crystal Palace,L,W
-2023-11-04,,Tottenham Hotspur,Chelsea,L,L
-2023-11-25,,Tottenham Hotspur,Aston Villa,L,L
+2023-10-07,12:30,Tottenham Hotspur,Luton Town,W,L
+2023-10-23,20:00,Tottenham Hotspur,Fulham,D,W
+2023-10-27,20:00,Tottenham Hotspur,Crystal Palace,W,W
+2023-11-04,,Tottenham Hotspur,Chelsea,W,L
+2023-11-25,,Tottenham Hotspur,Aston Villa,W,L
 2023-12-02,,Tottenham Hotspur,Manchester City,L,L
 2023-12-23,,Tottenham Hotspur,Everton,W,L
 2023-12-30,,Tottenham Hotspur,Bournemouth,W,L
-2024-01-30,,Tottenham Hotspur,Brentford,D,L
+2024-01-30,,Tottenham Hotspur,Brentford,W,L
 2024-02-03,,Tottenham Hotspur,Everton,L,L
 2024-02-24,,Tottenham Hotspur,Chelsea,L,L
 2024-03-02,,Tottenham Hotspur,Crystal Palace,W,L
@@ -388,7 +388,7 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-02-24,,West Ham United,Brentford,W,W
 2024-03-02,,West Ham United,Everton,L,L
 2024-03-09,,West Ham United,Burnley,W,W
-2024-03-16,,West Ham United,Aston Villa,L,W
+2024-03-16,,West Ham United,Aston Villa,W,W
 2024-04-13,,West Ham United,Fulham,W,W
 2024-04-20,,West Ham United,Crystal Palace,L,L
 2024-04-27,,West Ham United,Liverpool,L,W
@@ -396,15 +396,15 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-11,,West Ham United,Luton Town,L,W
 2024-05-19,,West Ham United,Manchester City,L,D
 2023-09-03,14:00,Wolverhampton Wanderers,Crystal Palace,L,W
-2023-09-16,12:30,Wolverhampton Wanderers,Liverpool,W,D
-2023-09-23,15:00,Wolverhampton Wanderers,Luton Town,L,W
+2023-09-16,12:30,Wolverhampton Wanderers,Liverpool,L,W
+2023-09-23,15:00,Wolverhampton Wanderers,Luton Town,L,L
 2023-09-30,15:00,Wolverhampton Wanderers,Manchester City,W,W
-2023-10-07,15:00,Wolverhampton Wanderers,Aston Villa,W,W
-2023-10-21,15:00,Wolverhampton Wanderers,Bournemouth,W,L
+2023-10-08,14:00,Wolverhampton Wanderers,Aston Villa,W,W
+2023-10-21,15:00,Wolverhampton Wanderers,Bournemouth,W,W
 2023-11-25,,Wolverhampton Wanderers,Fulham,L,W
 2023-12-02,,Wolverhampton Wanderers,Arsenal,L,W
-2023-12-05,,Wolverhampton Wanderers,Burnley,D,W
-2023-12-23,,Wolverhampton Wanderers,Chelsea,L,W
+2023-12-05,,Wolverhampton Wanderers,Burnley,W,W
+2023-12-23,,Wolverhampton Wanderers,Chelsea,W,W
 2023-12-26,,Wolverhampton Wanderers,Brentford,W,W
 2023-12-30,,Wolverhampton Wanderers,Everton,W,W
 2024-02-03,,Wolverhampton Wanderers,Chelsea,L,W

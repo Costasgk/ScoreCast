@@ -1,0 +1,518 @@
+Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
+2023-09-15,21:00,Alaves,Rayo Vallecano,L,W
+2023-09-24,,Alaves,Athletic Club,D,D
+2023-09-27,,Alaves,Celta Vigo,W,W
+2023-10-01,,Alaves,Osasuna,W,D
+2023-10-22,,Alaves,Villarreal,D,W
+2023-11-12,,Alaves,Barcelona,L,W
+2023-11-26,,Alaves,Granada,W,L
+2023-12-03,,Alaves,Mallorca,L,W
+2023-12-10,,Alaves,Las Palmas,W,L
+2023-12-17,,Alaves,Girona,W,W
+2023-12-20,,Alaves,Real Madrid,L,L
+2024-01-03,,Alaves,Real Sociedad,L,W
+2024-01-14,,Alaves,Sevilla,L,W
+2024-02-04,,Alaves,Barcelona,L,L
+2024-02-11,,Alaves,Villarreal,L,L
+2024-02-25,,Alaves,Mallorca,W,L
+2024-03-03,,Alaves,Osasuna,L,W
+2024-03-10,,Alaves,Rayo Vallecano,W,L
+2024-03-17,,Alaves,Athletic Club,L,W
+2024-03-31,,Alaves,Real Sociedad,L,L
+2024-04-14,,Alaves,Granada,W,W
+2024-04-28,,Alaves,Celta Vigo,W,L
+2024-05-05,,Alaves,Valencia,D,W
+2024-05-12,,Alaves,Girona,W,L
+2024-05-15,,Alaves,Real Madrid,L,W
+2024-05-19,,Alaves,Getafe,W,L
+2024-05-26,,Alaves,Las Palmas,W,W
+2023-09-17,16:15,Almeria,Villarreal,L,W
+2023-09-24,,Almeria,Valencia,D,D
+2023-09-27,,Almeria,Sevilla,L,W
+2023-10-01,,Almeria,Granada,W,W
+2023-10-08,,Almeria,Athletic Club,D,W
+2023-10-22,,Almeria,Girona,W,W
+2023-10-29,,Almeria,Las Palmas,W,L
+2023-11-12,,Almeria,Real Sociedad,L,L
+2023-11-26,,Almeria,Getafe,W,W
+2023-12-17,,Almeria,Mallorca,W,L
+2023-12-20,,Almeria,Barcelona,L,W
+2024-01-03,,Almeria,Osasuna,L,W
+2024-01-14,,Almeria,Girona,W,L
+2024-01-21,,Almeria,Real Madrid,L,W
+2024-02-04,,Almeria,Valencia,D,W
+2024-02-11,,Almeria,Athletic Club,L,L
+2024-02-18,,Almeria,Granada,W,W
+2024-03-03,,Almeria,Celta Vigo,L,W
+2024-03-10,,Almeria,Sevilla,L,L
+2024-03-17,,Almeria,Las Palmas,W,W
+2024-03-31,,Almeria,Osasuna,W,L
+2024-04-14,,Almeria,Real Sociedad,L,W
+2024-04-21,,Almeria,Villarreal,L,L
+2024-04-28,,Almeria,Getafe,W,L
+2024-05-05,,Almeria,Rayo Vallecano,L,W
+2024-05-15,,Almeria,Barcelona,L,L
+2024-05-19,,Almeria,Mallorca,L,W
+2023-09-03,16:15,Athletic Club,Mallorca,W,L
+2023-09-27,,Athletic Club,Getafe,W,L
+2023-10-01,,Athletic Club,Real Sociedad,W,W
+2023-10-22,,Athletic Club,Barcelona,L,L
+2023-10-29,,Athletic Club,Valencia,D,L
+2023-11-05,,Athletic Club,Villarreal,D,L
+2023-11-12,,Athletic Club,Celta Vigo,W,L
+2023-11-26,,Athletic Club,Girona,W,L
+2023-12-03,,Athletic Club,Rayo Vallecano,W,L
+2023-12-10,,Athletic Club,Granada,W,L
+2023-12-20,,Athletic Club,Las Palmas,W,L
+2024-01-03,,Athletic Club,Sevilla,L,D
+2024-01-14,,Athletic Club,Real Sociedad,L,L
+2024-01-21,,Athletic Club,Valencia,D,L
+2024-02-04,,Athletic Club,Mallorca,W,L
+2024-02-18,,Athletic Club,Girona,W,L
+2024-03-03,,Athletic Club,Barcelona,L,L
+2024-03-10,,Athletic Club,Las Palmas,W,L
+2024-03-31,,Athletic Club,Real Madrid,L,L
+2024-04-14,,Athletic Club,Villarreal,L,L
+2024-04-21,,Athletic Club,Granada,W,L
+2024-05-05,,Athletic Club,Getafe,W,L
+2024-05-12,,Athletic Club,Osasuna,W,L
+2024-05-15,,Athletic Club,Celta Vigo,W,D
+2024-05-19,,Athletic Club,Sevilla,L,L
+2024-05-26,,Athletic Club,Rayo Vallecano,L,L
+2023-09-03,18:30,Atletico Madrid,Sevilla,W,L
+2023-09-16,16:15,Atletico Madrid,Valencia,W,W
+2023-09-24,,Atletico Madrid,Real Madrid,W,D
+2023-09-27,,Atletico Madrid,Osasuna,W,L
+2023-10-08,,Atletico Madrid,Real Sociedad,L,L
+2023-10-22,,Atletico Madrid,Celta Vigo,L,L
+2023-11-05,,Atletico Madrid,Las Palmas,W,L
+2023-11-12,,Atletico Madrid,Villarreal,L,L
+2023-11-26,,Atletico Madrid,Mallorca,W,L
+2023-12-03,,Atletico Madrid,Barcelona,L,L
+2023-12-17,,Atletico Madrid,Athletic Club,L,L
+2023-12-20,,Atletico Madrid,Getafe,W,L
+2024-01-03,,Atletico Madrid,Girona,W,L
+2024-01-14,,Atletico Madrid,Rayo Vallecano,W,L
+2024-01-21,,Atletico Madrid,Granada,W,L
+2024-01-28,,Atletico Madrid,Valencia,D,L
+2024-02-04,,Atletico Madrid,Real Madrid,L,L
+2024-02-11,,Atletico Madrid,Sevilla,L,L
+2024-02-18,,Atletico Madrid,Las Palmas,W,L
+2024-03-17,,Atletico Madrid,Barcelona,L,L
+2024-03-31,,Atletico Madrid,Villarreal,D,L
+2024-04-14,,Atletico Madrid,Girona,W,L
+2024-04-28,,Atletico Madrid,Athletic Club,L,L
+2024-05-05,,Atletico Madrid,Mallorca,L,L
+2024-05-12,,Atletico Madrid,Celta Vigo,W,L
+2024-05-15,,Atletico Madrid,Getafe,W,L
+2024-05-19,,Atletico Madrid,Osasuna,W,L
+2024-05-26,,Atletico Madrid,Real Sociedad,L,L
+2023-09-03,21:00,Barcelona,Osasuna,W,L
+2023-09-24,,Barcelona,Celta Vigo,W,L
+2023-09-27,,Barcelona,Mallorca,W,L
+2023-10-01,,Barcelona,Sevilla,W,L
+2023-10-08,,Barcelona,Granada,W,L
+2023-10-22,,Barcelona,Athletic Club,L,L
+2023-10-29,,Barcelona,Real Madrid,L,L
+2023-11-05,,Barcelona,Real Sociedad,L,L
+2023-11-26,,Barcelona,Rayo Vallecano,L,L
+2023-12-10,,Barcelona,Girona,W,L
+2023-12-17,,Barcelona,Valencia,D,L
+2024-01-03,,Barcelona,Las Palmas,D,L
+2024-01-14,,Barcelona,Osasuna,W,L
+2024-01-28,,Barcelona,Villarreal,L,L
+2024-02-11,,Barcelona,Granada,W,L
+2024-02-18,,Barcelona,Celta Vigo,L,L
+2024-02-25,,Barcelona,Getafe,W,L
+2024-03-03,,Barcelona,Athletic Club,L,L
+2024-03-10,,Barcelona,Mallorca,W,L
+2024-03-31,,Barcelona,Las Palmas,W,L
+2024-04-21,,Barcelona,Real Madrid,L,L
+2024-04-28,,Barcelona,Valencia,D,L
+2024-05-05,,Barcelona,Girona,W,L
+2024-05-12,,Barcelona,Real Sociedad,L,L
+2024-05-19,,Barcelona,Rayo Vallecano,W,L
+2024-05-26,,Barcelona,Sevilla,L,L
+2023-09-16,14:00,Cadiz,Athletic Club,L,W
+2023-09-27,,Cadiz,Rayo Vallecano,W,L
+2023-10-08,,Cadiz,Girona,W,W
+2023-10-22,,Cadiz,Valencia,D,W
+2023-10-29,,Cadiz,Sevilla,L,L
+2023-11-05,,Cadiz,Getafe,W,W
+2023-11-12,,Cadiz,Mallorca,L,W
+2023-11-26,,Cadiz,Real Madrid,L,L
+2023-12-03,,Cadiz,Celta Vigo,L,W
+2023-12-10,,Cadiz,Osasuna,W,L
+2023-12-17,,Cadiz,Las Palmas,W,W
+2023-12-20,,Cadiz,Real Sociedad,L,W
+2024-01-03,,Cadiz,Granada,W,W
+2024-01-14,,Cadiz,Valencia,D,L
+2024-01-28,,Cadiz,Athletic Club,L,L
+2024-02-04,,Cadiz,Villarreal,D,W
+2024-02-18,,Cadiz,Osasuna,L,W
+2024-02-25,,Cadiz,Celta Vigo,W,L
+2024-03-03,,Cadiz,Rayo Vallecano,L,W
+2024-03-17,,Cadiz,Real Sociedad,L,W
+2024-03-31,,Cadiz,Granada,W,L
+2024-04-14,,Cadiz,Barcelona,L,L
+2024-04-21,,Cadiz,Girona,W,W
+2024-04-28,,Cadiz,Mallorca,W,L
+2024-05-05,,Cadiz,Real Madrid,L,W
+2024-05-12,,Cadiz,Getafe,W,L
+2024-05-15,,Cadiz,Sevilla,L,W
+2024-05-19,,Cadiz,Las Palmas,W,L
+2023-09-16,18:30,Celta Vigo,Mallorca,W,L
+2023-09-24,,Celta Vigo,Barcelona,L,W
+2023-10-01,,Celta Vigo,Las Palmas,W,W
+2023-10-08,,Celta Vigo,Getafe,W,L
+2023-10-29,,Celta Vigo,Girona,W,W
+2023-11-05,,Celta Vigo,Sevilla,L,L
+2023-11-12,,Celta Vigo,Athletic Club,L,W
+2023-11-26,,Celta Vigo,Valencia,D,W
+2023-12-10,,Celta Vigo,Rayo Vallecano,L,W
+2023-12-17,,Celta Vigo,Granada,W,L
+2023-12-20,,Celta Vigo,Villarreal,L,W
+2024-01-14,,Celta Vigo,Mallorca,L,W
+2024-01-21,,Celta Vigo,Real Sociedad,L,L
+2024-01-28,,Celta Vigo,Girona,W,L
+2024-02-04,,Celta Vigo,Osasuna,L,W
+2024-02-11,,Celta Vigo,Getafe,W,W
+2024-02-18,,Celta Vigo,Barcelona,L,L
+2024-03-10,,Celta Vigo,Real Madrid,L,W
+2024-03-17,,Celta Vigo,Sevilla,L,W
+2024-03-31,,Celta Vigo,Rayo Vallecano,W,L
+2024-04-21,,Celta Vigo,Las Palmas,W,L
+2024-05-05,,Celta Vigo,Villarreal,L,L
+2024-05-15,,Celta Vigo,Athletic Club,D,W
+2024-05-19,,Celta Vigo,Granada,W,W
+2024-05-26,,Celta Vigo,Valencia,D,L
+2023-09-17,14:00,Getafe,Osasuna,W,W
+2023-09-24,,Getafe,Real Sociedad,L,W
+2023-09-27,,Getafe,Athletic Club,L,W
+2023-10-01,,Getafe,Villarreal,W,W
+2023-10-08,,Getafe,Celta Vigo,L,W
+2023-10-29,,Getafe,Mallorca,L,W
+2023-11-12,,Getafe,Granada,W,W
+2023-12-03,,Getafe,Las Palmas,W,W
+2023-12-10,,Getafe,Valencia,D,W
+2023-12-17,,Getafe,Sevilla,L,W
+2024-01-03,,Getafe,Rayo Vallecano,W,W
+2024-01-14,,Getafe,Real Madrid,L,W
+2024-01-21,,Getafe,Osasuna,L,W
+2024-01-28,,Getafe,Granada,W,W
+2024-02-11,,Getafe,Celta Vigo,W,W
+2024-02-18,,Getafe,Villarreal,D,W
+2024-02-25,,Getafe,Barcelona,L,W
+2024-03-03,,Getafe,Las Palmas,W,W
+2024-03-10,,Getafe,Valencia,D,W
+2024-03-17,,Getafe,Girona,W,W
+2024-03-31,,Getafe,Sevilla,L,W
+2024-04-14,,Getafe,Rayo Vallecano,L,W
+2024-04-21,,Getafe,Real Sociedad,L,W
+2024-05-05,,Getafe,Athletic Club,L,W
+2024-05-26,,Getafe,Mallorca,W,W
+2023-09-03,14:00,Girona,Las Palmas,W,L
+2023-09-18,21:00,Girona,Granada,L,W
+2023-09-24,,Girona,Mallorca,W,L
+2023-09-27,,Girona,Villarreal,W,W
+2023-10-01,,Girona,Real Madrid,L,W
+2023-10-29,,Girona,Celta Vigo,W,W
+2023-11-05,,Girona,Osasuna,L,W
+2023-11-12,,Girona,Rayo Vallecano,L,W
+2023-11-26,,Girona,Athletic Club,L,W
+2023-12-03,,Girona,Valencia,D,W
+2023-12-10,,Girona,Barcelona,L,W
+2024-01-21,,Girona,Sevilla,L,W
+2024-01-28,,Girona,Celta Vigo,L,W
+2024-02-04,,Girona,Real Sociedad,L,W
+2024-02-11,,Girona,Real Madrid,L,W
+2024-02-18,,Girona,Athletic Club,L,W
+2024-02-25,,Girona,Rayo Vallecano,W,W
+2024-03-03,,Girona,Mallorca,L,W
+2024-03-10,,Girona,Osasuna,W,W
+2024-03-17,,Girona,Getafe,W,W
+2024-04-28,,Girona,Las Palmas,W,W
+2024-05-05,,Girona,Barcelona,L,W
+2024-05-15,,Girona,Villarreal,L,W
+2024-05-19,,Girona,Valencia,D,W
+2024-05-26,,Girona,Granada,W,W
+2023-09-18,21:00,Granada,Girona,W,L
+2023-09-24,,Granada,Las Palmas,W,W
+2023-10-08,,Granada,Barcelona,L,W
+2023-10-22,,Granada,Osasuna,W,W
+2023-10-29,,Granada,Villarreal,L,W
+2023-11-05,,Granada,Valencia,D,W
+2023-11-12,,Granada,Getafe,W,W
+2023-12-03,,Granada,Real Madrid,L,W
+2023-12-10,,Granada,Athletic Club,L,W
+2023-12-17,,Granada,Celta Vigo,L,W
+2023-12-20,,Granada,Sevilla,L,W
+2024-01-28,,Granada,Getafe,W,W
+2024-02-04,,Granada,Las Palmas,W,W
+2024-02-11,,Granada,Barcelona,L,W
+2024-02-25,,Granada,Valencia,D,W
+2024-03-03,,Granada,Villarreal,D,W
+2024-03-10,,Granada,Real Sociedad,L,W
+2024-03-17,,Granada,Mallorca,L,W
+2024-04-21,,Granada,Athletic Club,L,W
+2024-04-28,,Granada,Osasuna,W,W
+2024-05-05,,Granada,Sevilla,L,W
+2024-05-12,,Granada,Real Madrid,L,W
+2024-05-15,,Granada,Rayo Vallecano,L,W
+2024-05-19,,Granada,Celta Vigo,W,W
+2024-05-26,,Granada,Girona,W,W
+2023-09-03,14:00,Las Palmas,Girona,L,W
+2023-09-17,18:30,Las Palmas,Sevilla,L,W
+2023-09-24,,Las Palmas,Granada,W,W
+2023-09-27,,Las Palmas,Real Madrid,L,W
+2023-10-01,,Las Palmas,Celta Vigo,W,W
+2023-10-08,,Las Palmas,Villarreal,L,W
+2023-10-22,,Las Palmas,Rayo Vallecano,W,W
+2023-11-12,,Las Palmas,Osasuna,L,W
+2023-12-03,,Las Palmas,Getafe,W,W
+2023-12-20,,Las Palmas,Athletic Club,L,W
+2024-01-03,,Las Palmas,Barcelona,L,D
+2024-01-14,,Las Palmas,Villarreal,L,W
+2024-01-21,,Las Palmas,Rayo Vallecano,L,W
+2024-01-28,,Las Palmas,Real Madrid,L,W
+2024-02-04,,Las Palmas,Granada,W,W
+2024-02-11,,Las Palmas,Valencia,D,W
+2024-02-25,,Las Palmas,Osasuna,W,W
+2024-03-03,,Las Palmas,Getafe,W,W
+2024-03-10,,Las Palmas,Athletic Club,L,W
+2024-03-31,,Las Palmas,Barcelona,L,W
+2024-04-14,,Las Palmas,Sevilla,L,W
+2024-04-21,,Las Palmas,Celta Vigo,L,W
+2024-04-28,,Las Palmas,Girona,W,W
+2024-05-05,,Las Palmas,Real Sociedad,L,W
+2024-05-12,,Las Palmas,Mallorca,L,W
+2023-09-03,16:15,Mallorca,Athletic Club,L,W
+2023-09-16,18:30,Mallorca,Celta Vigo,L,W
+2023-09-24,,Mallorca,Girona,L,W
+2023-09-27,,Mallorca,Barcelona,L,W
+2023-10-01,,Mallorca,Rayo Vallecano,L,W
+2023-10-08,,Mallorca,Valencia,W,W
+2023-10-22,,Mallorca,Real Sociedad,L,W
+2023-10-29,,Mallorca,Getafe,W,L
+2023-12-10,,Mallorca,Sevilla,L,L
+2023-12-20,,Mallorca,Osasuna,W,L
+2024-01-03,,Mallorca,Real Madrid,L,W
+2024-01-14,,Mallorca,Celta Vigo,W,L
+2024-01-21,,Mallorca,Villarreal,D,W
+2024-02-04,,Mallorca,Athletic Club,L,W
+2024-02-11,,Mallorca,Rayo Vallecano,W,L
+2024-02-18,,Mallorca,Real Sociedad,L,L
+2024-03-03,,Mallorca,Girona,W,L
+2024-03-10,,Mallorca,Barcelona,L,W
+2024-03-17,,Mallorca,Granada,W,L
+2024-03-31,,Mallorca,Valencia,D,W
+2024-04-14,,Mallorca,Real Madrid,L,L
+2024-04-21,,Mallorca,Sevilla,L,W
+2024-05-12,,Mallorca,Las Palmas,W,L
+2024-05-15,,Mallorca,Osasuna,L,W
+2024-05-26,,Mallorca,Getafe,W,W
+2023-09-03,21:00,Osasuna,Barcelona,L,W
+2023-09-17,14:00,Osasuna,Getafe,W,W
+2023-09-24,,Osasuna,Sevilla,W,W
+2023-10-08,,Osasuna,Real Madrid,L,W
+2023-10-22,,Osasuna,Granada,W,W
+2023-11-05,,Osasuna,Girona,W,L
+2023-11-12,,Osasuna,Las Palmas,W,L
+2023-11-26,,Osasuna,Villarreal,D,W
+2023-12-03,,Osasuna,Real Sociedad,L,L
+2023-12-17,,Osasuna,Rayo Vallecano,W,L
+2023-12-20,,Osasuna,Mallorca,L,W
+2024-01-14,,Osasuna,Barcelona,L,W
+2024-01-21,,Osasuna,Getafe,W,L
+2024-01-28,,Osasuna,Sevilla,L,W
+2024-02-04,,Osasuna,Celta Vigo,W,L
+2024-02-11,,Osasuna,Real Sociedad,L,W
+2024-02-25,,Osasuna,Las Palmas,W,W
+2024-03-10,,Osasuna,Girona,W,W
+2024-03-17,,Osasuna,Real Madrid,L,L
+2024-04-14,,Osasuna,Valencia,D,L
+2024-04-21,,Osasuna,Rayo Vallecano,L,W
+2024-04-28,,Osasuna,Granada,W,W
+2024-05-12,,Osasuna,Athletic Club,L,W
+2024-05-15,,Osasuna,Mallorca,W,L
+2024-05-26,,Osasuna,Villarreal,L,L
+2023-09-24,,Rayo Vallecano,Villarreal,W,W
+2023-10-01,,Rayo Vallecano,Mallorca,W,L
+2023-10-08,,Rayo Vallecano,Sevilla,L,W
+2023-10-22,,Rayo Vallecano,Las Palmas,W,W
+2023-10-29,,Rayo Vallecano,Real Sociedad,L,L
+2023-11-05,,Rayo Vallecano,Real Madrid,L,W
+2023-11-12,,Rayo Vallecano,Girona,W,L
+2023-11-26,,Rayo Vallecano,Barcelona,L,L
+2023-12-03,,Rayo Vallecano,Athletic Club,L,W
+2023-12-10,,Rayo Vallecano,Celta Vigo,W,L
+2023-12-17,,Rayo Vallecano,Osasuna,L,W
+2023-12-20,,Rayo Vallecano,Valencia,L,L
+2024-01-03,,Rayo Vallecano,Getafe,W,W
+2024-01-21,,Rayo Vallecano,Las Palmas,W,L
+2024-01-28,,Rayo Vallecano,Real Sociedad,L,W
+2024-02-04,,Rayo Vallecano,Sevilla,L,L
+2024-02-11,,Rayo Vallecano,Mallorca,L,W
+2024-02-18,,Rayo Vallecano,Real Madrid,L,L
+2024-02-25,,Rayo Vallecano,Girona,W,W
+2024-03-31,,Rayo Vallecano,Celta Vigo,L,W
+2024-04-14,,Rayo Vallecano,Getafe,W,L
+2024-04-21,,Rayo Vallecano,Osasuna,W,L
+2024-04-28,,Rayo Vallecano,Villarreal,D,W
+2024-05-12,,Rayo Vallecano,Valencia,D,W
+2024-05-15,,Rayo Vallecano,Granada,W,L
+2024-05-19,,Rayo Vallecano,Barcelona,L,W
+2024-05-26,,Rayo Vallecano,Athletic Club,L,L
+2023-09-16,21:00,Real Betis,Barcelona,L,W
+2023-09-27,,Real Betis,Granada,W,W
+2023-10-01,,Real Betis,Valencia,D,W
+2023-10-22,,Real Betis,Getafe,W,W
+2023-10-29,,Real Betis,Osasuna,W,L
+2023-11-05,,Real Betis,Mallorca,W,L
+2023-11-12,,Real Betis,Sevilla,L,W
+2023-11-26,,Real Betis,Las Palmas,W,L
+2023-12-10,,Real Betis,Real Madrid,L,L
+2023-12-17,,Real Betis,Real Sociedad,L,W
+2023-12-20,,Real Betis,Girona,W,W
+2024-01-03,,Real Betis,Celta Vigo,W,W
+2024-01-14,,Real Betis,Granada,W,L
+2024-01-21,,Real Betis,Barcelona,L,L
+2024-01-28,,Real Betis,Mallorca,L,W
+2024-02-04,,Real Betis,Getafe,W,L
+2024-02-25,,Real Betis,Athletic Club,L,L
+2024-03-10,,Real Betis,Villarreal,L,L
+2024-03-17,,Real Betis,Rayo Vallecano,L,W
+2024-03-31,,Real Betis,Girona,W,W
+2024-04-14,,Real Betis,Celta Vigo,W,L
+2024-04-21,,Real Betis,Valencia,D,W
+2024-04-28,,Real Betis,Sevilla,L,L
+2024-05-05,,Real Betis,Osasuna,L,W
+2024-05-15,,Real Betis,Las Palmas,D,W
+2024-05-19,,Real Betis,Real Sociedad,L,L
+2024-05-26,,Real Betis,Real Madrid,L,W
+2023-09-17,21:00,Real Madrid,Real Sociedad,W,L
+2023-09-27,,Real Madrid,Las Palmas,W,L
+2023-10-01,,Real Madrid,Girona,W,L
+2023-10-08,,Real Madrid,Osasuna,W,L
+2023-10-22,,Real Madrid,Sevilla,L,L
+2023-10-29,,Real Madrid,Barcelona,L,L
+2023-11-05,,Real Madrid,Rayo Vallecano,W,L
+2023-11-12,,Real Madrid,Valencia,D,L
+2023-12-03,,Real Madrid,Granada,W,L
+2023-12-17,,Real Madrid,Villarreal,L,L
+2024-01-03,,Real Madrid,Mallorca,W,L
+2024-01-14,,Real Madrid,Getafe,W,L
+2024-01-28,,Real Madrid,Las Palmas,W,L
+2024-02-11,,Real Madrid,Girona,W,L
+2024-02-18,,Real Madrid,Rayo Vallecano,L,L
+2024-02-25,,Real Madrid,Sevilla,L,L
+2024-03-03,,Real Madrid,Valencia,D,L
+2024-03-10,,Real Madrid,Celta Vigo,W,L
+2024-03-17,,Real Madrid,Osasuna,L,L
+2024-03-31,,Real Madrid,Athletic Club,L,L
+2024-04-14,,Real Madrid,Mallorca,L,L
+2024-04-21,,Real Madrid,Barcelona,L,L
+2024-04-28,,Real Madrid,Real Sociedad,L,L
+2024-05-12,,Real Madrid,Granada,W,L
+2024-05-19,,Real Madrid,Villarreal,D,L
+2023-09-17,21:00,Real Sociedad,Real Madrid,L,W
+2023-09-24,,Real Sociedad,Getafe,W,L
+2023-09-27,,Real Sociedad,Valencia,W,W
+2023-10-01,,Real Sociedad,Athletic Club,W,W
+2023-10-22,,Real Sociedad,Mallorca,W,L
+2023-10-29,,Real Sociedad,Rayo Vallecano,L,L
+2023-11-05,,Real Sociedad,Barcelona,L,L
+2023-11-26,,Real Sociedad,Sevilla,L,L
+2023-12-03,,Real Sociedad,Osasuna,L,L
+2023-12-10,,Real Sociedad,Villarreal,D,L
+2024-01-14,,Real Sociedad,Athletic Club,L,L
+2024-01-21,,Real Sociedad,Celta Vigo,L,L
+2024-01-28,,Real Sociedad,Rayo Vallecano,W,L
+2024-02-04,,Real Sociedad,Girona,W,L
+2024-02-11,,Real Sociedad,Osasuna,W,L
+2024-02-18,,Real Sociedad,Mallorca,L,L
+2024-02-25,,Real Sociedad,Villarreal,L,L
+2024-03-03,,Real Sociedad,Sevilla,L,L
+2024-03-10,,Real Sociedad,Granada,W,L
+2024-04-21,,Real Sociedad,Getafe,W,L
+2024-04-28,,Real Sociedad,Real Madrid,L,L
+2024-05-05,,Real Sociedad,Las Palmas,W,L
+2024-05-12,,Real Sociedad,Barcelona,L,L
+2024-05-15,,Real Sociedad,Valencia,L,L
+2023-09-17,18:30,Sevilla,Las Palmas,W,L
+2023-09-24,,Sevilla,Osasuna,W,W
+2023-10-01,,Sevilla,Barcelona,L,W
+2023-10-08,,Sevilla,Rayo Vallecano,W,L
+2023-10-22,,Sevilla,Real Madrid,L,L
+2023-11-05,,Sevilla,Celta Vigo,L,L
+2023-11-26,,Sevilla,Real Sociedad,L,L
+2023-12-03,,Sevilla,Villarreal,L,L
+2023-12-10,,Sevilla,Mallorca,L,L
+2023-12-17,,Sevilla,Getafe,W,L
+2023-12-20,,Sevilla,Granada,W,L
+2024-01-03,,Sevilla,Athletic Club,D,L
+2024-01-21,,Sevilla,Girona,W,L
+2024-01-28,,Sevilla,Osasuna,W,L
+2024-02-04,,Sevilla,Rayo Vallecano,L,L
+2024-02-18,,Sevilla,Valencia,D,L
+2024-02-25,,Sevilla,Real Madrid,L,L
+2024-03-03,,Sevilla,Real Sociedad,L,L
+2024-03-17,,Sevilla,Celta Vigo,W,L
+2024-03-31,,Sevilla,Getafe,W,L
+2024-04-14,,Sevilla,Las Palmas,W,L
+2024-04-21,,Sevilla,Mallorca,W,L
+2024-05-05,,Sevilla,Granada,W,L
+2024-05-12,,Sevilla,Villarreal,D,L
+2024-05-19,,Sevilla,Athletic Club,L,L
+2024-05-26,,Sevilla,Barcelona,L,L
+2023-09-27,,Valencia,Real Sociedad,W,W
+2023-10-08,,Valencia,Mallorca,W,W
+2023-10-29,,Valencia,Athletic Club,L,D
+2023-11-05,,Valencia,Granada,W,D
+2023-11-12,,Valencia,Real Madrid,L,D
+2023-11-26,,Valencia,Celta Vigo,W,D
+2023-12-03,,Valencia,Girona,W,D
+2023-12-10,,Valencia,Getafe,W,D
+2023-12-17,,Valencia,Barcelona,L,D
+2023-12-20,,Valencia,Rayo Vallecano,L,L
+2024-01-03,,Valencia,Villarreal,L,L
+2024-01-21,,Valencia,Athletic Club,L,D
+2024-02-11,,Valencia,Las Palmas,W,D
+2024-02-18,,Valencia,Sevilla,L,D
+2024-02-25,,Valencia,Granada,W,D
+2024-03-03,,Valencia,Real Madrid,L,D
+2024-03-10,,Valencia,Getafe,W,D
+2024-03-17,,Valencia,Villarreal,D,D
+2024-03-31,,Valencia,Mallorca,W,D
+2024-04-14,,Valencia,Osasuna,L,D
+2024-04-28,,Valencia,Barcelona,L,D
+2024-05-12,,Valencia,Rayo Vallecano,W,D
+2024-05-15,,Valencia,Real Sociedad,L,L
+2024-05-19,,Valencia,Girona,W,D
+2024-05-26,,Valencia,Celta Vigo,L,D
+2023-09-24,,Villarreal,Rayo Vallecano,W,W
+2023-09-27,,Villarreal,Girona,W,W
+2023-10-01,,Villarreal,Getafe,W,W
+2023-10-08,,Villarreal,Las Palmas,W,L
+2023-10-29,,Villarreal,Granada,W,L
+2023-11-05,,Villarreal,Athletic Club,L,D
+2023-11-26,,Villarreal,Osasuna,W,D
+2023-12-03,,Villarreal,Sevilla,L,L
+2023-12-10,,Villarreal,Real Sociedad,L,D
+2023-12-17,,Villarreal,Real Madrid,L,L
+2023-12-20,,Villarreal,Celta Vigo,W,L
+2024-01-03,,Villarreal,Valencia,L,L
+2024-01-14,,Villarreal,Las Palmas,W,L
+2024-01-21,,Villarreal,Mallorca,W,D
+2024-01-28,,Villarreal,Barcelona,L,L
+2024-02-18,,Villarreal,Getafe,W,D
+2024-02-25,,Villarreal,Real Sociedad,L,L
+2024-03-03,,Villarreal,Granada,W,D
+2024-03-17,,Villarreal,Valencia,D,D
+2024-04-14,,Villarreal,Athletic Club,L,L
+2024-04-28,,Villarreal,Rayo Vallecano,W,D
+2024-05-05,,Villarreal,Celta Vigo,L,L
+2024-05-12,,Villarreal,Sevilla,L,D
+2024-05-15,,Villarreal,Girona,W,L
+2024-05-19,,Villarreal,Real Madrid,L,D
+2024-05-26,,Villarreal,Osasuna,L,L

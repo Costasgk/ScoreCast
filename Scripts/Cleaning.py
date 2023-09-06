@@ -111,9 +111,14 @@ def process():
     path_finlandA = '../Datasets/Scrapped Datasets/Veikkausliiga_Stats.csv'
     path_englandPL = '../Datasets/Scrapped Datasets/Premier_League_Stats.csv'
     path_italyA = '../Datasets/Scrapped Datasets/Serie_A_Stats_Italy.csv'
+    path_spainA = '../Datasets/Scrapped Datasets/La_Liga_Stats.csv'
+    path_germanyA = '../Datasets/Scrapped Datasets/Bundesliga_Stats.csv'
+    path_franceA = '../Datasets/Scrapped Datasets/Ligue_1_Stats.csv'
+    path_greeceA = '../Datasets/Scrapped Datasets/Super_League_Greece_Stats.csv'
 
-    # paths = [path_jpn, path_agentinaA, path_brazilA, path_brazilB, path_norwayA, path_finlandA, path_englandPL, path_italyA]
-    paths = [path_jpn, path_brazilA, path_brazilB, path_norwayA, path_finlandA, path_englandPL, path_italyA]
+    paths = [path_jpn, path_brazilA, path_brazilB, path_norwayA, 
+            path_finlandA, path_englandPL, path_italyA,
+            path_spainA, path_germanyA, path_franceA, path_greeceA]
 
     for path in paths:
         df = read_file(path)

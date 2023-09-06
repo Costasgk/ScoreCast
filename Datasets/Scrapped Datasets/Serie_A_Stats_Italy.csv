@@ -1,123 +1,263 @@
 ,date,time,comp,round,day,venue,result,gf,ga,opponent,xg,xga,poss,attendance,captain,formation,referee,match report,notes,dist,fk,g-xg,g/sh,g/sot,gls,pk,pkatt,sh,sot,sot%,np:g-xg,npxg,npxg/sh,year,team
-0,2023-08-21,20:45,Serie A,Matchweek 1,Mon,Away,W,2.0,0.0,Bologna,0.9,1.0,47.0,,Davide Calabria,4-3-3,Luca Pairetto,Match Report,,15.7,0.0,1.1,0.22,0.4,2.0,0.0,0.0,9.0,5.0,55.6,1.1,0.9,0.1,2023,Milan
-1,2023-08-26,20:45,Serie A,Matchweek 2,Sat,Home,W,4.0,1.0,Torino,3.0,0.5,59.0,,Davide Calabria,4-3-3,Maurizio Mariani,Match Report,,20.7,0.0,1.0,0.13,0.4,4.0,2.0,2.0,15.0,5.0,33.3,0.5,1.5,0.1,2023,Milan
-2,2023-09-01,20:45,Serie A,Matchweek 3,Fri,Away,,,,Roma,,,,,,,,Head-to-Head,,18.8,0.0,2.1,0.17,0.4,6.0,2.0,2.0,24.0,10.0,41.7,1.6,2.4,0.1,2023,Milan
-3,2023-09-16,18:00,Serie A,Matchweek 4,Sat,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
-0,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Away,W,3.0,1.0,Frosinone,1.5,0.9,52.0,,Giovanni Di Lorenzo,4-3-3,Matteo Marcenaro,Match Report,,18.4,0.0,1.5,0.16,0.38,3.0,0.0,0.0,19.0,8.0,42.1,1.5,1.5,0.08,2023,Napoli
-1,2023-08-27,20:45,Serie A,Matchweek 2,Sun,Home,W,2.0,0.0,Sassuolo,3.5,0.2,67.0,,Giovanni Di Lorenzo,4-3-3,Antonio Giua,Match Report,,15.5,0.0,-1.5,0.04,0.25,2.0,1.0,2.0,23.0,4.0,17.4,-0.9,1.9,0.09,2023,Napoli
-2,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Home,,,,Lazio,,,,,,,,Head-to-Head,,16.8,0.0,0.0,0.1,0.33,5.0,1.0,2.0,42.0,12.0,28.6,0.6,3.4,0.08,2023,Napoli
-3,2023-09-16,20:45,Serie A,Matchweek 4,Sat,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
 0,2023-08-19,20:45,Serie A,Matchweek 1,Sat,Home,W,2.0,0.0,Monza,2.7,0.8,47.0,,Lautaro Martínez,3-5-2,Andrea Colombo,Match Report,,17.2,1.0,-0.7,0.09,0.67,2.0,0.0,0.0,22.0,3.0,13.6,-0.7,2.7,0.12,2023,Internazionale
 1,2023-08-28,20:45,Serie A,Matchweek 2,Mon,Away,W,2.0,0.0,Cagliari,0.9,0.6,67.0,,Lautaro Martínez,3-5-2,Michael Fabbri,Match Report,,15.9,0.0,1.1,0.12,0.67,2.0,0.0,0.0,17.0,3.0,17.6,1.1,0.9,0.05,2023,Internazionale
-2,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,16.6,1.0,0.4,0.1,0.67,4.0,0.0,0.0,39.0,6.0,15.4,0.4,3.6,0.09,2023,Internazionale
-3,2023-09-16,18:00,Serie A,Matchweek 4,Sat,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+2,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Home,W,4.0,0.0,Fiorentina,3.7,0.4,40.0,,Lautaro Martínez,3-5-2,Matteo Marchetti,Match Report,,14.5,1.0,0.3,0.15,0.3,4.0,1.0,1.0,20.0,10.0,50.0,0.1,2.9,0.15,2023,Internazionale
+3,2023-09-16,18:00,Serie A,Matchweek 4,Sat,Home,,,,Milan,,,,,,,,Head-to-Head,,15.9,2.0,0.7,0.12,0.44,8.0,1.0,1.0,59.0,16.0,27.1,0.5,6.5,0.11,2023,Internazionale
+4,2023-09-20,21:00,Champions Lg,Group stage,Wed,Away,,,,es Real Sociedad,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+8,2023-10-03,21:00,Champions Lg,Group stage,Tue,Home,,,,pt Benfica,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+9,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+10,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+11,2023-10-24,18:45,Champions Lg,Group stage,Tue,Home,,,,at RB Salzburg,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+12,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+13,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+14,2023-11-08,21:00,Champions Lg,Group stage,Wed,Away,,,,at RB Salzburg,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+15,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+16,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+17,2023-11-29,20:00,Champions Lg,Group stage,Wed,Away,,,,pt Benfica,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+18,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+19,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+20,2023-12-12,21:00,Champions Lg,Group stage,Tue,Home,,,,es Real Sociedad,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+21,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+22,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+23,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+24,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+25,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+26,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+27,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+28,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+29,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+30,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+31,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+32,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+33,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+34,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+35,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+36,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+37,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+38,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+39,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+40,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+41,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+42,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+43,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Internazionale
+0,2023-08-21,20:45,Serie A,Matchweek 1,Mon,Away,W,2.0,0.0,Bologna,0.9,1.0,47.0,,Davide Calabria,4-3-3,Luca Pairetto,Match Report,,15.7,0.0,1.1,0.22,0.4,2.0,0.0,0.0,9.0,5.0,55.6,1.1,0.9,0.1,2023,Milan
+1,2023-08-26,20:45,Serie A,Matchweek 2,Sat,Home,W,4.0,1.0,Torino,3.0,0.5,59.0,,Davide Calabria,4-3-3,Maurizio Mariani,Match Report,,20.7,0.0,1.0,0.13,0.4,4.0,2.0,2.0,15.0,5.0,33.3,0.5,1.5,0.1,2023,Milan
+2,2023-09-01,20:45,Serie A,Matchweek 3,Fri,Away,W,2.0,1.0,Roma,1.5,0.7,56.0,,Davide Calabria,4-2-3-1,Antonio Rapuano,Match Report,,14.2,0.0,0.5,0.13,0.33,2.0,1.0,1.0,8.0,3.0,37.5,0.1,0.9,0.11,2023,Milan
+3,2023-09-16,18:00,Serie A,Matchweek 4,Sat,Away,,,,Inter,,,,,,,,Head-to-Head,,17.7,0.0,2.5,0.16,0.38,8.0,3.0,3.0,32.0,13.0,40.6,1.8,3.2,0.1,2023,Milan
+4,2023-09-19,18:45,Champions Lg,Group stage,Tue,Home,,,,eng Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+8,2023-10-04,21:00,Champions Lg,Group stage,Wed,Away,,,,de Dortmund,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+9,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+10,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+11,2023-10-25,21:00,Champions Lg,Group stage,Wed,Away,,,,fr Paris S-G,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+12,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+13,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+14,2023-11-07,21:00,Champions Lg,Group stage,Tue,Home,,,,fr Paris S-G,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+15,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+16,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+17,2023-11-28,21:00,Champions Lg,Group stage,Tue,Home,,,,de Dortmund,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+18,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+19,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+20,2023-12-13,20:00,Champions Lg,Group stage,Wed,Away,,,,eng Newcastle Utd,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+21,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+22,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+23,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+24,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+25,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+26,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+27,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+28,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+29,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+30,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+31,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+32,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+33,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+34,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+35,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+36,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+37,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+38,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+39,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+40,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+41,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+42,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+43,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Milan
+0,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Away,W,3.0,0.0,Udinese,1.8,1.0,51.0,,Danilo,3-5-2,Antonio Rapuano,Match Report,,17.0,0.0,1.2,0.25,0.67,3.0,1.0,1.0,8.0,3.0,37.5,0.9,1.1,0.13,2023,Juventus
+1,2023-08-27,18:30,Serie A,Matchweek 2,Sun,Home,D,1.0,1.0,Bologna,0.8,0.5,58.0,,Danilo,3-5-2,Marco Di Bello,Match Report,,18.0,1.0,0.2,0.07,0.33,1.0,0.0,0.0,14.0,3.0,21.4,0.2,0.8,0.06,2023,Juventus
+2,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Away,W,2.0,0.0,Empoli,2.7,0.3,50.0,,Danilo,3-5-2,Giovanni Ayroldi,Match Report,,17.6,0.0,-0.7,0.12,0.5,2.0,0.0,1.0,17.0,4.0,23.5,0.1,1.9,0.11,2023,Juventus
+3,2023-09-16,15:00,Serie A,Matchweek 4,Sat,Home,,,,Lazio,,,,,,,,Head-to-Head,,17.6,1.0,0.7,0.13,0.5,6.0,1.0,2.0,39.0,10.0,25.6,1.2,3.8,0.1,2023,Juventus
+4,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+5,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+6,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+7,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+8,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+9,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+10,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+11,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+12,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+13,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+14,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+15,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+16,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+17,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+18,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+19,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+20,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+21,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+22,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+23,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+24,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+25,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+26,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+27,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+28,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+29,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+30,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+31,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+32,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+33,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+34,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+35,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+36,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+37,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
+0,2023-08-13,21:00,Coppa Italia,First round,Sun,Home,W,1.0,0.0,Como,,,52.0,,Gabriel Strefezza,4-3-3,Daniele Rutella,Match Report,,,,,0.04,0.1,1.0,0.0,0.0,25.0,10.0,40.0,,,,2023,Lecce
+1,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Home,W,2.0,1.0,Lazio,1.4,1.6,48.0,,Gabriel Strefezza,4-3-3,Federico Dionisi,Match Report,,20.4,1.0,0.6,0.09,0.29,2.0,0.0,0.0,23.0,7.0,30.4,0.6,1.4,0.06,2023,Lecce
+2,2023-08-27,18:30,Serie A,Matchweek 2,Sun,Away,D,2.0,2.0,Fiorentina,0.3,1.3,41.0,,Gabriel Strefezza,4-3-3,Maria Sole Ferrieri Caputi,Match Report,,20.1,0.0,1.7,0.33,1.0,2.0,0.0,0.0,6.0,2.0,33.3,1.7,0.3,0.04,2023,Lecce
+3,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Home,W,2.0,0.0,Salernitana,1.7,1.1,46.0,,Federico Baschirotto,4-3-3,Luca Massimi,Match Report,,21.1,0.0,0.3,0.05,0.2,2.0,1.0,1.0,19.0,5.0,26.3,0.0,1.0,0.05,2023,Lecce
+4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,20.6,1.0,3.6,0.08,0.25,7.0,1.0,1.0,73.0,24.0,32.9,3.3,2.7,0.06,2023,Lecce
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Parma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+12,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+19,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+23,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+24,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+25,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+32,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+33,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
+0,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Away,W,2.0,0.0,Sassuolo,1.3,0.4,51.0,,Marten de Roon,3-5-2,Matteo Marchetti,Match Report,,17.1,0.0,0.7,0.13,0.5,2.0,0.0,0.0,16.0,4.0,25.0,0.7,1.3,0.08,2023,Atalanta
+1,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Away,L,1.0,2.0,Frosinone,1.6,0.7,63.0,,Marten de Roon,3-4-1-2,Juan Sacchi,Match Report,,15.8,0.0,-0.6,0.06,0.17,1.0,0.0,0.0,18.0,6.0,33.3,-0.6,1.6,0.09,2023,Atalanta
+2,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Home,W,3.0,0.0,Monza,1.3,0.4,41.0,,Marten de Roon,3-4-1-2,Matteo Marcenaro,Match Report,,16.7,0.0,1.7,0.17,0.38,3.0,0.0,0.0,18.0,8.0,44.4,1.7,1.3,0.07,2023,Atalanta
+3,2023-09-17,18:00,Serie A,Matchweek 4,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,16.5,0.0,1.8,0.12,0.33,6.0,0.0,0.0,52.0,18.0,34.6,1.8,4.2,0.08,2023,Atalanta
+4,2023-09-21,21:00,Europa Lg,Group stage,Thu,Home,,,,pl RKS Raków,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+8,2023-10-05,17:45,Europa Lg,Group stage,Thu,Away,,,,pt Sporting CP,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+9,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+10,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+11,2023-10-26,18:45,Europa Lg,Group stage,Thu,Away,,,,at Sturm Graz,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+12,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+13,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+14,2023-11-09,21:00,Europa Lg,Group stage,Thu,Home,,,,at Sturm Graz,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+15,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+16,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+17,2023-11-30,18:45,Europa Lg,Group stage,Thu,Home,,,,pt Sporting CP,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+18,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+19,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+20,2023-12-14,21:00,Europa Lg,Group stage,Thu,Away,,,,pl RKS Raków,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+21,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+22,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+23,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+24,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+25,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+26,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+27,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+28,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+29,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+30,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+31,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+32,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+33,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+34,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+35,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+36,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+37,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+38,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+39,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+40,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+41,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+42,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+43,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
+0,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Away,W,3.0,1.0,Frosinone,1.5,0.9,52.0,,Giovanni Di Lorenzo,4-3-3,Matteo Marcenaro,Match Report,,18.4,0.0,1.5,0.16,0.38,3.0,0.0,0.0,19.0,8.0,42.1,1.5,1.5,0.08,2023,Napoli
+1,2023-08-27,20:45,Serie A,Matchweek 2,Sun,Home,W,2.0,0.0,Sassuolo,3.5,0.2,67.0,,Giovanni Di Lorenzo,4-3-3,Antonio Giua,Match Report,,15.5,0.0,-1.5,0.04,0.25,2.0,1.0,2.0,23.0,4.0,17.4,-0.9,1.9,0.09,2023,Napoli
+2,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Home,L,1.0,2.0,Lazio,1.3,0.6,62.0,,Giovanni Di Lorenzo,4-3-3,Andrea Colombo,Match Report,,17.7,1.0,-0.3,0.05,0.25,1.0,0.0,0.0,22.0,4.0,18.2,-0.3,1.3,0.06,2023,Napoli
+3,2023-09-16,20:45,Serie A,Matchweek 4,Sat,Away,,,,Genoa,,,,,,,,Head-to-Head,,17.1,1.0,-0.2,0.08,0.31,6.0,1.0,2.0,64.0,16.0,25.0,0.3,4.7,0.07,2023,Napoli
+4,2023-09-20,20:00,Champions Lg,Group stage,Wed,Away,,,,pt Braga,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+8,2023-10-03,21:00,Champions Lg,Group stage,Tue,Home,,,,es Real Madrid,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+9,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+10,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+11,2023-10-24,21:00,Champions Lg,Group stage,Tue,Away,,,,de Union Berlin,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+12,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+13,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+14,2023-11-08,18:45,Champions Lg,Group stage,Wed,Home,,,,de Union Berlin,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+15,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+16,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+17,2023-11-29,21:00,Champions Lg,Group stage,Wed,Away,,,,es Real Madrid,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+18,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+19,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+20,2023-12-12,21:00,Champions Lg,Group stage,Tue,Home,,,,pt Braga,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+21,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+22,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+23,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+24,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+25,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+26,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+27,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+28,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+29,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+30,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+31,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+32,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+33,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+34,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+35,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+36,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+37,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+38,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+39,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+40,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+41,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+42,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
+43,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Napoli
 0,2023-08-12,21:00,Coppa Italia,First round,Sat,Home,W,3.0,1.0,Ascoli,,,55.0,,Paweł Dawidowicz,3-4-3,Marco Piccinini,Match Report,,,,,0.13,0.25,3.0,1.0,1.0,16.0,8.0,50.0,,,,2023,Hellas Verona
 1,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Away,W,1.0,0.0,Empoli,0.5,0.7,52.0,,Paweł Dawidowicz,3-4-3,Luca Massimi,Match Report,,18.2,0.0,0.5,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,0.5,0.5,0.05,2023,Hellas Verona
 2,2023-08-26,20:45,Serie A,Matchweek 2,Sat,Home,W,2.0,1.0,Roma,0.7,1.5,29.0,,Paweł Dawidowicz,3-4-3,Daniele Doveri,Match Report,,15.9,0.0,1.3,0.4,0.67,2.0,0.0,0.0,5.0,3.0,60.0,1.3,0.7,0.15,2023,Hellas Verona
-3,2023-09-01,18:30,Serie A,Matchweek 3,Fri,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,17.4,0.0,4.7,0.16,0.33,6.0,1.0,1.0,31.0,15.0,48.4,3.7,1.3,0.08,2023,Hellas Verona
-4,2023-09-18,20:45,Serie A,Matchweek 4,Mon,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Hellas Verona
+3,2023-09-01,18:30,Serie A,Matchweek 3,Fri,Away,L,1.0,3.0,Sassuolo,0.6,1.7,53.0,,Davide Faraoni,3-4-1-2,Marco Piccinini,Match Report,,18.8,0.0,0.4,0.09,0.33,1.0,0.0,0.0,11.0,3.0,27.3,0.4,0.6,0.06,2023,Hellas Verona
+4,2023-09-18,20:45,Serie A,Matchweek 4,Mon,Home,,,,Bologna,,,,,,,,Head-to-Head,,18.0,0.0,5.1,0.14,0.33,7.0,1.0,1.0,42.0,18.0,42.9,4.1,1.9,0.07,2023,Hellas Verona
 5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Hellas Verona
 6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Hellas Verona
 7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Hellas Verona
@@ -156,361 +296,54 @@
 0,2023-08-19,20:45,Serie A,Matchweek 1,Sat,Away,W,4.0,1.0,Genoa,1.0,0.2,68.0,,Cristiano Biraghi,4-2-3-1,Giovanni Ayroldi,Match Report,,18.6,0.0,3.0,0.44,0.8,4.0,0.0,0.0,9.0,5.0,55.6,3.0,1.0,0.11,2023,Fiorentina
 1,2023-08-24,19:00,Conf Lg,Play-off round,Thu,Away,L,0.0,1.0,at Rapid Wien,,,,23000.0,Cristiano Biraghi,4-3-3,Igor Pajač,Match Report,Leg 1 of 2,,,,,,0.0,0.0,0.0,,,,,,,2023,Fiorentina
 2,2023-08-27,18:30,Serie A,Matchweek 2,Sun,Home,D,2.0,2.0,Lecce,1.3,0.3,59.0,,Giacomo Bonaventura,4-2-3-1,Maria Sole Ferrieri Caputi,Match Report,,13.3,1.0,0.7,0.2,0.5,2.0,0.0,0.0,10.0,4.0,40.0,0.7,1.3,0.13,2023,Fiorentina
-3,2023-08-31,20:00,Conf Lg,Play-off round,Thu,Home,,,,at Rapid Wien,,,,,,,,Head-to-Head,Leg 2 of 2; Rapid Wien 1:0 Fiorentina,15.8,1.0,3.7,0.32,0.67,6.0,0.0,0.0,19.0,9.0,47.4,3.7,2.3,0.12,2023,Fiorentina
-4,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-5,2023-09-17,18:00,Serie A,Matchweek 4,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-6,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-7,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-8,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-9,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-10,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-11,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
-0,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Away,W,3.0,0.0,Udinese,1.8,1.0,51.0,,Danilo,3-5-2,Antonio Rapuano,Match Report,,17.0,0.0,1.2,0.25,0.67,3.0,1.0,1.0,8.0,3.0,37.5,0.9,1.1,0.13,2023,Juventus
-1,2023-08-27,18:30,Serie A,Matchweek 2,Sun,Home,D,1.0,1.0,Bologna,0.8,0.5,58.0,,Danilo,3-5-2,Marco Di Bello,Match Report,,18.0,1.0,0.2,0.07,0.33,1.0,0.0,0.0,14.0,3.0,21.4,0.2,0.8,0.06,2023,Juventus
-2,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,17.6,1.0,1.4,0.14,0.5,4.0,1.0,1.0,22.0,6.0,27.3,1.1,1.9,0.09,2023,Juventus
-3,2023-09-16,15:00,Serie A,Matchweek 4,Sat,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Juventus
-0,2023-08-13,21:00,Coppa Italia,First round,Sun,Home,W,1.0,0.0,Como,,,52.0,,Gabriel Strefezza,4-3-3,Daniele Rutella,Match Report,,,,,0.04,0.1,1.0,0.0,0.0,25.0,10.0,40.0,,,,2023,Lecce
-1,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Home,W,2.0,1.0,Lazio,1.4,1.6,48.0,,Gabriel Strefezza,4-3-3,Federico Dionisi,Match Report,,20.4,1.0,0.6,0.09,0.29,2.0,0.0,0.0,23.0,7.0,30.4,0.6,1.4,0.06,2023,Lecce
-2,2023-08-27,18:30,Serie A,Matchweek 2,Sun,Away,D,2.0,2.0,Fiorentina,0.3,1.3,41.0,,Gabriel Strefezza,4-3-3,Maria Sole Ferrieri Caputi,Match Report,,20.1,0.0,1.7,0.33,1.0,2.0,0.0,0.0,6.0,2.0,33.3,1.7,0.3,0.04,2023,Lecce
-3,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,20.3,1.0,3.3,0.09,0.26,5.0,0.0,0.0,54.0,19.0,35.2,3.3,1.7,0.06,2023,Lecce
-4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Parma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lecce
-0,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Away,W,2.0,0.0,Sassuolo,1.3,0.4,51.0,,Marten de Roon,3-5-2,Matteo Marchetti,Match Report,,17.1,0.0,0.7,0.13,0.5,2.0,0.0,0.0,16.0,4.0,25.0,0.7,1.3,0.08,2023,Atalanta
-1,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Away,L,1.0,2.0,Frosinone,1.6,0.7,63.0,,Marten de Roon,3-4-1-2,Juan Sacchi,Match Report,,15.8,0.0,-0.6,0.06,0.17,1.0,0.0,0.0,18.0,6.0,33.3,-0.6,1.6,0.09,2023,Atalanta
-2,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Home,,,,Monza,,,,,,,,Head-to-Head,,16.4,0.0,0.0,0.09,0.3,3.0,0.0,0.0,34.0,10.0,29.4,0.0,3.0,0.09,2023,Atalanta
-3,2023-09-17,18:00,Serie A,Matchweek 4,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Atalanta
-0,2023-08-13,21:15,Coppa Italia,First round,Sun,Home,L,1.0,2.0,Reggiana,,,62.0,,Matteo Pessina,3-4-3,Alberto Santoro,Match Report,,,,,0.05,0.25,1.0,0.0,0.0,21.0,4.0,19.0,,,,2023,Monza
-1,2023-08-19,20:45,Serie A,Matchweek 1,Sat,Away,L,0.0,2.0,Inter,0.8,2.7,53.0,,Matteo Pessina,3-5-2,Andrea Colombo,Match Report,,17.8,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,-0.8,0.8,0.06,2023,Monza
-2,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Home,W,2.0,0.0,Empoli,2.0,1.0,54.0,,Matteo Pessina,3-4-3,Gianluca Aureliano,Match Report,,17.7,1.0,0.0,0.1,0.4,2.0,0.0,0.0,20.0,5.0,25.0,0.0,2.0,0.1,2023,Monza
-3,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Away,,,,Atalanta,,,,,,,,Head-to-Head,,17.8,1.0,0.2,0.06,0.27,3.0,0.0,0.0,53.0,11.0,20.8,0.2,2.8,0.09,2023,Monza
-4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-11,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-12,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-13,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-14,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-15,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-16,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-17,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-18,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-19,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-20,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-21,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-22,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-23,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-24,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-25,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-26,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-27,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-28,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-29,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-30,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-31,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-32,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-33,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-34,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-35,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-36,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-37,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-38,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
-0,2023-08-11,17:45,Coppa Italia,First round,Fri,Home,W,1.0,0.0,Pisa,,,45.0,,Luca Mazzitelli,4-3-3,Davide Ghersini,Match Report,,,,,0.0,0.0,0.0,0.0,0.0,8.0,5.0,62.5,,,,2023,Frosinone
-1,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Home,L,1.0,3.0,Napoli,0.9,1.5,48.0,,Luca Mazzitelli,4-3-3,Matteo Marcenaro,Match Report,,25.4,1.0,0.1,0.0,,1.0,1.0,1.0,3.0,0.0,0.0,-0.1,0.1,0.03,2023,Frosinone
-2,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Home,W,2.0,1.0,Atalanta,0.7,1.6,37.0,,Luca Mazzitelli,4-2-3-1,Juan Sacchi,Match Report,,18.8,0.0,1.3,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,1.3,0.7,0.06,2023,Frosinone
-3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Away,,,,Udinese,,,,,,,,Head-to-Head,,20.0,1.0,1.4,0.08,0.2,3.0,1.0,1.0,24.0,10.0,41.7,1.2,0.8,0.05,2023,Frosinone
-4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-11,2023-11-01,,Coppa Italia,Second round,Wed,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
-0,2023-08-11,21:00,Coppa Italia,First round,Fri,Home,W,4.0,3.0,Modena,,,51.0,,Milan Badelj,3-5-2,Gianluca Aureliano,Match Report,,,,,0.22,0.44,4.0,0.0,0.0,18.0,9.0,50.0,,,,2023,Genoa
-1,2023-08-19,20:45,Serie A,Matchweek 1,Sat,Home,L,1.0,4.0,Fiorentina,0.2,1.0,32.0,,Milan Badelj,3-5-2,Giovanni Ayroldi,Match Report,,11.0,0.0,0.8,0.25,0.5,1.0,0.0,0.0,4.0,2.0,50.0,0.8,0.2,0.05,2023,Genoa
-2,2023-08-27,20:45,Serie A,Matchweek 2,Sun,Away,W,1.0,0.0,Lazio,0.6,1.4,30.0,,Milan Badelj,4-3-2-1,Livio Marinelli,Match Report,,16.3,0.0,0.4,0.2,0.33,1.0,0.0,0.0,5.0,3.0,60.0,0.4,0.6,0.12,2023,Genoa
-3,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,13.9,0.0,5.2,0.22,0.43,6.0,0.0,0.0,27.0,14.0,51.9,5.2,0.8,0.09,2023,Genoa
-4,2023-09-16,20:45,Serie A,Matchweek 4,Sat,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Reggiana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
-0,2023-08-13,17:45,Coppa Italia,First round,Sun,Home,W,1.0,0.0,Ternana,,,60.0,,Antonio Candreva,3-4-3,Antonio Giua,Match Report,,,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,,,,2023,Salernitana
-1,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Away,D,2.0,2.0,Roma,0.1,1.9,40.0,,Federico Fazio,3-4-3,Ermanno Feliciani,Match Report,,22.1,0.0,1.9,0.67,1.0,2.0,0.0,0.0,3.0,2.0,66.7,1.9,0.1,0.05,2023,Salernitana
-2,2023-08-28,18:30,Serie A,Matchweek 2,Mon,Home,D,1.0,1.0,Udinese,0.5,0.8,56.0,,Antonio Candreva,3-4-3,Davide Massa,Match Report,,21.2,0.0,0.5,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,0.5,0.5,0.06,2023,Salernitana
-3,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,21.4,0.0,3.4,0.2,0.44,4.0,0.0,0.0,20.0,9.0,45.0,3.4,0.6,0.05,2023,Salernitana
-4,2023-09-18,18:30,Serie A,Matchweek 4,Mon,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Sampdoria,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
-0,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Home,D,2.0,2.0,Salernitana,1.9,0.1,60.0,,Gianluca Mancini,3-1-4-2,Ermanno Feliciani,Match Report,,15.3,1.0,0.1,0.15,0.67,2.0,0.0,0.0,13.0,3.0,23.1,0.1,1.9,0.15,2023,Roma
-1,2023-08-26,20:45,Serie A,Matchweek 2,Sat,Away,L,1.0,2.0,Hellas Verona,1.5,0.7,71.0,,Lorenzo Pellegrini,3-5-2,Daniele Doveri,Match Report,,17.3,2.0,-0.5,0.04,0.14,1.0,0.0,0.0,23.0,7.0,30.4,-0.5,1.5,0.07,2023,Roma
-2,2023-09-01,20:45,Serie A,Matchweek 3,Fri,Home,,,,Milan,,,,,,,,Head-to-Head,,16.6,3.0,-0.4,0.08,0.3,3.0,0.0,0.0,36.0,10.0,27.8,-0.4,3.4,0.1,2023,Roma
-3,2023-09-17,20:45,Serie A,Matchweek 4,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+3,2023-08-31,20:00,Conf Lg,Play-off round,Thu,Home,W,2.0,0.0,at Rapid Wien,,,,24135.0,Cristiano Biraghi,4-3-3,Novak Simović,Match Report,Leg 2 of 2; Fiorentina won,,,,,,2.0,1.0,1.0,,,,,,,2023,Fiorentina
+4,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Away,L,0.0,4.0,Inter,0.4,3.7,60.0,,Cristiano Biraghi,4-2-3-1,Matteo Marchetti,Match Report,,20.5,0.0,-0.4,0.0,0.0,0.0,0.0,0.0,6.0,2.0,33.3,-0.4,0.4,0.06,2023,Fiorentina
+5,2023-09-17,18:00,Serie A,Matchweek 4,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,16.9,1.0,5.3,0.24,0.55,8.0,1.0,1.0,25.0,11.0,44.0,4.3,2.7,0.11,2023,Fiorentina
+6,2023-09-21,18:45,Conf Lg,Group stage,Thu,Away,,,,be Genk,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+7,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+8,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+9,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+10,2023-10-05,21:00,Conf Lg,Group stage,Thu,Home,,,,hu Ferencváros,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+11,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+12,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+13,2023-10-26,21:00,Conf Lg,Group stage,Thu,Home,,,,rs Čukarički,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+14,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+15,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+16,2023-11-09,18:45,Conf Lg,Group stage,Thu,Away,,,,rs Čukarički,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+17,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+18,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+19,2023-11-30,21:00,Conf Lg,Group stage,Thu,Home,,,,be Genk,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+20,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+21,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+22,2023-12-14,18:45,Conf Lg,Group stage,Thu,Away,,,,hu Ferencváros,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+23,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+24,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+25,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+26,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+27,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+28,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+29,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+30,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+31,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+32,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+33,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+34,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+35,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+36,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+37,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+38,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+39,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+40,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+41,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+42,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+43,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+44,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
+45,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Fiorentina
 0,2023-08-11,21:15,Coppa Italia,First round,Fri,Home,W,2.0,0.0,Cesena,,,68.0,,Nicolás Domínguez,4-3-3,Gianluca Manganiello,Match Report,,,,,0.14,0.4,2.0,0.0,0.0,14.0,5.0,35.7,,,,2023,Bologna
 1,2023-08-21,20:45,Serie A,Matchweek 1,Mon,Home,L,0.0,2.0,Milan,1.0,0.9,53.0,,Nicolás Domínguez,4-1-3-2,Luca Pairetto,Match Report,,17.1,1.0,-1.0,0.0,0.0,0.0,0.0,0.0,17.0,5.0,29.4,-1.0,1.0,0.06,2023,Bologna
 2,2023-08-27,18:30,Serie A,Matchweek 2,Sun,Away,D,1.0,1.0,Juventus,0.5,0.8,42.0,,Riccardo Orsolini,4-2-3-1,Marco Di Bello,Match Report,,21.7,1.0,0.5,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,0.5,0.5,0.05,2023,Bologna
-3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Home,,,,Cagliari,,,,,,,,Head-to-Head,,18.8,2.0,1.5,0.07,0.21,3.0,0.0,0.0,41.0,14.0,34.1,1.5,1.5,0.06,2023,Bologna
-4,2023-09-18,20:45,Serie A,Matchweek 4,Mon,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
+3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Home,W,2.0,1.0,Cagliari,2.3,0.5,71.0,,Stefan Posch,4-2-3-1,Daniele Orsato,Match Report,,17.3,0.0,-0.3,0.13,0.29,2.0,0.0,1.0,15.0,7.0,46.7,0.5,1.5,0.11,2023,Bologna
+4,2023-09-18,20:45,Serie A,Matchweek 4,Mon,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,18.3,2.0,1.1,0.09,0.24,5.0,0.0,1.0,56.0,21.0,37.5,1.9,3.1,0.07,2023,Bologna
 5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
 6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
 7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
@@ -546,91 +379,51 @@
 37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
 38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
 39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Bologna
-0,2023-08-12,21:15,Coppa Italia,First round,Sat,Home,W,2.0,1.0,Palermo,,,51.0,,Leonardo Pavoletti,4-4-2,Livio Marinelli,Match Report,Required Extra Time,,,,0.11,0.33,2.0,0.0,1.0,18.0,6.0,33.3,,,,2023,Cagliari
-1,2023-08-21,18:30,Serie A,Matchweek 1,Mon,Away,D,0.0,0.0,Torino,0.4,1.0,43.0,,Nahitan Nández,3-4-3,Francesco Cosso,Match Report,,20.2,1.0,-0.4,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,-0.4,0.4,0.05,2023,Cagliari
-2,2023-08-28,20:45,Serie A,Matchweek 2,Mon,Home,L,0.0,2.0,Inter,0.6,0.9,33.0,,Leonardo Pavoletti,4-2-3-1,Michael Fabbri,Match Report,,17.8,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,-0.6,0.6,0.05,2023,Cagliari
-3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Away,,,,Bologna,,,,,,,,Head-to-Head,,18.8,1.0,1.0,0.05,0.2,2.0,0.0,1.0,38.0,10.0,26.3,1.0,1.0,0.05,2023,Cagliari
-4,2023-09-17,12:30,Serie A,Matchweek 4,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-11,2023-11-01,,Coppa Italia,Second round,Wed,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
-0,2023-08-11,18:00,Coppa Italia,First round,Fri,Home,W,4.0,1.0,Catanzaro,,,42.0,,Walace,3-5-2,Daniele Minelli,Match Report,,,,,0.18,0.38,4.0,1.0,1.0,17.0,8.0,47.1,,,,2023,Udinese
-1,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Home,L,0.0,3.0,Juventus,1.0,1.8,49.0,,Walace,3-5-2,Antonio Rapuano,Match Report,,22.8,1.0,-1.0,0.0,0.0,0.0,0.0,0.0,18.0,5.0,27.8,-1.0,1.0,0.06,2023,Udinese
-2,2023-08-28,18:30,Serie A,Matchweek 2,Mon,Away,D,1.0,1.0,Salernitana,0.8,0.5,44.0,,Walace,3-5-2,Davide Massa,Match Report,,21.3,1.0,0.2,0.07,0.17,1.0,0.0,0.0,14.0,6.0,42.9,0.2,0.8,0.06,2023,Udinese
-3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Home,,,,Frosinone,,,,,,,,Head-to-Head,,22.2,2.0,3.2,0.08,0.21,5.0,1.0,1.0,49.0,19.0,38.8,2.2,1.8,0.06,2023,Udinese
-4,2023-09-17,12:30,Serie A,Matchweek 4,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-12,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-23,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-24,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-25,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-26,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-27,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-28,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-29,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-30,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-31,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-33,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-35,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-36,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
-39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+0,2023-08-11,17:45,Coppa Italia,First round,Fri,Home,W,1.0,0.0,Pisa,,,45.0,,Luca Mazzitelli,4-3-3,Davide Ghersini,Match Report,,,,,0.0,0.0,0.0,0.0,0.0,8.0,5.0,62.5,,,,2023,Frosinone
+1,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Home,L,1.0,3.0,Napoli,0.9,1.5,48.0,,Luca Mazzitelli,4-3-3,Matteo Marcenaro,Match Report,,25.4,1.0,0.1,0.0,,1.0,1.0,1.0,3.0,0.0,0.0,-0.1,0.1,0.03,2023,Frosinone
+2,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Home,W,2.0,1.0,Atalanta,0.7,1.6,37.0,,Luca Mazzitelli,4-2-3-1,Juan Sacchi,Match Report,,18.8,0.0,1.3,0.15,0.4,2.0,0.0,0.0,13.0,5.0,38.5,1.3,0.7,0.06,2023,Frosinone
+3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Away,D,0.0,0.0,Udinese,1.8,1.5,53.0,,Luca Mazzitelli,4-2-3-1,Marco Guida,Match Report,,12.6,0.0,-1.8,0.0,0.0,0.0,0.0,0.0,12.0,1.0,8.3,-1.8,1.8,0.15,2023,Frosinone
+4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,16.8,1.0,-0.4,0.06,0.18,3.0,1.0,1.0,36.0,11.0,30.6,-0.6,2.6,0.09,2023,Frosinone
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+11,2023-11-01,,Coppa Italia,Second round,Wed,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+13,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+14,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+15,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+16,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+17,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+18,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+19,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+23,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+24,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+25,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+26,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+27,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+28,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+29,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+30,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+31,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+38,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
+39,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Frosinone
 0,2023-08-14,21:15,Coppa Italia,First round,Mon,Home,W,2.0,1.0,FeralpiSalò,,,67.0,,Ricardo Rodríguez,3-4-3,Paride Tremolada,Match Report,,,,,0.07,0.14,2.0,0.0,0.0,28.0,14.0,50.0,,,,2023,Torino
 1,2023-08-21,18:30,Serie A,Matchweek 1,Mon,Home,D,0.0,0.0,Cagliari,1.0,0.4,57.0,,Ricardo Rodríguez,3-4-3,Francesco Cosso,Match Report,,17.1,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,11.0,2.0,18.2,-1.0,1.0,0.09,2023,Torino
 2,2023-08-26,20:45,Serie A,Matchweek 2,Sat,Away,L,1.0,4.0,Milan,0.5,3.0,41.0,,Ricardo Rodríguez,3-4-3,Maurizio Mariani,Match Report,,21.6,0.0,0.5,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,0.5,0.5,0.06,2023,Torino
-3,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,19.0,0.0,1.6,0.06,0.18,3.0,0.0,0.0,47.0,17.0,36.2,1.6,1.4,0.08,2023,Torino
-4,2023-09-18,18:30,Serie A,Matchweek 4,Mon,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Torino
+3,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Home,W,1.0,0.0,Genoa,0.4,0.2,63.0,,Ricardo Rodríguez,3-4-3,Daniele Chiffi,Match Report,,22.4,2.0,0.6,0.1,0.33,1.0,0.0,0.0,10.0,3.0,30.0,0.6,0.4,0.04,2023,Torino
+4,2023-09-18,18:30,Serie A,Matchweek 4,Mon,Away,,,,Salernitana,,,,,,,,Head-to-Head,,20.2,2.0,2.1,0.07,0.2,4.0,0.0,0.0,57.0,20.0,35.1,2.1,1.9,0.06,2023,Torino
 5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Torino
 6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Torino
 7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Torino
@@ -668,86 +461,53 @@
 39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Torino
 0,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Away,L,1.0,2.0,Lecce,1.6,1.4,52.0,,Ciro Immobile,4-3-3,Federico Dionisi,Match Report,,18.1,1.0,-0.6,0.1,0.25,1.0,0.0,0.0,10.0,4.0,40.0,-0.6,1.6,0.16,2023,Lazio
 1,2023-08-27,20:45,Serie A,Matchweek 2,Sun,Home,L,0.0,1.0,Genoa,1.4,0.6,70.0,,Ciro Immobile,4-3-3,Livio Marinelli,Match Report,,19.6,0.0,-1.4,0.0,0.0,0.0,0.0,0.0,16.0,2.0,12.5,-1.4,1.4,0.09,2023,Lazio
-2,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Away,,,,Napoli,,,,,,,,Head-to-Head,,19.0,1.0,-2.0,0.04,0.17,1.0,0.0,0.0,26.0,6.0,23.1,-2.0,3.0,0.12,2023,Lazio
-3,2023-09-16,15:00,Serie A,Matchweek 4,Sat,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-4,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-5,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-6,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-7,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-8,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-9,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-10,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-11,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-12,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-13,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-14,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-15,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-16,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-17,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-18,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-19,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-20,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-21,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-22,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-23,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-24,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-25,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-26,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-27,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-28,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-29,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-30,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-31,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-32,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-33,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-34,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-35,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-36,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-37,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
-0,2023-08-12,17:45,Coppa Italia,First round,Sat,Home,L,1.0,2.0,Cittadella,,,59.0,,Sebastiano Luperto,4-2-3-1,Alessandro Prontera,Match Report,,,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,,,,2023,Empoli
-1,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Home,L,0.0,1.0,Hellas Verona,0.7,0.5,48.0,,Sebastiano Luperto,4-2-3-1,Luca Massimi,Match Report,,22.8,2.0,-0.7,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,-0.7,0.7,0.07,2023,Empoli
-2,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Away,L,0.0,2.0,Monza,1.0,2.0,46.0,,Sebastiano Luperto,4-2-3-1,Gianluca Aureliano,Match Report,,18.8,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,18.0,6.0,33.3,-1.0,1.0,0.05,2023,Empoli
-3,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,20.3,2.0,-0.7,0.03,0.07,1.0,0.0,0.0,37.0,14.0,37.8,-0.7,1.7,0.06,2023,Empoli
-4,2023-09-17,20:45,Serie A,Matchweek 4,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-11,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-12,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-13,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-14,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-15,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-16,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-17,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-18,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-19,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-20,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-21,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-22,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-23,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-24,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-25,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-26,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-27,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-28,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-29,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-30,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-31,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-32,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-33,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-34,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-35,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-36,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-37,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
-38,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+2,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Away,W,2.0,1.0,Napoli,0.6,1.3,38.0,,Ciro Immobile,4-3-3,Andrea Colombo,Match Report,,13.9,0.0,1.4,0.33,1.0,2.0,0.0,0.0,6.0,2.0,33.3,1.4,0.6,0.11,2023,Lazio
+3,2023-09-16,15:00,Serie A,Matchweek 4,Sat,Away,,,,Juventus,,,,,,,,Head-to-Head,,18.0,1.0,-0.6,0.09,0.38,3.0,0.0,0.0,32.0,8.0,25.0,-0.6,3.6,0.12,2023,Lazio
+4,2023-09-19,21:00,Champions Lg,Group stage,Tue,Home,,,,es Atlético Madrid,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+8,2023-10-04,20:00,Champions Lg,Group stage,Wed,Away,,,,sct Celtic,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+9,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+10,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+11,2023-10-25,18:45,Champions Lg,Group stage,Wed,Away,,,,nl Feyenoord,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+12,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+13,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+14,2023-11-07,21:00,Champions Lg,Group stage,Tue,Home,,,,nl Feyenoord,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+15,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+16,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+17,2023-11-28,18:45,Champions Lg,Group stage,Tue,Home,,,,sct Celtic,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+18,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+19,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+20,2023-12-13,21:00,Champions Lg,Group stage,Wed,Away,,,,es Atlético Madrid,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+21,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+22,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+23,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+24,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+25,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+26,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+27,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+28,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+29,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+30,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+31,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+32,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+33,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+34,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+35,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+36,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+37,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+38,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+39,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+40,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+41,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+42,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
+43,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Lazio
 0,2023-08-13,18:00,Coppa Italia,First round,Sun,Away,W,5.0,2.0,Cosenza,,,63.0,,Andrea Consigli,4-2-3-1,Giuseppe Collu,Match Report,Required Extra Time,,,,0.19,0.36,5.0,1.0,1.0,21.0,11.0,52.4,,,,2023,Sassuolo
 1,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Home,L,0.0,2.0,Atalanta,0.4,1.3,49.0,,Andrea Consigli,4-2-3-1,Matteo Marchetti,Match Report,,23.0,0.0,-0.4,0.0,0.0,0.0,0.0,0.0,11.0,3.0,27.3,-0.4,0.4,0.04,2023,Sassuolo
 2,2023-08-27,20:45,Serie A,Matchweek 2,Sun,Away,L,0.0,2.0,Napoli,0.2,3.5,33.0,,Andrea Consigli,4-3-3,Antonio Giua,Match Report,,23.8,0.0,-0.2,0.0,0.0,0.0,0.0,0.0,6.0,1.0,16.7,-0.2,0.2,0.03,2023,Sassuolo
-3,2023-09-01,18:30,Serie A,Matchweek 3,Fri,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,23.3,0.0,4.4,0.11,0.27,5.0,1.0,1.0,38.0,15.0,39.5,3.4,0.6,0.04,2023,Sassuolo
-4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
+3,2023-09-01,18:30,Serie A,Matchweek 3,Fri,Home,W,3.0,1.0,Hellas Verona,1.7,0.6,47.0,,Andrea Consigli,4-3-3,Marco Piccinini,Match Report,,16.6,1.0,1.3,0.13,0.33,3.0,1.0,1.0,15.0,6.0,40.0,1.1,0.9,0.06,2023,Sassuolo
+4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,20.1,1.0,5.7,0.11,0.29,8.0,2.0,2.0,53.0,21.0,39.6,4.5,1.5,0.05,2023,Sassuolo
 5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
 6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
 7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
@@ -783,6 +543,288 @@
 37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
 38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
 39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Sassuolo
+0,2023-08-11,21:00,Coppa Italia,First round,Fri,Home,W,4.0,3.0,Modena,,,51.0,,Milan Badelj,3-5-2,Gianluca Aureliano,Match Report,,,,,0.22,0.44,4.0,0.0,0.0,18.0,9.0,50.0,,,,2023,Genoa
+1,2023-08-19,20:45,Serie A,Matchweek 1,Sat,Home,L,1.0,4.0,Fiorentina,0.2,1.0,32.0,,Milan Badelj,3-5-2,Giovanni Ayroldi,Match Report,,11.0,0.0,0.8,0.25,0.5,1.0,0.0,0.0,4.0,2.0,50.0,0.8,0.2,0.05,2023,Genoa
+2,2023-08-27,20:45,Serie A,Matchweek 2,Sun,Away,W,1.0,0.0,Lazio,0.6,1.4,30.0,,Milan Badelj,4-3-2-1,Livio Marinelli,Match Report,,16.3,0.0,0.4,0.2,0.33,1.0,0.0,0.0,5.0,3.0,60.0,0.4,0.6,0.12,2023,Genoa
+3,2023-09-03,18:30,Serie A,Matchweek 3,Sun,Away,L,0.0,1.0,Torino,0.2,0.4,37.0,,Milan Badelj,4-3-2-1,Daniele Chiffi,Match Report,,25.6,0.0,-0.2,0.0,0.0,0.0,0.0,0.0,7.0,2.0,28.6,-0.2,0.2,0.03,2023,Genoa
+4,2023-09-16,20:45,Serie A,Matchweek 4,Sat,Home,,,,Napoli,,,,,,,,Head-to-Head,,19.0,0.0,5.0,0.18,0.38,6.0,0.0,0.0,34.0,16.0,47.1,5.0,1.0,0.06,2023,Genoa
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Reggiana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+12,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+20,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+21,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+22,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+32,2024-04-07,,Serie A,Matchweek 31,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+34,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+35,2024-04-28,,Serie A,Matchweek 34,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+36,2024-05-05,,Serie A,Matchweek 35,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+37,2024-05-12,,Serie A,Matchweek 36,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+38,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+39,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Genoa
+0,2023-08-13,21:15,Coppa Italia,First round,Sun,Home,L,1.0,2.0,Reggiana,,,62.0,,Matteo Pessina,3-4-3,Alberto Santoro,Match Report,,,,,0.05,0.25,1.0,0.0,0.0,21.0,4.0,19.0,,,,2023,Monza
+1,2023-08-19,20:45,Serie A,Matchweek 1,Sat,Away,L,0.0,2.0,Inter,0.8,2.7,53.0,,Matteo Pessina,3-5-2,Andrea Colombo,Match Report,,17.8,0.0,-0.8,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,-0.8,0.8,0.06,2023,Monza
+2,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Home,W,2.0,0.0,Empoli,2.0,1.0,54.0,,Matteo Pessina,3-4-3,Gianluca Aureliano,Match Report,,17.7,1.0,0.0,0.1,0.4,2.0,0.0,0.0,20.0,5.0,25.0,0.0,2.0,0.1,2023,Monza
+3,2023-09-02,20:45,Serie A,Matchweek 3,Sat,Away,L,0.0,3.0,Atalanta,0.4,1.3,59.0,,Matteo Pessina,3-4-3,Matteo Marcenaro,Match Report,,18.9,1.0,-0.4,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,-0.4,0.4,0.05,2023,Monza
+4,2023-09-17,15:00,Serie A,Matchweek 4,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,18.0,2.0,-0.1,0.05,0.23,3.0,0.0,0.0,61.0,13.0,21.3,-0.1,3.1,0.08,2023,Monza
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+11,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+12,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+13,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+14,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+15,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+16,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+17,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+18,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+19,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+20,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+21,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+22,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+23,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+24,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+25,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+26,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+27,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+28,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+29,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+30,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+31,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+32,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+33,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+34,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+35,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+36,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+37,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+38,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Monza
+0,2023-08-13,17:45,Coppa Italia,First round,Sun,Home,W,1.0,0.0,Ternana,,,60.0,,Antonio Candreva,3-4-3,Antonio Giua,Match Report,,,,,0.13,0.33,1.0,0.0,0.0,8.0,3.0,37.5,,,,2023,Salernitana
+1,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Away,D,2.0,2.0,Roma,0.1,1.9,40.0,,Federico Fazio,3-4-3,Ermanno Feliciani,Match Report,,22.1,0.0,1.9,0.67,1.0,2.0,0.0,0.0,3.0,2.0,66.7,1.9,0.1,0.05,2023,Salernitana
+2,2023-08-28,18:30,Serie A,Matchweek 2,Mon,Home,D,1.0,1.0,Udinese,0.5,0.8,56.0,,Antonio Candreva,3-4-3,Davide Massa,Match Report,,21.2,0.0,0.5,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,0.5,0.5,0.06,2023,Salernitana
+3,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Away,L,0.0,2.0,Lecce,1.1,1.7,54.0,,Antonio Candreva,3-4-3,Luca Massimi,Match Report,,20.9,1.0,-1.1,0.0,0.0,0.0,0.0,0.0,11.0,4.0,36.4,-1.1,1.1,0.1,2023,Salernitana
+4,2023-09-18,18:30,Serie A,Matchweek 4,Mon,Home,,,,Torino,,,,,,,,Head-to-Head,,21.2,1.0,2.3,0.13,0.31,4.0,0.0,0.0,31.0,13.0,41.9,2.3,1.7,0.07,2023,Salernitana
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Sampdoria,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+13,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+14,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+15,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+16,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+17,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+18,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+19,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+29,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+30,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+31,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+34,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+35,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+36,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Salernitana
+0,2023-08-11,18:00,Coppa Italia,First round,Fri,Home,W,4.0,1.0,Catanzaro,,,42.0,,Walace,3-5-2,Daniele Minelli,Match Report,,,,,0.18,0.38,4.0,1.0,1.0,17.0,8.0,47.1,,,,2023,Udinese
+1,2023-08-20,20:45,Serie A,Matchweek 1,Sun,Home,L,0.0,3.0,Juventus,1.0,1.8,49.0,,Walace,3-5-2,Antonio Rapuano,Match Report,,22.8,1.0,-1.0,0.0,0.0,0.0,0.0,0.0,18.0,5.0,27.8,-1.0,1.0,0.06,2023,Udinese
+2,2023-08-28,18:30,Serie A,Matchweek 2,Mon,Away,D,1.0,1.0,Salernitana,0.8,0.5,44.0,,Walace,3-5-2,Davide Massa,Match Report,,21.3,1.0,0.2,0.07,0.17,1.0,0.0,0.0,14.0,6.0,42.9,0.2,0.8,0.06,2023,Udinese
+3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Home,D,0.0,0.0,Frosinone,1.5,1.8,47.0,,Walace,3-5-2,Marco Guida,Match Report,,16.4,1.0,-1.5,0.0,0.0,0.0,0.0,0.0,12.0,6.0,50.0,-1.5,1.5,0.13,2023,Udinese
+4,2023-09-17,12:30,Serie A,Matchweek 4,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,20.6,3.0,1.7,0.07,0.16,5.0,1.0,1.0,61.0,25.0,41.0,0.7,3.3,0.08,2023,Udinese
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+11,2023-11-01,,Coppa Italia,Second round,Wed,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+12,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+13,2023-11-12,,Serie A,Matchweek 12,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+14,2023-11-26,,Serie A,Matchweek 13,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+15,2023-12-03,,Serie A,Matchweek 14,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+16,2023-12-10,,Serie A,Matchweek 15,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+17,2023-12-17,,Serie A,Matchweek 16,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+20,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+21,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+22,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+23,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+24,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+25,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+26,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+27,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+28,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+29,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+30,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+31,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+33,2024-04-14,,Serie A,Matchweek 32,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+34,2024-04-21,,Serie A,Matchweek 33,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+35,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+36,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+38,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+39,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Udinese
+0,2023-08-20,18:30,Serie A,Matchweek 1,Sun,Home,D,2.0,2.0,Salernitana,1.9,0.1,60.0,,Gianluca Mancini,3-1-4-2,Ermanno Feliciani,Match Report,,15.3,1.0,0.1,0.15,0.67,2.0,0.0,0.0,13.0,3.0,23.1,0.1,1.9,0.15,2023,Roma
+1,2023-08-26,20:45,Serie A,Matchweek 2,Sat,Away,L,1.0,2.0,Hellas Verona,1.5,0.7,71.0,,Lorenzo Pellegrini,3-5-2,Daniele Doveri,Match Report,,17.3,2.0,-0.5,0.04,0.14,1.0,0.0,0.0,23.0,7.0,30.4,-0.5,1.5,0.07,2023,Roma
+2,2023-09-01,20:45,Serie A,Matchweek 3,Fri,Home,L,1.0,2.0,Milan,0.7,1.5,44.0,,Gianluca Mancini,3-5-2,Antonio Rapuano,Match Report,,21.6,1.0,0.3,0.08,0.5,1.0,0.0,0.0,13.0,2.0,15.4,0.3,0.7,0.05,2023,Roma
+3,2023-09-17,20:45,Serie A,Matchweek 4,Sun,Home,,,,Empoli,,,,,,,,Head-to-Head,,17.9,4.0,-0.1,0.08,0.33,4.0,0.0,0.0,49.0,12.0,24.5,-0.1,4.1,0.09,2023,Roma
+4,2023-09-21,19:45,Europa Lg,Group stage,Thu,Away,,,,md Sheriff Tiraspol,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+8,2023-10-05,21:00,Europa Lg,Group stage,Thu,Home,,,,ch Servette FC,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+9,2023-10-08,,Serie A,Matchweek 8,Sun,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+10,2023-10-22,,Serie A,Matchweek 9,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+11,2023-10-26,21:00,Europa Lg,Group stage,Thu,Home,,,,cz Slavia Prague,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+12,2023-10-29,,Serie A,Matchweek 10,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+13,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+14,2023-11-09,18:45,Europa Lg,Group stage,Thu,Away,,,,cz Slavia Prague,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+15,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+16,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+17,2023-11-30,21:00,Europa Lg,Group stage,Thu,Away,,,,ch Servette FC,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+18,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+19,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+20,2023-12-14,18:45,Europa Lg,Group stage,Thu,Home,,,,md Sheriff Tiraspol,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+21,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+22,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+23,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+24,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+25,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+26,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+27,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+28,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+29,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+30,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+31,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+32,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+33,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+34,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+35,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+36,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+37,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+38,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+39,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+40,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+41,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+42,2024-05-19,,Serie A,Matchweek 37,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+43,2024-05-26,,Serie A,Matchweek 38,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Roma
+0,2023-08-12,21:15,Coppa Italia,First round,Sat,Home,W,2.0,1.0,Palermo,,,51.0,,Leonardo Pavoletti,4-4-2,Livio Marinelli,Match Report,Required Extra Time,,,,0.11,0.33,2.0,0.0,1.0,18.0,6.0,33.3,,,,2023,Cagliari
+1,2023-08-21,18:30,Serie A,Matchweek 1,Mon,Away,D,0.0,0.0,Torino,0.4,1.0,43.0,,Nahitan Nández,3-4-3,Francesco Cosso,Match Report,,20.2,1.0,-0.4,0.0,0.0,0.0,0.0,0.0,8.0,2.0,25.0,-0.4,0.4,0.05,2023,Cagliari
+2,2023-08-28,20:45,Serie A,Matchweek 2,Mon,Home,L,0.0,2.0,Inter,0.6,0.9,33.0,,Leonardo Pavoletti,4-2-3-1,Michael Fabbri,Match Report,,17.8,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,-0.6,0.6,0.05,2023,Cagliari
+3,2023-09-02,18:30,Serie A,Matchweek 3,Sat,Away,L,1.0,2.0,Bologna,0.5,2.3,29.0,,Nahitan Nández,4-1-3-2,Daniele Orsato,Match Report,,20.7,1.0,0.5,0.14,1.0,1.0,0.0,0.0,7.0,1.0,14.3,0.5,0.5,0.07,2023,Cagliari
+4,2023-09-17,12:30,Serie A,Matchweek 4,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,19.3,2.0,1.5,0.07,0.27,3.0,0.0,1.0,45.0,11.0,24.4,1.5,1.5,0.06,2023,Cagliari
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+11,2023-11-01,,Coppa Italia,Second round,Wed,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+12,2023-11-05,,Serie A,Matchweek 11,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+13,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+14,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+15,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+16,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+17,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+18,2023-12-23,,Serie A,Matchweek 17,Sat,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+19,2023-12-30,,Serie A,Matchweek 18,Sat,Home,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+20,2024-01-07,,Serie A,Matchweek 19,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+21,2024-01-14,,Serie A,Matchweek 20,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+22,2024-01-21,,Serie A,Matchweek 21,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+23,2024-01-28,,Serie A,Matchweek 22,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+24,2024-02-04,,Serie A,Matchweek 23,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+25,2024-02-11,,Serie A,Matchweek 24,Sun,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+26,2024-02-18,,Serie A,Matchweek 25,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+27,2024-02-25,,Serie A,Matchweek 26,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+28,2024-03-03,,Serie A,Matchweek 27,Sun,Away,,,,Empoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+29,2024-03-10,,Serie A,Matchweek 28,Sun,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+30,2024-03-17,,Serie A,Matchweek 29,Sun,Away,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+31,2024-03-30,,Serie A,Matchweek 30,Sat,Home,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+32,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+33,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+34,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+35,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+36,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+37,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+38,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+39,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Cagliari
+0,2023-08-12,17:45,Coppa Italia,First round,Sat,Home,L,1.0,2.0,Cittadella,,,59.0,,Sebastiano Luperto,4-2-3-1,Alessandro Prontera,Match Report,,,,,0.11,0.25,1.0,0.0,0.0,9.0,4.0,44.4,,,,2023,Empoli
+1,2023-08-19,18:30,Serie A,Matchweek 1,Sat,Home,L,0.0,1.0,Hellas Verona,0.7,0.5,48.0,,Sebastiano Luperto,4-2-3-1,Luca Massimi,Match Report,,22.8,2.0,-0.7,0.0,0.0,0.0,0.0,0.0,10.0,4.0,40.0,-0.7,0.7,0.07,2023,Empoli
+2,2023-08-26,18:30,Serie A,Matchweek 2,Sat,Away,L,0.0,2.0,Monza,1.0,2.0,46.0,,Sebastiano Luperto,4-2-3-1,Gianluca Aureliano,Match Report,,18.8,0.0,-1.0,0.0,0.0,0.0,0.0,0.0,18.0,6.0,33.3,-1.0,1.0,0.05,2023,Empoli
+3,2023-09-03,20:45,Serie A,Matchweek 3,Sun,Home,L,0.0,2.0,Juventus,0.3,2.7,50.0,,Sebastiano Luperto,4-3-3,Giovanni Ayroldi,Match Report,,21.2,0.0,-0.3,0.0,,0.0,0.0,0.0,7.0,0.0,0.0,-0.3,0.3,0.05,2023,Empoli
+4,2023-09-17,20:45,Serie A,Matchweek 4,Sun,Away,,,,Roma,,,,,,,,Head-to-Head,,20.5,2.0,-1.0,0.02,0.07,1.0,0.0,0.0,44.0,14.0,31.8,-1.0,2.0,0.06,2023,Empoli
+5,2023-09-24,,Serie A,Matchweek 5,Sun,Home,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+6,2023-09-27,,Serie A,Matchweek 6,Wed,Home,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+7,2023-10-01,,Serie A,Matchweek 7,Sun,Away,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+8,2023-10-08,,Serie A,Matchweek 8,Sun,Home,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+9,2023-10-22,,Serie A,Matchweek 9,Sun,Away,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+10,2023-10-29,,Serie A,Matchweek 10,Sun,Home,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+11,2023-11-05,,Serie A,Matchweek 11,Sun,Away,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+12,2023-11-12,,Serie A,Matchweek 12,Sun,Away,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+13,2023-11-26,,Serie A,Matchweek 13,Sun,Home,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+14,2023-12-03,,Serie A,Matchweek 14,Sun,Away,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+15,2023-12-10,,Serie A,Matchweek 15,Sun,Home,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+16,2023-12-17,,Serie A,Matchweek 16,Sun,Away,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+17,2023-12-23,,Serie A,Matchweek 17,Sat,Home,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+18,2023-12-30,,Serie A,Matchweek 18,Sat,Away,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+19,2024-01-07,,Serie A,Matchweek 19,Sun,Home,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+20,2024-01-14,,Serie A,Matchweek 20,Sun,Away,,,,Hellas Verona,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+21,2024-01-21,,Serie A,Matchweek 21,Sun,Home,,,,Monza,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+22,2024-01-28,,Serie A,Matchweek 22,Sun,Away,,,,Juventus,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+23,2024-02-04,,Serie A,Matchweek 23,Sun,Home,,,,Genoa,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+24,2024-02-11,,Serie A,Matchweek 24,Sun,Away,,,,Salernitana,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+25,2024-02-18,,Serie A,Matchweek 25,Sun,Home,,,,Fiorentina,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+26,2024-02-25,,Serie A,Matchweek 26,Sun,Away,,,,Sassuolo,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+27,2024-03-03,,Serie A,Matchweek 27,Sun,Home,,,,Cagliari,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+28,2024-03-10,,Serie A,Matchweek 28,Sun,Away,,,,Milan,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+29,2024-03-17,,Serie A,Matchweek 29,Sun,Home,,,,Bologna,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+30,2024-03-30,,Serie A,Matchweek 30,Sat,Away,,,,Inter,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+31,2024-04-07,,Serie A,Matchweek 31,Sun,Home,,,,Torino,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+32,2024-04-14,,Serie A,Matchweek 32,Sun,Away,,,,Lecce,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+33,2024-04-21,,Serie A,Matchweek 33,Sun,Home,,,,Napoli,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+34,2024-04-28,,Serie A,Matchweek 34,Sun,Away,,,,Atalanta,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+35,2024-05-05,,Serie A,Matchweek 35,Sun,Home,,,,Frosinone,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+36,2024-05-12,,Serie A,Matchweek 36,Sun,Away,,,,Lazio,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+37,2024-05-19,,Serie A,Matchweek 37,Sun,Away,,,,Udinese,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
+38,2024-05-26,,Serie A,Matchweek 38,Sun,Home,,,,Roma,,,,,,,,Head-to-Head,,,,,,,,,,,,,,,,2023,Empoli
 0,2022-08-15,18:30,Serie A,Matchweek 1,Mon,Away,W,5,2,Hellas Verona,2.4,1.1,66.0,16967.0,Giovanni Di Lorenzo,4-3-3,Michael Fabbri,Match Report,,15.2,0.0,2.6,0.2,0.63,5.0,0.0,0.0,25.0,8.0,32.0,2.6,2.4,0.1,2022,Napoli
 1,2022-08-21,18:30,Serie A,Matchweek 2,Sun,Home,W,4,0,Monza,2.0,0.1,54.0,36559.0,Giovanni Di Lorenzo,4-3-3,Francesco Fourneau,Match Report,,15.3,1.0,2.0,0.18,0.8,4.0,0.0,0.0,22.0,5.0,22.7,2.0,2.0,0.09,2022,Napoli
 2,2022-08-28,20:45,Serie A,Matchweek 3,Sun,Away,D,0,0,Fiorentina,1.7,0.5,52.0,32286.0,Giovanni Di Lorenzo,4-2-3-1,Livio Marinelli,Match Report,,14.7,1.0,-1.7,0.0,0.0,0.0,0.0,0.0,13.0,2.0,15.4,-1.7,1.7,0.13,2022,Napoli
@@ -2016,7 +2058,7 @@
 52,2022-05-14,20:45,Serie A,Matchweek 37,Sat,Home,D,1.0,1.0,Venezia,2.7,0.3,69.0,63243.0,Lorenzo Pellegrini,3-4-1-2,Simone Sozza,Match Report,,20.1,4.0,-1.7,0.02,0.06,1.0,0.0,0.0,46.0,16.0,34.8,-1.7,2.7,0.06,2021,Roma
 53,2022-05-20,20:45,Serie A,Matchweek 38,Fri,Away,W,3.0,0.0,Torino,2.7,0.6,42.0,16730.0,Lorenzo Pellegrini,3-4-3,Massimiliano Irrati,Match Report,,19.4,0.0,0.3,0.08,0.25,3.0,2.0,2.0,12.0,4.0,33.3,-0.1,1.1,0.09,2021,Roma
 54,2022-05-25,21:00,Conf Lg,Final,Wed,Neutral,W,1.0,0.0,nl Feyenoord,0.7,0.8,33.0,19597.0,Lorenzo Pellegrini,3-4-1-2,István Kovács,Match Report,,17.0,1.0,0.3,0.11,0.33,1.0,0.0,0.0,9.0,3.0,33.3,0.3,0.7,0.07,2021,Roma
-55,,,,,,,,,,,,,,,,,,,,17.2,28.0,4.5,0.1,0.32,94.0,7.0,10.0,788.0,257.0,32.6,5.3,81.7,0.11,2021,Roma
+55,,,,,,,,,,,,,,,,,,,,17.2,28.0,4.5,0.1,0.32,94.0,7.0,10.0,788.0,257.0,32.6,5.4,81.6,0.11,2021,Roma
 0,2021-08-13,21:00,Coppa Italia,First round,Fri,Home,W,4.0,0.0,Cosenza,,,81.0,3600.0,Germán Pezzella,4-3-3,Giacomo Camplone,Match Report,,,,,0.13,0.31,4.0,0.0,0.0,31.0,13.0,41.9,,,,2021,Fiorentina
 1,2021-08-22,20:45,Serie A,Matchweek 1,Sun,Away,L,1.0,3.0,Roma,1.3,2.7,58.0,26997.0,Cristiano Biraghi,4-3-3,Luca Pairetto,Match Report,,17.3,0.0,-0.3,0.09,0.13,1.0,0.0,0.0,11.0,8.0,72.7,-0.3,1.3,0.12,2021,Fiorentina
 2,2021-08-28,20:45,Serie A,Matchweek 2,Sat,Home,W,2.0,1.0,Torino,0.8,0.4,58.0,12592.0,Cristiano Biraghi,4-3-3,Maurizio Mariani,Match Report,,17.8,0.0,1.2,0.22,0.33,2.0,0.0,0.0,9.0,6.0,66.7,1.2,0.8,0.09,2021,Fiorentina
@@ -2114,7 +2156,7 @@
 49,2022-05-08,12:30,Serie A,Matchweek 36,Sun,Away,W,3.0,1.0,Spezia,1.8,0.9,65.0,9000.0,Remo Freuler,3-4-3,Fabio Maresca,Match Report,,17.7,1.0,1.2,0.18,0.5,3.0,0.0,0.0,17.0,6.0,35.3,1.2,1.8,0.11,2021,Atalanta
 50,2022-05-15,18:00,Serie A,Matchweek 37,Sun,Away,L,0.0,2.0,Milan,0.6,1.3,54.0,73304.0,Remo Freuler,3-4-3,Daniele Orsato,Match Report,,16.7,0.0,-0.6,0.0,0.0,0.0,0.0,0.0,12.0,2.0,16.7,-0.6,0.6,0.05,2021,Atalanta
 51,2022-05-21,20:45,Serie A,Matchweek 38,Sat,Home,L,0.0,1.0,Empoli,2.9,0.2,62.0,17654.0,Remo Freuler,3-4-1-2,Rosario Abisso,Match Report,,16.5,0.0,-2.9,0.0,0.0,0.0,0.0,0.0,40.0,9.0,22.5,-2.9,2.9,0.08,2021,Atalanta
-52,,,,,,,,,,,,,,,,,,,,16.7,26.0,6.5,0.1,0.35,88.0,5.0,6.0,800.0,235.0,29.4,5.8,77.2,0.1,2021,Atalanta
+52,,,,,,,,,,,,,,,,,,,,16.7,26.0,6.5,0.1,0.35,88.0,5.0,6.0,800.0,235.0,29.4,5.9,77.1,0.1,2021,Atalanta
 0,2021-08-14,20:45,Coppa Italia,First round,Sat,Home,W,3.0,0.0,Catanzaro,,,60.0,1784.0,Miguel Veloso,3-4-3,Luca Pairetto,Match Report,,,,,0.15,0.33,2.0,0.0,0.0,13.0,6.0,46.2,,,,2021,Hellas Verona
 1,2021-08-21,18:30,Serie A,Matchweek 1,Sat,Home,L,2.0,3.0,Sassuolo,2.4,1.6,40.0,5448.0,Miguel Veloso,3-4-3,Manuel Volpi,Match Report,,15.8,1.0,-0.4,0.07,0.33,2.0,1.0,1.0,14.0,3.0,21.4,-0.6,1.6,0.12,2021,Hellas Verona
 2,2021-08-27,20:45,Serie A,Matchweek 2,Fri,Home,L,1.0,3.0,Inter,1.0,1.5,43.0,11214.0,Davide Faraoni,3-4-3,Gianluca Manganiello,Match Report,,14.7,0.0,0.0,0.13,1.0,1.0,0.0,0.0,8.0,1.0,12.5,0.0,1.0,0.12,2021,Hellas Verona

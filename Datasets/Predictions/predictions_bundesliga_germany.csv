@@ -1,0 +1,434 @@
+Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
+2023-09-16,15:30,Augsburg,RB Leipzig,L,W
+2023-09-23,15:30,Augsburg,Mainz 05,W,D
+2023-10-01,17:30,Augsburg,Freiburg,D,D
+2023-10-07,15:30,Augsburg,Darmstadt 98,W,L
+2023-10-22,17:30,Augsburg,Heidenheim,L,W
+2023-10-28,,Augsburg,Wolfsburg,D,D
+2023-11-11,,Augsburg,Hoffenheim,W,W
+2023-11-25,,Augsburg,Union Berlin,L,W
+2023-12-09,,Augsburg,Werder Bremen,L,W
+2023-12-16,,Augsburg,Dortmund,L,W
+2023-12-20,,Augsburg,Stuttgart,W,W
+2024-01-27,,Augsburg,Bayern Munich,L,W
+2024-02-03,,Augsburg,Bochum,L,W
+2024-02-10,,Augsburg,RB Leipzig,W,W
+2024-02-17,,Augsburg,Mainz 05,L,W
+2024-02-24,,Augsburg,Freiburg,W,W
+2024-03-02,,Augsburg,Darmstadt 98,W,W
+2024-03-09,,Augsburg,Heidenheim,W,W
+2024-03-16,,Augsburg,Wolfsburg,L,W
+2024-04-06,,Augsburg,Hoffenheim,W,W
+2024-04-13,,Augsburg,Union Berlin,W,W
+2024-04-27,,Augsburg,Werder Bremen,W,W
+2024-05-04,,Augsburg,Dortmund,L,W
+2024-05-11,,Augsburg,Stuttgart,W,W
+2023-09-15,20:30,Bayer Leverkusen,Bayern Munich,W,W
+2023-09-30,15:30,Bayer Leverkusen,Mainz 05,D,L
+2023-10-21,15:30,Bayer Leverkusen,Wolfsburg,L,W
+2023-10-28,,Bayer Leverkusen,Freiburg,W,L
+2023-11-04,,Bayer Leverkusen,Hoffenheim,W,W
+2023-11-11,,Bayer Leverkusen,Union Berlin,W,L
+2023-11-25,,Bayer Leverkusen,Werder Bremen,L,W
+2023-12-02,,Bayer Leverkusen,Dortmund,L,L
+2023-12-09,,Bayer Leverkusen,Stuttgart,L,W
+2023-12-20,,Bayer Leverkusen,Bochum,W,L
+2024-01-13,,Bayer Leverkusen,Augsburg,W,W
+2024-01-20,,Bayer Leverkusen,RB Leipzig,L,W
+2024-02-03,,Bayer Leverkusen,Darmstadt 98,W,W
+2024-02-10,,Bayer Leverkusen,Bayern Munich,L,L
+2024-02-17,,Bayer Leverkusen,Heidenheim,L,W
+2024-02-24,,Bayer Leverkusen,Mainz 05,W,L
+2024-03-09,,Bayer Leverkusen,Wolfsburg,W,L
+2024-03-16,,Bayer Leverkusen,Freiburg,W,W
+2024-03-30,,Bayer Leverkusen,Hoffenheim,W,L
+2024-04-06,,Bayer Leverkusen,Union Berlin,L,W
+2024-04-13,,Bayer Leverkusen,Werder Bremen,W,L
+2024-04-20,,Bayer Leverkusen,Dortmund,L,W
+2024-04-27,,Bayer Leverkusen,Stuttgart,W,L
+2024-05-11,,Bayer Leverkusen,Bochum,L,W
+2024-05-18,15:30,Bayer Leverkusen,Augsburg,W,L
+2023-09-23,15:30,Bayern Munich,Bochum,W,L
+2023-09-30,18:30,Bayern Munich,RB Leipzig,D,D
+2023-10-08,17:30,Bayern Munich,Freiburg,D,L
+2023-10-21,18:30,Bayern Munich,Mainz 05,L,L
+2023-10-28,,Bayern Munich,Darmstadt 98,W,L
+2023-11-04,,Bayern Munich,Dortmund,L,L
+2023-11-11,,Bayern Munich,Heidenheim,W,L
+2023-12-02,,Bayern Munich,Union Berlin,W,L
+2023-12-16,,Bayern Munich,Stuttgart,W,L
+2023-12-20,,Bayern Munich,Wolfsburg,L,L
+2024-01-13,,Bayern Munich,Hoffenheim,W,L
+2024-01-20,,Bayern Munich,Werder Bremen,W,L
+2024-01-27,,Bayern Munich,Augsburg,W,L
+2024-02-17,,Bayern Munich,Bochum,L,L
+2024-02-24,,Bayern Munich,RB Leipzig,W,L
+2024-03-02,,Bayern Munich,Freiburg,W,L
+2024-03-09,,Bayern Munich,Mainz 05,W,L
+2024-03-16,,Bayern Munich,Darmstadt 98,W,L
+2024-03-30,,Bayern Munich,Dortmund,L,L
+2024-04-06,,Bayern Munich,Heidenheim,L,L
+2024-04-20,,Bayern Munich,Union Berlin,L,L
+2024-05-04,,Bayern Munich,Stuttgart,L,L
+2024-05-11,,Bayern Munich,Wolfsburg,W,L
+2024-05-18,15:30,Bayern Munich,Hoffenheim,W,L
+2023-09-23,15:30,Bochum,Bayern Munich,L,W
+2023-10-07,15:30,Bochum,RB Leipzig,L,W
+2023-10-21,15:30,Bochum,Freiburg,W,L
+2023-10-28,,Bochum,Mainz 05,W,L
+2023-11-04,,Bochum,Darmstadt 98,W,L
+2023-11-25,,Bochum,Heidenheim,L,L
+2023-12-02,,Bochum,Wolfsburg,W,L
+2023-12-09,,Bochum,Hoffenheim,W,L
+2023-12-16,,Bochum,Union Berlin,W,L
+2024-01-13,,Bochum,Werder Bremen,W,L
+2024-01-20,,Bochum,Stuttgart,W,L
+2024-01-27,,Bochum,Dortmund,L,L
+2024-02-03,,Bochum,Augsburg,W,L
+2024-02-17,,Bochum,Bayern Munich,L,L
+2024-03-02,,Bochum,RB Leipzig,W,L
+2024-03-09,,Bochum,Freiburg,W,L
+2024-03-16,,Bochum,Mainz 05,L,L
+2024-03-30,,Bochum,Darmstadt 98,W,L
+2024-04-13,,Bochum,Heidenheim,W,L
+2024-04-20,,Bochum,Wolfsburg,L,L
+2024-04-27,,Bochum,Hoffenheim,W,L
+2024-05-04,,Bochum,Union Berlin,L,L
+2024-05-18,15:30,Bochum,Werder Bremen,L,L
+2023-09-22,20:30,Darmstadt 98,Stuttgart,D,W
+2023-10-01,15:30,Darmstadt 98,Werder Bremen,D,W
+2023-10-07,15:30,Darmstadt 98,Augsburg,L,W
+2023-10-21,15:30,Darmstadt 98,RB Leipzig,W,W
+2023-10-28,,Darmstadt 98,Bayern Munich,L,W
+2023-11-04,,Darmstadt 98,Bochum,L,W
+2023-11-11,,Darmstadt 98,Mainz 05,W,W
+2023-11-25,,Darmstadt 98,Freiburg,W,W
+2023-12-09,,Darmstadt 98,Heidenheim,L,W
+2023-12-16,,Darmstadt 98,Wolfsburg,W,W
+2023-12-20,,Darmstadt 98,Hoffenheim,L,W
+2024-01-13,,Darmstadt 98,Dortmund,L,W
+2024-01-27,,Darmstadt 98,Union Berlin,L,W
+2024-02-17,,Darmstadt 98,Stuttgart,W,W
+2024-02-24,,Darmstadt 98,Werder Bremen,L,W
+2024-03-02,,Darmstadt 98,Augsburg,W,W
+2024-03-09,,Darmstadt 98,RB Leipzig,L,W
+2024-03-16,,Darmstadt 98,Bayern Munich,L,W
+2024-03-30,,Darmstadt 98,Bochum,L,W
+2024-04-06,,Darmstadt 98,Mainz 05,L,W
+2024-04-13,,Darmstadt 98,Freiburg,W,W
+2024-04-27,,Darmstadt 98,Heidenheim,W,W
+2024-05-04,,Darmstadt 98,Wolfsburg,L,W
+2024-05-11,,Darmstadt 98,Hoffenheim,W,W
+2024-05-18,15:30,Darmstadt 98,Dortmund,L,W
+2023-09-16,15:30,Dortmund,Freiburg,L,L
+2023-09-23,15:30,Dortmund,Wolfsburg,D,D
+2023-09-29,20:30,Dortmund,Hoffenheim,L,D
+2023-10-07,15:30,Dortmund,Union Berlin,D,L
+2023-10-20,20:30,Dortmund,Werder Bremen,D,L
+2023-11-04,,Dortmund,Bayern Munich,L,L
+2023-11-11,,Dortmund,Stuttgart,L,L
+2023-12-09,,Dortmund,RB Leipzig,W,L
+2023-12-16,,Dortmund,Augsburg,W,L
+2023-12-20,,Dortmund,Mainz 05,W,L
+2024-01-13,,Dortmund,Darmstadt 98,W,L
+2024-01-27,,Dortmund,Bochum,L,L
+2024-02-03,,Dortmund,Heidenheim,L,L
+2024-02-10,,Dortmund,Freiburg,W,L
+2024-02-17,,Dortmund,Wolfsburg,L,L
+2024-02-24,,Dortmund,Hoffenheim,W,L
+2024-03-02,,Dortmund,Union Berlin,L,L
+2024-03-09,,Dortmund,Werder Bremen,L,L
+2024-03-30,,Dortmund,Bayern Munich,L,L
+2024-04-06,,Dortmund,Stuttgart,W,L
+2024-04-27,,Dortmund,RB Leipzig,L,L
+2024-05-04,,Dortmund,Augsburg,W,L
+2024-05-11,,Dortmund,Mainz 05,L,L
+2024-05-18,15:30,Dortmund,Darmstadt 98,W,L
+2023-09-16,18:30,Eintracht Frankfurt,Bochum,L,W
+2023-09-24,17:30,Eintracht Frankfurt,Freiburg,W,L
+2023-09-30,15:30,Eintracht Frankfurt,Wolfsburg,W,D
+2023-10-08,19:30,Eintracht Frankfurt,Heidenheim,W,D
+2023-10-21,15:30,Eintracht Frankfurt,Hoffenheim,W,D
+2023-10-28,,Eintracht Frankfurt,Dortmund,D,L
+2023-11-04,,Eintracht Frankfurt,Union Berlin,L,W
+2023-11-11,,Eintracht Frankfurt,Werder Bremen,L,W
+2023-11-25,,Eintracht Frankfurt,Stuttgart,W,L
+2023-12-02,,Eintracht Frankfurt,Augsburg,W,W
+2023-12-09,,Eintracht Frankfurt,Bayern Munich,L,L
+2024-01-13,,Eintracht Frankfurt,RB Leipzig,L,W
+2024-01-20,,Eintracht Frankfurt,Darmstadt 98,W,W
+2024-01-27,,Eintracht Frankfurt,Mainz 05,W,L
+2024-02-10,,Eintracht Frankfurt,Bochum,L,L
+2024-02-17,,Eintracht Frankfurt,Freiburg,W,W
+2024-02-24,,Eintracht Frankfurt,Wolfsburg,W,L
+2024-03-02,,Eintracht Frankfurt,Heidenheim,L,W
+2024-03-09,,Eintracht Frankfurt,Hoffenheim,W,L
+2024-03-16,,Eintracht Frankfurt,Dortmund,L,W
+2024-03-30,,Eintracht Frankfurt,Union Berlin,W,L
+2024-04-06,,Eintracht Frankfurt,Werder Bremen,W,L
+2024-04-13,,Eintracht Frankfurt,Stuttgart,L,W
+2024-04-20,,Eintracht Frankfurt,Augsburg,W,L
+2024-04-27,,Eintracht Frankfurt,Bayern Munich,L,W
+2024-05-18,15:30,Eintracht Frankfurt,RB Leipzig,W,L
+2023-09-16,15:30,Freiburg,Dortmund,L,L
+2023-10-01,17:30,Freiburg,Augsburg,D,D
+2023-10-08,17:30,Freiburg,Bayern Munich,L,D
+2023-10-21,15:30,Freiburg,Bochum,L,W
+2023-11-11,,Freiburg,RB Leipzig,L,W
+2023-11-25,,Freiburg,Darmstadt 98,W,W
+2023-12-02,,Freiburg,Mainz 05,L,W
+2023-12-09,,Freiburg,Wolfsburg,L,W
+2023-12-20,,Freiburg,Heidenheim,L,W
+2024-01-13,,Freiburg,Union Berlin,W,W
+2024-01-20,,Freiburg,Hoffenheim,W,W
+2024-01-27,,Freiburg,Werder Bremen,L,W
+2024-02-03,,Freiburg,Stuttgart,W,W
+2024-02-10,,Freiburg,Dortmund,L,W
+2024-02-24,,Freiburg,Augsburg,W,W
+2024-03-02,,Freiburg,Bayern Munich,L,W
+2024-03-09,,Freiburg,Bochum,L,W
+2024-04-06,,Freiburg,RB Leipzig,W,W
+2024-04-13,,Freiburg,Darmstadt 98,W,W
+2024-04-20,,Freiburg,Mainz 05,W,W
+2024-04-27,,Freiburg,Wolfsburg,W,W
+2024-05-11,,Freiburg,Heidenheim,W,W
+2024-05-18,15:30,Freiburg,Union Berlin,L,W
+2023-09-30,15:30,Heidenheim,Union Berlin,D,W
+2023-10-22,17:30,Heidenheim,Augsburg,W,L
+2023-11-04,,Heidenheim,Stuttgart,W,L
+2023-11-11,,Heidenheim,Bayern Munich,L,W
+2023-11-25,,Heidenheim,Bochum,L,L
+2023-12-02,,Heidenheim,RB Leipzig,L,W
+2023-12-09,,Heidenheim,Darmstadt 98,W,L
+2023-12-16,,Heidenheim,Mainz 05,L,W
+2023-12-20,,Heidenheim,Freiburg,W,L
+2024-01-20,,Heidenheim,Wolfsburg,W,L
+2024-01-27,,Heidenheim,Hoffenheim,W,W
+2024-02-03,,Heidenheim,Dortmund,L,L
+2024-02-10,,Heidenheim,Werder Bremen,L,W
+2024-02-24,,Heidenheim,Union Berlin,L,W
+2024-03-09,,Heidenheim,Augsburg,W,W
+2024-03-30,,Heidenheim,Stuttgart,L,W
+2024-04-06,,Heidenheim,Bayern Munich,L,L
+2024-04-13,,Heidenheim,Bochum,L,W
+2024-04-20,,Heidenheim,RB Leipzig,W,L
+2024-04-27,,Heidenheim,Darmstadt 98,W,W
+2024-05-04,,Heidenheim,Mainz 05,W,L
+2024-05-11,,Heidenheim,Freiburg,W,W
+2023-09-23,15:30,Hoffenheim,Union Berlin,W,W
+2023-09-29,20:30,Hoffenheim,Dortmund,D,L
+2023-10-07,18:30,Hoffenheim,Werder Bremen,D,D
+2023-10-28,,Hoffenheim,Stuttgart,L,W
+2023-11-11,,Hoffenheim,Augsburg,W,W
+2023-11-25,,Hoffenheim,Mainz 05,W,W
+2023-12-09,,Hoffenheim,Bochum,L,W
+2023-12-16,,Hoffenheim,RB Leipzig,L,W
+2023-12-20,,Hoffenheim,Darmstadt 98,W,L
+2024-01-13,,Hoffenheim,Bayern Munich,L,W
+2024-01-20,,Hoffenheim,Freiburg,W,W
+2024-01-27,,Hoffenheim,Heidenheim,W,W
+2024-02-03,,Hoffenheim,Wolfsburg,L,W
+2024-02-17,,Hoffenheim,Union Berlin,W,W
+2024-02-24,,Hoffenheim,Dortmund,L,W
+2024-03-02,,Hoffenheim,Werder Bremen,W,W
+2024-03-16,,Hoffenheim,Stuttgart,W,W
+2024-04-06,,Hoffenheim,Augsburg,W,W
+2024-04-13,,Hoffenheim,Mainz 05,L,W
+2024-04-27,,Hoffenheim,Bochum,L,W
+2024-05-04,,Hoffenheim,RB Leipzig,W,W
+2024-05-11,,Hoffenheim,Darmstadt 98,W,W
+2024-05-18,15:30,Hoffenheim,Bayern Munich,L,W
+2023-09-16,15:30,Koln,Hoffenheim,W,W
+2023-09-23,18:30,Koln,Werder Bremen,L,W
+2023-09-30,15:30,Koln,Stuttgart,L,D
+2023-10-28,,Koln,RB Leipzig,L,W
+2023-11-04,,Koln,Augsburg,W,W
+2023-11-11,,Koln,Bochum,L,W
+2023-11-25,,Koln,Bayern Munich,L,W
+2023-12-02,,Koln,Darmstadt 98,W,W
+2023-12-09,,Koln,Mainz 05,W,W
+2023-12-16,,Koln,Freiburg,W,W
+2023-12-20,,Koln,Union Berlin,W,W
+2024-01-13,,Koln,Heidenheim,W,W
+2024-01-20,,Koln,Dortmund,L,W
+2024-01-27,,Koln,Wolfsburg,L,W
+2024-02-10,,Koln,Hoffenheim,W,W
+2024-02-17,,Koln,Werder Bremen,W,W
+2024-02-24,,Koln,Stuttgart,L,W
+2024-03-16,,Koln,RB Leipzig,W,W
+2024-03-30,,Koln,Augsburg,W,W
+2024-04-06,,Koln,Bochum,L,W
+2024-04-13,,Koln,Bayern Munich,L,W
+2024-04-20,,Koln,Darmstadt 98,W,W
+2024-04-27,,Koln,Mainz 05,L,W
+2024-05-04,,Koln,Freiburg,W,W
+2024-05-11,,Koln,Union Berlin,W,W
+2024-05-18,15:30,Koln,Heidenheim,L,W
+2023-09-16,15:30,Mainz 05,Stuttgart,L,W
+2023-09-23,15:30,Mainz 05,Augsburg,D,W
+2023-10-21,18:30,Mainz 05,Bayern Munich,L,L
+2023-10-28,,Mainz 05,Bochum,L,W
+2023-11-04,,Mainz 05,RB Leipzig,W,L
+2023-11-11,,Mainz 05,Darmstadt 98,W,W
+2023-11-25,,Mainz 05,Hoffenheim,W,W
+2023-12-02,,Mainz 05,Freiburg,W,L
+2023-12-16,,Mainz 05,Heidenheim,W,L
+2023-12-20,,Mainz 05,Dortmund,L,W
+2024-01-13,,Mainz 05,Wolfsburg,W,L
+2024-01-20,,Mainz 05,Union Berlin,W,L
+2024-02-03,,Mainz 05,Werder Bremen,W,L
+2024-02-10,,Mainz 05,Stuttgart,L,W
+2024-02-17,,Mainz 05,Augsburg,W,L
+2024-03-09,,Mainz 05,Bayern Munich,L,W
+2024-03-16,,Mainz 05,Bochum,L,L
+2024-03-30,,Mainz 05,RB Leipzig,L,W
+2024-04-06,,Mainz 05,Darmstadt 98,W,L
+2024-04-13,,Mainz 05,Hoffenheim,W,L
+2024-04-20,,Mainz 05,Freiburg,W,W
+2024-05-04,,Mainz 05,Heidenheim,L,W
+2024-05-11,,Mainz 05,Dortmund,L,L
+2024-05-18,15:30,Mainz 05,Wolfsburg,L,W
+2023-09-17,17:30,Monchengladbach,Darmstadt 98,L,L
+2023-09-23,15:30,Monchengladbach,RB Leipzig,W,W
+2023-09-30,15:30,Monchengladbach,Bochum,W,D
+2023-10-06,20:30,Monchengladbach,Mainz 05,D,D
+2023-10-28,,Monchengladbach,Heidenheim,W,L
+2023-11-04,,Monchengladbach,Freiburg,W,W
+2023-11-11,,Monchengladbach,Wolfsburg,W,L
+2023-11-25,,Monchengladbach,Dortmund,L,W
+2023-12-02,,Monchengladbach,Hoffenheim,W,L
+2023-12-09,,Monchengladbach,Union Berlin,L,W
+2023-12-16,,Monchengladbach,Werder Bremen,W,L
+2024-01-13,,Monchengladbach,Stuttgart,W,L
+2024-01-20,,Monchengladbach,Augsburg,W,L
+2024-02-03,,Monchengladbach,Bayern Munich,L,W
+2024-02-10,,Monchengladbach,Darmstadt 98,W,L
+2024-02-17,,Monchengladbach,RB Leipzig,L,W
+2024-02-24,,Monchengladbach,Bochum,L,L
+2024-03-02,,Monchengladbach,Mainz 05,L,W
+2024-03-16,,Monchengladbach,Heidenheim,L,W
+2024-03-30,,Monchengladbach,Freiburg,W,L
+2024-04-06,,Monchengladbach,Wolfsburg,L,W
+2024-04-13,,Monchengladbach,Dortmund,L,L
+2024-04-20,,Monchengladbach,Hoffenheim,W,W
+2024-04-27,,Monchengladbach,Union Berlin,W,L
+2024-05-04,,Monchengladbach,Werder Bremen,L,W
+2024-05-18,15:30,Monchengladbach,Stuttgart,L,W
+2023-09-03,17:30,RB Leipzig,Union Berlin,W,W
+2023-09-16,15:30,RB Leipzig,Augsburg,W,L
+2023-09-30,18:30,RB Leipzig,Bayern Munich,D,D
+2023-10-07,15:30,RB Leipzig,Bochum,W,L
+2023-10-21,15:30,RB Leipzig,Darmstadt 98,W,W
+2023-11-04,,RB Leipzig,Mainz 05,L,W
+2023-11-11,,RB Leipzig,Freiburg,W,L
+2023-11-25,,RB Leipzig,Wolfsburg,L,W
+2023-12-02,,RB Leipzig,Heidenheim,W,L
+2023-12-09,,RB Leipzig,Dortmund,L,W
+2023-12-16,,RB Leipzig,Hoffenheim,W,L
+2023-12-20,,RB Leipzig,Werder Bremen,W,W
+2024-01-27,,RB Leipzig,Stuttgart,L,W
+2024-02-03,,RB Leipzig,Union Berlin,W,L
+2024-02-10,,RB Leipzig,Augsburg,W,W
+2024-02-24,,RB Leipzig,Bayern Munich,L,W
+2024-03-02,,RB Leipzig,Bochum,L,W
+2024-03-09,,RB Leipzig,Darmstadt 98,W,L
+2024-03-30,,RB Leipzig,Mainz 05,W,L
+2024-04-06,,RB Leipzig,Freiburg,W,W
+2024-04-13,,RB Leipzig,Wolfsburg,W,L
+2024-04-20,,RB Leipzig,Heidenheim,L,W
+2024-04-27,,RB Leipzig,Dortmund,L,L
+2024-05-04,,RB Leipzig,Hoffenheim,W,W
+2024-05-11,,RB Leipzig,Werder Bremen,W,L
+2023-09-16,15:30,Stuttgart,Mainz 05,W,L
+2023-09-22,20:30,Stuttgart,Darmstadt 98,W,D
+2023-10-07,15:30,Stuttgart,Wolfsburg,W,W
+2023-10-21,15:30,Stuttgart,Union Berlin,W,D
+2023-10-28,,Stuttgart,Hoffenheim,W,L
+2023-11-04,,Stuttgart,Heidenheim,L,W
+2023-11-11,,Stuttgart,Dortmund,L,L
+2023-12-02,,Stuttgart,Werder Bremen,W,L
+2023-12-16,,Stuttgart,Bayern Munich,L,W
+2023-12-20,,Stuttgart,Augsburg,W,W
+2024-01-20,,Stuttgart,Bochum,L,W
+2024-01-27,,Stuttgart,RB Leipzig,W,L
+2024-02-03,,Stuttgart,Freiburg,W,W
+2024-02-10,,Stuttgart,Mainz 05,W,L
+2024-02-17,,Stuttgart,Darmstadt 98,W,W
+2024-03-02,,Stuttgart,Wolfsburg,L,W
+2024-03-09,,Stuttgart,Union Berlin,W,L
+2024-03-16,,Stuttgart,Hoffenheim,W,W
+2024-03-30,,Stuttgart,Heidenheim,W,L
+2024-04-06,,Stuttgart,Dortmund,L,W
+2024-04-20,,Stuttgart,Werder Bremen,L,W
+2024-05-04,,Stuttgart,Bayern Munich,L,L
+2024-05-11,,Stuttgart,Augsburg,W,W
+2023-09-03,17:30,Union Berlin,RB Leipzig,W,W
+2023-09-16,15:30,Union Berlin,Wolfsburg,L,W
+2023-09-23,15:30,Union Berlin,Hoffenheim,W,W
+2023-09-30,15:30,Union Berlin,Heidenheim,W,D
+2023-10-07,15:30,Union Berlin,Dortmund,L,D
+2023-10-21,15:30,Union Berlin,Stuttgart,D,W
+2023-10-28,,Union Berlin,Werder Bremen,L,D
+2023-11-25,,Union Berlin,Augsburg,W,L
+2023-12-02,,Union Berlin,Bayern Munich,L,W
+2023-12-16,,Union Berlin,Bochum,L,W
+2024-01-13,,Union Berlin,Freiburg,W,W
+2024-01-20,,Union Berlin,Mainz 05,L,W
+2024-01-27,,Union Berlin,Darmstadt 98,W,L
+2024-02-03,,Union Berlin,RB Leipzig,L,W
+2024-02-10,,Union Berlin,Wolfsburg,W,L
+2024-02-17,,Union Berlin,Hoffenheim,W,W
+2024-02-24,,Union Berlin,Heidenheim,W,L
+2024-03-02,,Union Berlin,Dortmund,L,L
+2024-03-09,,Union Berlin,Stuttgart,L,W
+2024-03-16,,Union Berlin,Werder Bremen,W,L
+2024-04-13,,Union Berlin,Augsburg,W,W
+2024-04-20,,Union Berlin,Bayern Munich,L,L
+2024-05-04,,Union Berlin,Bochum,L,L
+2024-05-18,15:30,Union Berlin,Freiburg,W,L
+2023-10-01,15:30,Werder Bremen,Darmstadt 98,W,D
+2023-10-07,18:30,Werder Bremen,Hoffenheim,D,D
+2023-10-20,20:30,Werder Bremen,Dortmund,L,D
+2023-10-28,,Werder Bremen,Union Berlin,D,L
+2023-11-04,,Werder Bremen,Wolfsburg,L,W
+2023-12-02,,Werder Bremen,Stuttgart,L,W
+2023-12-09,,Werder Bremen,Augsburg,W,L
+2023-12-20,,Werder Bremen,RB Leipzig,W,W
+2024-01-13,,Werder Bremen,Bochum,L,W
+2024-01-20,,Werder Bremen,Bayern Munich,L,W
+2024-01-27,,Werder Bremen,Freiburg,W,L
+2024-02-03,,Werder Bremen,Mainz 05,L,W
+2024-02-10,,Werder Bremen,Heidenheim,W,L
+2024-02-24,,Werder Bremen,Darmstadt 98,W,L
+2024-03-02,,Werder Bremen,Hoffenheim,W,W
+2024-03-09,,Werder Bremen,Dortmund,L,L
+2024-03-16,,Werder Bremen,Union Berlin,L,W
+2024-03-30,,Werder Bremen,Wolfsburg,W,L
+2024-04-20,,Werder Bremen,Stuttgart,W,L
+2024-04-27,,Werder Bremen,Augsburg,W,W
+2024-05-11,,Werder Bremen,RB Leipzig,L,W
+2024-05-18,15:30,Werder Bremen,Bochum,L,L
+2023-09-16,15:30,Wolfsburg,Union Berlin,W,L
+2023-09-23,15:30,Wolfsburg,Dortmund,D,D
+2023-10-07,15:30,Wolfsburg,Stuttgart,W,W
+2023-10-28,,Wolfsburg,Augsburg,D,D
+2023-11-04,,Wolfsburg,Werder Bremen,W,L
+2023-11-25,,Wolfsburg,RB Leipzig,W,L
+2023-12-02,,Wolfsburg,Bochum,L,W
+2023-12-09,,Wolfsburg,Freiburg,W,L
+2023-12-16,,Wolfsburg,Darmstadt 98,W,W
+2023-12-20,,Wolfsburg,Bayern Munich,L,L
+2024-01-13,,Wolfsburg,Mainz 05,L,W
+2024-01-20,,Wolfsburg,Heidenheim,L,W
+2024-02-03,,Wolfsburg,Hoffenheim,W,L
+2024-02-10,,Wolfsburg,Union Berlin,L,W
+2024-02-17,,Wolfsburg,Dortmund,L,L
+2024-03-02,,Wolfsburg,Stuttgart,W,L
+2024-03-16,,Wolfsburg,Augsburg,W,L
+2024-03-30,,Wolfsburg,Werder Bremen,L,W
+2024-04-13,,Wolfsburg,RB Leipzig,L,W
+2024-04-20,,Wolfsburg,Bochum,L,L
+2024-04-27,,Wolfsburg,Freiburg,W,W
+2024-05-04,,Wolfsburg,Darmstadt 98,W,L
+2024-05-11,,Wolfsburg,Bayern Munich,L,W
+2024-05-18,15:30,Wolfsburg,Mainz 05,W,L

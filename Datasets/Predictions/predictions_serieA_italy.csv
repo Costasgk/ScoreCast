@@ -1,13 +1,11 @@
 Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
-2023-09-02,20:45,Atalanta,Monza,L,L
 2023-09-17,18:00,Atalanta,Fiorentina,W,W
-2023-09-24,,Atalanta,Cagliari,W,D
+2023-09-24,,Atalanta,Cagliari,W,L
 2023-09-27,,Atalanta,Hellas Verona,W,W
-2023-10-01,,Atalanta,Juventus,L,W
+2023-10-01,,Atalanta,Juventus,D,W
 2023-10-08,,Atalanta,Lazio,L,W
 2023-10-22,,Atalanta,Genoa,L,W
 2023-10-29,,Atalanta,Empoli,L,W
-2023-11-05,,Atalanta,Inter,L,W
 2023-11-12,,Atalanta,Udinese,L,W
 2023-11-26,,Atalanta,Napoli,D,W
 2023-12-03,,Atalanta,Torino,L,W
@@ -17,7 +15,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-30,,Atalanta,Lecce,W,W
 2024-01-07,,Atalanta,Roma,L,W
 2024-01-14,,Atalanta,Frosinone,L,W
-2024-01-21,,Atalanta,Inter,L,W
 2024-01-28,,Atalanta,Udinese,W,W
 2024-02-04,,Atalanta,Lazio,W,W
 2024-02-11,,Atalanta,Genoa,L,W
@@ -28,22 +25,20 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-03-17,,Atalanta,Fiorentina,W,W
 2024-03-30,,Atalanta,Napoli,L,W
 2024-04-07,,Atalanta,Cagliari,L,W
-2024-04-14,,Atalanta,Hellas Verona,W,W
+2024-04-14,,Atalanta,Hellas Verona,L,W
 2024-04-21,,Atalanta,Monza,L,W
 2024-04-28,,Atalanta,Empoli,W,W
 2024-05-05,,Atalanta,Salernitana,L,W
 2024-05-12,,Atalanta,Roma,W,W
 2024-05-19,,Atalanta,Lecce,L,W
 2024-05-26,,Atalanta,Torino,W,W
-2023-09-02,18:30,Bologna,Cagliari,W,L
 2023-09-18,20:45,Bologna,Hellas Verona,W,W
-2023-09-24,,Bologna,Napoli,L,W
+2023-09-24,,Bologna,Napoli,W,W
 2023-09-27,,Bologna,Monza,L,W
-2023-10-01,,Bologna,Empoli,W,W
-2023-10-08,,Bologna,Inter,L,W
-2023-10-22,,Bologna,Frosinone,L,W
+2023-10-01,,Bologna,Empoli,W,L
+2023-10-22,,Bologna,Frosinone,W,W
 2023-10-29,,Bologna,Sassuolo,L,W
-2023-11-01,,Bologna,Hellas Verona,W,W
+2023-11-01,,Bologna,Hellas Verona,L,W
 2023-11-05,,Bologna,Lazio,W,W
 2023-11-12,,Bologna,Fiorentina,L,W
 2023-11-26,,Bologna,Torino,W,W
@@ -59,9 +54,8 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-02-04,,Bologna,Sassuolo,W,W
 2024-02-11,,Bologna,Lecce,W,W
 2024-02-18,,Bologna,Lazio,L,W
-2024-02-25,,Bologna,Hellas Verona,W,W
+2024-02-25,,Bologna,Hellas Verona,L,W
 2024-03-03,,Bologna,Atalanta,W,W
-2024-03-10,,Bologna,Inter,L,W
 2024-03-17,,Bologna,Empoli,L,W
 2024-03-30,,Bologna,Salernitana,W,W
 2024-04-07,,Bologna,Frosinone,L,W
@@ -72,11 +66,10 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Bologna,Napoli,L,W
 2024-05-19,,Bologna,Juventus,L,W
 2024-05-26,,Bologna,Genoa,L,W
-2023-09-02,18:30,Cagliari,Bologna,L,W
-2023-09-17,12:30,Cagliari,Udinese,D,L
-2023-09-24,,Cagliari,Atalanta,D,W
+2023-09-17,12:30,Cagliari,Udinese,W,L
+2023-09-24,,Cagliari,Atalanta,L,W
 2023-09-27,,Cagliari,Milan,L,W
-2023-10-01,,Cagliari,Fiorentina,D,W
+2023-10-01,,Cagliari,Fiorentina,L,W
 2023-10-08,,Cagliari,Roma,W,L
 2023-10-22,,Cagliari,Salernitana,L,W
 2023-10-29,,Cagliari,Frosinone,L,L
@@ -102,7 +95,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-03-17,,Cagliari,Monza,L,W
 2024-03-30,,Cagliari,Hellas Verona,L,L
 2024-04-07,,Cagliari,Atalanta,W,L
-2024-04-14,,Cagliari,Inter,L,W
 2024-04-21,,Cagliari,Juventus,L,L
 2024-04-28,,Cagliari,Genoa,L,W
 2024-05-05,,Cagliari,Lecce,W,L
@@ -111,9 +103,8 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-26,,Cagliari,Fiorentina,W,L
 2023-09-03,20:45,Empoli,Juventus,L,W
 2023-09-17,20:45,Empoli,Roma,L,W
-2023-09-24,,Empoli,Inter,W,W
-2023-09-27,,Empoli,Salernitana,L,W
-2023-10-01,,Empoli,Bologna,W,W
+2023-09-27,,Empoli,Salernitana,W,W
+2023-10-01,,Empoli,Bologna,L,W
 2023-10-08,,Empoli,Udinese,W,D
 2023-10-22,,Empoli,Fiorentina,L,W
 2023-10-29,,Empoli,Atalanta,W,L
@@ -136,7 +127,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-03-03,,Empoli,Cagliari,W,L
 2024-03-10,,Empoli,Milan,L,W
 2024-03-17,,Empoli,Bologna,W,L
-2024-03-30,,Empoli,Inter,L,W
 2024-04-07,,Empoli,Torino,W,L
 2024-04-14,,Empoli,Lecce,L,W
 2024-04-21,,Empoli,Napoli,D,L
@@ -145,11 +135,10 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Empoli,Lazio,L,W
 2024-05-19,,Empoli,Udinese,L,W
 2024-05-26,,Empoli,Roma,W,L
-2023-09-03,18:30,Fiorentina,Inter,L,W
 2023-09-17,18:00,Fiorentina,Atalanta,W,W
-2023-09-24,,Fiorentina,Udinese,W,L
+2023-09-24,,Fiorentina,Udinese,W,D
 2023-09-27,,Fiorentina,Frosinone,W,W
-2023-10-01,,Fiorentina,Cagliari,W,D
+2023-10-01,,Fiorentina,Cagliari,W,L
 2023-10-08,,Fiorentina,Napoli,L,W
 2023-10-22,,Fiorentina,Empoli,W,L
 2023-10-29,,Fiorentina,Lazio,L,W
@@ -158,13 +147,12 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-11-26,,Fiorentina,Milan,L,W
 2023-12-03,,Fiorentina,Salernitana,W,L
 2023-12-10,,Fiorentina,Roma,L,W
-2023-12-17,,Fiorentina,Hellas Verona,W,L
+2023-12-17,,Fiorentina,Hellas Verona,L,L
 2023-12-23,,Fiorentina,Monza,L,W
 2023-12-30,,Fiorentina,Torino,D,L
 2024-01-07,,Fiorentina,Sassuolo,L,W
 2024-01-14,,Fiorentina,Udinese,W,L
 2024-01-21,,Fiorentina,Bologna,W,W
-2024-01-28,,Fiorentina,Inter,L,L
 2024-02-04,,Fiorentina,Lecce,L,W
 2024-02-11,,Fiorentina,Frosinone,L,L
 2024-02-18,,Fiorentina,Empoli,L,W
@@ -181,17 +169,15 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Fiorentina,Monza,W,L
 2024-05-19,,Fiorentina,Napoli,D,L
 2024-05-26,,Fiorentina,Cagliari,L,W
-2023-09-02,18:30,Frosinone,Udinese,D,L
-2023-09-17,15:00,Frosinone,Sassuolo,W,D
+2023-09-17,15:00,Frosinone,Sassuolo,L,L
 2023-09-24,,Frosinone,Salernitana,W,W
 2023-09-27,,Frosinone,Fiorentina,W,W
 2023-10-01,,Frosinone,Roma,L,W
 2023-10-08,,Frosinone,Hellas Verona,W,L
-2023-10-22,,Frosinone,Bologna,W,L
+2023-10-22,,Frosinone,Bologna,W,W
 2023-10-29,,Frosinone,Cagliari,L,L
-2023-11-01,,Frosinone,Torino,L,W
+2023-11-01,,Frosinone,Torino,L,L
 2023-11-05,,Frosinone,Empoli,W,L
-2023-11-12,,Frosinone,Inter,L,L
 2023-11-26,,Frosinone,Genoa,L,L
 2023-12-03,,Frosinone,Milan,L,L
 2023-12-10,,Frosinone,Torino,W,L
@@ -215,25 +201,23 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-21,,Frosinone,Torino,L,L
 2024-04-28,,Frosinone,Salernitana,W,L
 2024-05-05,,Frosinone,Empoli,L,L
-2024-05-12,,Frosinone,Inter,L,L
 2024-05-19,,Frosinone,Monza,L,L
 2024-05-26,,Frosinone,Udinese,W,L
 2023-09-03,18:30,Genoa,Torino,D,W
 2023-09-16,20:45,Genoa,Napoli,L,W
 2023-09-24,,Genoa,Lecce,L,W
-2023-09-27,,Genoa,Roma,L,W
+2023-09-27,,Genoa,Roma,W,L
 2023-10-01,,Genoa,Udinese,L,W
 2023-10-08,,Genoa,Milan,D,L
 2023-10-22,,Genoa,Atalanta,W,L
 2023-10-29,,Genoa,Salernitana,W,L
 2023-11-05,,Genoa,Cagliari,L,L
-2023-11-12,,Genoa,Hellas Verona,W,L
+2023-11-12,,Genoa,Hellas Verona,L,L
 2023-11-26,,Genoa,Frosinone,L,L
 2023-12-03,,Genoa,Empoli,W,L
 2023-12-10,,Genoa,Monza,L,L
 2023-12-17,,Genoa,Juventus,L,L
 2023-12-23,,Genoa,Sassuolo,L,L
-2023-12-30,,Genoa,Inter,L,L
 2024-01-07,,Genoa,Bologna,W,L
 2024-01-14,,Genoa,Torino,W,L
 2024-01-21,,Genoa,Salernitana,L,L
@@ -242,7 +226,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-02-11,,Genoa,Atalanta,W,L
 2024-02-18,,Genoa,Napoli,L,L
 2024-02-25,,Genoa,Udinese,W,L
-2024-03-03,,Genoa,Inter,L,L
 2024-03-10,,Genoa,Monza,W,L
 2024-03-17,,Genoa,Juventus,L,L
 2024-03-30,,Genoa,Frosinone,L,L
@@ -254,90 +237,86 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Genoa,Sassuolo,W,L
 2024-05-19,,Genoa,Roma,L,L
 2024-05-26,,Genoa,Bologna,W,L
-2023-09-01,18:30,Hellas Verona,Sassuolo,L,W
 2023-09-18,20:45,Hellas Verona,Bologna,W,W
-2023-09-24,,Hellas Verona,Milan,L,W
+2023-09-24,,Hellas Verona,Milan,L,D
 2023-09-27,,Hellas Verona,Atalanta,W,W
 2023-10-01,,Hellas Verona,Torino,L,W
 2023-10-08,,Hellas Verona,Frosinone,L,W
-2023-10-22,,Hellas Verona,Napoli,D,L
-2023-10-29,,Hellas Verona,Juventus,L,W
-2023-11-01,,Hellas Verona,Bologna,W,W
+2023-10-22,,Hellas Verona,Napoli,L,L
+2023-10-29,,Hellas Verona,Juventus,L,L
+2023-11-01,,Hellas Verona,Bologna,W,L
 2023-11-05,,Hellas Verona,Monza,W,L
-2023-11-12,,Hellas Verona,Genoa,L,W
+2023-11-12,,Hellas Verona,Genoa,L,L
 2023-11-26,,Hellas Verona,Lecce,W,L
-2023-12-03,,Hellas Verona,Udinese,L,W
+2023-12-03,,Hellas Verona,Udinese,L,L
 2023-12-10,,Hellas Verona,Lazio,W,L
-2023-12-17,,Hellas Verona,Fiorentina,L,W
+2023-12-17,,Hellas Verona,Fiorentina,L,L
 2023-12-23,,Hellas Verona,Cagliari,W,L
 2023-12-30,,Hellas Verona,Salernitana,W,L
-2024-01-07,,Hellas Verona,Inter,L,W
 2024-01-14,,Hellas Verona,Empoli,W,L
-2024-01-21,,Hellas Verona,Roma,L,W
+2024-01-21,,Hellas Verona,Roma,L,L
 2024-01-28,,Hellas Verona,Frosinone,L,L
-2024-02-04,,Hellas Verona,Napoli,L,W
-2024-02-11,,Hellas Verona,Monza,L,W
+2024-02-04,,Hellas Verona,Napoli,L,L
+2024-02-11,,Hellas Verona,Monza,L,L
 2024-02-18,,Hellas Verona,Juventus,L,L
-2024-02-25,,Hellas Verona,Bologna,W,W
+2024-02-25,,Hellas Verona,Bologna,W,L
 2024-03-03,,Hellas Verona,Sassuolo,W,L
-2024-03-10,,Hellas Verona,Lecce,L,W
+2024-03-10,,Hellas Verona,Lecce,L,L
 2024-03-17,,Hellas Verona,Milan,W,L
 2024-03-30,,Hellas Verona,Cagliari,L,L
 2024-04-07,,Hellas Verona,Genoa,L,L
-2024-04-14,,Hellas Verona,Atalanta,W,W
+2024-04-14,,Hellas Verona,Atalanta,W,L
 2024-04-21,,Hellas Verona,Udinese,W,L
-2024-04-28,,Hellas Verona,Lazio,L,W
+2024-04-28,,Hellas Verona,Lazio,L,L
 2024-05-05,,Hellas Verona,Fiorentina,W,L
 2024-05-12,,Hellas Verona,Torino,W,L
-2024-05-19,,Hellas Verona,Salernitana,L,W
-2024-05-26,,Hellas Verona,Inter,L,L
-2023-09-03,18:30,Inter,Fiorentina,W,L
-2023-09-16,18:00,Inter,Milan,L,L
-2023-09-24,,Inter,Empoli,W,W
-2023-09-27,,Inter,Sassuolo,W,L
-2023-10-01,,Inter,Salernitana,W,W
-2023-10-08,,Inter,Bologna,W,L
-2023-10-22,,Inter,Torino,L,L
-2023-10-29,,Inter,Roma,W,L
-2023-11-05,,Inter,Atalanta,W,L
-2023-11-12,,Inter,Frosinone,L,L
-2023-11-26,,Inter,Juventus,L,L
-2023-12-03,,Inter,Napoli,L,L
-2023-12-10,,Inter,Udinese,W,L
-2023-12-17,,Inter,Lazio,L,L
-2023-12-23,,Inter,Lecce,W,L
-2023-12-30,,Inter,Genoa,L,L
-2024-01-07,,Inter,Hellas Verona,W,L
-2024-01-14,,Inter,Monza,L,L
-2024-01-21,,Inter,Atalanta,W,L
-2024-01-28,,Inter,Fiorentina,L,L
-2024-02-04,,Inter,Juventus,L,L
-2024-02-11,,Inter,Roma,L,L
-2024-02-18,,Inter,Salernitana,W,L
-2024-02-25,,Inter,Lecce,L,L
-2024-03-03,,Inter,Genoa,L,L
-2024-03-10,,Inter,Bologna,W,L
-2024-03-17,,Inter,Napoli,D,L
-2024-03-30,,Inter,Empoli,W,L
-2024-04-07,,Inter,Udinese,L,L
-2024-04-14,,Inter,Cagliari,W,L
-2024-04-21,,Inter,Milan,L,L
-2024-04-28,,Inter,Torino,W,L
-2024-05-05,,Inter,Sassuolo,L,L
-2024-05-12,,Inter,Frosinone,L,L
-2024-05-19,,Inter,Lazio,W,L
-2024-05-26,,Inter,Hellas Verona,L,L
+2024-05-19,,Hellas Verona,Salernitana,L,L
+2023-09-03,18:30,Internazionale,Fiorentina,W,L
+2023-09-16,18:00,Internazionale,Milan,W,L
+2023-09-24,,Internazionale,Empoli,W,D
+2023-09-27,,Internazionale,Sassuolo,W,L
+2023-10-01,,Internazionale,Salernitana,W,W
+2023-10-08,,Internazionale,Bologna,W,D
+2023-10-22,,Internazionale,Torino,L,L
+2023-10-29,,Internazionale,Roma,W,L
+2023-11-05,,Internazionale,Atalanta,W,L
+2023-11-12,,Internazionale,Frosinone,L,L
+2023-11-26,,Internazionale,Juventus,L,L
+2023-12-03,,Internazionale,Napoli,L,L
+2023-12-10,,Internazionale,Udinese,W,L
+2023-12-17,,Internazionale,Lazio,L,L
+2023-12-23,,Internazionale,Lecce,W,L
+2023-12-30,,Internazionale,Genoa,L,L
+2024-01-07,,Internazionale,Hellas Verona,L,L
+2024-01-14,,Internazionale,Monza,L,L
+2024-01-21,,Internazionale,Atalanta,W,L
+2024-01-28,,Internazionale,Fiorentina,L,L
+2024-02-04,,Internazionale,Juventus,L,L
+2024-02-11,,Internazionale,Roma,L,L
+2024-02-18,,Internazionale,Salernitana,W,L
+2024-02-25,,Internazionale,Lecce,L,L
+2024-03-03,,Internazionale,Genoa,L,L
+2024-03-10,,Internazionale,Bologna,W,L
+2024-03-17,,Internazionale,Napoli,D,L
+2024-03-30,,Internazionale,Empoli,W,L
+2024-04-07,,Internazionale,Udinese,L,L
+2024-04-14,,Internazionale,Cagliari,W,L
+2024-04-21,,Internazionale,Milan,L,L
+2024-04-28,,Internazionale,Torino,W,L
+2024-05-05,,Internazionale,Sassuolo,L,L
+2024-05-12,,Internazionale,Frosinone,L,L
+2024-05-19,,Internazionale,Lazio,W,L
+2024-05-26,,Internazionale,Hellas Verona,L,L
 2023-09-03,20:45,Juventus,Empoli,W,L
 2023-09-16,15:00,Juventus,Lazio,L,L
 2023-09-24,,Juventus,Sassuolo,W,L
 2023-09-27,,Juventus,Lecce,W,L
-2023-10-01,,Juventus,Atalanta,W,L
+2023-10-01,,Juventus,Atalanta,W,D
 2023-10-08,,Juventus,Torino,W,L
 2023-10-22,,Juventus,Milan,L,L
-2023-10-29,,Juventus,Hellas Verona,W,L
+2023-10-29,,Juventus,Hellas Verona,L,L
 2023-11-05,,Juventus,Fiorentina,L,L
 2023-11-12,,Juventus,Cagliari,W,L
-2023-11-26,,Juventus,Inter,L,L
 2023-12-03,,Juventus,Monza,L,L
 2023-12-10,,Juventus,Napoli,D,L
 2023-12-17,,Juventus,Genoa,L,L
@@ -347,7 +326,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-01-14,,Juventus,Sassuolo,W,L
 2024-01-21,,Juventus,Lecce,L,L
 2024-01-28,,Juventus,Empoli,W,L
-2024-02-04,,Juventus,Inter,L,L
 2024-02-11,,Juventus,Udinese,W,L
 2024-02-18,,Juventus,Hellas Verona,L,L
 2024-02-25,,Juventus,Frosinone,L,L
@@ -363,20 +341,18 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Juventus,Salernitana,W,L
 2024-05-19,,Juventus,Bologna,W,L
 2024-05-26,,Juventus,Monza,W,L
-2023-09-02,20:45,Lazio,Napoli,L,W
 2023-09-16,15:00,Lazio,Juventus,L,L
-2023-09-24,,Lazio,Monza,L,L
+2023-09-24,,Lazio,Monza,L,W
 2023-09-27,,Lazio,Torino,D,L
-2023-10-01,,Lazio,Milan,L,W
+2023-10-01,,Lazio,Milan,L,L
 2023-10-08,,Lazio,Atalanta,W,L
-2023-10-22,,Lazio,Sassuolo,L,W
+2023-10-22,,Lazio,Sassuolo,L,L
 2023-10-29,,Lazio,Fiorentina,W,L
 2023-11-05,,Lazio,Bologna,W,W
 2023-11-12,,Lazio,Roma,W,L
 2023-11-26,,Lazio,Salernitana,L,W
 2023-12-03,,Lazio,Cagliari,W,L
 2023-12-10,,Lazio,Hellas Verona,L,W
-2023-12-17,,Lazio,Inter,L,L
 2023-12-23,,Lazio,Empoli,L,L
 2023-12-30,,Lazio,Frosinone,L,L
 2024-01-07,,Lazio,Udinese,L,W
@@ -394,17 +370,16 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-07,,Lazio,Roma,L,W
 2024-04-14,,Lazio,Salernitana,W,L
 2024-04-21,,Lazio,Genoa,L,W
-2024-04-28,,Lazio,Hellas Verona,W,L
+2024-04-28,,Lazio,Hellas Verona,L,L
 2024-05-05,,Lazio,Monza,L,W
 2024-05-12,,Lazio,Empoli,W,L
-2024-05-19,,Lazio,Inter,L,W
 2024-05-26,,Lazio,Sassuolo,W,L
 2023-09-03,20:45,Lecce,Salernitana,W,L
-2023-09-17,15:00,Lecce,Monza,L,W
+2023-09-17,15:00,Lecce,Monza,L,L
 2023-09-24,,Lecce,Genoa,W,L
 2023-09-27,,Lecce,Juventus,L,W
-2023-10-01,,Lecce,Napoli,D,L
-2023-10-08,,Lecce,Sassuolo,W,L
+2023-10-01,,Lecce,Napoli,W,L
+2023-10-08,,Lecce,Sassuolo,W,W
 2023-10-22,,Lecce,Udinese,L,W
 2023-10-29,,Lecce,Torino,W,L
 2023-11-05,,Lecce,Roma,L,W
@@ -413,7 +388,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-03,,Lecce,Bologna,W,L
 2023-12-10,,Lecce,Empoli,L,W
 2023-12-17,,Lecce,Frosinone,L,L
-2023-12-23,,Lecce,Inter,L,W
 2023-12-30,,Lecce,Atalanta,W,W
 2024-01-07,,Lecce,Cagliari,W,L
 2024-01-14,,Lecce,Lazio,L,W
@@ -422,9 +396,8 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-02-04,,Lecce,Fiorentina,W,L
 2024-02-11,,Lecce,Bologna,W,W
 2024-02-18,,Lecce,Torino,L,W
-2024-02-25,,Lecce,Inter,L,L
 2024-03-03,,Lecce,Frosinone,L,W
-2024-03-10,,Lecce,Hellas Verona,W,L
+2024-03-10,,Lecce,Hellas Verona,L,L
 2024-03-17,,Lecce,Salernitana,L,W
 2024-03-30,,Lecce,Roma,W,L
 2024-04-07,,Lecce,Milan,L,W
@@ -435,11 +408,9 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Lecce,Udinese,W,L
 2024-05-19,,Lecce,Atalanta,W,L
 2024-05-26,,Lecce,Napoli,L,W
-2023-09-01,20:45,Milan,Roma,L,W
-2023-09-16,18:00,Milan,Inter,L,L
-2023-09-24,,Milan,Hellas Verona,W,L
+2023-09-24,,Milan,Hellas Verona,D,L
 2023-09-27,,Milan,Cagliari,W,L
-2023-10-01,,Milan,Lazio,W,L
+2023-10-01,,Milan,Lazio,L,L
 2023-10-08,,Milan,Genoa,L,D
 2023-10-22,,Milan,Juventus,L,L
 2023-10-29,,Milan,Napoli,L,W
@@ -465,17 +436,15 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-03-30,,Milan,Fiorentina,L,L
 2024-04-07,,Milan,Lecce,W,L
 2024-04-14,,Milan,Sassuolo,L,W
-2024-04-21,,Milan,Inter,L,L
 2024-04-28,,Milan,Juventus,L,W
 2024-05-05,,Milan,Genoa,L,L
 2024-05-12,,Milan,Cagliari,W,L
 2024-05-19,,Milan,Torino,L,W
 2024-05-26,,Milan,Salernitana,W,L
-2023-09-02,20:45,Monza,Atalanta,L,L
-2023-09-17,15:00,Monza,Lecce,W,L
-2023-09-24,,Monza,Lazio,L,L
+2023-09-17,15:00,Monza,Lecce,L,L
+2023-09-24,,Monza,Lazio,W,L
 2023-09-27,,Monza,Bologna,W,L
-2023-10-01,,Monza,Sassuolo,D,W
+2023-10-01,,Monza,Sassuolo,L,L
 2023-10-08,,Monza,Salernitana,W,L
 2023-10-22,,Monza,Roma,L,W
 2023-10-29,,Monza,Udinese,W,L
@@ -488,11 +457,10 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-23,,Monza,Fiorentina,W,L
 2023-12-30,,Monza,Napoli,L,L
 2024-01-07,,Monza,Frosinone,L,W
-2024-01-14,,Monza,Inter,L,L
 2024-01-21,,Monza,Empoli,L,W
 2024-01-28,,Monza,Sassuolo,W,L
 2024-02-04,,Monza,Udinese,L,W
-2024-02-11,,Monza,Hellas Verona,W,L
+2024-02-11,,Monza,Hellas Verona,L,L
 2024-02-18,,Monza,Milan,W,L
 2024-02-25,,Monza,Salernitana,L,W
 2024-03-03,,Monza,Roma,W,L
@@ -507,18 +475,16 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Monza,Fiorentina,L,W
 2024-05-19,,Monza,Frosinone,L,L
 2024-05-26,,Monza,Juventus,L,W
-2023-09-02,20:45,Napoli,Lazio,W,L
 2023-09-16,20:45,Napoli,Genoa,W,L
-2023-09-24,,Napoli,Bologna,W,L
+2023-09-24,,Napoli,Bologna,W,W
 2023-09-27,,Napoli,Udinese,W,L
-2023-10-01,,Napoli,Lecce,L,D
+2023-10-01,,Napoli,Lecce,L,W
 2023-10-08,,Napoli,Fiorentina,W,L
-2023-10-22,,Napoli,Hellas Verona,L,D
+2023-10-22,,Napoli,Hellas Verona,L,L
 2023-10-29,,Napoli,Milan,W,L
 2023-11-05,,Napoli,Salernitana,L,D
 2023-11-12,,Napoli,Empoli,W,L
 2023-11-26,,Napoli,Atalanta,W,D
-2023-12-03,,Napoli,Inter,L,L
 2023-12-10,,Napoli,Juventus,L,D
 2023-12-17,,Napoli,Cagliari,W,L
 2023-12-23,,Napoli,Roma,L,L
@@ -527,13 +493,12 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-01-14,,Napoli,Salernitana,W,L
 2024-01-21,,Napoli,Sassuolo,L,D
 2024-01-28,,Napoli,Lazio,L,D
-2024-02-04,,Napoli,Hellas Verona,W,L
+2024-02-04,,Napoli,Hellas Verona,L,L
 2024-02-11,,Napoli,Milan,L,D
 2024-02-18,,Napoli,Genoa,L,L
 2024-02-25,,Napoli,Cagliari,L,D
 2024-03-03,,Napoli,Juventus,L,L
 2024-03-10,,Napoli,Torino,W,L
-2024-03-17,,Napoli,Inter,L,D
 2024-03-30,,Napoli,Atalanta,W,L
 2024-04-07,,Napoli,Monza,L,D
 2024-04-14,,Napoli,Frosinone,L,L
@@ -543,14 +508,12 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-12,,Napoli,Bologna,W,L
 2024-05-19,,Napoli,Fiorentina,L,D
 2024-05-26,,Napoli,Lecce,W,L
-2023-09-01,20:45,Roma,Milan,W,L
 2023-09-17,20:45,Roma,Empoli,W,L
-2023-09-24,,Roma,Torino,W,L
-2023-09-27,,Roma,Genoa,W,L
+2023-09-24,,Roma,Torino,L,L
+2023-09-27,,Roma,Genoa,L,W
 2023-10-01,,Roma,Frosinone,W,L
 2023-10-08,,Roma,Cagliari,L,W
 2023-10-22,,Roma,Monza,W,L
-2023-10-29,,Roma,Inter,L,W
 2023-11-05,,Roma,Lecce,W,L
 2023-11-12,,Roma,Lazio,L,W
 2023-11-26,,Roma,Udinese,W,L
@@ -561,10 +524,9 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-12-30,,Roma,Juventus,L,W
 2024-01-07,,Roma,Atalanta,W,L
 2024-01-14,,Roma,Milan,L,W
-2024-01-21,,Roma,Hellas Verona,W,L
+2024-01-21,,Roma,Hellas Verona,L,L
 2024-01-28,,Roma,Salernitana,L,W
 2024-02-04,,Roma,Cagliari,W,L
-2024-02-11,,Roma,Inter,L,L
 2024-02-18,,Roma,Frosinone,L,W
 2024-02-25,,Roma,Torino,W,L
 2024-03-03,,Roma,Monza,L,W
@@ -580,10 +542,9 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-05-19,,Roma,Genoa,L,L
 2024-05-26,,Roma,Empoli,L,W
 2023-09-03,20:45,Salernitana,Lecce,L,W
-2023-09-18,18:30,Salernitana,Torino,D,D
+2023-09-18,18:30,Salernitana,Torino,L,D
 2023-09-24,,Salernitana,Frosinone,W,W
-2023-09-27,,Salernitana,Empoli,W,L
-2023-10-01,,Salernitana,Inter,W,W
+2023-09-27,,Salernitana,Empoli,W,W
 2023-10-08,,Salernitana,Monza,L,W
 2023-10-22,,Salernitana,Cagliari,W,L
 2023-10-29,,Salernitana,Genoa,L,W
@@ -601,7 +562,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-01-28,,Salernitana,Roma,W,L
 2024-02-04,,Salernitana,Torino,L,W
 2024-02-11,,Salernitana,Empoli,W,L
-2024-02-18,,Salernitana,Inter,L,W
 2024-02-25,,Salernitana,Monza,W,L
 2024-03-03,,Salernitana,Udinese,L,W
 2024-03-10,,Salernitana,Cagliari,L,W
@@ -613,15 +573,13 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-28,,Salernitana,Frosinone,L,W
 2024-05-05,,Salernitana,Atalanta,W,L
 2024-05-12,,Salernitana,Juventus,L,W
-2024-05-19,,Salernitana,Hellas Verona,W,L
+2024-05-19,,Salernitana,Hellas Verona,L,L
 2024-05-26,,Salernitana,Milan,L,W
-2023-09-01,18:30,Sassuolo,Hellas Verona,W,L
-2023-09-17,15:00,Sassuolo,Frosinone,D,W
+2023-09-17,15:00,Sassuolo,Frosinone,L,L
 2023-09-24,,Sassuolo,Juventus,L,W
-2023-09-27,,Sassuolo,Inter,L,W
-2023-10-01,,Sassuolo,Monza,W,D
-2023-10-08,,Sassuolo,Lecce,L,W
-2023-10-22,,Sassuolo,Lazio,W,L
+2023-10-01,,Sassuolo,Monza,L,L
+2023-10-08,,Sassuolo,Lecce,W,W
+2023-10-22,,Sassuolo,Lazio,L,L
 2023-10-29,,Sassuolo,Bologna,W,L
 2023-11-05,,Sassuolo,Torino,L,W
 2023-11-12,,Sassuolo,Salernitana,W,L
@@ -647,19 +605,17 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-14,,Sassuolo,Milan,W,L
 2024-04-21,,Sassuolo,Lecce,W,L
 2024-04-28,,Sassuolo,Fiorentina,L,W
-2024-05-05,,Sassuolo,Inter,L,L
 2024-05-12,,Sassuolo,Genoa,L,W
 2024-05-19,,Sassuolo,Cagliari,W,L
 2024-05-26,,Sassuolo,Lazio,L,W
 2023-09-03,18:30,Torino,Genoa,W,D
-2023-09-18,18:30,Torino,Salernitana,D,D
-2023-09-24,,Torino,Roma,L,W
+2023-09-18,18:30,Torino,Salernitana,D,L
+2023-09-24,,Torino,Roma,L,L
 2023-09-27,,Torino,Lazio,L,D
 2023-10-01,,Torino,Hellas Verona,W,L
 2023-10-08,,Torino,Juventus,L,W
-2023-10-22,,Torino,Inter,L,L
 2023-10-29,,Torino,Lecce,L,W
-2023-11-01,,Torino,Frosinone,W,L
+2023-11-01,,Torino,Frosinone,L,L
 2023-11-05,,Torino,Sassuolo,W,L
 2023-11-12,,Torino,Monza,L,W
 2023-11-26,,Torino,Bologna,W,W
@@ -683,14 +639,12 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-04-07,,Torino,Empoli,L,W
 2024-04-14,,Torino,Juventus,L,L
 2024-04-21,,Torino,Frosinone,L,L
-2024-04-28,,Torino,Inter,L,W
 2024-05-05,,Torino,Bologna,W,L
 2024-05-12,,Torino,Hellas Verona,L,W
 2024-05-19,,Torino,Milan,W,L
 2024-05-26,,Torino,Atalanta,W,W
-2023-09-02,18:30,Udinese,Frosinone,L,D
-2023-09-17,12:30,Udinese,Cagliari,L,D
-2023-09-24,,Udinese,Fiorentina,L,W
+2023-09-17,12:30,Udinese,Cagliari,L,W
+2023-09-24,,Udinese,Fiorentina,D,W
 2023-09-27,,Udinese,Napoli,L,W
 2023-10-01,,Udinese,Genoa,W,L
 2023-10-08,,Udinese,Empoli,D,W
@@ -700,8 +654,7 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2023-11-05,,Udinese,Milan,L,W
 2023-11-12,,Udinese,Atalanta,W,L
 2023-11-26,,Udinese,Roma,L,W
-2023-12-03,,Udinese,Hellas Verona,W,L
-2023-12-10,,Udinese,Inter,L,W
+2023-12-03,,Udinese,Hellas Verona,L,L
 2023-12-17,,Udinese,Sassuolo,W,L
 2023-12-23,,Udinese,Torino,L,D
 2023-12-30,,Udinese,Bologna,W,L
@@ -717,7 +670,6 @@ Date,Time,Team A,Team B,Prediction for Team A,Prediction for Team B
 2024-03-10,,Udinese,Lazio,L,W
 2024-03-17,,Udinese,Torino,W,L
 2024-03-30,,Udinese,Sassuolo,L,D
-2024-04-07,,Udinese,Inter,L,L
 2024-04-14,,Udinese,Roma,W,L
 2024-04-21,,Udinese,Hellas Verona,L,W
 2024-04-28,,Udinese,Bologna,W,W
