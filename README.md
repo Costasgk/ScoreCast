@@ -2,7 +2,7 @@
 
 ![ScoreCast Logo](ScoreCast.png)
 
-**ScoreCast** is an open-source web application designed to predict the outcomes of football games in six minor football leagues: Serie A Brazil, Serie B Brazil, Primera Division Argentina, J1 League Japan, Eliteserien Norway, and Veikkausliiga Finland. Powered by a DecisionTreeClassifier model, ScoreCast provides users with insights into which team is likely to win or lose a match, aiding football enthusiasts and bettors in making informed decisions.
+**ScoreCast**  is an open-source web application designed to predict the outcomes of football games in twelve diverse football leagues, providing comprehensive coverage of the global football landscape. Our platform now includes predictions for some of the most popular and competitive leagues in Europe, such as the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece. Powered by a DecisionTreeClassifier model, ScoreCast provides users with valuable insights into which team is likely to win or lose a match, aiding football enthusiasts and bettors in making well-informed decisions for a wide range of matches across different continents and football cultures.
 
 ## Features
 
