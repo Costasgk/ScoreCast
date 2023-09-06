@@ -67,13 +67,13 @@ footer {
 
     .header {
         font-size:8vh;
-        margin-left: -27px;
+        margin-left: -23px;
     }
 
     footer {
         padding: 0v 3vw 0vh 3vw;
         height: 1vh;
-        bottom: -50vh !important;
+        bottom: -45vh !important;
     }
 
     .container ul:nth-child(3){
