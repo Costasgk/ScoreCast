@@ -143,7 +143,7 @@ def display_finland():
 
     df['Time'] = df['Time'].fillna('Not announced yet')
 
-    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-05').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
+    df = df[(df['Date'].dt.date >= pd.to_datetime('2023-09-01').date()) & (df['Date'].dt.date < pd.to_datetime('2023-12-31').date())]
  
     table_html = df.to_html(index=False, classes='table table-bordered table-striped')
 
