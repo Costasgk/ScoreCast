@@ -8,7 +8,7 @@
 
 - Accurate Predictions: ScoreCast utilizes machine learning to analyze historical match data and make reliable predictions for upcoming games.
 - User-friendly Interface: The intuitive web interface allows users to input match details and instantly receive outcome predictions.
-- Multiple Leagues:ScoreCast now covers a broader range of football leagues, including top-tier leagues like the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece, in addition to the existing leagues from    Brazil, Argentina, Japan, Norway, and Finland.
+- Multiple Leagues: ScoreCast now covers a broader range of football leagues, including top-tier leagues like the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece, in addition to the existing leagues from    Brazil, Argentina, Japan, Norway, and Finland.
 - Ongoing Development: We believe in continuous improvement, and ScoreCast is an open-source project open to contributions from the community.
 
 ## How it Works
