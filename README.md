@@ -17,11 +17,11 @@ ScoreCast **scrapes data** from [FBREF](https://fbref.com/en/) to gather crucial
 
 ## Deployment
 
-ScoreCast is deployed on Heroku, ensuring a seamless and reliable user experience. The app was developed using Flask, a lightweight and versatile web framework, allowing for efficient handling of predictions and smooth navigation.
+ScoreCast is deployed on AWS, ensuring a seamless and reliable user experience. The app was developed using Flask, a lightweight and versatile web framework, allowing for efficient handling of predictions and smooth navigation.
 
 ## Getting Started
 
-To use ScoreCast, simply visit our website at [www.score-cast-3a6cb8fe5c50.herokuapp.com](https://score-cast-3a6cb8fe5c50.herokuapp.com/) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
+To use ScoreCast, simply visit our website at [http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com/] (scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com/) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
 
 ## Future Goals
 
