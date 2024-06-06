@@ -50,7 +50,7 @@ ScoreCast is released under the [MIT License](LICENSE), making it free and open 
 ## Support and Contact
 
 For any questions, feedback, or support, please feel free to reach out to us at costascg9@gmail.com or through our GitHub repository's [issues section](link_to_issues).
-
+[Telegram] (https://t.me/blackouttips)
 ---
 
 Join us in revolutionizing football game predictions with ScoreCast! Whether you're a sports enthusiast or a data science enthusiast, there's a place for you in our growing community of contributors. Let's score the future together!
