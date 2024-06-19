@@ -21,7 +21,7 @@ ScoreCast is deployed on AWS, ensuring a seamless and reliable user experience. 
 
 ## Getting Started
 
-To use ScoreCast, simply visit our website at [http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com](scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
+To use ScoreCast, simply visit our website at [http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com](http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
 
 ## Future Goals
 
