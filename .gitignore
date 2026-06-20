@@ -1,0 +1,14 @@
+# credentials
+Scripts/WebApp/config.yaml
+
+# database
+Scripts/WebApp/visits.db
+
+# python
+__pycache__/
+*.py[cod]
+env/
+.env
+
+# data (large files)
+Datasets/

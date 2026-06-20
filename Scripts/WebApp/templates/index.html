@@ -4,31 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScoreCast</title>
-    <link rel="stylesheet" href = "static/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Add Bootstrap JS (optional, but recommended for some interactive features) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/style.css">
 </head>
-<body>
-    <div class="container">
-        <h1 class="header">ScoreCast</h1>
-        <ul class="list-group">
-            <a href="/Serie-A-Brazil" class="list-group-item list-group-item-action">Serie A (Brazil)</a>
-            <a href="/Serie-B-Brazil"  class="list-group-item list-group-item-action">Serie B (Brazil)</a>
-            <a href="/Primera-Division-Argentina" class="list-group-item list-group-item-action">Primera Division (Argentina)</a>
-            <a href="/J1-League-Japan" class="list-group-item list-group-item-action">J1 League (Japan)</a>
-            <a href="/Eliteserien-Norway" class="list-group-item list-group-item-action">Eliteserien (Norway)</a>
-            <a href="/Veikkausliiga-Finland" class="list-group-item list-group-item-action">Veikkausliiga (Finland)</a>
-        </ul>
+<body class="page-index">
+
+<header class="sc-nav">
+    <span class="sc-nav-tag">{{ today }}</span>
+    <div class="sc-nav-actions">
+        <a href="/picks" class="sc-btn-dl">Best Picks</a>
+        <a href="/accuracy" class="sc-btn-dl">Model Accuracy</a>
     </div>
-    <footer>
-        <p>
-            Our football match predictions are for informational purposes only. 
-            We do not guarantee accuracy, and using the information for betting is at your own risk. 
-            We are not liable for any losses. Please gamble responsibly.
-        </p>
-    </footer>
+</header>
+
+<div class="sc-hero">
+    <h1 class="sc-title">ScoreCast</h1>
+</div>
+
+<main class="sc-main">
+
+    <!-- <p class="sc-section-label">Top Leagues</p> -->
+    <p class="sc-section-label">Leagues</p>
+    <div class="sc-grid">
+        <a href="/Premier-League-England" class="sc-card">
+            <span class="sc-country">England</span>
+            <span class="sc-league-name">Premier League</span>
+            <span class="sc-badge {% if status['Premier-League-England'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Premier-League-England'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Serie-A-Italy" class="sc-card">
+            <span class="sc-country">Italy</span>
+            <span class="sc-league-name">Serie A</span>
+            <span class="sc-badge {% if status['Serie-A-Italy'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Serie-A-Italy'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/La-Liga-Spain" class="sc-card">
+            <span class="sc-country">Spain</span>
+            <span class="sc-league-name">La Liga</span>
+            <span class="sc-badge {% if status['La-Liga-Spain'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['La-Liga-Spain'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Ligue-1-France" class="sc-card">
+            <span class="sc-country">France</span>
+            <span class="sc-league-name">Ligue 1</span>
+            <span class="sc-badge {% if status['Ligue-1-France'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Ligue-1-France'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Bundesliga-Germany" class="sc-card">
+            <span class="sc-country">Germany</span>
+            <span class="sc-league-name">Bundesliga</span>
+            <span class="sc-badge {% if status['Bundesliga-Germany'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Bundesliga-Germany'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+    </div>
+
+    <!-- <p class="sc-section-label">Other Leagues</p> -->
+    <div class="sc-grid">
+        <a href="/Serie-A-Brazil" class="sc-card">
+            <span class="sc-country">Brazil</span>
+            <span class="sc-league-name">Serie A</span>
+            <span class="sc-badge {% if status['Serie-A-Brazil'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Serie-A-Brazil'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Serie-B-Brazil" class="sc-card">
+            <span class="sc-country">Brazil</span>
+            <span class="sc-league-name">Serie B</span>
+            <span class="sc-badge {% if status['Serie-B-Brazil'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Serie-B-Brazil'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Super-League-Greece" class="sc-card">
+            <span class="sc-country">Greece</span>
+            <span class="sc-league-name">Super League</span>
+            <span class="sc-badge {% if status['Super-League-Greece'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Super-League-Greece'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Eliteserien-Norway" class="sc-card">
+            <span class="sc-country">Norway</span>
+            <span class="sc-league-name">Eliteserien</span>
+            <span class="sc-badge {% if status['Eliteserien-Norway'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Eliteserien-Norway'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+        <a href="/Veikkausliiga-Finland" class="sc-card">
+            <span class="sc-country">Finland</span>
+            <span class="sc-league-name">Veikkausliiga</span>
+            <span class="sc-badge {% if status['Veikkausliiga-Finland'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
+                {% if status['Veikkausliiga-Finland'] %}Active{% else %}Season Ended{% endif %}
+            </span>
+        </a>
+    </div>
+
+</main>
+
+<footer class="sc-footer">
+    Predictions are for informational purposes only. We do not guarantee accuracy. Please gamble responsibly.
+</footer>
+
 </body>
 </html>

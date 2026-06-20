@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Accuracy — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Home</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/simulator" class="sc-btn-dl">Simulator</a>
+    </div>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Model Accuracy</h1>
+    <p class="sc-page-meta">Dixon-Coles · Predicted vs Actual Outcomes · Last 12 Months</p>
+</div>
+
+<!-- Hero -->
+<div class="acc-hero">
+    <div class="acc-big-num">{{ overall }}%</div>
+    <div class="acc-big-label">Overall Prediction Accuracy</div>
+    <div class="acc-big-meta">{{ total_correct }} correct out of {{ total_matches }} matches across {{ results | length }} leagues</div>
+</div>
+
+<!-- Baseline comparison -->
+<div class="acc-baselines">
+    <div class="acc-base-card acc-base-model">
+        <div class="acc-base-num">{{ overall }}%</div>
+        <div class="acc-base-lbl">ScoreCast model</div>
+    </div>
+    <div class="acc-base-card">
+        <div class="acc-base-num">~46%</div>
+        <div class="acc-base-lbl">Always predict home win</div>
+    </div>
+    <div class="acc-base-card">
+        <div class="acc-base-num">33%</div>
+        <div class="acc-base-lbl">Random guessing</div>
+    </div>
+</div>
+
+<!-- Breakdown by actual outcome -->
+<div class="acc-breakdown">
+    <div class="acc-bd-title">Accuracy by Outcome Type</div>
+    <div class="acc-bd-grid">
+        <div class="acc-bd-card">
+            <div class="acc-bd-outcome">Home Wins</div>
+            <div class="acc-bd-pct">{{ agg_by_actual.H.pct }}%</div>
+            <div class="acc-bd-count">{{ agg_by_actual.H.correct }} / {{ agg_by_actual.H.total }}</div>
+        </div>
+        <div class="acc-bd-card">
+            <div class="acc-bd-outcome">Draws</div>
+            <div class="acc-bd-pct">{{ agg_by_actual.D.pct }}%</div>
+            <div class="acc-bd-count">{{ agg_by_actual.D.correct }} / {{ agg_by_actual.D.total }}</div>
+        </div>
+        <div class="acc-bd-card">
+            <div class="acc-bd-outcome">Away Wins</div>
+            <div class="acc-bd-pct">{{ agg_by_actual.A.pct }}%</div>
+            <div class="acc-bd-count">{{ agg_by_actual.A.correct }} / {{ agg_by_actual.A.total }}</div>
+        </div>
+    </div>
+</div>
+
+<!-- Per-league table -->
+<div class="rnk-table-wrap">
+<table class="rnk-table" id="accTable">
+    <thead>
+        <tr>
+            <th class="rnk-th">League</th>
+            <th class="rnk-th sortable active" data-col="accuracy">Accuracy</th>
+            <th class="rnk-th sortable" data-col="total">Matches</th>
+            <th class="rnk-th">Home Win %</th>
+            <th class="rnk-th">Draw %</th>
+            <th class="rnk-th">Away Win %</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for r in results %}
+        <tr data-accuracy="{{ r.accuracy }}" data-total="{{ r.total }}">
+            <td class="rnk-td rnk-td-team">
+                <a href="/rankings/{{ r.slug }}" class="dna-team-link">{{ r.title }}</a>
+            </td>
+            <td class="rnk-td rnk-td-stat">
+                <div class="acc-bar-wrap">
+                    <div class="acc-bar-track">
+                        <div class="acc-bar-fill" style="width:{{ r.accuracy }}%"></div>
+                    </div>
+                    <span class="acc-bar-val {% if r.accuracy >= 50 %}acc-good{% elif r.accuracy < 40 %}acc-bad{% endif %}">{{ r.accuracy }}%</span>
+                </div>
+            </td>
+            <td class="rnk-td rnk-td-stat">{{ r.total }}</td>
+            <td class="rnk-td rnk-td-stat">{{ r.by_actual.H.pct }}%<span class="acc-sub"> ({{ r.by_actual.H.correct }}/{{ r.by_actual.H.total }})</span></td>
+            <td class="rnk-td rnk-td-stat">{{ r.by_actual.D.pct }}%<span class="acc-sub"> ({{ r.by_actual.D.correct }}/{{ r.by_actual.D.total }})</span></td>
+            <td class="rnk-td rnk-td-stat">{{ r.by_actual.A.pct }}%<span class="acc-sub"> ({{ r.by_actual.A.correct }}/{{ r.by_actual.A.total }})</span></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+
+<div class="sc-note">
+    Accuracy = percentage of matches where the model's highest-probability outcome (home win / draw / away win) matched the actual result.
+    Evaluated on last 12 months of completed fixtures. Draws are the hardest outcome to predict in football — low draw accuracy is normal across all models.
+    Baseline: always predicting a home win gives ~46% accuracy historically.
+</div>
+
+<script>
+let sortCol = 'accuracy';
+let sortAsc = false;
+
+function sortTable() {
+    const tbody = document.querySelector('#accTable tbody');
+    const rows  = Array.from(tbody.querySelectorAll('tr'));
+    rows.sort((a, b) => {
+        const av = parseFloat(a.dataset[sortCol] ?? 0);
+        const bv = parseFloat(b.dataset[sortCol] ?? 0);
+        return sortAsc ? av - bv : bv - av;
+    });
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+document.querySelectorAll('.sortable').forEach(th => {
+    th.addEventListener('click', function () {
+        const col = this.dataset.col;
+        sortAsc = (col === sortCol) ? !sortAsc : false;
+        sortCol = col;
+        document.querySelectorAll('.sortable').forEach(h => h.classList.remove('active', 'asc'));
+        this.classList.add('active');
+        if (sortAsc) this.classList.add('asc');
+        sortTable();
+    });
+});
+</script>
+
+</body>
+</html>

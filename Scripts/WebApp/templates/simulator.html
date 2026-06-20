@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Simulator — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Leagues</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <span></span>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Match Simulator</h1>
+    <p class="sc-page-meta">Select any two teams from the same league</p>
+</div>
+
+<!-- Selector form -->
+<div class="sim-form">
+
+    <div class="sim-field">
+        <label class="sim-label">League</label>
+        <select id="leagueSelect" class="sim-select" onchange="onLeagueChange()">
+            <option value="">— choose a league —</option>
+            {% for league in leagues %}
+            <option value="{{ league.slug }}" data-teams="{{ league.teams | join(',') }}">
+                {{ league.title }}
+            </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="sim-matchup">
+        <div class="sim-field">
+            <label class="sim-label">Home Team</label>
+            <select id="homeSelect" class="sim-select" disabled>
+                <option value="">— home —</option>
+            </select>
+        </div>
+
+        <span class="sim-vs">vs</span>
+
+        <div class="sim-field">
+            <label class="sim-label">Away Team</label>
+            <select id="awaySelect" class="sim-select" disabled>
+                <option value="">— away —</option>
+            </select>
+        </div>
+    </div>
+
+    <button id="predictBtn" class="sim-btn" onclick="predict()" disabled>Predict</button>
+
+</div>
+
+<!-- Result card (hidden until prediction) -->
+<div id="result" class="sim-result" style="display:none">
+
+    <div class="sim-teams" id="simTeams"></div>
+
+    <div class="sim-stats">
+        <div class="sim-stat-block">
+            <div class="sim-stat-row">
+                <div class="sim-stat">
+                    <div class="sim-stat-label">Home Win</div>
+                    <div class="sim-stat-value" id="homeWin"></div>
+                </div>
+                <div class="sim-stat">
+                    <div class="sim-stat-label">Draw</div>
+                    <div class="sim-stat-value" id="draw"></div>
+                </div>
+                <div class="sim-stat">
+                    <div class="sim-stat-label">Away Win</div>
+                    <div class="sim-stat-value" id="awayWin"></div>
+                </div>
+            </div>
+            <div class="sim-stat-row sim-stat-row--secondary">
+                <div class="sim-stat">
+                    <div class="sim-stat-label">xG Home</div>
+                    <div class="sim-stat-value sim-stat-value--sm" id="xgHome"></div>
+                </div>
+                <div class="sim-stat">
+                    <div class="sim-stat-label">xG Away</div>
+                    <div class="sim-stat-value sim-stat-value--sm" id="xgAway"></div>
+                </div>
+                <div class="sim-stat">
+                    <div class="sim-stat-label">BTTS</div>
+                    <div class="sim-stat-value sim-stat-value--sm" id="btts"></div>
+                </div>
+                <div class="sim-stat">
+                    <div class="sim-stat-label">Over 2.5</div>
+                    <div class="sim-stat-value sim-stat-value--sm" id="over25"></div>
+                </div>
+            </div>
+            <div class="sim-scores" id="simScores"></div>
+        </div>
+
+        <!-- Scoreline heatmap -->
+        <div class="sim-heatmap-wrap">
+            <div class="sim-heatmap-title">Scoreline Probability</div>
+            <div class="sim-axis-label sim-axis-away" id="axisAway"></div>
+            <div class="sim-axis-label sim-axis-home" id="axisHome"></div>
+            <div id="heatmap" class="sim-heatmap"></div>
+        </div>
+    </div>
+
+</div>
+
+<div id="simError" class="sim-error" style="display:none"></div>
+
+<script>
+// Pre-fill from URL params (e.g. when arriving from Team DNA page)
+document.addEventListener('DOMContentLoaded', function () {
+    const p       = new URLSearchParams(window.location.search);
+    const leagueP = p.get('league');
+    const homeP   = p.get('home');
+    if (!leagueP) return;
+    const leagueEl = document.getElementById('leagueSelect');
+    leagueEl.value = leagueP;
+    onLeagueChange();
+    if (homeP) {
+        document.getElementById('homeSelect').value = homeP;
+        checkReady();
+    }
+});
+
+const leagueData = {};
+{% for league in leagues %}
+leagueData['{{ league.slug }}'] = {{ league.teams | tojson }};
+{% endfor %}
+
+function onLeagueChange() {
+    const slug  = document.getElementById('leagueSelect').value;
+    const teams = leagueData[slug] || [];
+    const home  = document.getElementById('homeSelect');
+    const away  = document.getElementById('awaySelect');
+
+    [home, away].forEach(sel => {
+        sel.innerHTML = '';
+        sel.disabled  = !teams.length;
+        const blank = document.createElement('option');
+        blank.value = ''; blank.textContent = '— select —';
+        sel.appendChild(blank);
+        teams.forEach(t => {
+            const opt = document.createElement('option');
+            opt.value = opt.textContent = t;
+            sel.appendChild(opt.cloneNode(true));
+        });
+    });
+
+    document.getElementById('predictBtn').disabled = true;
+    document.getElementById('result').style.display   = 'none';
+    document.getElementById('simError').style.display = 'none';
+
+    home.addEventListener('change', checkReady);
+    away.addEventListener('change', checkReady);
+}
+
+function checkReady() {
+    const ok = document.getElementById('homeSelect').value &&
+               document.getElementById('awaySelect').value &&
+               document.getElementById('homeSelect').value !== document.getElementById('awaySelect').value;
+    document.getElementById('predictBtn').disabled = !ok;
+}
+
+async function predict() {
+    const slug = document.getElementById('leagueSelect').value;
+    const home = document.getElementById('homeSelect').value;
+    const away = document.getElementById('awaySelect').value;
+
+    document.getElementById('predictBtn').textContent = 'Loading...';
+    document.getElementById('result').style.display   = 'none';
+    document.getElementById('simError').style.display = 'none';
+
+    const url  = `/api/simulate?league=${encodeURIComponent(slug)}&home=${encodeURIComponent(home)}&away=${encodeURIComponent(away)}`;
+    const resp = await fetch(url);
+    const data = await resp.json();
+
+    document.getElementById('predictBtn').textContent = 'Predict';
+
+    if (data.error) {
+        const el = document.getElementById('simError');
+        el.textContent = data.error;
+        el.style.display = 'block';
+        return;
+    }
+
+    renderResult(data, home, away);
+}
+
+function renderResult(d, home, away) {
+    document.getElementById('simTeams').textContent = `${home}  vs  ${away}`;
+    document.getElementById('homeWin').textContent  = d.home_win + '%';
+    document.getElementById('draw').textContent     = d.draw     + '%';
+    document.getElementById('awayWin').textContent  = d.away_win + '%';
+    document.getElementById('xgHome').textContent   = d.xg_home;
+    document.getElementById('xgAway').textContent   = d.xg_away;
+    document.getElementById('btts').textContent     = d.btts     + '%';
+    document.getElementById('over25').textContent   = d.over_2_5 + '%';
+
+    document.getElementById('simScores').innerHTML =
+        '<span class="sim-score-label">Top scores:</span> ' +
+        d.top3.map(([s, p]) => `<span class="sim-score-chip">${s} <em>${p}%</em></span>`).join('');
+
+    document.getElementById('axisAway').textContent = away + ' goals →';
+    document.getElementById('axisHome').textContent = home + ' goals →';
+
+    // Heatmap
+    const matrix = d.matrix;
+    const maxVal = Math.max(...matrix.flat());
+    const MAX    = 5;
+    let html     = '';
+
+    // Corner blank + away header (0–5)
+    html += '<div class="sim-hm-cell sim-hm-hdr"></div>';
+    for (let j = 0; j <= MAX; j++)
+        html += `<div class="sim-hm-cell sim-hm-hdr">${j}</div>`;
+
+    for (let i = 0; i <= MAX; i++) {
+        html += `<div class="sim-hm-cell sim-hm-hdr">${i}</div>`;
+        for (let j = 0; j <= MAX; j++) {
+            const val     = matrix[i][j];
+            const opacity = maxVal > 0 ? (val / maxVal) * 0.75 : 0;
+            const pct     = (val * 100).toFixed(1);
+            const bright  = opacity > 0.45 ? '#fff' : 'var(--ink)';
+            html += `<div class="sim-hm-cell" title="${i}-${j}: ${pct}%"
+                          style="background:rgba(26,26,26,${opacity});color:${bright}">
+                       ${pct}
+                     </div>`;
+        }
+    }
+
+    document.getElementById('heatmap').innerHTML = html;
+    document.getElementById('result').style.display = 'block';
+    document.getElementById('result').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+
+</body>
+</html>

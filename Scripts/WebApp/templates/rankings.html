@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model vs Reality — {{ title }} — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/{{ slug }}" class="sc-back">← {{ title }}</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/simulator" class="sc-btn-dl">Simulator</a>
+        <a href="/teams/{{ slug }}" class="sc-btn-dl">Team DNA</a>
+    </div>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Model vs Reality</h1>
+    <p class="sc-page-meta">{{ title }} &middot; Dixon-Coles Strength vs Actual Table</p>
+</div>
+
+{% if no_model %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No Model Data</div>
+    <div class="sc-empty-msg">Run ScorelineModel.py to generate ratings for this league.</div>
+</div>
+
+{% elif rows %}
+
+<!-- Spotlight -->
+{% if biggest_up or biggest_dn %}
+<div class="rnk-spotlight">
+    {% if biggest_up %}
+    <div class="rnk-spot-card rnk-spot-up">
+        <div class="rnk-spot-label">Running Hot</div>
+        <div class="rnk-spot-team">{{ biggest_up.name }}</div>
+        <div class="rnk-spot-meta">
+            Actual #{{ biggest_up.actual_rank }}
+            &nbsp;&middot;&nbsp;
+            Model strength #{{ biggest_up.model_rank }}
+        </div>
+        <span class="rnk-shift rnk-up rnk-big">&#9650; {{ biggest_up.delta }} places above prediction</span>
+    </div>
+    {% endif %}
+    {% if biggest_dn %}
+    <div class="rnk-spot-card rnk-spot-dn">
+        <div class="rnk-spot-label">Quality Not Showing</div>
+        <div class="rnk-spot-team">{{ biggest_dn.name }}</div>
+        <div class="rnk-spot-meta">
+            Actual #{{ biggest_dn.actual_rank }}
+            &nbsp;&middot;&nbsp;
+            Model strength #{{ biggest_dn.model_rank }}
+        </div>
+        <span class="rnk-shift rnk-dn rnk-big">&#9660; {{ biggest_dn.delta | abs }} places below prediction</span>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+
+<!-- Legend -->
+<div class="sc-legend">
+    <span class="sc-pill">Model Rank = team quality by Dixon-Coles strength score</span>
+    <span class="sc-pill rnk-pill-up">&#9650; Outperforming model quality</span>
+    <span class="sc-pill rnk-pill-dn">&#9660; Underperforming model quality</span>
+</div>
+
+<!-- Table -->
+<div class="rnk-table-wrap">
+<table class="rnk-table" id="rnkTable">
+    <thead>
+        <tr>
+            <th class="rnk-th rnk-th-num">Model #</th>
+            <th class="rnk-th sortable active" data-col="model_rank">Team</th>
+            <th class="rnk-th">Strength</th>
+            <th class="rnk-th sortable" data-col="actual_rank">Table #</th>
+            <th class="rnk-th sortable" data-col="pts">Pts</th>
+            <th class="rnk-th">W-D-L</th>
+            <th class="rnk-th sortable" data-col="gd">GD</th>
+            <th class="rnk-th sortable" data-col="delta">Shift</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in rows %}
+        <tr data-model-rank="{{ row.model_rank }}"
+            data-actual-rank="{{ row.actual_rank if row.actual_rank is not none else 999 }}"
+            data-pts="{{ row.pts if row.pts is not none else -1 }}"
+            data-gd="{{ row.gd if row.gd is not none else -99 }}"
+            data-delta="{{ row.delta if row.delta is not none else 0 }}"
+            class="{% if row.delta is not none and row.delta >= 4 %}rnk-row-up{% elif row.delta is not none and row.delta <= -4 %}rnk-row-dn{% endif %}">
+
+            <td class="rnk-td rnk-td-num">{{ row.model_rank }}</td>
+            <td class="rnk-td rnk-td-team">
+                <a href="/simulator?league={{ slug }}&amp;home={{ row.name_url }}"
+                   class="dna-team-link" title="Simulate with {{ row.name }}">{{ row.name }}</a>
+            </td>
+            <td class="rnk-td rnk-td-bar">
+                <div class="dna-bar-wrap">
+                    <div class="dna-bar-track">
+                        <div class="dna-bar-fill dna-bar-atk" style="width:{{ row.str_pct }}%"></div>
+                    </div>
+                    <span class="dna-bar-val">{{ row.str_pct | int }}</span>
+                </div>
+            </td>
+            <td class="rnk-td rnk-td-stat rnk-actual-pos">
+                {% if row.actual_rank is not none %}{{ row.actual_rank }}{% else %}—{% endif %}
+            </td>
+            <td class="rnk-td rnk-td-stat rnk-pts">
+                {% if row.pts is not none %}{{ row.pts }}{% else %}—{% endif %}
+            </td>
+            <td class="rnk-td rnk-td-stat rnk-wdl">
+                {% if row.wins is not none %}{{ row.wins }}-{{ row.draws }}-{{ row.losses }}{% else %}—{% endif %}
+            </td>
+            <td class="rnk-td rnk-td-stat rnk-gd">
+                {% if row.gd is not none %}{% if row.gd > 0 %}+{{ row.gd }}{% else %}{{ row.gd }}{% endif %}{% else %}—{% endif %}
+            </td>
+            <td class="rnk-td rnk-td-shift">
+                {% if row.delta is not none %}
+                    {% if row.delta > 0 %}
+                        <span class="rnk-shift rnk-up{% if row.delta >= 4 %} rnk-big{% endif %}">&#9650; {{ row.delta }}</span>
+                    {% elif row.delta < 0 %}
+                        <span class="rnk-shift rnk-dn{% if row.delta <= -4 %} rnk-big{% endif %}">&#9660; {{ row.delta | abs }}</span>
+                    {% else %}
+                        <span class="rnk-shift rnk-neutral">—</span>
+                    {% endif %}
+                {% else %}—{% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+
+<div class="sc-note">
+    Strength = Dixon-Coles net score (attack minus defense vulnerability), normalised 0&ndash;100 among current-season teams.
+    Shift = model rank minus actual rank — positive means outperforming underlying quality (running hot, expect regression);
+    negative means underperforming (results should recover). Last 12 months of fixtures.
+    Click any team name to open the Match Simulator.
+</div>
+
+{% else %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No Data</div>
+    <div class="sc-empty-msg">No match results found for this league.</div>
+</div>
+{% endif %}
+
+<script>
+let sortCol = 'model_rank';
+let sortAsc = true;
+const naturalAsc = { model_rank: true, actual_rank: true, pts: false, gd: false, delta: false };
+const dsMap = { model_rank: 'modelRank', actual_rank: 'actualRank', pts: 'pts', gd: 'gd', delta: 'delta' };
+
+function sortTable() {
+    const tbody = document.querySelector('#rnkTable tbody');
+    const rows  = Array.from(tbody.querySelectorAll('tr'));
+    const key   = dsMap[sortCol] || sortCol;
+    rows.sort((a, b) => {
+        const av = parseFloat(a.dataset[key] ?? 0);
+        const bv = parseFloat(b.dataset[key] ?? 0);
+        return sortAsc ? av - bv : bv - av;
+    });
+    rows.forEach(row => tbody.appendChild(row));
+}
+
+document.querySelectorAll('.sortable').forEach(th => {
+    th.addEventListener('click', function () {
+        const col = this.dataset.col;
+        sortAsc = (col === sortCol) ? !sortAsc : (naturalAsc[col] ?? true);
+        sortCol = col;
+        document.querySelectorAll('.sortable').forEach(h => h.classList.remove('active', 'asc'));
+        this.classList.add('active');
+        if (sortAsc) this.classList.add('asc');
+        sortTable();
+    });
+});
+</script>
+
+</body>
+</html>

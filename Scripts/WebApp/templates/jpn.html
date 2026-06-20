@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CSV Display</title>
+    <title>J1 League Japan</title>
     <!-- Add Bootstrap CSS (optional, but recommended for styling the table) -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Add Bootstrap JS (optional, but recommended for some interactive features) -->
@@ -12,7 +12,14 @@
 </head>
 <body>
     <div class="container mt-3 mb-3">
-        <h1>J1 League Japan</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>J1 League Japan</h1>
+                <a href="/J1-League-Japan-csv" class="btn btn-primary" >             
+                Download Full Schedule
+                </a>
+            </div>
+        </div>    
         {{ table_html | safe }}
         <div class="container-note">
             <p>

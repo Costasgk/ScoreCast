@@ -2,13 +2,13 @@
 
 ![ScoreCast Logo](ScoreCast.png)
 
-**ScoreCast** is an open-source web application designed to predict the outcomes of football games in six minor football leagues: Serie A Brazil, Serie B Brazil, Primera Division Argentina, J1 League Japan, Eliteserien Norway, and Veikkausliiga Finland. Powered by a DecisionTreeClassifier model, ScoreCast provides users with insights into which team is likely to win or lose a match, aiding football enthusiasts and bettors in making informed decisions.
+**ScoreCast**  is an open-source web application designed to predict the outcomes of football games in twelve diverse football leagues, providing comprehensive coverage of the global football landscape. Our platform now includes predictions for some of the most popular and competitive leagues in Europe, such as the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece. Powered by a DecisionTreeClassifier model, ScoreCast provides users with valuable insights into which team is likely to win or lose a match, aiding football enthusiasts and bettors in making well-informed decisions for a wide range of matches across different continents and football cultures.
 
 ## Features
 
 - Accurate Predictions: ScoreCast utilizes machine learning to analyze historical match data and make reliable predictions for upcoming games.
 - User-friendly Interface: The intuitive web interface allows users to input match details and instantly receive outcome predictions.
-- Multiple Leagues: Covering five minor football leagues, ScoreCast caters to fans and bettors interested in matches from Brazil, Argentina, Japan, Norway, and Finland.
+- Multiple Leagues: ScoreCast now covers a broader range of football leagues, including top-tier leagues like the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece, in addition to the existing leagues from    Brazil, Argentina, Japan, Norway, and Finland.
 - Ongoing Development: We believe in continuous improvement, and ScoreCast is an open-source project open to contributions from the community.
 
 ## How it Works
@@ -17,11 +17,11 @@ ScoreCast **scrapes data** from [FBREF](https://fbref.com/en/) to gather crucial
 
 ## Deployment
 
-ScoreCast is deployed on Heroku, ensuring a seamless and reliable user experience. The app was developed using Flask, a lightweight and versatile web framework, allowing for efficient handling of predictions and smooth navigation.
+ScoreCast is deployed on AWS, ensuring a seamless and reliable user experience. The app was developed using Flask, a lightweight and versatile web framework, allowing for efficient handling of predictions and smooth navigation.
 
 ## Getting Started
 
-To use ScoreCast, simply visit our website at [www.score-cast-3a6cb8fe5c50.herokuapp.com](https://score-cast-3a6cb8fe5c50.herokuapp.com/) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
+To use ScoreCast, simply visit our website at [http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com](http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
 
 ## Future Goals
 

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Picks — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Home</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/simulator" class="sc-btn-dl">Simulator</a>
+        <a href="/accuracy" class="sc-btn-dl">Accuracy</a>
+    </div>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Best Picks</h1>
+    <p class="sc-page-meta">Matches where the model has 65%+ confidence · Dixon-Coles</p>
+</div>
+
+{% if total == 0 %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No High-Confidence Picks</div>
+    <div class="sc-empty-msg">No upcoming matches with 65%+ confidence found. Check back when new fixtures are loaded.</div>
+</div>
+
+{% else %}
+
+<div class="picks-meta">
+    <span class="picks-count">{{ total }} picks across {{ grouped | length }} match days</span>
+    <div class="picks-legend">
+        <span class="picks-tier-badge tier-strong">80%+ Strong</span>
+        <span class="picks-tier-badge tier-value">65%+ Value</span>
+    </div>
+</div>
+
+{% for date_label, picks in grouped.items() %}
+<div class="picks-day">
+    <div class="picks-day-label">{{ date_label }}</div>
+    <div class="picks-grid">
+        {% for p in picks %}
+        <div class="pick-card {% if p.confidence >= 80 %}pick-strong{% endif %}">
+
+            <div class="pick-conf">
+                <span class="pick-conf-num">{{ p.confidence }}%</span>
+                {% if p.confidence >= 80 %}
+                <span class="picks-tier-badge tier-strong">Strong</span>
+                {% else %}
+                <span class="picks-tier-badge tier-value">Value</span>
+                {% endif %}
+            </div>
+
+            <div class="pick-teams">
+                <span class="pick-home {% if p.outcome_code == 'H' %}pick-winner{% endif %}">{{ p.home }}</span>
+                <span class="pick-vs">vs</span>
+                <span class="pick-away {% if p.outcome_code == 'A' %}pick-winner{% endif %}">{{ p.away }}</span>
+            </div>
+
+            <div class="pick-outcome">
+                <span class="pick-outcome-label outcome-{{ p.outcome_code }}">{{ p.outcome }}</span>
+            </div>
+
+            <div class="pick-stats">
+                <span class="pick-stat" title="Expected goals">xG {{ p.xg_home }}–{{ p.xg_away }}</span>
+                <span class="pick-stat-sep">·</span>
+                <span class="pick-stat" title="Most likely score">{{ p.score }}</span>
+                <span class="pick-stat-sep">·</span>
+                <span class="pick-stat" title="Over 2.5 goals">O2.5 {{ p.over_2_5 }}%</span>
+            </div>
+
+            <div class="pick-league">
+                <a href="/{{ p.slug }}" class="pick-league-link">{{ p.league }}</a>
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+<div class="sc-note">
+    Picks shown where the model assigns 65%+ probability to a single outcome.
+    Higher confidence = more dominant team quality gap, not a guarantee.
+    Always check team news and context before acting on any prediction.
+</div>
+
+{% endif %}
+
+</body>
+</html>

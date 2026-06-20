@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Stats — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .stats-hero { display:flex; gap:1.5rem; justify-content:center; flex-wrap:wrap; margin:2rem auto; max-width:760px; }
+        .stats-hero-card { background:var(--card-bg,#1a1a2e); border:1px solid var(--border,#2a2a4a); border-radius:12px; padding:1.5rem 2rem; text-align:center; min-width:140px; }
+        .stats-hero-num { font-size:2.2rem; font-weight:700; color:var(--accent,#6c8eff); }
+        .stats-hero-sub { font-size:.8rem; color:#6c8eff88; margin-top:.1rem; }
+        .stats-hero-lbl { font-size:.75rem; color:#888; margin-top:.4rem; text-transform:uppercase; letter-spacing:.05em; }
+
+        .stats-section { max-width:760px; margin:2rem auto; padding:0 1rem; }
+        .stats-section-title { font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; color:#666; margin-bottom:1rem; }
+
+        .bar-row { display:flex; align-items:center; gap:.75rem; margin-bottom:.55rem; }
+        .bar-day { font-size:.75rem; color:#888; width:52px; flex-shrink:0; }
+        .bar-track { flex:1; background:#1e1e3a; border-radius:4px; height:18px; overflow:hidden; }
+        .bar-fill { height:100%; background:var(--accent,#6c8eff); border-radius:4px; }
+        .bar-val { font-size:.75rem; color:#ccc; width:20px; text-align:right; flex-shrink:0; }
+        .bar-uip { font-size:.7rem; color:#666; width:54px; text-align:right; flex-shrink:0; }
+
+        .page-row { display:flex; justify-content:space-between; align-items:center; padding:.5rem .75rem; border-radius:8px; margin-bottom:.35rem; background:#1a1a2e; }
+        .page-path { font-size:.85rem; color:#ccc; font-family:monospace; }
+        .page-counts { display:flex; gap:1rem; align-items:center; }
+        .page-cnt { font-size:.85rem; color:var(--accent,#6c8eff); font-weight:600; }
+        .page-uip { font-size:.75rem; color:#666; }
+
+        .ip-table { width:100%; border-collapse:collapse; font-size:.82rem; }
+        .ip-table th { text-align:left; color:#555; font-weight:500; padding:.4rem .6rem; border-bottom:1px solid #2a2a4a; font-size:.72rem; text-transform:uppercase; letter-spacing:.05em; }
+        .ip-table td { padding:.45rem .6rem; border-bottom:1px solid #1e1e3a; color:#ccc; }
+        .ip-table tr:last-child td { border-bottom:none; }
+        .ip-table tr:hover td { background:#1e1e3a; }
+        .ip-addr { font-family:monospace; color:#6c8eff; }
+        .ip-num  { color:#ccc; font-weight:600; }
+        .ip-ts   { color:#555; font-size:.75rem; }
+    </style>
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Home</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right"></div>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Site Stats</h1>
+    <p class="sc-page-meta">Unique visitors per session window · bots excluded · UTC</p>
+</div>
+
+<div class="stats-hero">
+    <div class="stats-hero-card">
+        <div class="stats-hero-num">{{ total }}</div>
+        <div class="stats-hero-sub">{{ unique_ips }} unique IPs</div>
+        <div class="stats-hero-lbl">All-time visits</div>
+    </div>
+    <div class="stats-hero-card">
+        <div class="stats-hero-num">{{ today }}</div>
+        <div class="stats-hero-sub">{{ today_ips }} unique IPs</div>
+        <div class="stats-hero-lbl">Today</div>
+    </div>
+</div>
+
+<div class="stats-section">
+    <div class="stats-section-title">Last 14 days — visits / unique IPs</div>
+    {% if daily %}
+        {% for row in daily %}
+        <div class="bar-row">
+            <span class="bar-day">{{ row.day[5:] }}</span>
+            <div class="bar-track">
+                <div class="bar-fill" style="width:{{ (row.cnt / max_day * 100) | round(1) }}%"></div>
+            </div>
+            <span class="bar-val">{{ row.cnt }}</span>
+            <span class="bar-uip">{{ row.uips }} IP{{ 's' if row.uips != 1 }}</span>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p style="color:#666;font-size:.85rem;">No visits recorded yet.</p>
+    {% endif %}
+</div>
+
+<div class="stats-section">
+    <div class="stats-section-title">Top pages — visits / unique IPs</div>
+    {% for row in pages %}
+    <div class="page-row">
+        <span class="page-path">{{ row.path }}</span>
+        <div class="page-counts">
+            <span class="page-uip">{{ row.uips }} IP{{ 's' if row.uips != 1 }}</span>
+            <span class="page-cnt">{{ row.cnt }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% if ip_breakdown %}
+<div class="stats-section">
+    <div class="stats-section-title">Visitors by IP — sorted by visits</div>
+    <table class="ip-table">
+        <thead>
+            <tr>
+                <th>IP Address</th>
+                <th>Visits</th>
+                <th>Distinct Pages</th>
+                <th>First Seen (UTC)</th>
+                <th>Last Seen (UTC)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in ip_breakdown %}
+            <tr>
+                <td class="ip-addr">{{ row.ip }}</td>
+                <td class="ip-num">{{ row.visits }}</td>
+                <td class="ip-num">{{ row.pages }}</td>
+                <td class="ip-ts">{{ row.first }}</td>
+                <td class="ip-ts">{{ row.last }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
+</body>
+</html>

@@ -5,7 +5,12 @@ from datetime import datetime, date
 
 
 def read_file(path):
-    df = pd.read_csv(path)
+    df = pd.read_csv(path, index_col=0, low_memory=False)
+    df.columns = [c.lower() for c in df.columns]
+
+    # FBref tables embed repeated header rows in tbody — drop them
+    if 'date' in df.columns:
+        df = df[df['date'].astype(str).str.lower() != 'date']
 
     if 'sh.1' in df.columns:
         df = df.drop(['sh.1'], axis = 1)
@@ -55,16 +60,16 @@ def cleaning(df):
     if df['result'].isnull().any():
         df['result'] = df['result'].fillna(df['result'].value_counts().idxmax())
 
+    for col in ['poss', 'gf', 'ga', 'gls', 'sh', 'sot', 'sot%', 'g/sh', 'g/sot', 'pk', 'pkatt']:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+
     if df['poss'].isnull().all():
         df = df.drop(['poss'], axis = 1)
     else:
         df['poss'] = df['poss'].fillna(df['poss'].mean())
-    
-    if df['gf'].isnull().any() & df['ga'].isnull().any():
-        df['gf'] = pd.to_numeric(df['gf'], errors='coerce')
-        df['ga'] = pd.to_numeric(df['gf'], errors='coerce')
-        df['gf'] = df['gf'].fillna(df['gf'].mean())
-        df['ga'] = df['ga'].fillna(df['ga'].mean())
+
+    # gf/ga left as NaN where missing — fake mean-filled goals corrupt the model
 
     df['referee'] = df['referee'].fillna(df['referee'].value_counts().idxmax())
     df['gls'] = df['gls'].fillna(df['gls'].mean())
@@ -84,10 +89,14 @@ def cleaning(df):
 
     return df
 
-def export_df(path, df):
-    filename = path.split('/')[3]
-    export = df.to_csv('../Datasets/Cleaned Datasets/' + filename)
-    print('CSV exported >', filename)
+def export_df(path, df, out_name=None):
+    if out_name is None:
+        out_name = path.split('/')[3]
+    out_path = '../Datasets/Cleaned Datasets/' + out_name
+    df.to_csv(out_path)
+    years = sorted(df['year'].dropna().unique().astype(int)) if 'year' in df.columns else []
+    year_range = f"{years[0]}-{years[-1]}" if years else "unknown"
+    print(f"  Exported: {out_name:<40} {len(df):>6} rows  |  years {year_range}")
     return 'CSV exported'
 
 def export_df_test(path,df):
@@ -103,24 +112,28 @@ def export_df_test(path,df):
 
 
 def process():
-    path_jpn = '../Datasets/Scrapped Datasets/J1_League_Stats.csv'
-    path_agentinaA = '../Datasets/Scrapped Datasets/Primera-Division-Stats.csv'
-    path_brazilA = '../Datasets/Scrapped Datasets/Serie-A-Stats.csv'
-    path_brazilB = '../Datasets/Scrapped Datasets/Serie-B-Stats.csv'
-    path_norwayA = '../Datasets/Scrapped Datasets/Eliteserien-Stats.csv'
-    path_finlandA = '../Datasets/Scrapped Datasets/Veikkausliiga-Stats.csv'
+    # (scrapped input, cleaned output name)
+    leagues = [
+        ('../Datasets/Scrapped Datasets/Serie_A_Stats.csv',             'Brazil_Serie_A.csv'),
+        ('../Datasets/Scrapped Datasets/Serie_B_Stats.csv',             'Brazil_Serie_B.csv'),
+        ('../Datasets/Scrapped Datasets/Eliteserien_Stats.csv',         'Norway_Eliteserien.csv'),
+        ('../Datasets/Scrapped Datasets/Veikkausliiga_Stats.csv',       'Finland_Veikkausliiga.csv'),
+        ('../Datasets/Scrapped Datasets/Super_League_Greece_Stats.csv', 'Greece_Super_League.csv'),
+        ('../Datasets/Scrapped Datasets/Premier_League_Stats.csv',      'England_Premier_League.csv'),
+        ('../Datasets/Scrapped Datasets/Serie_A_Stats_Italy.csv',       'Italy_Serie_A.csv'),
+        ('../Datasets/Scrapped Datasets/La_Liga_Stats.csv',             'Spain_La_Liga.csv'),
+        ('../Datasets/Scrapped Datasets/Bundesliga_Stats.csv',          'Germany_Bundesliga.csv'),
+        ('../Datasets/Scrapped Datasets/Ligue_1_Stats.csv',             'France_Ligue_1.csv'),
+    ]
 
-    paths = [path_jpn, path_agentinaA, path_brazilA, path_brazilB, path_norwayA, path_finlandA]
-
-    for path in paths:
+    print()
+    print('  ScoreCast Cleaner  |  10 leagues')
+    print()
+    for path, out_name in leagues:
         df = read_file(path)
-        # df, df_test = split_dataset(df)
         df = cleaning(df)
-        # df = label_encoding(df)
-        df = export_df(path,df)
-
-        # df_test = label_encoding(df_test)
-        # df_test = export_df_test(path, df_test)
+        export_df(path, df, out_name)
+    print()
 
 if __name__ == "__main__":
     process()

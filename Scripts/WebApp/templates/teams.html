@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team DNA — {{ title }} — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/{{ slug }}" class="sc-back">← {{ title }}</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/simulator" class="sc-btn-dl">Simulator</a>
+        <a href="/rankings/{{ slug }}" class="sc-btn-dl">Rankings</a>
+    </div>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Team DNA</h1>
+    <p class="sc-page-meta">{{ title }} &middot; Dixon-Coles Attack &amp; Defense Ratings</p>
+</div>
+
+{% if no_model %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No Model Data</div>
+    <div class="sc-empty-msg">Run ScorelineModel.py to generate team ratings for this league.</div>
+</div>
+
+{% elif teams %}
+
+<div class="dna-legend">
+    <div class="dna-legend-item">
+        <div class="dna-legend-swatch dna-swatch-atk"></div>
+        <span>Attack — higher = stronger scoring threat vs league baseline</span>
+    </div>
+    <div class="dna-legend-item">
+        <div class="dna-legend-swatch dna-swatch-def"></div>
+        <span>Defense — higher = harder to score against (defensive solidity)</span>
+    </div>
+</div>
+
+<div class="dna-table-wrap">
+<table class="dna-table" id="dnaTable">
+    <thead>
+        <tr>
+            <th class="dna-th dna-th-num">#</th>
+            <th class="dna-th sortable" data-col="name">Team</th>
+            <th class="dna-th dna-th-form">Last 5</th>
+            <th class="dna-th sortable active" data-col="atk">Ratings</th>
+            <th class="dna-th sortable" data-col="gf">G/G</th>
+            <th class="dna-th sortable" data-col="ga">C/G</th>
+            <th class="dna-th sortable" data-col="win">Win%</th>
+            <th class="dna-th sortable dna-th-muted" data-col="gp">GP</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for team in teams %}
+        <tr data-name="{{ team.name }}"
+            data-atk="{{ team.atk_pct }}"
+            data-def="{{ team.def_pct }}"
+            data-gf="{{ team.gf_avg if team.gf_avg is not none else -1 }}"
+            data-ga="{{ team.ga_avg if team.ga_avg is not none else 99 }}"
+            data-win="{{ team.win_pct if team.win_pct is not none else -1 }}"
+            data-gp="{{ team.games if team.games is not none else 0 }}">
+            <td class="dna-td dna-td-num">{{ loop.index }}</td>
+            <td class="dna-td dna-td-team">
+                <a href="/simulator?league={{ slug }}&amp;home={{ team.name_url }}"
+                   class="dna-team-link" title="Simulate with {{ team.name }}">{{ team.name }}</a>
+            </td>
+            <td class="dna-td dna-td-form">
+                <div class="form-strip">
+                    {% for r in team.form %}
+                    <span class="form-sq form-{{ r }}" title="{{ r }}"></span>
+                    {% endfor %}
+                    {% for _ in range(5 - (team.form | length)) %}
+                    <span class="form-sq form-empty"></span>
+                    {% endfor %}
+                </div>
+            </td>
+            <td class="dna-td dna-td-ratings">
+                <div class="dna-ratings-stack">
+                    <div class="dna-rating-row">
+                        <span class="dna-rating-lbl">ATK</span>
+                        <div class="dna-bar-bg">
+                            <div class="dna-bar-fill dna-bar-atk" style="width:{{ team.atk_pct }}%"></div>
+                        </div>
+                        <span class="dna-bar-num">{{ team.atk_pct | int }}</span>
+                    </div>
+                    <div class="dna-rating-row">
+                        <span class="dna-rating-lbl">DEF</span>
+                        <div class="dna-bar-bg">
+                            <div class="dna-bar-fill dna-bar-def" style="width:{{ team.def_pct }}%"></div>
+                        </div>
+                        <span class="dna-bar-num">{{ team.def_pct | int }}</span>
+                    </div>
+                </div>
+            </td>
+            <td class="dna-td dna-td-stat">{{ team.gf_avg if team.gf_avg is not none else '—' }}</td>
+            <td class="dna-td dna-td-stat">{{ team.ga_avg if team.ga_avg is not none else '—' }}</td>
+            <td class="dna-td dna-td-stat{% if team.win_pct is not none and team.win_pct > 50 %} dna-stat-hi{% endif %}">
+                {% if team.win_pct is not none %}{{ team.win_pct }}%{% else %}—{% endif %}
+            </td>
+            <td class="dna-td dna-td-stat dna-td-muted">{{ team.games if team.games is not none else '—' }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+
+<div class="sc-note">
+    Attack and Defense are Dixon-Coles parameters normalised to 0&ndash;100 within this league. Ratings column sorts by Attack.
+    G/G&nbsp;= goals scored per game, C/G&nbsp;= goals conceded per game. Stats cover the last two seasons.
+    Click a team name to open the Match Simulator.
+</div>
+
+{% else %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No Teams Found</div>
+    <div class="sc-empty-msg">Model parameters are not available for this league.</div>
+</div>
+{% endif %}
+
+<script>
+let sortCol = 'atk';
+let sortAsc = false;
+const naturalAsc = { name: true, atk: false, def: false, gf: false, ga: true, win: false, gp: false };
+
+function sortTable() {
+    const tbody = document.querySelector('#dnaTable tbody');
+    const rows  = Array.from(tbody.querySelectorAll('tr'));
+    rows.sort((a, b) => {
+        const av = a.dataset[sortCol];
+        const bv = b.dataset[sortCol];
+        if (sortCol === 'name') return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+        return sortAsc ? parseFloat(av) - parseFloat(bv) : parseFloat(bv) - parseFloat(av);
+    });
+    rows.forEach((row, i) => {
+        row.querySelector('.dna-td-num').textContent = i + 1;
+        tbody.appendChild(row);
+    });
+}
+
+document.querySelectorAll('.sortable').forEach(th => {
+    th.addEventListener('click', function () {
+        const col = this.dataset.col;
+        sortAsc = (col === sortCol) ? !sortAsc : naturalAsc[col];
+        sortCol = col;
+        document.querySelectorAll('.sortable').forEach(h => h.classList.remove('active', 'asc'));
+        this.classList.add('active');
+        if (sortAsc) this.classList.add('asc');
+        sortTable();
+    });
+});
+</script>
+
+</body>
+</html>
