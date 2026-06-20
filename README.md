@@ -1,59 +1,113 @@
-# ScoreCast - Football Game Outcome Predictor
+# ScoreCast
 
-![ScoreCast Logo](ScoreCast.png)
+![ScoreCast](ScoreCast.png)
 
-**ScoreCast**  is an open-source web application designed to predict the outcomes of football games in twelve diverse football leagues, providing comprehensive coverage of the global football landscape. Our platform now includes predictions for some of the most popular and competitive leagues in Europe, such as the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece. Powered by a DecisionTreeClassifier model, ScoreCast provides users with valuable insights into which team is likely to win or lose a match, aiding football enthusiasts and bettors in making well-informed decisions for a wide range of matches across different continents and football cultures.
+A football match prediction web app powered by the **Dixon-Coles Poisson model** — covering 11 leagues across Europe, South America, and Asia.
 
-## Features
-
-- Accurate Predictions: ScoreCast utilizes machine learning to analyze historical match data and make reliable predictions for upcoming games.
-- User-friendly Interface: The intuitive web interface allows users to input match details and instantly receive outcome predictions.
-- Multiple Leagues: ScoreCast now covers a broader range of football leagues, including top-tier leagues like the Premier League England, Serie A Italy, La Liga Spain, Ligue 1 France, Bundesliga Germany, and Super League Greece, in addition to the existing leagues from    Brazil, Argentina, Japan, Norway, and Finland.
-- Ongoing Development: We believe in continuous improvement, and ScoreCast is an open-source project open to contributions from the community.
-
-## How it Works
-
-ScoreCast **scrapes data** from [FBREF](https://fbref.com/en/) to gather crucial information on team performance and player statistics. This data is then fed into a trained **DecisionTreeClassifier model**, which evaluates various factors to predict the likelihood of a win or loss for each team.
-
-## Deployment
-
-ScoreCast is deployed on AWS, ensuring a seamless and reliable user experience. The app was developed using Flask, a lightweight and versatile web framework, allowing for efficient handling of predictions and smooth navigation.
-
-## Getting Started
-
-To use ScoreCast, simply visit our website at [http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com](http://scorecast-env.eba-dixbcmhw.eu-central-1.elasticbeanstalk.com) and follow the straightforward instructions to obtain game predictions. For developers interested in contributing or enhancing the app, check out our [contribution guidelines](CONTRIBUTING.md) to get started.
-
-## Future Goals
-
-We have exciting plans for the future development of ScoreCast. Here are some key areas we intend to focus on:
-
-1. **Enhance Model Accuracy**: Continuously improve the prediction model to achieve even higher precision and reliability. Explore the adoption of state-of-the-art machine learning techniques and fine-tune algorithms for optimal results.
-
-2. **Expand Data Sources**: Add support for additional football leagues and leverage a broader range of comprehensive and up-to-date data to bolster predictions.
-
-3. **Efficiency Improvements**: Optimize data scraping and processing pipelines for faster and more efficient updates, ensuring timely and accurate insights.
-
-4. **Advanced Prediction Models**: Investigate and implement cutting-edge machine learning models to elevate prediction accuracy to new levels.
-
-5. **User Interface Refinement**: Enhance the user interface to offer a seamless and intuitive experience, empowering users with valuable insights into match outcomes.
-
-## Share Your Ideas
-
-We welcome ideas and suggestions from the community. If you have any feature requests or improvements in mind, feel free to open an issue or start a discussion in the GitHub Issues section.
-
-We're committed to making ScoreCast the best football game outcome predictor, and your feedback and contributions play a crucial role in achieving that goal.
-
-## License
-
-ScoreCast is released under the [MIT License](LICENSE), making it free and open for everyone to use, modify, and distribute.
-
-## Support and Contact
-
-For any questions, feedback, or support, please feel free to reach out to us at costascg9@gmail.com or through our GitHub repository's [issues section](link_to_issues).
+🌐 **Live at [costas.pythonanywhere.com](https://costas.pythonanywhere.com)**
 
 ---
 
-Join us in revolutionizing football game predictions with ScoreCast! Whether you're a sports enthusiast or a data science enthusiast, there's a place for you in our growing community of contributors. Let's score the future together!
+## What it does
 
-**Disclaimer:** ScoreCast predictions are made based on historical data and statistical analysis. While our model aims to provide accurate predictions, we cannot guarantee the outcome of any football match. Users are encouraged to use predictions responsibly and for entertainment purposes only.
+ScoreCast scrapes historical match data from [FBref](https://fbref.com), fits a Dixon-Coles model per league, and generates predictions for all upcoming fixtures. For each match it produces:
 
+- Win / Draw / Loss probabilities
+- Expected goals (xG) for each team
+- Full scoreline distribution (0-0 through 5-5)
+- Most likely score & top 3 scorelines
+- Both Teams to Score %
+- Over 1.5 / 2.5 / 3.5 goals %
+
+## Leagues covered
+
+| League | Country |
+|--------|---------|
+| Premier League | England |
+| Serie A | Italy |
+| La Liga | Spain |
+| Ligue 1 | France |
+| Bundesliga | Germany |
+| Super League | Greece |
+| Serie A | Brazil |
+| Serie B | Brazil |
+| Eliteserien | Norway |
+| Veikkausliiga | Finland |
+| J1 League | Japan |
+
+## Features
+
+- **Best Picks** — fixtures where the model has 65%+ confidence, grouped by date
+- **Simulator** — pick any two teams from any league and run a custom matchup
+- **Rankings** — model strength ranking vs actual league standings, with over/underperformer highlights
+- **Team DNA** — attack/defence ratings, win %, goals scored/conceded, last 5 form
+- **Model Accuracy** — backtested accuracy across all leagues for the last 12 months
+- **Visitor Stats** — lightweight analytics dashboard at `/stats`
+
+## How it works
+
+```
+Scrapping.py  →  Cleaning.py  →  ScorelineModel.py  →  Flask web app
+   FBref            clean &           Dixon-Coles          serves
+  scraper          validate           Poisson fit         predictions
+```
+
+1. **Scraping** — `undetected_chromedriver` bypasses Cloudflare on FBref; incremental saves per season; persistent Chrome profile so Cloudflare only needs solving once
+2. **Cleaning** — normalises columns, filters bad rows, exports per-league CSVs
+3. **Modelling** — fits attack/defence parameters per team via maximum likelihood (L-BFGS-B); exponential time-decay (half-life ~107 days) weights recent matches far more than old ones; Dixon-Coles low-score correction adjusts 0-0, 1-0, 0-1, 1-1 probabilities
+4. **Pipeline** — `pipeline.py` orchestrates all three steps with smart staleness detection
+
+## Running locally
+
+```bash
+# 1. Clone and set up environment
+git clone https://github.com/Costasgk/ScoreCast.git
+cd ScoreCast
+python -m venv env
+env\Scripts\activate        # Windows
+pip install -r requirements.txt
+
+# 2. Run the pipeline (scrape → clean → predict)
+cd Scripts
+python pipeline.py
+
+# 3. Start the web app
+cd WebApp
+python app.py
+```
+
+The app runs at `http://127.0.0.1:5000`.
+
+> **Note:** First-time scraping takes several hours (FBref rate limits). Subsequent runs are incremental and much faster.
+
+## Project structure
+
+```
+Scripts/
+├── Scrapping.py        # FBref scraper
+├── Cleaning.py         # data cleaning
+├── ScorelineModel.py   # Dixon-Coles model
+├── pipeline.py         # orchestrates scrape → clean → predict
+└── WebApp/
+    ├── app.py          # Flask app
+    ├── templates/      # HTML templates
+    └── static/         # CSS, fonts, favicon
+
+Datasets/
+├── Scrapped Datasets/  # raw FBref output
+├── Cleaned Datasets/   # cleaned per-league CSVs
+├── Predictions/        # upcoming fixture predictions
+└── Models/             # fitted model parameters (JSON)
+```
+
+## Deployment
+
+Hosted on **PythonAnywhere** (free tier). To redeploy after regenerating predictions:
+
+1. Rebuild the deployment zip locally
+2. Upload to PythonAnywhere Files tab
+3. Unzip and hit Reload on the Web tab
+
+## License
+
+MIT — free to use, modify, and distribute.
