@@ -13,11 +13,20 @@ env/
 # data (large files)
 Datasets/
 
-# Raw EuroLeague/EuroCup source CSVs — 877 MB, and two single files are over
-# GitHub's 100 MB hard limit, so committing these would have the push rejected.
-# They are inputs, not outputs: Scripts/Euroleague_scripts rebuilds everything
-# downstream from them.
-Euroloeague Dataset/
+# Raw EuroLeague/EuroCup source CSVs — 877 MB in total, and the play-by-play
+# files alone are several times GitHub's 100 MB per-file limit, so committing
+# the folder wholesale would have the push rejected outright.
+#
+# Only two of the fourteen are ever read (EuroleagueData.py): *_header.csv and
+# *_box_score.csv, ~33 MB together. Those ship, so a fresh clone can fit the
+# basketball models without sourcing anything. The rest — play_by_play, points,
+# players — are referenced by no code and stay local.
+#
+# Exclude the CONTENTS rather than the directory: git cannot re-include a file
+# whose parent directory is itself excluded, so `!` rules below would not work.
+Euroloeague Dataset/*
+!Euroloeague Dataset/*_header.csv
+!Euroloeague Dataset/*_box_score.csv
 
 # Legacy random-forest model artefact. Kept on disk deliberately, but it is a
 # 6.4 MB binary that Modelling.py regenerates, and every other fitted model

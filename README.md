@@ -96,6 +96,9 @@ better failure.
 
 ## Running locally
 
+No data files to source and no API keys. The repository ships the basketball
+history, and the football results are fetched on first run.
+
 ```bash
 git clone https://github.com/Costasgk/ScoreCast.git
 cd ScoreCast
@@ -106,6 +109,30 @@ pip install -r requirements.txt
 python Scripts/refresh.py        # fetch, fit, predict, project
 python Scripts/WebApp/app.py     # http://127.0.0.1:5000
 ```
+
+`Datasets/` is not in the repository — it is rebuilt, not downloaded. The first
+`refresh.py` creates it and fills it: 36 leagues of results arrive from
+football-data.co.uk in about 30 seconds, then every league is fitted and
+predicted. Tested from a clean checkout on Python 3.12.
+
+Pages that need a step you have not run yet say so rather than breaking — the
+projection page asks you to run `simulate_season.py`, the benchmark page asks for
+`benchmark.py --all --save`.
+
+### Basketball
+
+EuroLeague and EuroCup work straight after cloning. `Euroloeague Dataset/`
+carries the two files the models read — `*_header.csv` and `*_box_score.csv`,
+19 seasons of finished games — and the current season's results and fixtures come
+from `api-live.euroleague.net`, which needs no key.
+
+```bash
+python Scripts/Euroleague_scripts/run.py
+```
+
+The larger exports from the same source (play-by-play, points, per-player rows)
+are not included: no code reads them, and the play-by-play files alone are
+several times GitHub's per-file limit.
 
 `refresh.py` is the one command to run after time away. It fetches results and
 calendars, refits all 36 leagues, predicts basketball and projects the remaining
@@ -150,11 +177,17 @@ Scripts/
 ├── Euroleague_scripts/  # EuroLeague and EuroCup ratings
 └── WebApp/              # Flask app, templates, static
 
-Datasets/                # git-ignored (large)
+Euroloeague Dataset/     # EuroLeague/EuroCup history (header + box score only)
+
+Datasets/                # git-ignored — rebuilt by refresh.py, not downloaded
 ├── Cleaned Datasets/    # per-league match history
 ├── Predictions/         # upcoming fixture predictions
 └── Models/              # fitted parameters, calendars, benchmark (JSON)
 ```
+
+To protect the `/stats` dashboard, copy `Scripts/WebApp/config.yaml.example` to
+`config.yaml` and set a username and password. That file is git-ignored, so real
+credentials never reach the repository.
 
 Legacy files from the original random-forest classifier (`Modelling.py`,
 `LabelEncoding.py`, `Helper.py`, `Scrapping.py`, `Cleaning.py`) are kept for reference.
