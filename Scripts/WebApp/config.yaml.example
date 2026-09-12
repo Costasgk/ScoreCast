@@ -1,0 +1,10 @@
+# Copy to config.yaml to protect the /stats dashboard.
+#
+# config.yaml is git-ignored so real credentials never reach the repository.
+# Without it the stats pages fail CLOSED, returning 503 rather than serving
+# openly — set SCORECAST_OPEN_STATS=1 to allow anonymous access on a machine
+# you trust. STATS_USERNAME / STATS_PASSWORD environment variables work too and
+# take the same effect.
+stats:
+  username: changeme
+  password: changeme

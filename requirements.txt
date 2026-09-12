@@ -1,16 +1,28 @@
+# Full toolchain: fetching data, fitting models and serving the app.
+# To only SERVE pre-built data (the container's job), use requirements-web.txt.
+# Tested on Python 3.12.
+
+# core
 pandas>=2.0.3
 numpy>=1.25.1
 scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# fetching results and calendars
 requests>=2.31.0
 beautifulsoup4>=4.12.2
 lxml>=4.9.3
 html5lib>=1.1
-scikit-learn>=1.3.0
-# scraping (FBref is behind Cloudflare — needs a real browser)
+soccerdata>=1.9.0      # ESPN + FBref season calendars, used by fixtures.py
+
+# legacy FBref scraper (Scrapping.py / pipeline.py). football-data.co.uk is the
+# primary source now and needs none of this, but the FBref path still works.
 undetected-chromedriver>=3.5.5
 selenium>=4.15.0
-tqdm>=4.66.0
-setuptools>=68.0.0   # undetected-chromedriver imports distutils (gone in py3.12)
+setuptools>=68.0.0     # undetected-chromedriver imports distutils, gone in 3.12
+
+# web app
 Flask>=2.3.2
 gunicorn>=21.2.0
 pyyaml>=6.0
+tqdm>=4.66.0
