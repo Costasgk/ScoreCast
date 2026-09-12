@@ -25,8 +25,8 @@ Datasets/
 # Exclude the CONTENTS rather than the directory: git cannot re-include a file
 # whose parent directory is itself excluded, so `!` rules below would not work.
 Euroloeague Dataset/*
-!Euroloeague Dataset/*_header.csv
-!Euroloeague Dataset/*_box_score.csv
+# !Euroloeague Dataset/*_header.csv
+# !Euroloeague Dataset/*_box_score.csv
 
 # Legacy random-forest model artefact. Kept on disk deliberately, but it is a
 # 6.4 MB binary that Modelling.py regenerates, and every other fitted model
