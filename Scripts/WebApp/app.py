@@ -1,4 +1,5 @@
 from flask import Flask, render_template, send_file, jsonify, request, Response
+import re
 import pandas as pd
 import numpy as np
 from scipy.stats import poisson
@@ -12,6 +13,12 @@ import base64
 import hmac
 import functools
 import yaml
+
+# Leagues come from the shared registry so the fetcher, pipeline, simulator
+# and this app cannot drift apart.
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from leagues import LEAGUES as REGISTRY
 
 app = Flask(__name__)
 
@@ -28,11 +35,23 @@ _cfg             = _load_config()
 _STATS_USERNAME  = _cfg.get('stats', {}).get('username', '') or os.environ.get('STATS_USERNAME', '')
 _STATS_PASSWORD  = _cfg.get('stats', {}).get('password', '') or os.environ.get('STATS_PASSWORD', '')
 
+# Whether an unprotected page is acceptable. Opening up has to be deliberate:
+# the previous default let anyone through whenever no password happened to be
+# configured, which is the wrong way round once this is reachable from the web.
+_OPEN_STATS = os.environ.get('SCORECAST_OPEN_STATS', '').lower() in ('1', 'true', 'yes')
+
+
 def _require_auth(f):
     @functools.wraps(f)
     def decorated(*args, **kwargs):
         if not _STATS_PASSWORD:
-            return f(*args, **kwargs)  # no config set → allow (local dev only)
+            if _OPEN_STATS:
+                return f(*args, **kwargs)
+            return Response(
+                'Stats are disabled: no credentials configured.\n'
+                'Set STATS_USERNAME and STATS_PASSWORD, or SCORECAST_OPEN_STATS=1 '
+                'to allow unauthenticated access on a local machine.\n',
+                503, {'Content-Type': 'text/plain'})
         auth = request.headers.get('Authorization', '')
         if auth.startswith('Basic '):
             try:
@@ -50,7 +69,13 @@ def _require_auth(f):
 _BOTS = ('bot', 'crawler', 'spider', 'python', 'curl', 'wget', 'scrapy', 'httpclient')
 
 def _db_path():
-    return Path(__file__).resolve().parent / 'visits.db'
+    # Configurable so a container can point it at a writable volume: the app
+    # directory is read-only in a sane image, and a counter that resets on every
+    # restart is worse than no counter.
+    env = os.environ.get('SCORECAST_STATE_DIR')
+    base = Path(env) if env else Path(__file__).resolve().parent
+    base.mkdir(parents=True, exist_ok=True)
+    return base / 'visits.db'
 
 def _init_db():
     with sqlite3.connect(_db_path()) as conn:
@@ -122,27 +147,112 @@ DISPLAY_COLS = [
 ]
 
 def _load(filename):
+    """
+    (full frame, scheduled table, rest-of-season table, counts).
+
+    football-data publishes only the next matchweek, so the rest of the season
+    is derived from the pairings that have not been played. Those are certain to
+    happen but have no date yet, and they are kept in a separate table rather
+    than mixed in — a fixture with a kickoff time and one without are different
+    things to a reader.
+    """
+    path = _predictions_dir() / filename
+    df = pd.read_csv(path)
+    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+
+    if 'Scheduled' not in df.columns:
+        df['Scheduled'] = df['Date'].notna()
+    if 'Rated' not in df.columns:
+        df['Rated'] = True
+
+    # 'Scheduled' records where a fixture came from — football-data publishes
+    # only the next matchweek — not whether it has a kickoff. That was the same
+    # thing until the ESPN and FBref calendars started supplying dates for the
+    # whole season; since then, splitting on the flag files a dated game under
+    # 'rest of season' whenever football-data happens not to list it. Today's
+    # St Pauli v Wolfsburg sat below 262 undated rows while the three other
+    # Bundesliga 2 games that afternoon sat on top.
+    #
+    # So split on the matchweek instead of the source: whatever falls on or
+    # before the last day football-data has published belongs in the first
+    # table, whoever supplied it. A matchday then arrives whole.
+    flagged = df['Scheduled'].astype(bool)
+    window  = df.loc[flagged, 'Date'].max()
+    if pd.notna(window):
+        flagged = flagged | (df['Date'].notna()
+                             & (df['Date'].dt.normalize() <= window.normalize()))
+
+    sched = df[flagged].sort_values('Date')
+    # No dates to sort on. Confidence order looks sensible and reads terribly:
+    # the weakest side in the division owns the top of the list, because every
+    # home game against them is a near-certainty. Alphabetical by home team
+    # keeps a club's fixtures together, which is what the table is for.
+    rest = df[~flagged]
+    rest = (rest.sort_values('Date') if rest['Date'].notna().any()
+            else rest.sort_values(['Home Team', 'Away Team']))
+
+    def _dates(t):
+        """
+        Render the date column ourselves.
+
+        to_html's na_rep does not reach a datetime column — pandas formats those
+        through its own path, which spells a missing value 'NaT'. That was fine
+        while every row in a table either had a date or none did; now that a
+        calendar can be topped up with fixtures whose day is not announced yet,
+        the two mix in one table and 38 rows of 'NaT' appear on the page.
+        """
+        if 'Date' not in t.columns or not len(t):
+            return t
+        t = t.copy()
+        d = t['Date']
+        with_time = (d.dt.hour != 0) | (d.dt.minute != 0)
+        t['Date'] = (d.dt.strftime('%Y-%m-%d %H:%M')
+                     .where(with_time, d.dt.strftime('%Y-%m-%d'))
+                     .fillna('—'))
+        return t
+
+    cols = [c for c in DISPLAY_COLS if c in df.columns]
+    # ESPN supplies kickoffs for most leagues, so the rest of the season usually
+    # has dates now. Drop the column only where nothing in it is filled.
+    rest_cols = cols if (len(rest) and rest['Date'].notna().any()) \
+                else [c for c in cols if c != 'Date']
+    return df, _dates(sched[cols]), _dates(rest[rest_cols]), {
+        'scheduled': int(len(sched)), 'rest': int(len(rest)),
+        'unrated':   int((~df['Rated']).sum()),
+        'rest_dated': int(rest['Date'].notna().sum()) if len(rest) else 0,
+    }
+
+# ── League list ────────────────────────────────────────────────────────────────
+
+# Football leagues come from the shared registry in Scripts/leagues.py so the
+# fetcher, pipeline, simulator and web app cannot drift apart.
+LEAGUES = [(l['slug'], l['pred'], f"{l['name']} ({l['region']})") for l in REGISTRY]
+# ── Basketball (Euroleague / Eurocup) ──────────────────────────────────────────
+# Kept separate from LEAGUES: the ratings model outputs points, not goals, so
+# these pages carry different columns and a different template.
+
+BASKETBALL = [
+    ('Euroleague', 'predictions_euroleague.csv', 'EuroLeague'),
+    ('Eurocup',    'predictions_eurocup.csv',    'EuroCup'),
+]
+
+BASKET_COLS = [
+    'Date', 'Round', 'Home Team', 'Away Team',
+    'Home Win %', 'Away Win %',
+    'Pred Home Score', 'Pred Away Score', 'Pred Total', 'Pred Margin',
+    'Pick', 'Confidence',
+]
+
+def _load_basket(filename):
     path = _predictions_dir() / filename
     df = pd.read_csv(path)
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     df = df.sort_values('Date').reset_index(drop=True)
-    cols = [c for c in DISPLAY_COLS if c in df.columns]
-    return df, df[cols]
+    cold = int(df['Cold Start'].sum()) if 'Cold Start' in df.columns else 0
+    show = df[[c for c in BASKET_COLS if c in df.columns]].copy()
+    show['Date'] = show['Date'].dt.strftime('%Y-%m-%d %H:%M')
+    return df, show, cold
 
-# ── League list ────────────────────────────────────────────────────────────────
-
-LEAGUES = [
-    ('Serie-A-Brazil',        'predictions_brazil_serie_a.csv',          'Serie A (Brazil)'),
-    ('Serie-B-Brazil',        'predictions_brazil_serie_b.csv',          'Serie B (Brazil)'),
-    ('Premier-League-England','predictions_england_premier_league.csv',  'Premier League (England)'),
-    ('Serie-A-Italy',         'predictions_italy_serie_a.csv',           'Serie A (Italy)'),
-    ('La-Liga-Spain',         'predictions_spain_la_liga.csv',           'La Liga (Spain)'),
-    ('Ligue-1-France',        'predictions_france_ligue_1.csv',          'Ligue 1 (France)'),
-    ('Bundesliga-Germany',    'predictions_germany_bundesliga.csv',       'Bundesliga (Germany)'),
-    ('Super-League-Greece',   'predictions_greece_super_league.csv',     'Super League (Greece)'),
-    ('Eliteserien-Norway',    'predictions_norway_eliteserien.csv',       'Eliteserien (Norway)'),
-    ('Veikkausliiga-Finland', 'predictions_finland_veikkausliiga.csv',    'Veikkausliiga (Finland)'),
-]
 
 # ── Home ───────────────────────────────────────────────────────────────────────
 
@@ -156,12 +266,148 @@ def _is_active(path):
     except Exception:
         return False
 
+# Region shown alongside each competition on the index
+REGIONS = {l['slug']: l['region'] for l in REGISTRY}
+REGIONS.update({'Euroleague': 'Europe', 'Eurocup': 'Europe'})
+
+def _fixture_count(path):
+    """Upcoming fixtures in a predictions file, or 0 if it has none."""
+    if not path.exists():
+        return 0
+    try:
+        df = pd.read_csv(path, usecols=['Date'])
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+        return int((df['Date'] > pd.Timestamp.today()).sum())
+    except Exception:
+        return 0
+
+
+def _index_rows(entries):
+    rows = []
+    for slug, filename, title in entries:
+        n = _fixture_count(_predictions_dir() / filename)
+        # The region is shown separately, so 'Serie A (Brazil)' reads as a stutter
+        name = re.sub(r'\s*\([^)]*\)\s*$', '', title).strip()
+        rows.append({'slug': slug, 'title': name,
+                     'region': REGIONS.get(slug, ''), 'count': n, 'active': n > 0})
+    return rows
+
+
+def _grouped(rows):
+    """
+    Leagues grouped by country, for a grid rather than one long column.
+
+    Thirty-six leagues in a single list put basketball two thousand pixels below
+    the fold. Grouping by country gives the grid a natural cell — England has
+    five divisions, most countries have one — and keeps related competitions
+    together instead of alphabetically scattered.
+    """
+    order = {l['slug']: i for i, l in enumerate(REGISTRY)}
+    by = {}
+    for r in rows:
+        by.setdefault(r['region'], []).append(r)
+    for v in by.values():
+        v.sort(key=lambda r: order.get(r['slug'], 999))
+    # Countries with more divisions first, then alphabetically
+    return sorted(by.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+
+
+def _strongest_calls():
+    """
+    The most confident prediction on the soonest day that has fixtures.
+
+    Ranking every upcoming fixture by confidence alone surfaces whichever match
+    the model happens to like most, which is usually months away — a EuroLeague
+    tie in December is not what someone opening the site today wants to see.
+    So the earliest matchday with fixtures is found first, and the strongest
+    call is chosen from that day only. Today when today has games, otherwise
+    the next day that does.
+    """
+    now   = pd.Timestamp.now()
+    today = now.normalize()
+    rows  = []
+
+    for slug, filename, title in LEAGUES + BASKETBALL:
+        path = _predictions_dir() / filename
+        if not path.exists():
+            continue
+        try:
+            df = pd.read_csv(path)
+            if 'Home Win %' not in df.columns:
+                continue
+            df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+            df = df.dropna(subset=['Date'])
+
+            # football-data publishes dates without kickoff times, so today's
+            # fixtures are stored at midnight. Comparing those against the
+            # current time drops the whole day from mid-morning onwards, which
+            # is why the hero skipped to tomorrow while today still had games.
+            # A fixture with a real time is judged on that time; a date-only one
+            # counts for the whole of its day.
+            has_time = (df['Date'].dt.hour != 0) | (df['Date'].dt.minute != 0)
+            df = df[(has_time & (df['Date'] >= now))
+                    | (~has_time & (df['Date'].dt.normalize() >= today))]
+            if df.empty:
+                continue
+            df = df.assign(_top=df[['Home Win %', 'Away Win %']].max(axis=1),
+                           _day=df['Date'].dt.normalize(),
+                           _league=title, _slug=slug)
+            rows.append(df)
+        except Exception:
+            continue
+
+    if not rows:
+        return []
+
+    allf = pd.concat(rows, ignore_index=True)
+    days = sorted(allf['_day'].unique())[:2]
+    return [_call_for(allf, d, today) for d in days]
+
+
+def _call_for(allf, day, today):
+    """The most confident fixture on one matchday."""
+    same = allf[allf['_day'] == day]
+    row  = same.loc[same['_top'].idxmax()]
+
+    has_draw   = 'Draw %' in row.index and pd.notna(row.get('Draw %'))
+    home_leads = row['Home Win %'] >= row['Away Win %']
+    delta      = (day - today).days
+    when       = ('Today' if delta == 0 else
+                  'Tomorrow' if delta == 1 else
+                  row['Date'].strftime('%a %d %b'))
+
+    return {
+        'league': row['_league'], 'slug': row['_slug'],
+        'home': row['Home Team'], 'away': row['Away Team'],
+        'date': when,
+        'time': row['Date'].strftime('%H:%M') if row['Date'].hour or row['Date'].minute else '',
+        'n_today': int(len(same)),
+        'pct': float(row['_top']),
+        'pick': row['Home Team'] if home_leads else row['Away Team'],
+        'home_pct': float(row['Home Win %']),
+        'draw_pct': float(row['Draw %']) if has_draw else 0.0,
+        'away_pct': float(row['Away Win %']),
+        'home_leads': bool(home_leads),
+        'has_draw': bool(has_draw),
+    }
+
+
 @app.route('/', methods=['GET'])
 def display_home():
-    today    = date.today().strftime('%B %d, %Y')
+    today    = date.today().strftime('%d %B %Y')
     pred_dir = _predictions_dir()
     status   = {slug: _is_active(pred_dir / filename) for slug, filename, _ in LEAGUES}
-    return render_template('index.html', today=today, status=status)
+    status.update({slug: _is_active(pred_dir / filename) for slug, filename, _ in BASKETBALL})
+    return render_template(
+        'index.html',
+        today=today, status=status,
+        football=_grouped(_index_rows(LEAGUES)),
+        basketball=_grouped(_index_rows(BASKETBALL)),
+        n_football=len(LEAGUES), n_basketball=len(BASKETBALL),
+        n_football_active=sum(1 for r in _index_rows(LEAGUES) if r['active']),
+        n_basketball_active=sum(1 for r in _index_rows(BASKETBALL) if r['active']),
+        calls=_strongest_calls(),
+    )
 
 # ── League routes ──────────────────────────────────────────────────────────────
 
@@ -172,11 +418,14 @@ def _make_route(slug, filename, title):
             return render_template('league.html',
                                    title=title, league_slug=slug,
                                    has_predictions=False, table_html='')
-        _, display_df = _load(filename)
-        table_html = display_df.to_html(index=False, classes='', na_rep='—', border=0)
+        _, sched_df, rest_df, counts = _load(filename)
+        table_html = sched_df.to_html(index=False, classes='', na_rep='—', border=0)
+        rest_html  = (rest_df.to_html(index=False, classes='', na_rep='—', border=0)
+                      if len(rest_df) else '')
         return render_template('league.html',
                                title=title, league_slug=slug,
-                               has_predictions=True, table_html=table_html)
+                               has_predictions=True, table_html=table_html,
+                               rest_html=rest_html, counts=counts)
 
     def download():
         path = _predictions_dir() / filename
@@ -190,6 +439,272 @@ for slug, filename, title in LEAGUES:
     view_fn, dl_fn = _make_route(slug, filename, title)
     app.add_url_rule(f'/{slug}',     view_fn.__name__, view_fn, methods=['GET'])
     app.add_url_rule(f'/{slug}-csv', dl_fn.__name__,   dl_fn,   methods=['GET'])
+
+# ── Basketball routes ──────────────────────────────────────────────────────────
+
+def _make_basket_route(slug, filename, title):
+    def view():
+        path = _predictions_dir() / filename
+        if not path.exists():
+            return render_template('basketball.html', title=title, league_slug=slug,
+                                   has_predictions=False, table_html='', cold=0, n=0)
+        _, display_df, cold = _load_basket(filename)
+        table_html = display_df.to_html(index=False, classes='', na_rep='—', border=0)
+        return render_template('basketball.html', title=title, league_slug=slug,
+                               has_predictions=True, table_html=table_html,
+                               cold=cold, n=len(display_df))
+
+    def download():
+        return send_file(_predictions_dir() / filename,
+                         as_attachment=True, download_name=filename)
+
+    view.__name__     = f'view_basket_{slug}'
+    download.__name__ = f'download_basket_{slug}'
+    return view, download
+
+
+for slug, filename, title in BASKETBALL:
+    v, d = _make_basket_route(slug, filename, title)
+    app.add_url_rule(f'/{slug}',     v.__name__, v, methods=['GET'])
+    app.add_url_rule(f'/{slug}-csv', d.__name__, d, methods=['GET'])
+
+
+# ── Model vs Market ────────────────────────────────────────────────────────────
+# Competing sites publish a headline accuracy percentage and no validation.
+# This page publishes the part that actually decides whether a forecast is any
+# good: calibration and sharpness, scored against the closing price.
+
+def _benchmark():
+    path = _models_dir() / 'benchmark.json'
+    if not path.exists():
+        return None
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+@app.route('/model-vs-market', methods=['GET'])
+def display_benchmark():
+    data = _benchmark()
+    if not data:
+        return render_template('benchmark.html', has_data=False)
+
+    leagues = sorted(data['leagues'],
+                     key=lambda r: r['model']['logloss'] - r['market']['logloss'])
+    for r in leagues:
+        r['gap_ll']    = r['model']['logloss'] - r['market']['logloss']
+        r['gap_brier'] = r['model']['brier']   - r['market']['brier']
+        r['beats_uniform'] = r['model']['logloss'] < r['uniform']['logloss']
+
+    n_total = sum(r['model']['n'] for r in leagues)
+    bets    = sum(r['value']['bets'] or 0 for r in leagues)
+    staked  = bets
+    won     = sum((r['value']['roi'] or 0) * (r['value']['bets'] or 0) for r in leagues)
+    overall_roi = (won / staked) if staked else None
+
+    return render_template(
+        'benchmark.html',
+        has_data=True,
+        generated=data.get('generated', '')[:16].replace('T', ' '),
+        seasons=', '.join(data.get('seasons', [])),
+        leagues=leagues,
+        n_total=n_total,
+        mean_gap=sum(r['gap_ll'] for r in leagues) / len(leagues),
+        best=leagues[0],
+        worst=leagues[-1],
+        value_bets=bets,
+        value_roi=overall_roi,
+    )
+
+
+# ── Player statistics ──────────────────────────────────────────────────────────
+# Basketball only. Football player data is not published by football-data.co.uk,
+# so there is nothing equivalent to show for the 36 football leagues.
+
+PLAYER_SORTS = {
+    'val': ('vpg', 'Valuation'), 'pts': ('ppg', 'Points'),
+    'reb': ('rpg', 'Rebounds'),  'ast': ('apg', 'Assists'),
+    'min': ('mpg', 'Minutes'),   'ts':  ('ts',  'True shooting'),
+    'fg3': ('fg3', 'Three-point %'),
+    'pts40': ('pts40', 'Points per 40'),
+}
+MIN_3PA = 50    # attempts before a three-point percentage means anything
+
+
+def _players():
+    path = _models_dir() / 'players.json'
+    if not path.exists():
+        return None
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+@app.route('/players', methods=['GET'])
+@app.route('/players/<comp>', methods=['GET'])
+def display_players(comp=None):
+    data = _players()
+    if not data or not data.get('competitions'):
+        return render_template('players.html', has_data=False, comps=[])
+
+    comps  = data['competitions']
+    chosen = next((c for c in comps if c['comp'] == comp), comps[0])
+
+    sort_key = request.args.get('sort', 'val')
+    field, label = PLAYER_SORTS.get(sort_key, PLAYER_SORTS['val'])
+
+    rows = list(chosen['players'])
+    if field == 'fg3':
+        # Otherwise the leaderboard is whoever took two threes and made both
+        rows = [r for r in rows if r.get('fg3a', 0) >= MIN_3PA]
+    rows.sort(key=lambda r: -(r.get(field) or 0))
+
+    return render_template(
+        'players.html', has_data=True,
+        generated=data.get('generated', '')[:16].replace('T', ' '),
+        comps=[{'comp': c['comp'], 'name': c['name']} for c in comps],
+        c=chosen, rows=rows[:60], sort=sort_key, sort_label=label,
+        sorts=PLAYER_SORTS, min_3pa=MIN_3PA,
+    )
+
+
+# ── Head to head ───────────────────────────────────────────────────────────────
+
+def _h2h(cleaned_path, a, b, limit=12):
+    """
+    Every recorded meeting between two clubs in this competition.
+
+    Only league matches are counted — the cleaned files already exclude cup and
+    continental games — so the record answers "in this league" rather than
+    "ever", which is the comparison a fixture page implies.
+    """
+    df = pd.read_csv(cleaned_path, index_col=0, low_memory=False)
+    df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    home = df[df['venue'].astype(str).str.lower().str.strip() == 'home']
+    m = home[(((home['team'] == a) & (home['opponent'] == b)) |
+              ((home['team'] == b) & (home['opponent'] == a)))
+             & home['gf'].notna() & home['ga'].notna()]
+    m = m.sort_values('date', ascending=False)
+
+    a_w = b_w = dr = a_g = b_g = 0
+    a_home_w = b_home_w = 0
+    meetings = []
+    for _, r in m.iterrows():
+        hg, ag = int(r['gf']), int(r['ga'])
+        h, aw = str(r['team']), str(r['opponent'])
+        if h == a:
+            a_g += hg; b_g += ag
+        else:
+            a_g += ag; b_g += hg
+        if hg == ag:
+            dr += 1
+            res = 'D'
+        elif (hg > ag) == (h == a):
+            a_w += 1
+            if h == a: a_home_w += 1
+            res = 'A'
+        else:
+            b_w += 1
+            if h == b: b_home_w += 1
+            res = 'B'
+        meetings.append({
+            'date': r['date'].strftime('%Y-%m-%d') if pd.notna(r['date']) else '',
+            'home': h, 'away': aw, 'hg': hg, 'ag': ag, 'res': res,
+            'season': str(r['season']) if 'season' in r and pd.notna(r.get('season')) else '',
+        })
+
+    n = len(m)
+    return {
+        'played': n, 'a_wins': a_w, 'b_wins': b_w, 'draws': dr,
+        'a_goals': a_g, 'b_goals': b_g,
+        'a_pct': round(a_w / n * 100, 1) if n else 0,
+        'd_pct': round(dr / n * 100, 1) if n else 0,
+        'b_pct': round(b_w / n * 100, 1) if n else 0,
+        'a_home_wins': a_home_w, 'b_home_wins': b_home_w,
+        'meetings': meetings[:limit],
+    }
+
+
+@app.route('/h2h/<slug>', methods=['GET'])
+def head_to_head(slug):
+    row = next(((s_, f, t) for s_, f, t in LEAGUES if s_ == slug), None)
+    if not row:
+        return 'League not found', 404
+    _, pred_file, title = row
+
+    cf = CLEANED_FILES.get(slug)
+    cp = _cleaned_dir() / cf if cf else None
+    if not cp or not cp.exists():
+        return render_template('h2h.html', title=title, slug=slug,
+                               teams=[], a=None, b=None, rec=None, fixture=None)
+
+    df = pd.read_csv(cp, index_col=0, low_memory=False)
+    teams = sorted(set(df['team'].dropna().astype(str))
+                   | set(df['opponent'].dropna().astype(str)))
+
+    a = request.args.get('a') or ''
+    b = request.args.get('b') or ''
+    rec = _h2h(str(cp), a, b) if (a in teams and b in teams and a != b) else None
+
+    # If these two are due to meet, show the model's line for that fixture
+    fixture = None
+    pp = _predictions_dir() / pred_file
+    if rec and pp.exists():
+        try:
+            pdf = pd.read_csv(pp)
+            hit = pdf[((pdf['Home Team'] == a) & (pdf['Away Team'] == b)) |
+                      ((pdf['Home Team'] == b) & (pdf['Away Team'] == a))]
+            if len(hit):
+                fixture = hit.iloc[0].to_dict()
+        except Exception:
+            pass
+
+    return render_template('h2h.html', title=title, slug=slug, teams=teams,
+                           a=a, b=b, rec=rec, fixture=fixture)
+
+
+# ── Season projection ──────────────────────────────────────────────────────────
+
+def _season_sim():
+    path = _models_dir() / 'season_sim.json'
+    if not path.exists():
+        return None
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+@app.route('/season', methods=['GET'])
+@app.route('/season/<slug>', methods=['GET'])
+def display_season(slug=None):
+    data = _season_sim()
+    if not data or not data.get('leagues'):
+        return render_template('season.html', has_data=False, leagues=[])
+
+    leagues = data['leagues']
+    by_slug = {}
+    for L in leagues:
+        s = L['league'].replace(' ', '-')
+        L['slug'] = s
+        by_slug[s] = L
+
+    chosen = by_slug.get(slug) or leagues[0]
+    return render_template(
+        'season.html',
+        has_data=True,
+        generated=data.get('generated', '')[:16].replace('T', ' '),
+        runs=data.get('runs', 0),
+        leagues=[{'slug': L['slug'], 'name': L['league'],
+                  'regular_only': bool(L.get('regular_season_only'))} for L in leagues],
+        L=chosen,
+    )
+
 
 # ── Simulator ──────────────────────────────────────────────────────────────────
 
@@ -241,18 +756,7 @@ def _simulate(model, home_team, away_team):
 
 # ── Team DNA ───────────────────────────────────────────────────────────────────
 
-CLEANED_FILES = {
-    'Serie-A-Brazil':         'Brazil_Serie_A.csv',
-    'Serie-B-Brazil':         'Brazil_Serie_B.csv',
-    'Premier-League-England': 'England_Premier_League.csv',
-    'Serie-A-Italy':          'Italy_Serie_A.csv',
-    'La-Liga-Spain':          'Spain_La_Liga.csv',
-    'Ligue-1-France':         'France_Ligue_1.csv',
-    'Bundesliga-Germany':     'Germany_Bundesliga.csv',
-    'Super-League-Greece':    'Greece_Super_League.csv',
-    'Eliteserien-Norway':     'Norway_Eliteserien.csv',
-    'Veikkausliiga-Finland':  'Finland_Veikkausliiga.csv',
-}
+CLEANED_FILES = {l['slug']: l['file'] for l in REGISTRY}
 
 def _team_stats(cleaned_path):
     """Per-team stats from cleaned CSV (all venues combined, last 2 seasons)."""

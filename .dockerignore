@@ -1,0 +1,27 @@
+# Everything the image does not need. Data is mounted at runtime, not baked in,
+# so predictions can be refreshed without rebuilding.
+env/
+.git/
+.gitignore
+__pycache__/
+*.py[cod]
+Datasets/
+Euroloeague Dataset/
+*.log
+*.pkl
+Scripts/WebApp/visits.db
+Scripts/WebApp/config.yaml
+# Data-building scripts: they need a browser and never run in the container
+Scripts/Scrapping.py
+Scripts/FootballData.py
+Scripts/fixtures.py
+Scripts/benchmark.py
+Scripts/calibrate.py
+Scripts/tune_decay.py
+Scripts/refresh.py
+Scripts/pipeline.py
+Scripts/Modelling.py
+Scripts/LabelEncoding.py
+Scripts/Helper.py
+Scripts/Cleaning.py
+Scripts/Euroleague_scripts/

@@ -1,0 +1,32 @@
+# ScoreCast — local run and the shape a host should use.
+#
+#   docker compose up --build
+#   -> http://127.0.0.1:8000
+#
+# Data is bind-mounted read-only from the working tree. Run refresh.py on the
+# host as usual; the container picks up new files on the next request, with no
+# rebuild and no restart.
+
+services:
+  web:
+    build: .
+    image: scorecast:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      # Read-only: the app has no business writing predictions
+      - ./Datasets:/data:ro
+      # The visit counter needs somewhere writable of its own
+      - scorecast-state:/state
+    environment:
+      # Leave these unset and /stats returns 503 rather than serving to anyone.
+      STATS_USERNAME: "${STATS_USERNAME:-}"
+      STATS_PASSWORD: "${STATS_PASSWORD:-}"
+      # Only for a local machine — never set this on a public host.
+      SCORECAST_OPEN_STATS: "${SCORECAST_OPEN_STATS:-}"
+      # Keeps the visit counter across restarts
+      SCORECAST_STATE_DIR: "/state"
+    restart: unless-stopped
+
+volumes:
+  scorecast-state:

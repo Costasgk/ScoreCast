@@ -1,9 +1,18 @@
 """
 ScoreCast Pipeline  —  Scrape → Clean → Predict
 ────────────────────────────────────────────────
+Two data sources:
+  footballdata (default) — football-data.co.uk over plain HTTP. Takes ~30s,
+                           needs no browser, and writes Cleaned Datasets
+                           directly, so the scrape and clean steps are skipped.
+  fbref                  — the Selenium scrape in Scrapping.py. Takes ~1.5h and
+                           needs a manual Cloudflare tick, but is the only
+                           source carrying pk/pkatt, possession, formation and
+                           xG (required by the RandomForest in Modelling.py).
+
 Usage:
-  python pipeline.py                                   # auto-detect stale leagues
-  python pipeline.py --all                             # force all 10 leagues
+  python pipeline.py                                   # fetch all + predict (~30s)
+  python pipeline.py --source fbref --all              # full browser scrape
   python pipeline.py --dry-run                         # preview without running
   python pipeline.py --leagues "Brazil Serie A" "Norway Eliteserien"
 """
@@ -29,78 +38,21 @@ STALE_DAYS   = 7   # re-scrape if CSV is older than this
 RECENT_DAYS  = 30  # if last match was within this window, treat as active
 
 # ── League definitions ────────────────────────────────────────────────────────
+# Derived from the shared registry in leagues.py — one definition for the
+# fetcher, this pipeline, the simulator and the web app.
+from leagues import LEAGUES as _REG
+
 PIPELINE_LEAGUES = [
     {
-        'name':         'Brazil Serie A',
-        'url':          'https://fbref.com/en/comps/24/Serie-A-Stats',
-        'scrapped':     SCRAPPED / 'Serie_A_Stats.csv',
-        'cleaned_name': 'Brazil_Serie_A.csv',
-        'pred_file':    'predictions_brazil_serie_a.csv',
-    },
-    {
-        'name':         'Brazil Serie B',
-        'url':          'https://fbref.com/en/comps/38/Serie-B-Stats',
-        'scrapped':     SCRAPPED / 'Serie_B_Stats.csv',
-        'cleaned_name': 'Brazil_Serie_B.csv',
-        'pred_file':    'predictions_brazil_serie_b.csv',
-    },
-    {
-        'name':         'Norway Eliteserien',
-        'url':          'https://fbref.com/en/comps/28/Eliteserien-Stats',
-        'scrapped':     SCRAPPED / 'Eliteserien_Stats.csv',
-        'cleaned_name': 'Norway_Eliteserien.csv',
-        'pred_file':    'predictions_norway_eliteserien.csv',
-    },
-    {
-        'name':         'Finland Veikkausliiga',
-        'url':          'https://fbref.com/en/comps/43/Veikkausliiga-Stats',
-        'scrapped':     SCRAPPED / 'Veikkausliiga_Stats.csv',
-        'cleaned_name': 'Finland_Veikkausliiga.csv',
-        'pred_file':    'predictions_finland_veikkausliiga.csv',
-    },
-    {
-        'name':         'Greece Super League',
-        'url':          'https://fbref.com/en/comps/27/Super-League-Greece-Stats',
-        'scrapped':     SCRAPPED / 'Super_League_Greece_Stats.csv',
-        'cleaned_name': 'Greece_Super_League.csv',
-        'pred_file':    'predictions_greece_super_league.csv',
-    },
-    {
-        'name':         'England Premier League',
-        'url':          'https://fbref.com/en/comps/9/Premier-League-Stats',
-        'scrapped':     SCRAPPED / 'Premier_League_Stats.csv',
-        'cleaned_name': 'England_Premier_League.csv',
-        'pred_file':    'predictions_england_premier_league.csv',
-    },
-    {
-        'name':         'Italy Serie A',
-        'url':          'https://fbref.com/en/comps/11/Serie-A-Stats',
-        'scrapped':     SCRAPPED / 'Serie_A_Stats_Italy.csv',
-        'cleaned_name': 'Italy_Serie_A.csv',
-        'pred_file':    'predictions_italy_serie_a.csv',
-    },
-    {
-        'name':         'Spain La Liga',
-        'url':          'https://fbref.com/en/comps/12/La-Liga-Stats',
-        'scrapped':     SCRAPPED / 'La_Liga_Stats.csv',
-        'cleaned_name': 'Spain_La_Liga.csv',
-        'pred_file':    'predictions_spain_la_liga.csv',
-    },
-    {
-        'name':         'Germany Bundesliga',
-        'url':          'https://fbref.com/en/comps/20/Bundesliga-Stats',
-        'scrapped':     SCRAPPED / 'Bundesliga_Stats.csv',
-        'cleaned_name': 'Germany_Bundesliga.csv',
-        'pred_file':    'predictions_germany_bundesliga.csv',
-    },
-    {
-        'name':         'France Ligue 1',
-        'url':          'https://fbref.com/en/comps/13/Ligue-1-Stats',
-        'scrapped':     SCRAPPED / 'Ligue_1_Stats.csv',
-        'cleaned_name': 'France_Ligue_1.csv',
-        'pred_file':    'predictions_france_ligue_1.csv',
-    },
+        'name':         f"{l['name']} ({l['region']})",
+        'key':          l['key'],
+        'scrapped':     SCRAPPED / l['file'],
+        'cleaned_name': l['file'],
+        'pred_file':    l['pred'],
+    }
+    for l in _REG
 ]
+
 
 # ── Logging ───────────────────────────────────────────────────────────────────
 def _setup_logging():
@@ -166,7 +118,7 @@ def _divider(char='=', width=60):
 
 def step_scrape(leagues, dry_run=False):
     _divider('-')
-    log.info(f'  STEP 1 / SCRAPE   {len(leagues)} leagues')
+    log.info(f'  SCRAPE    {len(leagues)} leagues  (fbref via Chrome)')
     _divider('-')
 
     if dry_run:
@@ -183,9 +135,63 @@ def step_scrape(leagues, dry_run=False):
         log.error(f'  Scrape failed: {e}')
         return False
 
+def step_fetch(leagues, dry_run=False):
+    _divider('-')
+    log.info(f'  FETCH     {len(leagues)} leagues  (football-data.co.uk)')
+    _divider('-')
+
+    import requests
+    from FootballData import LEAGUES as FD_LEAGUES, fetch_league, CLEANED, BASE, HEADERS, _get_csv
+
+    # Match on the registry key, not the display name: display names carry the
+    # region ('Serie A (Italy)') while the fetcher's do not, and there are
+    # several leagues called Serie A.
+    by_key      = {c['key']: c for c in FD_LEAGUES}
+    unsupported = [l for l in leagues if l.get('key') not in by_key]
+    for l in unsupported:
+        log.warning(f"  SKIP  {l['name']} — not published by football-data.co.uk "
+                    f"(use --source fbref)")
+
+    targets = [by_key[l['key']] for l in leagues if l.get('key') in by_key]
+
+    if dry_run:
+        for c in targets:
+            log.info(f'  [dry]  would fetch  {c["name"]}')
+        return True
+
+    if not targets:
+        log.error('  No leagues available from this source.')
+        return False
+
+    CLEANED.mkdir(parents=True, exist_ok=True)
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    fixtures_main  = _get_csv(session, f'{BASE}/fixtures.csv')
+    fixtures_extra = _get_csv(session, f'{BASE}/new_league_fixtures.csv')
+
+    ok = 0
+    for cfg in targets:
+        try:
+            df = fetch_league(session, cfg, fixtures_main, fixtures_extra)
+            if df is None or df.empty:
+                log.error(f'  FAILED  {cfg["name"]} — empty response')
+                continue
+            df = df.sort_values('date').reset_index(drop=True)
+            df.to_csv(CLEANED / cfg['out'])
+            played   = int(df['gf'].notna().sum() // 2)
+            upcoming = int(df['gf'].isna().sum() // 2)
+            log.info(f'  OK    {cfg["name"]:24s} {played:5d} played  {upcoming:3d} upcoming')
+            ok += 1
+        except Exception as e:
+            log.error(f'  FAILED  {cfg["name"]}: {e}')
+
+    log.info(f'  Fetched {ok}/{len(targets)} leagues')
+    return ok > 0
+
+
 def step_clean(leagues, dry_run=False):
     _divider('-')
-    log.info(f'  STEP 2 / CLEAN    {len(leagues)} leagues')
+    log.info(f'  CLEAN     {len(leagues)} leagues')
     _divider('-')
 
     from Cleaning import read_file, cleaning, export_df
@@ -209,7 +215,7 @@ def step_clean(leagues, dry_run=False):
 
 def step_predict(leagues, dry_run=False):
     _divider('-')
-    log.info(f'  STEP 3 / PREDICT  {len(leagues)} leagues')
+    log.info(f'  PREDICT   {len(leagues)} leagues')
     _divider('-')
 
     from ScorelineModel import run_league
@@ -242,6 +248,9 @@ def main():
     parser.add_argument('--dry-run', action='store_true', help='preview without writing')
     parser.add_argument('--leagues', nargs='+', metavar='NAME',
                         help='run specific leagues by name')
+    parser.add_argument('--source', choices=['footballdata', 'fbref'],
+                        default='footballdata',
+                        help='where match data comes from (default: footballdata)')
     args = parser.parse_args()
 
     _setup_logging()
@@ -249,6 +258,7 @@ def main():
     _divider()
     log.info('  ScoreCast Pipeline')
     log.info(f'  {datetime.now().strftime("%A, %d %B %Y  %H:%M")}')
+    log.info(f'  Source: {args.source}')
     if args.dry_run:
         log.info('  MODE: dry-run - nothing will be written')
     _divider()
@@ -263,27 +273,32 @@ def main():
             log.info(f'Available: {[l["name"] for l in PIPELINE_LEAGUES]}')
             sys.exit(1)
 
-    # Decide which leagues need updating
-    log.info('  Checking leagues...\n')
-    to_update, skipped = [], []
-    for league in pool:
-        update, reason = _needs_update(league, force=args.all)
-        tag = 'UPDATE' if update else 'SKIP  '
-        log.info(f'  {tag}  {league["name"]:<28}  {reason}')
-        (to_update if update else skipped).append(league)
-
-    if not to_update:
-        log.info('\n  All leagues are up to date. Nothing to do.')
-        _divider()
-        return
-
-    log.info(f'\n  {len(to_update)} to update  |  {len(skipped)} skipped\n')
-
     start = datetime.now()
 
-    step_scrape(to_update,  dry_run=args.dry_run)
-    step_clean(to_update,   dry_run=args.dry_run)
-    step_predict(to_update, dry_run=args.dry_run)
+    if args.source == 'footballdata':
+        # A full fetch takes ~30s, so the staleness heuristics that exist to
+        # avoid a 1.5h browser scrape would only add a chance of going stale.
+        step_fetch(pool,   dry_run=args.dry_run)
+        step_predict(pool, dry_run=args.dry_run)
+    else:
+        log.info('  Checking leagues...\n')
+        to_update, skipped = [], []
+        for league in pool:
+            update, reason = _needs_update(league, force=args.all)
+            tag = 'UPDATE' if update else 'SKIP  '
+            log.info(f'  {tag}  {league["name"]:<28}  {reason}')
+            (to_update if update else skipped).append(league)
+
+        if not to_update:
+            log.info('\n  All leagues are up to date. Nothing to do.')
+            _divider()
+            return
+
+        log.info(f'\n  {len(to_update)} to update  |  {len(skipped)} skipped\n')
+
+        step_scrape(to_update,  dry_run=args.dry_run)
+        step_clean(to_update,   dry_run=args.dry_run)
+        step_predict(to_update, dry_run=args.dry_run)
 
     elapsed = round((datetime.now() - start).seconds / 60, 1)
     _divider()

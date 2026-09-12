@@ -1,4 +1,10 @@
-flask>=2.3.2
+# Runtime dependencies for serving ScoreCast.
+#
+# Deliberately excludes selenium, undetected-chromedriver and soccerdata: those
+# fetch and build the data, and none of them are needed to read it. Keeping them
+# out means the container needs no browser and cannot break when a source
+# changes its markup.
+Flask>=3.0
 gunicorn>=21.2.0
 pandas>=2.0.3
 numpy>=1.25.1

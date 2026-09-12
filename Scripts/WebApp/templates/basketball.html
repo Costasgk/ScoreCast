@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- Sticky top bar -->
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Back</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/picks" class="sc-btn-dl">Best Picks</a>
+        <a href="/season" class="sc-btn-dl">Season</a>
+        <a href="/players" class="sc-btn-dl">Players</a>
+        <a href="/model-vs-market" class="sc-btn-dl">vs Market</a>
+        {% if has_predictions %}
+        <a href="/{{ league_slug }}-csv" class="sc-btn-dl">↓ CSV</a>
+        {% endif %}
+    </div>
+</nav>
+
+{% if has_predictions %}
+
+<!-- Page header -->
+<div class="sc-page-header">
+    <h1 class="sc-page-title">{{ title }}</h1>
+    <p class="sc-page-meta">Opponent-Adjusted Ratings · {{ n }} Upcoming Games</p>
+</div>
+
+<!-- Legend -->
+<div class="sc-legend">
+    <span class="sc-pill">Home Win %</span>
+    <span class="sc-pill">Away Win %</span>
+    <span class="sc-pill">Pred Total = Combined Points</span>
+    <span class="sc-pill">Pred Margin = Home Points − Away Points</span>
+    <span class="sc-pill">Confidence = Stronger Side's %</span>
+</div>
+
+{% if cold %}
+<!-- A club with no rated history is predicted from home advantage alone, so
+     these rows are materially weaker than the rest of the page. -->
+<div class="sc-notice">
+    <b>{{ cold }} of {{ n }} games</b> involve a club with no rated history.
+    Those lines rest on home advantage alone — read them as the weakest on this page.
+</div>
+{% endif %}
+
+<!-- Table -->
+<div class="sc-table-wrap">
+    {{ table_html | safe }}
+</div>
+
+<!-- Note -->
+<div class="sc-note">
+    Ratings are fitted jointly across all games by ridge regression, so team strength is
+    adjusted for the quality of opponents faced, with recent games weighted more heavily.
+    Win probability comes from the model's own residual spread. Basketball has no draws.
+    Early-season predictions are the weakest of the year — no current-season form exists
+    until roughly round 5. All figures are model estimates, not guarantees.
+    Please gamble responsibly.
+</div>
+
+{% else %}
+
+<!-- Empty state -->
+<div class="sc-empty">
+    <div class="sc-empty-title">No Fixtures</div>
+    <div class="sc-empty-msg">
+        No upcoming games for {{ title }}.<br>
+        Run <code>Scripts/Euroleague_scripts/run.py</code> to generate predictions.
+    </div>
+</div>
+
+{% endif %}
+
+<script>
+const NAMES = ['Home Team', 'Away Team', 'Pick'];
+const LEAD  = ['Home Win %', 'Away Win %'];
+// Class each cell from its column heading, then mark the leading outcome.
+// Column order differs between the football and basketball tables, so nothing
+// here may depend on a cell's position.
+document.addEventListener('DOMContentLoaded', function () {
+    const table = document.querySelector('.sc-table-wrap table');
+    if (!table) return;
+
+    const headers = Array.from(table.querySelectorAll('thead th'))
+                         .map(th => th.textContent.trim());
+    const lead = LEAD.map(c => headers.indexOf(c)).filter(i => i >= 0);
+
+    table.querySelectorAll('tbody tr').forEach(row => {
+        const cells = Array.from(row.querySelectorAll('td'));
+        cells.forEach((cell, i) => {
+            cell.classList.add(NAMES.includes(headers[i]) ? 'is-name' : 'is-num');
+        });
+
+        let at = -1, best = -Infinity;
+        lead.forEach(i => {
+            const v = parseFloat((cells[i] || {}).textContent);
+            if (!isNaN(v) && v > best) { best = v; at = i; }
+        });
+        if (at >= 0) cells[at].classList.add('is-lead');
+    });
+});
+</script>
+
+</body>
+</html>

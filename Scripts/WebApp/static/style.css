@@ -1,455 +1,551 @@
+/* ─────────────────────────────────────────────────────────────────────────────
+   ScoreCast
+   A model that outputs probability distributions. The interface is a reading
+   surface for those distributions: a timetable of fixtures, each carrying a
+   split of three numbers that always sum to 100.
+
+   Everything here follows from that. Probability is shown as measured length
+   on a rule, never as a tinted cell — a proportion you can compare across rows
+   by eye. Colour carries exactly one meaning: the side the model favours.
+   Structure is hairlines and space, not boxes and shadows.
+   ───────────────────────────────────────────────────────────────────────── */
+
 @font-face {
     font-family: 'Satoshi';
     src: url('/static/fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 400 700;
+    font-display: swap;
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-    --bg:      #ffffff;
-    --ink:     #1a1a1a;
-    --muted:   #999999;
-    --border:  #e8e8e8;
-    --hover:   #f4f4f4;
-    --radius:  0px;
+    /* Paper is near-white with a trace of warmth — a printed sheet, not cream */
+    --paper:     #FBFBF9;
+    --paper-2:   #F3F2EE;
+    --ink:       #14140F;
+    --ink-2:     #5A594F;
+    --ink-3:     #908F84;
+    --rule:      #D7D6CE;
+    --rule-soft: #E9E8E2;
+
+    /* The only chromatic value on the page. It marks the model's call and
+       nothing else, so it never has to compete with itself.
+
+       Deep ultramarine, set against warm paper: the cool/warm tension is what
+       makes it read as ink rather than as a highlight, and it stays legible at
+       the small sizes most figures on this site are set in. */
+    --signal:    #1D3FA0;
+
+    --sans: 'Satoshi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+    --gut:    clamp(1.25rem, 4vw, 4rem);
+    --radius: 0px;
+
+    /* Compatibility with page styles written against the previous tokens */
+    --bg: var(--paper);
+    --muted: var(--ink-3);
+    --border: var(--rule-soft);
+    --hover: var(--paper-2);
 }
 
-html { scroll-behavior: smooth; }
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
 
 body {
-    background-color: var(--bg);
+    background: var(--paper);
     color: var(--ink);
-    font-family: 'Satoshi', 'Helvetica Neue', Arial, sans-serif;
-    min-height: 100vh;
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.55;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-/* ════════════════════════════════════════
-   INDEX — No scroll
-════════════════════════════════════════ */
+/* The index was previously locked to 100vh with overflow hidden, which clipped
+   any competition past the tenth. It scrolls. */
 body.page-index {
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-body.page-index .sc-hero  { flex-shrink: 0; }
-body.page-index .sc-main  { flex: 1; overflow: hidden; }
-body.page-index .sc-footer { flex-shrink: 0; }
+a { color: inherit; }
+
+::selection { background: var(--ink); color: var(--paper); }
+
+:focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 3px;
+}
+
+/* Small caps label, used for every eyebrow and column head on the site */
+.sc-label,
+.sc-section-label,
+.sc-nav-tag,
+.sc-country {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
 
 /* ════════════════════════════════════════
-   INDEX — Header bar
+   MASTHEAD
 ════════════════════════════════════════ */
 .sc-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem 3rem;
-    border-bottom: 1px solid var(--border);
-}
-
-.sc-nav-brand {
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--ink);
-    text-decoration: none;
-}
-
-.sc-nav-tag {
-    font-size: 0.7rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--muted);
-}
-
-.sc-nav-sim {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink);
-    text-decoration: none;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1.5rem var(--gut);
     border-bottom: 1px solid var(--ink);
-    padding-bottom: 1px;
-    transition: opacity 0.15s;
 }
-.sc-nav-sim:hover { opacity: 0.5; text-decoration: none; }
 
-.sc-nav-actions {
+.sc-nav-brand,
+.sc-topbar-brand {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink);
+}
+
+.sc-nav-actions,
+.sc-topbar-right {
     display: flex;
-    gap: 0.5rem;
-    align-items: center;
+    gap: 1.5rem;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+/* Links, not buttons. Nothing on this site is a filled pill. */
+.sc-btn-dl,
+.sc-btn-dna,
+.sc-back {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink-2);
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--rule);
+    transition: color .15s, border-color .15s;
+}
+
+.sc-btn-dl:hover,
+.sc-btn-dna:hover,
+.sc-back:hover {
+    color: var(--signal);
+    border-bottom-color: var(--signal);
 }
 
 /* ════════════════════════════════════════
-   INDEX — Hero
+   INDEX — opening statement
 ════════════════════════════════════════ */
 .sc-hero {
-    padding: 3vw 3rem 2.5rem;
-    border-bottom: 1px solid var(--border);
-    text-align: center;
+    padding: clamp(2rem, 4.5vw, 3rem) var(--gut) clamp(1.5rem, 3vw, 2rem);
+    border-bottom: 1px solid var(--rule);
 }
 
 .sc-title {
-    font-size: clamp(3rem, 8vw, 7rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    line-height: 1;
-    color: var(--ink);
-    text-transform: uppercase;
-    white-space: nowrap;
+    font-size: clamp(2.25rem, 7vw, 4.25rem);
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+    max-width: 18ch;
+}
+
+.sc-title em {
+    font-style: normal;
+    color: var(--signal);
 }
 
 .sc-sub {
-    margin-top: 2rem;
-    font-size: 0.78rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--muted);
+    margin-top: 1.25rem;
+    max-width: 54ch;
+    color: var(--ink-2);
+    font-size: 0.9375rem;
 }
 
+/* ── Signature: the strongest call ──────────────────────────────────────────
+   The most characteristic artifact this model produces is a single fixture's
+   probability split. Rather than open with a stat card, open with one real
+   prediction, set as it is read. */
+.sc-call {
+    margin-top: clamp(1.25rem, 3vw, 1.75rem);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.5rem 2rem;
+    align-items: end;
+    max-width: 46rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+}
+
+.sc-call-teams {
+    font-size: clamp(1.125rem, 2.6vw, 1.5rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.sc-call-teams span { color: var(--ink-3); font-weight: 400; }
+
+.sc-call-pct {
+    font-family: var(--mono);
+    font-size: clamp(1.75rem, 5vw, 2.75rem);
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    color: var(--signal);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+}
+
+.sc-call-meta {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+/* The rule itself: three segments, widths equal to their probabilities.
+   Ink density separates them, so the accent stays reserved for the pick. */
+.sc-prob {
+    grid-column: 1 / -1;
+    display: flex;
+    height: 6px;
+    margin-top: 0.25rem;
+    background: var(--rule-soft);
+}
+
+.sc-prob i { display: block; height: 100%; }
+.sc-prob i.is-pick { background: var(--signal); }
+.sc-prob i.is-mid  { background: var(--ink-3); }
+.sc-prob i.is-alt  { background: var(--ink); opacity: .35; }
+
 /* ════════════════════════════════════════
-   INDEX — League cards
+   INDEX — competition index
 ════════════════════════════════════════ */
 .sc-main {
-    max-width: 1500px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 2rem 3rem;
+    flex: 1;
+    padding: 0 var(--gut) clamp(3rem, 8vw, 6rem);
 }
 
 .sc-section-label {
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    color: var(--muted);
-    margin-bottom: 0.75rem;
-    margin-top: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: clamp(1.5rem, 3vw, 2rem) 0 0.6rem;
+    border-bottom: 1px solid var(--ink);
 }
 
+/* A list, not a card grid. Rows are the unit; hairlines do the separating. */
 .sc-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.6rem;
-    margin-bottom: 2.5rem;
+    display: block;
+    border-bottom: 1px solid var(--rule);
 }
 
 .sc-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    padding: 2rem 1.75rem 1.75rem;
-    border: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 8.5rem minmax(0, 1fr) auto;
+    gap: 1rem 1.5rem;
+    align-items: baseline;
+    padding: 1.125rem 0;
+    border-top: 1px solid var(--rule-soft);
     text-decoration: none;
-    color: var(--ink);
-    transition: background 0.18s ease;
-    cursor: pointer;
+    color: inherit;
+    position: relative;
+    transition: color .15s;
 }
 
-.sc-card:hover {
-    background: var(--ink);
-    text-decoration: none;
+.sc-grid > .sc-card:first-child { border-top: none; }
+
+/* Hover pulls the row toward the reader with a marker in the gutter rather
+   than a fill, so the type never sits on a shifting ground. */
+.sc-card::before {
+    content: '';
+    position: absolute;
+    left: calc(var(--gut) * -0.5);
+    top: 50%;
+    width: 0;
+    height: 1px;
+    background: var(--signal);
+    transition: width .2s ease;
 }
 
-.sc-card:hover .sc-league-name,
-.sc-card:hover .sc-country {
-    color: #ffffff;
-}
-
-.sc-country {
-    font-size: 0.62rem;
-    font-weight: 600;
-    color: var(--muted);
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    transition: color 0.18s;
-}
+.sc-card:hover { color: var(--signal); }
+.sc-card:hover::before { width: calc(var(--gut) * 0.28); }
 
 .sc-league-name {
-    font-size: 1rem;
+    font-size: 1.0625rem;
     font-weight: 700;
-    color: var(--ink);
-    line-height: 1.2;
-    letter-spacing: -0.01em;
-    transition: color 0.18s;
+    letter-spacing: -0.015em;
 }
 
-/* ════════════════════════════════════════
-   INDEX — Status badge
-════════════════════════════════════════ */
+/* Status reads as a count, because the count is the useful part. Teams that
+   have no fixtures say so in words instead. */
 .sc-badge {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.sc-badge-active::after {
+    content: '';
     display: inline-block;
-    font-size: 0.58rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    padding: 0.18rem 0.55rem;
-    margin-top: 0.6rem;
-    align-self: flex-start;
-    transition: background 0.18s, color 0.18s, border-color 0.18s;
+    width: 5px;
+    height: 5px;
+    margin-left: 0.6rem;
+    vertical-align: 0.12em;
+    background: var(--signal);
 }
 
-.sc-badge-active {
-    background: var(--ink);
-    color: #ffffff;
-}
-
-.sc-badge-ended {
-    border: 1px solid var(--border);
-    color: var(--muted);
-}
-
-.sc-card:hover .sc-badge-active {
-    background: #ffffff;
-    color: var(--ink);
-}
-
-.sc-card:hover .sc-badge-ended {
-    border-color: rgba(255,255,255,0.25);
-    color: rgba(255,255,255,0.45);
-}
+.sc-badge-ended { color: var(--ink-3); }
 
 /* ════════════════════════════════════════
-   INDEX — Footer
+   FOOTER
 ════════════════════════════════════════ */
 .sc-footer {
-    border-top: 1px solid var(--border);
-    padding: 2rem 3rem;
-    color: var(--muted);
-    font-size: 0.7rem;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-align: center;
+    padding: 1.5rem var(--gut) 2.5rem;
+    border-top: 1px solid var(--ink);
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
 }
+/* The measure belongs to the text; a max-width on the element cut the rule
+   off partway across the page. */
+.sc-footer > * { max-width: 70ch; }
 
 /* ════════════════════════════════════════
-   LEAGUE PAGE — Top bar
+   INTERIOR — top bar
 ════════════════════════════════════════ */
 .sc-topbar {
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 20;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1.25rem 3rem;
-    background: rgba(255,255,255,0.92);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border);
-}
-
-.sc-back {
-    color: var(--muted);
-    text-decoration: none;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    transition: color 0.15s;
-}
-.sc-back:hover { color: var(--ink); }
-
-.sc-topbar-brand {
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--ink);
-}
-
-.sc-topbar-right {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.sc-btn-dna {
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 0.45rem 1.1rem;
-    background: var(--ink);
-    border: 1px solid var(--ink);
-    color: #ffffff;
-    text-decoration: none;
-    transition: all 0.18s;
-}
-.sc-btn-dna:hover {
-    background: transparent;
-    color: var(--ink);
-    text-decoration: none;
-}
-
-.sc-btn-dl {
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    padding: 0.45rem 1.1rem;
-    border: 1px solid var(--ink);
-    color: var(--ink);
-    text-decoration: none;
-    transition: all 0.18s;
-}
-.sc-btn-dl:hover {
-    background: var(--ink);
-    color: #ffffff;
-    text-decoration: none;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1.1rem var(--gut);
+    background: var(--paper);
+    border-bottom: 1px solid var(--ink);
 }
 
 /* ════════════════════════════════════════
-   LEAGUE PAGE — Header
+   INTERIOR — page header
 ════════════════════════════════════════ */
 .sc-page-header {
-    padding: 3.5rem 3rem 2rem;
-    border-bottom: 1px solid var(--border);
+    padding: clamp(2rem, 6vw, 3.5rem) var(--gut) 1.25rem;
 }
 
 .sc-page-title {
-    font-size: clamp(2rem, 5vw, 4rem);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: var(--ink);
+    font-size: clamp(1.875rem, 5.5vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.035em;
     line-height: 1;
 }
 
 .sc-page-meta {
     margin-top: 0.75rem;
-    font-size: 0.7rem;
-    letter-spacing: 0.14em;
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: var(--muted);
+    color: var(--ink-3);
 }
 
 /* ════════════════════════════════════════
-   LEAGUE PAGE — Legend
+   INTERIOR — legend
 ════════════════════════════════════════ */
 .sc-legend {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 1.25rem 3rem;
-    border-bottom: 1px solid var(--border);
+    gap: 0.4rem 1.5rem;
+    padding: 0 var(--gut) 1.25rem;
+    max-width: 80rem;
 }
 
 .sc-pill {
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 0.25rem 0.7rem;
-    border: 1px solid var(--border);
-    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-2);
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.sc-pill::before {
+    content: '—';
+    margin-right: 0.5rem;
+    color: var(--rule);
 }
 
 /* ════════════════════════════════════════
-   LEAGUE PAGE — Table
+   INTERIOR — fixture table
 ════════════════════════════════════════ */
 .sc-table-wrap {
+    padding: 0 var(--gut);
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 0 3rem;
 }
 
 .sc-table-wrap table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.845rem;
-    min-width: 880px;
+    font-size: 0.875rem;
 }
 
 .sc-table-wrap thead th {
-    padding: 1rem 1.5rem;
+    position: sticky;
+    /* Offset zero, not the topbar's height. A sticky element resolves against
+       its nearest scrolling ancestor, and this wrapper is one: it sets
+       overflow-x, and a box with overflow-x:auto computes overflow-y to auto
+       too — 'visible' is not a legal pairing. So the intended "park under the
+       fixed topbar" offset was measured from the top of the table instead of
+       the top of the page, holding this opaque header 3.4rem down its own
+       wrapper and painting it over the first row of the table. Every table on
+       every page silently lost its first fixture: the caption counted 5 and
+       the reader could see 4. */
+    top: 0;
+    z-index: 5;
+    background: var(--paper);
     text-align: left;
-    font-size: 0.62rem;
-    font-weight: 700;
-    text-transform: uppercase;
+    padding: 0.7rem 1rem 0.7rem 0;
+    font-family: var(--mono);
+    font-size: 0.625rem;
+    font-weight: 500;
     letter-spacing: 0.12em;
-    color: var(--muted);
-    border-bottom: 2px solid var(--ink);
+    text-transform: uppercase;
+    color: var(--ink-3);
     white-space: nowrap;
-    background: transparent;
-}
-
-.sc-table-wrap tbody tr {
-    border-bottom: 1px solid var(--border);
-    transition: background 0.1s;
-}
-
-.sc-table-wrap tbody tr:last-child { border-bottom: none; }
-
-.sc-table-wrap tbody tr:hover {
-    background: var(--hover);
+    border-bottom: 1px solid var(--ink);
 }
 
 .sc-table-wrap tbody td {
-    padding: 1.1rem 1.5rem;
-    color: var(--ink);
+    padding: 0.8rem 1rem 0.8rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: baseline;
     white-space: nowrap;
-    vertical-align: middle;
 }
 
-/* Date column */
-.sc-table-wrap tbody td:first-child {
-    color: var(--muted);
-    font-size: 0.8rem;
+.sc-table-wrap tbody tr:hover td { background: var(--paper-2); }
+
+/* Cells are classed from their column heading rather than by position: the
+   football table and the basketball table have different column orders, and an
+   nth-child rule silently monospaced team names on one of them. */
+.sc-table-wrap tbody td.is-num {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+    color: var(--ink-2);
+}
+
+.sc-table-wrap tbody td.is-name {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    white-space: normal;
+    min-width: 9rem;
+}
+
+/* The model's call. Specificity has to clear .is-num above, or the leading
+   figure silently stays grey. */
+.sc-table-wrap tbody td.is-num.is-lead,
+.sc-table-wrap tbody td.is-lead {
+    color: var(--signal);
+    font-weight: 500;
 }
 
 /* ════════════════════════════════════════
-   LEAGUE PAGE — Note
+   INTERIOR — note & empty state
 ════════════════════════════════════════ */
 .sc-note {
-    padding: 1.5rem 3rem;
-    font-size: 0.72rem;
-    color: var(--muted);
-    border-top: 1px solid var(--border);
+    max-width: 62ch;
+    margin: clamp(2rem, 5vw, 3rem) 0 clamp(3rem, 7vw, 5rem);
+    padding: 1.25rem var(--gut) 0;
+    border-top: 1px solid var(--rule);
+    font-size: 0.8125rem;
     line-height: 1.7;
-    letter-spacing: 0.02em;
+    color: var(--ink-2);
 }
 
-/* ════════════════════════════════════════
-   LEAGUE PAGE — Empty state
-════════════════════════════════════════ */
 .sc-empty {
-    max-width: 480px;
-    margin: 6rem auto;
-    padding: 3.5rem 3rem;
-    text-align: center;
-    border: 1px solid var(--border);
+    padding: clamp(4rem, 14vw, 9rem) var(--gut);
+    max-width: 48ch;
 }
-
-.sc-empty-icon { font-size: 2.5rem; margin-bottom: 1.25rem; }
 
 .sc-empty-title {
-    font-size: 1.4rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    color: var(--ink);
-    margin-bottom: 0.75rem;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.05;
 }
 
 .sc-empty-msg {
-    color: var(--muted);
-    font-size: 0.85rem;
-    line-height: 1.7;
+    margin-top: 1rem;
+    color: var(--ink-2);
+    font-size: 0.9375rem;
 }
 
+.sc-empty-msg code {
+    font-family: var(--mono);
+    font-size: 0.8125rem;
+    color: var(--ink);
+    border-bottom: 1px solid var(--rule);
+}
+
+.sc-empty-icon { display: none; }
+
+/* ════════════════════════════════════════
+   NOTICE  (cold-start and similar warnings)
+════════════════════════════════════════ */
+.sc-notice {
+    margin: 0 var(--gut) 1.5rem;
+    padding: 0.875rem 0 0.875rem 1rem;
+    border-left: 2px solid var(--signal);
+    max-width: 70ch;
+    font-size: 0.8125rem;
+    line-height: 1.6;
+    color: var(--ink-2);
+}
+
+.sc-notice b { color: var(--ink); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .001ms !important;
+        transition-duration: .001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
 /* ════════════════════════════════════════
    SIMULATOR PAGE
 ════════════════════════════════════════ */
 .sim-form {
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem 3rem 1rem;
+    padding: 2rem var(--gut) 1rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -502,7 +598,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
     align-self: flex-start;
     padding: 0.75rem 2.5rem;
     background: var(--ink);
-    color: #fff;
+    color: var(--paper);
     border: none;
     font-size: 0.75rem;
     font-weight: 700;
@@ -519,7 +615,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
 .sim-result {
     max-width: 900px;
     margin: 2rem auto 4rem;
-    padding: 0 3rem;
+    padding: 0 var(--gut);
 }
 
 .sim-teams {
@@ -655,10 +751,10 @@ body.page-index .sc-footer { flex-shrink: 0; }
 .sim-error {
     max-width: 900px;
     margin: 1rem auto;
-    padding: 0.85rem 3rem;
-    color: #b91c1c;
+    padding: 0.85rem var(--gut);
+    color: var(--signal);
     font-size: 0.85rem;
-    border-left: 3px solid #b91c1c;
+    border-left: 2px solid var(--signal);
 }
 
 /* ════════════════════════════════════════
@@ -677,7 +773,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
-    padding: 1.25rem 3rem;
+    padding: 1.25rem var(--gut);
     border-bottom: 1px solid var(--border);
 }
 
@@ -701,7 +797,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
 .dna-table-wrap {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 0 3rem;
+    padding: 0 var(--gut);
 }
 
 .dna-table {
@@ -725,7 +821,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
 }
 
 .dna-th-num { padding-left: 1.5rem; padding-right: 0.5rem; width: 2.5rem; }
-.dna-th-muted { color: #c0c0c0; }
+.dna-th-muted { color: var(--ink-3); }
 
 .dna-table tbody tr {
     border-bottom: 1px solid var(--border);
@@ -803,7 +899,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
 }
 
 .dna-bar-atk { background: var(--ink); }
-.dna-bar-def { background: #999999; }
+.dna-bar-def { background: var(--ink-3); }
 
 .dna-bar-num {
     font-size: 0.7rem;
@@ -855,23 +951,23 @@ body.page-index .sc-footer { flex-shrink: 0; }
     flex-shrink: 0;
 }
 
-.form-W     { background: #bbf7d0; }
-.form-D     { background: #e5e5e5; }
-.form-L     { background: #fecaca; }
-.form-empty { background: transparent; border: 1.5px solid #ebebeb; opacity: 0.5; }
+.form-W     { background: var(--ink); }
+.form-D     { background: var(--ink); opacity: .28; }
+.form-L     { background: transparent; border: 1px solid var(--rule); }
+.form-empty { background: transparent; border: 1px dashed var(--rule-soft); }
 
 /* ════════════════════════════════════════
    RANKINGS PAGE
 ════════════════════════════════════════ */
-.rnk-pill-up { border-color: #16a34a !important; color: #16a34a !important; }
-.rnk-pill-dn { border-color: #dc2626 !important; color: #dc2626 !important; }
+.rnk-pill-up { border-color: var(--ink) !important;   color: var(--ink) !important; }
+.rnk-pill-dn { border-color: var(--rule) !important;  color: var(--ink-3) !important; }
 
 /* Spotlight cards */
 .rnk-spotlight {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    padding: 1.5rem 3rem;
+    padding: 1.5rem var(--gut);
     border-bottom: 1px solid var(--border);
 }
 
@@ -883,8 +979,8 @@ body.page-index .sc-footer { flex-shrink: 0; }
     gap: 0.55rem;
 }
 
-.rnk-spot-card.rnk-spot-up { border-left: 4px solid #16a34a; }
-.rnk-spot-card.rnk-spot-dn { border-left: 4px solid #dc2626; }
+.rnk-spot-card.rnk-spot-up { border-left: 2px solid var(--signal); }
+.rnk-spot-card.rnk-spot-dn { border-left: 2px solid var(--rule); }
 
 .rnk-spot-label {
     font-size: 0.6rem;
@@ -912,7 +1008,7 @@ body.page-index .sc-footer { flex-shrink: 0; }
 .rnk-table-wrap {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    padding: 0 3rem;
+    padding: 0 var(--gut);
 }
 
 .rnk-table {
@@ -944,8 +1040,8 @@ body.page-index .sc-footer { flex-shrink: 0; }
 .rnk-table tbody tr:last-child { border-bottom: none; }
 .rnk-table tbody tr:hover { background: var(--hover); }
 
-.rnk-row-up td:first-child { border-left: 3px solid #16a34a; }
-.rnk-row-dn td:first-child { border-left: 3px solid #dc2626; }
+.rnk-row-up td:first-child { box-shadow: inset 2px 0 0 var(--signal); }
+.rnk-row-dn td:first-child { box-shadow: inset 2px 0 0 var(--rule); }
 
 .rnk-td {
     padding: 0.85rem 1.5rem;
@@ -986,11 +1082,11 @@ body.page-index .sc-footer { flex-shrink: 0; }
     font-variant-numeric: tabular-nums;
 }
 
-.rnk-up      { background: rgba(22,163,74,0.12);  color: #16a34a; }
-.rnk-dn      { background: rgba(220,38,38,0.12);  color: #dc2626; }
+.rnk-up      { background: none; color: var(--ink);   font-family: var(--mono); }
+.rnk-dn      { background: none; color: var(--ink-3); font-family: var(--mono); }
 .rnk-neutral { background: transparent; color: var(--muted); font-weight: 400; }
-.rnk-up.rnk-big { background: rgba(22,163,74,0.2);  font-size: 0.78rem; }
-.rnk-dn.rnk-big { background: rgba(220,38,38,0.2);  font-size: 0.78rem; }
+.rnk-up.rnk-big { color: var(--signal); font-weight: 700; }
+.rnk-dn.rnk-big { color: var(--ink);    font-weight: 700; }
 
 /* ════════════════════════════════════════
    BEST PICKS PAGE
@@ -1023,14 +1119,14 @@ body.page-index .sc-footer { flex-shrink: 0; }
     border-radius: 9999px;
 }
 .tier-strong {
-    background: rgba(22,163,74,0.12);
-    color: #16a34a;
-    border: 1px solid rgba(22,163,74,0.25);
+    background: none;
+    color: var(--signal);
+    border: 1px solid var(--signal);
 }
 .tier-value {
-    background: rgba(37,99,235,0.1);
-    color: #2563eb;
-    border: 1px solid rgba(37,99,235,0.2);
+    background: none;
+    color: var(--ink-2);
+    border: 1px solid var(--rule);
 }
 
 .picks-day {
@@ -1059,15 +1155,15 @@ body.page-index .sc-footer { flex-shrink: 0; }
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    background: #fff;
-    transition: box-shadow 0.15s;
+    background: var(--paper);
+    transition: border-color 0.15s;
 }
 .pick-card:hover {
-    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    border-color: var(--ink);
 }
 .pick-card.pick-strong {
-    border-color: rgba(22,163,74,0.35);
-    background: rgba(22,163,74,0.02);
+    border-color: var(--signal);
+    background: none;
 }
 
 .pick-conf {
@@ -1113,9 +1209,9 @@ body.page-index .sc-footer { flex-shrink: 0; }
     padding: 0.2rem 0.55rem;
     border-radius: 4px;
 }
-.outcome-H { background: rgba(37,99,235,0.1);  color: #1d4ed8; }
-.outcome-D { background: rgba(100,100,100,0.1); color: #555; }
-.outcome-A { background: rgba(220,38,38,0.1);  color: #dc2626; }
+.outcome-H { background: none; color: var(--ink);   border: 1px solid var(--ink); }
+.outcome-D { background: none; color: var(--ink-3); border: 1px solid var(--rule); }
+.outcome-A { background: none; color: var(--ink-2); border: 1px solid var(--rule); }
 
 .pick-stats {
     display: flex;
@@ -1184,15 +1280,15 @@ body.page-index .sc-footer { flex-shrink: 0; }
 .acc-base-card.acc-base-model {
     border-color: var(--ink);
     background: var(--ink);
-    color: #fff;
+    color: var(--paper);
 }
-.acc-base-card.acc-base-model .acc-base-lbl { color: rgba(255,255,255,0.7); }
+.acc-base-card.acc-base-model .acc-base-lbl { color: rgba(251,251,249,0.66); }
 .acc-base-num {
     font-size: 1.6rem;
     font-weight: 800;
     color: var(--ink);
 }
-.acc-base-card.acc-base-model .acc-base-num { color: #fff; }
+.acc-base-card.acc-base-model .acc-base-num { color: var(--paper); }
 .acc-base-lbl {
     font-size: 0.75rem;
     color: var(--muted);
@@ -1264,8 +1360,8 @@ body.page-index .sc-footer { flex-shrink: 0; }
     min-width: 3.5rem;
     text-align: right;
 }
-.acc-bar-val.acc-good { color: #16a34a; }
-.acc-bar-val.acc-bad  { color: #dc2626; }
+.acc-bar-val.acc-good { color: var(--signal); font-weight: 700; }
+.acc-bar-val.acc-bad  { color: var(--ink-3); }
 
 .acc-sub {
     font-size: 0.7rem;
@@ -1273,85 +1369,496 @@ body.page-index .sc-footer { flex-shrink: 0; }
     font-weight: 400;
 }
 
+
 /* ════════════════════════════════════════
    RESPONSIVE
 ════════════════════════════════════════ */
 
-/* Tablet */
+/* Tables keep their intrinsic width and scroll inside their wrapper — squeezing
+   a 12-column fixture table into 360px makes it unreadable, not responsive. */
+.sc-table-wrap,
+.rnk-table-wrap,
+.dna-table-wrap,
+.sim-heatmap-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+}
+
 @media (max-width: 1024px) {
-    .sc-main { padding: 1.75rem 2rem; }
-    .sc-nav  { padding: 1.75rem 2rem; }
+    .rnk-spotlight  { grid-template-columns: 1fr; }
+    .acc-baselines  { grid-template-columns: repeat(2, 1fr); }
 }
 
-@media (max-width: 900px) {
-    .sc-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 880px) {
+    .sc-card        { grid-template-columns: 6.5rem minmax(0, 1fr) auto; }
+    .picks-grid     { grid-template-columns: 1fr; }
+    .sim-form       { grid-template-columns: 1fr; }
 }
 
-/* Simulator: stack heatmap below stats */
-@media (max-width: 760px) {
-    .sim-stats {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    .sim-heatmap {
-        width: min(280px, 100%);
-    }
-}
-
-/* Phone */
 @media (max-width: 640px) {
-    /* Index */
-    body.page-index { height: auto; overflow-y: auto; }
-    .sc-nav   { padding: 1rem 1.25rem; }
-    .sc-hero  { padding: 2rem 1.25rem 1.5rem; }
-    .sc-main  { padding: 1.25rem; }
-    .sc-grid  { grid-template-columns: repeat(2, 1fr); gap: 0.4rem; margin-bottom: 1.5rem; }
-    .sc-card  { padding: 1.25rem 1rem 1rem; }
-    .sc-footer { padding: 1.25rem; font-size: 0.65rem; }
+    body { font-size: 14px; }
 
-    /* League & interior topbar */
-    .sc-topbar { padding: 0.85rem 1.25rem; }
+    /* Chrome */
+    .sc-nav { flex-direction: column; align-items: flex-start; gap: .5rem; }
+    .sc-nav-actions, .sc-topbar-right { gap: 1rem; flex-wrap: wrap; }
+    .sc-topbar { padding: .85rem var(--gut); }
     .sc-topbar-brand { display: none; }
-    .sc-btn-dna { padding: 0.38rem 0.75rem; font-size: 0.62rem; }
-    .sc-btn-dl  { padding: 0.38rem 0.75rem; font-size: 0.62rem; }
 
-    /* Interior page header */
-    .sc-page-header { padding: 1.75rem 1.25rem 1.25rem; }
-    .sc-legend { padding: 0.85rem 1.25rem; }
-    .sc-table-wrap { padding: 0 0; }
+    /* Hero + signature call */
+    .sc-call { grid-template-columns: minmax(0, 1fr); gap: .35rem; }
+    .sc-call-pct { grid-column: 1; }
+    .sc-call-meta { font-size: .625rem; gap: .5rem 1rem; }
+
+    /* Competition index: region rides above the name */
+    .sc-card {
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: .15rem .75rem;
+        padding: .9rem 0;
+    }
+    .sc-country { grid-column: 1 / -1; order: -1; }
+    .sc-card::before { display: none; }
+    .sc-league-name { font-size: 1rem; }
+
+    /* Tables: unpin sticky heads, which eat a phone viewport */
     .sc-table-wrap thead th,
-    .sc-table-wrap tbody td { padding: 0.75rem 0.85rem; }
-    .sc-note  { padding: 1rem 1.25rem; }
-    .sc-empty { margin: 3rem 1.25rem; }
+    .rnk-th, .dna-th { position: static; }
+    .sc-table-wrap tbody td:nth-child(2),
+    .sc-table-wrap tbody td:nth-child(3) { min-width: 7rem; }
 
     /* Simulator */
-    .sim-form    { padding: 1.5rem 1.25rem 1rem; gap: 1rem; }
-    .sim-result  { padding: 0 1.25rem; margin-bottom: 3rem; }
-    .sim-matchup { grid-template-columns: 1fr; gap: 0.75rem; }
-    .sim-vs      { padding: 0; text-align: left; }
-    .sim-teams   { font-size: 1rem; }
-    .sim-stat-value { font-size: 1.25rem; }
-    .sim-error   { padding: 0.75rem 1.25rem; }
+    .sim-teams      { grid-template-columns: 1fr; gap: .5rem; }
+    .sim-vs         { display: none; }
+    .sim-scores     { grid-template-columns: 1fr; }
+    .sim-btn        { width: 100%; text-align: center; }
+    .sim-stat-row   { flex-wrap: wrap; }
 
-    /* DNA page */
-    .dna-legend     { padding: 0.85rem 1.25rem; }
-    .dna-table-wrap { padding: 0; }
-    .dna-bar-track  { width: 65px; }
-    .dna-td         { padding: 0.75rem 0.85rem; }
-    .dna-td-num     { padding-left: 0.85rem; }
+    /* Accuracy */
+    .acc-baselines  { grid-template-columns: 1fr; }
+    .acc-bd-grid    { grid-template-columns: 1fr; }
+    .acc-big-num    { font-size: clamp(3rem, 18vw, 5rem); }
 
-    .rnk-spotlight  { grid-template-columns: 1fr; padding: 1rem 1.25rem; }
-    .rnk-spot-team  { font-size: 1.2rem; }
-    .rnk-table-wrap { padding: 0; }
-    .rnk-td         { padding: 0.75rem 0.85rem; }
-    .rnk-td-num     { padding-left: 0.85rem; }
-    .dna-td-ratings { min-width: 160px; }
+    /* Picks */
+    .pick-teams     { font-size: 1rem; }
+    .picks-legend   { flex-wrap: wrap; gap: .4rem 1rem; }
+
+    /* Team DNA */
+    .dna-legend     { flex-wrap: wrap; gap: .4rem 1rem; }
+
+    .sc-footer      { padding: 1.25rem var(--gut) 2rem; }
 }
 
-/* Small phone */
 @media (max-width: 400px) {
-    .sc-grid  { grid-template-columns: repeat(2, 1fr); }
-    .sc-title { font-size: clamp(2.6rem, 16vw, 4.5rem); }
-    .sc-topbar-right { gap: 0.35rem; }
-    .sc-btn-dna, .sc-btn-dl { padding: 0.35rem 0.6rem; letter-spacing: 0.06em; }
+    .sc-title      { font-size: clamp(1.75rem, 11vw, 2.5rem); }
+    .sc-page-title { font-size: clamp(1.5rem, 9vw, 2rem); }
+    .sc-badge      { font-size: .6875rem; }
+    .sc-legend     { gap: .3rem 1rem; }
+}
+
+/* ════════════════════════════════════════
+   FIGURES — one treatment everywhere
+   Every number on the site is monospaced and tabular so columns align and
+   magnitudes can be compared without reading the digits.
+════════════════════════════════════════ */
+.rnk-td-num, .rnk-td-stat, .rnk-pts, .rnk-gd, .rnk-shift, .rnk-wdl,
+.dna-td-num, .dna-td-stat, .dna-bar-num, .dna-bar-val, .dna-rating-lbl,
+.pick-conf-num, .pick-stats, .picks-count, .pick-conf,
+.acc-big-num, .acc-base-num, .acc-bd-pct, .acc-bd-count, .acc-bar-val,
+.sim-stat-value, .sim-score-chip, .sim-hm-cell, .sim-hm-hdr,
+.tier-value {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+}
+
+.rnk-th, .dna-th, .acc-big-label, .acc-base-lbl, .pick-outcome-label,
+.picks-day-label, .sim-label, .sim-stat-label, .dna-rating-lbl {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+/* ════════════════════════════════════════
+   MODEL VS MARKET
+   The page's argument is that a gap is a measurable length, so every number
+   here is also drawn as one.
+════════════════════════════════════════ */
+.bm-intro {
+    max-width: 64ch;
+    padding: 0 var(--gut) clamp(2rem, 5vw, 3rem);
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: var(--ink-2);
+}
+.bm-intro p + p { margin-top: 0.9rem; }
+.bm-intro b { color: var(--ink); font-weight: 700; }
+
+.bm-gaps    { padding: 0 var(--gut) clamp(2rem, 5vw, 3rem); }
+.bm-section { padding: clamp(2rem, 5vw, 3.5rem) var(--gut) 0; }
+
+.bm-gap-row {
+    display: grid;
+    grid-template-columns: 14rem minmax(0, 1fr) 5rem;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+}
+.bm-gap-name  { font-weight: 700; letter-spacing: -0.01em; }
+.bm-gap-track { display: block; height: 6px; background: var(--rule-soft); }
+.bm-gap-bar   { display: block; height: 100%; background: var(--signal); }
+.bm-gap-val {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    color: var(--ink-2);
+    font-size: 0.8125rem;
+}
+.bm-gap-note, .bm-note {
+    max-width: 66ch;
+    margin-top: 1rem;
+    font-size: 0.8125rem;
+    line-height: 1.65;
+    color: var(--ink-3);
+}
+
+.bm-dim { color: var(--ink-3); }
+
+/* Calibration: predicted and observed as two marks on one axis. The distance
+   between them is the error, read directly. */
+.bm-cal       { margin-top: 1.5rem; }
+.bm-cal-title {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+}
+.bm-cal-row {
+    display: grid;
+    grid-template-columns: 5rem minmax(0, 1fr) 12rem;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+}
+.bm-cal-band, .bm-cal-nums {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-3);
+}
+.bm-cal-nums { text-align: right; }
+.bm-cal-track {
+    position: relative;
+    display: block;
+    height: 14px;
+    border-bottom: 1px solid var(--rule-soft);
+}
+.bm-cal-track i {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 12px;
+    margin-left: -1px;
+}
+.bm-cal-pred { background: var(--ink-3); }
+.bm-cal-obs  { background: var(--signal); }
+
+.bm-key {
+    display: inline-block;
+    width: 2px; height: 10px;
+    margin: 0 .35rem 0 1rem;
+    vertical-align: -1px;
+}
+.bm-key-pred { background: var(--ink-3); }
+.bm-key-obs  { background: var(--signal); }
+
+.bm-roi {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--ink);
+}
+.bm-roi-num {
+    font-family: var(--mono);
+    font-size: clamp(2rem, 6vw, 3.25rem);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.04em;
+    color: var(--ink-3);
+}
+.bm-roi-num.bm-roi-pos { color: var(--signal); }
+.bm-roi-label {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+@media (max-width: 640px) {
+    .bm-gap-row  { grid-template-columns: minmax(0, 1fr) 4.5rem; }
+    .bm-gap-track { grid-column: 1 / -1; order: 1; }
+    .bm-cal-row  { grid-template-columns: 4.5rem minmax(0, 1fr); }
+    .bm-cal-nums { grid-column: 1 / -1; text-align: left; }
+}
+
+/* ════════════════════════════════════════
+   SEASON PROJECTION
+════════════════════════════════════════ */
+.sn-tab {
+    font-family: var(--mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: var(--ink-3);
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: color .15s, border-color .15s;
+}
+.sn-tab:hover  { color: var(--ink); border-bottom-color: var(--rule); }
+.sn-tab.is-on  { color: var(--signal); border-bottom-color: var(--signal); }
+
+/* A promoted club is a guess, not a rating — say so inline rather than in a key */
+.sn-flag {
+    font-family: var(--mono);
+    font-size: 0.5625rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    border: 1px solid var(--rule);
+    padding: 1px 4px;
+    margin-left: .5rem;
+    vertical-align: 1px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+/* ════════════════════════════════════════
+   HEAD TO HEAD
+════════════════════════════════════════ */
+.h2h-pick {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    flex-wrap: wrap;
+    padding: 0 var(--gut) clamp(1.5rem, 4vw, 2.5rem);
+}
+.h2h-v {
+    font-family: var(--mono);
+    font-size: .6875rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+}
+
+/* Record as a proportional rule, the same device the fixture pages use */
+.h2h-split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2fr minmax(0, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding: 1.25rem 0 .5rem;
+}
+/* .sc-prob sets grid-column: 1 / -1 for the home-page hero, which would span
+   this three-column row and stack the team names above and below it. */
+.h2h-split .sc-prob { grid-column: auto; margin-top: 0; }
+
+/* .sim-select is full-width on the simulator; here the two sit side by side */
+.h2h-pick .sim-select { width: auto; min-width: 13rem; flex: 0 1 16rem; }
+.h2h-side {
+    display: flex;
+    align-items: baseline;
+    gap: .6rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+.h2h-side b {
+    font-family: var(--mono);
+    font-size: 1.5rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.03em;
+}
+.h2h-right { justify-content: flex-end; text-align: right; }
+
+.h2h-fx {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-top: 1rem;
+}
+.h2h-fx .is-num {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-2);
+    font-size: .875rem;
+}
+
+@media (max-width: 640px) {
+    .h2h-split { grid-template-columns: minmax(0, 1fr); gap: .4rem; }
+    .h2h-right { justify-content: flex-start; text-align: left; flex-direction: row-reverse; }
+    .h2h-pick .sim-select { width: 100%; }
+}
+
+/* ════════════════════════════════════════
+   PLAYERS
+════════════════════════════════════════ */
+/* Attempt count rides alongside the percentage, quieter than it */
+.pl-att {
+    color: var(--ink-3);
+    font-size: .8125em;
+}
+
+/* ════════════════════════════════════════
+   INDEX GRID
+   Thirty-six leagues in one column put basketball two thousand pixels below
+   the fold. Grouping by country gives the grid a natural cell and keeps a
+   country's divisions together.
+════════════════════════════════════════ */
+.sc-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 0 2.5rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1.5rem;
+}
+
+.sc-col { break-inside: avoid; padding-top: 1.25rem; }
+
+.sc-col-head {
+    font-family: var(--mono);
+    font-size: .625rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    padding-bottom: .35rem;
+    border-bottom: 1px solid var(--rule);
+}
+
+.sc-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: .75rem;
+    padding: .45rem 0;
+    border-bottom: 1px solid var(--rule-soft);
+    text-decoration: none;
+    color: inherit;
+    transition: color .15s;
+}
+.sc-row:last-child { border-bottom: none; }
+.sc-row:hover { color: var(--signal); }
+
+.sc-row-name {
+    font-size: .9375rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+
+/* The count is the useful part: how many fixtures are waiting */
+.sc-row-n {
+    font-family: var(--mono);
+    font-size: .75rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-3);
+    white-space: nowrap;
+}
+.sc-row-n.is-on { color: var(--ink-2); }
+.sc-row-n.is-on::after {
+    content: '';
+    display: inline-block;
+    width: 4px; height: 4px;
+    margin-left: .45rem;
+    vertical-align: .1em;
+    background: var(--signal);
+}
+
+@media (max-width: 640px) {
+    .sc-cols { grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); gap: 0 1.25rem; }
+    .sc-row-name { font-size: .875rem; }
+}
+
+/* Context line under the hero's strongest call */
+.sc-call-of {
+    grid-column: 1 / -1;
+    margin-top: .5rem;
+    font-size: .8125rem;
+    color: var(--ink-3);
+}
+
+/* Marks a league whose title is decided after the regular season */
+.sn-rs {
+    font-size: .5625rem;
+    letter-spacing: .08em;
+    color: var(--ink-3);
+    border: 1px solid var(--rule);
+    padding: 0 3px;
+    margin-left: .35rem;
+    vertical-align: 1px;
+}
+
+/* ════════════════════════════════════════
+   HERO — the next matchday
+   Deliberately quieter than the headline call: same information, a third of
+   the weight, so it reads as "and then" rather than competing for attention.
+════════════════════════════════════════ */
+.sc-next {
+    max-width: 46rem;
+    margin-top: 1.25rem;
+    padding-top: .85rem;
+    border-top: 1px solid var(--rule-soft);
+}
+
+.sc-next-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: var(--mono);
+    font-size: .625rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: .4rem;
+}
+
+.sc-next-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 8rem auto;
+    gap: .9rem;
+    align-items: center;
+}
+
+.sc-next-teams {
+    font-size: .9375rem;
+    font-weight: 700;
+    letter-spacing: -.01em;
+}
+.sc-next-teams span { color: var(--ink-3); font-weight: 400; }
+
+/* .sc-prob spans the hero grid; here it is one cell in a row */
+.sc-next-prob {
+    grid-column: auto;
+    height: 4px;
+    margin-top: 0;
+}
+
+.sc-next-pct {
+    font-family: var(--mono);
+    font-size: 1rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.02em;
+    color: var(--signal);
+    text-align: right;
+}
+
+@media (max-width: 640px) {
+    .sc-next-row { grid-template-columns: minmax(0, 1fr) auto; }
+    .sc-next-prob { grid-column: 1 / -1; order: 1; }
 }

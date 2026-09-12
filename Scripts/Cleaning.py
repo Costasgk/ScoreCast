@@ -17,13 +17,13 @@ def read_file(path):
 
     if ('np:g-xg' in df.columns or 'npxg' in df.columns or 'npxg/sh' in df.columns or
         'xg' in df.columns or 'xga' in df.columns or 'g-xg' in df.columns):
-        df_keep = df[['year', 'date', 'time', 'day', 'venue', 'referee','team', 'opponent', 
+        df_keep = df[['year', 'date', 'time', 'day', 'comp', 'round', 'venue', 'referee','team', 'opponent', 
                     'formation', 'result', 'poss',  'gf', 'ga', 
                     'gls', 'sh', 'sot', 'sot%', 'g/sh', 
                     'g/sot', 'pk', 'pkatt', 'g-xg', 'xg', 'xga',
                     'np:g-xg', 'npxg', 'npxg/sh' ]]
     else:
-        df_keep = df[['year', 'date', 'time', 'day', 'venue', 'referee','team', 'opponent', 
+        df_keep = df[['year', 'date', 'time', 'day', 'comp', 'round', 'venue', 'referee','team', 'opponent', 
                     'formation', 'result', 'poss',  'gf', 'ga', 
                     'gls', 'sh', 'sot', 'sot%', 'g/sh', 
                     'g/sot', 'pk', 'pkatt' ]]
@@ -115,7 +115,6 @@ def process():
     # (scrapped input, cleaned output name)
     leagues = [
         ('../Datasets/Scrapped Datasets/Serie_A_Stats.csv',             'Brazil_Serie_A.csv'),
-        ('../Datasets/Scrapped Datasets/Serie_B_Stats.csv',             'Brazil_Serie_B.csv'),
         ('../Datasets/Scrapped Datasets/Eliteserien_Stats.csv',         'Norway_Eliteserien.csv'),
         ('../Datasets/Scrapped Datasets/Veikkausliiga_Stats.csv',       'Finland_Veikkausliiga.csv'),
         ('../Datasets/Scrapped Datasets/Super_League_Greece_Stats.csv', 'Greece_Super_League.csv'),

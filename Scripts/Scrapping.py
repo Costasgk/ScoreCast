@@ -12,13 +12,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from tqdm import tqdm
 
 
-RESCRAPE_RECENT = 2   # always re-scrape the last N seasons even if cached
+RESCRAPE_RECENT = 1   # always re-scrape the last N seasons even if cached
+PAGE_SETTLE     = 0.5 # pause after each page load, seconds
+TEAM_DELAY      = 0.5 # pause between teams, seconds
+SEASONS         = 5   # seasons back to scrape — older data is decayed to ~0 by the models
 
 # ── League display names ───────────────────────────────────────────────────────
 
 LEAGUE_NAMES = {
     "Serie-A-Stats":               "Brazil Serie A",
-    "Serie-B-Stats":               "Brazil Serie B",
     "Eliteserien-Stats":           "Eliteserien (Norway)",
     "Veikkausliiga-Stats":         "Veikkausliiga (Finland)",
     "Super-League-Greece-Stats":   "Super League Greece",
@@ -46,7 +48,8 @@ def _make_driver():
         "profile.managed_default_content_settings.media_stream": 2,
     }
     options.add_experimental_option("prefs", prefs)
-    driver = uc.Chrome(options=options, use_subprocess=True, version_main=148)
+    options.page_load_strategy = "eager"   # don't wait on subresources
+    driver = uc.Chrome(options=options, use_subprocess=True)
     driver.set_page_load_timeout(60)
     return driver
 
@@ -116,11 +119,45 @@ def _get_html(driver, url, wait_css=None, timeout=30):
         except Exception:
             pass
 
-    time.sleep(2)
+    time.sleep(PAGE_SETTLE)
     return driver.page_source
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
+
+SCRAPPED_DIR = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "Datasets", "Scrapped Datasets"
+)
+
+# Identifies one team's match uniquely
+KEY_COLS = ["year", "team", "date", "opponent", "venue"]
+
+
+def _merge_seasons(existing_df, season_dfs):
+    """Replace re-scraped seasons instead of appending to them.
+
+    Appending leaves the cached rows for a season sitting next to the fresh
+    ones, so every re-run duplicates the last RESCRAPE_RECENT seasons.
+    """
+    parts = []
+    if existing_df is not None and len(existing_df):
+        fresh_years = set()
+        for sdf in season_dfs:
+            if "year" in sdf.columns:
+                fresh_years |= {int(y) for y in sdf["year"].dropna().unique()}
+        keep = existing_df
+        if fresh_years and "year" in keep.columns:
+            keep = keep[~pd.to_numeric(keep["year"], errors="coerce").isin(fresh_years)]
+        parts.append(keep)
+
+    parts.extend(season_dfs)
+    merged = pd.concat(parts, ignore_index=True)
+
+    key = [c for c in KEY_COLS if c in merged.columns]
+    if key:
+        merged = merged.drop_duplicates(subset=key, keep="last").reset_index(drop=True)
+    return merged
+
 
 def _divider(char="=", width=62):
     print(char * width)
@@ -139,7 +176,6 @@ def scrape_data(url_filter=None):
 
     # SerieA_argentina = "https://fbref.com/en/comps/21/Primera-Division-Stats"
     SerieA_brazil      = "https://fbref.com/en/comps/24/Serie-A-Stats"
-    SerieB_brazil      = "https://fbref.com/en/comps/38/Serie-B-Stats"
     LeagueA_norway     = "https://fbref.com/en/comps/28/Eliteserien-Stats"
     LeagueA_finland    = "https://fbref.com/en/comps/43/Veikkausliiga-Stats"
     PL_england         = "https://fbref.com/en/comps/9/Premier-League-Stats"
@@ -152,7 +188,7 @@ def scrape_data(url_filter=None):
     top5 = {PL_england, SerieA_italy, LaLiga_spain, LigueA_france, Bundesliga_germany}
 
     urls = [
-        SerieA_brazil, SerieB_brazil,
+        SerieA_brazil,
         LeagueA_norway, LeagueA_finland,
         SuperLeague_greece, PL_england,
         SerieA_italy, LaLiga_spain,
@@ -177,20 +213,15 @@ def scrape_data(url_filter=None):
             standings_url = url
             last_split    = standings_url.split('/')[-1]
 
-            if url == SerieB_brazil:
-                years = list(range(current_year, current_year - 7, -1))
-            elif url in top5:
-                years = list(range(current_year, current_year - 16, -1))
-            else:
-                years = list(range(current_year, current_year - 12, -1))
+            years = list(range(current_year, current_year - SEASONS, -1))
 
             if url == SerieA_italy:
                 last_split = last_split + "-Italy"
 
             display_key  = last_split.replace('_', '-')
             league_name  = LEAGUE_NAMES.get(display_key, last_split)
-            csv_path     = os.path.join("..", "Datasets", "Scrapped Datasets",
-                                        last_split.replace('-', '_') + ".csv")
+            csv_path     = os.path.join(SCRAPPED_DIR, last_split.replace('-', '_') + ".csv")
+            os.makedirs(SCRAPPED_DIR, exist_ok=True)
 
             # ── Resume: load what's already scraped ────────────────────────────
             existing_df   = None
@@ -305,7 +336,7 @@ def scrape_data(url_filter=None):
                             tqdm.write(f"    [!] {team_name}: {str(e)[:120]}")
                             season_skipped += 1
 
-                        time.sleep(2)
+                        time.sleep(TEAM_DELAY)
 
                 tqdm.write(
                     f"  Season {year}: {season_scraped} scraped"
@@ -320,8 +351,7 @@ def scrape_data(url_filter=None):
                     season_df.columns = [c.lower() for c in season_df.columns]
                     new_season_dfs.append(season_df)
 
-                    parts    = ([existing_df] if existing_df is not None else []) + new_season_dfs
-                    saved_df = pd.concat(parts, ignore_index=True)
+                    saved_df = _merge_seasons(existing_df, new_season_dfs)
                     saved_df.to_csv(csv_path)
                     tqdm.write(f"  Saved {len(saved_df):,} rows -> {os.path.basename(csv_path)}")
 

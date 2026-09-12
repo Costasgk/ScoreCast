@@ -12,6 +12,7 @@ Each output row = one upcoming fixture with:
 
 import os
 import json
+import itertools
 import warnings
 
 import numpy as np
@@ -21,8 +22,51 @@ from scipy.stats import poisson
 
 warnings.filterwarnings("ignore")
 
-DECAY_RATE = 0.0065   # exponential time-weight — half-life ~107 days
+DECAY_RATE = 0.0020   # exponential time-weight — half-life ~347 days.
+                      # Fitted by tune_decay.py against held-out log loss across
+                      # England, Italy and Spain, 3,420 matches. The previous
+                      # 0.0065 (~107 days) was reasoned, never measured, and
+                      # ranked 6th of 8 candidates: a 107-day half-life discards
+                      # most of a season, and team strength persists longer than
+                      # that. Worth -0.0104 log loss, about a quarter of the gap
+                      # to the bookmakers' closing price.
 MAX_GOALS  = 8        # internal grid; outputs capped at 5 for CSV columns
+
+
+# ── Calibration ───────────────────────────────────────────────────────────────
+# Raw Dixon-Coles output is overconfident at the extremes: backtesting showed it
+# saying 85% where the real frequency was 69%, and 6% where it was 13%. The fix
+# is a single temperature applied to the scoreline grid, m ** (1/T) renormalised.
+#
+# Applying it to the grid rather than to the 1X2 marginals keeps every derived
+# number consistent — win/draw/loss, BTTS, over/under and the score matrix all
+# fall out of the same tempered distribution. T > 1 flattens.
+#
+# The value is fitted by calibrate.py on held-out matches and cached; 1.0 means
+# no adjustment, so an absent file leaves behaviour unchanged.
+
+_CAL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         "..", "Datasets", "Models", "calibration.json")
+
+
+def _load_temperature():
+    try:
+        with open(_CAL_PATH) as f:
+            return float(json.load(f).get("temperature", 1.0))
+    except Exception:
+        return 1.0
+
+
+TEMPERATURE = _load_temperature()
+
+
+def temper(m, temperature=None):
+    """Flatten a probability grid toward uniform. T=1 returns it untouched."""
+    t = TEMPERATURE if temperature is None else temperature
+    if t == 1.0:
+        return m
+    out = np.clip(m, 1e-300, None) ** (1.0 / t)
+    return out / out.sum()
 
 
 # ── Dixon-Coles correction ────────────────────────────────────────────────────
@@ -135,16 +179,33 @@ class DixonColesModel:
         self.rho_      = p[-1]
         return self
 
-    def _lambda_mu(self, home_team, away_team):
-        hi  = self._idx[home_team]
-        ai  = self._idx[away_team]
-        lam = np.exp(self.attack_[hi] + self.defense_[ai] + self.home_adv_)
-        mu  = np.exp(self.attack_[ai] + self.defense_[hi])
+    def _params(self, team, allow_unknown=False):
+        """
+        Attack and defence for a team, falling back to the league average.
+
+        A promoted club has no history in this division, so it has no rating.
+        Refusing to rate it is right for a fixture page — better to say nothing
+        than to invent a number — but a season simulation cannot skip its
+        matches without handing it a guaranteed last place, so it is rated as an
+        average side and flagged as such.
+        """
+        i = self._idx.get(team)
+        if i is None:
+            if not allow_unknown:
+                raise KeyError(team)
+            return float(self.attack_.mean()), float(self.defense_.mean())
+        return float(self.attack_[i]), float(self.defense_[i])
+
+    def _lambda_mu(self, home_team, away_team, allow_unknown=False):
+        ha, hd = self._params(home_team, allow_unknown)
+        aa, ad = self._params(away_team, allow_unknown)
+        lam = np.exp(ha + ad + self.home_adv_)
+        mu  = np.exp(aa + hd)
         return float(lam), float(mu)
 
-    def scoreline_matrix(self, home_team, away_team):
+    def scoreline_matrix(self, home_team, away_team, allow_unknown=False):
         """(MAX_GOALS+1) × (MAX_GOALS+1) probability matrix. m[i,j] = P(home=i, away=j)."""
-        lam, mu = self._lambda_mu(home_team, away_team)
+        lam, mu = self._lambda_mu(home_team, away_team, allow_unknown)
         g       = np.arange(MAX_GOALS + 1)
         m       = np.outer(poisson.pmf(g, lam), poisson.pmf(g, mu))
 
@@ -156,19 +217,21 @@ class DixonColesModel:
         m[1, 1] *= max(1e-6, 1 - self.rho_)
 
         m /= m.sum()   # renormalise — corrections shift the sum slightly
-        return m
+        return temper(m)
 
-    def predict(self, home_team, away_team):
-        if home_team not in self._idx or away_team not in self._idx:
+    def predict(self, home_team, away_team, allow_unknown=False):
+        known = home_team in self._idx and away_team in self._idx
+        if not known and not allow_unknown:
             return None
 
-        m   = self.scoreline_matrix(home_team, away_team)
-        lam, mu = self._lambda_mu(home_team, away_team)
+        m   = self.scoreline_matrix(home_team, away_team, allow_unknown)
+        lam, mu = self._lambda_mu(home_team, away_team, allow_unknown)
 
         g           = np.arange(MAX_GOALS + 1)
         total_goals = g[:, None] + g[None, :]
 
         return {
+            "rated":    known,
             "home_win": float(np.tril(m, -1).sum()),
             "draw":     float(np.trace(m)),
             "away_win": float(np.triu(m, 1).sum()),
@@ -198,6 +261,17 @@ def load_matches(path: str, min_home_games: int = 10) -> pd.DataFrame:
     df["gf"]   = pd.to_numeric(df["gf"], errors="coerce")
     df["ga"]   = pd.to_numeric(df["ga"], errors="coerce")
 
+    # League games are numbered "Matchweek N"; cup and continental games carry
+    # named rounds ("Group stage", "Round of 16").  Matching on the round rather
+    # than the competition name survives league renames — Norway's Tippeligaen
+    # became Eliteserien in 2017 and both are genuine league seasons.
+    if "round" in df.columns:
+        is_league = df["round"].astype(str).str.strip().str.startswith("Matchweek")
+        dropped   = int((~is_league).sum())
+        if dropped:
+            print(f"   dropped {dropped} cup/continental rows")
+        df = df[is_league]
+
     home = df[df["venue"].str.strip().str.lower() == "home"].copy()
     home = home.rename(columns={
         "team": "home_team", "opponent": "away_team",
@@ -220,12 +294,16 @@ def upcoming_fixtures(matches: pd.DataFrame) -> pd.DataFrame:
     Return fixtures that have no recorded result AND are in the future.
 
     Old matches can also have null goals (scraping gaps), so we restrict to the
-    most recent 12-month window AND require date > today.
+    most recent 12-month window, and keep today's matches.
+
+    football-data publishes dates without kickoff times, so a fixture today is
+    stored at midnight. Requiring date > today therefore dropped the entire
+    current matchday — Bundesliga 2 lost three of its four games.
     """
     today        = pd.Timestamp("today").normalize()
     max_date     = matches["date"].dropna().max()
     season_start = max_date - pd.DateOffset(months=12)
-    recent       = matches[(matches["date"] >= season_start) & (matches["date"] > today)]
+    recent       = matches[(matches["date"] >= season_start) & (matches["date"] >= today)]
 
     no_result = (
         recent["home_goals"].isna()
@@ -236,9 +314,174 @@ def upcoming_fixtures(matches: pd.DataFrame) -> pd.DataFrame:
     return recent[no_result][["date", "home_team", "away_team"]].drop_duplicates()
 
 
+def _fixture_dates(league_key):
+    """Cached ESPN dates for one league, keyed 'home|away'. Empty if unknown."""
+    if not league_key:
+        return {}
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        "..", "Datasets", "Models", "fixture_dates.json")
+    try:
+        with open(path) as f:
+            return json.load(f).get("leagues", {}).get(league_key, {})
+    except Exception:
+        return {}
+
+
+def _double_round_robin(df, cur, teams, dates, tol=0.02, max_gap=0.20):
+    """
+    True when this league demonstrably plays every ordered pair exactly once.
+
+    Measured from the data, never assumed. Assuming it once fabricated a title
+    race for Greece, so there are two tests and both must pass.
+
+    The first is history: in each of the last few completed seasons every club
+    played 2(n-1) games. That identifies the format but trusts the current
+    member list, and the member list is exactly what goes wrong — China's
+    newest season lists 28 clubs where every previous season had 16, and a
+    28-club double round-robin would invent five hundred fixtures.
+
+    So the second test is arithmetic against the calendar: how much of the
+    season has elapsed, against how much of n(n-1) has been played. A league
+    four-fifths through its year with two-fifths of the meetings played is not
+    playing the format it appears to play, whatever the reason.
+    """
+    n = len(teams)
+    if n < 4:
+        return False
+
+    home = df['venue'].astype(str).str.lower().str.strip() == 'home'
+    seasons = sorted(df['season'].dropna().astype(str).unique())
+
+    ratios = []
+    for s in seasons[:-1][-5:]:
+        past = df[(df['season'].astype(str) == s) & home]
+        past = past[past['gf'].notna() & past['ga'].notna()]
+        if len(past) < 50:
+            continue
+        members = set(past['team'].astype(str)) | set(past['opponent'].astype(str))
+        if len(members) < 4:
+            continue
+        per_team = pd.concat([past['team'], past['opponent']]).value_counts()
+        ratios.append(per_team.median() / (2 * (len(members) - 1)))
+
+    # No completed season to learn from is not evidence of a round-robin.
+    if not ratios or any(abs(r - 1.0) > tol for r in ratios):
+        return False
+
+    played = cur[cur['gf'].notna() & cur['ga'].notna()]
+    start  = pd.to_datetime(cur['date'], errors='coerce').min()
+    ends   = [pd.to_datetime(cur['date'], errors='coerce').max()]
+    for when in dates.values():
+        w = pd.to_datetime(when, errors='coerce')
+        if pd.notna(w):
+            ends.append(w)
+    ends = [e for e in ends if pd.notna(e)]
+    if pd.isna(start) or not ends:
+        return False
+    end = max(ends)
+    if end <= start:
+        return False
+
+    today   = pd.Timestamp.now().normalize()
+    elapsed = min(max((today - start) / (end - start), 0.0), 1.0)
+    return elapsed - len(played) / (n * (n - 1)) <= max_gap
+
+
+def remaining_pairings(cleaned_path, scheduled, league_key=None):
+    """
+    Every fixture still to be played this season, including the ones no
+    calendar has been published for yet.
+
+    football-data publishes only the next matchweek, so a league in September
+    shows nine fixtures when three hundred are still to come. A double
+    round-robin plays each ordered pair exactly once, so the rest of the season
+    is simply the pairings that have not happened — known with certainty even
+    though the dates are not.
+
+    Returns them with date NaT, which is honest: the meeting is scheduled, the
+    day is not yet. Leagues that do not play a straight round-robin are excluded
+    upstream, because for them this arithmetic invents fixtures.
+    """
+    df = pd.read_csv(cleaned_path, index_col=0, low_memory=False)
+    if 'season' not in df.columns:
+        return pd.DataFrame(columns=['date', 'home_team', 'away_team'])
+
+    latest = sorted(df['season'].dropna().astype(str).unique())[-1]
+    cur = df[(df['season'].astype(str) == latest)
+             & (df['venue'].astype(str).str.lower().str.strip() == 'home')]
+    if cur.empty:
+        return pd.DataFrame(columns=['date', 'home_team', 'away_team'])
+
+    teams  = sorted(set(cur['team'].astype(str)) | set(cur['opponent'].astype(str)))
+    played = cur[cur['gf'].notna() & cur['ga'].notna()]
+    done   = {(str(r['team']), str(r['opponent'])) for _, r in played.iterrows()}
+
+    # Anything already on the calendar keeps its date; don't duplicate it here
+    booked = {(str(h), str(a)) for h, a in
+              zip(scheduled.get('home_team', []), scheduled.get('away_team', []))}
+
+    dates = _fixture_dates(league_key)
+
+    # football-data lags the calendar by days: a match already staged may still
+    # be missing a result here. Anything before today is genuinely history and
+    # is dropped; today itself is kept in full.
+    today = pd.Timestamp.now().normalize()
+    rows = []
+    listed = set()
+
+    if dates:
+        # ESPN publishes the actual calendar, which beats deriving one. It also
+        # works for leagues that are not a straight round-robin — championship
+        # splits, Apertura/Clausura, conference schedules — where the pairings
+        # arithmetic would invent fixtures that never happen.
+        #
+        # A future kickoff is the whole test. Membership of the current season
+        # is not: where football-data's newest season is last year's completed
+        # one, its team list is the wrong squad and every pairing already counts
+        # as played, which is how Scotland ended up with nothing to show.
+        for key, when in dates.items():
+            h, _, a = key.partition('|')
+            if not h or not a or (h, a) in booked:
+                continue
+            w = pd.to_datetime(when, errors='coerce')
+            # Keep a match for the whole of its day. Dropping it the moment
+            # kick-off passes empties the current matchday as the afternoon
+            # goes on, and the model's line for a game in progress is still
+            # what the model said — the result simply has not landed yet.
+            if pd.isna(w) or w.normalize() < today:
+                continue
+            rows.append({'date': w, 'home_team': h, 'away_team': a})
+            listed.add((h, a))
+
+        # A calendar is not always a whole season. ESPN and FBref publish what
+        # has been announced, which in September is often only the autumn: 2.
+        # Bundesliga came back with 268 of its 306 meetings, and the 38 that
+        # were missing appeared nowhere at all — not played, not predicted.
+        # Across the leagues that could be checked, 637 fixtures had silently
+        # gone missing this way.
+        #
+        # Where the format is known to be a straight double round-robin, the
+        # rest of the season is arithmetic, so fill the gap with dateless
+        # pairings. Where it is not, leave the gap alone: inventing fixtures is
+        # the worse failure of the two.
+        if _double_round_robin(df, cur, teams, dates):
+            for h, a in itertools.permutations(teams, 2):
+                if (h, a) in done or (h, a) in booked or (h, a) in listed:
+                    continue
+                rows.append({'date': pd.NaT, 'home_team': h, 'away_team': a})
+        return pd.DataFrame(rows, columns=['date', 'home_team', 'away_team'])
+
+    # No published calendar: fall back to the round-robin pairings, dateless.
+    for h, a in itertools.permutations(teams, 2):
+        if (h, a) not in done and (h, a) not in booked:
+            rows.append({'date': pd.NaT, 'home_team': h, 'away_team': a})
+    return pd.DataFrame(rows, columns=['date', 'home_team', 'away_team'])
+
+
 # ── Per-league runner ─────────────────────────────────────────────────────────
 
-def run_league(cleaned_path: str, output_path: str, league_name: str):
+def run_league(cleaned_path: str, output_path: str, league_name: str,
+               include_unscheduled: bool = False, league_key: str = None):
     print(f"\n-- {league_name}")
 
     matches   = load_matches(cleaned_path)
@@ -273,7 +516,17 @@ def run_league(cleaned_path: str, output_path: str, league_name: str):
     print(f"   Model saved  -> {model_file}")
 
     fixtures = upcoming_fixtures(matches)
-    print(f"   {len(fixtures)} upcoming fixtures")
+    fixtures = fixtures.assign(_sched=True)
+    n_sched  = len(fixtures)
+
+    if include_unscheduled:
+        extra = remaining_pairings(cleaned_path, fixtures, league_key)
+        if not extra.empty:
+            fixtures = pd.concat([fixtures, extra.assign(_sched=False)],
+                                 ignore_index=True)
+    print(f"   {n_sched} scheduled"
+          + (f" + {len(fixtures) - n_sched} unscheduled" if len(fixtures) > n_sched else "")
+          + " fixtures")
 
     if fixtures.empty:
         print(f"   No upcoming fixtures to predict")
@@ -284,7 +537,8 @@ def run_league(cleaned_path: str, output_path: str, league_name: str):
 
     rows, skipped = [], 0
     for _, row in fixtures.iterrows():
-        pred = model.predict(row["home_team"], row["away_team"])
+        pred = model.predict(row["home_team"], row["away_team"],
+                             allow_unknown=include_unscheduled)
         if pred is None:
             skipped += 1
             continue
@@ -304,6 +558,13 @@ def run_league(cleaned_path: str, output_path: str, league_name: str):
 
         rows.append({
             "Date":              row["date"].date() if pd.notna(row["date"]) else None,
+            # A blank date means the pairing is certain but the calendar is not
+            # out yet, so the page can separate confirmed fixtures from the rest
+            # of the season instead of showing them as one undifferentiated list.
+            "Scheduled":         bool(row.get("_sched", pd.notna(row["date"]))),
+            # False when a side has no history in this division — the line is
+            # then an average-team guess, not a rating, and says so.
+            "Rated":             bool(pred.get("rated", True)),
             "Home Team":         row["home_team"],
             "Away Team":         row["away_team"],
             "Home Win %":        round(pred["home_win"] * 100, 1),
@@ -336,7 +597,6 @@ def run_league(cleaned_path: str, output_path: str, league_name: str):
 
 LEAGUES = [
     ("Brazil_Serie_A.csv",        "predictions_brazil_serie_a.csv",    "Brazil Serie A"),
-    ("Brazil_Serie_B.csv",        "predictions_brazil_serie_b.csv",    "Brazil Serie B"),
     ("Norway_Eliteserien.csv",    "predictions_norway_eliteserien.csv","Eliteserien (Norway)"),
     ("Finland_Veikkausliiga.csv", "predictions_finland_veikkausliiga.csv", "Veikkausliiga (Finland)"),
     ("Greece_Super_League.csv",   "predictions_greece_super_league.csv","Super League Greece"),

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if has_data %}{{ L.league }} — {% endif %}Season Projection — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Home</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/model-vs-market" class="sc-btn-dl">vs Market</a>
+        <a href="/picks" class="sc-btn-dl">Best picks</a>
+    </div>
+</nav>
+
+{% if not has_data %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No projection yet</div>
+    <div class="sc-empty-msg">
+        Run <code>python Scripts/simulate_season.py</code> to play out the remaining
+        fixtures.
+    </div>
+</div>
+{% else %}
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">{{ L.league }}</h1>
+    <p class="sc-page-meta">
+        Season {{ L.season }} · {{ L.played }} played, {{ L.remaining }} to play ·
+        {{ '{:,}'.format(L.runs) }} simulated seasons{% if L.regular_season_only %} ·
+        regular season only{% endif %} · run {{ generated }}
+    </p>
+</div>
+
+<!-- League switcher -->
+<div class="sc-legend">
+    {% for x in leagues %}
+    <a href="/season/{{ x.slug }}"
+       class="sn-tab {% if x.slug == L.slug %}is-on{% endif %}">{{ x.name }}{% if x.regular_only %}<span class="sn-rs">RS</span>{% endif %}</a>
+    {% endfor %}
+</div>
+
+<div class="bm-intro">
+    <p>
+        Every remaining fixture played {{ '{:,}'.format(L.runs) }} times, drawing a
+        scoreline from the same model behind the fixture pages, then the table counted
+        each time. Scorelines are sampled rather than outcomes, so a 4–0 and a 1–0
+        move goal difference differently — which is what separates teams at both ends.
+    </p>
+    <p>
+        {% if L.fixture_source == 'derived' %}No calendar has been published for this
+        league, so the remaining schedule is derived: a double round-robin plays every
+        pairing once each way, and what is left is whatever has not happened yet.
+        {% else %}Fixtures come from the published league calendar, so these are the
+        matches actually scheduled rather than pairings worked out from the format.
+        {% endif %}
+    </p>
+</div>
+
+<!-- Title race: the question people actually follow -->
+{% if L.regular_season_only %}
+<div class="sc-notice">
+    <b>This league does not decide its title in the regular season.</b> A playoff or
+    championship split follows, and the published calendar does not cover it — so the
+    figures below are for finishing top of the regular-season table, not for winning
+    the competition. Read <i>{{ L.table[0].team }} {{ '%.0f'|format(L.table[0].title) }}%</i>
+    as the chance of leading when the split arrives.
+</div>
+{% endif %}
+
+{% set contenders = L.table | selectattr('title', '>', 0.4) | list %}
+{% if contenders %}
+<div class="bm-gaps">
+    <p class="sc-label" style="padding-bottom:.75rem;border-bottom:1px solid var(--ink)">
+        <span>{% if L.regular_season_only %}Regular season lead{% else %}Title race{% endif %}</span>
+        <span style="float:right">{{ contenders | length }} live contenders</span>
+    </p>
+    {% for r in contenders %}
+    <div class="bm-gap-row">
+        <span class="bm-gap-name">{{ r.team }}</span>
+        <span class="bm-gap-track">
+            <i class="bm-gap-bar" style="width:{{ r.title | round(1) }}%"></i>
+        </span>
+        <span class="bm-gap-val">{{ '%.1f'|format(r.title) }}%</span>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<!-- Full projected table -->
+<div class="sc-table-wrap">
+    <table>
+        <thead>
+            <tr>
+                <th>#</th><th>Team</th>
+                <th>Pl</th><th>Pts</th><th>xPts</th>
+                <th>{% if L.regular_season_only %}Top %{% else %}Title %{% endif %}</th><th>Top {{ L.europe_spots }} %</th><th>Relegated %</th>
+                <th>Finish</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for r in L.table %}
+            <tr>
+                <td class="is-num bm-dim">{{ loop.index }}</td>
+                <td class="is-name">
+                    {{ r.team }}{% if r.unknown %}<span class="sn-flag" title="No history in this division — rated as an average side">promoted</span>{% endif %}
+                </td>
+                <td class="is-num bm-dim">{{ r.played }}</td>
+                <td class="is-num">{{ r.points_now }}</td>
+                <td class="is-num">{{ '%.1f'|format(r.exp_points) }}</td>
+                <td class="is-num {% if r.title >= 10 %}is-lead{% endif %}">{{ '%.1f'|format(r.title) }}</td>
+                <td class="is-num">{{ '%.1f'|format(r.europe) }}</td>
+                <td class="is-num {% if r.relegated >= 25 %}is-lead{% endif %}">{{ '%.1f'|format(r.relegated) }}</td>
+                <td class="is-num bm-dim">{{ r.best_pos }}–{{ r.worst_pos }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="sc-note">
+    <b>Finish</b> is the best and worst position reached across all
+    {{ '{:,}'.format(L.runs) }} runs, so a wide range means the season is genuinely
+    open for that team. <b>xPts</b> is the average final points total.
+    {% if L.regular_season_only %}Play-offs and championship splits are not modelled at
+    all for this competition, so both the top and bottom figures describe the regular
+    season.{% endif %}
+    Play-offs are not modelled — relegation here means the automatic places only,
+    and the {{ L.relegation_spots }} bottom finishers are counted. Clubs marked
+    <i>promoted</i> have no record in this division and are simulated as average
+    sides, which is a guess rather than a rating. A club whose only top-flight
+    season went badly is judged on that season, so its projection will look harsh.
+    All figures are model estimates, not guarantees.
+</div>
+
+{% endif %}
+
+</body>
+</html>

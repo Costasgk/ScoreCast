@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if has_data %}{{ c.name }} Players{% else %}Players{% endif %} — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Home</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/Euroleague" class="sc-btn-dl">EuroLeague</a>
+        <a href="/season" class="sc-btn-dl">Season</a>
+    </div>
+</nav>
+
+{% if not has_data %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No player data</div>
+    <div class="sc-empty-msg">
+        Run <code>python Scripts/Euroleague_scripts/players.py</code> to build it
+        from the box scores.
+    </div>
+</div>
+{% else %}
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">{{ c.name }} Players</h1>
+    <p class="sc-page-meta">
+        Season {{ c.season }} · {{ c.players | length }} players ·
+        minimum {{ c.min_games }} games · built {{ generated }}
+    </p>
+</div>
+
+<div class="sc-legend">
+    {% for x in comps %}
+    <a href="/players/{{ x.comp }}" class="sn-tab {% if x.comp == c.comp %}is-on{% endif %}">{{ x.name }}</a>
+    {% endfor %}
+</div>
+
+<div class="bm-intro">
+    <p>
+        Per-game and per-40-minute rates from the box scores. Rates rather than totals:
+        fourteen points in thirty-two minutes and fourteen in nineteen are not the same
+        season, and only one of them has room left in it.
+    </p>
+    <p>
+        <b>These describe what happened, not what will.</b> A player's next line depends
+        mostly on how long they are on the floor, and nothing in this data says who is
+        injured or who has dropped out of the rotation — so there is no projection here,
+        only a record.
+    </p>
+</div>
+
+<!-- Sort is the whole interface: pick the column that matters to you -->
+<div class="sc-legend">
+    <span class="sc-label">Rank by</span>
+    {% for key, pair in sorts.items() %}
+    <a href="/players/{{ c.comp }}?sort={{ key }}"
+       class="sn-tab {% if key == sort %}is-on{% endif %}">{{ pair[1] }}</a>
+    {% endfor %}
+</div>
+
+{% if sort == 'fg3' %}
+<div class="sc-notice">
+    Shooters with fewer than <b>{{ min_3pa }} attempts</b> are excluded. Without that
+    floor this list is whoever took two threes and made both.
+</div>
+{% endif %}
+
+<div class="sc-table-wrap">
+    <table>
+        <thead>
+            <tr>
+                <th>#</th><th>Player</th><th>Team</th>
+                <th>G</th><th>GS</th><th>MPG</th>
+                <th>PPG</th><th>RPG</th><th>APG</th>
+                <th>SPG</th><th>BPG</th><th>TOV</th>
+                <th>2P%</th><th>3P%</th><th>FT%</th><th>TS%</th>
+                <th>P40</th><th>+/−</th><th>Val</th>
+                <th>Last {{ 5 }}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for r in rows %}
+            <tr>
+                <td class="is-num bm-dim">{{ loop.index }}</td>
+                <td class="is-name">{{ r.player | title }}</td>
+                <td class="is-num bm-dim">{{ r.team }}</td>
+                <td class="is-num bm-dim">{{ r.games }}</td>
+                <td class="is-num bm-dim">{{ r.starts }}</td>
+                <td class="is-num">{{ r.mpg }}</td>
+                <td class="is-num {% if sort == 'pts' %}is-lead{% endif %}">{{ r.ppg }}</td>
+                <td class="is-num {% if sort == 'reb' %}is-lead{% endif %}">{{ r.rpg }}</td>
+                <td class="is-num {% if sort == 'ast' %}is-lead{% endif %}">{{ r.apg }}</td>
+                <td class="is-num bm-dim">{{ r.spg }}</td>
+                <td class="is-num bm-dim">{{ r.bpg }}</td>
+                <td class="is-num bm-dim">{{ r.tpg }}</td>
+                <td class="is-num">{{ r.fg2 }}</td>
+                <td class="is-num {% if sort == 'fg3' %}is-lead{% endif %}">{{ r.fg3 }}<span class="pl-att">/{{ r.fg3a }}</span></td>
+                <td class="is-num">{{ r.ft }}</td>
+                <td class="is-num {% if sort == 'ts' %}is-lead{% endif %}">{{ r.ts }}</td>
+                <td class="is-num {% if sort == 'pts40' %}is-lead{% endif %}">{{ r.pts40 }}</td>
+                <td class="is-num bm-dim">{{ r.pm }}</td>
+                <td class="is-num {% if sort == 'val' %}is-lead{% endif %}">{{ r.vpg }}</td>
+                <td class="is-num bm-dim">{{ r.form_pts }}p / {{ r.form_min }}m</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="sc-note">
+    <b>Val</b> is the Euroleague's own valuation: everything a player did well minus
+    everything they did badly, in one number. <b>TS%</b> is true shooting, which charges
+    a trip to the line the possession it actually costs — the only fair way to compare a
+    slasher with a shooter. <b>P40</b> scales production to forty minutes, which flatters
+    bench players with small samples, so read it beside minutes rather than instead of
+    them. <b>Last 5</b> is points and minutes across the player's five most recent games.
+    Three-point percentages carry their attempt count because the percentage alone is
+    meaningless below about fifty of them.
+</div>
+
+{% endif %}
+
+</body>
+</html>

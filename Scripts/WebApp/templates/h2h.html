@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head to Head — {{ title }} — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/{{ slug }}" class="sc-back">← {{ title }}</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/season" class="sc-btn-dl">Season</a>
+        <a href="/model-vs-market" class="sc-btn-dl">vs Market</a>
+    </div>
+</nav>
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Head to Head</h1>
+    <p class="sc-page-meta">{{ title }} · league meetings only</p>
+</div>
+
+{% if not teams %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No data</div>
+    <div class="sc-empty-msg">Run the pipeline to populate this league.</div>
+</div>
+{% else %}
+
+<form class="h2h-pick" method="get" action="/h2h/{{ slug }}">
+    <select name="a" class="sim-select" aria-label="First team">
+        <option value="">Choose a team</option>
+        {% for t in teams %}<option value="{{ t }}" {% if t == a %}selected{% endif %}>{{ t }}</option>{% endfor %}
+    </select>
+    <span class="h2h-v">v</span>
+    <select name="b" class="sim-select" aria-label="Second team">
+        <option value="">Choose a team</option>
+        {% for t in teams %}<option value="{{ t }}" {% if t == b %}selected{% endif %}>{{ t }}</option>{% endfor %}
+    </select>
+    <button type="submit" class="sim-btn">Compare</button>
+</form>
+
+{% if rec and rec.played %}
+
+<!-- The record as one proportional rule, same device as the fixture pages -->
+<div class="bm-gaps">
+    <p class="sc-label" style="padding-bottom:.75rem;border-bottom:1px solid var(--ink)">
+        <span>{{ rec.played }} league meeting{{ '' if rec.played == 1 else 's' }}</span>
+        <span style="float:right">{{ rec.a_goals }}–{{ rec.b_goals }} on aggregate</span>
+    </p>
+
+    <div class="h2h-split">
+        <span class="h2h-side">{{ a }}<b>{{ rec.a_wins }}</b></span>
+        <span class="sc-prob" role="img"
+              aria-label="{{ a }} won {{ rec.a_wins }}, {{ rec.draws }} draws, {{ b }} won {{ rec.b_wins }}">
+            <i class="is-pick" style="width:{{ rec.a_pct }}%"></i>
+            <i class="is-mid"  style="width:{{ rec.d_pct }}%"></i>
+            <i class="is-alt"  style="width:{{ rec.b_pct }}%"></i>
+        </span>
+        <span class="h2h-side h2h-right"><b>{{ rec.b_wins }}</b>{{ b }}</span>
+    </div>
+    <p class="bm-gap-note">
+        {{ rec.a_wins }} wins · {{ rec.draws }} draw{{ '' if rec.draws == 1 else 's' }} ·
+        {{ rec.b_wins }} wins. Of those, {{ a }} won {{ rec.a_home_wins }} at home and
+        {{ b }} won {{ rec.b_home_wins }} at home — home advantage is usually most of
+        what a head-to-head record measures.
+    </p>
+</div>
+
+{% if fixture %}
+<div class="bm-section">
+    <p class="sc-section-label" style="padding-top:0">
+        <span>The model's line for their next meeting</span>
+        <span>{{ fixture['Date'] }}</span>
+    </p>
+    <div class="h2h-fx">
+        <span><b>{{ fixture['Home Team'] }}</b> v {{ fixture['Away Team'] }}</span>
+        <span class="is-num">Home {{ fixture['Home Win %'] }}%</span>
+        {% if fixture.get('Draw %') %}<span class="is-num">Draw {{ fixture['Draw %'] }}%</span>{% endif %}
+        <span class="is-num">Away {{ fixture['Away Win %'] }}%</span>
+    </div>
+</div>
+{% endif %}
+
+<div class="sc-table-wrap">
+    <table>
+        <thead><tr><th>Date</th><th>Season</th><th>Home</th><th>Score</th><th>Away</th><th>Winner</th></tr></thead>
+        <tbody>
+        {% for m in rec.meetings %}
+            <tr>
+                <td class="is-num">{{ m.date }}</td>
+                <td class="is-num bm-dim">{{ m.season }}</td>
+                <td class="is-name">{{ m.home }}</td>
+                <td class="is-num">{{ m.hg }}–{{ m.ag }}</td>
+                <td class="is-name">{{ m.away }}</td>
+                <td class="is-num {% if m.res != 'D' %}is-lead{% endif %}">
+                    {% if m.res == 'D' %}Draw{% elif m.res == 'A' %}{{ a }}{% else %}{{ b }}{% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="sc-note">
+    Cup and continental games are excluded, so this is the league record rather than
+    every meeting ever played. The model does not use head-to-head history directly —
+    it rates each side against the whole division, which is usually a better guide than
+    a handful of past meetings between two teams whose squads have since changed.
+</div>
+
+{% elif a and b %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No league meetings</div>
+    <div class="sc-empty-msg">
+        {{ a }} and {{ b }} have not met in {{ title }} within the seasons on file.
+    </div>
+</div>
+{% endif %}
+
+{% endif %}
+
+</body>
+</html>

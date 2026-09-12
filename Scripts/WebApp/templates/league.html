@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} — ScoreCast</title>
     <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
@@ -15,9 +18,12 @@
     <span class="sc-topbar-brand">ScoreCast</span>
     <div class="sc-topbar-right">
         <a href="/picks" class="sc-btn-dl">Best Picks</a>
+        <a href="/season" class="sc-btn-dl">Season</a>
+        <a href="/model-vs-market" class="sc-btn-dl">vs Market</a>
         <a href="/simulator" class="sc-btn-dl">Simulator</a>
         <a href="/rankings/{{ league_slug }}" class="sc-btn-dl">Rankings</a>
         <a href="/teams/{{ league_slug }}" class="sc-btn-dl">Team DNA</a>
+        <a href="/h2h/{{ league_slug }}" class="sc-btn-dl">H2H</a>
         {% if has_predictions %}
         <a href="/{{ league_slug }}-csv" class="sc-btn-dl">↓ CSV</a>
         {% endif %}
@@ -43,10 +49,42 @@
     <span class="sc-pill">Most Likely Score</span>
 </div>
 
-<!-- Table -->
+<!-- Scheduled fixtures: dates confirmed by the fixture feed -->
+{% if counts and counts.scheduled %}
+<p class="sc-section-label" style="margin:0 var(--gut)">
+    <span>Next fixtures</span>
+    <span>{{ counts.scheduled }} with confirmed dates</span>
+</p>
 <div class="sc-table-wrap">
     {{ table_html | safe }}
 </div>
+{% endif %}
+
+<!-- Rest of season: pairings that must happen, no calendar yet -->
+{% if rest_html %}
+<p class="sc-section-label" style="margin:0 var(--gut)">
+    <span>Rest of season</span>
+    <span>{{ counts.rest }} still to play{% if counts.rest_dated %} · {{ counts.rest_dated }} dated{% endif %}</span>
+</p>
+<div class="sc-notice">
+    {% if counts.rest_dated == counts.rest %}Kickoffs come from the published league
+    calendar; the results feed only lists the coming week, so these are the fixtures
+    beyond it.
+    {% elif counts.rest_dated %}Kickoffs come from the published league calendar, which
+    reaches only as far as the fixtures announced so far. The remaining
+    <b>{{ counts.rest - counts.rest_dated }}</b> are certain to be played — this league
+    plays every team home and away — but have no date yet, so they are shown without one
+    rather than left out.
+    {% else %}These pairings are certain — a league plays every team home and away —
+    but no calendar has been published, so there is no kickoff to show.{% endif %}
+    {%- if counts.unrated %}
+    <b>{{ counts.unrated }}</b> involve a promoted club with no record in this division
+    and are rated as an average side, which is a guess rather than a rating.{% endif %}
+</div>
+<div class="sc-table-wrap">
+    {{ rest_html | safe }}
+</div>
+{% endif %}
 
 <!-- Note -->
 <div class="sc-note">
@@ -69,40 +107,31 @@
 {% endif %}
 
 <script>
-// Colour-code percentage cells proportional to their value
+const NAMES = ['Home Team', 'Away Team', 'Most Likely Score', 'Top 3 Scores'];
+const LEAD  = ['Home Win %', 'Draw %', 'Away Win %'];
+// Class each cell from its column heading, then mark the leading outcome.
+// Column order differs between the football and basketball tables, so nothing
+// here may depend on a cell's position.
 document.addEventListener('DOMContentLoaded', function () {
     const table = document.querySelector('.sc-table-wrap table');
     if (!table) return;
 
-    // column name → [r,g,b] tint colour
-    const colTints = {
-        'Home Win %': [37, 99, 235],
-        'Draw %':     [100, 100, 100],
-        'Away Win %': [220, 38, 38],
-        'BTTS %':     [217, 119, 6],
-        'Over 1.5 %': [5, 150, 105],
-        'Over 2.5 %': [5, 150, 105],
-        'Over 3.5 %': [5, 150, 105],
-    };
-
-    const headers = Array.from(table.querySelectorAll('thead th'));
-    const colMap  = {};
-    headers.forEach((th, i) => {
-        const name = th.textContent.trim();
-        if (colTints[name]) colMap[i] = colTints[name];
-    });
+    const headers = Array.from(table.querySelectorAll('thead th'))
+                         .map(th => th.textContent.trim());
+    const lead = LEAD.map(c => headers.indexOf(c)).filter(i => i >= 0);
 
     table.querySelectorAll('tbody tr').forEach(row => {
         const cells = Array.from(row.querySelectorAll('td'));
-        Object.entries(colMap).forEach(([i, rgb]) => {
-            const cell = cells[+i];
-            if (!cell) return;
-            const val = parseFloat(cell.textContent);
-            if (isNaN(val)) return;
-            const opacity = Math.min((val / 100) * 0.18, 0.18);
-            cell.style.background = `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${opacity})`;
-            if (val >= 50) cell.style.fontWeight = '700';
+        cells.forEach((cell, i) => {
+            cell.classList.add(NAMES.includes(headers[i]) ? 'is-name' : 'is-num');
         });
+
+        let at = -1, best = -Infinity;
+        lead.forEach(i => {
+            const v = parseFloat((cells[i] || {}).textContent);
+            if (!isNaN(v) && v > best) { best = v; at = i; }
+        });
+        if (at >= 0) cells[at].classList.add('is-lead');
     });
 });
 </script>

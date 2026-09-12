@@ -12,3 +12,21 @@ env/
 
 # data (large files)
 Datasets/
+
+# Raw EuroLeague/EuroCup source CSVs — 877 MB, and two single files are over
+# GitHub's 100 MB hard limit, so committing these would have the push rejected.
+# They are inputs, not outputs: Scripts/Euroleague_scripts rebuilds everything
+# downstream from them.
+Euroloeague Dataset/
+
+# Legacy random-forest model artefact. Kept on disk deliberately, but it is a
+# 6.4 MB binary that Modelling.py regenerates, and every other fitted model
+# lives under the ignored Datasets/ tree.
+rf.pkl
+
+# run logs
+pipeline.log
+refresh.log
+
+# undetected-chromedriver scratch (created wherever FBref is scraped from)
+downloaded_files/

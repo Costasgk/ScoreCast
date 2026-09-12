@@ -1,11 +1,16 @@
 pandas>=2.0.3
 numpy>=1.25.1
+scipy>=1.11.0
 requests>=2.31.0
 beautifulsoup4>=4.12.2
 lxml>=4.9.3
 html5lib>=1.1
 scikit-learn>=1.3.0
-# pickle5>=0.0.12
+# scraping (FBref is behind Cloudflare — needs a real browser)
+undetected-chromedriver>=3.5.5
+selenium>=4.15.0
+tqdm>=4.66.0
+setuptools>=68.0.0   # undetected-chromedriver imports distutils (gone in py3.12)
 Flask>=2.3.2
 gunicorn>=21.2.0
 pyyaml>=6.0

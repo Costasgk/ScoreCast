@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model vs Market — ScoreCast</title>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav class="sc-topbar">
+    <a href="/" class="sc-back">← Home</a>
+    <span class="sc-topbar-brand">ScoreCast</span>
+    <div class="sc-topbar-right">
+        <a href="/accuracy" class="sc-btn-dl">Accuracy</a>
+        <a href="/picks" class="sc-btn-dl">Best picks</a>
+        <a href="/season" class="sc-btn-dl">Season</a>
+    </div>
+</nav>
+
+{% if not has_data %}
+<div class="sc-empty">
+    <div class="sc-empty-title">No benchmark yet</div>
+    <div class="sc-empty-msg">
+        Run <code>python Scripts/benchmark.py --all --save</code> to score the model
+        against closing odds.
+    </div>
+</div>
+{% else %}
+
+<div class="sc-page-header">
+    <h1 class="sc-page-title">Model vs Market</h1>
+    <p class="sc-page-meta">
+        {{ n_total }} matches · seasons {{ seasons }} · walk-forward · run {{ generated }}
+    </p>
+</div>
+
+<div class="bm-intro">
+    <p>
+        Prediction sites advertise an accuracy percentage. It is close to meaningless:
+        home teams win about 46% of football matches, so always picking home scores
+        respectably while knowing nothing. What decides whether a forecast is any good
+        is whether its probabilities are <b>calibrated</b> — when it says 70%, does it
+        happen 70% of the time — and whether it is <b>sharp</b> enough to be worth having.
+    </p>
+    <p>
+        So this page scores ScoreCast the hard way: against the bookmakers' closing
+        price, on the same matches, using log loss and the Brier score. Closing odds
+        are the strongest public forecast that exists — they absorb team news, injuries
+        and the weight of money right up to kick-off. Every prediction below was made
+        fitting only on matches that had already finished.
+    </p>
+    <p>
+        <b>ScoreCast does not beat the market, and neither does anything else you can
+        buy.</b> The gap is what matters, and it is published here rather than hidden.
+    </p>
+</div>
+
+<!-- Headline: the gap, per league, as measured length -->
+<div class="bm-gaps">
+    <p class="sc-label" style="padding-bottom:.75rem;border-bottom:1px solid var(--ink)">
+        <span>Distance behind the closing price</span>
+        <span style="float:right">log loss, lower is better</span>
+    </p>
+    {% for l in leagues %}
+    <div class="bm-gap-row">
+        <span class="bm-gap-name">{{ l.league }}</span>
+        <span class="bm-gap-track">
+            <i class="bm-gap-bar" style="width:{{ (l.gap_ll / 0.08 * 100) | round(1) }}%"></i>
+        </span>
+        <span class="bm-gap-val">+{{ '%.4f'|format(l.gap_ll) }}</span>
+    </div>
+    {% endfor %}
+    <p class="bm-gap-note">
+        Shortest bar is closest to the market. {{ best.league }} is the tightest
+        (+{{ '%.4f'|format(best.gap_ll) }}); {{ worst.league }} the widest
+        (+{{ '%.4f'|format(worst.gap_ll) }}). Mean +{{ '%.4f'|format(mean_gap) }}.
+    </p>
+</div>
+
+<!-- Full numbers -->
+<div class="sc-table-wrap">
+    <table>
+        <thead>
+            <tr>
+                <th>League</th><th>Matches</th>
+                <th>Log loss</th><th>Market</th><th>Uniform</th>
+                <th>Brier</th><th>Market</th>
+                <th>Accuracy</th><th>Market</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for l in leagues %}
+            <tr>
+                <td class="is-name">{{ l.league }}</td>
+                <td class="is-num">{{ l.model.n }}</td>
+                <td class="is-num is-lead">{{ '%.4f'|format(l.model.logloss) }}</td>
+                <td class="is-num">{{ '%.4f'|format(l.market.logloss) }}</td>
+                <td class="is-num bm-dim">{{ '%.4f'|format(l.uniform.logloss) }}</td>
+                <td class="is-num is-lead">{{ '%.4f'|format(l.model.brier) }}</td>
+                <td class="is-num">{{ '%.4f'|format(l.market.brier) }}</td>
+                <td class="is-num">{{ '%.1f'|format(l.model.accuracy * 100) }}%</td>
+                <td class="is-num">{{ '%.1f'|format(l.market.accuracy * 100) }}%</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<!-- Calibration: the claim a percentage makes, tested -->
+<div class="bm-section">
+    <p class="sc-section-label" style="padding-top:0">
+        <span>Calibration</span>
+        <span>predicted vs observed</span>
+    </p>
+    <p class="bm-note">
+        Each row is a band of forecasts. If the model is honest, the observed
+        frequency matches what it predicted — a 30% call should land 30% of the time.
+        All three outcomes are pooled, so one match contributes three points.
+    </p>
+
+    {% for l in leagues %}
+    {% if l.calibration_model %}
+    <div class="bm-cal">
+        <p class="bm-cal-title">{{ l.league }}</p>
+        <div class="bm-cal-rows">
+        {% for b in l.calibration_model %}
+            <div class="bm-cal-row">
+                <span class="bm-cal-band">{{ (b.lo * 100) | int }}–{{ (b.hi * 100) | int }}%</span>
+                <span class="bm-cal-track">
+                    <i class="bm-cal-pred" style="left:{{ (b.predicted * 100) | round(1) }}%"></i>
+                    <i class="bm-cal-obs"  style="left:{{ (b.observed  * 100) | round(1) }}%"></i>
+                </span>
+                <span class="bm-cal-nums">
+                    said {{ '%.0f'|format(b.predicted * 100) }} ·
+                    got {{ '%.0f'|format(b.observed * 100) }}
+                    <span class="bm-dim">n={{ b.n }}</span>
+                </span>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+    <p class="bm-note">
+        <span class="bm-key bm-key-pred"></span> predicted
+        <span class="bm-key bm-key-obs"></span> observed
+    </p>
+</div>
+
+<!-- Does disagreeing with the market pay? -->
+{% if value_bets %}
+<div class="bm-section">
+    <p class="sc-section-label" style="padding-top:0">
+        <span>Disagreement</span>
+        <span>{{ value_bets }} cases</span>
+    </p>
+    <p class="bm-note">
+        A model that merely copies the market is useless for finding anything. The test
+        that matters is whether its disagreements carry information. Below: one flat
+        unit staked every time ScoreCast rated an outcome at least 5 points above the
+        market, settled at the closing price actually offered.
+    </p>
+    <div class="bm-roi">
+        <span class="bm-roi-num {% if value_roi and value_roi > 0 %}bm-roi-pos{% endif %}">
+            {{ '%+.1f'|format(value_roi * 100) }}%
+        </span>
+        <span class="bm-roi-label">return on {{ value_bets }} flat stakes</span>
+    </div>
+    <p class="bm-note">
+        Read this cautiously. {{ value_bets }} bets is a small sample, closing odds are
+        not always reachable in practice, and a positive figure here is not a strategy.
+        It is published because a negative figure would be the honest answer too.
+    </p>
+</div>
+{% endif %}
+
+<div class="sc-note">
+    Method: Dixon-Coles fitted walk-forward, refitting every 10 matches on finished
+    results only. Bookmaker odds converted to probabilities by normalising the
+    reciprocals, which removes the margin proportionally. Log loss and Brier are
+    averaged per match; the Brier figure is divided by three so a uniform 1/3 forecast
+    scores 0.2222. Reproduce with <code>python Scripts/benchmark.py --all --save</code>.
+</div>
+
+{% endif %}
+
+</body>
+</html>

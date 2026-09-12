@@ -4,108 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScoreCast</title>
-    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body class="page-index">
 
 <header class="sc-nav">
-    <span class="sc-nav-tag">{{ today }}</span>
+    <a href="/" class="sc-nav-brand">ScoreCast</a>
     <div class="sc-nav-actions">
-        <a href="/picks" class="sc-btn-dl">Best Picks</a>
-        <a href="/accuracy" class="sc-btn-dl">Model Accuracy</a>
+        <span class="sc-nav-tag">{{ today }}</span>
+        <a href="/picks" class="sc-btn-dl">Best picks</a>
+        <a href="/season" class="sc-btn-dl">Season</a>
+        <a href="/players" class="sc-btn-dl">Players</a>
+        <a href="/model-vs-market" class="sc-btn-dl">Model vs market</a>
+        <a href="/accuracy" class="sc-btn-dl">Accuracy</a>
     </div>
 </header>
 
 <div class="sc-hero">
-    <h1 class="sc-title">ScoreCast</h1>
+    <h1 class="sc-title">Every fixture, as a <em>distribution</em>.</h1>
+    <p class="sc-sub">
+        Football scorelines from a Dixon-Coles model, basketball margins from opponent-adjusted
+        ratings. Both weight recent games more heavily. Nothing here is a certainty — the numbers
+        are what the model believes, and they always add up to one hundred.
+    </p>
+
+    {% if calls %}
+    {% set call = calls[0] %}
+    <!-- One real prediction, stated the way the model states it -->
+    <div class="sc-call">
+        <div class="sc-call-meta" style="margin-bottom:.35rem">
+            <span>Strongest call · {{ call.league }}</span>
+            <span>{{ call.date }}{% if call.time %} · {{ call.time }}{% endif %}</span>
+        </div>
+
+        <div class="sc-call-teams">
+            {{ call.home }}<br><span>v</span> {{ call.away }}
+        </div>
+        <div class="sc-call-pct">{{ '%.1f'|format(call.pct) }}<span style="font-size:.45em">%</span></div>
+
+        <div class="sc-prob" role="img"
+             aria-label="{{ call.home }} {{ '%.1f'|format(call.home_pct) }} percent{% if call.has_draw %}, draw {{ '%.1f'|format(call.draw_pct) }} percent{% endif %}, {{ call.away }} {{ '%.1f'|format(call.away_pct) }} percent">
+            <i class="{% if call.home_leads %}is-pick{% else %}is-alt{% endif %}" style="width:{{ call.home_pct }}%"></i>
+            {% if call.has_draw %}<i class="is-mid" style="width:{{ call.draw_pct }}%"></i>{% endif %}
+            <i class="{% if call.home_leads %}is-alt{% else %}is-pick{% endif %}" style="width:{{ call.away_pct }}%"></i>
+        </div>
+
+        <div class="sc-call-meta">
+            <span>Home {{ '%.1f'|format(call.home_pct) }}</span>
+            {% if call.has_draw %}<span>Draw {{ '%.1f'|format(call.draw_pct) }}</span>{% endif %}
+            <span>Away {{ '%.1f'|format(call.away_pct) }}</span>
+            <span>Model favours {{ call.pick }}</span>
+        </div>
+        <p class="sc-call-of">
+            The most confident of {{ call.n_today }} fixture{{ '' if call.n_today == 1 else 's' }}
+            {{ call.date | lower }}.
+        </p>
+    </div>
+
+    {% if calls | length > 1 %}
+    {% set nxt = calls[1] %}
+    <!-- The next matchday, kept quieter: it is context, not the headline -->
+    <div class="sc-next">
+        <div class="sc-next-head">
+            <span>{{ nxt.date }} · {{ nxt.league }}</span>
+            <span>{{ nxt.n_today }} fixture{{ '' if nxt.n_today == 1 else 's' }}</span>
+        </div>
+        <div class="sc-next-row">
+            <span class="sc-next-teams">{{ nxt.home }} <span>v</span> {{ nxt.away }}</span>
+            <span class="sc-prob sc-next-prob" role="img"
+                  aria-label="{{ nxt.home }} {{ '%.1f'|format(nxt.home_pct) }} percent{% if nxt.has_draw %}, draw {{ '%.1f'|format(nxt.draw_pct) }} percent{% endif %}, {{ nxt.away }} {{ '%.1f'|format(nxt.away_pct) }} percent">
+                <i class="{% if nxt.home_leads %}is-pick{% else %}is-alt{% endif %}" style="width:{{ nxt.home_pct }}%"></i>
+                {% if nxt.has_draw %}<i class="is-mid" style="width:{{ nxt.draw_pct }}%"></i>{% endif %}
+                <i class="{% if nxt.home_leads %}is-alt{% else %}is-pick{% endif %}" style="width:{{ nxt.away_pct }}%"></i>
+            </span>
+            <span class="sc-next-pct">{{ '%.1f'|format(nxt.pct) }}%</span>
+        </div>
+    </div>
+    {% endif %}
+    {% endif %}
 </div>
 
 <main class="sc-main">
 
-    <!-- <p class="sc-section-label">Top Leagues</p> -->
-    <p class="sc-section-label">Leagues</p>
-    <div class="sc-grid">
-        <a href="/Premier-League-England" class="sc-card">
-            <span class="sc-country">England</span>
-            <span class="sc-league-name">Premier League</span>
-            <span class="sc-badge {% if status['Premier-League-England'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Premier-League-England'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Serie-A-Italy" class="sc-card">
-            <span class="sc-country">Italy</span>
-            <span class="sc-league-name">Serie A</span>
-            <span class="sc-badge {% if status['Serie-A-Italy'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Serie-A-Italy'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/La-Liga-Spain" class="sc-card">
-            <span class="sc-country">Spain</span>
-            <span class="sc-league-name">La Liga</span>
-            <span class="sc-badge {% if status['La-Liga-Spain'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['La-Liga-Spain'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Ligue-1-France" class="sc-card">
-            <span class="sc-country">France</span>
-            <span class="sc-league-name">Ligue 1</span>
-            <span class="sc-badge {% if status['Ligue-1-France'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Ligue-1-France'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Bundesliga-Germany" class="sc-card">
-            <span class="sc-country">Germany</span>
-            <span class="sc-league-name">Bundesliga</span>
-            <span class="sc-badge {% if status['Bundesliga-Germany'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Bundesliga-Germany'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
+    <p class="sc-section-label">
+        <span>Football</span>
+        <span>{{ n_football_active }} of {{ n_football }} active</span>
+    </p>
+    <div class="sc-cols">
+        {% for region, leagues in football %}
+        <div class="sc-col">
+            <p class="sc-col-head">{{ region }}</p>
+            {% for l in leagues %}
+            <a href="/{{ l.slug }}" class="sc-row">
+                <span class="sc-row-name">{{ l.title }}</span>
+                <span class="sc-row-n {% if l.active %}is-on{% endif %}">
+                    {%- if l.active %}{{ l.count }}{% else %}—{% endif -%}
+                </span>
+            </a>
+            {% endfor %}
+        </div>
+        {% endfor %}
     </div>
 
-    <!-- <p class="sc-section-label">Other Leagues</p> -->
-    <div class="sc-grid">
-        <a href="/Serie-A-Brazil" class="sc-card">
-            <span class="sc-country">Brazil</span>
-            <span class="sc-league-name">Serie A</span>
-            <span class="sc-badge {% if status['Serie-A-Brazil'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Serie-A-Brazil'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Serie-B-Brazil" class="sc-card">
-            <span class="sc-country">Brazil</span>
-            <span class="sc-league-name">Serie B</span>
-            <span class="sc-badge {% if status['Serie-B-Brazil'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Serie-B-Brazil'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Super-League-Greece" class="sc-card">
-            <span class="sc-country">Greece</span>
-            <span class="sc-league-name">Super League</span>
-            <span class="sc-badge {% if status['Super-League-Greece'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Super-League-Greece'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Eliteserien-Norway" class="sc-card">
-            <span class="sc-country">Norway</span>
-            <span class="sc-league-name">Eliteserien</span>
-            <span class="sc-badge {% if status['Eliteserien-Norway'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Eliteserien-Norway'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
-        <a href="/Veikkausliiga-Finland" class="sc-card">
-            <span class="sc-country">Finland</span>
-            <span class="sc-league-name">Veikkausliiga</span>
-            <span class="sc-badge {% if status['Veikkausliiga-Finland'] %}sc-badge-active{% else %}sc-badge-ended{% endif %}">
-                {% if status['Veikkausliiga-Finland'] %}Active{% else %}Season Ended{% endif %}
-            </span>
-        </a>
+    <p class="sc-section-label">
+        <span>Basketball</span>
+        <span>{{ n_basketball_active }} of {{ n_basketball }} active</span>
+    </p>
+    <div class="sc-cols">
+        {% for region, leagues in basketball %}
+        <div class="sc-col">
+            <p class="sc-col-head">{{ region }}</p>
+            {% for l in leagues %}
+            <a href="/{{ l.slug }}" class="sc-row">
+                <span class="sc-row-name">{{ l.title }}</span>
+                <span class="sc-row-n {% if l.active %}is-on{% endif %}">
+                    {%- if l.active %}{{ l.count }}{% else %}—{% endif -%}
+                </span>
+            </a>
+            {% endfor %}
+        </div>
+        {% endfor %}
     </div>
 
 </main>
 
 <footer class="sc-footer">
-    Predictions are for informational purposes only. We do not guarantee accuracy. Please gamble responsibly.
+    Model estimates, not guarantees. Predictions are published for information only.
+    If you bet, bet what you can lose.
 </footer>
 
 </body>
